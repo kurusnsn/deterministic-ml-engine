@@ -1,0 +1,597 @@
+{
+  "id": "caro-kann",
+  "name": "Caro-Kann Defense",
+  "opening": "Caro-Kann Defense",
+  "generatedAt": "2025-12-10T18:37:59.950Z",
+  "lines": [
+    {
+      "id": "caro-kann-eco-0-1tmn6",
+      "name": "Caro-Kann Defense",
+      "moves": [
+        "e4",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-1-shrlt0",
+      "name": "Caro-Kann: anti-anti-Caro-Kann defence",
+      "moves": [
+        "e4",
+        "c6",
+        "c4",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-2-uxyhrg",
+      "name": "Caro-Masi defence",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-3-shs8sj",
+      "name": "Caro-Kann defence",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-4-igedeh",
+      "name": "English: Caro-Kann defensive system",
+      "moves": [
+        "c4",
+        "c6",
+        "Nf3",
+        "d5",
+        "b3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-5-gyhexd",
+      "name": "Caro-Kann: Hillbilly attack",
+      "moves": [
+        "e4",
+        "c6",
+        "Bc4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-6-md6j59",
+      "name": "Caro-Kann: anti-Caro-Kann defence",
+      "moves": [
+        "e4",
+        "c6",
+        "c4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-7-md6j4f",
+      "name": "Caro-Kann: closed (Breyer) variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-8-gyhnto",
+      "name": "Caro-Kann defence",
+      "moves": [
+        "e4",
+        "c6",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-9-z53dch",
+      "name": "Caro-Kann: Goldman (Spielmann) variation",
+      "moves": [
+        "e4",
+        "c6",
+        "Nc3",
+        "d5",
+        "Qf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-10-z53b4e",
+      "name": "Caro-Kann: two knights variation",
+      "moves": [
+        "e4",
+        "c6",
+        "Nc3",
+        "d5",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-11-md6j4e",
+      "name": "Caro-Kann defence",
+      "moves": [
+        "e4",
+        "c6",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-12-z6iegg",
+      "name": "Caro-Kann: Tartakower (fantasy) variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "f3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-13-p56347",
+      "name": "Caro-Kann: 3.Nd2",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nd2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-14-z6ieh9",
+      "name": "Caro-Kann: advance variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "e5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-15-1wf1vr",
+      "name": "Caro-Kann: exchange variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-16-p56351",
+      "name": "Caro-Kann defence",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-17-1sco4",
+      "name": "English: Caro-Kann defensive system",
+      "moves": [
+        "c4",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-18-tlp9py",
+      "name": "English: Caro-Kann defensive system, Bogolyubov variation",
+      "moves": [
+        "c4",
+        "c6",
+        "Nf3",
+        "d5",
+        "b3",
+        "Bg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-kann-eco-19-ptulpb",
+      "name": "Caro-Kann: two knights, 3...Bg4",
+      "moves": [
+        "e4",
+        "c6",
+        "Nc3",
+        "d5",
+        "Nf3",
+        "Bg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

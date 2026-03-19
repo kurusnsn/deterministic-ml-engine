@@ -1,0 +1,957 @@
+{
+  "opening": "semi-benoni (`blockade variation')",
+  "openingId": "semi-benoni-blockade-variation",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "semi-benoni-blockade-variation-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "c5",
+        "d5",
+        "e5",
+        "e4",
+        "d6"
+      ],
+      "eco": "A44"
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-f3-fxe4-fxe4-qh4--apwobt",
+      "name": "Qxh1 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "f3",
+        "fxe4",
+        "fxe4",
+        "Qh4+",
+        "g3",
+        "Qxe4+",
+        "Qe2",
+        "Qxh1"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          133780,
+          348722,
+          37598,
+          10562,
+          9484,
+          4943,
+          1904,
+          1873,
+          1009,
+          995
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          56.798233948614296,
+          61.04904374171558,
+          62.14150147617039,
+          72.28403803358285,
+          86.23949579831933,
+          86.38547784303256,
+          81.91278493557978,
+          81.95979899497488
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-qh5--g6-qf3-1yswm6",
+      "name": "Qf3 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Qh5+",
+        "g6",
+        "Qf3"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          133780,
+          348722,
+          3052,
+          3040,
+          1136
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          58.46985583224116,
+          58.4703947368421,
+          59.595070422535215
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nd2-nf6-41scuj",
+      "name": "Nf6 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Nd2",
+        "Nf6"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          133780,
+          348722,
+          565,
+          683
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          56.19469026548673,
+          55.56368960468521
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-f4-x6qvgc",
+      "name": "Nf3 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "f4",
+        "g3",
+        "fxg3",
+        "fxg3",
+        "Be7",
+        "Nf3"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          91983,
+          34109,
+          16746,
+          1607,
+          1074,
+          760
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          50.980072404683476,
+          45.8911137822862,
+          47.02018392451929,
+          59.458618543870564,
+          61.63873370577282,
+          55.19736842105263
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-f4-mapsve",
+      "name": "h6 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "f4",
+        "Nf3",
+        "Be7",
+        "O-O",
+        "O-O",
+        "h3",
+        "h6"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          91983,
+          26802,
+          15436,
+          6085,
+          4770,
+          896,
+          767
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          50.980072404683476,
+          54.380270129094846,
+          55.61350090697073,
+          56.54067378800329,
+          57.306079664570234,
+          60.04464285714286,
+          61.082138200782275
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-f4-km61wu",
+      "name": "O-O Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "f4",
+        "Nf3",
+        "a6",
+        "O-O"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          91983,
+          26802,
+          951,
+          541
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          50.980072404683476,
+          54.380270129094846,
+          56.256572029442694,
+          56.37707948243993
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-f4-jvtlux",
+      "name": "Qe2 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "f4",
+        "Nf3",
+        "Be7",
+        "Bd2",
+        "O-O",
+        "Qe2"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          91983,
+          26802,
+          15436,
+          4019,
+          3285,
+          596
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          50.980072404683476,
+          54.380270129094846,
+          55.61350090697073,
+          56.17068922617566,
+          57.30593607305936,
+          55.536912751677846
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-f4-htnqg6",
+      "name": "After O-O O-O h6",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "f4",
+        "Nf3",
+        "Be7",
+        "h3",
+        "O-O",
+        "O-O",
+        "h6"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          91983,
+          26802,
+          15436,
+          3676,
+          5840,
+          1962,
+          767
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          50.980072404683476,
+          54.380270129094846,
+          55.61350090697073,
+          55.29107725788901,
+          56.01883561643836,
+          57.39041794087666,
+          61.082138200782275
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-f4-2pc0ob",
+      "name": "Bh5 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "f4",
+        "Nf3",
+        "Be7",
+        "O-O",
+        "Bg4",
+        "h3",
+        "Bh5"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          91983,
+          26802,
+          15436,
+          6085,
+          796,
+          1037,
+          896
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          50.980072404683476,
+          54.380270129094846,
+          55.61350090697073,
+          56.54067378800329,
+          55.527638190954775,
+          56.31629701060752,
+          56.19419642857143
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-f4-pk5e1d",
+      "name": "Qxf3 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "f4",
+        "Nf3",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Qxf3"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          91983,
+          26802,
+          8755,
+          4838,
+          605,
+          558
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          50.980072404683476,
+          54.380270129094846,
+          53.11250713877784,
+          53.27614716825134,
+          56.115702479338836,
+          56.81003584229391
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-f4-jr34l",
+      "name": "After Be7 h3 Bh5",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "f4",
+        "Nf3",
+        "Bg4",
+        "O-O",
+        "Be7",
+        "h3",
+        "Bh5"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          91983,
+          26802,
+          8755,
+          1745,
+          1070,
+          1037,
+          896
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          50.980072404683476,
+          54.380270129094846,
+          53.11250713877784,
+          54.46991404011461,
+          56.16822429906543,
+          56.31629701060752,
+          56.19419642857143
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-fxe4-6t6b1q",
+      "name": "After Qxe7 Bxe4 O-O",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "fxe4",
+        "Nxe4",
+        "Be7",
+        "Bg5",
+        "Nxe4",
+        "Bxe7",
+        "Qxe7",
+        "Bxe4",
+        "O-O"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          57498,
+          54639,
+          51720,
+          1820,
+          1928,
+          1899,
+          1499,
+          1501,
+          1490
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          47.987756095864206,
+          47.61800179359066,
+          46.877416860015465,
+          56.840659340659336,
+          58.24688796680497,
+          58.08320168509742,
+          58.37224816544363,
+          58.294470353097935,
+          58.25503355704698
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-fxe4-tmnx02",
+      "name": "After Nf3 O-O O-O",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "fxe4",
+        "Bxe4",
+        "Be7",
+        "Nf3",
+        "O-O",
+        "O-O"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          57498,
+          2851,
+          5782,
+          2028,
+          1612,
+          1125
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          47.987756095864206,
+          54.26166257453525,
+          54.24593566240055,
+          57.0759368836292,
+          55.58312655086849,
+          55.06666666666666
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-bd3-fxe4-hmpgnx",
+      "name": "After Be7 Bg5 O-O",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "fxe4",
+        "Bxe4",
+        "Be7",
+        "Bg5",
+        "O-O"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          168674,
+          57498,
+          2851,
+          5782,
+          539,
+          513
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          49.520673014216776,
+          47.987756095864206,
+          54.26166257453525,
+          54.24593566240055,
+          58.25602968460111,
+          55.55555555555556
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-nf6-exf5-bxf5-igkh0v",
+      "name": "Be7 Line",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "exf5",
+        "Bxf5",
+        "Bd3",
+        "e4",
+        "Be2",
+        "Be7"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          460524,
+          132227,
+          133516,
+          62794,
+          16776,
+          3273,
+          2205
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.91189167122669,
+          43.85564219108049,
+          43.83070193834446,
+          42.18317036659553,
+          45.63364329995231,
+          55.20928811487932,
+          56.14512471655328
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-f4-nf3-nf6-uls8tq",
+      "name": "Variation 3",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "f4",
+        "Nf3",
+        "Nf6",
+        "h3",
+        "Be7",
+        "Bd3",
+        "O-O",
+        "O-O",
+        "h6"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          93907,
+          17238,
+          8948,
+          1739,
+          1416,
+          726,
+          5840,
+          1962,
+          767
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.02410895886355,
+          52.0855087597169,
+          53.33035315154224,
+          55.89419206440483,
+          56.56779661016949,
+          57.851239669421496,
+          56.01883561643836,
+          57.39041794087666,
+          61.082138200782275
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-f4-nf3-nf6-q926no",
+      "name": "Variation 4",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "f4",
+        "Nf3",
+        "Nf6",
+        "Bd3",
+        "Be7",
+        "O-O",
+        "O-O",
+        "h3",
+        "h6"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          93907,
+          17238,
+          8948,
+          3091,
+          15436,
+          6085,
+          4770,
+          896,
+          767
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.02410895886355,
+          52.0855087597169,
+          53.33035315154224,
+          53.704302814623105,
+          55.61350090697073,
+          56.54067378800329,
+          57.306079664570234,
+          60.04464285714286,
+          61.082138200782275
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-f4-nf3-nf6-2b6h5o",
+      "name": "After Bd3 a6 O-O",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "f4",
+        "Nf3",
+        "Nf6",
+        "Bd3",
+        "a6",
+        "O-O"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          93907,
+          17238,
+          8948,
+          3091,
+          951,
+          541
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.02410895886355,
+          52.0855087597169,
+          53.33035315154224,
+          53.704302814623105,
+          56.256572029442694,
+          56.37707948243993
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "semi-benoni-blockade-variation-c4-f5-nc3-f4-nf3-nf6-cf4swx",
+      "name": "Variation 6",
+      "moves": [
+        "c4",
+        "f5",
+        "Nc3",
+        "f4",
+        "Nf3",
+        "Nf6",
+        "Bd3",
+        "Be7",
+        "Bd2",
+        "O-O",
+        "Qe2"
+      ],
+      "eco": "A44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          133780,
+          348722,
+          158845,
+          93907,
+          17238,
+          8948,
+          3091,
+          15436,
+          4019,
+          3285,
+          596
+        ],
+        "winrates": [
+          52.06981611601136,
+          50.64492633100293,
+          51.50964776983853,
+          48.02410895886355,
+          52.0855087597169,
+          53.33035315154224,
+          53.704302814623105,
+          55.61350090697073,
+          56.17068922617566,
+          57.30593607305936,
+          55.536912751677846
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:59:09.775Z"
+}

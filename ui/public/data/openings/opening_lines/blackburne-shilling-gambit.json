@@ -1,0 +1,29 @@
+{
+  "opening": "blackburne shilling gambit",
+  "openingId": "blackburne-shilling-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "blackburne-shilling-gambit-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Nd4",
+        "Nxe5",
+        "Qg5",
+        "Nxf7",
+        "Qxg2",
+        "Rf1",
+        "Qxe4+",
+        "Be2",
+        "Nf3#"
+      ],
+      "eco": "C50"
+    }
+  ],
+  "generatedAt": "1.0"
+}

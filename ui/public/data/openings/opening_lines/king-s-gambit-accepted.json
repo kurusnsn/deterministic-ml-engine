@@ -1,0 +1,19 @@
+{
+  "opening": "King's gambit accepted",
+  "openingId": "king-s-gambit-accepted",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "king-s-gambit-accepted-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4"
+      ],
+      "eco": "C33"
+    }
+  ],
+  "generatedAt": "1.0"
+}

@@ -1,0 +1,1097 @@
+{
+  "opening": "st. george (baker)",
+  "openingId": "st-george-baker",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "st-george-baker-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "a6"
+      ],
+      "eco": "B00"
+    },
+    {
+      "id": "st-george-baker-d4-h6-f4-nc6-nf3-e6-oobo4w",
+      "name": "Bd3 Line",
+      "moves": [
+        "d4",
+        "h6",
+        "f4",
+        "Nc6",
+        "Nf3",
+        "e6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2534849,
+          212564,
+          40892,
+          682,
+          597,
+          651,
+          1195
+        ],
+        "winrates": [
+          52.06284476905725,
+          55.71710167290792,
+          56.67245426978382,
+          61.36363636363637,
+          61.13902847571189,
+          57.52688172043011,
+          62.42677824267783
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b6-f4-d6-nf3-bb7-uu1r3e",
+      "name": "O-O Line",
+      "moves": [
+        "d4",
+        "b6",
+        "f4",
+        "d6",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "Qe2",
+        "Nd7",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2534849,
+          168256,
+          14094,
+          541,
+          1015,
+          748,
+          678,
+          1377,
+          559,
+          915,
+          866
+        ],
+        "winrates": [
+          52.06284476905725,
+          55.46340100798782,
+          56.580814531006105,
+          60.998151571164506,
+          61.67487684729064,
+          61.49732620320856,
+          61.94690265486725,
+          60.38489469862019,
+          61.27012522361359,
+          59.07103825136611,
+          62.413394919168596
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-d5-exd5-qxd5-c4-qe6--6p5z52",
+      "name": "Qe6 Line",
+      "moves": [
+        "d4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "c4",
+        "Qe6+"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2534849,
+          64249,
+          21844,
+          19717,
+          12029,
+          671
+        ],
+        "winrates": [
+          52.06284476905725,
+          55.90281560802502,
+          60.73979124702436,
+          60.98797991580869,
+          60.6451076564968,
+          68.62891207153503
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-nc6-f4-d6-d5-8o2m5m",
+      "name": "d5 Line",
+      "moves": [
+        "d4",
+        "Nc6",
+        "f4",
+        "d6",
+        "d5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2534849,
+          20661,
+          2883,
+          1089,
+          713
+        ],
+        "winrates": [
+          52.06284476905725,
+          58.31518319539229,
+          60.63128685397155,
+          62.58034894398531,
+          60.16830294530154
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-a5-bc4-a4-pti4on",
+      "name": "a4 Line",
+      "moves": [
+        "d4",
+        "a5",
+        "Bc4",
+        "a4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2534849,
+          12410,
+          886,
+          597
+        ],
+        "winrates": [
+          52.06284476905725,
+          60.551974214343275,
+          70.09029345372461,
+          70.01675041876047
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-d6-a4-bb7-dnzm3t",
+      "name": "axb5 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "d6",
+        "a4",
+        "Bb7",
+        "axb5",
+        "axb5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          8258,
+          2307,
+          590,
+          812,
+          586
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          55.07992249939453,
+          63.675769397485915,
+          65.84745762711864,
+          64.16256157635468,
+          62.20136518771331
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-c6-a4-bb7-qbvgrz",
+      "name": "After a4 Bb7 axb5",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "c6",
+        "a4",
+        "Bb7",
+        "axb5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          7121,
+          1328,
+          1057,
+          1148
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          58.474933295885414,
+          58.54668674698795,
+          57.42667928098392,
+          55.749128919860624
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-nf6-e5-nd5-m28qn4",
+      "name": "After e5 Nd5 a4",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "a4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          3910,
+          1518,
+          1277,
+          621
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          57.77493606138108,
+          61.100131752305664,
+          60.610806577916996,
+          60.46698872785829
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-h6-a4-32wbcz",
+      "name": "After Nf3 h6 a4",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "h6",
+        "a4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          3904,
+          1076
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          59.09323770491803,
+          58.45724907063197
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-b4-bd3-llbsud",
+      "name": "After Nf3 b4 Bd3",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "b4",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          3053,
+          529
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          56.35440550278415,
+          59.07372400756144
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-d5-exd5-qxd5-iotr75",
+      "name": "After Bd3 Bb7 O-O",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Bd3",
+        "Bb7",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          2707,
+          712,
+          641,
+          1071,
+          550,
+          2403,
+          1840,
+          1119
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          58.69966752862948,
+          62.85112359550562,
+          63.41653666146646,
+          58.77684407096172,
+          56.45454545454546,
+          56.99126092384519,
+          55.57065217391305,
+          57.28328865058088
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-nc6-bd3-rzrv0q",
+      "name": "After Nf3 Nc6 Bd3",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Nc6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1745,
+          726
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          63.49570200573066,
+          63.42975206611571
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-h6-djlf6o",
+      "name": "Qe2 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "h6",
+        "Qe2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          16820,
+          614
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          57.36623067776456,
+          58.71335504885994
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-d5-4u79kb",
+      "name": "Bxd5 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "d5",
+        "exd5",
+        "Bxd5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          9419,
+          1101,
+          891
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          56.30109353434547,
+          58.4014532243415,
+          58.47362514029181
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-nc6-4vc5xm",
+      "name": "Nf6 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "Nc6",
+        "c3",
+        "e6",
+        "O-O",
+        "Nf6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          3528,
+          890,
+          556,
+          1043,
+          520
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          57.426303854875286,
+          65.78651685393258,
+          60.701438848920866,
+          59.20421860019175,
+          57.21153846153846
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-c6-hofakp",
+      "name": "Re1 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "c6",
+        "O-O",
+        "e6",
+        "Re1"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          2357,
+          3602,
+          1325,
+          983
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          61.3279592702588,
+          59.52248750694059,
+          61.32075471698113,
+          59.81688708036622
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-b4-5zleyv",
+      "name": "e6 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "b4",
+        "O-O",
+        "e6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          2320,
+          1171,
+          666
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          57.435344827586206,
+          59.991460290350126,
+          59.45945945945946
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-e6-pynqju",
+      "name": "After O-O h6 Qe2",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "h6",
+        "Qe2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          346113,
+          243333,
+          9344,
+          547
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          51.854885543160755,
+          52.5865788857245,
+          55.0513698630137,
+          61.79159049360147
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-e6-ajx4fp",
+      "name": "After d5 exd5 Bxd5",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "d5",
+        "exd5",
+        "Bxd5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          346113,
+          243333,
+          6118,
+          1605,
+          1232
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          51.854885543160755,
+          52.5865788857245,
+          57.17554756456358,
+          59.034267912772584,
+          58.92857142857143
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-e6-k7dwc",
+      "name": "After Nc6 c3 Nf6",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "Nc6",
+        "c3",
+        "Nf6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          346113,
+          243333,
+          1952,
+          822,
+          520
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          51.854885543160755,
+          52.5865788857245,
+          55.097336065573764,
+          56.6301703163017,
+          57.21153846153846
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-e6-aon18p",
+      "name": "Ba5 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "Bb4",
+        "c3",
+        "Ba5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          346113,
+          243333,
+          1532,
+          1141,
+          1059
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          51.854885543160755,
+          52.5865788857245,
+          56.690600522193215,
+          57.18667835232253,
+          57.03493862134089
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-e6-sbvts5",
+      "name": "After O-O c6 Re1",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "c6",
+        "Re1"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          346113,
+          243333,
+          965,
+          983
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          51.854885543160755,
+          52.5865788857245,
+          60.10362694300518,
+          59.81688708036622
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-e6-w4mnzn",
+      "name": "After Bc2 Nc6 Re1",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "c5",
+        "c3",
+        "c4",
+        "Bc2",
+        "Nc6",
+        "Re1"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          346113,
+          243333,
+          108456,
+          60695,
+          22290,
+          21973,
+          871,
+          547
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          51.854885543160755,
+          52.5865788857245,
+          52.67573947038431,
+          54.38833511821402,
+          57.2790489008524,
+          57.43184817730852,
+          61.595866819747414,
+          62.705667276051194
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-e6-4bg3bt",
+      "name": "Nd7 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "c5",
+        "c3",
+        "d5",
+        "e5",
+        "cxd4",
+        "cxd4",
+        "Nd7"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          346113,
+          243333,
+          108456,
+          60695,
+          2189,
+          1254,
+          960,
+          931,
+          1097
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          51.854885543160755,
+          52.5865788857245,
+          52.67573947038431,
+          54.38833511821402,
+          57.01233439926907,
+          59.88835725677831,
+          61.302083333333336,
+          61.33190118152524,
+          60.30082041932543
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "st-george-baker-d4-b5-nf3-bb7-bd3-e6-qirx9z",
+      "name": "After h6 Re1 Nf6",
+      "moves": [
+        "d4",
+        "b5",
+        "Nf3",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "c5",
+        "c3",
+        "h6",
+        "Re1",
+        "Nf6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2534849,
+          1709482,
+          504169,
+          1150165,
+          644947,
+          346113,
+          243333,
+          108456,
+          60695,
+          1638,
+          1219,
+          558
+        ],
+        "winrates": [
+          52.06284476905725,
+          50.498396590312154,
+          51.202275427485624,
+          50.38611851343068,
+          51.670990019334916,
+          51.854885543160755,
+          52.5865788857245,
+          52.67573947038431,
+          54.38833511821402,
+          57.44810744810744,
+          58.03937653814602,
+          58.96057347670251
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:18:10.531Z"
+}

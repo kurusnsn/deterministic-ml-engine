@@ -1,0 +1,407 @@
+# GitLab CI/CD Pipeline
+# Migrated from GitHub Actions - uses self-hosted runners for free unlimited CI
+
+stages:
+  - test
+  - security
+  - build
+  - deploy
+
+variables:
+  REGISTRY: $CI_REGISTRY
+  IMAGE_PREFIX: $CI_PROJECT_PATH
+  DOCKER_TLS_CERTDIR: ""
+
+# ==============================================================================
+# DEFAULT SETTINGS - All jobs use self-hosted runner by default
+# ==============================================================================
+# Note: Runner accepts untagged jobs (runUntagged: true in Helm values)
+# If you want to restrict to specific runners, configure tags in GitLab UI
+
+# ==============================================================================
+# STAGE: TEST
+# ==============================================================================
+gateway-tests:
+  stage: test
+  image: python:3.11
+  variables:
+    OTEL_SDK_DISABLED: "true"
+    OTEL_EXPORTER_OTLP_ENDPOINT: ""
+  script:
+    - cd gateway-service
+    - pip install -r requirements.txt
+    - PYTHONPATH=. pytest
+  rules:
+    - changes:
+        - gateway-service/**
+  allow_failure: true
+
+import-tests:
+  stage: test
+  image: python:3.11
+  variables:
+    OTEL_SDK_DISABLED: "true"
+  script:
+    - cd import-service
+    - pip install -r requirements.txt
+    - PYTHONPATH=. pytest
+  rules:
+    - changes:
+        - import-service/**
+
+frontend-lint:
+  stage: test
+  image: node:20
+  variables:
+    NEXT_PUBLIC_GATEWAY_URL: http://localhost:8010
+    NEXT_PUBLIC_SUPABASE_URL: http://localhost:54321
+    NEXT_PUBLIC_SUPABASE_ANON_KEY: ci-test-anon-key
+  script:
+    - cd ui
+    - npm ci
+    - npm run lint
+  rules:
+    - changes:
+        - ui/**
+  allow_failure: true
+
+frontend-e2e:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.40.0-jammy
+  variables:
+    NEXT_PUBLIC_GATEWAY_URL: http://localhost:8010
+    NEXT_PUBLIC_SUPABASE_URL: http://localhost:54321
+    NEXT_PUBLIC_SUPABASE_ANON_KEY: ci-test-anon-key
+    CI: "true"
+  script:
+    - cd ui
+    - npm ci
+    - npx playwright install --with-deps
+    - npx playwright test
+  rules:
+    - changes:
+        - ui/**
+  allow_failure: true
+
+# ==============================================================================
+# STAGE: SECURITY
+# ==============================================================================
+validate-manifests:
+  stage: security
+  image: alpine:3.19
+  script:
+    - apk add --no-cache curl bash
+    - curl -L https://github.com/yannh/kubeconform/releases/download/v0.6.4/kubeconform-linux-amd64.tar.gz | tar xz
+    - mv kubeconform /usr/local/bin/
+    - curl -s "https://raw.githubusercontent.com/kubernetes-sigs/kustomize/master/hack/install_kustomize.sh" | bash
+    - mv kustomize /usr/local/bin/
+    - find k8s/base -name '*.yaml' -type f | xargs kubeconform -strict -summary -ignore-missing-schemas -kubernetes-version 1.28.0
+    - kustomize build k8s/overlays/dev > /tmp/dev-rendered.yaml
+    - kubeconform -strict -summary -ignore-missing-schemas -kubernetes-version 1.28.0 /tmp/dev-rendered.yaml
+  rules:
+    - changes:
+        - k8s/**
+
+trivy-scan:
+  stage: security
+  image:
+    name: aquasec/trivy:latest
+    entrypoint: [""]
+  script:
+    - trivy config k8s/ --severity HIGH,CRITICAL --exit-code 0 -q --format table
+    - trivy fs . --scanners vuln --severity HIGH,CRITICAL --exit-code 0 -q --format table --skip-dirs node_modules,ui/node_modules
+    - trivy fs . --scanners secret --exit-code 1 -q --format table --skip-dirs node_modules,ui/node_modules --ignorefile .trivyignore
+  allow_failure: true
+
+openapi-snapshots:
+  stage: security
+  image: python:3.11
+  script:
+    - pip install fastapi httpx python-chess uvicorn python-dotenv asyncpg psycopg2-binary "PyJWT[crypto]" stripe "sentry-sdk[fastapi]" slowapi redis opentelemetry-sdk opentelemetry-exporter-otlp-proto-grpc opentelemetry-instrumentation-fastapi opentelemetry-instrumentation-httpx opentelemetry-instrumentation-requests opentelemetry-instrumentation-asyncpg opentelemetry-instrumentation-redis opentelemetry-instrumentation-system-metrics
+    - python scripts/openapi_snapshot.py --check
+  rules:
+    - changes:
+        - gateway-service/**
+        - contracts/**
+  allow_failure: true
+
+golden-responses:
+  stage: security
+  image: python:3.11
+  script:
+    - cd gateway-service
+    - pip install -r requirements.txt
+    - PYTHONPATH=. pytest tests/test_golden_responses.py
+  rules:
+    - changes:
+        - gateway-service/**
+  allow_failure: true
+
+# ==============================================================================
+# STAGE: BUILD (Docker images)
+# ==============================================================================
+.build-template: &build-template
+  stage: build
+  image: docker:24
+  services:
+    - docker:24-dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375
+    DOCKER_BUILDKIT: "1"
+  retry:
+    max: 2
+    when:
+      - runner_system_failure
+      - script_failure
+  before_script:
+    # Wait for Docker daemon to be ready (dind sidecar race condition fix)
+    # Kubernetes can be slow - wait up to 2 minutes
+    - |
+      echo "Waiting for Docker daemon..."
+      for i in $(seq 1 60); do
+        if docker info >/dev/null 2>&1; then
+          echo "Docker is ready!"
+          break
+        fi
+        echo "Attempt $i/60 - Docker not ready, waiting..."
+        sleep 2
+      done
+      docker info >/dev/null 2>&1 || (echo "Docker daemon failed to start" && exit 1)
+    - echo "$CI_JOB_TOKEN" | docker login $CI_REGISTRY -u gitlab-ci-token --password-stdin
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+build-gateway:
+  <<: *build-template
+  script:
+    - docker pull $REGISTRY/$IMAGE_PREFIX/gateway:latest || true
+    - docker build --build-arg BUILDKIT_INLINE_CACHE=1 --cache-from $REGISTRY/$IMAGE_PREFIX/gateway:latest -t $REGISTRY/$IMAGE_PREFIX/gateway:$CI_COMMIT_SHA -t $REGISTRY/$IMAGE_PREFIX/gateway:latest ./gateway-service
+    - docker push $REGISTRY/$IMAGE_PREFIX/gateway:$CI_COMMIT_SHA
+    - docker push $REGISTRY/$IMAGE_PREFIX/gateway:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - gateway-service/**
+
+build-puzzle:
+  <<: *build-template
+  script:
+    - docker pull $REGISTRY/$IMAGE_PREFIX/puzzle:latest || true
+    - docker build --build-arg BUILDKIT_INLINE_CACHE=1 --cache-from $REGISTRY/$IMAGE_PREFIX/puzzle:latest -t $REGISTRY/$IMAGE_PREFIX/puzzle:$CI_COMMIT_SHA -t $REGISTRY/$IMAGE_PREFIX/puzzle:latest ./puzzle-service
+    - docker push $REGISTRY/$IMAGE_PREFIX/puzzle:$CI_COMMIT_SHA
+    - docker push $REGISTRY/$IMAGE_PREFIX/puzzle:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - puzzle-service/**
+
+build-stockfish:
+  <<: *build-template
+  script:
+    - docker pull $REGISTRY/$IMAGE_PREFIX/stockfish:latest || true
+    - docker build --build-arg BUILDKIT_INLINE_CACHE=1 --cache-from $REGISTRY/$IMAGE_PREFIX/stockfish:latest -t $REGISTRY/$IMAGE_PREFIX/stockfish:$CI_COMMIT_SHA -t $REGISTRY/$IMAGE_PREFIX/stockfish:latest ./stockfish-service
+    - docker push $REGISTRY/$IMAGE_PREFIX/stockfish:$CI_COMMIT_SHA
+    - docker push $REGISTRY/$IMAGE_PREFIX/stockfish:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - stockfish-service/**
+
+build-eco:
+  <<: *build-template
+  script:
+    - docker pull $REGISTRY/$IMAGE_PREFIX/eco:latest || true
+    - docker build --build-arg BUILDKIT_INLINE_CACHE=1 --cache-from $REGISTRY/$IMAGE_PREFIX/eco:latest -t $REGISTRY/$IMAGE_PREFIX/eco:$CI_COMMIT_SHA -t $REGISTRY/$IMAGE_PREFIX/eco:latest ./eco-service
+    - docker push $REGISTRY/$IMAGE_PREFIX/eco:$CI_COMMIT_SHA
+    - docker push $REGISTRY/$IMAGE_PREFIX/eco:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - eco-service/**
+
+build-opening-book:
+  <<: *build-template
+  script:
+    - docker pull $REGISTRY/$IMAGE_PREFIX/opening-book:latest || true
+    - docker build --build-arg BUILDKIT_INLINE_CACHE=1 --cache-from $REGISTRY/$IMAGE_PREFIX/opening-book:latest -t $REGISTRY/$IMAGE_PREFIX/opening-book:$CI_COMMIT_SHA -t $REGISTRY/$IMAGE_PREFIX/opening-book:latest ./opening-book-service
+    - docker push $REGISTRY/$IMAGE_PREFIX/opening-book:$CI_COMMIT_SHA
+    - docker push $REGISTRY/$IMAGE_PREFIX/opening-book:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - opening-book-service/**
+
+build-import:
+  <<: *build-template
+  script:
+    - docker pull $REGISTRY/$IMAGE_PREFIX/import:latest || true
+    - docker build --build-arg BUILDKIT_INLINE_CACHE=1 --cache-from $REGISTRY/$IMAGE_PREFIX/import:latest -t $REGISTRY/$IMAGE_PREFIX/import:$CI_COMMIT_SHA -t $REGISTRY/$IMAGE_PREFIX/import:latest ./import-service
+    - docker push $REGISTRY/$IMAGE_PREFIX/import:$CI_COMMIT_SHA
+    - docker push $REGISTRY/$IMAGE_PREFIX/import:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - import-service/**
+
+build-payment:
+  <<: *build-template
+  script:
+    - docker pull $REGISTRY/$IMAGE_PREFIX/payment:latest || true
+    - docker build --build-arg BUILDKIT_INLINE_CACHE=1 --cache-from $REGISTRY/$IMAGE_PREFIX/payment:latest -t $REGISTRY/$IMAGE_PREFIX/payment:$CI_COMMIT_SHA -t $REGISTRY/$IMAGE_PREFIX/payment:latest ./payment-service
+    - docker push $REGISTRY/$IMAGE_PREFIX/payment:$CI_COMMIT_SHA
+    - docker push $REGISTRY/$IMAGE_PREFIX/payment:latest
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - payment-service/**
+
+build-ui:
+  <<: *build-template
+  script:
+    - docker pull $REGISTRY/$IMAGE_PREFIX/ui:latest || true
+    - |
+      docker build \
+        --build-arg BUILDKIT_INLINE_CACHE=1 \
+        --build-arg NEXT_PUBLIC_SUPABASE_URL=$NEXT_PUBLIC_SUPABASE_URL \
+        --build-arg NEXT_PUBLIC_SUPABASE_ANON_KEY=$NEXT_PUBLIC_SUPABASE_ANON_KEY \
+        --build-arg NEXT_PUBLIC_SENTRY_DSN=$NEXT_PUBLIC_SENTRY_DSN \
+        --build-arg SENTRY_AUTH_TOKEN=$SENTRY_AUTH_TOKEN \
+        --build-arg SENTRY_ORG=$SENTRY_ORG \
+        --build-arg SENTRY_PROJECT=$SENTRY_PROJECT \
+        --build-arg NEXT_PUBLIC_APP_VERSION=$CI_COMMIT_SHA \
+        --build-arg NEXT_PUBLIC_DEPLOYMENT_ENV=staging \
+        --build-arg NEXT_PUBLIC_POSTHOG_KEY=$NEXT_PUBLIC_POSTHOG_KEY \
+        --build-arg NEXT_PUBLIC_POSTHOG_HOST=https://eu.posthog.com \
+        --build-arg GATEWAY_INTERNAL_URL=http://staging-gateway-service:8000 \
+        --cache-from $REGISTRY/$IMAGE_PREFIX/ui:latest \
+        -t $REGISTRY/$IMAGE_PREFIX/ui:$CI_COMMIT_SHA \
+        -t $REGISTRY/$IMAGE_PREFIX/ui:latest \
+        ./ui
+    - docker push $REGISTRY/$IMAGE_PREFIX/ui:$CI_COMMIT_SHA
+    - docker push $REGISTRY/$IMAGE_PREFIX/ui:latest
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main" && $FORCE_UI_BUILD == "true"'
+      when: always
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - ui/**
+
+# ==============================================================================
+# STAGE: DEPLOY (Update kustomization for ArgoCD)
+# ==============================================================================
+update-staging:
+  stage: deploy
+  image: alpine:3.19
+  before_script:
+    - apk add --no-cache git sed curl jq
+    - git config user.name "gitlab-ci"
+    - git config user.email "gitlab-ci@gitlab.com"
+    - git remote set-url origin "https://oauth2:${GITLAB_TOKEN}@gitlab.com/${CI_PROJECT_PATH}.git"
+  script:
+    - cd k8s/overlays/staging
+    - |
+      # Use GitLab API to check which build jobs succeeded in this pipeline
+      # This is more reliable than checking HEAD~1 diff (handles merge commits, squashes, etc.)
+      PIPELINE_JOBS=$(curl -s --header "PRIVATE-TOKEN: ${GITLAB_TOKEN}" \
+        "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/pipelines/${CI_PIPELINE_ID}/jobs" || echo "[]")
+      
+      # Function to check if a build job succeeded
+      job_succeeded() {
+        echo "$PIPELINE_JOBS" | jq -e ".[] | select(.name == \"$1\" and .status == \"success\")" > /dev/null 2>&1
+      }
+      
+      # Update image tags for services whose build jobs succeeded
+      for service in gateway puzzle stockfish eco opening-book import payment ui; do
+        BUILD_JOB="build-${service}"
+        if job_succeeded "$BUILD_JOB"; then
+          echo "Updating ${service} tag to ${CI_COMMIT_SHA} (${BUILD_JOB} succeeded)"
+          sed -i "s|newTag: .* # ${service}|newTag: ${CI_COMMIT_SHA} # ${service}|" kustomization.yaml || true
+        fi
+      done
+    - git add kustomization.yaml
+    - 'git diff --staged --quiet || git commit -m "chore: update staging image tags to ${CI_COMMIT_SHA}"'
+    - 'git push origin HEAD:$CI_COMMIT_REF_NAME || true'
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  needs:
+    - job: build-gateway
+      optional: true
+    - job: build-puzzle
+      optional: true
+    - job: build-stockfish
+      optional: true
+    - job: build-eco
+      optional: true
+    - job: build-opening-book
+      optional: true
+    - job: build-import
+      optional: true
+    - job: build-payment
+      optional: true
+    - job: build-ui
+      optional: true
+
+# ==============================================================================
+# MANUAL JOBS
+# ==============================================================================
+promote-to-prod:
+  stage: deploy
+  image: python:3.11
+  script:
+    - git fetch origin prod || true
+    - |
+      if git show-ref --verify --quiet refs/remotes/origin/prod; then
+        git checkout -B prod origin/prod
+      else
+        git checkout -B prod
+      fi
+    - pip install ruamel.yaml
+    - python scripts/promote_staging_to_prod.py --fail-on-latest
+    - git config user.name "gitlab-ci"
+    - git config user.email "gitlab-ci@gitlab.com"
+    - git add k8s/overlays/prod/kustomization.yaml
+    - 'git diff --staged --quiet || git commit -m "chore: promote staging images to prod"'
+    - 'git push origin prod'
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      when: manual
+  allow_failure: true
+
+lighthouse-audit:
+  stage: test
+  image: node:20
+  script:
+    - cd ui
+    - npm ci
+    - npm run build
+    - npm install -g @lhci/cli
+    - lhci autorun || true
+  artifacts:
+    paths:
+      - ui/.lighthouseci/
+    expire_in: 14 days
+  rules:
+    - changes:
+        - ui/**
+  allow_failure: true
+
+# Performance smoke test (runs on self-hosted runner with kubectl access)
+perf-smoke:
+  stage: test
+  image: bitnami/kubectl:latest
+  script:
+    - |
+      kubectl -n chess-staging delete configmap perf-smoke-scripts --ignore-not-found
+      kubectl -n chess-staging create configmap perf-smoke-scripts \
+        --from-file=scripts/perf_smoke_test.py \
+        --from-file=scripts/perf_smoke_config.json \
+        --from-file=scripts/perf_proxy.py \
+        --from-file=perf/baseline.json
+      kubectl -n chess-staging delete job perf-smoke --ignore-not-found
+      # Run perf test job...
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+      changes:
+        - gateway-service/**
+        - scripts/**
+  allow_failure: true

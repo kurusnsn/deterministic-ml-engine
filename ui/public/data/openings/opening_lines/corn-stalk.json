@@ -1,0 +1,761 @@
+{
+  "opening": "corn stalk",
+  "openingId": "corn-stalk",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "corn-stalk-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "a5"
+      ],
+      "eco": "B00"
+    },
+    {
+      "id": "corn-stalk-d4-b5-bxb5-c5-dxc5-1n5u12",
+      "name": "dxc5 Line",
+      "moves": [
+        "d4",
+        "b5",
+        "Bxb5",
+        "c5",
+        "dxc5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          643454,
+          19067,
+          11996,
+          1496,
+          986
+        ],
+        "winrates": [
+          55.31358885017421,
+          64.73225992552578,
+          66.89729909969991,
+          84.02406417112299,
+          81.08519269776876
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-qf3-b5-v3g3fi",
+      "name": "b5 Line",
+      "moves": [
+        "Qf3",
+        "b5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          13349,
+          519
+        ],
+        "winrates": [
+          58.38639598471795,
+          75.04816955684007
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-b6-bd3-e6-ne2-i3l9vt",
+      "name": "Ne2 Line",
+      "moves": [
+        "d4",
+        "b6",
+        "Bd3",
+        "e6",
+        "Ne2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          643454,
+          131389,
+          23012,
+          1304,
+          609
+        ],
+        "winrates": [
+          55.31358885017421,
+          55.47724695370236,
+          57.374413349556754,
+          57.82208588957055,
+          60.016420361247945
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-h5-bc4-b6-lyy49b",
+      "name": "b6 Line",
+      "moves": [
+        "d4",
+        "h5",
+        "Bc4",
+        "b6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          643454,
+          66383,
+          11194,
+          752
+        ],
+        "winrates": [
+          55.31358885017421,
+          56.2674178630071,
+          57.722887261032696,
+          61.03723404255319
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-d6-nc3-nf6-f4-g6-yoe3wu",
+      "name": "g6 Line",
+      "moves": [
+        "d4",
+        "d6",
+        "Nc3",
+        "Nf6",
+        "f4",
+        "g6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          643454,
+          24774,
+          7274,
+          2962,
+          909,
+          627
+        ],
+        "winrates": [
+          55.31358885017421,
+          55.128360377815454,
+          57.22436073687105,
+          57.03916272788656,
+          62.266226622662266,
+          60.526315789473685
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-na6-bc4-tzseqc",
+      "name": "Bc4 Line",
+      "moves": [
+        "d4",
+        "Na6",
+        "Bc4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          643454,
+          23247,
+          1325
+        ],
+        "winrates": [
+          55.31358885017421,
+          55.26519550909795,
+          56.905660377358494
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-d5-exd5-qxd5-nf3-kbbccw",
+      "name": "Nf3 Line",
+      "moves": [
+        "d4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nf3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          643454,
+          19883,
+          6282,
+          5193,
+          970
+        ],
+        "winrates": [
+          55.31358885017421,
+          58.15269325554494,
+          63.2601082457816,
+          63.39302907760447,
+          64.12371134020619
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-nc6-nc3-t1ox1n",
+      "name": "Nc3 Line",
+      "moves": [
+        "d4",
+        "Nc6",
+        "Nc3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          643454,
+          8400,
+          583
+        ],
+        "winrates": [
+          55.31358885017421,
+          63.476190476190474,
+          67.75300171526587
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-nf3-ra5-oq9dd5",
+      "name": "Ra5 Line",
+      "moves": [
+        "d4",
+        "a4",
+        "Nf3",
+        "Ra5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          643454,
+          192142,
+          41654,
+          1497
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          55.34642531329524,
+          64.72945891783567
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-bc4-d6-gdzgax",
+      "name": "d6 Line",
+      "moves": [
+        "d4",
+        "a4",
+        "Bc4",
+        "d6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          643454,
+          192142,
+          16809,
+          510
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          56.065203164971145,
+          60.78431372549019
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-c6-nc3-b5-kbcoza",
+      "name": "Bd3 Line",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "c6",
+        "Nc3",
+        "b5",
+        "Nf3",
+        "e6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          5049,
+          1043,
+          1154,
+          703,
+          1299,
+          1328
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          56.40720934838582,
+          58.53307766059444,
+          58.83882149046794,
+          60.73968705547653,
+          59.237875288683604,
+          59.78915662650602
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-b6-nc3-b3ez99",
+      "name": "After a3 b6 Nc3",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "b6",
+        "Nc3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          2375,
+          639
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          57.599999999999994,
+          59.54616588419406
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-b5-bxb5-aqf3et",
+      "name": "Bxb5 Line",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "b5",
+        "Bxb5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          1443,
+          704
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          68.81496881496881,
+          73.7215909090909
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-e6-nf3-c6-129l3",
+      "name": "After Nf3 c6 Bd3",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "e6",
+        "Nf3",
+        "c6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          16277,
+          4785,
+          4490,
+          1081
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          52.04890336057013,
+          53.14524555903867,
+          56.74832962138085,
+          58.556891766882515
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-e6-nf3-c6-41mieo",
+      "name": "After Nc3 b5 Bd3",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "e6",
+        "Nf3",
+        "c6",
+        "Nc3",
+        "b5",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          16277,
+          4785,
+          4490,
+          1425,
+          2351,
+          1328
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          52.04890336057013,
+          53.14524555903867,
+          56.74832962138085,
+          55.684210526315795,
+          56.146320714589535,
+          59.78915662650602
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-e6-nf3-c6-suse03",
+      "name": "d5 Line",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "e6",
+        "Nf3",
+        "c6",
+        "c4",
+        "d5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          16277,
+          4785,
+          4490,
+          1304,
+          630
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          52.04890336057013,
+          53.14524555903867,
+          56.74832962138085,
+          56.48006134969326,
+          55.47619047619048
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-e6-nc3-c6-2n119y",
+      "name": "After Nf3 b5 Bd3",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "e6",
+        "Nc3",
+        "c6",
+        "Nf3",
+        "b5",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          16277,
+          4156,
+          2193,
+          1178,
+          2351,
+          1328
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          52.04890336057013,
+          51.491819056785374,
+          55.175558595531236,
+          55.81494057724957,
+          56.146320714589535,
+          59.78915662650602
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-e6-nc3-b6-i78wj3",
+      "name": "After Nc3 b6 Nf3",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "e6",
+        "Nc3",
+        "b6",
+        "Nf3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          16277,
+          4156,
+          1356,
+          528
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          52.04890336057013,
+          51.491819056785374,
+          55.088495575221245,
+          55.68181818181818
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-h5-c4-h4-4iylv8",
+      "name": "e6 Line",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "h5",
+        "c4",
+        "h4",
+        "h3",
+        "e6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          8418,
+          1125,
+          1930,
+          1391,
+          676
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          54.41910192444761,
+          57.06666666666666,
+          55.15544041450777,
+          56.82961897915169,
+          55.103550295857985
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-h5-h3-h4-90lgp8",
+      "name": "h4 Line",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "h5",
+        "h3",
+        "h4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          8418,
+          696,
+          820
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          54.41910192444761,
+          56.537356321839084,
+          56.82926829268292
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "corn-stalk-d4-a4-a3-h5-nc3-h4-vvn3ba",
+      "name": "After h4 h3 b6",
+      "moves": [
+        "d4",
+        "a4",
+        "a3",
+        "h5",
+        "Nc3",
+        "h4",
+        "h3",
+        "b6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          643454,
+          192142,
+          47695,
+          8418,
+          2125,
+          4279,
+          3080,
+          548
+        ],
+        "winrates": [
+          55.31358885017421,
+          54.1922120098677,
+          54.38725233252961,
+          54.41910192444761,
+          54.51764705882353,
+          55.30497779855106,
+          56.13636363636364,
+          58.66788321167883
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:54:28.102Z"
+}

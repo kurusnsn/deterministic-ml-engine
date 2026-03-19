@@ -1,0 +1,452 @@
+{
+  "id": "miscellaneous-queens-pawn-englund-gambit",
+  "name": "Queens pawn Englund gambit",
+  "opening": "Queens pawn Englund gambit",
+  "generatedAt": "2026-01-03T19:33:57.323Z",
+  "lines": [
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-bf4-qb4--bd2-qxb2-bc3-bb4-sntyp4",
+      "name": "Queens pawn Englund gambit: Bf4 Forcing Line",
+      "moves": [
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Bc3",
+        "Bb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10506,
+          6085,
+          2911,
+          2890,
+          2490,
+          2064
+        ],
+        "winrates": [
+          65.02950694841043,
+          80.9695973705834,
+          84.8162143593267,
+          85,
+          85.88353413654619,
+          92.41763565891473
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-c3-fxe5-do5wht",
+      "name": "Queens pawn Englund gambit: c3 Forcing Line",
+      "moves": [
+        "c3",
+        "fxe5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1391,
+          1043
+        ],
+        "winrates": [
+          57.94392523364487,
+          57.7660594439118
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-exf6-nxf6-qd1-d5-bg5-qb4--kn5pqa",
+      "name": "Queens pawn Englund gambit: exf6 Forcing Line",
+      "moves": [
+        "exf6",
+        "Nxf6",
+        "Qd1",
+        "d5",
+        "Bg5",
+        "Qb4+",
+        "Nbd2",
+        "Qxb2"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          218471,
+          217375,
+          119620,
+          70149,
+          12664,
+          2471,
+          1388,
+          1012
+        ],
+        "winrates": [
+          49.722617647193445,
+          49.76791259344451,
+          51.69745861896005,
+          54.37568603971547,
+          57.56080227416298,
+          65.66167543504655,
+          60.626801152737755,
+          59.33794466403162
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-exf6-nxf6-qd1-d5-e3-bg4-fp0z7q",
+      "name": "Queens pawn Englund gambit: exf6 Forcing Line",
+      "moves": [
+        "exf6",
+        "Nxf6",
+        "Qd1",
+        "d5",
+        "e3",
+        "Bg4",
+        "Be2",
+        "O-O-O",
+        "O-O",
+        "h5"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          218471,
+          217375,
+          119620,
+          70149,
+          24241,
+          13685,
+          11704,
+          10248,
+          4135,
+          1787
+        ],
+        "winrates": [
+          49.722617647193445,
+          49.76791259344451,
+          51.69745861896005,
+          54.37568603971547,
+          53.902479270657146,
+          54.424552429667514,
+          54.87012987012987,
+          55.952380952380956,
+          58.331318016928655,
+          59.625069949636256
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-exf6-nxf6-qd1-d5-e3-bg4-fp0z7q",
+      "name": "Queens pawn Englund gambit: exf6 Forcing Line",
+      "moves": [
+        "exf6",
+        "Nxf6",
+        "Qd1",
+        "d5",
+        "e3",
+        "Bg4",
+        "Be2",
+        "O-O-O",
+        "O-O",
+        "h5"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          218471,
+          217375,
+          119620,
+          70149,
+          24241,
+          13685,
+          11704,
+          10248,
+          4135,
+          1787
+        ],
+        "winrates": [
+          49.722617647193445,
+          49.76791259344451,
+          51.69745861896005,
+          54.37568603971547,
+          53.902479270657146,
+          54.424552429667514,
+          54.87012987012987,
+          55.952380952380956,
+          58.331318016928655,
+          59.625069949636256
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-exf6-nxf6-qd1-d5-c3-bg4-sawav3",
+      "name": "Queens pawn Englund gambit: exf6 Forcing Line",
+      "moves": [
+        "exf6",
+        "Nxf6",
+        "Qd1",
+        "d5",
+        "c3",
+        "Bg4",
+        "Nbd2",
+        "O-O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          218471,
+          217375,
+          119620,
+          70149,
+          19378,
+          9652,
+          1464,
+          1313
+        ],
+        "winrates": [
+          49.722617647193445,
+          49.76791259344451,
+          51.69745861896005,
+          54.37568603971547,
+          53.0008256786046,
+          55.01450476585163,
+          57.20628415300546,
+          57.692307692307686
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-exf6-nxf6-qd1-d5-c3-bg4-sawav3",
+      "name": "Queens pawn Englund gambit: exf6 Forcing Line",
+      "moves": [
+        "exf6",
+        "Nxf6",
+        "Qd1",
+        "d5",
+        "c3",
+        "Bg4",
+        "Nbd2",
+        "O-O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          218471,
+          217375,
+          119620,
+          70149,
+          19378,
+          9652,
+          1464,
+          1313
+        ],
+        "winrates": [
+          49.722617647193445,
+          49.76791259344451,
+          51.69745861896005,
+          54.37568603971547,
+          53.0008256786046,
+          55.01450476585163,
+          57.20628415300546,
+          57.692307692307686
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-bf4-qb4--bd2-qxb2-bc3-bb4-sntyp4",
+      "name": "Queens pawn Englund gambit: Bf4 Forcing Line",
+      "moves": [
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Bc3",
+        "Bb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          10506,
+          6085,
+          2911,
+          2890,
+          2490,
+          2064
+        ],
+        "winrates": [
+          65.02950694841043,
+          80.9695973705834,
+          84.8162143593267,
+          85,
+          85.88353413654619,
+          92.41763565891473
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-bf4-qb4--bd2-qxb2-bc3-bb4-sntyp4",
+      "name": "Queens pawn Englund gambit: Bf4 Forcing Line",
+      "moves": [
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Bc3",
+        "Bb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          10506,
+          6085,
+          2911,
+          2890,
+          2490,
+          2064
+        ],
+        "winrates": [
+          65.02950694841043,
+          80.9695973705834,
+          84.8162143593267,
+          85,
+          85.88353413654619,
+          92.41763565891473
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-bf4-qb4--nbd2-qxf4-ntde08",
+      "name": "Queens pawn Englund gambit: Bf4 Forcing Line",
+      "moves": [
+        "Bf4",
+        "Qb4+",
+        "Nbd2",
+        "Qxf4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          10506,
+          6085,
+          1946,
+          1591
+        ],
+        "winrates": [
+          65.02950694841043,
+          80.9695973705834,
+          71.76258992805755,
+          74.67001885606537
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-bf4-qb4--bd2-qxb2-bc3-bb4-sntyp4",
+      "name": "Queens pawn Englund gambit: Bf4 Forcing Line",
+      "moves": [
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Bc3",
+        "Bb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          10506,
+          6085,
+          2911,
+          2890,
+          2490,
+          2064
+        ],
+        "winrates": [
+          65.02950694841043,
+          80.9695973705834,
+          84.8162143593267,
+          85,
+          85.88353413654619,
+          92.41763565891473
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-englund-gambit-bf4-qb4--bd2-qxb2-bc3-bb4-sntyp4",
+      "name": "Queens pawn Englund gambit: Bf4 Forcing Line",
+      "moves": [
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Bc3",
+        "Bb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          10506,
+          6085,
+          2911,
+          2890,
+          2490,
+          2064
+        ],
+        "winrates": [
+          65.02950694841043,
+          80.9695973705834,
+          84.8162143593267,
+          85,
+          85.88353413654619,
+          92.41763565891473
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

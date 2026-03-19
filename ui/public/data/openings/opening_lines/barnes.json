@@ -1,0 +1,809 @@
+{
+  "opening": "barnes",
+  "openingId": "barnes",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "barnes-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "f6"
+      ],
+      "eco": "B00"
+    },
+    {
+      "id": "barnes-d4-g5-qh5--vveouf",
+      "name": "Qh5 Line",
+      "moves": [
+        "d4",
+        "g5",
+        "Qh5#"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          993296,
+          21656,
+          15729
+        ],
+        "winrates": [
+          56.29892801340185,
+          92.40164388622091,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-e6-nc3-nc6-d5-j2frsb",
+      "name": "d5 Line",
+      "moves": [
+        "d4",
+        "e6",
+        "Nc3",
+        "Nc6",
+        "d5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          172082,
+          95700,
+          1420,
+          685
+        ],
+        "winrates": [
+          56.29892801340185,
+          55.07810230006625,
+          56.46081504702194,
+          62.5,
+          66.13138686131387
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-e5-dxe5-f5-exf5-x2mpzd",
+      "name": "exf5 Line",
+      "moves": [
+        "d4",
+        "e5",
+        "dxe5",
+        "f5",
+        "exf5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          133990,
+          244501,
+          707,
+          518
+        ],
+        "winrates": [
+          56.29892801340185,
+          62.54048809612658,
+          72.19663723256755,
+          76.02545968882602,
+          78.95752895752895
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-d6-bc4-nc6-cbmceh",
+      "name": "Nc6 Line",
+      "moves": [
+        "d4",
+        "d6",
+        "Bc4",
+        "Nc6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          113825,
+          21801,
+          829
+        ],
+        "winrates": [
+          56.29892801340185,
+          55.01998682187569,
+          59.43993394798404,
+          61.82147165259349
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-c6-bd3-e5-e9jih5",
+      "name": "e5 Line",
+      "moves": [
+        "d4",
+        "c6",
+        "Bd3",
+        "e5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          73376,
+          14685,
+          682
+        ],
+        "winrates": [
+          56.29892801340185,
+          56.957315743567385,
+          58.539325842696634,
+          65.5425219941349
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-d5-qh5--g6-qxd5-qxd5-2ukptx",
+      "name": "Bf5 Line",
+      "moves": [
+        "d4",
+        "d5",
+        "Qh5+",
+        "g6",
+        "Qxd5",
+        "Qxd5",
+        "exd5",
+        "Bf5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          35397,
+          2049,
+          2002,
+          1708,
+          1509,
+          1508,
+          565
+        ],
+        "winrates": [
+          56.29892801340185,
+          59.22959572845157,
+          63.83601756954612,
+          63.41158841158842,
+          65.77868852459017,
+          65.00994035785288,
+          65.05305039787798,
+          62.83185840707964
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-b6-bd3-bb7-e5-xzte6a",
+      "name": "After Bd3 Bb7 e5",
+      "moves": [
+        "d4",
+        "b6",
+        "Bd3",
+        "Bb7",
+        "e5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          15230,
+          3401,
+          1959,
+          1126
+        ],
+        "winrates": [
+          56.29892801340185,
+          61.290216677609976,
+          66.09820640987945,
+          66.89637570188872,
+          78.55239786856127
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-nh6-bxh6-gxh6-qh5--8ow288",
+      "name": "After Bxh6 gxh6 Qh5#",
+      "moves": [
+        "d4",
+        "Nh6",
+        "Bxh6",
+        "gxh6",
+        "Qh5#"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          15037,
+          8153,
+          6084,
+          3532
+        ],
+        "winrates": [
+          56.29892801340185,
+          66.77861275520382,
+          81.6018643444131,
+          83.05391190006574,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-nc6-bd3-t1p5x4",
+      "name": "Bd3 Line",
+      "moves": [
+        "d4",
+        "Nc6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          12316,
+          518
+        ],
+        "winrates": [
+          56.29892801340185,
+          61.18869762910035,
+          64.96138996138995
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-c5-nf3-b6-8ufwqk",
+      "name": "b6 Line",
+      "moves": [
+        "d4",
+        "c5",
+        "Nf3",
+        "b6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          993296,
+          11000,
+          2627,
+          891
+        ],
+        "winrates": [
+          56.29892801340185,
+          59.13636363636363,
+          61.74343357441949,
+          71.09988776655443
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-ke6-bc4--kd6-mw4ugm",
+      "name": "Kd6 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "Ke6",
+        "Bc4+",
+        "Kd6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          3670,
+          907,
+          733
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          67.26158038147139,
+          79.43770672546859,
+          82.537517053206
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-bc4--kg6-qg4--fkwzlr",
+      "name": "Qg4 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Bc4+",
+        "Kg6",
+        "Qg4#"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          993296,
+          329653,
+          65241,
+          1853,
+          1184
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          55.28731932373814,
+          89.23367512142471,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-h4-g6-h5-l8t0t4",
+      "name": "h5 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "h4",
+        "g6",
+        "h5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          993296,
+          329653,
+          3116,
+          665,
+          726
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          55.102695763799744,
+          57.44360902255639,
+          58.057851239669425
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-g6-h4-bh6-aegy40",
+      "name": "Bh6 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "g6",
+        "h4",
+        "Bh6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          21732,
+          1390,
+          562
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          56.485827351371256,
+          60.86330935251798,
+          57.29537366548043
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-kg6-bc4-uvhy1p",
+      "name": "Bc4 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "Kg6",
+        "Bc4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          4180,
+          516
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          64.04306220095694,
+          68.7984496124031
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-c6-f4-e6-6gbkcz",
+      "name": "e6 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "c6",
+        "f4",
+        "e6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          3583,
+          2721,
+          540
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          58.69383198437064,
+          58.21389195148843,
+          58.14814814814815
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-d6-f4-aix2jw",
+      "name": "f4 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "d6",
+        "f4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          1706,
+          570
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          59.81828839390387,
+          64.12280701754386
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-e6-f4-d6-n2jj40",
+      "name": "Nf3 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "e6",
+        "f4",
+        "d6",
+        "Nf3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          63304,
+          19295,
+          889,
+          889
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          53.78175154808543,
+          55.22933402435864,
+          63.83577052868391,
+          65.5793025871766
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-e6-f4-bb4-e2jkic",
+      "name": "Ne7 Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "e6",
+        "f4",
+        "Bb4",
+        "Nf3",
+        "Bxc3+",
+        "bxc3",
+        "Ne7"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          63304,
+          19295,
+          3516,
+          2267,
+          1209,
+          1209,
+          786
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          53.78175154808543,
+          55.22933402435864,
+          56.35665529010239,
+          57.23423026025585,
+          61.33167907361455,
+          61.33167907361455,
+          62.150127226463106
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-e6-f4-ne7-w9di57",
+      "name": "O-O Line",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "e6",
+        "f4",
+        "Ne7",
+        "Nf3",
+        "g6",
+        "Bd3",
+        "Bg7",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          63304,
+          19295,
+          3233,
+          2446,
+          1193,
+          551,
+          616,
+          776
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          53.78175154808543,
+          55.22933402435864,
+          57.90287658521497,
+          58.11529026982829,
+          57.96311818943839,
+          59.255898366606175,
+          59.41558441558441,
+          60.18041237113402
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-e6-f4-g6-tmuo5f",
+      "name": "After Bd3 Ne7 O-O",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "e6",
+        "f4",
+        "g6",
+        "Nf3",
+        "Bg7",
+        "Bd3",
+        "Ne7",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          63304,
+          19295,
+          2402,
+          2189,
+          1199,
+          753,
+          804,
+          776
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          53.78175154808543,
+          55.22933402435864,
+          59.637801831806826,
+          59.958885335769764,
+          66.26355296080067,
+          63.612217795484725,
+          62.56218905472637,
+          60.18041237113402
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "barnes-d4-kf7-nc3-e6-f4-d5-f19f5n",
+      "name": "After Nf3 c6 Bd3",
+      "moves": [
+        "d4",
+        "Kf7",
+        "Nc3",
+        "e6",
+        "f4",
+        "d5",
+        "Nf3",
+        "c6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          993296,
+          329653,
+          67677,
+          63304,
+          19295,
+          4977,
+          2966,
+          816,
+          1497
+        ],
+        "winrates": [
+          56.29892801340185,
+          54.38673392931355,
+          56.14241174992981,
+          53.78175154808543,
+          55.22933402435864,
+          50.19087803897931,
+          53.60755225893459,
+          56.80147058823529,
+          55.076820307281224
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:49:41.279Z"
+}

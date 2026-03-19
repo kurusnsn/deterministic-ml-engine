@@ -1,0 +1,30 @@
+{
+  "base_url": "https://gateway.staging.chessvector.com",
+  "rps": 5,
+  "duration_seconds": 30,
+  "timeout_seconds": 60,
+  "endpoints": [
+    {
+      "name": "analysis_report",
+      "method": "GET",
+      "path": "/analysis/reports/REPLACE_ME"
+    },
+    {
+      "name": "puzzles_next",
+      "method": "GET",
+      "path": "/puzzles/next",
+      "params": {
+        "mode": "random",
+        "rating": 1500
+      }
+    },
+    {
+      "name": "verify_captcha",
+      "method": "POST",
+      "path": "/auth/verify-captcha",
+      "json_body": {
+        "token": "REPLACE_ME"
+      }
+    }
+  ]
+}

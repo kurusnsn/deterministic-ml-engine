@@ -1,0 +1,988 @@
+{
+  "id": "dutch-dutch-staunton-gambit",
+  "name": "Dutch Staunton gambit",
+  "opening": "Dutch Staunton gambit",
+  "generatedAt": "2026-01-03T19:47:06.029Z",
+  "lines": [
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-d5-qh5--g6-qxd5-c96b6d",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "d5",
+        "Qh5+",
+        "g6",
+        "Qxd5",
+        "Qxd5",
+        "Nxd5",
+        "Nf6",
+        "Nxc7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          924132,
+          657044,
+          70276,
+          40599,
+          39999,
+          38005,
+          24694,
+          24687,
+          2727,
+          2620
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          65.39857134725938,
+          74.67671617527525,
+          74.5868646716168,
+          76.10445993948164,
+          82.57673928889608,
+          82.59205249726577,
+          88.81554822148881,
+          89.98091603053436
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-nf6-e5-d6-exf6-exf6-fmqi5c",
+      "name": "Dutch Staunton gambit: Nf6 Forcing Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "d6",
+        "exf6",
+        "exf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          225896,
+          107403,
+          1452,
+          1534,
+          1067
+        ],
+        "winrates": [
+          59.597779509154655,
+          60.133795145387005,
+          70.42011019283747,
+          71.47979139504564,
+          66.68228678537957
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-d6-nc3-e5-nf3-f4-dxe5-rrzqaz",
+      "name": "Dutch Staunton gambit: d6 Forcing Line",
+      "moves": [
+        "d6",
+        "Nc3",
+        "e5",
+        "Nf3",
+        "f4",
+        "dxe5",
+        "dxe5",
+        "Qxd8+",
+        "Kxd8",
+        "Nxe5",
+        "Be6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          69833,
+          199384,
+          3218,
+          1516,
+          9453,
+          9419,
+          4146,
+          3842,
+          3808,
+          3515,
+          1011
+        ],
+        "winrates": [
+          57.608150874228514,
+          56.39845724832484,
+          62.15040397762586,
+          61.74142480211082,
+          67.97313022320957,
+          70.41618006157766,
+          74.78292329956585,
+          76.22332118688183,
+          76.01102941176471,
+          78.06543385490754,
+          73.24431256181998
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-e6-nd2-nf6-e5-qkblyk",
+      "name": "Dutch Staunton gambit: e6 Forcing Line",
+      "moves": [
+        "e6",
+        "Nd2",
+        "Nf6",
+        "e5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          58551,
+          7088,
+          1857,
+          1022
+        ],
+        "winrates": [
+          58.5241925842428,
+          57.011851015801355,
+          57.458266020463114,
+          59.099804305283755
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-d5-exd5-qxd5-nc3-qd8-bc4-vwe27v",
+      "name": "Dutch Staunton gambit: d5 Forcing Line",
+      "moves": [
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Bc4",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          13932,
+          5186,
+          4194,
+          3270,
+          1738,
+          1678,
+          1368
+        ],
+        "winrates": [
+          58.76399655469423,
+          66.06247589664481,
+          66.96471149260849,
+          67.4770642201835,
+          63.693901035673186,
+          66.32896305125149,
+          64.18128654970761
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-g6-exf5-gxf5-qh5--py7mpx",
+      "name": "Dutch Staunton gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "exf5",
+        "gxf5",
+        "Qh5#"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10292,
+          19352,
+          5023,
+          3543
+        ],
+        "winrates": [
+          68.98076175670424,
+          66.18178999586605,
+          89.29922357157078,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-f4-bxf4-utfl2b",
+      "name": "Dutch Staunton gambit: f4 Forcing Line",
+      "moves": [
+        "f4",
+        "Bxf4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3182,
+          1801
+        ],
+        "winrates": [
+          70.09742300439974,
+          71.29372570794004
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-e5-exf5-nf6-dxe5-ne4-qh5--6dqsyj",
+      "name": "Dutch Staunton gambit: e5 Forcing Line",
+      "moves": [
+        "e5",
+        "exf5",
+        "Nf6",
+        "dxe5",
+        "Ne4",
+        "Qh5+",
+        "g6",
+        "fxg6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3057,
+          118181,
+          13650,
+          12224,
+          3951,
+          1693,
+          1147,
+          1138
+        ],
+        "winrates": [
+          62.23421655217534,
+          60.77668999246918,
+          67.72161172161172,
+          69.24492801047121,
+          73.84206529992406,
+          86.3555818074424,
+          87.22755013077594,
+          87.4780316344464
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-c5-exf5-cxd4-qgbqc5",
+      "name": "Dutch Staunton gambit: c5 Forcing Line",
+      "moves": [
+        "c5",
+        "exf5",
+        "cxd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1876,
+          7689,
+          1091
+        ],
+        "winrates": [
+          56.583155650319824,
+          55.885030563142145,
+          63.42804766269477
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-g5-qh5--p1zcjg",
+      "name": "Dutch Staunton gambit: g5 Forcing Line",
+      "moves": [
+        "g5",
+        "Qh5#"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1748,
+          2586
+        ],
+        "winrates": [
+          93.82151029748283,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-nc6-exf5-d5-qh5--g6-fxg6-7y4svb",
+      "name": "Dutch Staunton gambit: Nc6 Forcing Line",
+      "moves": [
+        "Nc6",
+        "exf5",
+        "d5",
+        "Qh5+",
+        "g6",
+        "fxg6",
+        "Nf6",
+        "g7+",
+        "Nxh5",
+        "gxh8=Q"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1089,
+          18698,
+          7067,
+          3594,
+          2191,
+          2189,
+          1936,
+          1558,
+          1502,
+          1500
+        ],
+        "winrates": [
+          62.94765840220386,
+          60.399507968766706,
+          62.11263619640584,
+          68.37785197551474,
+          71.97626654495664,
+          71.99634536317954,
+          71.900826446281,
+          77.21437740693197,
+          76.59786950732357,
+          76.63333333333333
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-d5-qh5--g6-qxd5-c96b6d",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "d5",
+        "Qh5+",
+        "g6",
+        "Qxd5",
+        "Qxd5",
+        "Nxd5",
+        "Nf6",
+        "Nxc7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          924132,
+          657044,
+          70276,
+          40599,
+          39999,
+          38005,
+          24694,
+          24687,
+          2727,
+          2620
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          65.39857134725938,
+          74.67671617527525,
+          74.5868646716168,
+          76.10445993948164,
+          82.57673928889608,
+          82.59205249726577,
+          88.81554822148881,
+          89.98091603053436
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-f3-g6-fxe4-bg7-haqy9c",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "f3",
+        "g6",
+        "fxe4",
+        "Bg7"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          924132,
+          163479,
+          1110,
+          1564,
+          1340
+        ],
+        "winrates": [
+          55.41794895101566,
+          55.41109255623047,
+          60.810810810810814,
+          58.85549872122762,
+          57.76119402985075
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-nf6-g4-d5-g5-a1dm8a",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "g4",
+        "d5",
+        "g5",
+        "Bg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          924132,
+          657044,
+          561126,
+          11690,
+          5670,
+          5539,
+          1129
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          56.00239518396938,
+          56.57399486740804,
+          58.536155202821874,
+          58.98176566167178,
+          60.008857395925595
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-d5-qh5--g6-qxd5-c96b6d",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "d5",
+        "Qh5+",
+        "g6",
+        "Qxd5",
+        "Qxd5",
+        "Nxd5",
+        "Nf6",
+        "Nxc7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          924132,
+          657044,
+          70276,
+          40599,
+          39999,
+          38005,
+          24694,
+          24687,
+          2727,
+          2620
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          65.39857134725938,
+          74.67671617527525,
+          74.5868646716168,
+          76.10445993948164,
+          82.57673928889608,
+          82.59205249726577,
+          88.81554822148881,
+          89.98091603053436
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-g6-f3-exf3-nxf3-3tgcrd",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "g6",
+        "f3",
+        "exf3",
+        "Nxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          924132,
+          657044,
+          10320,
+          2821,
+          1423,
+          1223
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          57.07364341085272,
+          58.33037929812124,
+          56.921995783555865,
+          57.89043336058871
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-e6-f3-exf3-nxf3-45t153",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "e6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "Nf6",
+        "Bd3",
+        "Bb4",
+        "O-O",
+        "Bxc3",
+        "bxc3",
+        "O-O",
+        "Qe1"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          924132,
+          657044,
+          4868,
+          21590,
+          8802,
+          7645,
+          6759,
+          25577,
+          9581,
+          7604,
+          3275,
+          3268,
+          2801,
+          1066
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          58.196384552177484,
+          60.62760537285781,
+          64.55919109293342,
+          66.25245258338784,
+          65.97869507323568,
+          66.06521484145912,
+          68.36969001148105,
+          69.8250920568122,
+          69.86259541984732,
+          69.88984088127295,
+          70.02856122813282,
+          75.14071294559099
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-e3-bxe3-nf6-rftxev",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "e3",
+        "Bxe3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          924132,
+          657044,
+          2436,
+          1886,
+          1512
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          61.49425287356321,
+          60.97560975609756,
+          60.3505291005291
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-c6-nxe4-nf6-czd6qx",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "c6",
+        "Nxe4",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          924132,
+          657044,
+          1526,
+          4250,
+          1788
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          61.14023591087812,
+          59.90588235294118,
+          60.71029082774049
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-d6-f3-exf3-nxf3-ldynay",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "d6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "Nf6",
+        "Bg5",
+        "Bg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          924132,
+          657044,
+          1311,
+          6456,
+          2627,
+          2315,
+          1764,
+          1148,
+          1291
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          61.098398169336384,
+          58.031288723667906,
+          60.31594975256947,
+          61.29589632829374,
+          60.8843537414966,
+          62.54355400696864,
+          60.14717273431448
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-nf6-bg5-h6-bxf6-kqvnvm",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "h6",
+        "Bxf6",
+        "exf6",
+        "Qh5+",
+        "Ke7",
+        "Bc4"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          924132,
+          657044,
+          561126,
+          476263,
+          6095,
+          5908,
+          5182,
+          5587,
+          5437,
+          1177
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          56.00239518396938,
+          56.559086051194406,
+          71.70631665299426,
+          71.97020988490182,
+          69.44230027016596,
+          71.37998926078396,
+          70.66396910060695,
+          76.8479184367035
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-nf6-f3-c6-fxe4-fb0rfp",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "c6",
+        "fxe4"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          924132,
+          657044,
+          561126,
+          148934,
+          1225,
+          1565
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          56.00239518396938,
+          56.35751406663354,
+          63.87755102040816,
+          65.01597444089457
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-nf6-g4-d5-g5-a1dm8a",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "g4",
+        "d5",
+        "g5",
+        "Bg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          924132,
+          657044,
+          561126,
+          11690,
+          5670,
+          5539,
+          1129
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          56.00239518396938,
+          56.57399486740804,
+          58.536155202821874,
+          58.98176566167178,
+          60.008857395925595
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-nf6-bg5-d5-bxf6-y4d1bw",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "d5",
+        "Bxf6",
+        "gxf6",
+        "Qh5+",
+        "Kd7",
+        "Qxd5+",
+        "Ke8",
+        "Qh5+",
+        "Kd7"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          924132,
+          657044,
+          561126,
+          476263,
+          122176,
+          102945,
+          2747,
+          2551,
+          2484,
+          2225,
+          2183,
+          1106,
+          1196
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          56.00239518396938,
+          56.559086051194406,
+          68.5142744892614,
+          71.51537228617222,
+          73.86239534037131,
+          77.3030184241474,
+          76.65056360708535,
+          79.01123595505618,
+          78.60742098030234,
+          80.28933092224231,
+          79.0133779264214
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-dutch-staunton-gambit-fxe4-nc3-nf6-bg5-e6-f3-kp51jr",
+      "name": "Dutch Staunton gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "e6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "Bb4",
+        "Bd3",
+        "Bxc3+",
+        "bxc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          924132,
+          657044,
+          561126,
+          476263,
+          97343,
+          13608,
+          7496,
+          7088,
+          2734,
+          1900,
+          1112,
+          1111
+        ],
+        "winrates": [
+          55.41794895101566,
+          57.1019596861093,
+          56.00239518396938,
+          56.559086051194406,
+          56.30142896767102,
+          60.26969429747208,
+          63.3337780149413,
+          63.80502257336344,
+          64.97805413313826,
+          68.13157894736842,
+          67.35611510791367,
+          67.41674167416741
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

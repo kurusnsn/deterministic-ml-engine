@@ -1,0 +1,3 @@
+[submodule "maia"]
+	path = maia
+	url = https://github.com/CSSLab/maia2.git

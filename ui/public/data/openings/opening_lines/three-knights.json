@@ -1,0 +1,1207 @@
+{
+  "opening": "three knights",
+  "openingId": "three-knights",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "three-knights-line-0",
+      "name": "Winawer defence (Gothic defence)",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "f5"
+      ],
+      "eco": "C46"
+    },
+    {
+      "id": "three-knights-line-1",
+      "name": "Schlechter variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Bb4",
+        "Nd5",
+        "Nf6"
+      ],
+      "eco": "C46"
+    },
+    {
+      "id": "three-knights-line-2",
+      "name": "Steinitz, Rosenthal variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "g6",
+        "d4",
+        "exd4",
+        "Nd5"
+      ],
+      "eco": "C46"
+    },
+    {
+      "id": "three-knights-nd4-nxe5-qg5-nf3-nxf3--qxf3-vxeamd",
+      "name": "d4 Line",
+      "moves": [
+        "Nd4",
+        "Nxe5",
+        "Qg5",
+        "Nf3",
+        "Nxf3+",
+        "Qxf3",
+        "Bc5",
+        "d4"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          95796,
+          26721,
+          10242,
+          8959,
+          7966,
+          7675,
+          1177,
+          699
+        ],
+        "winrates": [
+          57.99929015825296,
+          67.18872796676771,
+          73.56473345049795,
+          76.58220783569595,
+          76.47501883002762,
+          76.6514657980456,
+          85.64146134239591,
+          93.27610872675251
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-f6-nh4-lvzaxv",
+      "name": "Nh4 Line",
+      "moves": [
+        "f6",
+        "Nh4"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          93762,
+          1232
+        ],
+        "winrates": [
+          59.204688466542954,
+          66.88311688311688
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-nxe5-bd6-nxc6-dxc6-d4-552how",
+      "name": "Be2 Line",
+      "moves": [
+        "Nf6",
+        "Nxe5",
+        "Bd6",
+        "Nxc6",
+        "dxc6",
+        "d4",
+        "O-O",
+        "e5",
+        "Re8",
+        "Be2"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          14506790,
+          963584,
+          1237,
+          830,
+          616,
+          2696,
+          1256,
+          1058,
+          824,
+          636
+        ],
+        "winrates": [
+          52.26009682362535,
+          55.08710190289585,
+          62.81325788197252,
+          63.55421686746988,
+          61.36363636363637,
+          63.24183976261127,
+          71.61624203821655,
+          74.48015122873346,
+          74.21116504854369,
+          77.67295597484278
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-d5-nxd5-nxd5-bxd5-m0xkj9",
+      "name": "Nd4 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "d5",
+        "Nxd5",
+        "Nxd5",
+        "Bxd5",
+        "Nd4"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          14506790,
+          7627048,
+          165726,
+          10809,
+          6019,
+          5149,
+          888
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          55.737482350385584,
+          59.46433527615875,
+          61.71290912111647,
+          62.35191299281414,
+          66.49774774774775
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-a6-d4-b5-dxe5-q1dp2o",
+      "name": "dxe5 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "a6",
+        "d4",
+        "b5",
+        "dxe5"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          14506790,
+          7627048,
+          101346,
+          16053,
+          2723,
+          512
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          58.36441497444398,
+          60.340746277954274,
+          65.38744032317297,
+          68.75
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-na5-nxe5-d6-nxf7-ishs3b",
+      "name": "Nxf7 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Na5",
+        "Nxe5",
+        "d6",
+        "Nxf7"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          14506790,
+          7627048,
+          62745,
+          7043,
+          619,
+          529
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          56.12479081998566,
+          63.04131762033225,
+          73.42487883683361,
+          74.85822306238185
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bd6-a3-a6-d3-c34gc2",
+      "name": "d3 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bd6",
+        "a3",
+        "a6",
+        "d3"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          14506790,
+          7627048,
+          44059,
+          3198,
+          508,
+          596
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          57.61592410177262,
+          58.81801125703565,
+          58.85826771653543,
+          57.969798657718115
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-g6-ng5-bg7-nxf7-kqvp38",
+      "name": "After Ng5 Bg7 Nxf7",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "g6",
+        "Ng5",
+        "Bg7",
+        "Nxf7"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          14506790,
+          7627048,
+          38949,
+          6851,
+          621,
+          629
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          58.27749107807646,
+          63.384907312801055,
+          74.7987117552335,
+          76.0731319554849
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-nd4-nxe5-d6-nxf7-fif07e",
+      "name": "Nxh8 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Nd4",
+        "Nxe5",
+        "d6",
+        "Nxf7",
+        "Qe7",
+        "Nxh8"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          14506790,
+          7627048,
+          36528,
+          14755,
+          1872,
+          1504,
+          975,
+          894
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          60.76708278580815,
+          65.43544561165706,
+          77.83119658119658,
+          80.75132978723404,
+          75.8974358974359,
+          76.34228187919463
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-ng4-bxf7--opphmb",
+      "name": "d5 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "Ng4",
+        "Bxf7+",
+        "Kxf7",
+        "Ng5+",
+        "Kg8",
+        "Qxg4",
+        "d5"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          220279,
+          5498,
+          3751,
+          3715,
+          1396,
+          1390,
+          727
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          56.2688681172513,
+          66.10585667515461,
+          68.46174353505732,
+          68.8829071332436,
+          66.11747851002865,
+          66.40287769784172,
+          70.3576341127923
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-nd4-nxe5-en31k3",
+      "name": "After Nxf7 Qe7 Nxh8",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "Nd4",
+        "Nxe5",
+        "d6",
+        "Nxf7",
+        "Qe7",
+        "Nxh8"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          51238,
+          13523,
+          3456,
+          2968,
+          1831,
+          1808
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          59.29583512237011,
+          64.12778229682763,
+          76.04166666666666,
+          78.45350404312669,
+          71.92790824685964,
+          72.01327433628319
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-na5-nxe5-vu0oru",
+      "name": "After Nxe5 d6 Nxf7",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "Na5",
+        "Nxe5",
+        "d6",
+        "Nxf7"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          40199,
+          6372,
+          848,
+          749
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          55.09838553197841,
+          63.73979912115505,
+          78.06603773584906,
+          80.64085447263018
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d5-nxd5-g9alyw",
+      "name": "After Nxd5 Bxd5 Nd4",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d5",
+        "Nxd5",
+        "Nxd5",
+        "Bxd5",
+        "Nd4"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          36126,
+          5055,
+          3287,
+          3100,
+          657
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          59.29939655649671,
+          64.00593471810089,
+          63.62944934590812,
+          63.516129032258064,
+          66.66666666666666
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-bxf2--kxf2-nzzdhv",
+      "name": "Rf1 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "Bxf2+",
+        "Kxf2",
+        "O-O",
+        "Rf1"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          15987,
+          15810,
+          2439,
+          1040
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          68.45249265027834,
+          68.7381404174573,
+          72.22222222222221,
+          75.38461538461539
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-bb4-bg5-t0w090",
+      "name": "O-O Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "Bb4",
+        "Bg5",
+        "Bxc3+",
+        "bxc3",
+        "O-O"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          10728,
+          2712,
+          1090,
+          1648,
+          608
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          56.641498881431765,
+          59.679203539823014,
+          59.403669724770644,
+          58.91990291262136,
+          61.8421052631579
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-7fabr4",
+      "name": "c3 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "O-O",
+        "Nd5",
+        "Bb4+",
+        "c3"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          103819,
+          191038,
+          578,
+          569
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          64.3441951858523,
+          68.47695222939939,
+          81.66089965397923,
+          82.0738137082601
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-upwczm",
+      "name": "gxf6 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "Nd4",
+        "Nd5",
+        "Nxf3+",
+        "Qxf3",
+        "Be6",
+        "Nxf6+",
+        "gxf6"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          10168,
+          4682,
+          1222,
+          1125,
+          623,
+          545,
+          507
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          58.226789929189614,
+          61.0316104228962,
+          74.87725040916531,
+          75.95555555555555,
+          78.97271268057786,
+          81.65137614678899,
+          80.4733727810651
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-2qk7lm",
+      "name": "Bxe7 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "Qe7",
+        "Nd5",
+        "Nxd5",
+        "Bxe7"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          3265,
+          3969,
+          508,
+          503
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          62.83307810107197,
+          65.39430587049635,
+          67.1259842519685,
+          67.39562624254472
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-fo8pmz",
+      "name": "After h6 Bxf6 gxf6",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "Bd7",
+        "Nd5",
+        "h6",
+        "Bxf6",
+        "gxf6"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          3261,
+          2138,
+          1295,
+          586,
+          590
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          60.76356945722171,
+          61.7867165575304,
+          56.13899613899614,
+          58.78839590443686,
+          58.89830508474576
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-b0yib7",
+      "name": "Nd5 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "h6",
+        "Bh4",
+        "O-O",
+        "Qd2",
+        "a6",
+        "Nd5"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          703805,
+          522363,
+          30981,
+          12756,
+          895,
+          544
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          49.341578988498235,
+          50.167603754477256,
+          57.749911235918795,
+          61.65725932894324,
+          70,
+          81.70955882352942
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-9pcj58",
+      "name": "Qxf3 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "h6",
+        "Bh4",
+        "Nd4",
+        "Nd5",
+        "Nxf3+",
+        "Qxf3"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          703805,
+          522363,
+          7079,
+          3035,
+          568,
+          522
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          49.341578988498235,
+          50.167603754477256,
+          55.38211611809578,
+          60.280065897858314,
+          78.52112676056338,
+          80.74712643678161
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-u3dku9",
+      "name": "After Qd8 Nxf6+ gxf6",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "h6",
+        "Bh4",
+        "Qe7",
+        "Nd5",
+        "Qd8",
+        "Nxf6+",
+        "gxf6"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          703805,
+          522363,
+          2747,
+          2362,
+          1721,
+          815,
+          813
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          49.341578988498235,
+          50.167603754477256,
+          63.068802329814346,
+          65.5588484335309,
+          58.861127251597914,
+          58.34355828220858,
+          58.241082410824106
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-jruguv",
+      "name": "Bxg5 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "h6",
+        "Bh4",
+        "g5",
+        "Nxg5",
+        "Bg4",
+        "f3",
+        "hxg5",
+        "Bxg5"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          703805,
+          522363,
+          321187,
+          99942,
+          1239,
+          636,
+          524,
+          517
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          49.341578988498235,
+          50.167603754477256,
+          49.54559182034142,
+          55.384623081387204,
+          65.49636803874091,
+          63.600628930817614,
+          60.40076335877863,
+          60.44487427466151
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-rthqw0",
+      "name": "Bxd5 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "h6",
+        "Bxf6",
+        "gxf6",
+        "Nd5",
+        "Be6",
+        "c3",
+        "Bxd5",
+        "Bxd5"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          703805,
+          114574,
+          8523,
+          5364,
+          3115,
+          2316,
+          1130,
+          920
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          49.341578988498235,
+          46.63056190758811,
+          54.499589346474245,
+          57.158836689038026,
+          57.367576243980736,
+          62.15457685664939,
+          61.59292035398231,
+          62.17391304347826
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "three-knights-nf6-bc4-bc5-d3-d6-bg5-mx7bq7",
+      "name": "Rxh8 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "d6",
+        "Bg5",
+        "Bg4",
+        "h3",
+        "h6",
+        "hxg4",
+        "hxg5",
+        "Rxh8+"
+      ],
+      "eco": "C46",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          14506790,
+          7627048,
+          5948508,
+          5778354,
+          2855655,
+          1198359,
+          297138,
+          147368,
+          5454,
+          2515,
+          935,
+          826
+        ],
+        "winrates": [
+          52.26009682362535,
+          49.03631785193957,
+          50.35060892580122,
+          51.866249454429415,
+          50.4858254936258,
+          51.97211353192157,
+          54.138312837806005,
+          56.74739427826937,
+          72.42390905757242,
+          86.36182902584493,
+          91.22994652406418,
+          97.57869249394673
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T00:29:14.926Z"
+}

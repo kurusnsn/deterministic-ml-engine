@@ -1,0 +1,555 @@
+{
+  "opening": "mujannah",
+  "openingId": "mujannah",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "mujannah-line-0",
+      "name": "Main Line",
+      "moves": [
+        "f4",
+        "d5",
+        "c4"
+      ],
+      "eco": "A03"
+    },
+    {
+      "id": "mujannah-bf5-cxd5-qxd5-nc3-qd8-e4-juhqhc",
+      "name": "e4 Line",
+      "moves": [
+        "Bf5",
+        "cxd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "e4"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4887,
+          3139,
+          2392,
+          1786,
+          946,
+          800
+        ],
+        "winrates": [
+          57.13116431348475,
+          60.098757566103856,
+          61.97742474916388,
+          61.59014557670772,
+          60.25369978858352,
+          64.25
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e3-b5-a4-c6-axb5-5q4izr",
+      "name": "Bd7 Line",
+      "moves": [
+        "dxc4",
+        "e3",
+        "b5",
+        "a4",
+        "c6",
+        "axb5",
+        "cxb5",
+        "Qf3",
+        "Nc6",
+        "Qxc6+",
+        "Bd7"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          63434,
+          17349,
+          3920,
+          3516,
+          2515,
+          2335,
+          2173,
+          2051,
+          582,
+          579,
+          574
+        ],
+        "winrates": [
+          54.890122016584165,
+          57.34912675082138,
+          70.68877551020408,
+          73.23663253697383,
+          77.67395626242545,
+          78.92933618843682,
+          80.30372756557755,
+          81.7893710385178,
+          71.64948453608247,
+          71.84801381692574,
+          71.602787456446
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-nc3-bf5-e4-c8ubky",
+      "name": "After Nc3 Bf5 e4",
+      "moves": [
+        "dxc4",
+        "Nc3",
+        "Bf5",
+        "e4"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          63434,
+          7084,
+          603,
+          547
+        ],
+        "winrates": [
+          54.890122016584165,
+          55.91473743647657,
+          63.349917081260365,
+          65.81352833638026
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e4-e6-bxc4-nc6-nf3-9r1oxb",
+      "name": "Nf3 Line",
+      "moves": [
+        "dxc4",
+        "e4",
+        "e6",
+        "Bxc4",
+        "Nc6",
+        "Nf3"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          63434,
+          30915,
+          4162,
+          3479,
+          645,
+          1547
+        ],
+        "winrates": [
+          54.890122016584165,
+          54.29241468542778,
+          56.2349831811629,
+          57.15722908881863,
+          58.837209302325576,
+          55.623787976729155
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e4-qd4-nc3-nf6-nf3-rywdnp",
+      "name": "After Nc3 Nf6 Nf3",
+      "moves": [
+        "dxc4",
+        "e4",
+        "Qd4",
+        "Nc3",
+        "Nf6",
+        "Nf3"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          63434,
+          30915,
+          1629,
+          1351,
+          554,
+          685
+        ],
+        "winrates": [
+          54.890122016584165,
+          54.29241468542778,
+          58.348680171884595,
+          59.881569207994076,
+          56.768953068592054,
+          56.35036496350365
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e4-c6-bxc4-xbytat",
+      "name": "Bxc4 Line",
+      "moves": [
+        "dxc4",
+        "e4",
+        "c6",
+        "Bxc4"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          63434,
+          30915,
+          892,
+          836
+        ],
+        "winrates": [
+          54.890122016584165,
+          54.29241468542778,
+          57.23094170403588,
+          58.55263157894737
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e4-b5-a4-c6-b3-ip0e5x",
+      "name": "b3 Line",
+      "moves": [
+        "dxc4",
+        "e4",
+        "b5",
+        "a4",
+        "c6",
+        "b3"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          63434,
+          30915,
+          4993,
+          2566,
+          2089,
+          526
+        ],
+        "winrates": [
+          54.890122016584165,
+          54.29241468542778,
+          53.18445824153816,
+          56.11847233047544,
+          55.88798468166587,
+          61.50190114068441
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e4-b5-a4-c6-axb5-kwfzwn",
+      "name": "cxb5 Line",
+      "moves": [
+        "dxc4",
+        "e4",
+        "b5",
+        "a4",
+        "c6",
+        "axb5",
+        "cxb5"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          63434,
+          30915,
+          4993,
+          2566,
+          2089,
+          944,
+          944
+        ],
+        "winrates": [
+          54.890122016584165,
+          54.29241468542778,
+          53.18445824153816,
+          56.11847233047544,
+          55.88798468166587,
+          55.720338983050844,
+          55.720338983050844
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e3-bf5-bxc4-5bczve",
+      "name": "After e3 Bf5 Bxc4",
+      "moves": [
+        "dxc4",
+        "e3",
+        "Bf5",
+        "Bxc4"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          63434,
+          17349,
+          936,
+          1237
+        ],
+        "winrates": [
+          54.890122016584165,
+          57.34912675082138,
+          56.891025641025635,
+          55.5375909458367
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e3-nf6-bxc4-nc6-nf3-x3wviy",
+      "name": "Qb3 Line",
+      "moves": [
+        "dxc4",
+        "e3",
+        "Nf6",
+        "Bxc4",
+        "Nc6",
+        "Nf3",
+        "Bg4",
+        "Qb3"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          63434,
+          17349,
+          3767,
+          4272,
+          978,
+          1560,
+          2123,
+          566
+        ],
+        "winrates": [
+          54.890122016584165,
+          57.34912675082138,
+          53.76957791345899,
+          53.61657303370787,
+          57.20858895705522,
+          59.35897435897436,
+          58.92604804521903,
+          72.6148409893993
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e3-nf6-bxc4-e6-nf3-u9mn44",
+      "name": "Nc3 Line",
+      "moves": [
+        "dxc4",
+        "e3",
+        "Nf6",
+        "Bxc4",
+        "e6",
+        "Nf3",
+        "Nc6",
+        "Nc3"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          63434,
+          17349,
+          3767,
+          4272,
+          1594,
+          2285,
+          1246,
+          955
+        ],
+        "winrates": [
+          54.890122016584165,
+          57.34912675082138,
+          53.76957791345899,
+          53.61657303370787,
+          51.53701380175659,
+          52.01312910284464,
+          56.26003210272873,
+          57.434554973821996
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e3-nf6-bxc4-e6-nf3-3bv1qu",
+      "name": "O-O Line",
+      "moves": [
+        "dxc4",
+        "e3",
+        "Nf6",
+        "Bxc4",
+        "e6",
+        "Nf3",
+        "Bd6",
+        "O-O"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          63434,
+          17349,
+          3767,
+          4272,
+          1594,
+          2285,
+          740,
+          521
+        ],
+        "winrates": [
+          54.890122016584165,
+          57.34912675082138,
+          53.76957791345899,
+          53.61657303370787,
+          51.53701380175659,
+          52.01312910284464,
+          57.027027027027025,
+          56.90978886756238
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e3-nf6-bxc4-e6-nf3-g6yt4y",
+      "name": "Bc5 Line",
+      "moves": [
+        "dxc4",
+        "e3",
+        "Nf6",
+        "Bxc4",
+        "e6",
+        "Nf3",
+        "Nc6",
+        "O-O",
+        "Bc5"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          63434,
+          17349,
+          3767,
+          4272,
+          1594,
+          2285,
+          1246,
+          2140,
+          868
+        ],
+        "winrates": [
+          54.890122016584165,
+          57.34912675082138,
+          53.76957791345899,
+          53.61657303370787,
+          51.53701380175659,
+          52.01312910284464,
+          56.26003210272873,
+          56.51869158878504,
+          56.5668202764977
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "mujannah-dxc4-e3-nf6-bxc4-nc6-nf3-si07uo",
+      "name": "After Nf3 e6 Nc3",
+      "moves": [
+        "dxc4",
+        "e3",
+        "Nf6",
+        "Bxc4",
+        "Nc6",
+        "Nf3",
+        "e6",
+        "Nc3"
+      ],
+      "eco": "A03",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          63434,
+          17349,
+          3767,
+          4272,
+          978,
+          1560,
+          1851,
+          955
+        ],
+        "winrates": [
+          54.890122016584165,
+          57.34912675082138,
+          53.76957791345899,
+          53.61657303370787,
+          57.20858895705522,
+          59.35897435897436,
+          57.80659103187467,
+          57.434554973821996
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:54:27.294Z"
+}

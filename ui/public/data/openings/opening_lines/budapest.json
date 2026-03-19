@@ -1,0 +1,1132 @@
+{
+  "opening": "budapest",
+  "openingId": "budapest",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "budapest-line-0",
+      "name": "Fajarowicz, Steiner variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e5",
+        "dxe5",
+        "Ne4",
+        "Qc2"
+      ],
+      "eco": "A51"
+    },
+    {
+      "id": "budapest-line-1",
+      "name": "Adler variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e5",
+        "dxe5",
+        "Ng4",
+        "Nf3"
+      ],
+      "eco": "A52"
+    },
+    {
+      "id": "budapest-line-2",
+      "name": "Rubinstein variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e5",
+        "dxe5",
+        "Ng4",
+        "Bf4"
+      ],
+      "eco": "A52"
+    },
+    {
+      "id": "budapest-line-3",
+      "name": "Alekhine variation, Balogh gambit",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e5",
+        "dxe5",
+        "Ng4",
+        "e4",
+        "d6"
+      ],
+      "eco": "A52"
+    },
+    {
+      "id": "budapest-line-4",
+      "name": "Alekhine, Abonyi variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e5",
+        "dxe5",
+        "Ng4",
+        "e4",
+        "Nxe5",
+        "f4",
+        "Nec6"
+      ],
+      "eco": "A52"
+    },
+    {
+      "id": "budapest-dxe5-ng8-bf4-3hvumf",
+      "name": "Bf4 Line",
+      "moves": [
+        "dxe5",
+        "Ng8",
+        "Bf4"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          5552354,
+          15509,
+          573
+        ],
+        "winrates": [
+          51.79053785115286,
+          58.53697852859629,
+          62.129144851657934
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-bc5-exf6-h67x5n",
+      "name": "exf6 Line",
+      "moves": [
+        "dxe5",
+        "Bc5",
+        "exf6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          5552354,
+          1061,
+          624
+        ],
+        "winrates": [
+          51.79053785115286,
+          71.39491046182846,
+          76.6025641025641
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-nc6-exf6-pz8vwo",
+      "name": "After dxe5 Nc6 exf6",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "exf6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          5552354,
+          698,
+          570
+        ],
+        "winrates": [
+          51.79053785115286,
+          69.48424068767909,
+          73.7719298245614
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-d6-exf6-qxf6-qldor3",
+      "name": "Qxf6 Line",
+      "moves": [
+        "dxe5",
+        "d6",
+        "exf6",
+        "Qxf6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          5552354,
+          664,
+          1315,
+          1034
+        ],
+        "winrates": [
+          51.79053785115286,
+          72.13855421686746,
+          75.93155893536122,
+          74.03288201160542
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-bf4-c6-f1eh4l",
+      "name": "c6 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Bf4",
+        "c6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5552354,
+          4802697,
+          1055111,
+          607
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          55.949042328247934,
+          66.39209225700165
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-e3-nc6-qxg4-nxe5-86p1jn",
+      "name": "Bd2 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "e3",
+        "Nc6",
+        "Qxg4",
+        "Nxe5",
+        "Qd1",
+        "Bb4+",
+        "Bd2"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5552354,
+          4802697,
+          202158,
+          12759,
+          9373,
+          3015,
+          1828,
+          729,
+          612
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          58.829479911752195,
+          75.40559604984716,
+          80.902592553078,
+          79.56882255389718,
+          81.01750547045951,
+          80.65843621399176,
+          81.5359477124183
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nh3-bb4--bd2-ar98qx",
+      "name": "After Nh3 Bb4+ Bd2",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nh3",
+        "Bb4+",
+        "Bd2"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5552354,
+          4802697,
+          30890,
+          1079,
+          911
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          60.01456782130139,
+          63.345690454124195,
+          63.61141602634468
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-qe7-e3-nxe5-xc2n42",
+      "name": "Nxe5 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Qe7",
+        "e3",
+        "Nxe5"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          6821,
+          797,
+          646
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          58.20260958803695,
+          60.35131744040151,
+          59.82972136222911
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nxf2-kxf2-bc5--ok2e82",
+      "name": "O-O Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nxf2",
+        "Kxf2",
+        "Bc5+",
+        "e3",
+        "O-O"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1268,
+          3047,
+          3335,
+          1949,
+          1269
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          60.84384858044164,
+          61.91335740072203,
+          63.283358320839575,
+          64.46895844022575,
+          64.10559495665879
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nxe5-nxe5-l1dheo",
+      "name": "After Nf3 Nxe5 Nxe5",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nxe5",
+        "Nxe5"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1243,
+          1070
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          78.55993563958165,
+          80.65420560747664
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-f6-exf6-qxf6-2jk2vl",
+      "name": "After f6 exf6 Qxf6",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "f6",
+        "exf6",
+        "Qxf6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1095,
+          837,
+          574
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          60.136986301369866,
+          60.215053763440864,
+          59.49477351916377
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-d5-cxd5-bb4--ipws9s",
+      "name": "Nc3 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "d5",
+        "cxd5",
+        "Bb4+",
+        "Nc3"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          962,
+          500,
+          815,
+          540
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          57.06860706860707,
+          63.4,
+          67.97546012269939,
+          68.42592592592592
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-c6-h3-jg9ihk",
+      "name": "h3 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "c6",
+        "h3"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          919,
+          514
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          65.83242655059848,
+          65.1750972762646
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-e3-qe7-l5x76l",
+      "name": "Qe7 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "e3",
+        "Qe7"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          177838,
+          543
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          55.86123325723411,
+          58.195211786372006
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-qe7-bpb89a",
+      "name": "gxf3 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "Qe7",
+        "Nc3",
+        "Ngxe5",
+        "Nd5",
+        "Nxf3+",
+        "gxf3"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          36660,
+          12501,
+          9149,
+          1157,
+          759,
+          759
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          56.689852700490995,
+          65.18278537716982,
+          65.38966007213904,
+          69.23076923076923,
+          67.06192358366272,
+          67.06192358366272
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-d6-xf2qek",
+      "name": "After Nc3 Ngxe5 Nxe5",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "d6",
+        "Nc3",
+        "Ngxe5",
+        "Nxe5"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          11515,
+          1838,
+          531,
+          629
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          57.27746417716023,
+          58.26985854189336,
+          58.28625235404896,
+          57.710651828298886
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-g5-yuq7zr",
+      "name": "After Bxg5 Be7 Bf4",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "g5",
+        "Bxg5",
+        "Be7",
+        "Bf4"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          2051,
+          1319,
+          1003,
+          561
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          63.82252559726962,
+          68.91584533737681,
+          65.20438683948156,
+          67.46880570409982
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-h6-itwzr",
+      "name": "g5 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "h6",
+        "h3",
+        "g5"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          1126,
+          846,
+          664
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          69.04973357015986,
+          73.87706855791963,
+          72.28915662650603
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-bb4--yo23x8",
+      "name": "gxh6 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "Bb4+",
+        "Nbd2",
+        "O-O",
+        "h3",
+        "Nh6",
+        "Bxh6",
+        "gxh6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          822900,
+          446486,
+          6188,
+          2032,
+          1244,
+          817,
+          812
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          52.24261757200146,
+          50.79565764660035,
+          63.27569489334195,
+          67.66732283464567,
+          62.86173633440515,
+          61.50550795593636,
+          61.268472906403936
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-bb4--dowe11",
+      "name": "After Nxe5 Bxe5 Qe7",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "Bb4+",
+        "Nbd2",
+        "Ngxe5",
+        "Nxe5",
+        "Nxe5",
+        "Bxe5",
+        "Qe7"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          822900,
+          446486,
+          3396,
+          2817,
+          1575,
+          1498,
+          506
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          52.24261757200146,
+          50.79565764660035,
+          82.25853945818609,
+          84.91302804401846,
+          82.6984126984127,
+          86.31508678237651,
+          80.9288537549407
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-bb4--9iw8hg",
+      "name": "Ngxe5 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "Bb4+",
+        "Nbd2",
+        "Bc5",
+        "e3",
+        "Qe7",
+        "Be2",
+        "Ngxe5"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          822900,
+          446486,
+          1960,
+          2009,
+          1377,
+          736,
+          630
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          52.24261757200146,
+          50.79565764660035,
+          58.392857142857146,
+          59.23344947735192,
+          58.53304284676833,
+          59.2391304347826,
+          57.85714285714286
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-bb4--8is2az",
+      "name": "e3 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "Bb4+",
+        "Nbd2",
+        "Bxd2+",
+        "Qxd2",
+        "Qe7",
+        "Qc3",
+        "Qc5",
+        "e3"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          822900,
+          446486,
+          1709,
+          1690,
+          1766,
+          529,
+          656,
+          598
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          52.24261757200146,
+          50.79565764660035,
+          62.0245757753072,
+          62.189349112426044,
+          60.56058890147226,
+          65.87901701323251,
+          69.4359756097561,
+          70.40133779264214
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-bb4--1ums76",
+      "name": "cxd6 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "Bb4+",
+        "Nbd2",
+        "Qe7",
+        "e3",
+        "d6",
+        "exd6",
+        "cxd6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          822900,
+          446486,
+          475344,
+          252408,
+          780,
+          734,
+          524
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          52.24261757200146,
+          50.79565764660035,
+          51.20901915244539,
+          59.92381382523533,
+          65.76923076923077,
+          66.68937329700273,
+          68.89312977099237
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-bb4--aha539",
+      "name": "a6 Line",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "Bb4+",
+        "Nbd2",
+        "Qe7",
+        "e3",
+        "Ngxe5",
+        "Nxe5",
+        "Nxe5",
+        "Be2",
+        "a6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          822900,
+          446486,
+          475344,
+          252408,
+          218916,
+          161690,
+          161193,
+          142577,
+          810
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          52.24261757200146,
+          50.79565764660035,
+          51.20901915244539,
+          59.92381382523533,
+          59.73638290485849,
+          60.507761766343,
+          60.51193290031205,
+          61.310379654502476,
+          64.50617283950618
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "budapest-dxe5-ng4-nf3-nc6-bf4-bb4--ogm2q1",
+      "name": "After Nxe5 Be2 a6",
+      "moves": [
+        "dxe5",
+        "Ng4",
+        "Nf3",
+        "Nc6",
+        "Bf4",
+        "Bb4+",
+        "Nbd2",
+        "Qe7",
+        "e3",
+        "Ncxe5",
+        "Nxe5",
+        "Nxe5",
+        "Be2",
+        "a6"
+      ],
+      "eco": "A51",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          5552354,
+          4802697,
+          2499314,
+          1202643,
+          484019,
+          822900,
+          446486,
+          475344,
+          252408,
+          13920,
+          10465,
+          10448,
+          142577,
+          810
+        ],
+        "winrates": [
+          51.79053785115286,
+          52.0288079801828,
+          50.116091855605184,
+          51.165724159206015,
+          48.36411380544979,
+          52.24261757200146,
+          50.79565764660035,
+          51.20901915244539,
+          59.92381382523533,
+          60.391522988505756,
+          60.826564739608216,
+          60.844180704441044,
+          61.310379654502476,
+          64.50617283950618
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:42:17.740Z"
+}

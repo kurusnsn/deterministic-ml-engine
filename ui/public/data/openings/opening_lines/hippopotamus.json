@@ -1,0 +1,183 @@
+{
+  "opening": "hippopotamus",
+  "openingId": "hippopotamus",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "hippopotamus-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "Nh6",
+        "d4",
+        "g6",
+        "c4",
+        "f6"
+      ],
+      "eco": "B00"
+    },
+    {
+      "id": "hippopotamus-h4-nf7-h5-g5-v0yzgh",
+      "name": "g5 Line",
+      "moves": [
+        "h4",
+        "Nf7",
+        "h5",
+        "g5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          884,
+          885,
+          772,
+          678
+        ],
+        "winrates": [
+          59.38914027149321,
+          59.83050847457627,
+          60.23316062176166,
+          59.882005899705014
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "hippopotamus-nc3-nf7-h4-bg7-h5-g5-pjonph",
+      "name": "Bxh6 Line",
+      "moves": [
+        "Nc3",
+        "Nf7",
+        "h4",
+        "Bg7",
+        "h5",
+        "g5",
+        "h6",
+        "Bxh6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          25500,
+          82770,
+          3210,
+          2965,
+          6243,
+          5373,
+          1460,
+          1103
+        ],
+        "winrates": [
+          47.61176470588235,
+          48.06028754379606,
+          56.137071651090345,
+          56.138279932546375,
+          57.2961717123178,
+          56.60710962218501,
+          62.636986301369866,
+          60.924750679963736
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "hippopotamus-nc3-nf7-f4-bg7-nf3-o-o-f94ssu",
+      "name": "h5 Line",
+      "moves": [
+        "Nc3",
+        "Nf7",
+        "f4",
+        "Bg7",
+        "Nf3",
+        "O-O",
+        "h4",
+        "d6",
+        "h5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          25500,
+          82770,
+          28898,
+          27109,
+          46429,
+          36455,
+          1205,
+          654,
+          705
+        ],
+        "winrates": [
+          47.61176470588235,
+          48.06028754379606,
+          49.53456986642674,
+          49.23641595042237,
+          49.65646470955652,
+          48.190920312714304,
+          59.25311203319502,
+          57.49235474006116,
+          56.95035460992908
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "hippopotamus-nc3-nf7-f4-e6-nf3-bg7-jp15ne",
+      "name": "O-O Line",
+      "moves": [
+        "Nc3",
+        "Nf7",
+        "f4",
+        "e6",
+        "Nf3",
+        "Bg7",
+        "Bd3",
+        "c6",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          25500,
+          82770,
+          28898,
+          1395,
+          3022,
+          2527,
+          5539,
+          501,
+          534
+        ],
+        "winrates": [
+          47.61176470588235,
+          48.06028754379606,
+          49.53456986642674,
+          53.18996415770609,
+          54.08669755129054,
+          54.19469726948951,
+          52.36504784257087,
+          55.38922155688623,
+          55.99250936329588
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:43:47.848Z"
+}

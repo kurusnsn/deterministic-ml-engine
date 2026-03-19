@@ -1,0 +1,882 @@
+{
+  "opening": "english",
+  "openingId": "english",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "english-line-0",
+      "name": "Jaenisch gambit",
+      "moves": [
+        "c4",
+        "b5"
+      ],
+      "eco": "A10"
+    },
+    {
+      "id": "english-line-1",
+      "name": "Anglo-Dutch defense",
+      "moves": [
+        "c4",
+        "f5"
+      ],
+      "eco": "A10"
+    },
+    {
+      "id": "english-line-2",
+      "name": "Main Line (A15)",
+      "moves": [
+        "c4",
+        "Nf6",
+        "b4"
+      ],
+      "eco": "A15"
+    },
+    {
+      "id": "english-line-3",
+      "name": "Main Line (A15)",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nf3"
+      ],
+      "eco": "A15"
+    },
+    {
+      "id": "english-line-4",
+      "name": "Adorjan defence",
+      "moves": [
+        "c4",
+        "g6",
+        "e4",
+        "e5"
+      ],
+      "eco": "A10"
+    },
+    {
+      "id": "english-line-5",
+      "name": "Main Line (A20)",
+      "moves": [
+        "c4",
+        "e5",
+        "Nf3",
+        "e4"
+      ],
+      "eco": "A20"
+    },
+    {
+      "id": "english-line-6",
+      "name": "Main Line (A21)",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Bb4"
+      ],
+      "eco": "A21"
+    },
+    {
+      "id": "english-line-7",
+      "name": "Caro-Kann defensive system, Bogolyubov variation",
+      "moves": [
+        "c4",
+        "c6",
+        "Nf3",
+        "d5",
+        "b3",
+        "Bg4"
+      ],
+      "eco": "A12"
+    },
+    {
+      "id": "english-line-8",
+      "name": "Kurajica defence",
+      "moves": [
+        "c4",
+        "e6",
+        "Nf3",
+        "d5",
+        "g3",
+        "c6"
+      ],
+      "eco": "A13"
+    },
+    {
+      "id": "english-line-9",
+      "name": "Nimzo-English opening",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nc3",
+        "e6",
+        "Nf3",
+        "Bb4"
+      ],
+      "eco": "A17"
+    },
+    {
+      "id": "english-line-10",
+      "name": "Mikenas-Carls, Kevitz variation",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nc3",
+        "e6",
+        "e4",
+        "Nc6"
+      ],
+      "eco": "A18"
+    },
+    {
+      "id": "english-line-11",
+      "name": "Mikenas-Carls, Sicilian variation",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nc3",
+        "e6",
+        "e4",
+        "c5"
+      ],
+      "eco": "A19"
+    },
+    {
+      "id": "english-line-12",
+      "name": "Main Line (A21)",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "d6",
+        "g3",
+        "c6"
+      ],
+      "eco": "A21"
+    },
+    {
+      "id": "english-line-13",
+      "name": "Main Line (A21)",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "d6",
+        "Nf3",
+        "Bg4"
+      ],
+      "eco": "A21"
+    },
+    {
+      "id": "english-line-14",
+      "name": "Bremen, reverse dragon",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "g3",
+        "d5"
+      ],
+      "eco": "A22"
+    },
+    {
+      "id": "english-line-15",
+      "name": "Bremen, Smyslov system",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "g3",
+        "Bb4"
+      ],
+      "eco": "A22"
+    },
+    {
+      "id": "english-line-16",
+      "name": "Bremen system, Keres variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "g3",
+        "c6"
+      ],
+      "eco": "A23"
+    },
+    {
+      "id": "english-line-17",
+      "name": "Bremen system with ...g6",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "g3",
+        "g6"
+      ],
+      "eco": "A24"
+    },
+    {
+      "id": "english-line-18",
+      "name": "symmetrical, four knights system",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6"
+      ],
+      "eco": "A35"
+    },
+    {
+      "id": "english-line-19",
+      "name": "Mikenas-Carls, Flohr variation",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nc3",
+        "e6",
+        "e4",
+        "d5",
+        "e5"
+      ],
+      "eco": "A18"
+    },
+    {
+      "id": "english-line-20",
+      "name": "four knights, Nimzovich variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "e4"
+      ],
+      "eco": "A28"
+    },
+    {
+      "id": "english-line-21",
+      "name": "four knights, Marini variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "a3"
+      ],
+      "eco": "A28"
+    },
+    {
+      "id": "english-line-22",
+      "name": "four knights, Capablanca variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "d3"
+      ],
+      "eco": "A28"
+    },
+    {
+      "id": "english-line-23",
+      "name": "four knights, kingside fianchetto",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "g3"
+      ],
+      "eco": "A29"
+    },
+    {
+      "id": "english-line-24",
+      "name": "Torre defensive system",
+      "moves": [
+        "c4",
+        "c6",
+        "Nf3",
+        "d5",
+        "b3",
+        "Nf6",
+        "g3",
+        "Bg4"
+      ],
+      "eco": "A12"
+    },
+    {
+      "id": "english-line-25",
+      "name": "London defensive system",
+      "moves": [
+        "c4",
+        "c6",
+        "Nf3",
+        "d5",
+        "b3",
+        "Nf6",
+        "g3",
+        "Bf5"
+      ],
+      "eco": "A12"
+    },
+    {
+      "id": "english-line-26",
+      "name": "Bled variation",
+      "moves": [
+        "c4",
+        "c6",
+        "Nf3",
+        "d5",
+        "b3",
+        "Nf6",
+        "Bb2",
+        "g6"
+      ],
+      "eco": "A12"
+    },
+    {
+      "id": "english-line-27",
+      "name": "New York (London) defensive system",
+      "moves": [
+        "c4",
+        "c6",
+        "Nf3",
+        "d5",
+        "b3",
+        "Nf6",
+        "Bb2",
+        "Bf5"
+      ],
+      "eco": "A12"
+    },
+    {
+      "id": "english-line-28",
+      "name": "Capablanca's variation",
+      "moves": [
+        "c4",
+        "c6",
+        "Nf3",
+        "d5",
+        "b3",
+        "Nf6",
+        "Bb2",
+        "Bg4"
+      ],
+      "eco": "A12"
+    },
+    {
+      "id": "english-line-29",
+      "name": "Romanishin gambit",
+      "moves": [
+        "c4",
+        "e6",
+        "Nf3",
+        "Nf6",
+        "g3",
+        "a6",
+        "Bg2",
+        "b5"
+      ],
+      "eco": "A13"
+    },
+    {
+      "id": "english-line-30",
+      "name": "Neo-Catalan accepted",
+      "moves": [
+        "c4",
+        "e6",
+        "Nf3",
+        "d5",
+        "g3",
+        "Nf6",
+        "Bg2",
+        "dxc4"
+      ],
+      "eco": "A13"
+    },
+    {
+      "id": "english-line-31",
+      "name": "Main Line (A21)",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "d6",
+        "g3",
+        "Be6",
+        "Bg2",
+        "Nc6"
+      ],
+      "eco": "A21"
+    },
+    {
+      "id": "english-line-32",
+      "name": "Bellon gambit",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "e4",
+        "Ng5",
+        "b5"
+      ],
+      "eco": "A22"
+    },
+    {
+      "id": "english-line-33",
+      "name": "Bradley Beach variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "d4",
+        "e4"
+      ],
+      "eco": "A28"
+    },
+    {
+      "id": "english-line-34",
+      "name": "symmetrical, three knights system",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "d5",
+        "cxd5",
+        "Nxd5"
+      ],
+      "eco": "A34"
+    },
+    {
+      "id": "english-line-35",
+      "name": "Wimpey system",
+      "moves": [
+        "c4",
+        "e6",
+        "Nf3",
+        "d5",
+        "b3",
+        "Nf6",
+        "Bb2",
+        "c5",
+        "e3"
+      ],
+      "eco": "A13"
+    },
+    {
+      "id": "english-line-36",
+      "name": "Queens Indian, Romanishin variation",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nc3",
+        "e6",
+        "Nf3",
+        "b6",
+        "e4",
+        "Bb7",
+        "Bd3"
+      ],
+      "eco": "A17"
+    },
+    {
+      "id": "english-line-37",
+      "name": "symmetrical, Botvinnik system",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "e4"
+      ],
+      "eco": "A36"
+    },
+    {
+      "id": "english-line-38",
+      "name": "Anglo-Gruenfeld, Smyslov defense",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nc3",
+        "d5",
+        "cxd5",
+        "Nxd5",
+        "g3",
+        "g6",
+        "Bg2",
+        "Nxc3"
+      ],
+      "eco": "A16"
+    },
+    {
+      "id": "english-line-39",
+      "name": "Anglo-Gruenfeld, Czech defense",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nc3",
+        "d5",
+        "cxd5",
+        "Nxd5",
+        "g3",
+        "g6",
+        "Bg2",
+        "Nb6"
+      ],
+      "eco": "A16"
+    },
+    {
+      "id": "english-line-40",
+      "name": "closed, 5.Rb1 Taimanov variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Rb1",
+        "Nh6"
+      ],
+      "eco": "A25"
+    },
+    {
+      "id": "english-line-41",
+      "name": "four knights, Romanishin variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "Bb4",
+        "Qc2",
+        "Bxc3"
+      ],
+      "eco": "A28"
+    },
+    {
+      "id": "english-line-42",
+      "name": "symmetrical, Rubinstein system",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nf6",
+        "g3",
+        "d5",
+        "cxd5",
+        "Nxd5",
+        "Bg2",
+        "Nc7"
+      ],
+      "eco": "A34"
+    },
+    {
+      "id": "english-line-43",
+      "name": "symmetrical, Botvinnik system reversed (A36)",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "e3",
+        "e5"
+      ],
+      "eco": "A36"
+    },
+    {
+      "id": "english-line-44",
+      "name": "symmetrical, Botvinnik system reversed (A37)",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Nf3",
+        "e5"
+      ],
+      "eco": "A37"
+    },
+    {
+      "id": "english-line-45",
+      "name": "Botvinnik system",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "d3",
+        "d6",
+        "e4"
+      ],
+      "eco": "A26"
+    },
+    {
+      "id": "english-line-46",
+      "name": "Anglo-Gruenfeld defense, Korchnoi variation",
+      "moves": [
+        "c4",
+        "Nf6",
+        "Nc3",
+        "d5",
+        "cxd5",
+        "Nxd5",
+        "Nf3",
+        "g6",
+        "g3",
+        "Bg7",
+        "Bg2",
+        "e5"
+      ],
+      "eco": "A16"
+    },
+    {
+      "id": "english-line-47",
+      "name": "closed, Taimanov variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "e3",
+        "d6",
+        "Nge2",
+        "Nh6"
+      ],
+      "eco": "A25"
+    },
+    {
+      "id": "english-line-48",
+      "name": "closed, Hort variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "e3",
+        "d6",
+        "Nge2",
+        "Be6"
+      ],
+      "eco": "A25"
+    },
+    {
+      "id": "english-line-49",
+      "name": "symmetrical, Geller variation",
+      "moves": [
+        "c4",
+        "c5",
+        "Nf3",
+        "Nf6",
+        "d4",
+        "cxd4",
+        "Nxd4",
+        "e6",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "Qb6"
+      ],
+      "eco": "A33"
+    },
+    {
+      "id": "english-line-50",
+      "name": "four knights, Stean variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "Bb4",
+        "Qc2",
+        "O-O",
+        "Nd5",
+        "Re8",
+        "Qf5"
+      ],
+      "eco": "A28"
+    },
+    {
+      "id": "english-line-51",
+      "name": "symmetrical, main line with d3",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Nf3",
+        "Nf6",
+        "O-O",
+        "O-O",
+        "d3"
+      ],
+      "eco": "A38"
+    },
+    {
+      "id": "english-line-52",
+      "name": "symmetrical, main line with b3",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Nf3",
+        "Nf6",
+        "O-O",
+        "O-O",
+        "b3"
+      ],
+      "eco": "A38"
+    },
+    {
+      "id": "english-line-53",
+      "name": "symmetrical, main line with d4",
+      "moves": [
+        "c4",
+        "c5",
+        "Nc3",
+        "Nc6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Nf3",
+        "Nf6",
+        "O-O",
+        "O-O",
+        "d4"
+      ],
+      "eco": "A39"
+    },
+    {
+      "id": "english-line-54",
+      "name": "Symmetrical, Keres defence",
+      "moves": [
+        "c4",
+        "e6",
+        "Nf3",
+        "d5",
+        "g3",
+        "Nf6",
+        "Bg2",
+        "Be7",
+        "O-O",
+        "c5",
+        "cxd5",
+        "Nxd5",
+        "Nc3",
+        "Nc6"
+      ],
+      "eco": "A14"
+    },
+    {
+      "id": "english-line-55",
+      "name": "Nenarokov variation",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "Nxd4",
+        "Bb4",
+        "Bg5",
+        "h6",
+        "Bh4",
+        "Bxc3+",
+        "bxc3",
+        "Ne5"
+      ],
+      "eco": "A28"
+    },
+    {
+      "id": "english-line-56",
+      "name": "symmetrical, hedgehog, flexible formation",
+      "moves": [
+        "c4",
+        "c5",
+        "Nf3",
+        "Nf6",
+        "g3",
+        "b6",
+        "Bg2",
+        "Bb7",
+        "O-O",
+        "e6",
+        "Nc3",
+        "Be7",
+        "d4",
+        "cxd4",
+        "Qxd4",
+        "d6",
+        "Rd1",
+        "a6",
+        "b3",
+        "Nbd7"
+      ],
+      "eco": "A30"
+    }
+  ],
+  "generatedAt": "1.0"
+}

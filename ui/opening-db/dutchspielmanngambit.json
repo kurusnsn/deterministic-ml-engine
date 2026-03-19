@@ -1,0 +1,77 @@
+{
+  "id": "dutch-spielmann-gambit",
+  "name": "Spielmann gambit",
+  "opening": "Spielmann gambit",
+  "generatedAt": "2026-01-03T19:42:25.277Z",
+  "lines": [
+    {
+      "id": "dutch-spielmann-gambit-fxg4-e4-750l4z",
+      "name": "Spielmann gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "e4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3076,
+          2437
+        ],
+        "winrates": [
+          57.00585175552666,
+          57.591300779647106
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-spielmann-gambit-nxg4-e4-48z4m3",
+      "name": "Spielmann gambit: Nxg4 Forcing Line",
+      "moves": [
+        "Nxg4",
+        "e4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1750,
+          1315
+        ],
+        "winrates": [
+          56.628571428571426,
+          57.68060836501901
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-spielmann-gambit-e6-g5-1kip3e",
+      "name": "Spielmann gambit: e6 Forcing Line",
+      "moves": [
+        "e6",
+        "g5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1686,
+          1303
+        ],
+        "winrates": [
+          55.84223013048636,
+          56.86876438986953
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

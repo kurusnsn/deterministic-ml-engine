@@ -1,0 +1,31 @@
+{
+  "id": "english-english-romanishin-gambit",
+  "name": "English Romanishin gambit",
+  "opening": "English Romanishin gambit",
+  "generatedAt": "2026-01-03T19:30:23.770Z",
+  "lines": [
+    {
+      "id": "english-english-romanishin-gambit-cxb5-axb5-p6htld",
+      "name": "English Romanishin gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "axb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1132,
+          1147
+        ],
+        "winrates": [
+          58.657243816254415,
+          58.71839581517001
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "opening": "vienna gambit",
+  "openingId": "vienna-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "vienna-gambit-line-0",
+      "name": "Main Line (C25)",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "f4",
+        "exf4",
+        "Nf3"
+      ],
+      "eco": "C25"
+    },
+    {
+      "id": "vienna-gambit-line-1",
+      "name": "Main Line (C29)",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "f4",
+        "d5",
+        "d3"
+      ],
+      "eco": "C29"
+    },
+    {
+      "id": "vienna-gambit-line-2",
+      "name": "Breyer variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "f4",
+        "d5",
+        "fxe5",
+        "Nxe4",
+        "Nf3",
+        "Be7"
+      ],
+      "eco": "C29"
+    },
+    {
+      "id": "vienna-gambit-line-3",
+      "name": "Kaufmann variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "f4",
+        "d5",
+        "fxe5",
+        "Nxe4",
+        "Nf3",
+        "Bg4",
+        "Qe2"
+      ],
+      "eco": "C29"
+    },
+    {
+      "id": "vienna-gambit-line-4",
+      "name": "Heyde variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "f4",
+        "d5",
+        "fxe5",
+        "Nxe4",
+        "Qf3",
+        "f5",
+        "d4"
+      ],
+      "eco": "C29"
+    },
+    {
+      "id": "vienna-gambit-line-5",
+      "name": "Main Line (C29)",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "f4",
+        "d5",
+        "fxe5",
+        "Nxe4",
+        "d3",
+        "Qh4+",
+        "g3",
+        "Nxg3",
+        "Nf3",
+        "Qh5",
+        "Nxd5"
+      ],
+      "eco": "C29"
+    },
+    {
+      "id": "vienna-gambit-d6-be2-mu2sp8",
+      "name": "Be2 Line",
+      "moves": [
+        "d6",
+        "Be2"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          777089,
+          1017
+        ],
+        "winrates": [
+          56.153992657211724,
+          58.849557522123895
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-nf6-fxe5-d6-exf6-qxf6-4y8eea",
+      "name": "Qxf6 Line",
+      "moves": [
+        "Nf6",
+        "fxe5",
+        "d6",
+        "exf6",
+        "Qxf6"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          505748,
+          554303,
+          1751,
+          1425,
+          1154
+        ],
+        "winrates": [
+          57.960090796206806,
+          63.741311160141656,
+          69.01770416904625,
+          76.63157894736841,
+          72.74696707105718
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-bb4-nf3-f6-bc4-nge7-4bdlg7",
+      "name": "Nge7 Line",
+      "moves": [
+        "Bb4",
+        "Nf3",
+        "f6",
+        "Bc4",
+        "Nge7"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          183845,
+          128485,
+          1749,
+          4453,
+          1515
+        ],
+        "winrates": [
+          56.21393021295113,
+          57.133128380744836,
+          62.14979988564894,
+          66.76397933977094,
+          68.38283828382839
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-d5-exd5-nce7-fxe5-nxd5-nf3-lnlhlz",
+      "name": "bxc3 Line",
+      "moves": [
+        "d5",
+        "exd5",
+        "Nce7",
+        "fxe5",
+        "Nxd5",
+        "Nf3",
+        "Nxc3",
+        "bxc3"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          74623,
+          29126,
+          2940,
+          1794,
+          1734,
+          2910,
+          2028,
+          1879
+        ],
+        "winrates": [
+          55.1746780483229,
+          60.803062555792074,
+          63.74149659863946,
+          66.66666666666666,
+          66.66666666666666,
+          70.94501718213058,
+          71.57297830374753,
+          72.08621607237893
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-f6-bc4-d6-nf3-be6-yo50sd",
+      "name": "Be6 Line",
+      "moves": [
+        "f6",
+        "Bc4",
+        "d6",
+        "Nf3",
+        "Be6"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          44337,
+          2634,
+          1141,
+          3233,
+          1330
+        ],
+        "winrates": [
+          63.1041793535873,
+          67.55884586180714,
+          66.69588080631026,
+          62.89823693164244,
+          72.66917293233082
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-qh4--g3-qf6-fxe5-8m385s",
+      "name": "fxe5 Line",
+      "moves": [
+        "Qh4+",
+        "g3",
+        "Qf6",
+        "fxe5"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          23309,
+          22942,
+          6839,
+          1032
+        ],
+        "winrates": [
+          58.007636535243904,
+          58.24252462732107,
+          59.043719842082176,
+          62.2093023255814
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-bd6-nf3-nf6-fxe5-bxe5-d4-b5733a",
+      "name": "d4 Line",
+      "moves": [
+        "Bd6",
+        "Nf3",
+        "Nf6",
+        "fxe5",
+        "Bxe5",
+        "d4"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          15795,
+          10608,
+          4582,
+          4906,
+          1062,
+          1156
+        ],
+        "winrates": [
+          63.47578347578347,
+          64.80957767722474,
+          66.42295940637275,
+          74.02160619649409,
+          77.54237288135593,
+          81.79065743944636
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-qf6-fxe5-nxe5-d4-8ovx30",
+      "name": "After fxe5 Nxe5 d4",
+      "moves": [
+        "Qf6",
+        "fxe5",
+        "Nxe5",
+        "d4"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          11597,
+          2915,
+          2445,
+          1106
+        ],
+        "winrates": [
+          56.95438475467793,
+          57.718696397941684,
+          56.23721881390593,
+          65.77757685352623
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-d6-d4-be6-d5-d5u64r",
+      "name": "d5 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "d6",
+        "d4",
+        "Be6",
+        "d5"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          1504879,
+          1303995,
+          304314,
+          315761,
+          2380,
+          2033
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          55.9612768390544,
+          57.12754266676379,
+          66.97478991596638,
+          72.1593703885883
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-nf6-e5-nxe5-nxe5-hhpx3x",
+      "name": "Nxe5 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "Nf6",
+        "e5",
+        "Nxe5",
+        "Nxe5"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          1504879,
+          1303995,
+          230057,
+          76897,
+          1317,
+          1166
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          57.216472439438924,
+          59.14404983289335,
+          73.99392558845862,
+          74.05660377358491
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-bc5-d4-d6-dxc5-118ufn",
+      "name": "Kxd8 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "Bc5",
+        "d4",
+        "d6",
+        "dxc5",
+        "dxc5",
+        "Qxd8+",
+        "Kxd8"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          1504879,
+          1303995,
+          147272,
+          187225,
+          4750,
+          4502,
+          2888,
+          2459,
+          1079
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          57.58494486392526,
+          58.768059821070906,
+          74.2421052631579,
+          75.56641492669924,
+          74.54986149584487,
+          75.31516876779179,
+          77.89620018535682
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-bb4-nd5-d6-je7iaf",
+      "name": "d6 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "Bb4",
+        "Nd5",
+        "d6"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          1504879,
+          1303995,
+          118113,
+          13559,
+          1215
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          57.179988654932146,
+          58.9460874695774,
+          63.37448559670782
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-bd6-d4-nf6-e5-phfiqt",
+      "name": "e5 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "Bd6",
+        "d4",
+        "Nf6",
+        "e5"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          1504879,
+          1303995,
+          11386,
+          14172,
+          1631,
+          3718
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          66.87159669769893,
+          66.88893593000283,
+          78.08093194359289,
+          81.84507799892415
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g6-d4-bg7-bxf4-hottlh",
+      "name": "Qd2 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g6",
+        "d4",
+        "Bg7",
+        "Bxf4",
+        "d6",
+        "Qd2"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          1504879,
+          1303995,
+          10468,
+          8132,
+          6827,
+          5448,
+          3191,
+          1819
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          58.67883072220099,
+          59.296606000983765,
+          59.220741174747324,
+          60.91226138032305,
+          60.43560012535255,
+          63.111599780098956
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g5-h4-f6-nxg5-2xewbf",
+      "name": "Qxg5 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "f6",
+        "Nxg5",
+        "fxg5",
+        "Qh5+",
+        "Ke7",
+        "Qxg5+"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          1504879,
+          1303995,
+          349090,
+          58456,
+          4784,
+          1399,
+          1322,
+          1305,
+          2979,
+          1701
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          49.356326448766794,
+          57.01553305049952,
+          61.81020066889632,
+          73.87419585418155,
+          74.357034795764,
+          74.82758620689656,
+          73.27962403491104,
+          76.74897119341564
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g5-d4-bb4-d5-lsjkgq",
+      "name": "After d4 Bb4 d5",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g5",
+        "d4",
+        "Bb4",
+        "d5"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          1504879,
+          1303995,
+          349090,
+          134822,
+          5823,
+          1538
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          49.356326448766794,
+          46.83397368382015,
+          59.33367679890091,
+          65.6371911573472
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g5-d4-f6-bc4-rex7cp",
+      "name": "Bb4 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g5",
+        "d4",
+        "f6",
+        "Bc4",
+        "Bb4"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          1504879,
+          1303995,
+          349090,
+          134822,
+          2563,
+          2417,
+          1007
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          49.356326448766794,
+          46.83397368382015,
+          61.02223956301209,
+          60.65370293752586,
+          64.25024826216485
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g5-d4-g4-bc4-t3imoa",
+      "name": "Kxf7 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g5",
+        "d4",
+        "g4",
+        "Bc4",
+        "gxf3",
+        "O-O",
+        "fxg2",
+        "Bxf7+",
+        "Kxf7"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          1504879,
+          1303995,
+          349090,
+          134822,
+          53694,
+          14458,
+          16176,
+          4480,
+          2611,
+          1279,
+          1171
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          49.356326448766794,
+          46.83397368382015,
+          44.89514657131151,
+          55.58860146631622,
+          54.63649851632047,
+          62.91294642857142,
+          75.50746840291076,
+          81.31352619233776,
+          80.999146029035
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g5-d4-bg7-bc4-oxohtk",
+      "name": "Nxd4 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g5",
+        "d4",
+        "Bg7",
+        "Bc4",
+        "d6",
+        "h4",
+        "g4",
+        "Ng5",
+        "Nh6",
+        "Bxf4",
+        "Nxd4"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1504879,
+          1303995,
+          349090,
+          134822,
+          47025,
+          18909,
+          15861,
+          6964,
+          2111,
+          1716,
+          1747,
+          2247,
+          1451
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          49.356326448766794,
+          46.83397368382015,
+          43.640616693248276,
+          42.93722565973875,
+          41.98032910913562,
+          44.47874784606548,
+          55.16342965419233,
+          58.53729603729604,
+          58.7864911276474,
+          60.23587004895417,
+          58.54583046175051
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g5-bc4-bc5-d4-o27d8x",
+      "name": "O-O Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Bc5",
+        "d4",
+        "Bb4",
+        "O-O"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          1504879,
+          1303995,
+          349090,
+          110213,
+          2782,
+          7818,
+          2898,
+          2124
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          49.356326448766794,
+          49.45287760971936,
+          59.86700215672178,
+          61.863647991813764,
+          65.0448585231194,
+          63.74764595103578
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g5-bc4-nf6-nxg5-2as0u6",
+      "name": "Nxg5 Line",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Nf6",
+        "Nxg5"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          1504879,
+          1303995,
+          349090,
+          110213,
+          1212,
+          1360
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          49.356326448766794,
+          49.45287760971936,
+          62.08745874587459,
+          65.73529411764706
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-gambit-exf4-nf3-g5-bc4-g4-o-o-l0t7y0",
+      "name": "Variation 2",
+      "moves": [
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "d4",
+        "fxg2",
+        "Bxf7+",
+        "Kxf7"
+      ],
+      "eco": "C25",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          1504879,
+          1303995,
+          349090,
+          110213,
+          43064,
+          32598,
+          35324,
+          1339,
+          2611,
+          1279,
+          1171
+        ],
+        "winrates": [
+          53.95290917077054,
+          54.091081637582974,
+          49.356326448766794,
+          49.45287760971936,
+          54.3888166449935,
+          58.10785937787595,
+          57.75535046993545,
+          61.53846153846154,
+          75.50746840291076,
+          81.31352619233776,
+          80.999146029035
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T00:59:15.702Z"
+}

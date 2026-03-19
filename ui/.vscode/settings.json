@@ -1,0 +1,7 @@
+{
+  "chat.tools.global.autoApprove": true,
+  "chat.tools.autoApprove": true,
+  "chat.tools.edits.autoApprove": {
+    "**/*": true
+  }
+}

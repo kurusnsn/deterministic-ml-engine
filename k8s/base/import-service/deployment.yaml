@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: import-service
+  labels:
+    app: import-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: import-service
+  template:
+    metadata:
+      labels:
+        app: import-service
+    spec:
+      imagePullSecrets:
+        - name: ghcr-pull-secret
+        - name: gitlab-registry-creds
+      containers:
+        - name: import
+          image: ostadchess/import:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8000
+          envFrom:
+            - configMapRef:
+                name: env-config
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: database-url-secret
+                  key: DATABASE_URL
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "200m"
+          readinessProbe:
+            httpGet:
+              path: /healthz
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /healthz
+              port: 8000
+            initialDelaySeconds: 15
+            periodSeconds: 20

@@ -1,0 +1,67 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: ostadchess
+  namespace: argocd
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  description: OstadChess Application Project
+
+  # Source repositories (private repo)
+  sourceRepos:
+    - 'https://github.com/kurusnsn/deterministic-ml-engine.git'
+    - 'https://gitlab.com/kurusnsn-group/deterministic-ml-engine.git'
+
+  # Destination clusters and namespaces
+  destinations:
+    - namespace: ostadchess
+      server: https://kubernetes.default.svc
+    - namespace: ostadchess-dev
+      server: https://kubernetes.default.svc
+    - namespace: ostadchess-prod
+      server: https://kubernetes.default.svc
+    - namespace: chess-staging
+      server: https://kubernetes.default.svc
+    - namespace: monitoring
+      server: https://kubernetes.default.svc
+    - namespace: argocd
+      server: https://kubernetes.default.svc
+
+  # Allow creating cluster-level resources
+  clusterResourceWhitelist:
+    - group: ''
+      kind: Namespace
+    - group: networking.k8s.io
+      kind: IngressClass
+
+  # Allow all namespace-level resources
+  namespaceResourceWhitelist:
+    - group: '*'
+      kind: '*'
+
+  # Orphaned resource monitoring
+  orphanedResources:
+    warn: true
+    ignore:
+      - group: cert-manager.io
+        kind: ClusterIssuer
+        name: letsencrypt-prod
+      - group: cert-manager.io
+        kind: ClusterIssuer
+        name: letsencrypt-staging
+      - group: ""
+        kind: Secret
+        name: chessvector-staging-tls
+      - group: ""
+        kind: Secret
+        name: chessvector-tls
+      - group: ""
+        kind: Secret
+        name: ghcr-pull-secret
+      - group: ""
+        kind: Secret
+        name: ghcr-creds
+      - group: ""
+        kind: Secret
+        name: gitlab-registry-creds

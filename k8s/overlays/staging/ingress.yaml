@@ -1,0 +1,106 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ostadchess-ingress
+  annotations:
+    # TLS/HTTPS
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    
+    # Proxy settings
+    nginx.ingress.kubernetes.io/proxy-body-size: "50m"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "3600"
+    nginx.ingress.kubernetes.io/proxy-buffer-size: "16k"
+    
+    # ============================================
+    # ACCESS RESTRICTION - IP Whitelist
+    # ============================================
+    # Only allow access from your IP (update with: curl ifconfig.me)
+    nginx.ingress.kubernetes.io/whitelist-source-range: "85.230.96.242/32"
+    
+    # Basic Auth (disabled - using IP whitelist instead)
+    # nginx.ingress.kubernetes.io/auth-type: basic
+    # nginx.ingress.kubernetes.io/auth-secret: basic-auth-secret
+    # nginx.ingress.kubernetes.io/auth-realm: "ChessVector - Private Access"
+    
+    # ============================================
+    # Security Headers
+    # ============================================
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      add_header X-Frame-Options "SAMEORIGIN" always;
+      add_header X-Content-Type-Options "nosniff" always;
+      add_header X-XSS-Protection "1; mode=block" always;
+      add_header Referrer-Policy "strict-origin-when-cross-origin" always;
+    
+    # HSTS - Force HTTPS
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+    
+    # Rate limiting - prevent abuse
+    nginx.ingress.kubernetes.io/limit-rps: "200"
+    nginx.ingress.kubernetes.io/limit-connections: "100"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - ui.staging.chessvector.com
+        - gateway.staging.chessvector.com
+        - puzzle.staging.chessvector.com
+      secretName: chessvector-staging-tls
+  rules:
+    - host: ui.staging.chessvector.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: staging-ui
+                port:
+                  number: 3000
+    - host: gateway.staging.chessvector.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: staging-gateway-service
+                port:
+                  number: 8000
+    - host: puzzle.staging.chessvector.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: staging-puzzle-service
+                port:
+                  number: 8081
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ostadchess-webhook-ingress
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - gateway.staging.chessvector.com
+      secretName: chessvector-staging-tls
+  rules:
+    - host: gateway.staging.chessvector.com
+      http:
+        paths:
+          - path: /subscriptions/webhook
+            pathType: Exact
+            backend:
+              service:
+                name: staging-gateway-service
+                port:
+                  number: 8000

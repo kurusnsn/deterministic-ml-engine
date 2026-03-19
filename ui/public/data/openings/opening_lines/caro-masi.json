@@ -1,0 +1,820 @@
+{
+  "opening": "caro-masi",
+  "openingId": "caro-masi",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "caro-masi-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "Nf6"
+      ],
+      "eco": "B12"
+    },
+    {
+      "id": "caro-masi-e5-g6-exf6-exf6-flpf70",
+      "name": "exf6 Line",
+      "moves": [
+        "e5",
+        "g6",
+        "exf6",
+        "exf6"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          99730,
+          633,
+          618,
+          544
+        ],
+        "winrates": [
+          57.58447809084528,
+          68.24644549763033,
+          67.63754045307444,
+          64.79779411764706
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-nc3-e5-dxe5-nxe4-nxe4-dgzjqq",
+      "name": "Nxe4 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "dxe5",
+        "Nxe4",
+        "Nxe4"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          72077,
+          3914,
+          6321,
+          576,
+          556
+        ],
+        "winrates": [
+          55.70431621737863,
+          64.94634644864588,
+          68.65211200759373,
+          75.34722222222221,
+          76.61870503597122
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-bd3-e6-ne2-be7-o-o-1a4cqi",
+      "name": "O-O Line",
+      "moves": [
+        "Bd3",
+        "e6",
+        "Ne2",
+        "Be7",
+        "O-O"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          25908,
+          3343,
+          2615,
+          570,
+          673
+        ],
+        "winrates": [
+          56.46711440481704,
+          59.5572838767574,
+          61.5678776290631,
+          61.578947368421055,
+          61.06983655274889
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-nd2-e6-e5-nd5-c4-6t17pt",
+      "name": "c4 Line",
+      "moves": [
+        "Nd2",
+        "e6",
+        "e5",
+        "Nd5",
+        "c4"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          5080,
+          833,
+          1660,
+          1384,
+          890
+        ],
+        "winrates": [
+          56.38779527559055,
+          59.783913565426175,
+          63.795180722891565,
+          63.61994219653179,
+          64.15730337078651
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-qa5--sojc5z",
+      "name": "Qa5 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Qa5+"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          503
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          75.94433399602386
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-ng8-bd3-arkz8m",
+      "name": "Bd3 Line",
+      "moves": [
+        "e5",
+        "Ng8",
+        "Bd3"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          99730,
+          10211,
+          919
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.98756243267064,
+          58.43307943416758
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-ne4-f3-b53rvq",
+      "name": "f3 Line",
+      "moves": [
+        "e5",
+        "Ne4",
+        "f3"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          99730,
+          2598,
+          862
+        ],
+        "winrates": [
+          57.58447809084528,
+          67.05157813702847,
+          72.21577726218096
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-d5-exf6-exf6-bd3-bd6-w6s1zb",
+      "name": "h3 Line",
+      "moves": [
+        "e5",
+        "d5",
+        "exf6",
+        "exf6",
+        "Bd3",
+        "Bd6",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "Bg4",
+        "h3"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          99730,
+          1323,
+          1067,
+          11141,
+          2030,
+          1015,
+          529,
+          2369,
+          2279,
+          814,
+          525
+        ],
+        "winrates": [
+          57.58447809084528,
+          62.47165532879818,
+          64.1518275538894,
+          59.146396194237504,
+          64.23645320197045,
+          63.399014778325125,
+          62.66540642722117,
+          60.21528070915998,
+          60.09214567792892,
+          60.68796068796068,
+          61.61904761904762
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-d6-exf6-exf6-nf3-g6-odcds1",
+      "name": "Re1 Line",
+      "moves": [
+        "e5",
+        "d6",
+        "exf6",
+        "exf6",
+        "Nf3",
+        "g6",
+        "Bd3",
+        "Bg7",
+        "O-O",
+        "O-O",
+        "Re1"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          99730,
+          797,
+          14631,
+          8049,
+          4955,
+          1900,
+          1261,
+          1324,
+          1289,
+          1161,
+          994
+        ],
+        "winrates": [
+          57.58447809084528,
+          62.54705144291092,
+          63.560248786822505,
+          61.41135544788172,
+          62.38143289606458,
+          62.94736842105263,
+          63.164155432196665,
+          63.1797583081571,
+          65.166795965865,
+          63.95348837209303,
+          63.53118712273642
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-nf3-f6-v5xolv",
+      "name": "f6 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "Nf3",
+        "f6"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          99730,
+          84040,
+          24128,
+          603
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          55.659399867374006,
+          68.07628524046434
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-f4-e6-c4-nc7-xvxhs2",
+      "name": "d5 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "f4",
+        "e6",
+        "c4",
+        "Nc7",
+        "Nf3",
+        "d5"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          99730,
+          84040,
+          8376,
+          3817,
+          3472,
+          838,
+          1677,
+          539
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.15138490926457,
+          60.76761854859838,
+          60.901497695852534,
+          63.424821002386636,
+          62.999403697078115,
+          57.14285714285714
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c3-e6-bd3-gzza3d",
+      "name": "After c3 e6 Bd3",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c3",
+        "e6",
+        "Bd3"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          99730,
+          84040,
+          3603,
+          1241,
+          724
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          55.64807105190119,
+          59.30701047542305,
+          61.74033149171271
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-nb6-nc3-e6-eby2bq",
+      "name": "Bb4 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "Nc3",
+        "e6",
+        "f4",
+        "Bb4"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          40319,
+          25424,
+          4451,
+          2434,
+          560
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          57.47042337359558,
+          58.40937696664569,
+          62.300606605257244,
+          62.140509449465895,
+          67.5
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-nc7-nc3-e6-6x53kv",
+      "name": "f4 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Nc7",
+        "Nc3",
+        "e6",
+        "f4"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          38207,
+          15940,
+          3322,
+          949
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          57.30494412018739,
+          58.52885821831869,
+          62.14629741119807,
+          63.96206533192834
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-nb4-a3-n4a6-jtydk9",
+      "name": "Nc3 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb4",
+        "a3",
+        "N4a6",
+        "Nc3"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          3578,
+          2793,
+          2519,
+          708
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          62.75852431525992,
+          63.31901181525241,
+          62.02858277094086,
+          65.74858757062147
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-e6-cxd5-cxd5-wf1phv",
+      "name": "After cxd5 cxd5 Nc3",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "e6",
+        "cxd5",
+        "cxd5",
+        "Nc3"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          525,
+          1184,
+          954,
+          532
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          70.47619047619048,
+          70.81925675675676,
+          68.81551362683437,
+          68.1390977443609
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-nb6-nf3-e6-3dl1yv",
+      "name": "Be7 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "Nf3",
+        "e6",
+        "Bg5",
+        "Be7"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          40319,
+          19946,
+          5027,
+          651,
+          513
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          57.47042337359558,
+          56.36217788027674,
+          61.60732046946489,
+          63.824884792626726,
+          61.69590643274854
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-nb6-f4-e6-1oftbg",
+      "name": "After e6 Nc3 Bb4",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "f4",
+        "e6",
+        "Nc3",
+        "Bb4"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          40319,
+          13700,
+          2223,
+          785,
+          560
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          57.47042337359558,
+          57.791970802919714,
+          62.12325686009896,
+          64.84076433121018,
+          67.5
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-nb6-a4-a5-84ja7m",
+      "name": "a5 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "a4",
+        "a5"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          40319,
+          3914,
+          947
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          57.47042337359558,
+          57.294328053142564,
+          57.233368532206974
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-nb6-nc3-d6-xzmkjy",
+      "name": "Bxc3 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "Nc3",
+        "d6",
+        "f4",
+        "dxe5",
+        "fxe5",
+        "e6",
+        "Be3",
+        "Bb4",
+        "Nf3",
+        "Bxc3+"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          40319,
+          25424,
+          10291,
+          3434,
+          2448,
+          2390,
+          9248,
+          1100,
+          1056,
+          724,
+          909
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          57.47042337359558,
+          58.40937696664569,
+          57.60373141580022,
+          62.09959231217239,
+          63.21486928104575,
+          63.09623430962343,
+          73.51319204152249,
+          74.86363636363636,
+          77.8409090909091,
+          79.41988950276243,
+          79.81298129812981
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "caro-masi-e5-nd5-c4-nb6-nc3-d5-dzusdx",
+      "name": "Nc4 Line",
+      "moves": [
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "Nc3",
+        "d5",
+        "c5",
+        "Nc4"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          99730,
+          84040,
+          83684,
+          40319,
+          25424,
+          9323,
+          4715,
+          815
+        ],
+        "winrates": [
+          57.58447809084528,
+          56.977034745359354,
+          57.9489508149706,
+          57.47042337359558,
+          58.40937696664569,
+          56.601952161321464,
+          58.441145281018024,
+          63.49693251533742
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:56:22.511Z"
+}

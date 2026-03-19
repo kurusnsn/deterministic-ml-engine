@@ -1,0 +1,24 @@
+{
+  "opening": "Benko Gambit Accepted",
+  "openingId": "benko-gambit-accepted",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "benko-gambit-accepted-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6"
+      ],
+      "eco": "A58"
+    }
+  ],
+  "generatedAt": "1.0"
+}

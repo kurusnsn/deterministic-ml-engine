@@ -1,0 +1,122 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: ostadchess-prod
+
+resources:
+  - ../../base
+  - namespace.yaml
+  - ingress.yaml
+  - basic-auth-secret.yaml
+  - external-secrets.yaml
+
+namePrefix: prod-
+
+# Prevent generated hash-suffixed config/secret resources from keeping the app OutOfSync
+generatorOptions:
+  annotations:
+    argocd.argoproj.io/compare-options: IgnoreExtraneous
+
+# Secrets are now managed by External Secrets Operator
+# Only non-sensitive configuration remains in secretGenerator
+# Sensitive secrets (gateway-secret, stripe-secret, sentry-secret, jwt-secret)
+# are created by ExternalSecret resources from external-secrets.yaml
+secretGenerator:
+  - name: postgres-secret
+    literals:
+      - POSTGRES_USER=ostadchess
+      - POSTGRES_PASSWORD=prod-password-change-me
+      - POSTGRES_DB=ostadchess_prod
+  - name: database-url-secret
+    literals:
+      - DATABASE_URL=postgresql://ostadchess:prod-password-change-me@prod-postgres:5432/ostadchess_prod
+  # Stripe non-sensitive config (price IDs and URLs)
+  - name: stripe-config
+    literals:
+      - STRIPE_PRICE_BASIC_MONTHLY=price_1SyjnB8JOjcWKZccJPX6IypE
+      - STRIPE_PRICE_BASIC_ANNUAL=price_1SyjnD8JOjcWKZccHr8bnP5V
+      - STRIPE_PRICE_PLUS_MONTHLY=price_1SyjnF8JOjcWKZccqocSL2t9
+      - STRIPE_PRICE_PLUS_ANNUAL=price_1SyjnH8JOjcWKZcc1tXZ9y7R
+      - FRONTEND_URL=https://chessvector.com
+      - SUCCESS_URL=https://chessvector.com/pricing?status=success
+      - CANCEL_URL=https://chessvector.com/pricing?status=cancelled
+
+# ConfigMap overrides for production
+configMapGenerator:
+  - name: env-config
+    literals:
+      - DEPLOYMENT_ENV=production
+  - name: gateway-config
+    behavior: merge
+    literals:
+      - CORS_ALLOW_ORIGINS=https://chessvector.com,https://www.chessvector.com
+      - MOCK_AUTH_ENABLED=false
+      - STOCKFISH_URL=http://prod-stockfish-service:5000
+      - PUZZLE_URL=http://prod-puzzle-service:8081
+      - ECO_URL=http://prod-eco-service:8000
+      - PAYMENT_URL=http://prod-payment-service:8000
+      - IMPORT_URL=http://prod-import-service:8000
+      - OPENINGBOOK_URL=http://prod-opening-book-service:8001
+      - OTEL_EXPORTER_OTLP_ENDPOINT=otel-collector.monitoring.svc.cluster.local:4317
+      - OTEL_EXPORTER_OTLP_INSECURE=true
+  - name: ui-config
+    behavior: merge
+    literals:
+      - NODE_ENV=production
+      - NEXT_PUBLIC_SITE_URL=https://chessvector.com
+      - AUTH_URL=https://chessvector.com
+      - NEXT_PUBLIC_SENTRY_DSN=https://a6930d6ca106c8338f66e7aec5659bea@o4510599327842304.ingest.de.sentry.io/4510599329415248
+      - NEXT_PUBLIC_DEPLOYMENT_ENV=production
+      - GATEWAY_INTERNAL_URL=http://prod-gateway-service:8000
+      - NEXT_PUBLIC_GATEWAY_URL=/api/gateway
+      - NEXT_PUBLIC_PUZZLE_API_URL=http://prod-puzzle-service:8081
+      - SUPABASE_URL=https://bjldpvxsomtlvoxiehdi.supabase.co
+
+# Image overrides for production (promoted from staging)
+images:
+  - name: ostadchess/gateway
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/gateway
+    newTag: latest # gateway - promote from staging
+  - name: ostadchess/puzzle
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/puzzle
+    newTag: latest # puzzle - promote from staging
+  - name: ostadchess/stockfish
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/stockfish
+    newTag: latest # stockfish - promote from staging
+  - name: ostadchess/eco
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/eco
+    newTag: latest # eco - promote from staging
+  - name: ostadchess/opening-book
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/opening-book
+    newTag: latest # openingbook - promote from staging
+  - name: ostadchess/import
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/import
+    newTag: latest # import - promote from staging
+  - name: ostadchess/payment
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/payment
+    newTag: latest # payment - promote from staging
+  - name: ostadchess/ui
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/ui
+    newTag: latest # ui - promote from staging
+
+# Production replicas
+replicas:
+  - name: gateway-service
+    count: 3
+  - name: puzzle-service
+    count: 2
+  - name: stockfish-service
+    count: 2
+  - name: ui
+    count: 2
+
+# Patches for production
+patches:
+  - path: patches/resource-limits.yaml
+  - path: patches/sentry.yaml
+  - path: patches/redis-url.yaml
+
+# Common labels for all production resources
+commonLabels:
+  environment: production
+  managed-by: kustomize

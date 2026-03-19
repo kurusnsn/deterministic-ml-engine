@@ -1,0 +1,624 @@
+{
+  "id": "kings-indian",
+  "name": "King's Indian Defense",
+  "opening": "King's Indian Defense",
+  "generatedAt": "2025-12-10T18:37:59.950Z",
+  "lines": [
+    {
+      "id": "kings-indian-eco-0-c98hg2",
+      "name": "King's Indian Defense",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-1-smf6q",
+      "name": "Reti: King's Indian attack, Spassky's variation",
+      "moves": [
+        "Nf3",
+        "Nf6",
+        "g3",
+        "b5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-2-smfb2",
+      "name": "Reti: King's Indian attack",
+      "moves": [
+        "Nf3",
+        "Nf6",
+        "g3",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-3-fhjsmx",
+      "name": "Reti: King's Indian attack",
+      "moves": [
+        "Nf3",
+        "d5",
+        "g3",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-4-fhjsqe",
+      "name": "Reti: King's Indian attack (with ...c5)",
+      "moves": [
+        "Nf3",
+        "d5",
+        "g3",
+        "c5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-5-p3fjes",
+      "name": "King's Indian: East Indian defence",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-6-h9lx80",
+      "name": "Reti: King's Indian attack, Reti-Smyslov variation",
+      "moves": [
+        "Nf3",
+        "Nf6",
+        "g3",
+        "g6",
+        "b4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-7-djit7s",
+      "name": "Reti: King's Indian attack (Barcza system)",
+      "moves": [
+        "Nf3",
+        "d5",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-8-sp7hib",
+      "name": "Reti: King's Indian attack",
+      "moves": [
+        "Nf3",
+        "d5",
+        "g3",
+        "c5",
+        "Bg2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-9-ehksgc",
+      "name": "King's Indian: Torre attack",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6",
+        "Bg5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-10-ehksh8",
+      "name": "King's Indian: London system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6",
+        "Bf4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-11-xwhkmg",
+      "name": "King's Indian: fianchetto without c4",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-12-md595d",
+      "name": "French: King's Indian attack",
+      "moves": [
+        "e4",
+        "e6",
+        "d3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-13-z3upyl",
+      "name": "King's Indian, 3.Nf3",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-14-z3us42",
+      "name": "Queen's pawn: Mengarini attack",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Qc2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-15-cl7gqn",
+      "name": "King's Indian: Anti-Gruenfeld",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-16-cl7gt6",
+      "name": "King's Indian: 3.g3",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-17-z3upw0",
+      "name": "King's Indian defence, 3.Nc3",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-18-6e9auj",
+      "name": "Reti: King's Indian attack, Keres variation",
+      "moves": [
+        "Nf3",
+        "d5",
+        "g3",
+        "Bg4",
+        "Bg2",
+        "Nd7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kings-indian-eco-19-mv4loy",
+      "name": "King's Indian: Danube gambit",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "d5",
+        "b5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: grafana-dashboard-performance-overview
+  namespace: monitoring
+  labels:
+    grafana_dashboard: "1"
+data:
+  performance-overview.json: |
+    {
+      "title": "Performance Overview",
+      "uid": "perf-overview",
+      "schemaVersion": 39,
+      "version": 1,
+      "refresh": "30s",
+      "time": {
+        "from": "now-1h",
+        "to": "now"
+      },
+      "templating": {
+        "list": [
+          {
+            "name": "environment",
+            "type": "query",
+            "datasource": "Prometheus",
+            "query": "label_values(http_requests_total, environment)",
+            "current": {
+              "text": "staging",
+              "value": "staging"
+            }
+          }
+        ]
+      },
+      "panels": [
+        {
+          "type": "timeseries",
+          "title": "Request Latency p50/p95/p99",
+          "datasource": "Prometheus",
+          "gridPos": {"x": 0, "y": 0, "w": 24, "h": 6},
+          "targets": [
+            {
+              "expr": "histogram_quantile(0.5, sum by (le, route) (rate(http_request_duration_ms_bucket{environment=~\"$environment\"}[5m])))",
+              "legendFormat": "p50 {{route}}"
+            },
+            {
+              "expr": "histogram_quantile(0.95, sum by (le, route) (rate(http_request_duration_ms_bucket{environment=~\"$environment\"}[5m])))",
+              "legendFormat": "p95 {{route}}"
+            },
+            {
+              "expr": "histogram_quantile(0.99, sum by (le, route) (rate(http_request_duration_ms_bucket{environment=~\"$environment\"}[5m])))",
+              "legendFormat": "p99 {{route}}"
+            }
+          ]
+        },
+        {
+          "type": "timeseries",
+          "title": "Error Rate (5xx)",
+          "datasource": "Prometheus",
+          "gridPos": {"x": 0, "y": 6, "w": 12, "h": 4},
+          "targets": [
+            {
+              "expr": "sum(rate(http_requests_total{status=~\"5..\", environment=~\"$environment\"}[5m])) / sum(rate(http_requests_total{environment=~\"$environment\"}[5m]))",
+              "legendFormat": "error rate"
+            }
+          ]
+        },
+        {
+          "type": "timeseries",
+          "title": "Event Loop Lag (s)",
+          "datasource": "Prometheus",
+          "gridPos": {"x": 12, "y": 6, "w": 12, "h": 4},
+          "targets": [
+            {
+              "expr": "avg by (service) (nodejs_eventloop_lag_seconds{environment=~\"$environment\"})",
+              "legendFormat": "{{service}}"
+            }
+          ]
+        },
+        {
+          "type": "timeseries",
+          "title": "DB Pool In Use",
+          "datasource": "Prometheus",
+          "gridPos": {"x": 0, "y": 10, "w": 12, "h": 4},
+          "targets": [
+            {
+              "expr": "avg by (service) (db_pool_in_use{environment=~\"$environment\"})",
+              "legendFormat": "{{service}}"
+            }
+          ]
+        },
+        {
+          "type": "timeseries",
+          "title": "Redis Connections In Use",
+          "datasource": "Prometheus",
+          "gridPos": {"x": 12, "y": 10, "w": 12, "h": 4},
+          "targets": [
+            {
+              "expr": "avg by (service) (redis_connections_in_use{environment=~\"$environment\"})",
+              "legendFormat": "{{service}}"
+            }
+          ]
+        },
+        {
+          "type": "timeseries",
+          "title": "GPU Queue Wait p95 (ms)",
+          "datasource": "Prometheus",
+          "gridPos": {"x": 0, "y": 14, "w": 12, "h": 4},
+          "targets": [
+            {
+              "expr": "histogram_quantile(0.95, sum by (le, service) (rate(gpu_queue_wait_ms_bucket{environment=~\"$environment\"}[5m])))",
+              "legendFormat": "{{service}}"
+            }
+          ]
+        },
+        {
+          "type": "timeseries",
+          "title": "External API Latency p95 (ms)",
+          "datasource": "Prometheus",
+          "gridPos": {"x": 12, "y": 14, "w": 12, "h": 4},
+          "targets": [
+            {
+              "expr": "histogram_quantile(0.95, sum by (le, provider) (rate(external_api_duration_ms_bucket{environment=~\"$environment\"}[5m])))",
+              "legendFormat": "{{provider}}"
+            }
+          ]
+        }
+      ]
+    }

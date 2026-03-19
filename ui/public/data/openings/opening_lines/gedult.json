@@ -1,0 +1,20 @@
+{
+  "opening": "gedult",
+  "openingId": "gedult",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "gedult-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "f3",
+        "d5",
+        "g4"
+      ],
+      "eco": "A45"
+    }
+  ],
+  "generatedAt": "1.0"
+}

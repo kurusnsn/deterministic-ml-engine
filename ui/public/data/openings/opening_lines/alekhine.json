@@ -1,0 +1,424 @@
+{
+  "opening": "alekhine",
+  "openingId": "alekhine",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "alekhine-line-0",
+      "name": "Maroczy variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "d3"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-1",
+      "name": "Krejcik variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "Bc4"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-2",
+      "name": "Mokele Mbembe (Buecker) variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Ne4"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-3",
+      "name": "Brooklyn defence",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Ng8"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-4",
+      "name": "Saemisch attack",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "Nc3"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-5",
+      "name": "Welling variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "b3"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-6",
+      "name": "O'Sullivan gambit",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "b5"
+      ],
+      "eco": "B03"
+    },
+    {
+      "id": "alekhine-line-7",
+      "name": "Spielmann variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "Nc3",
+        "d5",
+        "e5",
+        "Nfd7",
+        "e6"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-8",
+      "name": "Steiner variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "b3"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-9",
+      "name": "Balogh variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "Bc4"
+      ],
+      "eco": "B03"
+    },
+    {
+      "id": "alekhine-line-10",
+      "name": "modern, Larsen variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "Nf3",
+        "dxe5"
+      ],
+      "eco": "B04"
+    },
+    {
+      "id": "alekhine-line-11",
+      "name": "modern, Schmid variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "Nf3",
+        "Nb6"
+      ],
+      "eco": "B04"
+    },
+    {
+      "id": "alekhine-line-12",
+      "name": "Kmoch variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "Bc4",
+        "Nb6",
+        "Bb3",
+        "c5",
+        "d3"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-13",
+      "name": "modern, Panov variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "Nf3",
+        "Bg4",
+        "h3"
+      ],
+      "eco": "B05"
+    },
+    {
+      "id": "alekhine-line-14",
+      "name": "four pawns attack, Planinc variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "c4",
+        "Nb6",
+        "f4",
+        "g5"
+      ],
+      "eco": "B03"
+    },
+    {
+      "id": "alekhine-line-15",
+      "name": "four pawns attack, fianchetto variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "c4",
+        "Nb6",
+        "f4",
+        "g6"
+      ],
+      "eco": "B03"
+    },
+    {
+      "id": "alekhine-line-16",
+      "name": "four pawns attack, Trifunovic variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "c4",
+        "Nb6",
+        "f4",
+        "Bf5"
+      ],
+      "eco": "B03"
+    },
+    {
+      "id": "alekhine-line-17",
+      "name": "modern, Flohr variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "Nf3",
+        "Bg4",
+        "Be2",
+        "c6"
+      ],
+      "eco": "B05"
+    },
+    {
+      "id": "alekhine-line-18",
+      "name": "modern, Vitolins attack",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "Nf3",
+        "Bg4",
+        "c4",
+        "Nb6",
+        "d5"
+      ],
+      "eco": "B05"
+    },
+    {
+      "id": "alekhine-line-19",
+      "name": "two pawns' attack, Mikenas variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "c5",
+        "Nd5",
+        "Bc4",
+        "e6",
+        "Nc3",
+        "d6"
+      ],
+      "eco": "B02"
+    },
+    {
+      "id": "alekhine-line-20",
+      "name": "modern, Keres variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "Nf3",
+        "g6",
+        "Bc4",
+        "Nb6",
+        "Bb3",
+        "Bg7",
+        "a4"
+      ],
+      "eco": "B04"
+    },
+    {
+      "id": "alekhine-line-21",
+      "name": "four pawns attack, Ilyin-Genevsky var.",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "c4",
+        "Nb6",
+        "f4",
+        "dxe5",
+        "fxe5",
+        "Nc6",
+        "Nf3",
+        "Bg4",
+        "e6",
+        "fxe6",
+        "c5"
+      ],
+      "eco": "B03"
+    },
+    {
+      "id": "alekhine-line-22",
+      "name": "four pawns attack, Korchnoi variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "c4",
+        "Nb6",
+        "f4",
+        "dxe5",
+        "fxe5",
+        "Bf5",
+        "Nc3",
+        "e6",
+        "Nf3",
+        "Be7",
+        "Be2",
+        "O-O",
+        "O-O",
+        "f6"
+      ],
+      "eco": "B03"
+    },
+    {
+      "id": "alekhine-line-23",
+      "name": "exchange, Karpov variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "c4",
+        "Nb6",
+        "exd6",
+        "cxd6",
+        "Nf3",
+        "g6",
+        "Be2",
+        "Bg7",
+        "O-O",
+        "O-O",
+        "h3",
+        "Nc6",
+        "Nc3",
+        "Bf5",
+        "Bf4"
+      ],
+      "eco": "B03"
+    },
+    {
+      "id": "alekhine-line-24",
+      "name": "four pawns attack, Tartakower variation",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5",
+        "d4",
+        "d6",
+        "c4",
+        "Nb6",
+        "f4",
+        "dxe5",
+        "fxe5",
+        "Nc6",
+        "Be3",
+        "Bf5",
+        "Nc3",
+        "e6",
+        "Nf3",
+        "Qd7",
+        "Be2",
+        "O-O-O",
+        "O-O",
+        "Be7"
+      ],
+      "eco": "B03"
+    }
+  ],
+  "generatedAt": "1.0"
+}

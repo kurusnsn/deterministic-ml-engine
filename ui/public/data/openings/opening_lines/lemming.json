@@ -1,0 +1,431 @@
+{
+  "opening": "lemming",
+  "openingId": "lemming",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "lemming-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "Na6"
+      ],
+      "eco": "B00"
+    },
+    {
+      "id": "lemming-bc4-nc5-lzi9ly",
+      "name": "Nc5 Line",
+      "moves": [
+        "Bc4",
+        "Nc5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          5960,
+          635
+        ],
+        "winrates": [
+          62.16442953020134,
+          68.58267716535434
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-nh6-nc3-e6-mtndse",
+      "name": "e6 Line",
+      "moves": [
+        "d4",
+        "Nh6",
+        "Nc3",
+        "e6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          50218,
+          8642,
+          2415,
+          651
+        ],
+        "winrates": [
+          54.25843323111235,
+          55.59476972922934,
+          58.84057971014492,
+          56.68202764976959
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-nb8-f4-nc6-nf3-nb8-xugr4d",
+      "name": "Bc4 Line",
+      "moves": [
+        "d4",
+        "Nb8",
+        "f4",
+        "Nc6",
+        "Nf3",
+        "Nb8",
+        "Bc4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          50218,
+          8511,
+          5786,
+          1847,
+          1230,
+          2554,
+          643
+        ],
+        "winrates": [
+          54.25843323111235,
+          57.14957114322641,
+          58.96128586242655,
+          61.18029236599891,
+          62.520325203252035,
+          61.39389193422083,
+          63.99688958009331
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-b6-c4-bb7-nc3-e6-a2pjhn",
+      "name": "Bb4 Line",
+      "moves": [
+        "d4",
+        "b6",
+        "c4",
+        "Bb7",
+        "Nc3",
+        "e6",
+        "Nf3",
+        "Bb4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          50218,
+          6190,
+          1724,
+          765,
+          714,
+          1019,
+          1228,
+          513
+        ],
+        "winrates": [
+          54.25843323111235,
+          59.36187399030695,
+          61.77494199535963,
+          62.6797385620915,
+          64.70588235294117,
+          60.89303238469087,
+          59.486970684039086,
+          59.746588693957115
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-nb4-nf3-nxc2--qxc2-ee5mwj",
+      "name": "Qxc2 Line",
+      "moves": [
+        "d4",
+        "Nb4",
+        "Nf3",
+        "Nxc2+",
+        "Qxc2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          50218,
+          4209,
+          1253,
+          757,
+          741
+        ],
+        "winrates": [
+          54.25843323111235,
+          61.831789023521026,
+          66.00159616919393,
+          72.5231175693527,
+          72.46963562753037
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-d5-e5-p7tftd",
+      "name": "e5 Line",
+      "moves": [
+        "d4",
+        "d5",
+        "e5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          50218,
+          2124,
+          897
+        ],
+        "winrates": [
+          54.25843323111235,
+          57.274011299435024,
+          57.692307692307686
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-d6-nc3-dknvk",
+      "name": "Nc3 Line",
+      "moves": [
+        "d4",
+        "d6",
+        "Nc3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          50218,
+          1648,
+          680
+        ],
+        "winrates": [
+          54.25843323111235,
+          60.709951456310684,
+          65.80882352941177
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-e6-nf3-c5-nc3-h5-8o0ex2",
+      "name": "h5 Line",
+      "moves": [
+        "d4",
+        "e6",
+        "Nf3",
+        "c5",
+        "Nc3",
+        "h5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          50218,
+          14183,
+          4720,
+          2041,
+          612,
+          540
+        ],
+        "winrates": [
+          54.25843323111235,
+          44.83184093633223,
+          51.02754237288135,
+          53.28270455658991,
+          59.885620915032675,
+          59.81481481481481
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-c6-bxa6-bxa6-nf3-bb7-nmygtw",
+      "name": "O-O Line",
+      "moves": [
+        "d4",
+        "c6",
+        "Bxa6",
+        "bxa6",
+        "Nf3",
+        "Bb7",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          50218,
+          13520,
+          24719,
+          11180,
+          5484,
+          1264,
+          623
+        ],
+        "winrates": [
+          54.25843323111235,
+          50.30695266272189,
+          48.67308548080424,
+          55.28175313059034,
+          56.58278628738147,
+          60.04746835443038,
+          62.11878009630819
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-c6-bxa6-bxa6-nf3-rb8-1vealf",
+      "name": "After Nf3 Rb8 O-O",
+      "moves": [
+        "d4",
+        "c6",
+        "Bxa6",
+        "bxa6",
+        "Nf3",
+        "Rb8",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          50218,
+          13520,
+          24719,
+          11180,
+          5484,
+          973,
+          505
+        ],
+        "winrates": [
+          54.25843323111235,
+          50.30695266272189,
+          48.67308548080424,
+          55.28175313059034,
+          56.58278628738147,
+          55.13874614594039,
+          56.33663366336633
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-c6-bxa6-bxa6-nf3-e6-3oc5pg",
+      "name": "After Nf3 e6 O-O",
+      "moves": [
+        "d4",
+        "c6",
+        "Bxa6",
+        "bxa6",
+        "Nf3",
+        "e6",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          50218,
+          13520,
+          24719,
+          11180,
+          5484,
+          969,
+          1733
+        ],
+        "winrates": [
+          54.25843323111235,
+          50.30695266272189,
+          48.67308548080424,
+          55.28175313059034,
+          56.58278628738147,
+          55.26315789473685,
+          60.35776110790536
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lemming-d4-c6-nc3-nc7-nf3-e6-57w2zm",
+      "name": "Bd3 Line",
+      "moves": [
+        "d4",
+        "c6",
+        "Nc3",
+        "Nc7",
+        "Nf3",
+        "e6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          50218,
+          13520,
+          20182,
+          27159,
+          9839,
+          1677,
+          726
+        ],
+        "winrates": [
+          54.25843323111235,
+          50.30695266272189,
+          47.953622039441086,
+          47.630619684082625,
+          47.96219127960158,
+          57.60286225402504,
+          59.77961432506888
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:46:10.069Z"
+}

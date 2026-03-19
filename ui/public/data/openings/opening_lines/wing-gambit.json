@@ -1,0 +1,894 @@
+{
+  "opening": "wing gambit",
+  "openingId": "wing-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "wing-gambit-line-0",
+      "name": "wing gambit, Santasiere variation",
+      "moves": [
+        "e4",
+        "c5",
+        "b4",
+        "cxb4",
+        "c4"
+      ],
+      "eco": "B20"
+    },
+    {
+      "id": "wing-gambit-line-1",
+      "name": "wing gambit deferred",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "d6",
+        "b4"
+      ],
+      "eco": "B50"
+    },
+    {
+      "id": "wing-gambit-line-2",
+      "name": "Wing gambit (C23)",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Bc5",
+        "b4"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "wing-gambit-line-3",
+      "name": "wing gambit, Carlsbad variation",
+      "moves": [
+        "e4",
+        "c5",
+        "b4",
+        "cxb4",
+        "a3",
+        "bxa3"
+      ],
+      "eco": "B20"
+    },
+    {
+      "id": "wing-gambit-line-4",
+      "name": "Wing gambit (C00)",
+      "moves": [
+        "e4",
+        "e6",
+        "Nf3",
+        "d5",
+        "e5",
+        "c5",
+        "b4"
+      ],
+      "eco": "C00"
+    },
+    {
+      "id": "wing-gambit-line-5",
+      "name": "wing gambit, Marienbad variation",
+      "moves": [
+        "e4",
+        "c5",
+        "b4",
+        "cxb4",
+        "a3",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Bb2"
+      ],
+      "eco": "B20"
+    },
+    {
+      "id": "wing-gambit-c4-bxc4-g6-lsoeih",
+      "name": "g6 Line",
+      "moves": [
+        "c4",
+        "Bxc4",
+        "g6"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          52001,
+          34407,
+          1059
+        ],
+        "winrates": [
+          56.82294571258245,
+          57.97948091958032,
+          65.10859301227573
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-qc7-bxc5-qxc5-d4-qc7-g3rfhb",
+      "name": "Qc7 Line",
+      "moves": [
+        "Qc7",
+        "bxc5",
+        "Qxc5",
+        "d4",
+        "Qc7"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3918,
+          2846,
+          2345,
+          2694,
+          1237
+        ],
+        "winrates": [
+          56.67432363450741,
+          57.60716795502459,
+          58.76332622601279,
+          60.467706013363035,
+          55.25464834276475
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-c3-e6-d4-4yc185",
+      "name": "Bd3 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "c3",
+        "e6",
+        "d4",
+        "d5",
+        "e5",
+        "Ne7",
+        "Bd3"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          7813,
+          2544,
+          2243,
+          18289,
+          17884,
+          3550,
+          1417
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          57.391526942275696,
+          60.71147798742138,
+          61.346411056620596,
+          60.69768713434305,
+          60.93715052560948,
+          61.605633802816904,
+          63.549752999294284
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-bxa3-nc6-d4-j9ry5h",
+      "name": "c3 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Bxa3",
+        "Nc6",
+        "d4",
+        "Qa5+",
+        "c3"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          457476,
+          163782,
+          105922,
+          3671,
+          3036
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          50.300890101338645,
+          50.44754612839017,
+          51.455788221521495,
+          56.67393080904386,
+          59.55204216073782
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-bxa3-nc6-d4-tk4fdb",
+      "name": "Bg4 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Bxa3",
+        "Nc6",
+        "d4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nf3",
+        "Bg4"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          457476,
+          163782,
+          105922,
+          27624,
+          2802,
+          2775,
+          2292,
+          1487
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          50.300890101338645,
+          50.44754612839017,
+          51.455788221521495,
+          51.500506805676224,
+          55.51391862955032,
+          55.387387387387385,
+          58.0933682373473,
+          57.49831876260928
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-bxa3-nc6-d4-6eg6iu",
+      "name": "After e5 Qa5+ c3",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Bxa3",
+        "Nc6",
+        "d4",
+        "d5",
+        "e5",
+        "Qa5+",
+        "c3"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          457476,
+          163782,
+          105922,
+          27624,
+          23870,
+          1552,
+          1311
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          50.300890101338645,
+          50.44754612839017,
+          51.455788221521495,
+          51.500506805676224,
+          51.21700879765396,
+          57.1520618556701,
+          59.7254004576659
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-bxa3-nc6-d4-a0m6ag",
+      "name": "Qb6 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Bxa3",
+        "Nc6",
+        "d4",
+        "d5",
+        "e5",
+        "e6",
+        "Nf3",
+        "Bxa3",
+        "Nxa3",
+        "Qb6"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          457476,
+          163782,
+          105922,
+          27624,
+          23870,
+          10531,
+          1234,
+          37261,
+          30558,
+          1337
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          50.300890101338645,
+          50.44754612839017,
+          51.455788221521495,
+          51.500506805676224,
+          51.21700879765396,
+          54.65292944639636,
+          61.466774716369535,
+          60.77131585303669,
+          61.90850186530532,
+          68.88556469708303
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-bxa3-nc6-d4-xrku6x",
+      "name": "After Nxa3 Nge7 Bd3",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Bxa3",
+        "Nc6",
+        "d4",
+        "d5",
+        "e5",
+        "e6",
+        "c3",
+        "Bxa3",
+        "Nxa3",
+        "Nge7",
+        "Bd3"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          457476,
+          163782,
+          105922,
+          27624,
+          23870,
+          10531,
+          1167,
+          4419,
+          5824,
+          5247,
+          2056
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          50.300890101338645,
+          50.44754612839017,
+          51.455788221521495,
+          51.500506805676224,
+          51.21700879765396,
+          54.65292944639636,
+          58.054841473864606,
+          58.83684091423399,
+          59.44368131868132,
+          58.519153802172674,
+          59.67898832684825
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-e6-nb5-u4cyan",
+      "name": "d5 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "e6",
+        "Nb5",
+        "Nc6",
+        "d4",
+        "a6",
+        "d5"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          64322,
+          7848,
+          1187,
+          1236,
+          1679,
+          1241
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          56.13475949130935,
+          61.92023445463812,
+          64.74304970513901,
+          67.03074433656958,
+          64.71113758189398,
+          78.68654311039485
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-nc6-d4-hz5b4u",
+      "name": "After d4 e5 d5",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "Nc6",
+        "d4",
+        "e5",
+        "d5"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          68498,
+          38975,
+          1530,
+          1281
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          54.05559286402523,
+          56.463117382937774,
+          60.06535947712418,
+          61.67056986729118
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-nc6-nb5-46jvbj",
+      "name": "d4 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "Nc6",
+        "Nb5",
+        "a6",
+        "d4"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          68498,
+          5475,
+          3247,
+          2793
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          54.05559286402523,
+          55.63470319634703,
+          56.43671080997844,
+          58.21697099892589
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-nc6-d4-qina4v",
+      "name": "Bf4 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "Nc6",
+        "d4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nb5",
+        "Qd8",
+        "d5",
+        "Ne5",
+        "Bf4"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          68498,
+          38975,
+          14214,
+          4910,
+          4879,
+          4837,
+          3872,
+          2177,
+          1349,
+          1298
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          54.05559286402523,
+          56.463117382937774,
+          58.70620514985225,
+          70.14256619144604,
+          70.1475712236114,
+          75.78044242298945,
+          76.18801652892562,
+          85.89802480477722,
+          85.73017049666419,
+          86.0939907550077
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-nc6-d4-1ih4f7",
+      "name": "exd5 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "Nc6",
+        "d4",
+        "e6",
+        "d5",
+        "exd5",
+        "exd5"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          68498,
+          38975,
+          13612,
+          2349,
+          1245,
+          1235
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          54.05559286402523,
+          56.463117382937774,
+          58.20232148104614,
+          65.34695615155385,
+          65.06024096385542,
+          65.34412955465586
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-nc6-d4-pfzovz",
+      "name": "After Bxa3 Nge7 Bd3",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "Nc6",
+        "d4",
+        "d5",
+        "e5",
+        "e6",
+        "c3",
+        "Bxa3",
+        "Bxa3",
+        "Nge7",
+        "Bd3"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          68498,
+          38975,
+          14214,
+          8543,
+          4758,
+          9123,
+          2203,
+          2334,
+          2425,
+          1366
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          54.05559286402523,
+          56.463117382937774,
+          58.70620514985225,
+          52.33524523001287,
+          55.727196300966796,
+          57.57974350542585,
+          67.40807989105765,
+          67.26649528706083,
+          67.19587628865979,
+          68.19180087847731
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-nc6-d4-puulkw",
+      "name": "After e6 c3 g6",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "Nc6",
+        "d4",
+        "e6",
+        "c3",
+        "g6"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          68498,
+          38975,
+          13612,
+          8742,
+          1580
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          54.05559286402523,
+          56.463117382937774,
+          58.20232148104614,
+          58.01304049416609,
+          63.67088607594936
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-nc6-d4-ye3ncf",
+      "name": "After Nb5 a6 d5",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "Nc6",
+        "d4",
+        "e6",
+        "Nb5",
+        "a6",
+        "d5"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          68498,
+          38975,
+          13612,
+          2016,
+          1679,
+          1241
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          54.05559286402523,
+          56.463117382937774,
+          58.20232148104614,
+          63.69047619047619,
+          64.71113758189398,
+          78.68654311039485
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "wing-gambit-cxb4-a3-bxa3-nxa3-nc6-d4-m2k6t2",
+      "name": "Nb5 Line",
+      "moves": [
+        "cxb4",
+        "a3",
+        "bxa3",
+        "Nxa3",
+        "Nc6",
+        "d4",
+        "e6",
+        "c3",
+        "d5",
+        "Nb5"
+      ],
+      "eco": "B20",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3195665,
+          1890178,
+          986537,
+          254872,
+          68498,
+          38975,
+          13612,
+          8742,
+          15353,
+          1464
+        ],
+        "winrates": [
+          50.92462758142672,
+          51.192612547601335,
+          52.101593756747086,
+          52.94500769013466,
+          54.05559286402523,
+          56.463117382937774,
+          58.20232148104614,
+          58.01304049416609,
+          60.916433270370604,
+          63.490437158469945
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T00:56:42.891Z"
+}

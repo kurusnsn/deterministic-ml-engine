@@ -1,0 +1,1191 @@
+{
+  "opening": "smith-morra gambit",
+  "openingId": "smith-morra-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "smith-morra-gambit-line-0",
+      "name": "Smith-Morra gambit, Chicago defence",
+      "moves": [
+        "e4",
+        "c5",
+        "d4",
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "d6",
+        "Bc4",
+        "e6",
+        "O-O",
+        "a6",
+        "Qe2",
+        "b5",
+        "Bb3",
+        "Ra7"
+      ],
+      "eco": "B21"
+    },
+    {
+      "id": "smith-morra-gambit-b6-bc4-e6-d5-exd5-sg59lj",
+      "name": "exd5 Line",
+      "moves": [
+        "b6",
+        "Bc4",
+        "e6",
+        "d5",
+        "exd5"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          98122,
+          3681,
+          1763,
+          4573,
+          1073
+        ],
+        "winrates": [
+          56.431788997370624,
+          59.38603640315132,
+          57.7424844015882,
+          56.877323420074354,
+          63.979496738117426
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-c4-bxc4-a6-lsoedb",
+      "name": "a6 Line",
+      "moves": [
+        "c4",
+        "Bxc4",
+        "a6"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          86569,
+          37450,
+          1357
+        ],
+        "winrates": [
+          61.52837620857351,
+          63.71829105473965,
+          64.59100957995578
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-e5-dxe5-c4-cqm20z",
+      "name": "c4 Line",
+      "moves": [
+        "e5",
+        "dxe5",
+        "c4"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          21098,
+          22703,
+          1059
+        ],
+        "winrates": [
+          58.40837994122665,
+          64.75796150288508,
+          72.2851746931067
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-b6-cxd4-d5-e5-vsngtk",
+      "name": "e5 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "b6",
+        "cxd4",
+        "d5",
+        "e5"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          32213608,
+          19139558,
+          7143,
+          49196,
+          2392,
+          1703
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          56.180876382472356,
+          55.47300593544191,
+          60.32608695652174,
+          59.42454492072813
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-d6-bg5-iuq6us",
+      "name": "Bg5 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "d6",
+        "Bg5"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          1244125,
+          2300
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          55.13613985732945,
+          55.78260869565217
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-g6-nf3-px9iu",
+      "name": "Bg7 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "g6",
+        "Nf3",
+        "e6",
+        "Bf4",
+        "Bg7"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          644795,
+          363459,
+          1876,
+          1453,
+          1239
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          56.64544545165518,
+          57.66317521371048,
+          61.48720682302772,
+          63.5237439779766,
+          61.29943502824858
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-e5-f4-hzzohc",
+      "name": "Nf3 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          442742,
+          8670,
+          4243,
+          1644
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          58.37914631997868,
+          60.4555940023068,
+          60.676408201744046,
+          62.31751824817518
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nf6-e5-k0gd59",
+      "name": "exd6 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nf6",
+        "e5",
+        "Ng8",
+        "Nf3",
+        "d6",
+        "Bc4",
+        "Nc6",
+        "O-O",
+        "e6",
+        "exd6"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          179706,
+          30207,
+          29212,
+          16965,
+          3234,
+          2776,
+          1813,
+          3542,
+          1521,
+          1843
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          58.63604999276596,
+          62.346475982388185,
+          61.47473640969464,
+          62.11906867079281,
+          68.21273964131107,
+          66.46253602305475,
+          65.52675124103695,
+          66.68548842461885,
+          59.30309007232084,
+          64.05317417254477
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-b6-nf3-v48b9",
+      "name": "g6 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "b6",
+        "Nf3",
+        "Bb7",
+        "Bc4",
+        "g6"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          20500,
+          11638,
+          15071,
+          13542,
+          1689
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          57.89756097560975,
+          58.888984361574146,
+          58.250945524517284,
+          58.69886279722345,
+          60.3611604499704
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-qc7-nf3-7tqszk",
+      "name": "Nd5 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Qc7",
+        "Nf3",
+        "a6",
+        "Nd5"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          9697,
+          7469,
+          2430,
+          1385
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          56.13076209136847,
+          57.48426830901058,
+          59.95884773662551,
+          72.67148014440433
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-qa5-bc4-876cgp",
+      "name": "Qxc3 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Qa5",
+        "Bc4",
+        "e6",
+        "Nf3",
+        "Bb4",
+        "O-O",
+        "Bxc3",
+        "bxc3",
+        "Qxc3"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          5996,
+          1297,
+          1518,
+          1065,
+          2079,
+          1685,
+          1415,
+          1397,
+          1946
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          61.68278852568378,
+          62.33616037008481,
+          62.22002635046113,
+          61.502347417840376,
+          64.18951418951418,
+          64.3026706231454,
+          64.59363957597174,
+          65.1395848246242,
+          65.13360739979444
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-h6-bc4-kqwoc3",
+      "name": "Bc4 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "h6",
+        "Bc4"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          3529,
+          1203
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          56.3190705582318,
+          56.234413965087285
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-9uhebh",
+      "name": "Qe2 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "g6",
+        "Bc4",
+        "h6",
+        "O-O",
+        "Bg7",
+        "Qe2"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          722017,
+          658307,
+          1521,
+          1152,
+          1147,
+          1489
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          55.69446425776678,
+          56.2522500900036,
+          61.01249178172255,
+          61.37152777777778,
+          60.46207497820401,
+          61.316319677636
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-221lk1",
+      "name": "Qb3 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "e5",
+        "Bc4",
+        "f6",
+        "Qb3"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          452178,
+          622473,
+          6159,
+          1202
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          57.65439716217949,
+          58.12493071988665,
+          71.935379119987,
+          81.53078202995009
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-hirm21",
+      "name": "After Bc4 h6 e5",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "Bc4",
+        "h6",
+        "e5"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          257589,
+          212182,
+          3358,
+          1369
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          56.39720640244731,
+          56.92683639517019,
+          60.13996426444312,
+          62.929145361577795
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-e5tem0",
+      "name": "After Bc4 e6 Qe2",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "b6",
+        "Bc4",
+        "e6",
+        "Qe2"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          12223,
+          11334,
+          3199,
+          1010
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          60.357522703100706,
+          60.825833774483854,
+          60.815879962488275,
+          60.0990099009901
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-p3sn1h",
+      "name": "After Bc4 Nf6 e5",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "h6",
+        "Bc4",
+        "Nf6",
+        "e5"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          7720,
+          7647,
+          1124,
+          1369
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          55.2461139896373,
+          55.525042500326926,
+          58.00711743772242,
+          62.929145361577795
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-hw7axu",
+      "name": "Qa4 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "d5",
+        "exd5",
+        "Nb4",
+        "Qa4+"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          5491,
+          3611,
+          3355,
+          1546
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          61.76470588235294,
+          69.45444475214622,
+          73.01043219076006,
+          80.30401034928849
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-r23ey",
+      "name": "After O-O Nf6 Qe2",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "Qb6",
+        "Bc4",
+        "e6",
+        "O-O",
+        "Nf6",
+        "Qe2"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          4046,
+          3588,
+          4967,
+          6718,
+          4337,
+          1492
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          58.564013840830455,
+          59.6989966555184,
+          56.26132474330582,
+          58.97588568026199,
+          57.470601798478214,
+          61.12600536193029
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-59gyw1",
+      "name": "After Bc4 e5 Qb3",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "f6",
+        "Bc4",
+        "e5",
+        "Qb3"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          3558,
+          3394,
+          1151,
+          1202
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          64.81169196177628,
+          64.68768414849735,
+          69.76542137271937,
+          81.53078202995009
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-jrlh1d",
+      "name": "Nd6 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "e6",
+        "Bc4",
+        "g6",
+        "Bf4",
+        "Bg7",
+        "Nb5",
+        "e5",
+        "Nd6+"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          1551414,
+          1784735,
+          60892,
+          7631,
+          6093,
+          7054,
+          3819,
+          2631
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          51.85917492042743,
+          52.19251037268838,
+          59.242593444130584,
+          63.47791901454593,
+          64.13917610372557,
+          72.47660901616104,
+          74.03770620581304,
+          74.64842265298365
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-xarwl",
+      "name": "Qxd5 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "e6",
+        "Bc4",
+        "d5",
+        "exd5",
+        "exd5",
+        "Qxd5"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          1551414,
+          1784735,
+          14674,
+          12972,
+          12781,
+          1335
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          51.85917492042743,
+          52.19251037268838,
+          58.87624369633365,
+          60.34150477952514,
+          59.96009701901259,
+          67.49063670411985
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-1tde76",
+      "name": "After Bc4 b6 Qe2",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "e6",
+        "Bc4",
+        "b6",
+        "Qe2"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          1551414,
+          1784735,
+          7962,
+          1010
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          51.85917492042743,
+          52.19251037268838,
+          58.79176086410449,
+          60.0990099009901
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-yglr73",
+      "name": "Bxf7 Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "d6",
+        "Bc4",
+        "Nf6",
+        "e5",
+        "Nxe5",
+        "Nxe5",
+        "dxe5",
+        "Bxf7+"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          1339617,
+          1609249,
+          514930,
+          242275,
+          21895,
+          21993,
+          19752,
+          17783
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          54.433879235632276,
+          54.854345101348514,
+          58.316178898102656,
+          66.2420802806728,
+          89.7191139529573,
+          89.81721456827172,
+          91.03381936006481,
+          96.37012877467244
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "smith-morra-gambit-cxd4-c3-dxc3-nxc3-nc6-nf3-ampp3x",
+      "name": "O-O Line",
+      "moves": [
+        "cxd4",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "Nc6",
+        "Nf3",
+        "d6",
+        "Bc4",
+        "Bg4",
+        "Bxf7+",
+        "Kd7",
+        "O-O"
+      ],
+      "eco": "B21",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          32213608,
+          19139558,
+          11483257,
+          10004845,
+          4585537,
+          3018451,
+          1339617,
+          1609249,
+          120771,
+          61077,
+          9505,
+          1095
+        ],
+        "winrates": [
+          50.74924857842685,
+          52.36798049359342,
+          53.30697118422064,
+          53.610490717247494,
+          53.00174221688757,
+          53.762111758647066,
+          54.433879235632276,
+          54.854345101348514,
+          66.09533745683981,
+          75.60620200730226,
+          75.50236717517096,
+          81.0958904109589
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-01-11T12:23:51.937Z"
+}

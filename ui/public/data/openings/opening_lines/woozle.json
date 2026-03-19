@@ -1,0 +1,129 @@
+{
+  "opening": "woozle",
+  "openingId": "woozle",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "woozle-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "c5",
+        "d5",
+        "Nf6",
+        "Nc3",
+        "Qa5"
+      ],
+      "eco": "A43"
+    },
+    {
+      "id": "woozle-bd2-c4-e4-b5-bbiisy",
+      "name": "b5 Line",
+      "moves": [
+        "Bd2",
+        "c4",
+        "e4",
+        "b5"
+      ],
+      "eco": "A43",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          16523,
+          803,
+          777,
+          597
+        ],
+        "winrates": [
+          53.2893542334927,
+          61.70610211706102,
+          61.45431145431145,
+          60.55276381909548
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "woozle-bd2-b5-e4-b4-e5-bxc3-6oeosg",
+      "name": "gxf6 Line",
+      "moves": [
+        "Bd2",
+        "b5",
+        "e4",
+        "b4",
+        "e5",
+        "bxc3",
+        "Bxc3",
+        "Qb6",
+        "exf6",
+        "gxf6"
+      ],
+      "eco": "A43",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          16523,
+          9301,
+          4105,
+          4208,
+          3038,
+          2774,
+          2761,
+          1008,
+          1004,
+          864
+        ],
+        "winrates": [
+          53.2893542334927,
+          50.88700139769917,
+          52.10718635809988,
+          51.924904942965775,
+          57.10994075049375,
+          56.957462148521984,
+          57.06265845708077,
+          63.49206349206349,
+          63.645418326693225,
+          64.52546296296296
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "woozle-bd2-qb6-e4-qxb2-js3els",
+      "name": "Qxb2 Line",
+      "moves": [
+        "Bd2",
+        "Qb6",
+        "e4",
+        "Qxb2"
+      ],
+      "eco": "A43",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          16523,
+          2815,
+          1461,
+          512
+        ],
+        "winrates": [
+          53.2893542334927,
+          54.99111900532859,
+          57.08418891170432,
+          60.546875
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:09:27.496Z"
+}

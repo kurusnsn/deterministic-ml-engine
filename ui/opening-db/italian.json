@@ -1,0 +1,789 @@
+{
+  "id": "italian",
+  "name": "Italian Game",
+  "opening": "Italian Game",
+  "generatedAt": "2025-12-10T18:37:59.949Z",
+  "lines": [
+    {
+      "id": "italian-eco-0-qjxwia",
+      "name": "Italian Game",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-1-qiaiq7",
+      "name": "Petrov: Italian variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Bc4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-2-i8l0ar",
+      "name": "Rousseau gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "f5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-3-2ush1i",
+      "name": "Hungarian defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Be7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-4-2usgzq",
+      "name": "Giuoco Piano",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-5-ptmjpq",
+      "name": "Four knights: Italian variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bc4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-6-xgkbb2",
+      "name": "Giuoco Piano: Jerome gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "Bxf7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-7-q9ch0r",
+      "name": "Giuoco Pianissimo",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "d3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-8-q9ch2g",
+      "name": "Evans gambit declined",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "b4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-9-q9ch1m",
+      "name": "Giuoco Piano",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "c3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-10-mv3cnu",
+      "name": "Giuoco Piano: four knights variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "Nc3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-11-xy0sq1",
+      "name": "Giuoco Pianissimo",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-12-jj02l3",
+      "name": "Evans counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "b4",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-13-e3qstc",
+      "name": "Evans gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "b4",
+        "Bxb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-14-xxh2bx",
+      "name": "Giuoco Piano: close variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "c3",
+        "Qe7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-15-xxh04o",
+      "name": "Giuoco Piano",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "c3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-16-9qafij",
+      "name": "Giuoco Pianissimo: Italian four knights variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "d3",
+        "Nf6",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-17-b1temn",
+      "name": "Evans gambit declined, 5.a4",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "b4",
+        "Bb6",
+        "a4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-18-cl82j8",
+      "name": "Evans gambit declined, Cordel variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "b4",
+        "Bb6",
+        "Bb2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "italian-eco-19-3c7cai",
+      "name": "Giuoco Piano: Bird's attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "b4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "opening": "Blumenfeld Counter-Gambit",
+  "openingId": "blumenfeld-counter-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "blumenfeld-counter-gambit-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "c5",
+        "d5",
+        "b5"
+      ],
+      "eco": "E10"
+    },
+    {
+      "id": "blumenfeld-counter-gambit-line-1",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "c5",
+        "d5",
+        "b5",
+        "Bg5"
+      ],
+      "eco": "E10"
+    },
+    {
+      "id": "blumenfeld-counter-gambit-line-2",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "c5",
+        "d5",
+        "b5",
+        "dxe6",
+        "fxe6",
+        "cxb5",
+        "d5"
+      ],
+      "eco": "E10"
+    },
+    {
+      "id": "blumenfeld-counter-gambit-line-3",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "c5",
+        "d5",
+        "b5",
+        "Bg5",
+        "exd5",
+        "cxd5",
+        "h6"
+      ],
+      "eco": "E10"
+    }
+  ],
+  "generatedAt": "1.0"
+}

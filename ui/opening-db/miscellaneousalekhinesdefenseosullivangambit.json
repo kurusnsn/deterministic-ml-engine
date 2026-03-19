@@ -1,0 +1,1156 @@
+{
+  "id": "miscellaneous-alekhines-defense-osullivan-gambit",
+  "name": "Alekhines Defense OSullivan gambit",
+  "opening": "Alekhines Defense OSullivan gambit",
+  "generatedAt": "2026-01-03T19:59:09.930Z",
+  "lines": [
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-dxc5-qa5--c3-qxb5-3t7gob",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "dxc5",
+        "Qa5+",
+        "c3",
+        "Qxb5",
+        "Qxd5",
+        "Bb7",
+        "Qd4",
+        "Bxg2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          100205,
+          97652,
+          15154,
+          15032,
+          6143,
+          5990,
+          5755,
+          5543,
+          1325,
+          1318
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          76.49795433548898,
+          76.67309739222992,
+          78.92723425036627,
+          80.15859766277129,
+          80.36490008688098,
+          81.49918816525347,
+          82.83018867924528,
+          82.81487101669197
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-nf3-c5-bxb5-qa5--nc3-nxc3-enh3zo",
+      "name": "Alekhines Defense OSullivan gambit: Nf3 Forcing Line",
+      "moves": [
+        "Nf3",
+        "c5",
+        "Bxb5",
+        "Qa5+",
+        "Nc3",
+        "Nxc3",
+        "bxc3",
+        "Qxb5",
+        "Be3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          42135,
+          26426,
+          11516,
+          15067,
+          10871,
+          10804,
+          6205,
+          6150,
+          1210
+        ],
+        "winrates": [
+          55.17384597128279,
+          59.96178006508741,
+          71.56998957971517,
+          73.95632839981417,
+          76.62588538312943,
+          76.73084042947058,
+          77.5423045930701,
+          77.82926829268293,
+          76.03305785123968
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-f4-c5-bxb5-qa5--nc3-nxc3-uoqg8",
+      "name": "Alekhines Defense OSullivan gambit: f4 Forcing Line",
+      "moves": [
+        "f4",
+        "c5",
+        "Bxb5",
+        "Qa5+",
+        "Nc3",
+        "Nxc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          14275,
+          8411,
+          1527,
+          1458,
+          1061,
+          1051
+        ],
+        "winrates": [
+          56.781085814360765,
+          59.74319343716561,
+          72.98624754420433,
+          74.07407407407408,
+          74.31668237511782,
+          74.40532825880113
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-dxc5-qa5--c3-qxb5-3t7gob",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "dxc5",
+        "Qa5+",
+        "c3",
+        "Qxb5",
+        "Qxd5",
+        "Bb7",
+        "Qd4",
+        "Bxg2"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          100205,
+          97652,
+          15154,
+          15032,
+          6143,
+          5990,
+          5755,
+          5543,
+          1325,
+          1318
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          76.49795433548898,
+          76.67309739222992,
+          78.92723425036627,
+          80.15859766277129,
+          80.36490008688098,
+          81.49918816525347,
+          82.83018867924528,
+          82.81487101669197
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-dxc5-qa5--c3-qxb5-3t7gob",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "dxc5",
+        "Qa5+",
+        "c3",
+        "Qxb5",
+        "Qxd5",
+        "Bb7",
+        "Qd4",
+        "Bxg2"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          100205,
+          97652,
+          15154,
+          15032,
+          6143,
+          5990,
+          5755,
+          5543,
+          1325,
+          1318
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          76.49795433548898,
+          76.67309739222992,
+          78.92723425036627,
+          80.15859766277129,
+          80.36490008688098,
+          81.49918816525347,
+          82.83018867924528,
+          82.81487101669197
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c3-cxd4-cxd4-qa5--4xeiq4",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c3",
+        "cxd4",
+        "cxd4",
+        "Qa5+",
+        "Nc3",
+        "Nxc3",
+        "bxc3",
+        "Qxb5",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          100205,
+          97652,
+          10764,
+          10381,
+          4971,
+          5106,
+          4045,
+          4034,
+          2424,
+          2408,
+          1093
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          61.10182088442958,
+          63.543974568924,
+          80.99979883323275,
+          81.30630630630631,
+          79.6415327564895,
+          79.73475458601884,
+          80.25990099009901,
+          80.71013289036544,
+          82.11344922232388
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-nf3-qa5--nc3-nxc3-gtc4zm",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "Nf3",
+        "Qa5+",
+        "Nc3",
+        "Nxc3",
+        "bxc3",
+        "Qxb5",
+        "Be3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          100205,
+          97652,
+          4787,
+          15067,
+          10871,
+          10804,
+          6205,
+          6150,
+          1210
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          71.68372675997493,
+          73.95632839981417,
+          76.62588538312943,
+          76.73084042947058,
+          77.5423045930701,
+          77.82926829268293,
+          76.03305785123968
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-bc4-cxd4-bxd5-qa5--g4z2jp",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "Bc4",
+        "cxd4",
+        "Bxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxd5",
+        "Nf3",
+        "Ba6"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          100205,
+          97652,
+          27975,
+          14620,
+          7518,
+          7496,
+          2251,
+          2250,
+          2034,
+          1370
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          50.9597855227882,
+          54.35362517099863,
+          63.667198723064644,
+          63.82737459978656,
+          71.34606841403821,
+          71.37777777777778,
+          72.17305801376598,
+          80.36496350364963
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-bc4-cxd4-bxd5-qa5--g4z2jp",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "Bc4",
+        "cxd4",
+        "Bxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxd5",
+        "Nf3",
+        "Ba6"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          100205,
+          97652,
+          27975,
+          14620,
+          7518,
+          7496,
+          2251,
+          2250,
+          2034,
+          1370
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          50.9597855227882,
+          54.35362517099863,
+          63.667198723064644,
+          63.82737459978656,
+          71.34606841403821,
+          71.37777777777778,
+          72.17305801376598,
+          80.36496350364963
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-bc4-cxd4-bxd5-qa5--g4z2jp",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "Bc4",
+        "cxd4",
+        "Bxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxd5",
+        "Nf3",
+        "Ba6"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100205,
+          97652,
+          27975,
+          14620,
+          7518,
+          7496,
+          2251,
+          2250,
+          2034,
+          1370
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          50.9597855227882,
+          54.35362517099863,
+          63.667198723064644,
+          63.82737459978656,
+          71.34606841403821,
+          71.37777777777778,
+          72.17305801376598,
+          80.36496350364963
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-bc4-cxd4-bxd5-qa5--wocyz9",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "Bc4",
+        "cxd4",
+        "Bxd5",
+        "Qa5+",
+        "Nc3",
+        "dxc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100205,
+          97652,
+          27975,
+          14620,
+          7518,
+          7496,
+          2172,
+          1958
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          50.9597855227882,
+          54.35362517099863,
+          63.667198723064644,
+          63.82737459978656,
+          60.75046040515654,
+          61.61899897854954
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-bc4-cxd4-bxd5-qa5--y46ueb",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "Bc4",
+        "cxd4",
+        "Bxd5",
+        "Qa5+",
+        "c3",
+        "Qxd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100205,
+          97652,
+          27975,
+          14620,
+          7518,
+          7496,
+          1709,
+          1661
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          50.9597855227882,
+          54.35362517099863,
+          63.667198723064644,
+          63.82737459978656,
+          62.52194265652429,
+          65.20168573148706
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-bc4-cxd4-bxd5-qa5--g4z2jp",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "Bc4",
+        "cxd4",
+        "Bxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxd5",
+        "Nf3",
+        "Ba6"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          100205,
+          97652,
+          27975,
+          14620,
+          7518,
+          7496,
+          2251,
+          2250,
+          2034,
+          1370
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          50.9597855227882,
+          54.35362517099863,
+          63.667198723064644,
+          63.82737459978656,
+          71.34606841403821,
+          71.37777777777778,
+          72.17305801376598,
+          80.36496350364963
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-bc4-cxd4-bxd5-qa5--g4z2jp",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "Bc4",
+        "cxd4",
+        "Bxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxd5",
+        "Nf3",
+        "Ba6"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          100205,
+          97652,
+          27975,
+          14620,
+          7518,
+          7496,
+          2251,
+          2250,
+          2034,
+          1370
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          50.9597855227882,
+          54.35362517099863,
+          63.667198723064644,
+          63.82737459978656,
+          71.34606841403821,
+          71.37777777777778,
+          72.17305801376598,
+          80.36496350364963
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-cxd5-qa5--m8sn22",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "cxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          8572,
+          8609,
+          2841,
+          2838
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          65.70811945870275,
+          65.75676617493322,
+          64.88912354804646,
+          64.92248062015504
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-qxd4-nb4-bphpcb",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "Qxd4",
+        "Nb4",
+        "Na3",
+        "Qa5",
+        "Bd2",
+        "Qxa3"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          12321,
+          9405,
+          3273,
+          2462,
+          2267,
+          2249
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          55.49874198522847,
+          59.431153641679956,
+          71.60097769630309,
+          74.51259138911455,
+          75.95941773268638,
+          77.07870164517563
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-cxd5-qa5--m8sn22",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "cxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          8572,
+          8609,
+          2841,
+          2838
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          65.70811945870275,
+          65.75676617493322,
+          64.88912354804646,
+          64.92248062015504
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-qxd4-nb4-bphpcb",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "Qxd4",
+        "Nb4",
+        "Na3",
+        "Qa5",
+        "Bd2",
+        "Qxa3"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          12321,
+          9405,
+          3273,
+          2462,
+          2267,
+          2249
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          55.49874198522847,
+          59.431153641679956,
+          71.60097769630309,
+          74.51259138911455,
+          75.95941773268638,
+          77.07870164517563
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-qxd4-nb4-bphpcb",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "Qxd4",
+        "Nb4",
+        "Na3",
+        "Qa5",
+        "Bd2",
+        "Qxa3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          12321,
+          9405,
+          3273,
+          2462,
+          2267,
+          2249
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          55.49874198522847,
+          59.431153641679956,
+          71.60097769630309,
+          74.51259138911455,
+          75.95941773268638,
+          77.07870164517563
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-qxd4-nb4-bphpcb",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "Qxd4",
+        "Nb4",
+        "Na3",
+        "Qa5",
+        "Bd2",
+        "Qxa3"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          12321,
+          9405,
+          3273,
+          2462,
+          2267,
+          2249
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          55.49874198522847,
+          59.431153641679956,
+          71.60097769630309,
+          74.51259138911455,
+          75.95941773268638,
+          77.07870164517563
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-qxd4-nb4-bphpcb",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "Qxd4",
+        "Nb4",
+        "Na3",
+        "Qa5",
+        "Bd2",
+        "Qxa3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          12321,
+          9405,
+          3273,
+          2462,
+          2267,
+          2249
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          55.49874198522847,
+          59.431153641679956,
+          71.60097769630309,
+          74.51259138911455,
+          75.95941773268638,
+          77.07870164517563
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-cxd5-qa5--m8sn22",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "cxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          8572,
+          8609,
+          2841,
+          2838
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          65.70811945870275,
+          65.75676617493322,
+          64.88912354804646,
+          64.92248062015504
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-cxd5-qa5--sp1i9h",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "cxd5",
+        "Qa5+",
+        "Qd2",
+        "Qxb5",
+        "Qxd4",
+        "Ba6",
+        "Nc3",
+        "Qf1+",
+        "Kd2",
+        "Qxg2"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          8572,
+          8609,
+          4279,
+          4278,
+          4023,
+          3032,
+          1632,
+          1584,
+          1580,
+          1375
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          65.70811945870275,
+          65.75676617493322,
+          64.57116148632858,
+          64.58625525946704,
+          64.92667163808103,
+          69.45910290237467,
+          67.40196078431373,
+          67.8030303030303,
+          67.72151898734178,
+          68.39999999999999
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-cxd5-qa5--m8sn22",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "cxd5",
+        "Qa5+",
+        "Bd2",
+        "Qxb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          8572,
+          8609,
+          2841,
+          2838
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          65.70811945870275,
+          65.75676617493322,
+          64.88912354804646,
+          64.92248062015504
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-alekhines-defense-osullivan-gambit-bxb5-c5-c4-cxd4-cxd5-qa5--sp1i9h",
+      "name": "Alekhines Defense OSullivan gambit: Bxb5 Forcing Line",
+      "moves": [
+        "Bxb5",
+        "c5",
+        "c4",
+        "cxd4",
+        "cxd5",
+        "Qa5+",
+        "Qd2",
+        "Qxb5",
+        "Qxd4",
+        "Ba6",
+        "Nc3",
+        "Qf1+",
+        "Kd2",
+        "Qxg2"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          100205,
+          97652,
+          26842,
+          22353,
+          8572,
+          8609,
+          4279,
+          4278,
+          4023,
+          3032,
+          1632,
+          1584,
+          1580,
+          1375
+        ],
+        "winrates": [
+          57.222693478369344,
+          57.650636955720316,
+          54.826391476045,
+          58.66326667561401,
+          65.70811945870275,
+          65.75676617493322,
+          64.57116148632858,
+          64.58625525946704,
+          64.92667163808103,
+          69.45910290237467,
+          67.40196078431373,
+          67.8030303030303,
+          67.72151898734178,
+          68.39999999999999
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

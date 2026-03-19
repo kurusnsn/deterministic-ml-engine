@@ -1,0 +1,43 @@
+{
+  "opening": "Queen's gambit accepted",
+  "openingId": "queen-s-gambit-accepted",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "queen-s-gambit-accepted-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4"
+      ],
+      "eco": "D20"
+    },
+    {
+      "id": "queen-s-gambit-accepted-line-1",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6"
+      ],
+      "eco": "D30"
+    },
+    {
+      "id": "queen-s-gambit-accepted-line-2",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6"
+      ],
+      "eco": "D23"
+    }
+  ],
+  "generatedAt": "1.0"
+}

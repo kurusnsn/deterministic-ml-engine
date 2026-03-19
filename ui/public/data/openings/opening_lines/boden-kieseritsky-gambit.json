@@ -1,0 +1,686 @@
+{
+  "opening": "boden-kieseritsky gambit",
+  "openingId": "boden-kieseritsky-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "boden-kieseritsky-gambit-line-0",
+      "name": "Lichtenhein defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "Bc4",
+        "Nxe4",
+        "Nf3",
+        "d5"
+      ],
+      "eco": "C27"
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-e4-ng5-d5-bxd5-go5h4m",
+      "name": "Bxd5 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "e4",
+        "Ng5",
+        "d5",
+        "Bxd5"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          235408,
+          223570,
+          4924,
+          2574,
+          1421,
+          1219
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          73.41592201462225,
+          80.9052059052059,
+          80.96410978184377,
+          83.71616078753075
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-d5-bxd5-nxc3-dxc3-c6-bxf7--2slbif",
+      "name": "Qxd8 Line",
+      "moves": [
+        "d5",
+        "Bxd5",
+        "Nxc3",
+        "dxc3",
+        "c6",
+        "Bxf7+",
+        "Kxf7",
+        "Qxd8"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          28328,
+          10392,
+          8980,
+          6760,
+          6034,
+          5593,
+          1249,
+          1170
+        ],
+        "winrates": [
+          58.98404405535159,
+          67.9657428791378,
+          68.24610244988864,
+          76.95266272189349,
+          93.21345707656613,
+          96.20060790273556,
+          97.23779023218574,
+          98.03418803418803
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxf2-kxf2-kjwdao",
+      "name": "Kxf2 Line",
+      "moves": [
+        "Nxf2",
+        "Kxf2"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2949,
+          2839
+        ],
+        "winrates": [
+          56.748050186503896,
+          56.657273687918284
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-c6-bxf7--kxf7-nxe4-d5-afp7zb",
+      "name": "d5 Line",
+      "moves": [
+        "c6",
+        "Bxf7+",
+        "Kxf7",
+        "Nxe4",
+        "d5"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1480,
+          2681,
+          2660,
+          2134,
+          1296
+        ],
+        "winrates": [
+          56.52027027027027,
+          59.56732562476687,
+          59.32330827067669,
+          60.168697282099345,
+          57.754629629629626
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-bc5-bxf7--kxf7-nxe4-bb6-xsm8s1",
+      "name": "Bb6 Line",
+      "moves": [
+        "Bc5",
+        "Bxf7+",
+        "Kxf7",
+        "Nxe4",
+        "Bb6"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1333,
+          6824,
+          6401,
+          5446,
+          1768
+        ],
+        "winrates": [
+          73.93098274568642,
+          69.15298944900353,
+          68.34869551632558,
+          68.38964377524789,
+          65.07352941176471
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-d6-nxe5-dxe5-bxf7--irho44",
+      "name": "After Bg5+ Kxf7 Qxd8",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "d6",
+        "Nxe5",
+        "dxe5",
+        "Bxf7+",
+        "Ke7",
+        "Bg5+",
+        "Kxf7",
+        "Qxd8"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          235408,
+          223570,
+          52147,
+          9664,
+          5688,
+          5634,
+          4263,
+          4242,
+          2355,
+          1862
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          68.84384528352541,
+          84.3594784768212,
+          94.33016877637131,
+          94.87930422435214,
+          95.82453671123622,
+          96.12211221122112,
+          93.01486199575372,
+          93.77013963480128
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-nc6-ng5-qf6-bxf7--1yghtx",
+      "name": "Bxf7 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "Nc6",
+        "Ng5",
+        "Qf6",
+        "Bxf7+"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          235408,
+          223570,
+          26272,
+          15613,
+          2639,
+          1174
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          63.64190012180268,
+          71.49170562992379,
+          71.06858658582796,
+          80.28109028960819
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-be7-h4-xiazyd",
+      "name": "h4 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "Be7",
+        "h4"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          235408,
+          223570,
+          26091,
+          1634
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          55.676286842206125,
+          65.48347613219094
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-d5-bxd5-c6-bxf7--nlf3ev",
+      "name": "After Bxf7+ Kxf7 Qxd8",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "d5",
+        "Bxd5",
+        "c6",
+        "Bxf7+",
+        "Kxf7",
+        "Qxd8"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          235408,
+          223570,
+          20565,
+          14210,
+          6034,
+          5593,
+          1249,
+          1170
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          72.70362265985898,
+          80.6298381421534,
+          93.21345707656613,
+          96.20060790273556,
+          97.23779023218574,
+          98.03418803418803
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-bc5-ng5-o-o-qh5-5u73db",
+      "name": "Nxf7 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "Bc5",
+        "Ng5",
+        "O-O",
+        "Qh5",
+        "h6",
+        "Nxf7"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          235408,
+          223570,
+          9701,
+          2300,
+          1929,
+          1690,
+          1344,
+          1150
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          65.46747757963097,
+          81.04347826086956,
+          83.8258164852255,
+          86.68639053254438,
+          86.04910714285714,
+          88.95652173913044
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-bd6-ng5-o-o-qh5-35zf39",
+      "name": "Qxf7 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "Bd6",
+        "Ng5",
+        "O-O",
+        "Qh5",
+        "h6",
+        "Nxf7",
+        "Rxf7",
+        "Qxf7+"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          235408,
+          223570,
+          8163,
+          4614,
+          4207,
+          3885,
+          3650,
+          3143,
+          1842,
+          1082
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          72.82249173098126,
+          87.23450368443866,
+          88.18635607321131,
+          90.16731016731016,
+          89.56164383561644,
+          90.4390709513204,
+          86.29207383279045,
+          82.99445471349352
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-h6-nxe5-qe7-3goozr",
+      "name": "Qe7 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "h6",
+        "Nxe5",
+        "Qe7"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          235408,
+          223570,
+          2757,
+          1851,
+          1315
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          73.26804497642365,
+          80.79416531604538,
+          81.67300380228137
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-f6-o-o-c6-nxe5-myh521",
+      "name": "Qxh8 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "f6",
+        "O-O",
+        "c6",
+        "Nxe5",
+        "fxe5",
+        "Qh5+",
+        "g6",
+        "Qxe5+",
+        "Qe7",
+        "Qxh8"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          235408,
+          223570,
+          55366,
+          20285,
+          5999,
+          3159,
+          1549,
+          1562,
+          1117,
+          1108,
+          1009,
+          1004
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          49.488855976592134,
+          53.90189795415331,
+          68.1530255042507,
+          86.56220322886989,
+          92.57585539057457,
+          92.63764404609475,
+          90.24171888988361,
+          90.52346570397111,
+          89.59365708622398,
+          89.64143426294821
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-f6-o-o-c6-nxe5-6sp6zx",
+      "name": "Qh5 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "f6",
+        "O-O",
+        "c6",
+        "Nxe5",
+        "d5",
+        "Qh5+"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          235408,
+          223570,
+          55366,
+          20285,
+          5999,
+          3159,
+          1468,
+          1314
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          49.488855976592134,
+          53.90189795415331,
+          68.1530255042507,
+          86.56220322886989,
+          79.35967302452316,
+          81.12633181126331
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-d6-ng5-d5-bxd5-kkc3bn",
+      "name": "Be6 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "d6",
+        "Ng5",
+        "d5",
+        "Bxd5",
+        "Be6"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          235408,
+          223570,
+          52147,
+          29038,
+          2552,
+          2145,
+          1365
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          68.84384528352541,
+          72.54459673531235,
+          81.28918495297806,
+          83.12354312354312,
+          79.78021978021978
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-d6-bxf7--kxf7-gyaiqc",
+      "name": "Kxf7 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "d6",
+        "Bxf7+",
+        "Kxf7"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          235408,
+          223570,
+          52147,
+          1376,
+          1364
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          68.84384528352541,
+          73.14680232558139,
+          72.91055718475073
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "boden-kieseritsky-gambit-nxc3-dxc3-d6-ng5-be6-bxe6-pssg21",
+      "name": "Qxb7 Line",
+      "moves": [
+        "Nxc3",
+        "dxc3",
+        "d6",
+        "Ng5",
+        "Be6",
+        "Bxe6",
+        "fxe6",
+        "Qf3",
+        "Qe7",
+        "Qxb7"
+      ],
+      "eco": "C27",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          235408,
+          223570,
+          52147,
+          29038,
+          23283,
+          13132,
+          13112,
+          6086,
+          1511,
+          1484
+        ],
+        "winrates": [
+          60.0300329640454,
+          60.86304065840677,
+          68.84384528352541,
+          72.54459673531235,
+          70.48919812738909,
+          75.50639658848614,
+          75.46903599755949,
+          90.48636214262241,
+          94.04367968232958,
+          94.94609164420486
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T01:31:03.338Z"
+}

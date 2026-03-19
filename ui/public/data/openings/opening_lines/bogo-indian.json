@@ -1,0 +1,276 @@
+{
+  "opening": "bogo-indian",
+  "openingId": "bogo-indian",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "bogo-indian-line-0",
+      "name": "Main Line (E11)",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "Bb4+",
+        "Nbd2"
+      ],
+      "eco": "E11"
+    },
+    {
+      "id": "bogo-indian-line-1",
+      "name": "Main Line (E11)",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "Bb4+",
+        "Bd2",
+        "Qe7"
+      ],
+      "eco": "E11"
+    },
+    {
+      "id": "bogo-indian-line-2",
+      "name": "Main Line (E11)",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "Bb4+",
+        "Bd2",
+        "Bxd2+",
+        "Qxd2",
+        "b6",
+        "g3",
+        "Bb7",
+        "Bg2",
+        "O-O",
+        "Nc3",
+        "Ne4",
+        "Qc2",
+        "Nxc3",
+        "Ng5"
+      ],
+      "eco": "E11"
+    },
+    {
+      "id": "bogo-indian-qd2-bxd2--bxd2-8a8ko",
+      "name": "Bxd2 Line",
+      "moves": [
+        "Qd2",
+        "Bxd2+",
+        "Bxd2"
+      ],
+      "eco": "E11",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3064,
+          2514,
+          1004
+        ],
+        "winrates": [
+          86.14556135770235,
+          92.10421638822594,
+          85.50796812749005
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bogo-indian-bd2-bxd2--nbxd2-o-o-e4-d6-ldkqah",
+      "name": "O-O Line",
+      "moves": [
+        "Bd2",
+        "Bxd2+",
+        "Nbxd2",
+        "O-O",
+        "e4",
+        "d6",
+        "Bd3",
+        "e5",
+        "O-O"
+      ],
+      "eco": "E11",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          1511317,
+          500627,
+          330179,
+          150049,
+          51434,
+          20030,
+          15929,
+          1573,
+          502
+        ],
+        "winrates": [
+          47.75103436274455,
+          45.96016595189633,
+          46.27762516695489,
+          46.245559783803955,
+          47.182797371388574,
+          50.044932601098346,
+          50.20089145583526,
+          59.599491417673235,
+          61.65338645418327
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bogo-indian-bd2-bxd2--nbxd2-o-o-e4-d6-bf1byy",
+      "name": "Ne7 Line",
+      "moves": [
+        "Bd2",
+        "Bxd2+",
+        "Nbxd2",
+        "O-O",
+        "e4",
+        "d6",
+        "Bd3",
+        "Nc6",
+        "O-O",
+        "e5",
+        "d5",
+        "Ne7"
+      ],
+      "eco": "E11",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1511317,
+          500627,
+          330179,
+          150049,
+          51434,
+          20030,
+          15929,
+          2756,
+          2171,
+          1591,
+          1595,
+          1148
+        ],
+        "winrates": [
+          47.75103436274455,
+          45.96016595189633,
+          46.27762516695489,
+          46.245559783803955,
+          47.182797371388574,
+          50.044932601098346,
+          50.20089145583526,
+          53.91872278664731,
+          53.017042837402116,
+          56.819610307982394,
+          56.86520376175548,
+          59.27700348432056
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bogo-indian-bd2-bxd2--nbxd2-o-o-e4-d5-22x34f",
+      "name": "Nd2 Line",
+      "moves": [
+        "Bd2",
+        "Bxd2+",
+        "Nbxd2",
+        "O-O",
+        "e4",
+        "d5",
+        "e5",
+        "Ne4",
+        "Nxe4",
+        "dxe4",
+        "Nd2"
+      ],
+      "eco": "E11",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1511317,
+          500627,
+          330179,
+          150049,
+          51434,
+          18571,
+          13336,
+          4967,
+          1790,
+          1791,
+          893
+        ],
+        "winrates": [
+          47.75103436274455,
+          45.96016595189633,
+          46.27762516695489,
+          46.245559783803955,
+          47.182797371388574,
+          46.52415055732055,
+          46.393221355728855,
+          50.976444533923896,
+          62.709497206703915,
+          62.67448352875489,
+          61.92609182530795
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bogo-indian-bd2-bxd2--nbxd2-d5-e4-dxe4-im9opv",
+      "name": "dxe4 Line",
+      "moves": [
+        "Bd2",
+        "Bxd2+",
+        "Nbxd2",
+        "d5",
+        "e4",
+        "dxe4"
+      ],
+      "eco": "E11",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          1511317,
+          500627,
+          330179,
+          83485,
+          940,
+          910
+        ],
+        "winrates": [
+          47.75103436274455,
+          45.96016595189633,
+          46.27762516695489,
+          44.04384021081631,
+          59.14893617021277,
+          62.472527472527474
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:16:59.890Z"
+}

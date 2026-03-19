@@ -1,0 +1,1033 @@
+{
+  "id": "miscellaneous-bird-from-gambit",
+  "name": "Bird From gambit",
+  "opening": "Bird From gambit",
+  "generatedAt": "2026-01-03T19:14:57.391Z",
+  "lines": [
+    {
+      "id": "miscellaneous-bird-from-gambit-f5-d5-g4-qh4--cvbgxk",
+      "name": "Bird From gambit: f5 Forcing Line",
+      "moves": [
+        "f5",
+        "d5",
+        "g4",
+        "Qh4#"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          36706,
+          19450,
+          2349,
+          1583
+        ],
+        "winrates": [
+          65.07791641693457,
+          70.86889460154242,
+          89.01660280970626,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-g3-exf4-gxf4-qh4--9hsey1",
+      "name": "Bird From gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "exf4",
+        "gxf4",
+        "Qh4#"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          29423,
+          25945,
+          8822,
+          4927
+        ],
+        "winrates": [
+          59.43649525881114,
+          63.0082867604548,
+          79.77782815688053,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-b3-exf4-bb2-qh4--38ycd5",
+      "name": "Bird From gambit: b3 Forcing Line",
+      "moves": [
+        "b3",
+        "exf4",
+        "Bb2",
+        "Qh4+"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          11711,
+          11333,
+          3615,
+          1051
+        ],
+        "winrates": [
+          56.024250704465885,
+          58.047295508691434,
+          62.572614107883815,
+          78.68696479543293
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-g4-qh4--pj0yyi",
+      "name": "Bird From gambit: g4 Forcing Line",
+      "moves": [
+        "g4",
+        "Qh4#"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          7843,
+          5609
+        ],
+        "winrates": [
+          93.80976667091674,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-e4-qh4--g3-qxe4--1kyazu",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "e4",
+        "Qh4+",
+        "g3",
+        "Qxe4+",
+        "Ne2",
+        "Qxh1"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3148854,
+          2173859,
+          32726,
+          27297,
+          14348,
+          14266,
+          1086,
+          1075
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          55.513964431950136,
+          71.82291094259443,
+          74.27864510733203,
+          74.42170194868919,
+          83.33333333333334,
+          83.67441860465117
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-d4-dxe5-dxe5-qxd1--4so1ro",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "d4",
+        "dxe5",
+        "dxe5",
+        "Qxd1+",
+        "Kxd1",
+        "Nc6",
+        "Bf4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3148854,
+          2173859,
+          12789,
+          14024,
+          7743,
+          9127,
+          9117,
+          7248,
+          1131
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          59.602001720228316,
+          59.6406160867085,
+          60.55146584011365,
+          60.99485044373836,
+          60.94658330591203,
+          62.25165562913908,
+          64.72148541114058
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-g3-dxe5-nf3-e4-bu65fd",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "g3",
+        "dxe5",
+        "Nf3",
+        "e4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3148854,
+          2173859,
+          6513,
+          8461,
+          1067,
+          1447
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          58.13757101182251,
+          57.94823306937714,
+          60.77788191190253,
+          65.82584657912923
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-e3-dxe5-d3-nc6-ex9kwu",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "e3",
+        "dxe5",
+        "d3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "Be2"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3148854,
+          2173859,
+          6323,
+          38298,
+          4194,
+          1663,
+          1109,
+          2915,
+          2307
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          58.05788391586273,
+          55.34100997441121,
+          58.547925608011454,
+          59.95189416716777,
+          57.574391343552755,
+          57.118353344768444,
+          55.895101863892506
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-b3-dxe5-e4-qh4--c36e1d",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "b3",
+        "dxe5",
+        "e4",
+        "Qh4+"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3148854,
+          2173859,
+          2221,
+          7147,
+          1076,
+          1058
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          61.548851868527684,
+          57.53462991464951,
+          63.568773234200734,
+          86.72022684310019
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bg4-dxc7-qxc7-thuuh6",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bg4",
+        "dxc7",
+        "Qxc7"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          3724,
+          1029,
+          1013
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          56.55209452201934,
+          60.10689990281828,
+          60.365251727541946
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-g3-h5-sll9ga",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "g3",
+        "h5",
+        "Nf3",
+        "h4",
+        "Nxh4",
+        "Rxh4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          55430,
+          19248,
+          8160,
+          7631,
+          1047,
+          1024
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          55.29857477900054,
+          61.705112219451365,
+          62.42034313725491,
+          64.92595990040624,
+          84.5272206303725,
+          84.765625
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-e4-qh4--s2wel2",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "e4",
+        "Qh4+",
+        "g3",
+        "Bxg3+",
+        "hxg3",
+        "Qxh1"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          9885,
+          6280,
+          3078,
+          2349,
+          1846,
+          1156
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          69.99494183105716,
+          79.5859872611465,
+          80.45808966861598,
+          83.99318859088973,
+          83.0715059588299,
+          75.51903114186851
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nc3-qh4--bvuo3",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nc3",
+        "Qh4+",
+        "g3",
+        "Qxg3+",
+        "hxg3",
+        "Bxg3#"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          8176,
+          4995,
+          4419,
+          1699,
+          1497,
+          1484
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          82.46697651663405,
+          98.2982982982983,
+          98.12174700158407,
+          99.73513831665686,
+          99.76619906479625,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-d3-qh4--4lnwpi",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "d3",
+        "Qh4+",
+        "g3",
+        "Bxg3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          7938,
+          4930,
+          1133,
+          1121
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          59.315948601662896,
+          60.73022312373225,
+          71.05030891438659,
+          71.2756467439786
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-d4-qh4--ss2naf",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "d4",
+        "Qh4+",
+        "g3",
+        "Bxg3+",
+        "hxg3",
+        "Qxh1",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          7145,
+          4289,
+          2280,
+          2222,
+          1764,
+          1666,
+          1052
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          66.50804758572428,
+          74.0615528095127,
+          73.90350877192982,
+          74.70747074707471,
+          71.9387755102041,
+          73.19927971188476,
+          73.90684410646388
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-e3-qh4--3ualzf",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "e3",
+        "Qh4+",
+        "g3",
+        "Bxg3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          5857,
+          3604,
+          1388,
+          1374
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          64.09424620112686,
+          69.21476137624862,
+          79.14265129682997,
+          79.54876273653566
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-b3-qh4--8ez9nh",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "b3",
+        "Qh4+"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1991,
+          1198
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          84.5303867403315,
+          97.9966611018364
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nf3-g5-35t8fr",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nf3",
+        "g5",
+        "h3",
+        "Bg3#"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1189956,
+          522884,
+          25659,
+          18655
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          49.340647889501795,
+          48.99260639070998,
+          92.37694376242254,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nf3-g5-oe5no1",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nf3",
+        "g5",
+        "e4",
+        "g4",
+        "Nd4",
+        "Qh4+",
+        "Ke2",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1189956,
+          522884,
+          24931,
+          24635,
+          4048,
+          3848,
+          2264,
+          1380
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          49.340647889501795,
+          48.99260639070998,
+          58.180578396373996,
+          58.30322711589202,
+          68.71294466403161,
+          69.9064449064449,
+          72.1731448763251,
+          79.05797101449275
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nf3-g5-kpy98e",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nf3",
+        "g5",
+        "e3",
+        "g4",
+        "Nd4",
+        "Qh4+",
+        "g3",
+        "Bxg3+",
+        "Ke2"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1189956,
+          522884,
+          17349,
+          17238,
+          12547,
+          11722,
+          3096,
+          3084,
+          1125
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          49.340647889501795,
+          48.99260639070998,
+          61.323419217245956,
+          61.37893027033299,
+          60.875109587949304,
+          61.277938918273335,
+          63.759689922480625,
+          63.82944228274967,
+          66.66666666666667
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nf3-g5-b1j1j1",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nf3",
+        "g5",
+        "g4",
+        "Bxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1189956,
+          522884,
+          2032,
+          1705
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          49.340647889501795,
+          48.99260639070998,
+          67.1505905511811,
+          65.39589442815249
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nf3-g5-p7xs6c",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nf3",
+        "g5",
+        "Nc3",
+        "g4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1189956,
+          522884,
+          1889,
+          1933
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          49.340647889501795,
+          48.99260639070998,
+          90.07411328745368,
+          90.19658561821004
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nf3-g5-iv1mqf",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nf3",
+        "g5",
+        "b3",
+        "g4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1189956,
+          522884,
+          1856,
+          1813
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          49.340647889501795,
+          48.99260639070998,
+          85.64116379310344,
+          85.99007170435742
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nf3-g5-7s9v17",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nf3",
+        "g5",
+        "g3",
+        "g4",
+        "Nd4",
+        "h5"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1189956,
+          522884,
+          267564,
+          192694,
+          5856,
+          1958
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          49.340647889501795,
+          48.99260639070998,
+          46.92652972746707,
+          48.62424361941732,
+          58.82001366120219,
+          70.12257405515832
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-from-gambit-fxe5-d6-exd6-bxd6-nf3-g5-v88a4o",
+      "name": "Bird From gambit: fxe5 Forcing Line",
+      "moves": [
+        "fxe5",
+        "d6",
+        "exd6",
+        "Bxd6",
+        "Nf3",
+        "g5",
+        "g3",
+        "g4",
+        "Ng1",
+        "h5",
+        "Bg2",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3148854,
+          2173859,
+          1321294,
+          1288448,
+          1189956,
+          522884,
+          267564,
+          192694,
+          4117,
+          2924,
+          1276,
+          1236
+        ],
+        "winrates": [
+          48.99083920689876,
+          50.59923389695468,
+          50.36592915732607,
+          50.307113674746674,
+          49.340647889501795,
+          48.99260639070998,
+          46.92652972746707,
+          48.62424361941732,
+          66.10395919358756,
+          72.40082079343365,
+          68.76959247648902,
+          69.7411003236246
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

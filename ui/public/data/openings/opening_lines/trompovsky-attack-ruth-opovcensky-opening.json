@@ -1,0 +1,1077 @@
+{
+  "opening": "trompovsky attack (ruth, opovcensky opening)",
+  "openingId": "trompovsky-attack-ruth-opovcensky-opening",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Bg5"
+      ],
+      "eco": "A45"
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-nd5-e3-f6-bh4-qmsaou",
+      "name": "Bh4 Line",
+      "moves": [
+        "Nd5",
+        "e3",
+        "f6",
+        "Bh4"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          29284,
+          4646,
+          1225,
+          1142
+        ],
+        "winrates": [
+          58.040226744980195,
+          59.7503228583728,
+          66.3265306122449,
+          67.46935201401051
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e5-dxe5-bb4--p3yrdp",
+      "name": "Bb4 Line",
+      "moves": [
+        "e5",
+        "dxe5",
+        "Bb4+"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          22349,
+          14253,
+          502
+        ],
+        "winrates": [
+          56.87279072889167,
+          60.87490352908159,
+          78.28685258964143
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-nd2-g6-e4-eto83k",
+      "name": "e4 Line",
+      "moves": [
+        "e6",
+        "Nd2",
+        "g6",
+        "e4"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          3155174,
+          304858,
+          1252,
+          755
+        ],
+        "winrates": [
+          51.91127335608115,
+          56.37591928045188,
+          64.93610223642172,
+          70.13245033112582
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-bb4--c3-be7-e5-2q6mr9",
+      "name": "Qxe7 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Bb4+",
+        "c3",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Qxe7"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3155174,
+          1131520,
+          4799,
+          4552,
+          3962,
+          2172,
+          1765,
+          1313,
+          806
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          57.67868305897061,
+          58.04042179261862,
+          56.27208480565371,
+          56.12338858195211,
+          55.240793201133144,
+          56.702208682406706,
+          57.754342431761785
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-c6-e5-qa5--c3-zch24y",
+      "name": "c3 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "c6",
+        "e5",
+        "Qa5+",
+        "c3"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3155174,
+          1131520,
+          3998,
+          3322,
+          1253,
+          524
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          57.95397698849425,
+          58.83503913305238,
+          63.04868316041501,
+          56.87022900763359
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-g6-e5-rg03f0",
+      "name": "e5 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "g6",
+        "e5"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3155174,
+          1131520,
+          1420,
+          1364
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          83.8380281690141,
+          85.63049853372434
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-nxe4-bxd8-kxd8-uor2su",
+      "name": "Kxd8 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Nxe4",
+        "Bxd8",
+        "Kxd8"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3155174,
+          1131520,
+          1354,
+          1257,
+          682
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          88.7370753323486,
+          90.3739061256961,
+          84.5307917888563
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-nc6-e5-cqiwea",
+      "name": "After e4 Nc6 e5",
+      "moves": [
+        "e6",
+        "e4",
+        "Nc6",
+        "e5"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3155174,
+          1131520,
+          1344,
+          1136
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          58.779761904761905,
+          58.758802816901415
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-nd2-nxe4-bxe7-c4hms0",
+      "name": "Bxe7 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "Nd2",
+        "Nxe4",
+        "Bxe7"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          59946,
+          735,
+          710
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          55.78854302205318,
+          72.0408163265306,
+          72.25352112676056
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-bd3-c6-2zvrai",
+      "name": "c6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "c6"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          59252,
+          842
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          55.57702693579964,
+          59.08551068883611
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-h6-exf6-818m9s",
+      "name": "exf6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "h6",
+        "exf6"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          1063,
+          704
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          61.10065851364064,
+          67.32954545454545
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bd2-ain3cj",
+      "name": "Nc7 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bd2",
+        "c6",
+        "c4",
+        "Nc7"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          76235,
+          937,
+          705,
+          500
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          56.85380730635535,
+          62.21985058697972,
+          64.18439716312056,
+          66.60000000000001
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-h4-5a5spu",
+      "name": "Bd2 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "h4",
+        "h6",
+        "Bd2"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          9709,
+          2337,
+          1001
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          57.2613039447935,
+          58.00171159606333,
+          63.83616383616384
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-ny2yl2",
+      "name": "After Nb6 Nc3 c6",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Qxe7",
+        "c4",
+        "Nb6",
+        "Nc3",
+        "c6"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          137086,
+          80653,
+          58730,
+          33937,
+          784
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          51.779175116350316,
+          54.567716018003054,
+          54.8331346841478,
+          56.182043197689836,
+          58.29081632653062
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-8hf6da",
+      "name": "Nf3 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Qxe7",
+        "c4",
+        "Qb4+",
+        "Nd2",
+        "Nb6",
+        "Qc2",
+        "Nc6",
+        "Nf3"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          137086,
+          80653,
+          14828,
+          5743,
+          2846,
+          1336,
+          596,
+          561
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          51.779175116350316,
+          54.567716018003054,
+          52.98759104397086,
+          55.876719484589934,
+          57.90583274771609,
+          60.40419161676647,
+          56.963087248322154,
+          57.84313725490197
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-2hxlau",
+      "name": "Qh5 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Nxe7",
+        "Bd3",
+        "O-O",
+        "Qh5"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          115073,
+          22615,
+          4046,
+          519
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          53.74371051419534,
+          56.115410126022546,
+          60.12110726643599,
+          64.25818882466281
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-29nr05",
+      "name": "f4 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Nxe7",
+        "Nc3",
+        "O-O",
+        "f4"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          115073,
+          8332,
+          1956,
+          861
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          53.74371051419534,
+          56.63106096975517,
+          59.58588957055214,
+          59.059233449477354
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-k1zoqr",
+      "name": "Qg3 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Nxe7",
+        "Qg4",
+        "Ng6",
+        "h4",
+        "h5",
+        "Qg3"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          115073,
+          7729,
+          1912,
+          1075,
+          924,
+          866
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          53.74371051419534,
+          60.014232112821844,
+          62.186192468619254,
+          65.30232558139535,
+          65.74675324675324,
+          67.0323325635104
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-lza2ik",
+      "name": "Nc3 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Nxe7",
+        "c4",
+        "c6",
+        "Nc3"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          115073,
+          33025,
+          844,
+          616
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          53.74371051419534,
+          50.93716881150644,
+          55.74644549763034,
+          57.548701298701296
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-pa46c0",
+      "name": "O-O Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Nxe7",
+        "c4",
+        "d5",
+        "Nc3",
+        "c6",
+        "Nf3",
+        "O-O"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          115073,
+          33025,
+          9715,
+          3661,
+          755,
+          1068,
+          546
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          53.74371051419534,
+          50.93716881150644,
+          52.59907359752959,
+          55.613220431576075,
+          59.205298013245034,
+          57.95880149812734,
+          58.058608058608066
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-rx451l",
+      "name": "d5 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Nxe7",
+        "Nf3",
+        "O-O",
+        "Bd3",
+        "d5"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          115073,
+          26723,
+          6947,
+          5389,
+          1001
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          53.74371051419534,
+          53.43150095423418,
+          54.5271340146826,
+          56.68027463351271,
+          61.68831168831169
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bxe7-qmayzf",
+      "name": "c5 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Nxe7",
+        "Nf3",
+        "d6",
+        "Bd3",
+        "c5"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          252683,
+          115073,
+          26723,
+          6607,
+          3291,
+          708
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          52.70872991059945,
+          53.74371051419534,
+          53.43150095423418,
+          51.54381716361435,
+          55.36311151625646,
+          56.28531073446328
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bd2-q1na0k",
+      "name": "g6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bd2",
+        "c5",
+        "Qg4",
+        "g6"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          76235,
+          37974,
+          2038,
+          1043
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          56.85380730635535,
+          58.02917785853479,
+          63.812561334641806,
+          63.66251198465963
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bd2-r44tqs",
+      "name": "After d6 Qg4 g6",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bd2",
+        "d6",
+        "Qg4",
+        "g6"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          76235,
+          16075,
+          1187,
+          560
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          56.85380730635535,
+          56.68118195956454,
+          63.47935973041281,
+          62.410714285714285
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "trompovsky-attack-ruth-opovcensky-opening-e6-e4-be7-e5-nd5-bd2-guu4b3",
+      "name": "a3 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bd2",
+        "b6",
+        "c4",
+        "Nb4",
+        "a3"
+      ],
+      "eco": "A45",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3155174,
+          1131520,
+          706183,
+          386081,
+          351442,
+          76235,
+          1579,
+          1125,
+          867,
+          698
+        ],
+        "winrates": [
+          51.91127335608115,
+          52.4549720729638,
+          53.24087382449025,
+          53.56894019648727,
+          53.45704269836844,
+          56.85380730635535,
+          59.59468017732742,
+          61.06666666666667,
+          57.727797001153405,
+          59.097421203438394
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:16:05.524Z"
+}

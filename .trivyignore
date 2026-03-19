@@ -1,0 +1,7 @@
+# Trivy Secret Ignore File
+# Format: secret rule ID or pattern to ignore
+
+# Supabase anonymous keys are meant to be public (by design)
+# They only provide read access and are required for client-side auth
+# See: https://supabase.com/docs/guides/api/api-keys
+jwt-token

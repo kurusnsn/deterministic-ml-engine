@@ -1,0 +1,74 @@
+# OWASP ZAP Rules Configuration
+# Format: <rule_id>	<action>	(<description>)
+# Actions: IGNORE, INFO, WARN, FAIL
+
+# ============================================
+# CRITICAL: MUST FAIL ON THESE
+# ============================================
+
+# Information Disclosure - Secrets in Headers
+10021	FAIL	(Information Disclosure - Sensitive Information in HTTP Headers)
+
+# Information Disclosure - Secrets in URLs
+10101	FAIL	(Information Disclosure - Sensitive Information in URL)
+
+# Secret Scanner (AWS keys, Bearer tokens, API keys)
+40012	FAIL	(Secret Scanner)
+
+# Cloud Metadata Exposure
+90033	FAIL	(Cloud Metadata Potentially Exposed)
+
+# Private IP Disclosure
+10045	FAIL	(Private IP Disclosure)
+
+# Hash Disclosure
+10046	FAIL	(Hash Disclosure)
+
+# ============================================
+# HIGH PRIORITY: FAIL ON THESE
+# ============================================
+
+# Cross-Site Scripting (Reflected)
+40012	FAIL	(Cross-Site Scripting (Reflected))
+
+# SQL Injection
+40018	FAIL	(SQL Injection)
+
+# Server Side Request Forgery
+40035	FAIL	(Server Side Request Forgery)
+
+# ============================================
+# MEDIUM PRIORITY: WARN
+# ============================================
+
+# Suspicious Comments (passwords, TODO with secrets, etc.)
+10027	WARN	(Information Disclosure - Suspicious Comments)
+
+# Application Error Disclosure
+90022	WARN	(Application Error Disclosure)
+
+# Missing Anti-CSRF Tokens
+10013	WARN	(Missing Anti-clickjacking Header)
+
+# ============================================
+# INFORMATIONAL: LOG ONLY
+# ============================================
+
+# Authentication Request Identified
+10111	INFO	(Authentication Request Identified)
+
+# Session Management Response Identified
+10112	INFO	(Session Management Response Identified)
+
+# Verification Request Identified
+10113	INFO	(Verification Request Identified)
+
+# ============================================
+# IGNORE: Known false positives
+# ============================================
+
+# X-Content-Type-Options (handled by nginx)
+10012	IGNORE	(Anti-MIME-Sniffing Header X-Content-Type-Options)
+
+# Cookie without SameSite (framework managed)
+10054	IGNORE	(Cookie Without SameSite Attribute)

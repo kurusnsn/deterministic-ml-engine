@@ -1,0 +1,1830 @@
+{
+  "opening": "queen's gambit",
+  "openingId": "queen-s-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "queen-s-gambit-line-0",
+      "name": "Grau (Sahovic) defence",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "Bf5"
+      ],
+      "eco": "D06"
+    },
+    {
+      "id": "queen-s-gambit-line-1",
+      "name": "Marshall defence",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "Nf6"
+      ],
+      "eco": "D06"
+    },
+    {
+      "id": "queen-s-gambit-line-2",
+      "name": "symmetrical (Austrian) defence",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "c5"
+      ],
+      "eco": "D06"
+    },
+    {
+      "id": "queen-s-gambit-line-3",
+      "name": "Schwartz defence",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "e4",
+        "f5"
+      ],
+      "eco": "D20"
+    },
+    {
+      "id": "queen-s-gambit-line-4",
+      "name": "Ericson variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "b5"
+      ],
+      "eco": "D21"
+    },
+    {
+      "id": "queen-s-gambit-line-5",
+      "name": "Janowski variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "a6"
+      ],
+      "eco": "D31"
+    },
+    {
+      "id": "queen-s-gambit-line-6",
+      "name": "Alapin variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "b6"
+      ],
+      "eco": "D31"
+    },
+    {
+      "id": "queen-s-gambit-line-7",
+      "name": "Charousek (Petrosian) variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Be7"
+      ],
+      "eco": "D31"
+    },
+    {
+      "id": "queen-s-gambit-line-8",
+      "name": "Chigorin defence, Janowski variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "Nc6",
+        "Nc3",
+        "dxc4",
+        "Nf3"
+      ],
+      "eco": "D07"
+    },
+    {
+      "id": "queen-s-gambit-line-9",
+      "name": "Alekhine defense, Borisenko-Furman variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "a6",
+        "e4"
+      ],
+      "eco": "D21"
+    },
+    {
+      "id": "queen-s-gambit-line-10",
+      "name": "Mannheim variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "Qa4+"
+      ],
+      "eco": "D23"
+    },
+    {
+      "id": "queen-s-gambit-line-11",
+      "name": "semi-Slav, Marshall gambit",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c6",
+        "e4"
+      ],
+      "eco": "D31"
+    },
+    {
+      "id": "queen-s-gambit-line-12",
+      "name": "Harrwitz attack",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bf4"
+      ],
+      "eco": "D35"
+    },
+    {
+      "id": "queen-s-gambit-line-13",
+      "name": "Haberditz variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "a6",
+        "e3",
+        "b5"
+      ],
+      "eco": "D22"
+    },
+    {
+      "id": "queen-s-gambit-line-14",
+      "name": "Main Line (D25)",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "g6"
+      ],
+      "eco": "D25"
+    },
+    {
+      "id": "queen-s-gambit-line-15",
+      "name": "Main Line (D25)",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "Bg4"
+      ],
+      "eco": "D25"
+    },
+    {
+      "id": "queen-s-gambit-line-16",
+      "name": "Main Line (D25)",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "Be6"
+      ],
+      "eco": "D25"
+    },
+    {
+      "id": "queen-s-gambit-line-17",
+      "name": "Vienna variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nf3",
+        "Nf6",
+        "Bg5",
+        "Bb4+"
+      ],
+      "eco": "D30"
+    },
+    {
+      "id": "queen-s-gambit-line-18",
+      "name": "Tarrasch, von Hennig-Schara gambit",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c5",
+        "cxd5",
+        "cxd4"
+      ],
+      "eco": "D32"
+    },
+    {
+      "id": "queen-s-gambit-line-19",
+      "name": "Albin counter-gambit, 5.g3",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e5",
+        "dxe5",
+        "d4",
+        "Nf3",
+        "Nc6",
+        "g3"
+      ],
+      "eco": "D09"
+    },
+    {
+      "id": "queen-s-gambit-line-20",
+      "name": "Main Line (D24)",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "Nc3",
+        "a6",
+        "e4"
+      ],
+      "eco": "D24"
+    },
+    {
+      "id": "queen-s-gambit-line-21",
+      "name": "Tarrasch defence, Marshall gambit",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c5",
+        "cxd5",
+        "exd5",
+        "e4"
+      ],
+      "eco": "D32"
+    },
+    {
+      "id": "queen-s-gambit-line-22",
+      "name": "classical variation (5.Bf4)",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "Be7",
+        "Bf4"
+      ],
+      "eco": "D37"
+    },
+    {
+      "id": "queen-s-gambit-line-23",
+      "name": "Semi-Tarrasch defence, Pillsbury variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "c5",
+        "Bg5"
+      ],
+      "eco": "D40"
+    },
+    {
+      "id": "queen-s-gambit-line-24",
+      "name": "Albin counter-gambit, Lasker trap",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e5",
+        "dxe5",
+        "d4",
+        "e3",
+        "Bb4+",
+        "Bd2",
+        "dxe3"
+      ],
+      "eco": "D08"
+    },
+    {
+      "id": "queen-s-gambit-line-25",
+      "name": "Albin counter-gambit, Janowski variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e5",
+        "dxe5",
+        "d4",
+        "Nf3",
+        "Nc6",
+        "Nbd2",
+        "f6"
+      ],
+      "eco": "D08"
+    },
+    {
+      "id": "queen-s-gambit-line-26",
+      "name": "Albin counter-gambit, Balogh variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e5",
+        "dxe5",
+        "d4",
+        "Nf3",
+        "Nc6",
+        "Nbd2",
+        "Qe7"
+      ],
+      "eco": "D08"
+    },
+    {
+      "id": "queen-s-gambit-line-27",
+      "name": "Linares variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "e4",
+        "c5",
+        "d5",
+        "Nf6",
+        "Nc3",
+        "b5"
+      ],
+      "eco": "D20"
+    },
+    {
+      "id": "queen-s-gambit-line-28",
+      "name": "Spielmann variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "c6",
+        "Nbd2",
+        "g6"
+      ],
+      "eco": "D30"
+    },
+    {
+      "id": "queen-s-gambit-line-29",
+      "name": "Ragozin, Vienna variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "Bb4",
+        "Bg5",
+        "dxc4"
+      ],
+      "eco": "D39"
+    },
+    {
+      "id": "queen-s-gambit-line-30",
+      "name": "Canal (Venice) variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "c5",
+        "cxd5",
+        "Qb6"
+      ],
+      "eco": "D50"
+    },
+    {
+      "id": "queen-s-gambit-line-31",
+      "name": "Manhattan variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "e3",
+        "Bb4"
+      ],
+      "eco": "D51"
+    },
+    {
+      "id": "queen-s-gambit-line-32",
+      "name": "Lasker variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "Ne4"
+      ],
+      "eco": "D53"
+    },
+    {
+      "id": "queen-s-gambit-line-33",
+      "name": "Alekhine defence, Alatortsev variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "a6",
+        "e3",
+        "Bg4",
+        "Bxc4",
+        "e6",
+        "d5"
+      ],
+      "eco": "D22"
+    },
+    {
+      "id": "queen-s-gambit-line-34",
+      "name": "Capablanca variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nf3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "e3",
+        "c6",
+        "Nbd2"
+      ],
+      "eco": "D30"
+    },
+    {
+      "id": "queen-s-gambit-line-35",
+      "name": "exchange, Saemisch variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "cxd5",
+        "exd5",
+        "Nf3",
+        "Nbd7",
+        "Bf4"
+      ],
+      "eco": "D35"
+    },
+    {
+      "id": "queen-s-gambit-line-36",
+      "name": "exchange, positional line, 6.Qc2",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "cxd5",
+        "exd5",
+        "Bg5",
+        "c6",
+        "Qc2"
+      ],
+      "eco": "D36"
+    },
+    {
+      "id": "queen-s-gambit-line-37",
+      "name": "Semi-Tarrasch, Primitive Pillsbury variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "c5",
+        "Nf3",
+        "cxd4",
+        "Qxd4"
+      ],
+      "eco": "D50"
+    },
+    {
+      "id": "queen-s-gambit-line-38",
+      "name": "Alekhine variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "Nf3",
+        "c6",
+        "e4"
+      ],
+      "eco": "D51"
+    },
+    {
+      "id": "queen-s-gambit-line-39",
+      "name": "Capablanca anti-Cambridge Springs variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "e3",
+        "c6",
+        "a3"
+      ],
+      "eco": "D51"
+    },
+    {
+      "id": "queen-s-gambit-line-40",
+      "name": "Anti-neo-orthodox variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Rc1"
+      ],
+      "eco": "D54"
+    },
+    {
+      "id": "queen-s-gambit-line-41",
+      "name": "classical, Steinitz variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "e6",
+        "Bxc4",
+        "c5",
+        "O-O",
+        "cxd4"
+      ],
+      "eco": "D26"
+    },
+    {
+      "id": "queen-s-gambit-line-42",
+      "name": "Stonewall variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "c6",
+        "Nbd2",
+        "Ne4",
+        "Bd3",
+        "f5"
+      ],
+      "eco": "D30"
+    },
+    {
+      "id": "queen-s-gambit-line-43",
+      "name": "Tarrasch defence, Tarrasch gambit",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c5",
+        "cxd5",
+        "exd5",
+        "dxc5",
+        "d4",
+        "Na4",
+        "b5"
+      ],
+      "eco": "D32"
+    },
+    {
+      "id": "queen-s-gambit-line-44",
+      "name": "classical, Rubinstein variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "e6",
+        "Bxc4",
+        "c5",
+        "O-O",
+        "a6",
+        "a4"
+      ],
+      "eco": "D27"
+    },
+    {
+      "id": "queen-s-gambit-line-45",
+      "name": "classical, Geller variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "e6",
+        "Bxc4",
+        "c5",
+        "O-O",
+        "a6",
+        "e4"
+      ],
+      "eco": "D27"
+    },
+    {
+      "id": "queen-s-gambit-line-46",
+      "name": "Hastings variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nf3",
+        "Nf6",
+        "Bg5",
+        "h6",
+        "Bxf6",
+        "Qxf6",
+        "Nc3",
+        "c6",
+        "Qb3"
+      ],
+      "eco": "D30"
+    },
+    {
+      "id": "queen-s-gambit-line-47",
+      "name": "Tarrasch, Schlechter-Rubinstein system, Rey Ardid variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c5",
+        "cxd5",
+        "exd5",
+        "Nf3",
+        "Nc6",
+        "g3",
+        "c4",
+        "e4"
+      ],
+      "eco": "D33"
+    },
+    {
+      "id": "queen-s-gambit-line-48",
+      "name": "Semi-Tarrasch, 7.Bd3",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "c5",
+        "cxd5",
+        "Nxd5",
+        "e3",
+        "Nc6",
+        "Bd3"
+      ],
+      "eco": "D42"
+    },
+    {
+      "id": "queen-s-gambit-line-49",
+      "name": "Rochlin variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "Nf3",
+        "c6",
+        "Rc1",
+        "Qa5",
+        "Bd2"
+      ],
+      "eco": "D51"
+    },
+    {
+      "id": "queen-s-gambit-line-50",
+      "name": "Cambridge Springs defence, Capablanca variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "e3",
+        "c6",
+        "Nf3",
+        "Qa5",
+        "Bxf6"
+      ],
+      "eco": "D52"
+    },
+    {
+      "id": "queen-s-gambit-line-51",
+      "name": "Orthodox defence, Botvinnik variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Bd3"
+      ],
+      "eco": "D60"
+    },
+    {
+      "id": "queen-s-gambit-line-52",
+      "name": "Orthodox defence, Rauzer variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Qb3"
+      ],
+      "eco": "D60"
+    },
+    {
+      "id": "queen-s-gambit-line-53",
+      "name": "semi-Slav, Koomen variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c6",
+        "Nf3",
+        "dxc4",
+        "a4",
+        "Bb4",
+        "e3",
+        "b5",
+        "Bd2",
+        "Qe7"
+      ],
+      "eco": "D31"
+    },
+    {
+      "id": "queen-s-gambit-line-54",
+      "name": "semi-Slav, Junge variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c6",
+        "Nf3",
+        "dxc4",
+        "a4",
+        "Bb4",
+        "e3",
+        "b5",
+        "Bd2",
+        "Qb6"
+      ],
+      "eco": "D31"
+    },
+    {
+      "id": "queen-s-gambit-line-55",
+      "name": "semi-Slav, Abrahams variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c6",
+        "Nf3",
+        "dxc4",
+        "a4",
+        "Bb4",
+        "e3",
+        "b5",
+        "Bd2",
+        "a5"
+      ],
+      "eco": "D31"
+    },
+    {
+      "id": "queen-s-gambit-line-56",
+      "name": "Tarrasch, Wagner variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c5",
+        "cxd5",
+        "exd5",
+        "Nf3",
+        "Nc6",
+        "g3",
+        "Nf6",
+        "Bg2",
+        "Bg4"
+      ],
+      "eco": "D33"
+    },
+    {
+      "id": "queen-s-gambit-line-57",
+      "name": "Cambridge Springs defence, Rubinstein variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "e3",
+        "c6",
+        "Nf3",
+        "Qa5",
+        "Nd2",
+        "dxc4"
+      ],
+      "eco": "D52"
+    },
+    {
+      "id": "queen-s-gambit-line-58",
+      "name": "Cambridge Springs defence, Yugoslav variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "e3",
+        "c6",
+        "Nf3",
+        "Qa5",
+        "cxd5",
+        "Nxd5"
+      ],
+      "eco": "D52"
+    },
+    {
+      "id": "queen-s-gambit-line-59",
+      "name": "Semi-Tarrasch, Krause variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "c5",
+        "Nf3",
+        "cxd4",
+        "Nxd4",
+        "e5",
+        "Ndb5",
+        "a6",
+        "Qa4"
+      ],
+      "eco": "D50"
+    },
+    {
+      "id": "queen-s-gambit-line-60",
+      "name": "Orthodox defence, 7.Qc2 c5, 8.cd (Rubinstein)",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Qc2",
+        "c5",
+        "cxd5"
+      ],
+      "eco": "D62"
+    },
+    {
+      "id": "queen-s-gambit-line-61",
+      "name": "Orthodox defence, Swiss, Karlsbad variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "a6",
+        "cxd5"
+      ],
+      "eco": "D63"
+    },
+    {
+      "id": "queen-s-gambit-line-62",
+      "name": "Albin counter-gambit, Krenosz variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e5",
+        "dxe5",
+        "d4",
+        "Nf3",
+        "Nc6",
+        "Nbd2",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Nxf3",
+        "Bb4+",
+        "Bd2",
+        "Qe7"
+      ],
+      "eco": "D08"
+    },
+    {
+      "id": "queen-s-gambit-line-63",
+      "name": "Orthodox defence, Rubinstein attack, Wolf variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Qc2",
+        "Ne4"
+      ],
+      "eco": "D64"
+    },
+    {
+      "id": "queen-s-gambit-line-64",
+      "name": "Cambridge Springs defence, Argentine variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Nbd7",
+        "e3",
+        "c6",
+        "Nf3",
+        "Qa5",
+        "Nd2",
+        "Bb4",
+        "Qc2",
+        "O-O",
+        "Bh4"
+      ],
+      "eco": "D52"
+    },
+    {
+      "id": "queen-s-gambit-line-65",
+      "name": "Pillsbury attack",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "b6",
+        "Bd3",
+        "Bb7",
+        "cxd5",
+        "exd5",
+        "Ne5"
+      ],
+      "eco": "D55"
+    },
+    {
+      "id": "queen-s-gambit-line-66",
+      "name": "Orthodox defence, Pillsbury attack",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "b6",
+        "cxd5",
+        "exd5",
+        "Bd3"
+      ],
+      "eco": "D63"
+    },
+    {
+      "id": "queen-s-gambit-line-67",
+      "name": "Orthodox defence, Capablanca variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "b6",
+        "cxd5",
+        "exd5",
+        "Bb5"
+      ],
+      "eco": "D63"
+    },
+    {
+      "id": "queen-s-gambit-line-68",
+      "name": "Orthodox defence, Rubinstein attack, Gruenfeld variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Qc2",
+        "a6",
+        "a3"
+      ],
+      "eco": "D64"
+    },
+    {
+      "id": "queen-s-gambit-line-69",
+      "name": "Orthodox defence, Rubinstein attack, main line",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Qc2",
+        "a6",
+        "cxd5"
+      ],
+      "eco": "D65"
+    },
+    {
+      "id": "queen-s-gambit-line-70",
+      "name": "Semi-Tarrasch, San Sebastian variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "c5",
+        "cxd5",
+        "Nxd5",
+        "e4",
+        "Nxc3",
+        "bxc3",
+        "cxd4",
+        "cxd4",
+        "Bb4+",
+        "Bd2",
+        "Qa5"
+      ],
+      "eco": "D41"
+    },
+    {
+      "id": "queen-s-gambit-line-71",
+      "name": "Orthodox defence, Bd3 line, fianchetto variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Bd3",
+        "dxc4",
+        "Bxc4",
+        "b5"
+      ],
+      "eco": "D66"
+    },
+    {
+      "id": "queen-s-gambit-line-72",
+      "name": "classical, Furman variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "e6",
+        "Bxc4",
+        "c5",
+        "Qe2",
+        "a6",
+        "dxc5",
+        "Bxc5",
+        "O-O",
+        "Nc6",
+        "e4",
+        "b5",
+        "e5"
+      ],
+      "eco": "D26"
+    },
+    {
+      "id": "queen-s-gambit-line-73",
+      "name": "Tarrasch, Reti variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c5",
+        "cxd5",
+        "exd5",
+        "Nf3",
+        "Nc6",
+        "g3",
+        "Nf6",
+        "Bg2",
+        "Be7",
+        "O-O",
+        "O-O",
+        "dxc5",
+        "Bxc5",
+        "Na4"
+      ],
+      "eco": "D34"
+    },
+    {
+      "id": "queen-s-gambit-line-74",
+      "name": "exchange, chameleon variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "cxd5",
+        "exd5",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Bd3",
+        "Nbd7",
+        "Qc2",
+        "Re8",
+        "Nge2",
+        "Nf8",
+        "O-O-O"
+      ],
+      "eco": "D35"
+    },
+    {
+      "id": "queen-s-gambit-line-75",
+      "name": "Semi-Tarrasch, Levenfish variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "c5",
+        "e3",
+        "Nc6",
+        "Bd3",
+        "Bd6",
+        "O-O",
+        "O-O",
+        "Qe2",
+        "Qe7",
+        "dxc5",
+        "Bxc5",
+        "e4"
+      ],
+      "eco": "D40"
+    },
+    {
+      "id": "queen-s-gambit-line-76",
+      "name": "Orthodox defence, Bd3 line, Janowski variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Bd3",
+        "dxc4",
+        "Bxc4",
+        "Nd5",
+        "h4"
+      ],
+      "eco": "D67"
+    },
+    {
+      "id": "queen-s-gambit-line-77",
+      "name": "classical, Smyslov variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "e6",
+        "Bxc4",
+        "c5",
+        "O-O",
+        "a6",
+        "Qe2",
+        "b5",
+        "Bb3",
+        "Bb7",
+        "Rd1",
+        "Nbd7",
+        "Nc3",
+        "Bd6"
+      ],
+      "eco": "D29"
+    },
+    {
+      "id": "queen-s-gambit-line-78",
+      "name": "Tarrasch, Bogolyubov variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c5",
+        "cxd5",
+        "exd5",
+        "Nf3",
+        "Nc6",
+        "g3",
+        "Nf6",
+        "Bg2",
+        "Be7",
+        "O-O",
+        "O-O",
+        "Bg5",
+        "Be6",
+        "Rc1",
+        "c4"
+      ],
+      "eco": "D34"
+    },
+    {
+      "id": "queen-s-gambit-line-79",
+      "name": "Tarrasch, Stoltz variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "c5",
+        "cxd5",
+        "exd5",
+        "Nf3",
+        "Nc6",
+        "g3",
+        "Nf6",
+        "Bg2",
+        "Be7",
+        "O-O",
+        "O-O",
+        "Bg5",
+        "Be6",
+        "Rc1",
+        "b6"
+      ],
+      "eco": "D34"
+    },
+    {
+      "id": "queen-s-gambit-line-80",
+      "name": "Semi-Tarrasch, Kmoch variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Nf3",
+        "c5",
+        "cxd5",
+        "Nxd5",
+        "e4",
+        "Nxc3",
+        "bxc3",
+        "cxd4",
+        "cxd4",
+        "Bb4+",
+        "Bd2",
+        "Bxd2+",
+        "Qxd2",
+        "O-O",
+        "Bb5"
+      ],
+      "eco": "D41"
+    },
+    {
+      "id": "queen-s-gambit-line-81",
+      "name": "Petrosian variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "h6",
+        "Bxf6",
+        "Bxf6",
+        "Rc1",
+        "c6",
+        "Bd3",
+        "Nd7",
+        "O-O",
+        "dxc4",
+        "Bxc4"
+      ],
+      "eco": "D55"
+    },
+    {
+      "id": "queen-s-gambit-line-82",
+      "name": "Orthodox defence, Bd3 line, Alekhine variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Bd3",
+        "dxc4",
+        "Bxc4",
+        "Nd5",
+        "Bxe7",
+        "Qxe7",
+        "Ne4"
+      ],
+      "eco": "D67"
+    },
+    {
+      "id": "queen-s-gambit-line-83",
+      "name": "Lasker defence, Bernstein variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "h6",
+        "Bh4",
+        "Ne4",
+        "Bxe7",
+        "Qxe7",
+        "cxd5",
+        "Nxc3",
+        "bxc3",
+        "exd5",
+        "Qb3",
+        "Qd6"
+      ],
+      "eco": "D57"
+    },
+    {
+      "id": "queen-s-gambit-line-84",
+      "name": "Tartakower variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "h6",
+        "Bh4",
+        "b6",
+        "cxd5",
+        "Nxd5",
+        "Bxe7",
+        "Qxe7",
+        "Nxd5",
+        "exd5",
+        "Rc1",
+        "Be6"
+      ],
+      "eco": "D59"
+    },
+    {
+      "id": "queen-s-gambit-line-85",
+      "name": "Orthodox defence, classical, 13.d1b1 (Maroczy)",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Bd3",
+        "dxc4",
+        "Bxc4",
+        "Nd5",
+        "Bxe7",
+        "Qxe7",
+        "O-O",
+        "Nxc3",
+        "Rxc3",
+        "e5",
+        "Qb1"
+      ],
+      "eco": "D68"
+    },
+    {
+      "id": "queen-s-gambit-line-86",
+      "name": "Orthodox defence, classical, 13.d1c2 (Vidmar)",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Bd3",
+        "dxc4",
+        "Bxc4",
+        "Nd5",
+        "Bxe7",
+        "Qxe7",
+        "O-O",
+        "Nxc3",
+        "Rxc3",
+        "e5",
+        "Qc2"
+      ],
+      "eco": "D68"
+    },
+    {
+      "id": "queen-s-gambit-line-87",
+      "name": "classical, Flohr variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "dxc4",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "e6",
+        "Bxc4",
+        "c5",
+        "O-O",
+        "a6",
+        "Qe2",
+        "b5",
+        "Bb3",
+        "Nc6",
+        "Rd1",
+        "c4",
+        "Bc2",
+        "Nb4",
+        "Nc3",
+        "Nxc2",
+        "Qxc2",
+        "Bb7",
+        "d5",
+        "Qc7"
+      ],
+      "eco": "D28"
+    },
+    {
+      "id": "queen-s-gambit-line-88",
+      "name": "Lasker defence, Russian variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "h6",
+        "Bh4",
+        "Ne4",
+        "Bxe7",
+        "Qxe7",
+        "Qc2",
+        "Nf6",
+        "Bd3",
+        "dxc4",
+        "Bxc4",
+        "c5",
+        "O-O",
+        "Nc6",
+        "Rfd1",
+        "Bd7"
+      ],
+      "eco": "D56"
+    },
+    {
+      "id": "queen-s-gambit-line-89",
+      "name": "Orthodox defence, classical, 13.de",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "e3",
+        "O-O",
+        "Nf3",
+        "Nbd7",
+        "Rc1",
+        "c6",
+        "Bd3",
+        "dxc4",
+        "Bxc4",
+        "Nd5",
+        "Bxe7",
+        "Qxe7",
+        "O-O",
+        "Nxc3",
+        "Rxc3",
+        "e5",
+        "dxe5",
+        "Nxe5",
+        "Nxe5",
+        "Qxe5"
+      ],
+      "eco": "D69"
+    }
+  ],
+  "generatedAt": "1.0"
+}

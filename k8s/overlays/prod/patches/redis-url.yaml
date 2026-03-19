@@ -1,0 +1,26 @@
+# Ensure Redis service hostname matches the prod namePrefix.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: puzzle-service
+spec:
+  template:
+    spec:
+      containers:
+        - name: puzzle
+          env:
+            - name: REDIS_URL
+              value: "redis://prod-redis:6379"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opening-book-service
+spec:
+  template:
+    spec:
+      containers:
+        - name: opening-book
+          env:
+            - name: REDIS_URL
+              value: "redis://prod-redis:6379"

@@ -1,0 +1,531 @@
+{
+  "id": "miscellaneous-reti-herrstroem-gambit",
+  "name": "Reti Herrstroem gambit",
+  "opening": "Reti Herrstroem gambit",
+  "generatedAt": "2026-01-03T19:25:04.242Z",
+  "lines": [
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-c3-g4-1jd6y2",
+      "name": "Reti Herrstroem gambit: c3 Forcing Line",
+      "moves": [
+        "c3",
+        "g4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2534,
+          2546
+        ],
+        "winrates": [
+          57.47829518547751,
+          57.9732914375491
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-ne5-g4-nxf7-kxf7-xeo77j",
+      "name": "Reti Herrstroem gambit: Ne5 Forcing Line",
+      "moves": [
+        "Ne5",
+        "g4",
+        "Nxf7",
+        "Kxf7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2027,
+          1481,
+          1072,
+          1001
+        ],
+        "winrates": [
+          55.328071040947215,
+          55.908170155300475,
+          56.343283582089555,
+          57.24275724275725
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-nxg5-e5-ne4-d5-nec3-d4-8c75tz",
+      "name": "Reti Herrstroem gambit: Nxg5 Forcing Line",
+      "moves": [
+        "Nxg5",
+        "e5",
+        "Ne4",
+        "d5",
+        "Nec3",
+        "d4",
+        "Ne4",
+        "f5",
+        "Ng3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          154430,
+          108226,
+          6345,
+          5940,
+          2474,
+          1550,
+          1510,
+          1289,
+          1239
+        ],
+        "winrates": [
+          46.90960305640096,
+          49.09032949568496,
+          55.95744680851064,
+          56.07744107744108,
+          57.21503637833468,
+          58.41935483870968,
+          58.04635761589404,
+          58.37858805275407,
+          57.99031476997578
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-nxg5-e5-e4-qxg5-d4-3oydwu",
+      "name": "Reti Herrstroem gambit: Nxg5 Forcing Line",
+      "moves": [
+        "Nxg5",
+        "e5",
+        "e4",
+        "Qxg5",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          154430,
+          108226,
+          3672,
+          2746,
+          1897
+        ],
+        "winrates": [
+          46.90960305640096,
+          49.09032949568496,
+          61.77832244008714,
+          66.31463947560088,
+          61.38639957828149
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-nxg5-e5-nf3-e4-ng1-d5-hvmj9v",
+      "name": "Reti Herrstroem gambit: Nxg5 Forcing Line",
+      "moves": [
+        "Nxg5",
+        "e5",
+        "Nf3",
+        "e4",
+        "Ng1",
+        "d5",
+        "d3",
+        "Nf6",
+        "dxe4"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          154430,
+          108226,
+          49276,
+          44286,
+          14877,
+          9197,
+          5261,
+          1410,
+          1002
+        ],
+        "winrates": [
+          46.90960305640096,
+          49.09032949568496,
+          50.603742186865816,
+          50.87273630492706,
+          51.263695637561334,
+          51.940850277264325,
+          50.788823417601215,
+          56.45390070921985,
+          58.93213572854291
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-bxf3-h5-2tfkku",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "Bxf3",
+        "h5",
+        "Bg2",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          17464,
+          2991,
+          1151,
+          1071
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          61.18586807146129,
+          64.12571046472752,
+          64.33536055603824,
+          65.96638655462185
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-bxf3-h5-2tfkku",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "Bxf3",
+        "h5",
+        "Bg2",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          17464,
+          2991,
+          1151,
+          1071
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          61.18586807146129,
+          64.12571046472752,
+          64.33536055603824,
+          65.96638655462185
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-bxf3-h5-2tfkku",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "Bxf3",
+        "h5",
+        "Bg2",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          17464,
+          2991,
+          1151,
+          1071
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          61.18586807146129,
+          64.12571046472752,
+          64.33536055603824,
+          65.96638655462185
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-exf3-h5-izydfu",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "exf3",
+        "h5"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          6109,
+          1155
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          56.825994434440986,
+          60.34632034632035
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-bxf3-nf6-u6z9jw",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "Bxf3",
+        "Nf6",
+        "Bg2"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          17464,
+          4235,
+          1502
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          61.18586807146129,
+          62.384887839433304,
+          65.41278295605859
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-bxf3-bg7-7974yk",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "Bxf3",
+        "Bg7",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          17464,
+          3099,
+          1345
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          61.18586807146129,
+          62.487899322362054,
+          60.817843866171
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-bxf3-h5-2tfkku",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "Bxf3",
+        "h5",
+        "Bg2",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          17464,
+          2991,
+          1151,
+          1071
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          61.18586807146129,
+          64.12571046472752,
+          64.33536055603824,
+          65.96638655462185
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-bxf3-d5-d9ti9b",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "Bxf3",
+        "d5",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          17464,
+          2493,
+          1008
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          61.18586807146129,
+          61.93341355796229,
+          60.41666666666667
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-herrstroem-gambit-g3-g4-bg2-gxf3-exf3-nf6-qi8x17",
+      "name": "Reti Herrstroem gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "g4",
+        "Bg2",
+        "gxf3",
+        "exf3",
+        "Nf6",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          120629,
+          117061,
+          23841,
+          24309,
+          6109,
+          1473,
+          1184
+        ],
+        "winrates": [
+          52.69835611668836,
+          53.115469712372175,
+          60.607776519441295,
+          60.80875395943889,
+          56.825994434440986,
+          56.924643584521384,
+          55.23648648648649
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

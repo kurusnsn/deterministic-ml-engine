@@ -1,0 +1,532 @@
+{
+  "opening": "beefeater",
+  "openingId": "beefeater",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "beefeater-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "g6",
+        "c4",
+        "Bg7",
+        "Nc3",
+        "c5",
+        "d5",
+        "Bxc3+",
+        "bxc3",
+        "f5"
+      ],
+      "eco": "A40"
+    },
+    {
+      "id": "beefeater-e4-nf6-e5-v2yvkt",
+      "name": "e5 Line",
+      "moves": [
+        "e4",
+        "Nf6",
+        "e5"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          48561,
+          1394,
+          755
+        ],
+        "winrates": [
+          49.91145157636787,
+          61.83644189383071,
+          65.03311258278146
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-nf6-qc2-exf3-sypmui",
+      "name": "Nxf3 Line",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "Nf6",
+        "Qc2",
+        "exf3",
+        "Nxf3"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          7128,
+          1511,
+          505,
+          505
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          57.112794612794616,
+          60.22501654533422,
+          69.6039603960396,
+          69.5049504950495
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-exf3-nxf3-nf6-xiayv8",
+      "name": "O-O Line",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "Nf6",
+        "Bd3",
+        "d6",
+        "O-O"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          2349,
+          2318,
+          1377,
+          1133,
+          1137,
+          1030
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          61.23882503192848,
+          61.6695427092321,
+          63.14451706608569,
+          62.79788172992057,
+          61.87335092348285,
+          61.89320388349514
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-e5-nh3-d6-pjmhyp",
+      "name": "d6 Line",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "e5",
+        "Nh3",
+        "d6"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          9137,
+          805,
+          565
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          49.2174674400788,
+          62.049689440993795,
+          62.92035398230088
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-e5-fxe4-d6-jh8jvj",
+      "name": "Nf3 Line",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "e5",
+        "fxe4",
+        "d6",
+        "Nf3"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          9137,
+          4222,
+          553,
+          573
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          49.2174674400788,
+          43.55755566082426,
+          59.94575045207957,
+          63.17626527050611
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-nf6-fxe4-nxe4-epq53w",
+      "name": "After Nf3 d6 O-O",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "Nf6",
+        "fxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "d6",
+        "O-O"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          7128,
+          4580,
+          2473,
+          1382,
+          1227,
+          798,
+          1137,
+          1030
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          57.112794612794616,
+          58.30786026200874,
+          60.93813182369592,
+          65.70188133140377,
+          63.93643031784841,
+          66.41604010025063,
+          61.87335092348285,
+          61.89320388349514
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-nf6-fxe4-d6-3fricf",
+      "name": "After Bd3 Nbd7 Nf3",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "Nf6",
+        "fxe4",
+        "d6",
+        "Bd3",
+        "Nbd7",
+        "Nf3"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          7128,
+          4580,
+          1356,
+          2179,
+          746,
+          659
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          57.112794612794616,
+          58.30786026200874,
+          54.0929203539823,
+          52.45525470399266,
+          55.36193029490617,
+          56.904400606980275
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-nf6-qc2-qa5-24ekcy",
+      "name": "Bd3 Line",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "Nf6",
+        "Qc2",
+        "Qa5",
+        "Bd2",
+        "exf3",
+        "Nxf3",
+        "d6",
+        "Bd3"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          7128,
+          1511,
+          849,
+          763,
+          622,
+          620,
+          622,
+          604
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          57.112794612794616,
+          60.22501654533422,
+          58.89281507656066,
+          58.322411533420706,
+          61.4951768488746,
+          61.532258064516135,
+          59.4855305466238,
+          61.09271523178808
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-nf6-qc2-d6-g2r1fu",
+      "name": "After Nf3 Ng4 O-O",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "Nf6",
+        "Qc2",
+        "d6",
+        "fxe4",
+        "Qa5",
+        "Bd3",
+        "Nbd7",
+        "Nf3",
+        "Ng4",
+        "O-O"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          7128,
+          1511,
+          707,
+          2135,
+          752,
+          1108,
+          1584,
+          1373,
+          948,
+          622
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          57.112794612794616,
+          60.22501654533422,
+          58.698727015558696,
+          55.24590163934426,
+          58.31117021276596,
+          58.93501805054152,
+          59.753787878787875,
+          61.47123088128187,
+          55.74894514767933,
+          57.556270096463024
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-nf6-qc2-qa5-rboew3",
+      "name": "Nbd7 Line",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "Nf6",
+        "Qc2",
+        "Qa5",
+        "fxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "d6",
+        "O-O",
+        "Nbd7"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          7128,
+          1511,
+          849,
+          2214,
+          1795,
+          978,
+          585,
+          511,
+          860,
+          1108,
+          741
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          57.112794612794616,
+          60.22501654533422,
+          58.89281507656066,
+          57.47515808491418,
+          58.495821727019504,
+          71.88139059304703,
+          68.71794871794872,
+          68.68884540117418,
+          67.79069767441861,
+          69.08844765342961,
+          69.70310391363023
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "beefeater-e4-fxe4-f3-nf6-qc2-qa5-lb8vco",
+      "name": "Variation 7",
+      "moves": [
+        "e4",
+        "fxe4",
+        "f3",
+        "Nf6",
+        "Qc2",
+        "Qa5",
+        "fxe4",
+        "d6",
+        "Bd3",
+        "Nbd7",
+        "Nf3",
+        "Ng4",
+        "O-O"
+      ],
+      "eco": "A40",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          48561,
+          47542,
+          26946,
+          7128,
+          1511,
+          849,
+          2214,
+          670,
+          1108,
+          1584,
+          1373,
+          948,
+          622
+        ],
+        "winrates": [
+          49.91145157636787,
+          48.577047663118925,
+          52.91323387515773,
+          57.112794612794616,
+          60.22501654533422,
+          58.89281507656066,
+          57.47515808491418,
+          55.970149253731336,
+          58.93501805054152,
+          59.753787878787875,
+          61.47123088128187,
+          55.74894514767933,
+          57.556270096463024
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:10:57.357Z"
+}

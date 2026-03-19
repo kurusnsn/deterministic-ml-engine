@@ -1,0 +1,1136 @@
+{
+  "opening": "queen's bishop game",
+  "openingId": "queen-s-bishop-game",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "queen-s-bishop-game-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "Nf3",
+        "Nf6",
+        "Bf4"
+      ],
+      "eco": "D02"
+    },
+    {
+      "id": "queen-s-bishop-game-nc6-bg3-bd7-e3-e6-c4-y4bj7z",
+      "name": "c4 Line",
+      "moves": [
+        "Nc6",
+        "Bg3",
+        "Bd7",
+        "e3",
+        "e6",
+        "c4"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1785353,
+          48158,
+          671,
+          643,
+          1287,
+          791
+        ],
+        "winrates": [
+          55.6771125934199,
+          57.71522903775074,
+          63.04023845007451,
+          62.44167962674961,
+          58.74125874125874,
+          65.929203539823
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-h6-bg3-e6-e3-ne4-8r10ro",
+      "name": "Ne4 Line",
+      "moves": [
+        "h6",
+        "Bg3",
+        "e6",
+        "e3",
+        "Ne4"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          122551,
+          2813,
+          1004,
+          4178,
+          508
+        ],
+        "winrates": [
+          55.75229904284746,
+          57.483114113046575,
+          59.26294820717132,
+          57.38391574916227,
+          58.661417322834644
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-b6-bg3-bb7-e3-dixjng",
+      "name": "e3 Line",
+      "moves": [
+        "b6",
+        "Bg3",
+        "Bb7",
+        "e3"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          49070,
+          642,
+          646,
+          1105
+        ],
+        "winrates": [
+          55.66741389851233,
+          58.87850467289719,
+          57.89473684210527,
+          57.511312217194565
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-bg3-bb4--c3-ba5-e3-m0wsah",
+      "name": "After c3 Ba5 e3",
+      "moves": [
+        "e6",
+        "Bg3",
+        "Bb4+",
+        "c3",
+        "Ba5",
+        "e3"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          4771227,
+          309033,
+          4411,
+          4103,
+          617,
+          526
+        ],
+        "winrates": [
+          53.83233704872982,
+          56.100642973404135,
+          60.48515075946498,
+          60.5166951011455,
+          62.96596434359806,
+          64.44866920152091
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-nc6-nbd2-b6-bb5-72r6j7",
+      "name": "Ne5 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Nc6",
+        "Nbd2",
+        "b6",
+        "Bb5",
+        "Bb7",
+        "Ne5"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          4771227,
+          9698780,
+          517543,
+          306881,
+          4332,
+          867,
+          621,
+          673
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          57.30374094519682,
+          58.98426425878435,
+          65.05078485687903,
+          75.08650519031141,
+          81.32045088566827,
+          87.44427934621099
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-nbd7-ne5-c6-nd2-phnwij",
+      "name": "Re8 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Nbd7",
+        "Ne5",
+        "c6",
+        "Nd2",
+        "Bd6",
+        "Nxf7",
+        "Kxf7",
+        "Bxd6",
+        "Nb6",
+        "Bg3",
+        "Re8"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          4771227,
+          9698780,
+          401147,
+          11385,
+          620,
+          4948,
+          624,
+          9369,
+          8670,
+          8661,
+          4101,
+          2438,
+          561
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          55.03805338192732,
+          56.868686868686865,
+          58.30645161290322,
+          58.45796281325788,
+          66.58653846153845,
+          71.47507738285836,
+          69.64244521337946,
+          69.6628564830851,
+          71.3362594489149,
+          71.82116488925348,
+          72.28163992869875
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-c6-ne5-h6-bd3-nl54g3",
+      "name": "Qf3 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "c6",
+        "Ne5",
+        "h6",
+        "Bd3",
+        "Nbd7",
+        "Nd2",
+        "Be7",
+        "Qf3"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          4771227,
+          9698780,
+          318889,
+          39571,
+          601,
+          581,
+          959,
+          859,
+          1080,
+          879
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          56.85959691303244,
+          57.80622172803316,
+          59.40099833610649,
+          58.77796901893287,
+          57.8206465067779,
+          60.244470314318974,
+          63.24074074074074,
+          64.44823663253698
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bb4--c3-ba5-a4-xqqah8",
+      "name": "c6 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bb4+",
+        "c3",
+        "Ba5",
+        "a4",
+        "c6"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          4771227,
+          9698780,
+          195808,
+          179526,
+          51323,
+          1959,
+          504
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          59.329802663833966,
+          59.58941880284749,
+          62.97371548818269,
+          68.96375701888718,
+          57.936507936507944
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-h6-ne5-be7-bd3-tmziym",
+      "name": "a6 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "h6",
+        "Ne5",
+        "Be7",
+        "Bd3",
+        "O-O",
+        "Nd2",
+        "a6"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          4771227,
+          9698780,
+          192307,
+          9191,
+          926,
+          898,
+          1256,
+          1705,
+          584
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          55.87290114244411,
+          58.42128168860842,
+          60.63714902807775,
+          62.69487750556792,
+          60.46974522292994,
+          61.7008797653959,
+          68.4931506849315
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-b6-ne5-bd6-bb5--gr9nl8",
+      "name": "Bb5 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "b6",
+        "Ne5",
+        "Bd6",
+        "Bb5+"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          4771227,
+          9698780,
+          181416,
+          5950,
+          647,
+          1386
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          55.0472394937602,
+          57.90756302521009,
+          56.64605873261206,
+          58.58585858585859
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-nh5-bg5-h6-roha8w",
+      "name": "h6 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Nh5",
+        "Bg5",
+        "h6"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          4771227,
+          9698780,
+          164563,
+          52622,
+          756
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          55.931770811178694,
+          60.634335449051726,
+          76.38888888888889
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-ne5-ne4-bd3-8gmd9j",
+      "name": "Nxh8 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Ne5",
+        "Ne4",
+        "Bd3",
+        "f6",
+        "Qh5+",
+        "g6",
+        "Nxg6",
+        "Kd7",
+        "Nxh8"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          1462927,
+          32164,
+          9775,
+          3521,
+          2697,
+          2119,
+          2118,
+          572,
+          532
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          55.48964507456626,
+          59.4391244870041,
+          63.069053708439895,
+          75.50411814825334,
+          82.90693362995921,
+          78.85795186408683,
+          78.87157695939567,
+          78.14685314685315,
+          79.04135338345864
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-bxg3-hxg3-7lqwom",
+      "name": "dxe5 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "Bxg3",
+        "hxg3",
+        "O-O",
+        "Nbd2",
+        "c6",
+        "Bd3",
+        "Nbd7",
+        "Ne5",
+        "Nxe5",
+        "dxe5"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          951297,
+          939003,
+          90513,
+          12440,
+          772,
+          2250,
+          5024,
+          2542,
+          944,
+          940
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          55.19217447337687,
+          55.329429192452,
+          59.44836653298421,
+          60.83199356913184,
+          66.45077720207254,
+          64.86666666666666,
+          66.23208598726114,
+          73.50511408339891,
+          86.01694915254238,
+          86.06382978723404
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-c6-nbd2-7d1sfy",
+      "name": "Bxd6 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "c6",
+        "Nbd2",
+        "Nbd7",
+        "Bxd6"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          114158,
+          47944,
+          3224,
+          888
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          55.06797596313881,
+          56.99983313866177,
+          66.29962779156328,
+          88.68243243243244
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-h6-bh4-ude7ji",
+      "name": "Bd7 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "h6",
+        "Bh4",
+        "Bd7"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          71971,
+          783,
+          1347
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          55.28615692431674,
+          57.53512132822478,
+          57.72086117297699
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-a6-a4-7p9k34",
+      "name": "a4 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "a6",
+        "a4"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          30746,
+          594
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          55.051063552982505,
+          58.24915824915825
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-xsbsma",
+      "name": "After h6 Nbd2 Ne4",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "h6",
+        "Nbd2",
+        "Ne4"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          46814,
+          29495,
+          567
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          55.58166360490452,
+          57.18087811493473,
+          62.43386243386243
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-2u9fo7",
+      "name": "Qe2 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "c6",
+        "Qe2"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          33546,
+          948
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          56.49555833780481,
+          59.59915611814346
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-of1rvl",
+      "name": "c3 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "Bxg3",
+        "hxg3",
+        "Bd7",
+        "c3"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          18658,
+          18272,
+          1094,
+          692
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          56.930003215778754,
+          57.30626094570928,
+          73.72029250457038,
+          72.1820809248555
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-tjy0ni",
+      "name": "c5 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "Bd7",
+        "Nbd2",
+        "c5"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          4320,
+          2479,
+          549
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          58.86574074074075,
+          60.851149657119805,
+          68.85245901639344
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-31h70b",
+      "name": "b5 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "c5",
+        "c3",
+        "c4",
+        "Bc2",
+        "Nbd7",
+        "Nbd2",
+        "b5"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          316743,
+          281793,
+          69063,
+          63873,
+          1439,
+          1055,
+          1283
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          51.81503616496656,
+          52.185114605401836,
+          57.73931048462998,
+          58.22961188608645,
+          66.78248783877693,
+          62.8436018957346,
+          68.82307092751364
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-mjz64w",
+      "name": "b6 Line",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "c5",
+        "c3",
+        "cxd4",
+        "exd4",
+        "Nbd7",
+        "Nbd2",
+        "b6"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          316743,
+          281793,
+          49607,
+          40061,
+          1739,
+          897,
+          504
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          51.81503616496656,
+          52.185114605401836,
+          55.13939564980749,
+          55.93844387309353,
+          68.51638872915468,
+          63.43366778149387,
+          69.7420634920635
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-dzja30",
+      "name": "After Bc2 b5 Qe2",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "c5",
+        "c3",
+        "a6",
+        "Nbd2",
+        "c4",
+        "Bc2",
+        "b5",
+        "Qe2"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          316743,
+          281793,
+          4065,
+          5745,
+          4091,
+          3717,
+          3828,
+          768
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          51.81503616496656,
+          52.185114605401836,
+          55.15375153751537,
+          55.86597040905134,
+          59.30090442434612,
+          59.913909066451446,
+          59.82236154649948,
+          63.997395833333336
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-c0e9l",
+      "name": "After c3 Nbd7 Bxd6",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "c5",
+        "c3",
+        "Nbd7",
+        "Bxd6"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          316743,
+          281793,
+          2090,
+          1489
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          51.81503616496656,
+          52.185114605401836,
+          65.09569377990431,
+          83.10946944257891
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "queen-s-bishop-game-e6-e3-bd6-bg3-o-o-bd3-oslzt0",
+      "name": "After Nbd2 h6 Qe2",
+      "moves": [
+        "e6",
+        "e3",
+        "Bd6",
+        "Bg3",
+        "O-O",
+        "Bd3",
+        "b6",
+        "Nbd2",
+        "h6",
+        "Qe2"
+      ],
+      "eco": "D02",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          4771227,
+          9698780,
+          7053313,
+          2970133,
+          1532162,
+          721463,
+          144884,
+          62855,
+          1046,
+          1323
+        ],
+        "winrates": [
+          53.83233704872982,
+          54.098092749809766,
+          53.39705610682526,
+          53.638086240582496,
+          52.72647409347053,
+          52.57927294954835,
+          50.13873167499517,
+          50.66104526290669,
+          56.30975143403442,
+          60.24187452758881
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:05:33.003Z"
+}

@@ -1,0 +1,21 @@
+{
+  "opening": "vulture",
+  "openingId": "vulture",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "vulture-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "Ne4"
+      ],
+      "eco": "A56"
+    }
+  ],
+  "generatedAt": "1.0"
+}

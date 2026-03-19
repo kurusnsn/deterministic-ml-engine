@@ -1,0 +1,602 @@
+{
+  "id": "sicilian",
+  "name": "Sicilian Defense",
+  "opening": "Sicilian Defense",
+  "generatedAt": "2025-12-10T18:37:59.950Z",
+  "lines": [
+    {
+      "id": "sicilian-eco-0-1tmn5",
+      "name": "Sicilian Defense",
+      "moves": [
+        "e4",
+        "c5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-1-4kc2ck",
+      "name": "English: Sicilian reversed",
+      "moves": [
+        "c4",
+        "e5",
+        "Nc3",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-2-bg78mc",
+      "name": "Sicilian: closed, 2...Nc6",
+      "moves": [
+        "e4",
+        "c5",
+        "Nc3",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-3-bhuokr",
+      "name": "Sicilian: Stiletto (Althouse) variation",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "Qa5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-4-bhuomj",
+      "name": "Sicilian: Quinteros variation",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "Qc7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-5-u5orji",
+      "name": "Sicilian: Katalimov variation",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "b6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-6-u5ornt",
+      "name": "Sicilian: Hungarian variation",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-7-u5orin",
+      "name": "Sicilian: O'Kelly variation",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "a6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-8-bhumh0",
+      "name": "Sicilian: Nimzovich-Rubinstein variation",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-9-bhumef",
+      "name": "Sicilian defence",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-10-u5orm3",
+      "name": "Sicilian defence",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-11-u5orl8",
+      "name": "Sicilian",
+      "moves": [
+        "e4",
+        "c5",
+        "Nf3",
+        "d6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-12-md6jsj",
+      "name": "Sicilian: Steinitz variation",
+      "moves": [
+        "e4",
+        "c5",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-13-md6jwt",
+      "name": "Sicilian: wing gambit",
+      "moves": [
+        "e4",
+        "c5",
+        "b4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-14-pb0lhx",
+      "name": "Sicilian: wing gambit, Santasiere variation",
+      "moves": [
+        "e4",
+        "c5",
+        "b4",
+        "cxb4",
+        "c4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-15-pb0ljo",
+      "name": "Sicilian: wing gambit, Marshall variation",
+      "moves": [
+        "e4",
+        "c5",
+        "b4",
+        "cxb4",
+        "a3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-16-gyh0vu",
+      "name": "Sicilian: Keres variation (2.Ne2)",
+      "moves": [
+        "e4",
+        "c5",
+        "Ne2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-17-md6jtd",
+      "name": "Sicilian: Grand Prix attack",
+      "moves": [
+        "e4",
+        "c5",
+        "f4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-18-md6jv3",
+      "name": "Sicilian: Smith-Morra gambit",
+      "moves": [
+        "e4",
+        "c5",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-19-wc9mli",
+      "name": "Sicilian: Smith-Morra gambit",
+      "moves": [
+        "e4",
+        "c5",
+        "d4",
+        "cxd4",
+        "c3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "sicilian-eco-20-md6jvz",
+      "name": "Sicilian: Alapin's variation (2.c3)",
+      "moves": [
+        "e4",
+        "c5",
+        "c3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

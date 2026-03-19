@@ -1,0 +1,913 @@
+{
+  "id": "scandinavian-scandinavian-gambit",
+  "name": "Scandinavian gambit",
+  "opening": "Scandinavian gambit",
+  "generatedAt": "2026-01-03T19:57:32.746Z",
+  "lines": [
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-e5-qe2-6s9n6h",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "e5",
+        "Qe2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2458701,
+          130790,
+          1050
+        ],
+        "winrates": [
+          56.585448983019894,
+          60.67245202232587,
+          68
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-d3-cxd5-cxd5-nxd5-nc3-nc6-lfoc33",
+      "name": "Scandinavian gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "cxd5",
+        "cxd5",
+        "Nxd5",
+        "Nc3",
+        "Nc6",
+        "Nxd5",
+        "Qxd5",
+        "Nf3",
+        "Bg4",
+        "Be2",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          8718,
+          9635,
+          12552,
+          10892,
+          6074,
+          2289,
+          1253,
+          1246,
+          1268,
+          1949,
+          1956,
+          1478
+        ],
+        "winrates": [
+          57.966276668960774,
+          58.142189932537626,
+          57.34942638623327,
+          57.74880646345941,
+          57.89430358906815,
+          61.14023591087812,
+          64.28571428571428,
+          64.446227929374,
+          63.01261829652998,
+          62.006157003591575,
+          59.61145194274029,
+          61.06224627875507
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-qf3-cxd5-nc3-9lyy6e",
+      "name": "Scandinavian gambit: Qf3 Forcing Line",
+      "moves": [
+        "Qf3",
+        "cxd5",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          6172,
+          5456,
+          1886
+        ],
+        "winrates": [
+          58.63577446532729,
+          58.75183284457478,
+          58.377518557794275
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-b3-cxd5-cxd5-nxd5-szr5bd",
+      "name": "Scandinavian gambit: b3 Forcing Line",
+      "moves": [
+        "b3",
+        "cxd5",
+        "cxd5",
+        "Nxd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          5672,
+          5215,
+          3707,
+          2872
+        ],
+        "winrates": [
+          58.921015514809596,
+          58.64813039309684,
+          57.93094146209874,
+          57.13788300835654
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-g3-cxd5-pzqqk9",
+      "name": "Scandinavian gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "cxd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1069,
+          1065
+        ],
+        "winrates": [
+          58.23199251637043,
+          58.45070422535211
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-c5-e5-bb5-bxc5-aza9ec",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "c5",
+        "e5",
+        "Bb5",
+        "Bxc5"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2458701,
+          2306134,
+          4322,
+          2921,
+          1550,
+          1274
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          71.03192966219342,
+          73.86169120164328,
+          73.16129032258065,
+          73.7441130298273
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-e5-qe2-6s9n6h",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "e5",
+        "Qe2"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2458701,
+          130790,
+          1050
+        ],
+        "winrates": [
+          56.585448983019894,
+          60.67245202232587,
+          68
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-qa5-yc7c5z",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "Qa5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          1462
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          60.191518467852255
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nc3-e5-bd3-qxd3-y4kpsm",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nc3",
+        "e5",
+        "Bd3",
+        "Qxd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          542491,
+          356491,
+          2994,
+          1230
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.036597842176185,
+          57.85419547758569,
+          75.41750167000669,
+          90.52845528455285
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-b3-e5-d3-bc5-8vo129",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "b3",
+        "e5",
+        "d3",
+        "Bc5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          121478,
+          66131,
+          1857,
+          1092
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          63.40695434564283,
+          65.84733332325233,
+          71.08239095315024,
+          72.39010989010988
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-d4-qxd4-nf3-qxd1--mc9d2h",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "d4",
+        "Qxd4",
+        "Nf3",
+        "Qxd1+",
+        "Kxd1",
+        "Bg4",
+        "Be2"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          81173,
+          34090,
+          1735,
+          1655,
+          1676,
+          1381,
+          1172
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          55.7851748734185,
+          60.83748899970666,
+          62.132564841498564,
+          63.11178247734139,
+          62.97732696897375,
+          63.32367849384504,
+          63.48122866894198
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-h3-e5-nf3-e4-n0z0qd",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "h3",
+        "e5",
+        "Nf3",
+        "e4",
+        "Ng5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          47572,
+          32324,
+          7269,
+          9171,
+          1211
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          59.22916841839738,
+          61.678628882564034,
+          63.94277066996836,
+          67.30454694144586,
+          75.68125516102396
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-a3-e5-h3-bc5-8mztry",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "a3",
+        "e5",
+        "h3",
+        "Bc5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          18569,
+          11539,
+          1041,
+          1155
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          58.207227098928314,
+          59.81454198804056,
+          63.016330451488955,
+          63.5930735930736
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-g3-bg4-pzix2w",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "g3",
+        "Bg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          14325,
+          2050
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          59.60907504363002,
+          62.4390243902439
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-f4-bf5-nf3-e6-maodkc",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "f4",
+        "Bf5",
+        "Nf3",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          13352,
+          3554,
+          3293,
+          2058
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          55.65458358298383,
+          56.710748452447945,
+          55.81536592772548,
+          56.4625850340136
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-ne2-e5-d3-bc5-fvyeif",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Ne2",
+        "e5",
+        "d3",
+        "Bc5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          12268,
+          8643,
+          1828,
+          1300
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.71666123247473,
+          57.43954645377762,
+          58.315098468271344,
+          60.30769230769231
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-c5-e5-bb5-bxc5-aza9ec",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "c5",
+        "e5",
+        "Bb5",
+        "Bxc5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2458701,
+          2306134,
+          4322,
+          2921,
+          1550,
+          1274
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          71.03192966219342,
+          73.86169120164328,
+          73.16129032258065,
+          73.7441130298273
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-e5-bd3-e4-xyrq0t",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "e5",
+        "Bd3",
+        "e4",
+        "Qe2"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          703867,
+          2747,
+          1575,
+          1051
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          59.982283584824984,
+          75.17291590826356,
+          75.58730158730158,
+          76.9267364414843
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-e5-d3-e4-p2hq7j",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "e5",
+        "d3",
+        "e4",
+        "Nc3",
+        "exf3",
+        "Qxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          703867,
+          373546,
+          189664,
+          1091,
+          1322,
+          1174
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          59.982283584824984,
+          57.31449406498798,
+          62.706681289016366,
+          75.9853345554537,
+          79.16036308623298,
+          77.72572402044293
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-e5-nc3-e4-qasvp0",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "e5",
+        "Nc3",
+        "e4",
+        "Ng1",
+        "Bc5",
+        "Be2",
+        "Qd4",
+        "d3",
+        "Qxf2+",
+        "Kd2"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          703867,
+          161093,
+          128677,
+          31611,
+          19291,
+          2642,
+          8109,
+          2073,
+          2047,
+          2046
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          59.982283584824984,
+          61.05789823269788,
+          66.17732772756592,
+          67.9652652557654,
+          70.04820900938262,
+          81.20741862225587,
+          89.4376618571957,
+          87.1442354076218,
+          87.34733756717146,
+          87.34115347018573
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-e5-be2-e4-t08jxw",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "e5",
+        "Be2",
+        "e4",
+        "Ng1",
+        "Bc5",
+        "h3",
+        "Qd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          703867,
+          116746,
+          78666,
+          37039,
+          24818,
+          2847,
+          1766
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          59.982283584824984,
+          63.8210302708444,
+          69.72707395825388,
+          73.78438942736034,
+          76.58151341768071,
+          84.22901299613629,
+          88.73159682899208
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-e5-b3-e4-jlro4l",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "e5",
+        "b3",
+        "e4",
+        "Qe2"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          703867,
+          11422,
+          7652,
+          1447
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          59.982283584824984,
+          67.91717737699176,
+          73.17694720334553,
+          75.67380787836903
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-e5-qe2-bc5-lkizz8",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "e5",
+        "Qe2",
+        "Bc5"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          703867,
+          10899,
+          1053
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          59.982283584824984,
+          67.25846407927332,
+          75.4985754985755
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-e5-h3-e4-e4wavz",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "e5",
+        "h3",
+        "e4",
+        "Ng5"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          703867,
+          9089,
+          9171,
+          1211
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          59.982283584824984,
+          63.395313015733315,
+          67.30454694144586,
+          75.68125516102396
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-gambit-dxc6-nxc6-nf3-e5-d4-exd4-8ieio2",
+      "name": "Scandinavian gambit: dxc6 Forcing Line",
+      "moves": [
+        "dxc6",
+        "Nxc6",
+        "Nf3",
+        "e5",
+        "d4",
+        "exd4",
+        "Bg5",
+        "Bb4+"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2458701,
+          2306134,
+          1112532,
+          703867,
+          8673,
+          5870,
+          2489,
+          1038
+        ],
+        "winrates": [
+          56.585448983019894,
+          56.453354401782384,
+          56.166069829901524,
+          59.982283584824984,
+          60.78058341980861,
+          63.70528109028961,
+          64.32302129369225,
+          71.82080924855492
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

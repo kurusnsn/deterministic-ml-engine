@@ -1,0 +1,1038 @@
+{
+  "opening": "colle system",
+  "openingId": "colle-system",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "colle-system-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "Nf3",
+        "Nf6",
+        "e3",
+        "e6",
+        "Bd3",
+        "c5",
+        "c3"
+      ],
+      "eco": "D05"
+    },
+    {
+      "id": "colle-system-c4-bc2-bd6-qe2-o-o-nbd2-rpmhil",
+      "name": "Qxe4 Line",
+      "moves": [
+        "c4",
+        "Bc2",
+        "Bd6",
+        "Qe2",
+        "O-O",
+        "Nbd2",
+        "b5",
+        "e4",
+        "dxe4",
+        "Nxe4",
+        "Nxe4",
+        "Qxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          248904,
+          239493,
+          43108,
+          1538,
+          866,
+          703,
+          4621,
+          3587,
+          2184,
+          2178,
+          944,
+          894
+        ],
+        "winrates": [
+          59.882725870215026,
+          60.321804812666755,
+          62.161315765055214,
+          64.07672301690506,
+          65.64665127020785,
+          67.42532005689901,
+          71.78099978359663,
+          73.25062726512405,
+          72.66483516483517,
+          72.63544536271809,
+          86.12288135593221,
+          87.02460850111858
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-qb6-nbd2-c4-bc2-bd6-bwr8u9",
+      "name": "Bd6 Line",
+      "moves": [
+        "Qb6",
+        "Nbd2",
+        "c4",
+        "Bc2",
+        "Bd6"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          7020,
+          5280,
+          1119,
+          1025,
+          507
+        ],
+        "winrates": [
+          56.1965811965812,
+          58.21022727272728,
+          64.29848078641645,
+          64.39024390243902,
+          65.87771203155819
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-bd7-nbd2-c4-bc2-bd6-o-o-7esjg7",
+      "name": "O-O Line",
+      "moves": [
+        "Bd7",
+        "Nbd2",
+        "c4",
+        "Bc2",
+        "Bd6",
+        "O-O",
+        "O-O"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          5052,
+          4164,
+          2139,
+          1903,
+          995,
+          1089,
+          662
+        ],
+        "winrates": [
+          57.66033254156769,
+          58.35734870317003,
+          61.36044880785414,
+          61.954808197582764,
+          63.61809045226131,
+          66.85032139577594,
+          68.12688821752266
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-h6-nbd2-c4-bc2-be7-o-o-3jquvu",
+      "name": "Re1 Line",
+      "moves": [
+        "h6",
+        "Nbd2",
+        "c4",
+        "Bc2",
+        "Be7",
+        "O-O",
+        "O-O",
+        "Qe2",
+        "Nc6",
+        "Re1"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3458,
+          4924,
+          4378,
+          3915,
+          584,
+          567,
+          659,
+          626,
+          1662,
+          711
+        ],
+        "winrates": [
+          58.35743204164257,
+          58.77335499593826,
+          60.963910461397894,
+          61.136653895274584,
+          64.6404109589041,
+          63.227513227513235,
+          63.3535660091047,
+          67.73162939297124,
+          64.83152827918171,
+          68.56540084388185
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-c4-bc2-qb6-o-o-9dw0rh",
+      "name": "After Nxe4 Nxe4 Qxe4",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "c4",
+        "Bc2",
+        "Qb6",
+        "O-O",
+        "Bd6",
+        "Qe2",
+        "O-O",
+        "e4",
+        "dxe4",
+        "Nxe4",
+        "Nxe4",
+        "Qxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          645664,
+          507022,
+          74511,
+          67528,
+          855,
+          1713,
+          3579,
+          1306,
+          1261,
+          1195,
+          761,
+          750,
+          659,
+          617
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          60.540725530458595,
+          61.07392489041583,
+          65.49707602339181,
+          66.3164039696439,
+          65.45124336406818,
+          69.21898928024503,
+          69.7858842188739,
+          69.7489539748954,
+          69.57950065703022,
+          69.8,
+          70.33383915022762,
+          71.06969205834685
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-ne5-bd7-f4-c4-bc2-e4rdjz",
+      "name": "Bc2 Line",
+      "moves": [
+        "Nc6",
+        "Ne5",
+        "Bd7",
+        "f4",
+        "c4",
+        "Bc2"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          645664,
+          26422,
+          822,
+          724,
+          570,
+          550
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.782226932102034,
+          62.04379562043796,
+          64.01933701657458,
+          60.78947368421053,
+          61.09090909090909
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-qe2-c4-bc2-be7-nbd2-tejksq",
+      "name": "b5 Line",
+      "moves": [
+        "Nc6",
+        "Qe2",
+        "c4",
+        "Bc2",
+        "Be7",
+        "Nbd2",
+        "O-O",
+        "e4",
+        "dxe4",
+        "Nxe4",
+        "b5"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          645664,
+          23066,
+          3959,
+          3905,
+          973,
+          1145,
+          5152,
+          6426,
+          3710,
+          3693,
+          541
+        ],
+        "winrates": [
+          54.601464538831344,
+          55.64033642590827,
+          60.43192725435716,
+          60.71702944942382,
+          61.87050359712231,
+          62.35807860262009,
+          66.32375776397515,
+          65.8807967631497,
+          68.07277628032345,
+          68.1965881397238,
+          76.06284658040666
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-be7-ne5-o-o-f4-2w5msu",
+      "name": "Qc7 Line",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Be7",
+        "Ne5",
+        "O-O",
+        "f4",
+        "b6",
+        "Nxc6",
+        "Qc7"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          645664,
+          507022,
+          130326,
+          4430,
+          2335,
+          7081,
+          1584,
+          1034,
+          661
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          56.36864478308242,
+          58.442437923250566,
+          59.7644539614561,
+          61.53085722355599,
+          73.26388888888889,
+          80.65764023210832,
+          74.43267776096822
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-cxd4-exd4-ne4-b23izg",
+      "name": "Ne4 Line",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "cxd4",
+        "exd4",
+        "Ne4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          645664,
+          507022,
+          89515,
+          70188,
+          665
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          56.61844383622856,
+          57.866016982960055,
+          62.40601503759399
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-bd7-ne5-oubmzr",
+      "name": "Ne5 Line",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Bd7",
+        "Ne5"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          645664,
+          507022,
+          41685,
+          1297
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          57.65383231378194,
+          61.950655358519654
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-b6-e4-dxe4-nxe4-t6kzwh",
+      "name": "Nxe4 Line",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "b6",
+        "e4",
+        "dxe4",
+        "Nxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          645664,
+          507022,
+          38473,
+          2017,
+          1227,
+          1223
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          55.411587346970606,
+          58.97372335151214,
+          62.3879380603097,
+          62.34668847097302
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-a6-ne5-nxe5-4brym6",
+      "name": "Nxe5 Line",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "a6",
+        "Ne5",
+        "Nxe5"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          645664,
+          507022,
+          37404,
+          1786,
+          638
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          58.55256122339857,
+          60.498320268757,
+          55.64263322884012
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-qb6-qe2-c4-bc2-ig0417",
+      "name": "Variation 2",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Qb6",
+        "Qe2",
+        "c4",
+        "Bc2",
+        "Bd6",
+        "O-O",
+        "O-O",
+        "e4",
+        "dxe4",
+        "Nxe4",
+        "Nxe4",
+        "Qxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          645664,
+          507022,
+          26240,
+          8998,
+          2092,
+          1943,
+          1528,
+          949,
+          1261,
+          1195,
+          761,
+          750,
+          659,
+          617
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          57.29611280487805,
+          59.002000444543235,
+          61.85468451242829,
+          61.99176531137416,
+          64.43062827225131,
+          66.59641728134879,
+          69.7858842188739,
+          69.7489539748954,
+          69.57950065703022,
+          69.8,
+          70.33383915022762,
+          71.06969205834685
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-h6-qe2-c4-bc2-9iyvll",
+      "name": "After e4 dxe4 Nxe4",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "h6",
+        "Qe2",
+        "c4",
+        "Bc2",
+        "Bd6",
+        "e4",
+        "dxe4",
+        "Nxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          645664,
+          507022,
+          7719,
+          2974,
+          561,
+          523,
+          826,
+          813,
+          581,
+          577
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          56.9374271278663,
+          58.74243443174176,
+          62.299465240641716,
+          62.23709369024857,
+          62.95399515738499,
+          65.25215252152522,
+          62.65060240963856,
+          62.738301559792035
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-a5-o-o-usnnzr",
+      "name": "After Nbd2 a5 O-O",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "a5",
+        "O-O"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          645664,
+          507022,
+          1510,
+          1004
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          58.17880794701987,
+          57.32071713147411
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-bd6-qe2-a6-o-o-rvhllt",
+      "name": "Variation 3",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Bd6",
+        "Qe2",
+        "a6",
+        "O-O",
+        "c4",
+        "Bc2",
+        "b5",
+        "Re1",
+        "O-O",
+        "e4",
+        "dxe4",
+        "Nxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          645664,
+          507022,
+          247886,
+          64155,
+          2030,
+          2818,
+          827,
+          790,
+          1295,
+          1232,
+          726,
+          1538,
+          1257,
+          1256
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          54.221698684072514,
+          55.25835866261398,
+          61.62561576354679,
+          61.8346344925479,
+          64.51027811366384,
+          65.12658227848101,
+          67.87644787644787,
+          74.55357142857143,
+          79.88980716253444,
+          79.94148244473342,
+          82.2593476531424,
+          82.2452229299363
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-bd6-e4-o-o-e5-kbl2wi",
+      "name": "e5 Line",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Bd6",
+        "e4",
+        "O-O",
+        "e5"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          645664,
+          507022,
+          247886,
+          12082,
+          505,
+          863
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          54.221698684072514,
+          56.509683827180936,
+          68.21782178217822,
+          65.87485515643105
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-bd6-o-o-qc7-qe2-4twlud",
+      "name": "Variation 4",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Bd6",
+        "O-O",
+        "Qc7",
+        "Qe2",
+        "c4",
+        "Bc2",
+        "O-O",
+        "e4",
+        "dxe4",
+        "Nxe4",
+        "Nxe4",
+        "Qxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          645664,
+          507022,
+          247886,
+          174362,
+          16685,
+          5845,
+          856,
+          827,
+          2218,
+          3678,
+          2741,
+          2731,
+          2493,
+          2310
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          54.221698684072514,
+          54.526215574494444,
+          55.33113575067426,
+          56.210436270316514,
+          61.507009345794394,
+          61.9105199516324,
+          63.68349864743011,
+          64.00217509516042,
+          62.750820868296245,
+          62.87074331746613,
+          62.5952667468913,
+          62.57575757575757
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-bd6-o-o-b6-qe2-npk23g",
+      "name": "Qxh7 Line",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Bd6",
+        "O-O",
+        "b6",
+        "Qe2",
+        "O-O",
+        "e4",
+        "dxe4",
+        "Nxe4",
+        "Nxe4",
+        "Qxe4",
+        "Bb7",
+        "Qxh7#"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          645664,
+          507022,
+          247886,
+          174362,
+          9533,
+          4734,
+          3002,
+          9816,
+          8248,
+          8234,
+          4263,
+          4065,
+          898,
+          953
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          54.221698684072514,
+          54.526215574494444,
+          57.59991608098185,
+          63.45585128855091,
+          71.8520986009327,
+          75.30562347188264,
+          77.27327837051406,
+          77.3439397619626,
+          87.07482993197279,
+          88.72078720787208,
+          100,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-bd6-o-o-cxd4-exd4-yo07f1",
+      "name": "After exd4 Bb8 Re1",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Bd6",
+        "O-O",
+        "cxd4",
+        "exd4",
+        "Bb8",
+        "Re1"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          645664,
+          507022,
+          247886,
+          174362,
+          8615,
+          7148,
+          962,
+          631
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          54.221698684072514,
+          54.526215574494444,
+          56.697620429483464,
+          58.079182988248455,
+          60.446985446985444,
+          62.20285261489698
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-bd6-o-o-c4-bc2-c5naav",
+      "name": "Variation 5",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Bd6",
+        "O-O",
+        "c4",
+        "Bc2",
+        "a6",
+        "Qe2",
+        "b5",
+        "Re1",
+        "O-O",
+        "e4",
+        "dxe4",
+        "Nxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          645664,
+          507022,
+          247886,
+          174362,
+          8564,
+          7994,
+          1226,
+          1826,
+          1295,
+          1232,
+          726,
+          1538,
+          1257,
+          1256
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          54.221698684072514,
+          54.526215574494444,
+          60.795189163942084,
+          61.471103327495626,
+          65.21207177814028,
+          66.56626506024097,
+          67.87644787644787,
+          74.55357142857143,
+          79.88980716253444,
+          79.94148244473342,
+          82.2593476531424,
+          82.2452229299363
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "colle-system-nc6-nbd2-bd6-o-o-bd7-qe2-8pljpz",
+      "name": "Variation 6",
+      "moves": [
+        "Nc6",
+        "Nbd2",
+        "Bd6",
+        "O-O",
+        "Bd7",
+        "Qe2",
+        "O-O",
+        "dxc5",
+        "Bxc5",
+        "e4",
+        "dxe4",
+        "Nxe4",
+        "Nxe4",
+        "Qxe4"
+      ],
+      "eco": "D05",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          645664,
+          507022,
+          247886,
+          174362,
+          4783,
+          4457,
+          3655,
+          1525,
+          1519,
+          4188,
+          3333,
+          3325,
+          2502,
+          2173
+        ],
+        "winrates": [
+          54.601464538831344,
+          56.22014429354151,
+          54.221698684072514,
+          54.526215574494444,
+          59.52331172904035,
+          61.487547677810184,
+          63.36525307797538,
+          64.09836065573771,
+          64.0552995391705,
+          64.15950334288442,
+          65.04650465046504,
+          64.99248120300753,
+          65.48760991207034,
+          65.39346525540726
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:30:25.083Z"
+}

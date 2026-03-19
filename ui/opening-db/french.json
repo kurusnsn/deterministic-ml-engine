@@ -1,0 +1,608 @@
+{
+  "id": "french",
+  "name": "French Defense",
+  "opening": "French Defense",
+  "generatedAt": "2025-12-10T18:37:59.950Z",
+  "lines": [
+    {
+      "id": "french-eco-0-1tmow",
+      "name": "French Defense",
+      "moves": [
+        "e4",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-1-tfvhky",
+      "name": "Lengfellner system",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-2-tfvhid",
+      "name": "St. George defence",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "a6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-3-tfvhkx",
+      "name": "French defence",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-4-md5967",
+      "name": "French defence, Steiner variation",
+      "moves": [
+        "e4",
+        "e6",
+        "c4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-5-md5973",
+      "name": "French: Reti (Spielmann) variation",
+      "moves": [
+        "e4",
+        "e6",
+        "b3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-6-md594g",
+      "name": "French: Steinitz attack",
+      "moves": [
+        "e4",
+        "e6",
+        "e5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-7-md593m",
+      "name": "French: Labourdonnais variation",
+      "moves": [
+        "e4",
+        "e6",
+        "f4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-8-gzl92z",
+      "name": "French defence",
+      "moves": [
+        "e4",
+        "e6",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-9-gzl90e",
+      "name": "French defence",
+      "moves": [
+        "e4",
+        "e6",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-10-v5kadf",
+      "name": "French: Pelikan variation",
+      "moves": [
+        "e4",
+        "e6",
+        "Nc3",
+        "d5",
+        "f4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-11-sn3djg",
+      "name": "French: Two knights variation",
+      "moves": [
+        "e4",
+        "e6",
+        "Nc3",
+        "d5",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-12-gzlba6",
+      "name": "French: Chigorin variation",
+      "moves": [
+        "e4",
+        "e6",
+        "Qe2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-13-md595d",
+      "name": "French: King's Indian attack",
+      "moves": [
+        "e4",
+        "e6",
+        "d3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-14-md595c",
+      "name": "French defence",
+      "moves": [
+        "e4",
+        "e6",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-15-dwabm8",
+      "name": "French: Schlechter variation",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d5",
+        "Bd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-16-dwabld",
+      "name": "French: Alapin variation",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d5",
+        "Be3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-17-4lkvp7",
+      "name": "French: exchange variation",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d5",
+        "exd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-18-mgqjn5",
+      "name": "French: advance variation",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d5",
+        "e5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-19-dwa2px",
+      "name": "French: Tarrasch",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d5",
+        "Nd2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "french-eco-20-dwa2qr",
+      "name": "French: Paulsen variation",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d5",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "black",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

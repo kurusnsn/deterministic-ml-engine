@@ -1,0 +1,48 @@
+{
+  "opening": "de bruycker",
+  "openingId": "de-bruycker",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "de-bruycker-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "Na6",
+        "Nc3",
+        "Nc7"
+      ],
+      "eco": "B12"
+    },
+    {
+      "id": "de-bruycker-nf3-e6-bd3-d5936v",
+      "name": "Bd3 Line",
+      "moves": [
+        "Nf3",
+        "e6",
+        "Bd3"
+      ],
+      "eco": "B12",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          9839,
+          1677,
+          726
+        ],
+        "winrates": [
+          47.96219127960158,
+          57.60286225402504,
+          59.77961432506888
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:38:41.501Z"
+}

@@ -1,0 +1,744 @@
+{
+  "opening": "rousseau gambit",
+  "openingId": "rousseau-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "rousseau-gambit-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bc4",
+        "f5"
+      ],
+      "eco": "C50"
+    },
+    {
+      "id": "rousseau-gambit-exf5-e4-nh4-qxh4-gpbtl3",
+      "name": "Qxh4 Line",
+      "moves": [
+        "exf5",
+        "e4",
+        "Nh4",
+        "Qxh4"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1077208,
+          632623,
+          1845,
+          1594
+        ],
+        "winrates": [
+          59.27406777521147,
+          62.732148530799535,
+          72.60162601626017,
+          75.21957340025094
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-nc3-fxe4-nxe4-d5-bb3-dxe4-c079fm",
+      "name": "Nf6 Line",
+      "moves": [
+        "Nc3",
+        "fxe4",
+        "Nxe4",
+        "d5",
+        "Bb3",
+        "dxe4",
+        "Ng1",
+        "Nf6"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          203228,
+          158768,
+          105113,
+          94585,
+          4216,
+          4190,
+          2263,
+          2037
+        ],
+        "winrates": [
+          57.91697010254493,
+          66.10935452988006,
+          68.2441753160884,
+          70.52228154569964,
+          79.85056925996204,
+          79.86873508353221,
+          78.89969067609368,
+          79.20962199312714
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-o-o-fxe4-nxe5-nxe5-qh5--ng6-w6rjfz",
+      "name": "After Ng6 Re1 Nf6",
+      "moves": [
+        "O-O",
+        "fxe4",
+        "Nxe5",
+        "Nxe5",
+        "Qh5+",
+        "Ng6",
+        "Re1",
+        "Nf6"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          102633,
+          60200,
+          10094,
+          9151,
+          6826,
+          6516,
+          2439,
+          2201
+        ],
+        "winrates": [
+          56.34980951545799,
+          61.944352159468444,
+          70.0118882504458,
+          71.75718500710305,
+          73.80603574567829,
+          76.83394720687538,
+          82.18532185321853,
+          83.28032712403453
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-c3-fxe4-ng5-cruyy5",
+      "name": "Ng5 Line",
+      "moves": [
+        "c3",
+        "fxe4",
+        "Ng5"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          31306,
+          21630,
+          1574
+        ],
+        "winrates": [
+          60.55388743371878,
+          66.6458622283865,
+          72.61753494282084
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-ng5-qxg5-d4-qxg2-rf1-qxe4--strlgg",
+      "name": "Qxe4 Line",
+      "moves": [
+        "Ng5",
+        "Qxg5",
+        "d4",
+        "Qxg2",
+        "Rf1",
+        "Qxe4+"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          17772,
+          10628,
+          4393,
+          3592,
+          2588,
+          1613
+        ],
+        "winrates": [
+          64.4637632230475,
+          73.99792999623635,
+          79.04620987935351,
+          84.79955456570156,
+          81.14374034003092,
+          84.12895226286423
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-nxe5-nxe5-d4-tb401c",
+      "name": "d4 Line",
+      "moves": [
+        "Nxe5",
+        "Nxe5",
+        "d4"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          16733,
+          14291,
+          1132
+        ],
+        "winrates": [
+          62.36478814319011,
+          65.69519277867188,
+          74.91166077738515
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-bf7--kxf7-exf5-w3xynw",
+      "name": "exf5 Line",
+      "moves": [
+        "Bf7+",
+        "Kxf7",
+        "exf5"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4609,
+          4585,
+          1786
+        ],
+        "winrates": [
+          59.438055977435454,
+          59.531079607415485,
+          59.74244120940649
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-bd5-fxe4-bxe4-iff5br",
+      "name": "Bxe4 Line",
+      "moves": [
+        "Bd5",
+        "fxe4",
+        "Bxe4"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3950,
+          1448,
+          1015
+        ],
+        "winrates": [
+          58.86075949367089,
+          65.84944751381215,
+          69.16256157635468
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-nf6-nc3-bb4-bg5-bxc3--4hnaxu",
+      "name": "Bb3 Line",
+      "moves": [
+        "d3",
+        "Nf6",
+        "Nc3",
+        "Bb4",
+        "Bg5",
+        "Bxc3+",
+        "bxc3",
+        "d6",
+        "O-O",
+        "Na5",
+        "Bb3"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1080318,
+          515535,
+          142188,
+          76845,
+          18689,
+          6868,
+          6867,
+          2636,
+          1376,
+          1452,
+          1004
+        ],
+        "winrates": [
+          47.09150453847849,
+          47.37399012676152,
+          46.50146285199877,
+          48.0135337367428,
+          49.184011985660014,
+          52.926616191030874,
+          52.91976117664191,
+          52.59863429438543,
+          50.90843023255813,
+          55.71625344352618,
+          55.97609561752988
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-nf6-nc3-bb4-bg5-d6-xzhpsz",
+      "name": "After bxc3 Na5 Bb3",
+      "moves": [
+        "d3",
+        "Nf6",
+        "Nc3",
+        "Bb4",
+        "Bg5",
+        "d6",
+        "O-O",
+        "Bxc3",
+        "bxc3",
+        "Na5",
+        "Bb3"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1080318,
+          515535,
+          142188,
+          76845,
+          18689,
+          5098,
+          3325,
+          2593,
+          2571,
+          1452,
+          1004
+        ],
+        "winrates": [
+          47.09150453847849,
+          47.37399012676152,
+          46.50146285199877,
+          48.0135337367428,
+          49.184011985660014,
+          48.81326010200079,
+          46.4812030075188,
+          51.25337446972619,
+          51.36133800077791,
+          55.71625344352618,
+          55.97609561752988
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-nf6-nc3-bc5-bg5-d6-274v61",
+      "name": "Nxe4 Line",
+      "moves": [
+        "d3",
+        "Nf6",
+        "Nc3",
+        "Bc5",
+        "Bg5",
+        "d6",
+        "Nd5",
+        "fxe4",
+        "dxe4",
+        "Bxf2+",
+        "Kxf2",
+        "Nxe4+"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1080389,
+          515567,
+          142197,
+          57219,
+          30798,
+          17136,
+          16981,
+          4348,
+          3662,
+          3230,
+          1935,
+          1940
+        ],
+        "winrates": [
+          47.091788235533684,
+          47.37454103928297,
+          46.50273915764749,
+          45.01651549310544,
+          43.55152932008573,
+          45.442343604108316,
+          42.81255520876274,
+          52.610395584176636,
+          53.618241398143084,
+          61.09907120743034,
+          67.59689922480621,
+          67.88659793814433
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-nf6-bg5-be7-nc3-d6-pyy13m",
+      "name": "Nxd5 Line",
+      "moves": [
+        "d3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "Nc3",
+        "d6",
+        "Nd5",
+        "Nxd5"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          1080389,
+          515567,
+          114967,
+          30862,
+          11873,
+          6872,
+          1930,
+          1164
+        ],
+        "winrates": [
+          47.091788235533684,
+          47.37454103928297,
+          48.31386397835901,
+          50.09720692113279,
+          49.71363598079677,
+          53.208672875436555,
+          60.4922279792746,
+          65.07731958762886
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-nf6-bg5-be7-nc3-d6-lp8vor",
+      "name": "Qxf6 Line",
+      "moves": [
+        "d3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "Nc3",
+        "d6",
+        "Bxf6",
+        "Bxf6",
+        "Nd5",
+        "Na5",
+        "Nxf6+",
+        "Qxf6"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1080389,
+          515567,
+          114967,
+          30862,
+          11873,
+          6872,
+          8462,
+          8277,
+          6646,
+          2827,
+          1509,
+          1489
+        ],
+        "winrates": [
+          47.091788235533684,
+          47.37454103928297,
+          48.31386397835901,
+          50.09720692113279,
+          49.71363598079677,
+          53.208672875436555,
+          51.52446230205625,
+          51.685393258426956,
+          51.27144146855252,
+          56.809338521400775,
+          58.05168986083499,
+          58.22699798522498
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-nf6-bg5-be7-nc3-d6-q8li1v",
+      "name": "Bxf6 Line",
+      "moves": [
+        "d3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "Nc3",
+        "d6",
+        "O-O",
+        "Na5",
+        "Bxf6",
+        "Bxf6"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          1080389,
+          515567,
+          114967,
+          30862,
+          11873,
+          6872,
+          6671,
+          5775,
+          1224,
+          1161
+        ],
+        "winrates": [
+          47.091788235533684,
+          47.37454103928297,
+          48.31386397835901,
+          50.09720692113279,
+          49.71363598079677,
+          53.208672875436555,
+          52.76570229350922,
+          55.79220779220779,
+          56.16830065359477,
+          57.751937984496124
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-nf6-bg5-be7-nc3-d6-j4acjw",
+      "name": "After O-O Bxf6 Bxf6",
+      "moves": [
+        "d3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "Nc3",
+        "d6",
+        "O-O",
+        "Na5",
+        "Bb3",
+        "Nxb3",
+        "axb3",
+        "O-O",
+        "Bxf6",
+        "Bxf6"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1080389,
+          515567,
+          114967,
+          30862,
+          11873,
+          6872,
+          6671,
+          5775,
+          2751,
+          2802,
+          2753,
+          5359,
+          1556,
+          1392
+        ],
+        "winrates": [
+          47.091788235533684,
+          47.37454103928297,
+          48.31386397835901,
+          50.09720692113279,
+          49.71363598079677,
+          53.208672875436555,
+          52.76570229350922,
+          55.79220779220779,
+          55.816066884769164,
+          56.12062812276945,
+          56.02978568833999,
+          58.12651614107109,
+          58.322622107969146,
+          57.65086206896552
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-nf6-bg5-be7-bxf6-bxf6-h7vben",
+      "name": "Bb5 Line",
+      "moves": [
+        "d3",
+        "Nf6",
+        "Bg5",
+        "Be7",
+        "Bxf6",
+        "Bxf6",
+        "exf5",
+        "d5",
+        "Bb5"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          1080389,
+          515567,
+          114967,
+          30862,
+          7009,
+          6907,
+          1228,
+          1110,
+          1000
+        ],
+        "winrates": [
+          47.091788235533684,
+          47.37454103928297,
+          48.31386397835901,
+          50.09720692113279,
+          51.341132829219575,
+          51.54191400028956,
+          61.319218241042336,
+          61.846846846846844,
+          63.5
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "rousseau-gambit-d3-bc5-ng5-f4-nf7-qh4-1p2bqr",
+      "name": "Nxh3 Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Ng5",
+        "f4",
+        "Nf7",
+        "Qh4",
+        "O-O",
+        "Nf6",
+        "Nxh8",
+        "Ng4",
+        "h3",
+        "Nxf2",
+        "Qf3",
+        "Nxh3+"
+      ],
+      "eco": "C50",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          1080389,
+          248172,
+          42325,
+          33427,
+          26356,
+          26019,
+          15002,
+          13112,
+          11387,
+          11106,
+          9815,
+          9436,
+          1575,
+          1518
+        ],
+        "winrates": [
+          47.091788235533684,
+          48.96120432603195,
+          64.45481393975192,
+          71.78777634846082,
+          74.51813628775231,
+          75.07974941388986,
+          85.85188641514465,
+          87.3512812690665,
+          89.76464389215772,
+          90.20349360705924,
+          90.22924095771778,
+          92.06761339550657,
+          98.12698412698413,
+          99.70355731225297
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T00:54:28.315Z"
+}

@@ -1,0 +1,367 @@
+{
+  "opening": "blumenfeld",
+  "openingId": "blumenfeld",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "blumenfeld-line-0",
+      "name": "Main Line (E10)",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "c5",
+        "d5",
+        "b5",
+        "dxe6",
+        "fxe6",
+        "cxb5",
+        "d5"
+      ],
+      "eco": "E10"
+    },
+    {
+      "id": "blumenfeld-line-1",
+      "name": "Main Line (E10)",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nf3",
+        "c5",
+        "d5",
+        "b5",
+        "Bg5",
+        "exd5",
+        "cxd5",
+        "h6"
+      ],
+      "eco": "E10"
+    },
+    {
+      "id": "blumenfeld-bg5-bxc4-nc3-qa5-bxf6-gxf6-80bj48",
+      "name": "gxf6 Line",
+      "moves": [
+        "Bg5",
+        "bxc4",
+        "Nc3",
+        "Qa5",
+        "Bxf6",
+        "gxf6"
+      ],
+      "eco": "E10",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          21483,
+          7403,
+          4157,
+          563,
+          543,
+          542
+        ],
+        "winrates": [
+          55.76036866359447,
+          59.37457787383493,
+          61.61895597786865,
+          65.89698046181172,
+          67.21915285451196,
+          67.15867158671587
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blumenfeld-e4-bxc4-nc3-bb7-bxc4-qa5-po5g6k",
+      "name": "Qa5 Line",
+      "moves": [
+        "e4",
+        "bxc4",
+        "Nc3",
+        "Bb7",
+        "Bxc4",
+        "Qa5"
+      ],
+      "eco": "E10",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          7206,
+          1021,
+          745,
+          1684,
+          3004,
+          560
+        ],
+        "winrates": [
+          57.708853733000275,
+          59.74534769833496,
+          62.08053691275168,
+          60.92636579572447,
+          60.685752330226364,
+          63.660714285714285
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blumenfeld-dxe6-fxe6-cxb5-qa5--nc3-d5-e47fg",
+      "name": "d5 Line",
+      "moves": [
+        "dxe6",
+        "fxe6",
+        "cxb5",
+        "Qa5+",
+        "Nc3",
+        "d5"
+      ],
+      "eco": "E10",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          52156,
+          51569,
+          42849,
+          1068,
+          959,
+          645
+        ],
+        "winrates": [
+          50.73912876754353,
+          50.58174484671023,
+          51.548460874232774,
+          65.02808988764045,
+          65.79770594369134,
+          61.240310077519375
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blumenfeld-dxe6-fxe6-cxb5-d5-g3-bb7-gm4ktr",
+      "name": "Bb7 Line",
+      "moves": [
+        "dxe6",
+        "fxe6",
+        "cxb5",
+        "d5",
+        "g3",
+        "Bb7"
+      ],
+      "eco": "E10",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          52156,
+          51569,
+          42849,
+          34462,
+          6227,
+          956
+        ],
+        "winrates": [
+          50.73912876754353,
+          50.58174484671023,
+          51.548460874232774,
+          51.02286576519065,
+          55.67689095872812,
+          56.38075313807531
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blumenfeld-dxe6-fxe6-cxb5-d5-nc3-bd6-dy6e6p",
+      "name": "Ng5 Line",
+      "moves": [
+        "dxe6",
+        "fxe6",
+        "cxb5",
+        "d5",
+        "Nc3",
+        "Bd6",
+        "e4",
+        "dxe4",
+        "Ng5"
+      ],
+      "eco": "E10",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          52156,
+          51569,
+          42849,
+          34462,
+          5813,
+          2563,
+          1471,
+          522,
+          518
+        ],
+        "winrates": [
+          50.73912876754353,
+          50.58174484671023,
+          51.548460874232774,
+          51.02286576519065,
+          58.69602614828832,
+          61.646507998439326,
+          71.78789938817131,
+          74.42528735632183,
+          74.61389961389962
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blumenfeld-dxe6-fxe6-cxb5-d5-g3-bd6-j5bnbg",
+      "name": "Bg2 Line",
+      "moves": [
+        "dxe6",
+        "fxe6",
+        "cxb5",
+        "d5",
+        "g3",
+        "Bd6",
+        "Bg2"
+      ],
+      "eco": "E10",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          52156,
+          51569,
+          42849,
+          34462,
+          6227,
+          2989,
+          2660
+        ],
+        "winrates": [
+          50.73912876754353,
+          50.58174484671023,
+          51.548460874232774,
+          51.02286576519065,
+          55.67689095872812,
+          56.20608899297424,
+          56.221804511278194
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blumenfeld-dxe6-fxe6-cxb5-d5-g3-a6-r7g6hg",
+      "name": "O-O Line",
+      "moves": [
+        "dxe6",
+        "fxe6",
+        "cxb5",
+        "d5",
+        "g3",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Bg2",
+        "Bd6",
+        "O-O",
+        "O-O"
+      ],
+      "eco": "E10",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          52156,
+          51569,
+          42849,
+          34462,
+          6227,
+          1230,
+          1023,
+          644,
+          1473,
+          1095,
+          1093,
+          983
+        ],
+        "winrates": [
+          50.73912876754353,
+          50.58174484671023,
+          51.548460874232774,
+          51.02286576519065,
+          55.67689095872812,
+          53.21138211382114,
+          54.44770283479961,
+          53.338509316770185,
+          52.78343516632722,
+          55.06849315068493,
+          55.62671546203111,
+          55.74771108850458
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blumenfeld-cxb5-exd5-bg5-bb7-e3-be7-fbcw65",
+      "name": "Nc3 Line",
+      "moves": [
+        "cxb5",
+        "exd5",
+        "Bg5",
+        "Bb7",
+        "e3",
+        "Be7",
+        "Nc3"
+      ],
+      "eco": "E10",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          22184,
+          7642,
+          3076,
+          2141,
+          1291,
+          759,
+          584
+        ],
+        "winrates": [
+          48.64091236927515,
+          46.78094739596964,
+          49.38231469440832,
+          48.248482017748714,
+          54.64756003098373,
+          55.006587615283266,
+          58.9041095890411
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:21:31.965Z"
+}

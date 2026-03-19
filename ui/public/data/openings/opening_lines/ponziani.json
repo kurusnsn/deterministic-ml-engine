@@ -1,0 +1,1190 @@
+{
+  "opening": "ponziani",
+  "openingId": "ponziani",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "ponziani-line-0",
+      "name": "Reti variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "Nge7"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "ponziani-line-1",
+      "name": "Romanishin variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "Be7"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "ponziani-line-2",
+      "name": "Caro variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "d5",
+        "Qa4",
+        "Bd7"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "ponziani-line-3",
+      "name": "Leonhardt variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "d5",
+        "Qa4",
+        "Nf6"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "ponziani-line-4",
+      "name": "Steinitz variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "d5",
+        "Qa4",
+        "f6"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "ponziani-line-5",
+      "name": "Fraser defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "Nf6",
+        "d4",
+        "Nxe4",
+        "d5",
+        "Bc5"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "ponziani-line-6",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "f5",
+        "d4",
+        "d6",
+        "d5",
+        "fxe4",
+        "Ng5",
+        "Nb8",
+        "Nxe4",
+        "Nf6",
+        "Bd3",
+        "Be7"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "ponziani-a6-d4-f6-d5-okyo1j",
+      "name": "d5 Line",
+      "moves": [
+        "a6",
+        "d4",
+        "f6",
+        "d5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          127327,
+          89095,
+          1798,
+          1154
+        ],
+        "winrates": [
+          55.648055793350984,
+          56.76749537011055,
+          61.92992213570634,
+          58.665511265164646
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-f6-bc4-nh6-d4-67v0d4",
+      "name": "d4 Line",
+      "moves": [
+        "f6",
+        "Bc4",
+        "Nh6",
+        "d4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          27687,
+          3537,
+          1439,
+          1319
+        ],
+        "winrates": [
+          59.60197926824864,
+          62.89228159457168,
+          71.54273801250869,
+          71.986353297953
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-b6-d4-d6-d5-gp6w7c",
+      "name": "After d4 d6 d5",
+      "moves": [
+        "b6",
+        "d4",
+        "d6",
+        "d5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          27145,
+          20088,
+          1295,
+          1074
+        ],
+        "winrates": [
+          59.047706759992636,
+          60.49133811230586,
+          62.54826254826254,
+          55.121042830540034
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-bc5-dxc5-qe7-dzgvvh",
+      "name": "Qe7 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "Bc5",
+        "dxc5",
+        "Qe7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          4122046,
+          2298367,
+          9107,
+          12933,
+          1268
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          64.12100581969912,
+          65.29807469264671,
+          62.30283911671924
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-dxc3-exf6-yleasm",
+      "name": "O-O Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "dxc3",
+        "exf6",
+        "Qxf6",
+        "Nxc3",
+        "Bb4",
+        "Bd2",
+        "O-O",
+        "Be2",
+        "Re8",
+        "O-O"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          33217,
+          31663,
+          14193,
+          13849,
+          12346,
+          10049,
+          8645,
+          7722,
+          3402,
+          3603
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          67.99680886293163,
+          68.71111391845372,
+          70.28464736137533,
+          70.88598454762077,
+          70.7273610886117,
+          72.58931236938999,
+          72.89184499710815,
+          74.16472416472416,
+          74.6766607877719,
+          74.86816541770747
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-ng4-cxd4-xr6wzh",
+      "name": "gxh6 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Ng4",
+        "cxd4",
+        "f6",
+        "h3",
+        "Nh6",
+        "Bxh6",
+        "gxh6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          269367,
+          254347,
+          5042,
+          3669,
+          3161,
+          2445,
+          2419
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          58.674039507437804,
+          59.45991106637783,
+          66.08488694962317,
+          69.71926955573726,
+          69.72477064220183,
+          70.34764826175869,
+          70.17362546506821
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-qe7-cxd4-g74aq1",
+      "name": "Nxd4 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Qe7",
+        "cxd4",
+        "Nxd4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          213548,
+          193817,
+          1687
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          56.990699983141965,
+          57.536490607119084,
+          73.59217545939538
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-ng8-bc4-fvpic",
+      "name": "After Qb3 Qe7 O-O",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "dxc3",
+        "Qb3",
+        "Qe7",
+        "O-O"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          94879,
+          2188,
+          8440,
+          2319,
+          1715,
+          1312
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          58.92294396020195,
+          60.12340036563071,
+          67.14454976303318,
+          72.14316515739543,
+          70.32069970845481,
+          72.3704268292683
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nxe5-nxe5-21hubi",
+      "name": "Bxe2 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nxe5",
+        "Nxe5",
+        "dxc3",
+        "Nxc3",
+        "Qe7",
+        "Qe2",
+        "d6",
+        "Nf3",
+        "Qxe2+",
+        "Bxe2"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          23691,
+          20258,
+          1993,
+          1524,
+          1260,
+          1037,
+          4393,
+          3360,
+          1322,
+          1315
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          59.95525727069351,
+          61.12893671635897,
+          65.7802308078274,
+          68.7007874015748,
+          69.52380952380952,
+          73.67405978784957,
+          70.0091053949465,
+          70.58035714285714,
+          73.07110438729198,
+          73.07984790874525
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-d5-exf6-1yy80v",
+      "name": "After exf6 Qxf6 Nxd4",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "d5",
+        "exf6",
+        "Qxf6",
+        "Nxd4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          12784,
+          9552,
+          7058,
+          1686
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          61.9915519399249,
+          64.90263819095478,
+          63.204873901955224,
+          64.26453143534994
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-d6-exf6-3yqmeq",
+      "name": "Be7 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "d6",
+        "exf6",
+        "Qxf6",
+        "cxd4",
+        "Be7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          9704,
+          7708,
+          6388,
+          3663,
+          1175
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          64.5146331409728,
+          70.76414115204982,
+          68.80087664370696,
+          70.27027027027027,
+          71.61702127659575
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-bb4-cxb4-4f1ovz",
+      "name": "cxb4 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Bb4",
+        "cxb4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          2542,
+          1150
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          67.6042486231314,
+          70.26086956521739
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nh5-cxd4-3t6zrs",
+      "name": "cxd4 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nh5",
+        "cxd4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          2081,
+          1547
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          64.32003844305623,
+          63.18681318681318
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-qb3-16nk13",
+      "name": "Qxd5 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "Qb3",
+        "dxc3",
+        "Qxd5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          51412,
+          1173,
+          1153
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          57.295962032210376,
+          73.01790281329923,
+          73.50390286209887
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-bc4-rxnlm8",
+      "name": "Nce7 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "Bc4",
+        "Nce7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          42839,
+          1965
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          59.52403184014566,
+          65.82697201017812
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-bb5-8atmjg",
+      "name": "Ba4 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "Bb5",
+        "a6",
+        "Ba4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          4563,
+          2574,
+          1783
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          59.237343852728465,
+          56.56565656565656,
+          59.05776780706674
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-cxd4-tmo2yp",
+      "name": "d6 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "cxd4",
+        "Be7",
+        "Nc3",
+        "Nxc3",
+        "bxc3",
+        "O-O",
+        "Bd3",
+        "d6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          312022,
+          22024,
+          7763,
+          6096,
+          6210,
+          4629,
+          2976,
+          1951
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          51.47697918736499,
+          56.642753359970946,
+          59.480870797372155,
+          58.05446194225722,
+          58.08373590982286,
+          59.39727802981205,
+          60.26545698924731,
+          58.610968733982574
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-cxd4-ed5jhd",
+      "name": "Bb4 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "cxd4",
+        "Nb6",
+        "Nc3",
+        "Bb4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          312022,
+          7188,
+          3839,
+          1430
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          51.47697918736499,
+          55.2935447968837,
+          55.70461057567074,
+          58.77622377622378
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-cxd4-snreec",
+      "name": "Nb6 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "cxd4",
+        "f6",
+        "Bc4",
+        "Nb6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          312022,
+          3654,
+          1929,
+          1223
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          51.47697918736499,
+          66.43404488232075,
+          68.35147744945567,
+          66.9255928045789
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-cxd4-9b9trg",
+      "name": "Bd2 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "cxd4",
+        "Qe7",
+        "Nc3",
+        "Qb4",
+        "Bd2"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          312022,
+          1625,
+          10023,
+          1114,
+          1482
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          51.47697918736499,
+          62.55384615384615,
+          65.70388107353088,
+          66.02333931777379,
+          71.49122807017544
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-cxd4-m5rgte",
+      "name": "After h6 Bc4 Nb6",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "cxd4",
+        "h6",
+        "Bc4",
+        "Nb6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          312022,
+          1534,
+          1858,
+          1288
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          51.47697918736499,
+          56.7470664928292,
+          57.26587728740581,
+          55.47360248447205
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-cxd4-l316pd",
+      "name": "Ba5 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "cxd4",
+        "Bb4+",
+        "Bd2",
+        "Qe7",
+        "Nc3",
+        "Nxc3",
+        "bxc3",
+        "Ba5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          312022,
+          172364,
+          141189,
+          7790,
+          2089,
+          1347,
+          1148,
+          1054
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          51.47697918736499,
+          51.03327841080504,
+          51.56244466636919,
+          55.62901155327342,
+          59.47821924365725,
+          59.317000742390505,
+          60.10452961672473,
+          59.25047438330171
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-cxd4-cmmv6p",
+      "name": "Bd3 Line",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "cxd4",
+        "Bb4+",
+        "Bd2",
+        "O-O",
+        "Nc3",
+        "Nxc3",
+        "bxc3",
+        "Ba5",
+        "Bd3"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          312022,
+          172364,
+          141189,
+          43127,
+          8604,
+          5488,
+          4663,
+          2684,
+          2379
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          51.47697918736499,
+          51.03327841080504,
+          51.56244466636919,
+          51.03415493774202,
+          56.88052068805207,
+          56.687317784256564,
+          57.79541067981986,
+          57.246646795827125,
+          58.04960067255149
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ponziani-nf6-d4-exd4-e5-nd5-cxd4-dizx7o",
+      "name": "After Bxd2+ Bxd2 O-O",
+      "moves": [
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Nd5",
+        "cxd4",
+        "Bb4+",
+        "Nbd2",
+        "Bxd2+",
+        "Bxd2",
+        "O-O"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          4122046,
+          2298367,
+          1540048,
+          1310750,
+          417747,
+          312022,
+          172364,
+          20703,
+          1483,
+          1376,
+          1067
+        ],
+        "winrates": [
+          51.33284538794569,
+          53.56137640333333,
+          54.22814743436568,
+          55.83139423993897,
+          53.00720292425798,
+          51.47697918736499,
+          51.03327841080504,
+          52.61314785296817,
+          56.97909642616318,
+          57.04941860465116,
+          57.77881911902531
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:00:47.078Z"
+}

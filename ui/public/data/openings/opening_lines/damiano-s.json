@@ -1,0 +1,826 @@
+{
+  "opening": "damiano's",
+  "openingId": "damiano-s",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "damiano-s-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "f6"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "damiano-s-bc4-nh6-nxe5-fxe5-qh5--fmer8w",
+      "name": "Qh5 Line",
+      "moves": [
+        "Bc4",
+        "Nh6",
+        "Nxe5",
+        "fxe5",
+        "Qh5+"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          452367,
+          11689,
+          858,
+          691,
+          675
+        ],
+        "winrates": [
+          61.84160206204255,
+          76.79869963213277,
+          86.36363636363636,
+          88.78437047756874,
+          88.81481481481481
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-d4-c5-dxe5-fxe5-nxe5-nf6-d3d6x7",
+      "name": "Nf6 Line",
+      "moves": [
+        "d4",
+        "c5",
+        "dxe5",
+        "fxe5",
+        "Nxe5",
+        "Nf6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          347640,
+          2150,
+          3508,
+          2504,
+          2205,
+          605
+        ],
+        "winrates": [
+          61.004918881601654,
+          71.76744186046513,
+          71.73603192702394,
+          71.10623003194888,
+          71.45124716553288,
+          63.63636363636363
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-nxe5-bd6-qh5--g6-nxg6-ubz2cd",
+      "name": "Nxg6 Line",
+      "moves": [
+        "Nxe5",
+        "Bd6",
+        "Qh5+",
+        "g6",
+        "Nxg6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          224578,
+          1008,
+          732,
+          575,
+          573
+        ],
+        "winrates": [
+          70.31076062659744,
+          89.6329365079365,
+          95.42349726775956,
+          94.69565217391305,
+          94.85165794066319
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-nc3-a6-d4-exd4-8lij2h",
+      "name": "exd4 Line",
+      "moves": [
+        "Nc3",
+        "a6",
+        "d4",
+        "exd4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          123442,
+          2621,
+          1267,
+          515
+        ],
+        "winrates": [
+          59.9362453621944,
+          66.46318199160626,
+          67.48224151539068,
+          66.60194174757281
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-c3-a6-d4-29n423",
+      "name": "d4 Line",
+      "moves": [
+        "c3",
+        "a6",
+        "d4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          39143,
+          793,
+          593
+        ],
+        "winrates": [
+          58.55836292568275,
+          64.43883984867591,
+          65.00843170320405
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-nh4-g5-qh5--ke7-nf5--ke6-r6a4fo",
+      "name": "Qf7 Line",
+      "moves": [
+        "Nh4",
+        "g5",
+        "Qh5+",
+        "Ke7",
+        "Nf5+",
+        "Ke6",
+        "Bc4+",
+        "d5",
+        "Bxd5+",
+        "Kd7",
+        "Qf7+"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          23198,
+          1383,
+          1327,
+          1317,
+          813,
+          836,
+          768,
+          759,
+          709,
+          631,
+          563
+        ],
+        "winrates": [
+          66.51219932752824,
+          82.4295010845987,
+          83.49660889223813,
+          83.37129840546697,
+          81.11931119311193,
+          80.98086124401914,
+          82.2265625,
+          82.01581027667984,
+          82.58110014104373,
+          80.74484944532489,
+          80.90586145648314
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-d3-g5-1jwzjg",
+      "name": "g5 Line",
+      "moves": [
+        "d3",
+        "g5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          20651,
+          620
+        ],
+        "winrates": [
+          55.145029296402114,
+          60.08064516129033
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-be2-nc6-o-o-bc5-g5wzke",
+      "name": "Bc5 Line",
+      "moves": [
+        "Be2",
+        "Nc6",
+        "O-O",
+        "Bc5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          9704,
+          1311,
+          1909,
+          655
+        ],
+        "winrates": [
+          57.703009068425395,
+          59.22959572845157,
+          59.009952854897854,
+          56.33587786259542
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bb5-a6-ba4-edf2dx",
+      "name": "Ba4 Line",
+      "moves": [
+        "Bb5",
+        "a6",
+        "Ba4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          9678,
+          848,
+          655
+        ],
+        "winrates": [
+          57.35689191981814,
+          60.37735849056604,
+          61.832061068702295
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-a3-d5-1i9los",
+      "name": "d5 Line",
+      "moves": [
+        "a3",
+        "d5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          5247,
+          594
+        ],
+        "winrates": [
+          60.25347817800648,
+          61.44781144781145
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-h3-nc6-kzjg1t",
+      "name": "Nc6 Line",
+      "moves": [
+        "h3",
+        "Nc6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4979,
+          691
+        ],
+        "winrates": [
+          56.93914440650734,
+          57.452966714905926
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-c6-nxe5-fxe5-qh5--ke7-wmgd8s",
+      "name": "Qxe5 Line",
+      "moves": [
+        "Bc4",
+        "c6",
+        "Nxe5",
+        "fxe5",
+        "Qh5+",
+        "Ke7",
+        "Qxe5#"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          104858,
+          13301,
+          7307,
+          7233,
+          2020,
+          1607
+        ],
+        "winrates": [
+          61.84160206204255,
+          57.331820175856876,
+          68.825652206601,
+          77.11098946215958,
+          77.36070786672197,
+          91.68316831683168,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-d6-nh4-nc6-qh5--ke7-mkrroj",
+      "name": "Ke7 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "Nh4",
+        "Nc6",
+        "Qh5+",
+        "Ke7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          89139,
+          13047,
+          906,
+          4387,
+          530
+        ],
+        "winrates": [
+          61.84160206204255,
+          58.713918711226285,
+          59.699547788763695,
+          72.57174392935983,
+          74.3332573512651,
+          97.73584905660377
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-ne7-d4-nec6-dxe5-bydwmp",
+      "name": "dxe5 Line",
+      "moves": [
+        "Bc4",
+        "Ne7",
+        "d4",
+        "Nec6",
+        "dxe5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          79402,
+          24704,
+          854,
+          556
+        ],
+        "winrates": [
+          61.84160206204255,
+          63.086572126646686,
+          67.33322538860104,
+          81.20608899297423,
+          85.34172661870504
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-bc5-nxe5-bxf2--kxf2-fxe5-9j5ryg",
+      "name": "After Kxf2 fxe5 Qh5+",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "Nxe5",
+        "Bxf2+",
+        "Kxf2",
+        "fxe5",
+        "Qh5+"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          62689,
+          10107,
+          554,
+          544,
+          566,
+          552
+        ],
+        "winrates": [
+          61.84160206204255,
+          64.2449233517842,
+          80.70149401404967,
+          85.10830324909747,
+          85.38602941176471,
+          84.80565371024736,
+          85.14492753623189
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-nc6-nh4-g5-qh5--ke7-1sk1ct",
+      "name": "After g5 Qh5+ Ke7",
+      "moves": [
+        "Bc4",
+        "Nc6",
+        "Nh4",
+        "g5",
+        "Qh5+",
+        "Ke7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          55918,
+          20347,
+          771,
+          748,
+          728
+        ],
+        "winrates": [
+          61.84160206204255,
+          63.49833685038807,
+          72.00324372143314,
+          98.18417639429312,
+          98.72994652406418,
+          98.69505494505495
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-qe7-nh4-g6-auysti",
+      "name": "g6 Line",
+      "moves": [
+        "Bc4",
+        "Qe7",
+        "Nh4",
+        "g6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          11104,
+          829,
+          594
+        ],
+        "winrates": [
+          61.84160206204255,
+          60.991534582132566,
+          59.10735826296744,
+          56.56565656565656
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-a6-nxe5-fxe5-qh5--g6-ko5tse",
+      "name": "Qxh8 Line",
+      "moves": [
+        "Bc4",
+        "a6",
+        "Nxe5",
+        "fxe5",
+        "Qh5+",
+        "g6",
+        "Qxe5+",
+        "Qe7",
+        "Qxh8"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          10513,
+          1301,
+          999,
+          994,
+          767,
+          766,
+          601,
+          591
+        ],
+        "winrates": [
+          61.84160206204255,
+          67.95396176162846,
+          81.36049192928516,
+          84.98498498498499,
+          85.11066398390342,
+          81.35593220338984,
+          81.4621409921671,
+          78.86855241264558,
+          79.18781725888326
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-d5-bxd5-ne7-q6luqk",
+      "name": "Ne7 Line",
+      "moves": [
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "Ne7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          8857,
+          2804,
+          635
+        ],
+        "winrates": [
+          61.84160206204255,
+          62.775206051710505,
+          68.33095577746077,
+          70.39370078740157
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-g6-c3-x14910",
+      "name": "c3 Line",
+      "moves": [
+        "Bc4",
+        "g6",
+        "c3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          8674,
+          1213
+        ],
+        "winrates": [
+          61.84160206204255,
+          61.66128660364307,
+          65.37510305028854
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-b6-nxe5-fxe5-qh5--g6-ltn6lt",
+      "name": "After Qxe5+ Qe7 Qxh8",
+      "moves": [
+        "Bc4",
+        "b6",
+        "Nxe5",
+        "fxe5",
+        "Qh5+",
+        "g6",
+        "Qxe5+",
+        "Qe7",
+        "Qxh8"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          6198,
+          1557,
+          1250,
+          1240,
+          973,
+          971,
+          791,
+          779
+        ],
+        "winrates": [
+          61.84160206204255,
+          65.9002904162633,
+          79.35131663455363,
+          80.12,
+          80.40322580645162,
+          75.74511819116135,
+          75.90113285272915,
+          72.37673830594184,
+          72.65725288831835
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-h6-nxe5-fxe5-qh5--ke7-90q3i2",
+      "name": "After fxe5 Qh5+ Ke7",
+      "moves": [
+        "Bc4",
+        "h6",
+        "Nxe5",
+        "fxe5",
+        "Qh5+",
+        "Ke7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          452367,
+          5663,
+          974,
+          764,
+          762,
+          622
+        ],
+        "winrates": [
+          61.84160206204255,
+          72.95603037259403,
+          92.04312114989733,
+          91.95026178010471,
+          92.06036745406824,
+          92.7652733118971
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-c6-d4-bd6-dxe5-bxe5-157g2n",
+      "name": "fxe5 Line",
+      "moves": [
+        "Bc4",
+        "c6",
+        "d4",
+        "Bd6",
+        "dxe5",
+        "Bxe5",
+        "Nxe5",
+        "fxe5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          452367,
+          104858,
+          32876,
+          550,
+          989,
+          642,
+          611,
+          554
+        ],
+        "winrates": [
+          61.84160206204255,
+          57.331820175856876,
+          58.817982722958995,
+          74.90909090909092,
+          80.88978766430738,
+          80.06230529595015,
+          81.34206219312603,
+          82.85198555956678
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "damiano-s-bc4-c6-nc3-nh6-4oylv",
+      "name": "Nh6 Line",
+      "moves": [
+        "Bc4",
+        "c6",
+        "Nc3",
+        "Nh6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          452367,
+          104858,
+          19368,
+          894
+        ],
+        "winrates": [
+          61.84160206204255,
+          57.331820175856876,
+          58.929677819083025,
+          68.17673378076063
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:35:51.409Z"
+}

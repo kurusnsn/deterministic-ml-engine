@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+python-chess
+httpx
+requests
+asyncpg
+redis
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-instrumentation-fastapi
+opentelemetry-instrumentation-httpx
+opentelemetry-instrumentation-requests
+opentelemetry-instrumentation-asyncpg
+opentelemetry-instrumentation-redis
+opentelemetry-instrumentation-system-metrics

@@ -1,0 +1,1223 @@
+{
+  "opening": "scandinavian",
+  "openingId": "scandinavian",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "scandinavian-line-0",
+      "name": "Pytel-Wade variation",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd6"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-1",
+      "name": "Icelandic gambit",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Nf6",
+        "c4",
+        "e6"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-2",
+      "name": "Main Line (B01)",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Nf6",
+        "c4",
+        "c6"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-3",
+      "name": "Richter variation",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Nf6",
+        "d4",
+        "g6"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-4",
+      "name": "Main Line (B01)",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "b4"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-5",
+      "name": "Kiel variation",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Nf6",
+        "d4",
+        "Nxd5",
+        "c4",
+        "Nb4"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-6",
+      "name": "Anderssen counter-attack, Collijn variation",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "e5",
+        "Nf3",
+        "Bg4"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-7",
+      "name": "Main Line (B01)",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "Bg4",
+        "h3"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-8",
+      "name": "Main Line (B01)",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "Bf5",
+        "Ne5",
+        "c6",
+        "g4"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-line-9",
+      "name": "Anderssen counter-attack orthodox attack",
+      "moves": [
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "e5",
+        "dxe5",
+        "Bb4",
+        "Bd2",
+        "Nc6",
+        "Nf3"
+      ],
+      "eco": "B01"
+    },
+    {
+      "id": "scandinavian-bc4-dxc4-qf3-nc6-nh3-g82imo",
+      "name": "Nh3 Line",
+      "moves": [
+        "Bc4",
+        "dxc4",
+        "Qf3",
+        "Nc6",
+        "Nh3"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          809131,
+          674751,
+          47026,
+          12859,
+          3204
+        ],
+        "winrates": [
+          66.5511517912427,
+          67.38574674213153,
+          68.06872793773657,
+          71.76296757135081,
+          73.01810237203496
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-bd3-nc6-exd5-qxd5-nf3-bg4-wrcnbn",
+      "name": "O-O Line",
+      "moves": [
+        "Bd3",
+        "Nc6",
+        "exd5",
+        "Qxd5",
+        "Nf3",
+        "Bg4",
+        "O-O"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          198829,
+          4469,
+          1774,
+          1663,
+          1327,
+          2423,
+          1058
+        ],
+        "winrates": [
+          55.15317182101202,
+          58.30163347505035,
+          59.21645997745208,
+          59.80156343956704,
+          59.64581763376036,
+          61.55592241023524,
+          63.84688090737241
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-bg4-c3-bxd1-kxd1-qg68i6",
+      "name": "Kxd1 Line",
+      "moves": [
+        "exd5",
+        "Bg4",
+        "c3",
+        "Bxd1",
+        "Kxd1"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          166594383,
+          1194747,
+          1839,
+          2061,
+          1415
+        ],
+        "winrates": [
+          49.47586017951158,
+          55.82056284719694,
+          83.19738988580751,
+          82.43571081999029,
+          77.03180212014135
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-b3-qe5--qe2-qxa1-qrks0p",
+      "name": "Qxa1 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "b3",
+        "Qe5+",
+        "Qe2",
+        "Qxa1"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          166594383,
+          110062411,
+          104729,
+          13308,
+          3163,
+          3072
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          56.64333661163574,
+          74.50781484821161,
+          88.39709136895353,
+          89.306640625
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qd8-nf3-nf6-sfmxgb",
+      "name": "Bd6 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Nf3",
+        "Nf6",
+        "Bc4",
+        "e6",
+        "Ng5",
+        "Bd6"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          33000751,
+          13652235,
+          6748421,
+          2747243,
+          1610922,
+          24811,
+          1949
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          48.556005589084926,
+          49.00988372966039,
+          49.967577600745415,
+          50.30168427037579,
+          51.06823918228195,
+          56.112208294708,
+          57.773217034376614
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qd8-nf3-nf6-1yyiw1",
+      "name": "Be7 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Nf3",
+        "Nf6",
+        "Bc4",
+        "e6",
+        "Kf1",
+        "Be7"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          33000751,
+          13652235,
+          6748421,
+          2747243,
+          1610922,
+          2616,
+          1443
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          48.556005589084926,
+          49.00988372966039,
+          49.967577600745415,
+          50.30168427037579,
+          51.06823918228195,
+          59.53746177370031,
+          60.70686070686071
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qd8-nf3-nf6-pk2bkb",
+      "name": "a6 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Nf3",
+        "Nf6",
+        "Bc4",
+        "e6",
+        "d3",
+        "Be7",
+        "Be3",
+        "a6"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          33000751,
+          13652235,
+          6748421,
+          2747243,
+          1610922,
+          579328,
+          340657,
+          42570,
+          2515
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          48.556005589084926,
+          49.00988372966039,
+          49.967577600745415,
+          50.30168427037579,
+          51.06823918228195,
+          53.515193465532484,
+          55.06829450150739,
+          56.30138595254874,
+          58.33001988071571
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qd8-nf3-nf6-jodzd",
+      "name": "Bxd1 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Nf3",
+        "Nf6",
+        "d4",
+        "Bg4",
+        "Ne5",
+        "Bxd1"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          33000751,
+          13652235,
+          6748421,
+          2560418,
+          1364582,
+          1500,
+          1011
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          48.556005589084926,
+          49.00988372966039,
+          49.967577600745415,
+          48.593237510437746,
+          48.244920422517666,
+          69.19999999999999,
+          86.00395647873393
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qd8-nf3-e6-bcm3rh",
+      "name": "After Nf6 Ng5 Bd6",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Nf3",
+        "e6",
+        "Bc4",
+        "Nf6",
+        "Ng5",
+        "Bd6"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          33000751,
+          13652235,
+          2670993,
+          890848,
+          654503,
+          24811,
+          1949
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          48.556005589084926,
+          49.00988372966039,
+          48.69994043413817,
+          49.41241379000682,
+          50.27394832414824,
+          56.112208294708,
+          57.773217034376614
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qd8-nf3-e6-f42ast",
+      "name": "After Nf6 Kf1 Be7",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Nf3",
+        "e6",
+        "Bc4",
+        "Nf6",
+        "Kf1",
+        "Be7"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          33000751,
+          13652235,
+          2670993,
+          890848,
+          654503,
+          2616,
+          1443
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          48.556005589084926,
+          49.00988372966039,
+          48.69994043413817,
+          49.41241379000682,
+          50.27394832414824,
+          59.53746177370031,
+          60.70686070686071
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qd8-d4-nf6-bafpez",
+      "name": "After Bg4 Ne5 Bxd1",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "Bg4",
+        "Ne5",
+        "Bxd1"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          33000751,
+          11387714,
+          5931419,
+          3399682,
+          1364582,
+          1500,
+          1011
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          48.556005589084926,
+          47.1226138977498,
+          48.269090414958036,
+          47.834532759240425,
+          48.244920422517666,
+          69.19999999999999,
+          86.00395647873393
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qd8-d4-nf6-2xz1gf",
+      "name": "After Bg4 Bg5 Bxd1",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "d4",
+        "Nf6",
+        "Bc4",
+        "Bg4",
+        "Bg5",
+        "Bxd1"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          33000751,
+          11387714,
+          5931419,
+          839770,
+          150444,
+          1149,
+          1122
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          48.556005589084926,
+          47.1226138977498,
+          48.269090414958036,
+          47.56028436357575,
+          48.967389859349666,
+          78.19843342036553,
+          82.2192513368984
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-c6-88kr6n",
+      "name": "Ne4 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "c6",
+        "Nf3",
+        "Nf6",
+        "Bg5",
+        "Ne4"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3766741,
+          1579116,
+          1079435,
+          35452,
+          1056
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          49.74049184693081,
+          49.257242659817265,
+          51.140550380523145,
+          55.18306442513822,
+          58.61742424242424
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-c6-duy5dt",
+      "name": "Bg4 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "c6",
+        "Nf3",
+        "Nf6",
+        "Qd3",
+        "Bg4"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3766741,
+          1579116,
+          1079435,
+          1590,
+          1171
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          49.74049184693081,
+          49.257242659817265,
+          51.140550380523145,
+          56.0377358490566,
+          56.40478223740393
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-nf6-3cz1mn",
+      "name": "Qa5 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Bg5",
+        "Qxg5",
+        "Nf3",
+        "Qa5"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3678826,
+          10303,
+          4871,
+          2931,
+          2226
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          51.31902133996009,
+          67.88314083276715,
+          79.4805994662287,
+          71.18730808597749,
+          72.19227313566935
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-nf6-o8xwfp",
+      "name": "Qxg5 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "Nc6",
+        "Bg5",
+        "Bg4",
+        "Be2",
+        "Bxf3",
+        "Bxf3",
+        "Qxg5"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3678826,
+          1654464,
+          360108,
+          9218,
+          8461,
+          2180,
+          2419,
+          1656,
+          1637
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          51.31902133996009,
+          50.828757833352675,
+          55.759522143356996,
+          61.564330657409414,
+          63.172201867391564,
+          68.23394495412845,
+          72.38528317486565,
+          73.73188405797102,
+          74.22113622480147
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-nf6-4fsb52",
+      "name": "e5 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "Bg4",
+        "Bd3",
+        "Nc6",
+        "Be2",
+        "O-O-O",
+        "Be3",
+        "e5"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3678826,
+          1654464,
+          1463079,
+          44379,
+          21083,
+          2180,
+          4170,
+          2287,
+          11133
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          51.31902133996009,
+          50.828757833352675,
+          51.96110394585665,
+          55.65470154802947,
+          59.917943366693535,
+          65.18348623853211,
+          67.60191846522781,
+          68.10231744643637,
+          74.23874966316357
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-nf6-q5jiqt",
+      "name": "Nc6 Line",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "Bg4",
+        "Qd3",
+        "Nc6"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3678826,
+          1654464,
+          1463079,
+          5033,
+          2017
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          51.31902133996009,
+          50.828757833352675,
+          51.96110394585665,
+          56.27856149413868,
+          60.26276648487854
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-nf6-99h5gb",
+      "name": "After O-O-O Be3 e5",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "Bg4",
+        "g3",
+        "Nc6",
+        "Bg2",
+        "O-O-O",
+        "Be3",
+        "e5"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3678826,
+          1654464,
+          1463079,
+          2308,
+          1235,
+          2255,
+          2762,
+          1533,
+          1194
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          51.31902133996009,
+          50.828757833352675,
+          51.96110394585665,
+          59.900346620450605,
+          69.23076923076923,
+          70.24390243902438,
+          72.0492396813903,
+          73.77690802348337,
+          82.32830820770519
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-nf6-jw64c5",
+      "name": "After Bxf3 Bxf3 Qxg5",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "Bg4",
+        "Be2",
+        "Nc6",
+        "Bg5",
+        "Bxf3",
+        "Bxf3",
+        "Qxg5"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3678826,
+          1654464,
+          1463079,
+          619533,
+          285679,
+          1954,
+          2419,
+          1656,
+          1637
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          51.31902133996009,
+          50.828757833352675,
+          51.96110394585665,
+          54.84138859431217,
+          60.08527053091057,
+          66.78607983623337,
+          72.38528317486565,
+          73.73188405797102,
+          74.22113622480147
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-nf6-54a7i7",
+      "name": "After c6 Bg5 Ne4",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "c6",
+        "Bg5",
+        "Ne4"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3678826,
+          1654464,
+          510188,
+          35452,
+          1056
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          51.31902133996009,
+          50.828757833352675,
+          51.030404478349155,
+          55.18306442513822,
+          58.61742424242424
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-exd5-qxd5-nc3-qa5-d4-nf6-i36oz",
+      "name": "After c6 Qd3 Bg4",
+      "moves": [
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qa5",
+        "d4",
+        "Nf6",
+        "Nf3",
+        "c6",
+        "Qd3",
+        "Bg4"
+      ],
+      "eco": "B01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          166594383,
+          110062411,
+          75392529,
+          24387923,
+          8903721,
+          3678826,
+          1654464,
+          510188,
+          1590,
+          1171
+        ],
+        "winrates": [
+          49.47586017951158,
+          48.97443687654635,
+          49.08148193304406,
+          50.63123046599745,
+          50.16480188451548,
+          51.31902133996009,
+          50.828757833352675,
+          51.030404478349155,
+          56.0377358490566,
+          56.40478223740393
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T23:54:30.512Z"
+}

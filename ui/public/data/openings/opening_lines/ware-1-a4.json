@@ -1,0 +1,228 @@
+{
+  "opening": "Ware (1.a4)",
+  "openingId": "ware-1-a4",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "ware-1-a4-line-0",
+      "name": "Main Line",
+      "moves": [
+        "a4",
+        "e5",
+        "h4"
+      ],
+      "eco": "A00"
+    },
+    {
+      "id": "ware-1-a4-e5-a5-d5-g3-c5-bg2-b0vob",
+      "name": "a6 Line",
+      "moves": [
+        "e5",
+        "a5",
+        "d5",
+        "g3",
+        "c5",
+        "Bg2",
+        "Nc6",
+        "a6"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          580670,
+          107408,
+          36821,
+          6435,
+          732,
+          1086,
+          671,
+          646
+        ],
+        "winrates": [
+          48.80629273081096,
+          49.66948458215403,
+          48.798240134705736,
+          57.74669774669775,
+          59.97267759562842,
+          61.97053406998159,
+          56.40834575260805,
+          63.62229102167183
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ware-1-a4-e5-a5-d5-e3-a6-d4-aj23u5",
+      "name": "e4 Line",
+      "moves": [
+        "e5",
+        "a5",
+        "d5",
+        "e3",
+        "a6",
+        "d4",
+        "e4"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          580670,
+          107408,
+          36821,
+          17941,
+          3808,
+          1359,
+          525
+        ],
+        "winrates": [
+          48.80629273081096,
+          49.66948458215403,
+          48.798240134705736,
+          49.24753358229753,
+          46.84873949579832,
+          56.32818248712288,
+          56.38095238095238
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ware-1-a4-e5-a5-d5-a6-b6-e3-emovdc",
+      "name": "c5 Line",
+      "moves": [
+        "e5",
+        "a5",
+        "d5",
+        "a6",
+        "b6",
+        "e3",
+        "c5"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          580670,
+          107408,
+          36821,
+          17391,
+          3130,
+          1246,
+          520
+        ],
+        "winrates": [
+          48.80629273081096,
+          49.66948458215403,
+          48.798240134705736,
+          48.08234144097522,
+          55.33546325878594,
+          55.73836276083467,
+          56.15384615384615
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ware-1-a4-e5-a5-a6-g3-d5-bg2-kwosd1",
+      "name": "d3 Line",
+      "moves": [
+        "e5",
+        "a5",
+        "a6",
+        "g3",
+        "d5",
+        "Bg2",
+        "Nf6",
+        "d3"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          580670,
+          107408,
+          21688,
+          2848,
+          1153,
+          2782,
+          1130,
+          1085
+        ],
+        "winrates": [
+          48.80629273081096,
+          49.66948458215403,
+          49.073220213943195,
+          55.81109550561798,
+          55.89765828274068,
+          56.86556434219986,
+          55.70796460176991,
+          59.76958525345623
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ware-1-a4-e5-b3-d5-ba3-bxa3-nxa3-3rbe4f",
+      "name": "Ne2 Line",
+      "moves": [
+        "e5",
+        "b3",
+        "d5",
+        "Ba3",
+        "Bxa3",
+        "Nxa3",
+        "Nf6",
+        "e3",
+        "Nc6",
+        "Ne2"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          580670,
+          92616,
+          47408,
+          28139,
+          16677,
+          16290,
+          7951,
+          5406,
+          1162,
+          1117
+        ],
+        "winrates": [
+          48.80629273081096,
+          48.95860326509459,
+          48.65423557205535,
+          49.731689114751774,
+          49.48132158062001,
+          49.86187845303867,
+          49.43403345491133,
+          51.15612282648908,
+          55.03442340791739,
+          55.14771709937332
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:40:15.755Z"
+}

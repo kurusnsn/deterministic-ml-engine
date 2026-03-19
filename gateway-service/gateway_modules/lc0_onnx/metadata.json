@@ -1,0 +1,42 @@
+{
+    "lc0_arch": "T78",
+    "input_planes": 112,
+    "input_shape": [
+        1,
+        112,
+        8,
+        8
+    ],
+    "filters": 512,
+    "residual_blocks": 40,
+    "se_ratio": 16,
+    "probe_layers": [
+        "resblock_39"
+    ],
+    "activation": "post_relu",
+    "pooling": "flatten",
+    "expected_features": 32768,
+    "concepts": [
+        "Threats_w_mid",
+        "Threats_b_mid",
+        "Kingsafety_w_mid",
+        "Kingsafety_b_mid",
+        "Mobility_w_mid",
+        "Mobility_b_mid",
+        "Space_w_mid",
+        "Space_b_mid",
+        "Material_t_mid",
+        "Pawns_t_mid",
+        "Passedpawns_w_mid",
+        "Passedpawns_b_mid",
+        "Imbalance_t_mid",
+        "Knights_w_mid",
+        "Knights_b_mid",
+        "Bishop_w_mid",
+        "Bishop_b_mid",
+        "Rooks_w_mid",
+        "Rooks_b_mid",
+        "Queens_w_mid",
+        "Queens_b_mid"
+    ]
+}

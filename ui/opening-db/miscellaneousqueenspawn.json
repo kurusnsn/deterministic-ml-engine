@@ -1,0 +1,1240 @@
+{
+  "id": "miscellaneous-queens-pawn",
+  "name": "Queens pawn",
+  "opening": "Queens pawn",
+  "generatedAt": "2026-01-03T19:32:30.773Z",
+  "lines": [
+    {
+      "id": "miscellaneous-queens-pawn-bf4-exf4-d5-nf6-pyh2up",
+      "name": "Queens pawn: Bf4 Forcing Line",
+      "moves": [
+        "Bf4",
+        "exf4",
+        "d5",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          861172,
+          685045,
+          5586,
+          2391
+        ],
+        "winrates": [
+          66.50146544476597,
+          69.6049894532476,
+          68.6358754027927,
+          70.36804684232538
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--xyz3bm",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Qd2",
+        "Qxb2",
+        "Qc3",
+        "Bb4",
+        "Bc1",
+        "Bxc3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          109301,
+          107690,
+          81909,
+          75145,
+          2656,
+          1546
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          90.00466601403464,
+          90.88169746494567,
+          93.02823865509285,
+          98.46164082773305,
+          99.32228915662651,
+          98.96507115135834
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--xyz3bm",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Qd2",
+        "Qxb2",
+        "Qc3",
+        "Bb4",
+        "Bc1",
+        "Bxc3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          109301,
+          107690,
+          81909,
+          75145,
+          2656,
+          1546
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          90.00466601403464,
+          90.88169746494567,
+          93.02823865509285,
+          98.46164082773305,
+          99.32228915662651,
+          98.96507115135834
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--omod0x",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "Nb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          1370
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          78.5036496350365
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--3va2fy",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nbd2",
+        "Qxf4",
+        "e6",
+        "dxe6",
+        "e3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          194407,
+          175851,
+          2389,
+          1823,
+          1284
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          70.6872694913249,
+          73.21340225531843,
+          70.17580577647551,
+          70.7624794295118,
+          70.52180685358256
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--xyz3bm",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Qd2",
+        "Qxb2",
+        "Qc3",
+        "Bb4",
+        "Bc1",
+        "Bxc3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          109301,
+          107690,
+          81909,
+          75145,
+          2656,
+          1546
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          90.00466601403464,
+          90.88169746494567,
+          93.02823865509285,
+          98.46164082773305,
+          99.32228915662651,
+          98.96507115135834
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--3zafjk",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "c3",
+        "Qxf4",
+        "Qd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          78723,
+          66735,
+          1228
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          70.17898200017784,
+          73.48917359706302,
+          78.78664495114006
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--k3k06m",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nfd2",
+        "Qxf4",
+        "e3",
+        "Qxe5"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          5694,
+          4975,
+          1858,
+          1625
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          80.94485423252547,
+          82.09045226130654,
+          78.22927879440257,
+          79.41538461538462
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--ulzal8",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Bc3",
+        "Bb4",
+        "Qd4",
+        "Nxd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          1660384,
+          1866955,
+          394823,
+          382019,
+          5927,
+          1369
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          53.71763399310039,
+          53.148656502165295,
+          85.2823923631602,
+          86.79385056764193,
+          95.84950227771216,
+          99.19649379108839
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--eqinn2",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "c3",
+        "Qxa1"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          1660384,
+          1866955,
+          1510,
+          1352
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          53.71763399310039,
+          53.148656502165295,
+          74.20529801324504,
+          76.88609467455622
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--em9wt0",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "e3",
+        "Qxa1"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          1660384,
+          1866955,
+          1475,
+          1185
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          53.71763399310039,
+          53.148656502165295,
+          66.40677966101696,
+          68.0590717299578
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--ulzal8",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Bc3",
+        "Bb4",
+        "Qd4",
+        "Nxd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          1660384,
+          1866955,
+          394823,
+          382019,
+          5927,
+          1369
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          53.71763399310039,
+          53.148656502165295,
+          85.2823923631602,
+          86.79385056764193,
+          95.84950227771216,
+          99.19649379108839
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--omod0x",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "Nb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          1370
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          78.5036496350365
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--q7h8qj",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxb2",
+        "e3",
+        "Qxc3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          42629,
+          1310,
+          1150
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          55.545520654953194,
+          80.38167938931298,
+          80.08695652173913
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--pravve",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "e3",
+        "Qb4",
+        "Bb5",
+        "Qxb2"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          56160,
+          39472,
+          2279,
+          1407
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          67.15544871794872,
+          68.98941021483583,
+          77.05133830627469,
+          84.11513859275053
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--2g96j0",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "g3",
+        "Qb4",
+        "Bg2"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          6611,
+          4642,
+          1130
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          68.02299198305855,
+          68.8819474364498,
+          68.49557522123894
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--lqszrj",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "e6",
+        "dxe6"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          2148,
+          1277
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          74.34823091247672,
+          75.41111981205951
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--4xxd8q",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "Qd2",
+        "Qxd2+"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          1406,
+          1171
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          71.55049786628733,
+          76.0461144321093
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--pravve",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "e3",
+        "Qb4",
+        "Bb5",
+        "Qxb2"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          56160,
+          39472,
+          2279,
+          1407
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          67.15544871794872,
+          68.98941021483583,
+          77.05133830627469,
+          84.11513859275053
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--g9ngg5",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "e3",
+        "Qf5",
+        "Bd3",
+        "Qe6",
+        "Ng5"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          56160,
+          7635,
+          5514,
+          4644,
+          1035
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          67.15544871794872,
+          63.555992141453835,
+          62.65868697859993,
+          63.25366063738157,
+          64.10628019323671
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--6x42ja",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxf4",
+        "e3",
+        "Qh6",
+        "Bd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          176713,
+          56160,
+          7110,
+          1718
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          56.326642635233405,
+          67.15544871794872,
+          63.43178621659634,
+          64.75552968568103
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--3d2xy5",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxb2",
+        "Rb1",
+        "Qxc3+",
+        "Bd2",
+        "Qc5",
+        "e3",
+        "Nxe5"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          42629,
+          3687,
+          3193,
+          2134,
+          3161,
+          1436,
+          1118
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          55.545520654953194,
+          72.85055600759425,
+          76.27622925148762,
+          69.51733833177131,
+          72.41379310344827,
+          72.38857938718664,
+          72.58497316636851
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--q7h8qj",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxb2",
+        "e3",
+        "Qxc3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          42629,
+          1310,
+          1150
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          55.545520654953194,
+          80.38167938931298,
+          80.08695652173913
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-qb4--rwcn9o",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "Qb4+",
+        "Nc3",
+        "Qxb2",
+        "Nd5",
+        "Nb4",
+        "Nxc7+",
+        "Kd8"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          2272643,
+          220813,
+          42629,
+          16046,
+          2157,
+          1192,
+          1194
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          57.88610441675177,
+          56.060331592795706,
+          55.545520654953194,
+          51.27446092484108,
+          64.67315716272601,
+          68.16275167785236,
+          68.21608040201005
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-dxe5-nc6-nf3-qe7-bf4-f6-5cp379",
+      "name": "Queens pawn: dxe5 Forcing Line",
+      "moves": [
+        "dxe5",
+        "Nc6",
+        "Nf3",
+        "Qe7",
+        "Bf4",
+        "f6",
+        "Qd5",
+        "Qb4+",
+        "Bd2",
+        "Qxb2",
+        "Bc3",
+        "Bb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          26711787,
+          12977100,
+          9426723,
+          6477006,
+          2030148,
+          39012,
+          1233,
+          6085,
+          2911,
+          2890,
+          2490,
+          2064
+        ],
+        "winrates": [
+          48.47187685346548,
+          48.810974717001486,
+          48.32933989892352,
+          48.814375036861165,
+          56.54294662261077,
+          48.7170614169999,
+          59.93511759935117,
+          80.9695973705834,
+          84.8162143593267,
+          85,
+          85.88353413654619,
+          92.41763565891473
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

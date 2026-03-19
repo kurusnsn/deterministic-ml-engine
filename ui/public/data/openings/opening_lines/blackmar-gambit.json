@@ -1,0 +1,1002 @@
+{
+  "opening": "blackmar gambit",
+  "openingId": "blackmar-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "blackmar-gambit-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "e4"
+      ],
+      "eco": "D00"
+    },
+    {
+      "id": "blackmar-gambit-nf6-e5-e6-exf6-qxf6-nf3-32d8n5",
+      "name": "Bd6 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "e6",
+        "exf6",
+        "Qxf6",
+        "Nf3",
+        "Bb4+",
+        "c3",
+        "Bd6"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1011886,
+          635025,
+          6248,
+          22533,
+          27499,
+          20162,
+          3408,
+          2960,
+          1903
+        ],
+        "winrates": [
+          56.055820517331,
+          57.28908310696429,
+          62.50800256081946,
+          68.61270137132206,
+          67.43154296519873,
+          69.65826802896538,
+          72.4325117370892,
+          73.1081081081081,
+          70.8092485549133
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-e5-dxe5-c5-exd5-bf5-gcups9",
+      "name": "Bf5 Line",
+      "moves": [
+        "e5",
+        "dxe5",
+        "c5",
+        "exd5",
+        "Bf5"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          163356,
+          664212,
+          2832,
+          2307,
+          1183
+        ],
+        "winrates": [
+          55.1611204975636,
+          58.28636037891517,
+          71.5572033898305,
+          71.54312960554833,
+          71.38630600169061
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-bf5-exf5-qd6-toiwt0",
+      "name": "Qd6 Line",
+      "moves": [
+        "Bf5",
+        "exf5",
+        "Qd6"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          56740,
+          41389,
+          1404
+        ],
+        "winrates": [
+          69.42809305604511,
+          74.25886105003745,
+          70.76210826210826
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-qd6-f3-dxe4-fxe4-w28zij",
+      "name": "fxe4 Line",
+      "moves": [
+        "Qd6",
+        "f3",
+        "dxe4",
+        "fxe4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          15365,
+          1431,
+          1460,
+          1014
+        ],
+        "winrates": [
+          58.76016921575008,
+          60.65688329839273,
+          58.972602739726035,
+          59.56607495069034
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-qd7-f3-dxe4-5hcafu",
+      "name": "dxe4 Line",
+      "moves": [
+        "Qd7",
+        "f3",
+        "dxe4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          9315,
+          1121,
+          1048
+        ],
+        "winrates": [
+          57.74020397208803,
+          61.016949152542374,
+          61.641221374045806
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-f5-bg5-h6-qh5--ic14w3",
+      "name": "d5 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "f5",
+        "Bg5",
+        "h6",
+        "Qh5+",
+        "Kd7",
+        "d5"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          10833284,
+          7202496,
+          718590,
+          51896,
+          17050,
+          10951,
+          10716,
+          1196
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          57.13821511571272,
+          60.34183752119624,
+          68.56598240469208,
+          75.27166468815633,
+          75.16330720418067,
+          78.97157190635451
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-bf5-qe2-qxd4-qb5--ub3hx4",
+      "name": "Bb5 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Bf5",
+        "Qe2",
+        "Qxd4",
+        "Qb5+",
+        "Bd7",
+        "Qxb7",
+        "Bc6",
+        "Bb5"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          10833284,
+          7202496,
+          627237,
+          31858,
+          3751,
+          2866,
+          1352,
+          1348,
+          1267,
+          1194
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          55.00791566824024,
+          63.78303722769792,
+          78.67235403892295,
+          86.98534542916957,
+          93.89792899408283,
+          94.17655786350149,
+          95.02762430939227,
+          97.27805695142379
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-e6-f3-c6-fxe4-911nx7",
+      "name": "After c6 fxe4 Bd6",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "e6",
+        "f3",
+        "c6",
+        "fxe4",
+        "Bd6"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          10833284,
+          7202496,
+          283958,
+          791896,
+          5486,
+          56721,
+          1115
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          57.312172926982164,
+          58.55547950741007,
+          62.55012759752097,
+          64.94243754517727,
+          68.5201793721973
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-e3-fxe3-nc6-t9vemy",
+      "name": "Nc6 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "e3",
+        "fxe3",
+        "Nc6"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          10833284,
+          7202496,
+          80290,
+          15033,
+          1093
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          57.00398555237265,
+          60.0445686157121,
+          62.62580054894785
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-bg4-qxg4-nf6-qd1-75sor5",
+      "name": "e6 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Bg4",
+        "Qxg4",
+        "Nf6",
+        "Qd1",
+        "e6"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          10833284,
+          7202496,
+          11899,
+          4930,
+          3113,
+          1684,
+          1114
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          58.925119757962854,
+          71.68356997971603,
+          64.5358175393511,
+          68.4976247030879,
+          68.31238779174147
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-b6-f3-exf3-qxf3-347hmp",
+      "name": "c6 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "b6",
+        "f3",
+        "exf3",
+        "Qxf3",
+        "c6"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          10833284,
+          7202496,
+          10203,
+          6359,
+          3330,
+          1376,
+          1215
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          57.29687346858767,
+          59.70278345651832,
+          61.051051051051054,
+          64.86191860465115,
+          61.85185185185185
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-exf3-nxf3-hkx1cb",
+      "name": "Qe1 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "e6",
+        "Bd3",
+        "Bb4",
+        "O-O",
+        "Bxc3",
+        "bxc3",
+        "O-O",
+        "Qe1"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          3307403,
+          2171124,
+          638299,
+          443250,
+          127276,
+          106582,
+          41825,
+          41717,
+          27296,
+          15378
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          55.231959939565876,
+          56.20372212734049,
+          60.318048438114424,
+          63.94404963338973,
+          71.09981457619661,
+          72.68253551256309,
+          77.12851165570831,
+          77.18795694800681,
+          80.53744138335287,
+          84.86799323709195
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-e6-fxe4-kjkuwt",
+      "name": "Ng3 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "e6",
+        "fxe4",
+        "Nxe4",
+        "Nxe4",
+        "Qh4+",
+        "Ng3"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          149828,
+          395434,
+          3981,
+          3601,
+          1593,
+          1108
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          59.13313933310196,
+          59.34568094802166,
+          67.79703592062296,
+          67.70341571785615,
+          60.514752040175765,
+          58.57400722021661
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-bg4-fxg4-y403dh",
+      "name": "Bxe3 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "Bg4",
+        "fxg4",
+        "e3",
+        "Bxe3"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          10282,
+          10878,
+          1340,
+          1116
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          65.37152304999027,
+          66.90108475822761,
+          69.17910447761194,
+          69.84767025089606
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-b6-fxe4-rgp1ys",
+      "name": "Qe2 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "b6",
+        "fxe4",
+        "Bb7",
+        "Bd3",
+        "e6",
+        "Nf3",
+        "Bb4",
+        "Qe2"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          4449,
+          4884,
+          4126,
+          2981,
+          3016,
+          3537,
+          3593,
+          2617
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          57.77702854574061,
+          57.78050778050778,
+          57.937469704314104,
+          59.292183830929226,
+          57.52652519893899,
+          60.85665818490246,
+          64.54216532145838,
+          68.55177684371418
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-exf3-nxf3-4py97r",
+      "name": "Be2 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Qxf3",
+        "Qxd4",
+        "Qxb7",
+        "Qe5+",
+        "Be2"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          3307403,
+          2171124,
+          903627,
+          416736,
+          208067,
+          207000,
+          6575,
+          4797,
+          3102,
+          2628
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          55.231959939565876,
+          56.20372212734049,
+          55.48970980282794,
+          58.37628618597866,
+          60.5977882124508,
+          60.73454106280193,
+          80.60076045627376,
+          84.78215551386283,
+          82.81753707285621,
+          84.34170471841705
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-exf3-nxf3-awlswv",
+      "name": "Bg4 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "Nc6",
+        "a3",
+        "Bg4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          3307403,
+          2171124,
+          183638,
+          2538,
+          1700
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          55.231959939565876,
+          56.20372212734049,
+          56.469249283917264,
+          61.268715524034675,
+          61.205882352941174
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-exf3-nxf3-e39u3z",
+      "name": "Bg5 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "b6",
+        "Bd3",
+        "Bb7",
+        "O-O",
+        "e6",
+        "Qe1",
+        "Be7",
+        "Bg5"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          3307403,
+          2171124,
+          18478,
+          5954,
+          5766,
+          4584,
+          2728,
+          5011,
+          2177,
+          1800
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          55.231959939565876,
+          56.20372212734049,
+          56.86221452538154,
+          58.439704400403095,
+          58.437391605966006,
+          58.453315881326354,
+          59.09090909090909,
+          61.0656555577729,
+          63.71152962792834,
+          61.916666666666664
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-exf3-nxf3-6e1k8q",
+      "name": "Qh4 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "h6",
+        "Bd3",
+        "e6",
+        "O-O",
+        "Bb4",
+        "Qe1",
+        "O-O",
+        "Qh4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          3307403,
+          2171124,
+          13853,
+          5532,
+          2245,
+          14039,
+          1579,
+          2157,
+          1153,
+          1260
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          55.231959939565876,
+          56.20372212734049,
+          58.998050963690176,
+          60.94540853217643,
+          61.82628062360802,
+          61.535721917515495,
+          68.1127295756808,
+          68.93834028743625,
+          71.33564614050304,
+          75.79365079365078
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-exf3-nxf3-1j0y1t",
+      "name": "After Qe1 O-O Qh4",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "Nbd7",
+        "Bd3",
+        "e6",
+        "O-O",
+        "Be7",
+        "Qe1",
+        "O-O",
+        "Qh4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          3307403,
+          2171124,
+          9689,
+          3855,
+          2091,
+          11999,
+          5859,
+          9154,
+          4430,
+          9272
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          55.231959939565876,
+          56.20372212734049,
+          57.10083599958716,
+          59.286640726329445,
+          63.05595408895266,
+          61.91349279106593,
+          62.84348864994026,
+          62.80860825868473,
+          70.21444695259594,
+          71.78062985332183
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-exf3-nxf3-h79kfu",
+      "name": "Bd3 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "a6",
+        "Bd3"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          3307403,
+          2171124,
+          8530,
+          3722
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          55.231959939565876,
+          56.20372212734049,
+          55.58030480656506,
+          56.40784524449221
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "blackmar-gambit-dxe4-nc3-nf6-f3-exf3-nxf3-qzv9q7",
+      "name": "Qxd4 Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "f3",
+        "exf3",
+        "Nxf3",
+        "Bg4",
+        "Bd3",
+        "Bxf3",
+        "Qxf3",
+        "Qxd4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          10833284,
+          7202496,
+          4487207,
+          4048454,
+          3307403,
+          2171124,
+          903627,
+          98404,
+          18580,
+          17534,
+          1679
+        ],
+        "winrates": [
+          52.68600915474938,
+          53.81974526608554,
+          53.51971727624779,
+          54.6340405498,
+          55.231959939565876,
+          56.20372212734049,
+          55.48970980282794,
+          57.12572659647982,
+          61.340150699677075,
+          62.136420668415646,
+          74.65753424657534
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T00:05:05.453Z"
+}

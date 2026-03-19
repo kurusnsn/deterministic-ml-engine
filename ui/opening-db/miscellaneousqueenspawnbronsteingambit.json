@@ -1,0 +1,414 @@
+{
+  "id": "miscellaneous-queens-pawn-bronstein-gambit",
+  "name": "Queens pawn Bronstein gambit",
+  "opening": "Queens pawn Bronstein gambit",
+  "generatedAt": "2026-01-03T19:35:39.107Z",
+  "lines": [
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-d6-g5-ne4-ccup3b",
+      "name": "Queens pawn Bronstein gambit: d6 Forcing Line",
+      "moves": [
+        "d6",
+        "g5",
+        "Ne4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          7033,
+          7567,
+          1267
+        ],
+        "winrates": [
+          56.035831082041796,
+          56.244218316373725,
+          63.97000789265983
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-nxg4-e4-e5-qxg4-d5-adm905",
+      "name": "Queens pawn Bronstein gambit: Nxg4 Forcing Line",
+      "moves": [
+        "Nxg4",
+        "e4",
+        "e5",
+        "Qxg4",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          91194,
+          79874,
+          3428,
+          2651,
+          1257
+        ],
+        "winrates": [
+          50.59653047349606,
+          51.228810376342736,
+          62.12077012835473,
+          65.63560920407393,
+          62.72871917263325
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-nxg4-e4-d5-exd5-qxd5-nf3-xzlo6z",
+      "name": "Queens pawn Bronstein gambit: Nxg4 Forcing Line",
+      "moves": [
+        "Nxg4",
+        "e4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          91194,
+          79874,
+          23736,
+          1810,
+          1378,
+          1325
+        ],
+        "winrates": [
+          50.59653047349606,
+          51.228810376342736,
+          48.27055948769801,
+          55.966850828729285,
+          57.00290275761974,
+          58.45283018867925
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-g6-g5-bg7-gxf6-bxf6-gltz7u",
+      "name": "Queens pawn Bronstein gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "g5",
+        "Bg7",
+        "gxf6",
+        "Bxf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          26459,
+          25395,
+          1585,
+          1529,
+          1165
+        ],
+        "winrates": [
+          54.692165236781435,
+          55.11911793660169,
+          60.694006309148264,
+          60.88947024198823,
+          59.785407725321896
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-g6-g5-ng8-h4-vnxf7f",
+      "name": "Queens pawn Bronstein gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "g5",
+        "Ng8",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          26459,
+          25395,
+          3917,
+          1346
+        ],
+        "winrates": [
+          54.692165236781435,
+          55.11911793660169,
+          57.53127393413327,
+          59.02674591381872
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-g6-g5-bg7-gxf6-bxf6-gltz7u",
+      "name": "Queens pawn Bronstein gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "g5",
+        "Bg7",
+        "gxf6",
+        "Bxf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          26459,
+          25395,
+          1585,
+          1529,
+          1165
+        ],
+        "winrates": [
+          54.692165236781435,
+          55.11911793660169,
+          60.694006309148264,
+          60.88947024198823,
+          59.785407725321896
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-g6-g5-nd5-c4-nb6-c5-b7wq43",
+      "name": "Queens pawn Bronstein gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "g5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "c5",
+        "Nd5",
+        "e4",
+        "Nb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          26459,
+          25395,
+          11664,
+          2943,
+          2887,
+          1330,
+          1241,
+          1187,
+          1027
+        ],
+        "winrates": [
+          54.692165236781435,
+          55.11911793660169,
+          54.94684499314128,
+          60.05776418620455,
+          59.94111534464842,
+          64.69924812030075,
+          64.70588235294117,
+          64.91154170176917,
+          64.50827653359299
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-g6-g5-nd5-c4-nb6-c5-b7wq43",
+      "name": "Queens pawn Bronstein gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "g5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "c5",
+        "Nd5",
+        "e4",
+        "Nb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          26459,
+          25395,
+          11664,
+          2943,
+          2887,
+          1330,
+          1241,
+          1187,
+          1027
+        ],
+        "winrates": [
+          54.692165236781435,
+          55.11911793660169,
+          54.94684499314128,
+          60.05776418620455,
+          59.94111534464842,
+          64.69924812030075,
+          64.70588235294117,
+          64.91154170176917,
+          64.50827653359299
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-g6-g5-nd5-c4-nb6-c5-b7wq43",
+      "name": "Queens pawn Bronstein gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "g5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "c5",
+        "Nd5",
+        "e4",
+        "Nb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          26459,
+          25395,
+          11664,
+          2943,
+          2887,
+          1330,
+          1241,
+          1187,
+          1027
+        ],
+        "winrates": [
+          54.692165236781435,
+          55.11911793660169,
+          54.94684499314128,
+          60.05776418620455,
+          59.94111534464842,
+          64.69924812030075,
+          64.70588235294117,
+          64.91154170176917,
+          64.50827653359299
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-g6-g5-nd5-c4-nb6-c5-b7wq43",
+      "name": "Queens pawn Bronstein gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "g5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "c5",
+        "Nd5",
+        "e4",
+        "Nb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          26459,
+          25395,
+          11664,
+          2943,
+          2887,
+          1330,
+          1241,
+          1187,
+          1027
+        ],
+        "winrates": [
+          54.692165236781435,
+          55.11911793660169,
+          54.94684499314128,
+          60.05776418620455,
+          59.94111534464842,
+          64.69924812030075,
+          64.70588235294117,
+          64.91154170176917,
+          64.50827653359299
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-queens-pawn-bronstein-gambit-g6-g5-nd5-c4-nb6-c5-b7wq43",
+      "name": "Queens pawn Bronstein gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "g5",
+        "Nd5",
+        "c4",
+        "Nb6",
+        "c5",
+        "Nd5",
+        "e4",
+        "Nb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          26459,
+          25395,
+          11664,
+          2943,
+          2887,
+          1330,
+          1241,
+          1187,
+          1027
+        ],
+        "winrates": [
+          54.692165236781435,
+          55.11911793660169,
+          54.94684499314128,
+          60.05776418620455,
+          59.94111534464842,
+          64.69924812030075,
+          64.70588235294117,
+          64.91154170176917,
+          64.50827653359299
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

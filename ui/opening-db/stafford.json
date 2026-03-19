@@ -1,0 +1,3385 @@
+{
+  "id": "stafford",
+  "name": "Stafford Gambit",
+  "opening": "Stafford Gambit",
+  "generatedAt": "2025-12-01T17:01:52.124Z",
+  "lines": [
+    {
+      "id": "stafford-nc3-bc5-bd3-ng4-o-o-qh4-vw0vqw",
+      "name": "Stafford Gambit: Nc3 Forcing Line",
+      "moves": [
+        "Nc3",
+        "Bc5",
+        "Bd3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qf3",
+        "Nxh3+",
+        "Kh2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1181864,
+          1124369,
+          14277,
+          10649,
+          9605,
+          10688,
+          9730,
+          8180,
+          2653,
+          2408,
+          1110
+        ],
+        "winrates": [
+          55.34177367277453,
+          56.022844813402,
+          76.33956713595293,
+          83.49140764391024,
+          84.89849036959917,
+          87.23334580838323,
+          85.97636176772868,
+          88.66136919315404,
+          97.51225028269883,
+          99.77159468438538,
+          99.5945945945946
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-bc4-bc5-nc3-ng4-o-o-qh4-n25cbz",
+      "name": "Stafford Gambit: Bc4 Forcing Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "Nc3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "g3",
+        "Qxh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          117806,
+          102348,
+          6663,
+          204944,
+          173036,
+          154121,
+          4400,
+          4074
+        ],
+        "winrates": [
+          58.53776547883809,
+          59.745671630124676,
+          69.29311121116615,
+          78.71198961667578,
+          82.32304260385122,
+          84.95857151199382,
+          99.4090909090909,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-bd3-bc5-nc3-ng4-o-o-qh4-ui5pdk",
+      "name": "Stafford Gambit: Bd3 Forcing Line",
+      "moves": [
+        "Bd3",
+        "Bc5",
+        "Nc3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qf3",
+        "Nxh3+",
+        "Kh2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          37139,
+          35250,
+          1881,
+          10649,
+          9605,
+          10688,
+          9730,
+          8180,
+          2653,
+          2408,
+          1110
+        ],
+        "winrates": [
+          66.9215649317429,
+          67.43404255319149,
+          76.68793195108985,
+          83.49140764391024,
+          84.89849036959917,
+          87.23334580838323,
+          85.97636176772868,
+          88.66136919315404,
+          97.51225028269883,
+          99.77159468438538,
+          99.5945945945946
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-bg5-nxe4-bxd8-bxf2--y904sw",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Bg5",
+        "Nxe4",
+        "Bxd8",
+        "Bxf2+",
+        "Ke2",
+        "Bg4#"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2227000,
+          2158941,
+          150522,
+          80083,
+          59204,
+          58981,
+          57191,
+          57111
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          80.75530487237745,
+          94.86220546183336,
+          99.65373961218836,
+          99.9593089299944,
+          99.96240667237852,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-nc3-ng4-be2-nxf2-jbw1j6",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Nc3",
+        "Ng4",
+        "Be2",
+        "Nxf2",
+        "Qd2",
+        "Nxh1"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2227000,
+          2158941,
+          119856,
+          259027,
+          4418,
+          3423,
+          2357,
+          2285
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          57.31252503003604,
+          62.46607496515808,
+          83.96333182435491,
+          87.35027753432661,
+          82.9656342808655,
+          83.19474835886214
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-g3-nxe4-dxe4-bxf2--t4gmuh",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "g3",
+        "Nxe4",
+        "dxe4",
+        "Bxf2+"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2227000,
+          2158941,
+          12484,
+          1689,
+          1282,
+          1271
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          67.09388016661326,
+          82.7708703374778,
+          92.1606864274571,
+          92.80094413847364
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-nd2-ng4-qf3-u5g0n0",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Nd2",
+        "Ng4",
+        "Qf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2227000,
+          2158941,
+          7988,
+          5375,
+          1729
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          67.41987981972959,
+          76.90232558139535,
+          69.2886061307114
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-d4-bxd4-4wbstw",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "d4",
+        "Bxd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2227000,
+          2158941,
+          2553,
+          1981
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          77.41872307089699,
+          82.48359414437154
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-yk2uk4",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "Nc3",
+        "Qh4",
+        "Bf4",
+        "Nxf2",
+        "Rxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          9638,
+          42099,
+          3382,
+          2767,
+          1193
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          77.12180950404648,
+          77.14316254542864,
+          86.39858072146659,
+          90.54933140585472,
+          89.31265716680637
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-bg5-qd4-w42zzg",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "Bg5",
+        "Qd4",
+        "Bxf6",
+        "Qxf2+",
+        "Kd2",
+        "Be3+",
+        "Kc3",
+        "Qxf6+"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          71286,
+          43507,
+          2853,
+          2181,
+          2166,
+          1632,
+          1623,
+          1542
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          57.960889936312874,
+          65.13089847610729,
+          75.93760953382404,
+          79.75699220541036,
+          79.61680517082179,
+          80.8517156862745,
+          80.74553296364758,
+          81.7769130998703
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-h4-ng4-q18w8r",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "h4",
+        "Ng4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          2977,
+          1993
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          66.25797783003023,
+          67.4862017059709
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-a3-ng4-td41lh",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "a3",
+        "Ng4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          1784,
+          1069
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          59.83744394618834,
+          65.06080449017773
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-3ehodb",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qe1",
+        "Nxh3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          28244,
+          16716,
+          13784,
+          1396,
+          1057
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          80.58525704574423,
+          84.4759511844939,
+          87.2497098084736,
+          96.13180515759312,
+          95.12771996215706
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-3ehodb",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qe1",
+        "Nxh3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          28244,
+          16716,
+          13784,
+          1396,
+          1057
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          80.58525704574423,
+          84.4759511844939,
+          87.2497098084736,
+          96.13180515759312,
+          95.12771996215706
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-enp1mn",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qd6",
+        "d4",
+        "Qxh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          5547,
+          1418,
+          1382
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          61.57382368848025,
+          98.9774330042313,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-3ehodb",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qe1",
+        "Nxh3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          28244,
+          16716,
+          13784,
+          1396,
+          1057
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          80.58525704574423,
+          84.4759511844939,
+          87.2497098084736,
+          96.13180515759312,
+          95.12771996215706
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-ypndsh",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "Bxg4",
+        "hxg4",
+        "h3",
+        "gxh3",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          28244,
+          7643,
+          7434,
+          2841,
+          2748,
+          1197
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          80.58525704574423,
+          66.40716995944001,
+          67.00968523002422,
+          93.80499824005632,
+          95.0509461426492,
+          94.77861319966583
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-e3812b",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "Bf4",
+        "Nxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          28244,
+          1935,
+          1500
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          80.58525704574423,
+          83.97932816537468,
+          88.8
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-3ehodb",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qe1",
+        "Nxh3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          28244,
+          16716,
+          13784,
+          1396,
+          1057
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          80.58525704574423,
+          84.4759511844939,
+          87.2497098084736,
+          96.13180515759312,
+          95.12771996215706
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-wtb9xa",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "h3",
+        "Bxf2+",
+        "Kh1"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          28244,
+          16716,
+          1777,
+          1141
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          80.58525704574423,
+          84.4759511844939,
+          80.6978052898143,
+          79.6669588080631
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-ypndsh",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qh4",
+        "Bxg4",
+        "hxg4",
+        "h3",
+        "gxh3",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          28244,
+          7643,
+          7434,
+          2841,
+          2748,
+          1197
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          80.58525704574423,
+          66.40716995944001,
+          67.00968523002422,
+          93.80499824005632,
+          95.0509461426492,
+          94.77861319966583
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-r2plsw",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qd6",
+        "g3",
+        "Nxh2",
+        "Kxh2",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          5547,
+          9618,
+          2709,
+          2031,
+          1972
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          61.57382368848025,
+          55.94198378041173,
+          67.82945736434108,
+          73.16592811422944,
+          73.93509127789046
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-yv9wkk",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qd6",
+        "Bxg4",
+        "hxg4",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          5547,
+          1675,
+          1640,
+          1100
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          61.57382368848025,
+          59.85074626865672,
+          60.33536585365853,
+          57.31818181818183
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-enp1mn",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qd6",
+        "d4",
+        "Qxh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          5547,
+          1418,
+          1382
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          61.57382368848025,
+          98.9774330042313,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-nmypjw",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qd6",
+        "g3",
+        "h4",
+        "Bxg4",
+        "hxg3"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          5547,
+          9618,
+          3928,
+          1137,
+          1104
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          61.57382368848025,
+          55.94198378041173,
+          56.51731160896129,
+          62.3570800351803,
+          63.81340579710144
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-r2plsw",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qd6",
+        "g3",
+        "Nxh2",
+        "Kxh2",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          5547,
+          9618,
+          2709,
+          2031,
+          1972
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          61.57382368848025,
+          55.94198378041173,
+          67.82945736434108,
+          73.16592811422944,
+          73.93509127789046
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-c3-ng4-yv9wkk",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "c3",
+        "Ng4",
+        "O-O",
+        "Qd6",
+        "Bxg4",
+        "hxg4",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          276702,
+          158100,
+          6727,
+          5547,
+          1675,
+          1640,
+          1100
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          42.468973841894886,
+          43.366540164452886,
+          76.5794559238888,
+          61.57382368848025,
+          59.85074626865672,
+          60.33536585365853,
+          57.31818181818183
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-yk2uk4",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "Nc3",
+        "Qh4",
+        "Bf4",
+        "Nxf2",
+        "Rxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          9638,
+          42099,
+          3382,
+          2767,
+          1193
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          77.12180950404648,
+          77.14316254542864,
+          86.39858072146659,
+          90.54933140585472,
+          89.31265716680637
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-qd6-lcwb52",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Qd6",
+        "h3",
+        "Ng4",
+        "Nc3",
+        "Qh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          17820,
+          3787,
+          8506,
+          2163,
+          4386
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          62.84231200897867,
+          88.42091365196725,
+          89.66611803432872,
+          99.16782246879335,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-fd80qy",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "Nc3",
+        "Qh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          2163,
+          4386
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          99.16782246879335,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1r2h19",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qe1",
+        "Nxh3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          28244,
+          16716,
+          13784,
+          1396,
+          1057
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          80.58525704574423,
+          84.4759511844939,
+          87.2497098084736,
+          96.13180515759312,
+          95.12771996215706
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-al2f21",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "Bxg4",
+        "hxg4",
+        "Be3",
+        "Qh4",
+        "h3",
+        "gxh3",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          15044,
+          14038,
+          3525,
+          2590,
+          1286,
+          1519,
+          1038
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          58.990295134272806,
+          59.86607778885882,
+          66.8936170212766,
+          66.62162162162161,
+          68.11819595645412,
+          66.68861092824227,
+          56.45472061657033
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-ux08hw",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "Bf4",
+        "g5",
+        "Bg3",
+        "h4",
+        "Bxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          9927,
+          3532,
+          1329,
+          1094,
+          1003
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          56.98096101541251,
+          63.37768969422424,
+          62.114371708051166,
+          64.25959780621572,
+          64.35692921236291
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-yk2uk4",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "Nc3",
+        "Qh4",
+        "Bf4",
+        "Nxf2",
+        "Rxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          9638,
+          42099,
+          3382,
+          2767,
+          1193
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          77.12180950404648,
+          77.14316254542864,
+          86.39858072146659,
+          90.54933140585472,
+          89.31265716680637
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-fqs7en",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "Nd2",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Rxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          7731,
+          9115,
+          1361,
+          2403,
+          1288
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          55.950071142154954,
+          62.95117937465715,
+          76.01028655400441,
+          78.38119017894299,
+          68.7111801242236
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-xdfxq5",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "d4",
+        "Bxd4",
+        "c3",
+        "Qh4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          4374,
+          3379,
+          2355,
+          1430
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          63.44307270233196,
+          66.69132879550162,
+          64.96815286624205,
+          71.78321678321679
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-ogj3mm",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "Be3",
+        "Bxe3",
+        "fxe3",
+        "Nxe3",
+        "Qe1"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          4050,
+          1987,
+          1515,
+          2833,
+          1063
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          69.74074074074075,
+          71.84197282335178,
+          70.6930693069307,
+          71.79668196258385,
+          70.97836312323614
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1ymqgk",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qh4",
+        "hxg4",
+        "hxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          37689,
+          1117,
+          1112
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          58.08591366181114,
+          99.91047448522829,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-fd80qy",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "Nc3",
+        "Qh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          2163,
+          4386
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          99.16782246879335,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-tyigh0",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd4",
+        "Qe1",
+        "Qe5"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          1432,
+          1924,
+          1320
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          77.44413407821229,
+          83.70582120582121,
+          90.45454545454545
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-10mx5f",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Be6",
+        "c3"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          1215,
+          1026
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          61.193415637860085,
+          58.04093567251463
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-wmmas2",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qh4",
+        "Qe1",
+        "Qg3",
+        "Bxg4",
+        "hxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          37689,
+          5721,
+          2421,
+          1683,
+          1667
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          58.08591366181114,
+          55.479811221814366,
+          70.52870714580752,
+          57.902554961378485,
+          58.09838032393522
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1d2oum",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qh4",
+        "Bxg4",
+        "hxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          37689,
+          3626,
+          3440
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          58.08591366181114,
+          81.66023166023166,
+          82.09302325581396
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1rl3kp",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qh4",
+        "Be3",
+        "Nxe3",
+        "fxe3",
+        "Bxe3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          37689,
+          2262,
+          1183,
+          1178,
+          1155
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          58.08591366181114,
+          73.93899204244032,
+          75.48605240912933,
+          75.55178268251274,
+          75.58441558441558
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-rt5wi4",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qh4",
+        "Bf4",
+        "Nxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          37689,
+          1995,
+          1765
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          58.08591366181114,
+          87.26817042606515,
+          89.71671388101983
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-mz76hr",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qh4",
+        "Nd2",
+        "Nxf2",
+        "Rxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          37689,
+          1560,
+          2403,
+          1288
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          58.08591366181114,
+          76.28205128205127,
+          78.38119017894299,
+          68.7111801242236
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1ymqgk",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qh4",
+        "hxg4",
+        "hxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          37689,
+          1117,
+          1112
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          58.08591366181114,
+          99.91047448522829,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-wmmas2",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qh4",
+        "Qe1",
+        "Qg3",
+        "Bxg4",
+        "hxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          37689,
+          5721,
+          2421,
+          1683,
+          1667
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          58.08591366181114,
+          55.479811221814366,
+          70.52870714580752,
+          57.902554961378485,
+          58.09838032393522
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-7ds91l",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "Bxg4",
+        "hxg4",
+        "Be3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          8035,
+          7685,
+          1646
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          78.50031113876788,
+          79.24528301886792,
+          77.5820170109356
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1v1w4i",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "hxg4",
+        "hxg4",
+        "g3",
+        "Qxg3#"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          6847,
+          6806,
+          4568,
+          4341
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          97.73623484737841,
+          98.04584190420218,
+          97.44964973730298,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-3bsp18",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "g3",
+        "Qxg3+",
+        "Kh1",
+        "Qh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          5254,
+          5059,
+          2303,
+          2191
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          99.05786067757899,
+          99.96046649535482,
+          99.95657837603127,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-8odn9u",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "c3",
+        "Qh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          2655,
+          2864
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          98.66290018832392,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-fd80qy",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "Nc3",
+        "Qh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          2163,
+          4386
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          99.16782246879335,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-7ds91l",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "Bxg4",
+        "hxg4",
+        "Be3"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          8035,
+          7685,
+          1646
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          78.50031113876788,
+          79.24528301886792,
+          77.5820170109356
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1v1w4i",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "h3",
+        "Qd6",
+        "hxg4",
+        "hxg4",
+        "g3",
+        "Qxg3#"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          65870,
+          22408,
+          6847,
+          6806,
+          4568,
+          4341
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          68.10535904053438,
+          86.42895394501964,
+          97.73623484737841,
+          98.04584190420218,
+          97.44964973730298,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1r2h19",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qe1",
+        "Nxh3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          28244,
+          16716,
+          13784,
+          1396,
+          1057
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          80.58525704574423,
+          84.4759511844939,
+          87.2497098084736,
+          96.13180515759312,
+          95.12771996215706
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-p91d25",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qd6",
+        "d4",
+        "Qxh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          5547,
+          1418,
+          1382
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          61.57382368848025,
+          98.9774330042313,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-1r2h19",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qh4",
+        "h3",
+        "Nxf2",
+        "Qe1",
+        "Nxh3+"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          28244,
+          16716,
+          13784,
+          1396,
+          1057
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          80.58525704574423,
+          84.4759511844939,
+          87.2497098084736,
+          96.13180515759312,
+          95.12771996215706
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-lpwzat",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qh4",
+        "Bxg4",
+        "hxg4",
+        "h3",
+        "gxh3",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          28244,
+          7643,
+          7434,
+          2841,
+          2748,
+          1197
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          80.58525704574423,
+          66.40716995944001,
+          67.00968523002422,
+          93.80499824005632,
+          95.0509461426492,
+          94.77861319966583
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-ptidmh",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qh4",
+        "Bf4",
+        "Nxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          28244,
+          1935,
+          1500
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          80.58525704574423,
+          83.97932816537468,
+          88.8
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-a87zss",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qd6",
+        "g3",
+        "Nxh2",
+        "Kxh2",
+        "h4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          5547,
+          9618,
+          2709,
+          2031,
+          1972
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          61.57382368848025,
+          55.94198378041173,
+          67.82945736434108,
+          73.16592811422944,
+          73.93509127789046
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-5fns3k",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qd6",
+        "Bxg4",
+        "hxg4",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          5547,
+          1675,
+          1640,
+          1100
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          61.57382368848025,
+          59.85074626865672,
+          60.33536585365853,
+          57.31818181818183
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-ng4-p91d25",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Ng4",
+        "c3",
+        "Qd6",
+        "d4",
+        "Qxh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          149143,
+          28589,
+          5547,
+          1418,
+          1382
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          67.59787586410357,
+          75.90157053412152,
+          61.57382368848025,
+          98.9774330042313,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-qd6-91yd0z",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Qd6",
+        "c3",
+        "Ng4",
+        "d4",
+        "Qxh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          17820,
+          8513,
+          7940,
+          1418,
+          1382
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          62.84231200897867,
+          60.38999177728181,
+          62.040302267002524,
+          98.9774330042313,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-qd6-8lo1jh",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Qd6",
+        "Be3",
+        "Ng4",
+        "Bxc5",
+        "Qxh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          17820,
+          8318,
+          6659,
+          1941,
+          1811
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          62.84231200897867,
+          66.61457081029094,
+          70.69379786754769,
+          97.73312725399279,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-qd6-ogchvc",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Qd6",
+        "Nc3",
+        "Ng4",
+        "h3",
+        "Qh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          17820,
+          4451,
+          11252,
+          1761,
+          4386
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          62.84231200897867,
+          65.56953493596944,
+          65.30838961962317,
+          98.12606473594549,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-qd6-lcwb52",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Qd6",
+        "h3",
+        "Ng4",
+        "Nc3",
+        "Qh2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          17820,
+          3787,
+          8506,
+          2163,
+          4386
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          62.84231200897867,
+          88.42091365196725,
+          89.66611803432872,
+          99.16782246879335,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-qd6-4fm04n",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Qd6",
+        "Bg5",
+        "Ng4",
+        "Bxg4",
+        "hxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          17820,
+          2413,
+          3922,
+          1362,
+          1308
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          62.84231200897867,
+          69.0841276419395,
+          68.70219275879653,
+          66.70337738619678,
+          67.54587155963303
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-qd6-69fzkf",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Qd6",
+        "Kh1",
+        "Ng4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          17820,
+          2406,
+          2237
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          62.84231200897867,
+          64.23524522028264,
+          65.46714349575325
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "stafford-d3-bc5-be2-h5-o-o-qd6-2s7wrw",
+      "name": "Stafford Gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "Bc5",
+        "Be2",
+        "h5",
+        "O-O",
+        "Qd6",
+        "Bf3",
+        "Ng4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2227000,
+          2158941,
+          1148055,
+          800596,
+          179924,
+          17820,
+          1373,
+          1267
+        ],
+        "winrates": [
+          51.30920520880108,
+          51.59578237663743,
+          49.00314009346241,
+          51.62466462485449,
+          65.26533425223984,
+          62.84231200897867,
+          64.38455935906772,
+          67.48224151539068
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

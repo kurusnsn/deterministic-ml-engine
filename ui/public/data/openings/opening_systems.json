@@ -1,0 +1,3323 @@
+[
+  {
+    "id": "king-s-pawn-game",
+    "familyId": "king-s-pawn-game",
+    "name": "king's pawn game",
+    "ecoCodes": [
+      "B00",
+      "C20",
+      "C44",
+      "C50"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 107838
+  },
+  {
+    "id": "queen-s-pawn",
+    "familyId": "queen-s-pawn",
+    "name": "queen's pawn",
+    "ecoCodes": [
+      "A40",
+      "A41",
+      "A45",
+      "A46",
+      "A50",
+      "D00",
+      "D02",
+      "D04",
+      "D05",
+      "E00",
+      "E10",
+      "E60"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/3P4/8/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 17,
+    "popularity": 48484
+  },
+  {
+    "id": "king-s-knight",
+    "familyId": "king-s-knight",
+    "name": "king's knight",
+    "ecoCodes": [
+      "C40"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 24008
+  },
+  {
+    "id": "sicilian",
+    "familyId": "sicilian",
+    "name": "sicilian",
+    "ecoCodes": [
+      "B20",
+      "B21",
+      "B22",
+      "B23",
+      "B24",
+      "B25",
+      "B26",
+      "B27",
+      "B28",
+      "B29",
+      "B30",
+      "B31",
+      "B32",
+      "B33",
+      "B34",
+      "B35",
+      "B36",
+      "B37",
+      "B38",
+      "B39",
+      "B40",
+      "B41",
+      "B42",
+      "B43",
+      "B44",
+      "B45",
+      "B46",
+      "B47",
+      "B48",
+      "B49",
+      "B50",
+      "B51",
+      "B52",
+      "B53",
+      "B54",
+      "B55",
+      "B56",
+      "B57",
+      "B58",
+      "B59",
+      "B60",
+      "B61",
+      "B62",
+      "B63",
+      "B64",
+      "B65",
+      "B66",
+      "B67",
+      "B68",
+      "B69",
+      "B70",
+      "B71",
+      "B72",
+      "B73",
+      "B74",
+      "B75",
+      "B76",
+      "B77",
+      "B78",
+      "B79",
+      "B80",
+      "B81",
+      "B82",
+      "B83",
+      "B84",
+      "B85",
+      "B86",
+      "B87",
+      "B88",
+      "B89",
+      "B90",
+      "B91",
+      "B92",
+      "B93",
+      "B94",
+      "B95",
+      "B96",
+      "B97",
+      "B98",
+      "B99"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "c5"
+    ],
+    "fen": "rnbqkbnr/pp1ppppp/8/2p5/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "black",
+    "lineCount": 97,
+    "popularity": 18971
+  },
+  {
+    "id": "scandinavian",
+    "familyId": "scandinavian",
+    "name": "scandinavian",
+    "ecoCodes": [
+      "B01"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "d5"
+    ],
+    "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "black",
+    "lineCount": 10,
+    "popularity": 11846
+  },
+  {
+    "id": "french",
+    "familyId": "french",
+    "name": "french",
+    "ecoCodes": [
+      "C00",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16",
+      "C17",
+      "C18",
+      "C19"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e6"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/4p3/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "black",
+    "lineCount": 68,
+    "popularity": 10592
+  },
+  {
+    "id": "caro-kann",
+    "familyId": "caro-kann",
+    "name": "caro-kann",
+    "ecoCodes": [
+      "B10",
+      "B11",
+      "B12",
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B18",
+      "B19"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "c6"
+    ],
+    "fen": "rnbqkbnr/pp1ppppp/2p5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "black",
+    "lineCount": 26,
+    "popularity": 9897
+  },
+  {
+    "id": "reti",
+    "familyId": "reti",
+    "name": "reti",
+    "ecoCodes": [
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A09"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "Nf3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+    "perspective": "white",
+    "lineCount": 14,
+    "popularity": 6968
+  },
+  {
+    "id": "queen-s-gambit",
+    "familyId": "queen-s",
+    "name": "queen's gambit",
+    "ecoCodes": [
+      "D06",
+      "D07",
+      "D08",
+      "D09",
+      "D20",
+      "D21",
+      "D22",
+      "D23",
+      "D24",
+      "D25",
+      "D26",
+      "D27",
+      "D28",
+      "D29",
+      "D30",
+      "D31",
+      "D32",
+      "D33",
+      "D34",
+      "D35",
+      "D36",
+      "D37",
+      "D38",
+      "D39",
+      "D40",
+      "D41",
+      "D42",
+      "D50",
+      "D51",
+      "D52",
+      "D53",
+      "D54",
+      "D55",
+      "D56",
+      "D57",
+      "D58",
+      "D59",
+      "D60",
+      "D61",
+      "D62",
+      "D63",
+      "D64",
+      "D65",
+      "D66",
+      "D67",
+      "D68",
+      "D69"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "c4"
+    ],
+    "fen": "rnbqkbnr/ppp1pppp/8/3p4/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 90,
+    "popularity": 6248
+  },
+  {
+    "id": "english",
+    "familyId": "english",
+    "name": "english",
+    "ecoCodes": [
+      "A10",
+      "A11",
+      "A12",
+      "A13",
+      "A14",
+      "A15",
+      "A16",
+      "A17",
+      "A18",
+      "A19",
+      "A20",
+      "A21",
+      "A22",
+      "A23",
+      "A24",
+      "A25",
+      "A26",
+      "A27",
+      "A28",
+      "A29",
+      "A30",
+      "A31",
+      "A32",
+      "A33",
+      "A34",
+      "A35",
+      "A36",
+      "A37",
+      "A38",
+      "A39"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "c4"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/2P5/8/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 57,
+    "popularity": 6010
+  },
+  {
+    "id": "van-t-kruijs-1-e3",
+    "familyId": "van-t-kruijs-1-e3",
+    "name": "Van't Kruijs (1.e3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/4P3/PPPP1PPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 4151
+  },
+  {
+    "id": "bishop-s-opening",
+    "familyId": "bishop-s-opening",
+    "name": "bishop's opening",
+    "ecoCodes": [
+      "C23",
+      "C24"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Bc4"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/4p3/2B1P3/8/PPPP1PPP/RNBQK1NR b KQkq - 1 2",
+    "perspective": "white",
+    "lineCount": 10,
+    "popularity": 4114
+  },
+  {
+    "id": "modern-defence",
+    "familyId": "modern-defence",
+    "name": "modern defence",
+    "ecoCodes": [
+      "B06"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "g6"
+    ],
+    "fen": "rnbqkbnr/pppppp1p/6p1/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "black",
+    "lineCount": 1,
+    "popularity": 4100
+  },
+  {
+    "id": "philidor",
+    "familyId": "philidor",
+    "name": "philidor",
+    "ecoCodes": [
+      "C41"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "d6"
+    ],
+    "fen": "rnbqkbnr/ppp2ppp/3p4/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+    "perspective": "black",
+    "lineCount": 18,
+    "popularity": 3740
+  },
+  {
+    "id": "englund-gambit",
+    "familyId": "englund",
+    "name": "englund gambit",
+    "ecoCodes": [
+      "A40"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "d4",
+      "e5"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/4p3/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 3368
+  },
+  {
+    "id": "vienna",
+    "familyId": "vienna",
+    "name": "vienna",
+    "ecoCodes": [
+      "C25",
+      "C26",
+      "C27",
+      "C28"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nc3"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 1 2",
+    "perspective": "white",
+    "lineCount": 14,
+    "popularity": 3251
+  },
+  {
+    "id": "nimzo-larsen",
+    "familyId": "nimzo-larsen",
+    "name": "nimzo-larsen",
+    "ecoCodes": [
+      "A01"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "b3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/1P6/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 7,
+    "popularity": 3239
+  },
+  {
+    "id": "ruy-lopez",
+    "familyId": "ruy-lopez",
+    "name": "ruy lopez",
+    "ecoCodes": [
+      "C60",
+      "C61",
+      "C62",
+      "C63",
+      "C64",
+      "C65",
+      "C66",
+      "C67",
+      "C68",
+      "C69",
+      "C70",
+      "C71",
+      "C72",
+      "C73",
+      "C74",
+      "C75",
+      "C76",
+      "C77",
+      "C78",
+      "C79",
+      "C80",
+      "C81",
+      "C82",
+      "C83",
+      "C84",
+      "C85",
+      "C86",
+      "C87",
+      "C88",
+      "C89",
+      "C90",
+      "C91",
+      "C92",
+      "C93",
+      "C94",
+      "C95",
+      "C96",
+      "C97",
+      "C98",
+      "C99"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bb5"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 3 3",
+    "perspective": "white",
+    "lineCount": 115,
+    "popularity": 3182
+  },
+  {
+    "id": "scotch",
+    "familyId": "scotch",
+    "name": "scotch",
+    "ecoCodes": [
+      "C44",
+      "C45"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "d4"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3PP3/5N2/PPP2PPP/RNBQKB1R b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 16,
+    "popularity": 3061
+  },
+  {
+    "id": "benko-opening-1-g3",
+    "familyId": "benko-opening-1-g3",
+    "name": "Benko Opening (1.g3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "g3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/6P1/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 2937
+  },
+  {
+    "id": "two-knights",
+    "familyId": "two-knights",
+    "name": "two knights",
+    "ecoCodes": [
+      "C55",
+      "C56",
+      "C57",
+      "C58",
+      "C59"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Nf6"
+    ],
+    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+    "perspective": "white",
+    "lineCount": 24,
+    "popularity": 2623
+  },
+  {
+    "id": "old-benoni",
+    "familyId": "old-benoni",
+    "name": "old benoni",
+    "ecoCodes": [
+      "A43",
+      "A44"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "c5"
+    ],
+    "fen": "rnbqkbnr/pp1ppppp/8/2p5/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "black",
+    "lineCount": 5,
+    "popularity": 2524
+  },
+  {
+    "id": "king-s-gambit",
+    "familyId": "king-s",
+    "name": "king's gambit",
+    "ecoCodes": [
+      "C30",
+      "C31",
+      "C32",
+      "C33",
+      "C34",
+      "C35",
+      "C36",
+      "C37",
+      "C38",
+      "C39"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "f4"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/4p3/4PP2/8/PPPP2PP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 91,
+    "popularity": 2512
+  },
+  {
+    "id": "petrov",
+    "familyId": "petrov",
+    "name": "petrov",
+    "ecoCodes": [
+      "C42",
+      "C43"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nf6"
+    ],
+    "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+    "perspective": "black",
+    "lineCount": 19,
+    "popularity": 2499
+  },
+  {
+    "id": "modern",
+    "familyId": "modern",
+    "name": "modern",
+    "ecoCodes": [
+      "A40",
+      "A41",
+      "A42"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "g6"
+    ],
+    "fen": "rnbqkbnr/pppppp1p/6p1/8/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "black",
+    "lineCount": 3,
+    "popularity": 2433
+  },
+  {
+    "id": "three-knights",
+    "familyId": "three-knights",
+    "name": "three knights",
+    "ecoCodes": [
+      "C46"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Nc3"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 3 3",
+    "perspective": "white",
+    "lineCount": 3,
+    "popularity": 2217
+  },
+  {
+    "id": "owen",
+    "familyId": "owen",
+    "name": "owen",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "b6"
+    ],
+    "fen": "rnbqkbnr/p1pppppp/1p6/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 2191
+  },
+  {
+    "id": "giuoco-piano",
+    "familyId": "giuoco-piano",
+    "name": "giuoco piano",
+    "ecoCodes": [
+      "C50",
+      "C53",
+      "C54",
+      "C55"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5"
+    ],
+    "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+    "perspective": "white",
+    "lineCount": 18,
+    "popularity": 2174
+  },
+  {
+    "id": "alekhine",
+    "familyId": "alekhine",
+    "name": "alekhine",
+    "ecoCodes": [
+      "B02",
+      "B03",
+      "B04",
+      "B05"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "Nf6"
+    ],
+    "fen": "rnbqkb1r/pppppppp/5n2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+    "perspective": "black",
+    "lineCount": 25,
+    "popularity": 2167
+  },
+  {
+    "id": "mieses-1-d3",
+    "familyId": "mieses-1-d3",
+    "name": "Mieses (1.d3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/3P4/PPP1PPPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 1950
+  },
+  {
+    "id": "bird",
+    "familyId": "bird",
+    "name": "bird",
+    "ecoCodes": [
+      "A02",
+      "A03"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "f4"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/5P2/8/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 6,
+    "popularity": 1911
+  },
+  {
+    "id": "slav",
+    "familyId": "slav",
+    "name": "slav",
+    "ecoCodes": [
+      "D10",
+      "D11",
+      "D12",
+      "D13",
+      "D14",
+      "D15",
+      "D16",
+      "D17",
+      "D18",
+      "D19",
+      "D30"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "c4",
+      "c6"
+    ],
+    "fen": "rnbqkbnr/pp2pppp/2p5/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+    "perspective": "black",
+    "lineCount": 19,
+    "popularity": 1875
+  },
+  {
+    "id": "kp",
+    "familyId": "kp",
+    "name": "kp",
+    "ecoCodes": [
+      "B00",
+      "C20"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "Nc6"
+    ],
+    "fen": "r1bqkbnr/pppppppp/2n5/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+    "perspective": "white",
+    "lineCount": 11,
+    "popularity": 1783
+  },
+  {
+    "id": "smith-morra-gambit",
+    "familyId": "smith-morra",
+    "name": "smith-morra gambit",
+    "ecoCodes": [
+      "B21"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "c5",
+      "d4"
+    ],
+    "fen": "rnbqkbnr/pp1ppppp/8/2p5/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 1721
+  },
+  {
+    "id": "center-game",
+    "familyId": "center-game",
+    "name": "center game",
+    "ecoCodes": [
+      "C21",
+      "C22"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "d4",
+      "exd4"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/8/3pP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 5,
+    "popularity": 1680
+  },
+  {
+    "id": "four-knights",
+    "familyId": "four-knights",
+    "name": "four knights",
+    "ecoCodes": [
+      "C46",
+      "C47",
+      "C48",
+      "C49"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Nc3",
+      "Nf6"
+    ],
+    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/4P3/2N2N2/PPPP1PPP/R1BQKB1R w KQkq - 4 4",
+    "perspective": "white",
+    "lineCount": 21,
+    "popularity": 1665
+  },
+  {
+    "id": "dunst-1-nc3",
+    "familyId": "dunst-1-nc3",
+    "name": "Dunst (1.Nc3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "Nc3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 1179
+  },
+  {
+    "id": "dutch",
+    "familyId": "dutch",
+    "name": "dutch",
+    "ecoCodes": [
+      "A80",
+      "A81",
+      "A82",
+      "A83",
+      "A84",
+      "A85",
+      "A86",
+      "A87",
+      "A88",
+      "A89",
+      "A90",
+      "A91",
+      "A92",
+      "A93",
+      "A94",
+      "A95",
+      "A96",
+      "A97",
+      "A98",
+      "A99"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "f5"
+    ],
+    "fen": "rnbqkbnr/ppppp1pp/8/5p2/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "black",
+    "lineCount": 29,
+    "popularity": 981
+  },
+  {
+    "id": "polish-1-b4",
+    "familyId": "polish-1-b4",
+    "name": "Polish (1.b4)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "b4"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/1P6/8/P1PPPPPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 903
+  },
+  {
+    "id": "blackmar-gambit",
+    "familyId": "blackmar",
+    "name": "blackmar gambit",
+    "ecoCodes": [
+      "D00"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "e4"
+    ],
+    "fen": "rnbqkbnr/ppp1pppp/8/3p4/3PP3/8/PPP2PPP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 899
+  },
+  {
+    "id": "king-s-knight-s-gambit",
+    "familyId": "king-s-knight-s",
+    "name": "king's knight's gambit",
+    "ecoCodes": [
+      "C34",
+      "C38",
+      "C39"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "f4",
+      "exf4",
+      "Nf3"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/8/4Pp2/5N2/PPPP2PP/RNBQKB1R b KQkq - 1 3",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 789
+  },
+  {
+    "id": "pirc",
+    "familyId": "pirc",
+    "name": "pirc",
+    "ecoCodes": [
+      "B07",
+      "B08",
+      "B09"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "d6",
+      "d4",
+      "Nf6",
+      "Nc3"
+    ],
+    "fen": "rnbqkb1r/ppp1pppp/3p1n2/8/3PP3/2N5/PPP2PPP/R1BQKBNR b KQkq - 2 3",
+    "perspective": "black",
+    "lineCount": 14,
+    "popularity": 713
+  },
+  {
+    "id": "king-s-indian",
+    "familyId": "king-s-indian",
+    "name": "king's indian",
+    "ecoCodes": [
+      "A48",
+      "A49",
+      "E60",
+      "E61",
+      "E62",
+      "E63",
+      "E64",
+      "E65",
+      "E66",
+      "E67",
+      "E68",
+      "E69",
+      "E70",
+      "E71",
+      "E72",
+      "E73",
+      "E74",
+      "E75",
+      "E76",
+      "E77",
+      "E78",
+      "E79",
+      "E80",
+      "E81",
+      "E82",
+      "E83",
+      "E84",
+      "E85",
+      "E86",
+      "E87",
+      "E88",
+      "E89",
+      "E90",
+      "E91",
+      "E92",
+      "E93",
+      "E94",
+      "E95",
+      "E96",
+      "E97",
+      "E98",
+      "E99"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "Nf3",
+      "g6"
+    ],
+    "fen": "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+    "perspective": "black",
+    "lineCount": 43,
+    "popularity": 658
+  },
+  {
+    "id": "old-indian",
+    "familyId": "old-indian",
+    "name": "old indian",
+    "ecoCodes": [
+      "A41",
+      "A53",
+      "A54",
+      "A55"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d6",
+      "c4"
+    ],
+    "fen": "rnbqkbnr/ppp1pppp/3p4/8/2PP4/8/PP2PPPP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 5,
+    "popularity": 651
+  },
+  {
+    "id": "saragossa-1-c3",
+    "familyId": "saragossa-1-c3",
+    "name": "Saragossa (1.c3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "c3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/2P5/PP1PPPPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 649
+  },
+  {
+    "id": "ponziani",
+    "familyId": "ponziani",
+    "name": "ponziani",
+    "ecoCodes": [
+      "C44"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "c3"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/2P2N2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 7,
+    "popularity": 619
+  },
+  {
+    "id": "danish-gambit",
+    "familyId": "danish",
+    "name": "danish gambit",
+    "ecoCodes": [
+      "C21"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "d4",
+      "exd4",
+      "c3"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/8/3pP3/2P5/PP3PPP/RNBQKBNR b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 3,
+    "popularity": 612
+  },
+  {
+    "id": "scotch-gambit",
+    "familyId": "scotch",
+    "name": "scotch gambit",
+    "ecoCodes": [
+      "C44"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "d4",
+      "exd4",
+      "Bc4"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/8/2BpP3/5N2/PPP2PPP/RNBQK2R b KQkq - 1 4",
+    "perspective": "white",
+    "lineCount": 7,
+    "popularity": 599
+  },
+  {
+    "id": "qp-counter-gambit-elephant-gambit",
+    "familyId": "qp-counter-gambit-elephant",
+    "name": "qp counter-gambit (elephant gambit)",
+    "ecoCodes": [
+      "C40"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "d5"
+    ],
+    "fen": "rnbqkbnr/ppp2ppp/8/3pp3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 573
+  },
+  {
+    "id": "grob-1-g4",
+    "familyId": "grob-1-g4",
+    "name": "Grob (1.g4)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "g4"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/6P1/8/PPPPPP1P/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 502
+  },
+  {
+    "id": "queen-s-bishop-game",
+    "familyId": "queen-s-bishop-game",
+    "name": "queen's bishop game",
+    "ecoCodes": [
+      "D02"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "Nf3",
+      "Nf6",
+      "Bf4"
+    ],
+    "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P1B2/5N2/PPP1PPPP/RN1QKB1R b KQkq - 3 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 502
+  },
+  {
+    "id": "giuoco-pianissimo",
+    "familyId": "giuoco-pianissimo",
+    "name": "giuoco pianissimo",
+    "ecoCodes": [
+      "C50"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5",
+      "d3"
+    ],
+    "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R b KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 499
+  },
+  {
+    "id": "greco",
+    "familyId": "greco",
+    "name": "greco",
+    "ecoCodes": [
+      "C40"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Qf6"
+    ],
+    "fen": "rnb1kbnr/pppp1ppp/5q2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 418
+  },
+  {
+    "id": "levitsky-attack-queen-s-bishop-attack",
+    "familyId": "levitsky-attack-queen-s-bishop-attack",
+    "name": "levitsky attack (queen's bishop attack)",
+    "ecoCodes": [
+      "D00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "Bg5"
+    ],
+    "fen": "rnbqkbnr/ppp1pppp/8/3p2B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 1 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 403
+  },
+  {
+    "id": "lengfellner",
+    "familyId": "lengfellner",
+    "name": "lengfellner",
+    "ecoCodes": [
+      "C00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e6",
+      "d4",
+      "d6"
+    ],
+    "fen": "rnbqkbnr/ppp2ppp/3pp3/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 379
+  },
+  {
+    "id": "nimzo-indian",
+    "familyId": "nimzo-indian",
+    "name": "nimzo-indian",
+    "ecoCodes": [
+      "E20",
+      "E21",
+      "E22",
+      "E23",
+      "E24",
+      "E25",
+      "E26",
+      "E27",
+      "E28",
+      "E29",
+      "E30",
+      "E31",
+      "E32",
+      "E33",
+      "E34",
+      "E35",
+      "E36",
+      "E37",
+      "E38",
+      "E39",
+      "E40",
+      "E41",
+      "E42",
+      "E43",
+      "E44",
+      "E45",
+      "E46",
+      "E47",
+      "E48",
+      "E49",
+      "E50",
+      "E51",
+      "E52",
+      "E53",
+      "E54",
+      "E55",
+      "E56",
+      "E57",
+      "E58",
+      "E59"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nc3",
+      "Bb4"
+    ],
+    "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 2 4",
+    "perspective": "black",
+    "lineCount": 32,
+    "popularity": 370
+  },
+  {
+    "id": "trompovsky-attack-ruth-opovcensky-opening",
+    "familyId": "trompovsky-attack-ruth-opovcensky-opening",
+    "name": "trompovsky attack (ruth, opovcensky opening)",
+    "ecoCodes": [
+      "A45"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "Bg5"
+    ],
+    "fen": "rnbqkb1r/pppppppp/5n2/6B1/3P4/8/PPP1PPPP/RN1QKBNR b KQkq - 2 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 363
+  },
+  {
+    "id": "st-george-baker",
+    "familyId": "st-george-baker",
+    "name": "st. george (baker)",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "a6"
+    ],
+    "fen": "rnbqkbnr/1ppppppp/p7/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 343
+  },
+  {
+    "id": "benoni",
+    "familyId": "benoni",
+    "name": "benoni",
+    "ecoCodes": [
+      "A56",
+      "A60",
+      "A61",
+      "A62",
+      "A63",
+      "A64",
+      "A65",
+      "A66",
+      "A67",
+      "A68",
+      "A69",
+      "A70",
+      "A71",
+      "A72",
+      "A73",
+      "A74",
+      "A75",
+      "A76",
+      "A77",
+      "A78",
+      "A79"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5"
+    ],
+    "fen": "rnbqkb1r/pp1ppppp/5n2/2p5/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+    "perspective": "black",
+    "lineCount": 10,
+    "popularity": 307
+  },
+  {
+    "id": "gedult-s-1-f3",
+    "familyId": "gedult-s-1-f3",
+    "name": "Gedult's (1.f3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "f3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/5P2/PPPPP1PP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 287
+  },
+  {
+    "id": "semi-slav",
+    "familyId": "semi-slav",
+    "name": "semi-slav",
+    "ecoCodes": [
+      "D43",
+      "D44",
+      "D45",
+      "D46",
+      "D47",
+      "D48",
+      "D49"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "c4",
+      "e6",
+      "Nc3",
+      "Nf6",
+      "Nf3",
+      "c6"
+    ],
+    "fen": "rnbqkb1r/pp3ppp/2p1pn2/3p4/2PP4/2N2N2/PP2PPPP/R1BQKB1R w KQkq - 0 5",
+    "perspective": "black",
+    "lineCount": 19,
+    "popularity": 283
+  },
+  {
+    "id": "anti-borg-1-h4",
+    "familyId": "anti-borg-1-h4",
+    "name": "Anti-Borg (1.h4)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "h4"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/7P/8/PPPPPPP1/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 266
+  },
+  {
+    "id": "latvian",
+    "familyId": "latvian",
+    "name": "latvian",
+    "ecoCodes": [
+      "C40"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "f5"
+    ],
+    "fen": "rnbqkbnr/pppp2pp/8/4pp2/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 5,
+    "popularity": 249
+  },
+  {
+    "id": "hungarian",
+    "familyId": "hungarian",
+    "name": "hungarian",
+    "ecoCodes": [
+      "C50"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Be7"
+    ],
+    "fen": "r1bqk1nr/ppppbppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4",
+    "perspective": "black",
+    "lineCount": 1,
+    "popularity": 247
+  },
+  {
+    "id": "damiano-s",
+    "familyId": "damiano-s",
+    "name": "damiano's",
+    "ecoCodes": [
+      "C40"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "f6"
+    ],
+    "fen": "rnbqkbnr/pppp2pp/5p2/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 244
+  },
+  {
+    "id": "fred",
+    "familyId": "fred",
+    "name": "fred",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "f5"
+    ],
+    "fen": "rnbqkbnr/ppppp1pp/8/5p2/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 242
+  },
+  {
+    "id": "rousseau-gambit",
+    "familyId": "rousseau",
+    "name": "rousseau gambit",
+    "ecoCodes": [
+      "C50"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "f5"
+    ],
+    "fen": "r1bqkbnr/pppp2pp/2n5/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 234
+  },
+  {
+    "id": "ware-1-a4",
+    "familyId": "ware-1-a4",
+    "name": "Ware (1.a4)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "a4"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/P7/8/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 230
+  },
+  {
+    "id": "budapest",
+    "familyId": "budapest",
+    "name": "budapest",
+    "ecoCodes": [
+      "A51",
+      "A52"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e5"
+    ],
+    "fen": "rnbqkb1r/pppp1ppp/5n2/4p3/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 5,
+    "popularity": 217
+  },
+  {
+    "id": "clemenz-1-h3",
+    "familyId": "clemenz-1-h3",
+    "name": "Clemenz (1.h3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "h3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/7P/PPPPPPP1/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 192
+  },
+  {
+    "id": "wing-gambit",
+    "familyId": "wing",
+    "name": "wing gambit",
+    "ecoCodes": [
+      "B20",
+      "B50",
+      "C00",
+      "C23"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "c5",
+      "b4"
+    ],
+    "fen": "rnbqkbnr/pp1ppppp/8/2p5/1P2P3/8/P1PP1PPP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 6,
+    "popularity": 191
+  },
+  {
+    "id": "reversed-grob-borg-basman-defence-macho-grob",
+    "familyId": "reversed-grob-borg-basman-defence-macho-grob",
+    "name": "reversed grob (borg/basman defence/macho grob)",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "g5"
+    ],
+    "fen": "rnbqkbnr/pppppp1p/8/6p1/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 190
+  },
+  {
+    "id": "vienna-gambit",
+    "familyId": "vienna",
+    "name": "vienna gambit",
+    "ecoCodes": [
+      "C25",
+      "C29"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nc3",
+      "Nc6",
+      "f4"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4PP2/2N5/PPPP2PP/R1BQKBNR b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 6,
+    "popularity": 188
+  },
+  {
+    "id": "gr-nfeld",
+    "familyId": "gr-nfeld",
+    "name": "grünfeld",
+    "ecoCodes": [
+      "D80",
+      "D81",
+      "D82",
+      "D83",
+      "D84",
+      "D85",
+      "D86",
+      "D87",
+      "D88",
+      "D89",
+      "D90",
+      "D91",
+      "D92",
+      "D93",
+      "D94",
+      "D95",
+      "D96",
+      "D97",
+      "D98",
+      "D99"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "Nc3",
+      "d5"
+    ],
+    "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 4",
+    "perspective": "black",
+    "lineCount": 28,
+    "popularity": 181
+  },
+  {
+    "id": "barnes",
+    "familyId": "barnes",
+    "name": "barnes",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "f6"
+    ],
+    "fen": "rnbqkbnr/ppppp1pp/5p2/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 172
+  },
+  {
+    "id": "anderssen-s-1-a3",
+    "familyId": "anderssen-s-1-a3",
+    "name": "Anderssen's (1.a3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "a3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/P7/1PPPPPPP/RNBQKBNR b KQkq - 0 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 161
+  },
+  {
+    "id": "evans-gambit",
+    "familyId": "evans",
+    "name": "evans gambit",
+    "ecoCodes": [
+      "C51",
+      "C52"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Bc5",
+      "b4"
+    ],
+    "fen": "r1bqk1nr/pppp1ppp/2n5/2b1p3/1PB1P3/5N2/P1PP1PPP/RNBQK2R b KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 22,
+    "popularity": 146
+  },
+  {
+    "id": "corn-stalk",
+    "familyId": "corn-stalk",
+    "name": "corn stalk",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "a5"
+    ],
+    "fen": "rnbqkbnr/1ppppppp/8/p7/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 144
+  },
+  {
+    "id": "tennison-lemberg-zukertort-gambit",
+    "familyId": "tennison-lemberg-zukertort",
+    "name": "tennison (lemberg, zukertort) gambit",
+    "ecoCodes": [
+      "A06"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "Nf3",
+      "d5",
+      "e4"
+    ],
+    "fen": "rnbqkbnr/ppp1pppp/8/3p4/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 135
+  },
+  {
+    "id": "pirc-modern",
+    "familyId": "pirc-modern",
+    "name": "pirc/modern",
+    "ecoCodes": [
+      "A41",
+      "B06",
+      "B07"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "e4",
+      "g6",
+      "d4",
+      "Bg7",
+      "f4"
+    ],
+    "fen": "rnbqk1nr/ppppppbp/6p1/8/3PPP2/8/PPP3PP/RNBQKBNR b KQkq - 0 3",
+    "perspective": "black",
+    "lineCount": 6,
+    "popularity": 114
+  },
+  {
+    "id": "benko-gambit",
+    "familyId": "benko",
+    "name": "benko gambit",
+    "ecoCodes": [
+      "A57",
+      "A58",
+      "A59"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5",
+      "d5",
+      "b5"
+    ],
+    "fen": "rnbqkb1r/p2ppppp/5n2/1ppP4/2P5/8/PP2PPPP/RNBQKBNR w KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 5,
+    "popularity": 109
+  },
+  {
+    "id": "carr-s",
+    "familyId": "carr-s",
+    "name": "carr's",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "h6"
+    ],
+    "fen": "rnbqkbnr/ppppppp1/7p/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 94
+  },
+  {
+    "id": "torre-attack",
+    "familyId": "torre-attack",
+    "name": "torre attack",
+    "ecoCodes": [
+      "D03"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "Nf3",
+      "Nf6",
+      "Bg5"
+    ],
+    "fen": "rnbqkb1r/ppp1pppp/5n2/3p2B1/3P4/5N2/PPP1PPPP/RN1QKB1R b KQkq - 3 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 94
+  },
+  {
+    "id": "richter-veresov",
+    "familyId": "richter-veresov",
+    "name": "richter-veresov",
+    "ecoCodes": [
+      "D01"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "Nc3",
+      "Nf6",
+      "Bg5"
+    ],
+    "fen": "rnbqkb1r/ppp1pppp/5n2/3p2B1/3P4/2N5/PPP1PPPP/R2QKBNR b KQkq - 3 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 80
+  },
+  {
+    "id": "polish",
+    "familyId": "polish",
+    "name": "polish",
+    "ecoCodes": [
+      "A40"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "b5"
+    ],
+    "fen": "rnbqkbnr/p1pppppp/8/1p6/3P4/8/PPP1PPPP/RNBQKBNR w KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 79
+  },
+  {
+    "id": "inverted-hungarian",
+    "familyId": "inverted-hungarian",
+    "name": "inverted hungarian",
+    "ecoCodes": [
+      "C44"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Be2"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPPBPPP/RNBQK2R b KQkq - 3 3",
+    "perspective": "black",
+    "lineCount": 1,
+    "popularity": 78
+  },
+  {
+    "id": "alapin-s",
+    "familyId": "alapin-s",
+    "name": "alapin's",
+    "ecoCodes": [
+      "C20"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Ne2"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPPNPPP/RNBQKB1R b KQkq - 1 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 77
+  },
+  {
+    "id": "gunderam",
+    "familyId": "gunderam",
+    "name": "gunderam",
+    "ecoCodes": [
+      "C40"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Qe7"
+    ],
+    "fen": "rnb1kbnr/ppppqppp/8/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 74
+  },
+  {
+    "id": "halloween-gambit",
+    "familyId": "halloween",
+    "name": "Halloween Gambit",
+    "ecoCodes": [
+      "C47"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Nc3",
+      "Nf6",
+      "Nxe5"
+    ],
+    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4N3/4P3/2N5/PPPP1PPP/R1BQKB1R b KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 3,
+    "popularity": 69
+  },
+  {
+    "id": "halasz-gambit",
+    "familyId": "halasz",
+    "name": "halasz gambit",
+    "ecoCodes": [
+      "C21"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "d4",
+      "exd4",
+      "f4"
+    ],
+    "fen": "rnbqkbnr/pppp1ppp/8/8/3pPP2/8/PPP3PP/RNBQKBNR b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 63
+  },
+  {
+    "id": "st-george",
+    "familyId": "st-george",
+    "name": "st. george",
+    "ecoCodes": [
+      "C00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e6",
+      "d4",
+      "a6"
+    ],
+    "fen": "rnbqkbnr/1ppp1ppp/p3p3/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 60
+  },
+  {
+    "id": "bogo-indian",
+    "familyId": "bogo-indian",
+    "name": "bogo-indian",
+    "ecoCodes": [
+      "E11"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "Bb4+"
+    ],
+    "fen": "rnbqk2r/pppp1ppp/4pn2/8/1bPP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 2 4",
+    "perspective": "black",
+    "lineCount": 3,
+    "popularity": 57
+  },
+  {
+    "id": "paleface",
+    "familyId": "paleface",
+    "name": "paleface",
+    "ecoCodes": [
+      "A45"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "f3"
+    ],
+    "fen": "rnbqkb1r/pppppppp/5n2/8/3P4/5P2/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 53
+  },
+  {
+    "id": "konstantinopolsky",
+    "familyId": "konstantinopolsky",
+    "name": "konstantinopolsky",
+    "ecoCodes": [
+      "C44"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "g3"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5NP1/PPPP1P1P/RNBQKB1R b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 51
+  },
+  {
+    "id": "catalan",
+    "familyId": "catalan",
+    "name": "catalan",
+    "ecoCodes": [
+      "E00",
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "E08",
+      "E09"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "g3"
+    ],
+    "fen": "rnbqkb1r/pppp1ppp/4pn2/8/2PP4/6P1/PP2PP1P/RNBQKBNR b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 6,
+    "popularity": 49
+  },
+  {
+    "id": "canard",
+    "familyId": "canard",
+    "name": "canard",
+    "ecoCodes": [
+      "A45"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "f4"
+    ],
+    "fen": "rnbqkb1r/pppppppp/5n2/8/3P1P2/8/PPP1P1PP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 44
+  },
+  {
+    "id": "colle-system",
+    "familyId": "colle-system",
+    "name": "colle system",
+    "ecoCodes": [
+      "D05"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "Nf3",
+      "Nf6",
+      "e3",
+      "e6",
+      "Bd3",
+      "c5",
+      "c3"
+    ],
+    "fen": "rnbqkb1r/pp3ppp/4pn2/2pp4/3P4/2PBPN2/PP3PPP/RNBQK2R b KQkq - 0 5",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 41
+  },
+  {
+    "id": "amar-1-nh3",
+    "familyId": "amar-1-nh3",
+    "name": "Amar (1.Nh3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "Nh3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/7N/PPPPPPPP/RNBQKB1R b KQkq - 1 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 38
+  },
+  {
+    "id": "durkin-s-1-na3",
+    "familyId": "durkin-s-1-na3",
+    "name": "Durkin's (1.Na3)",
+    "ecoCodes": [
+      "A00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "Na3"
+    ],
+    "fen": "rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 36
+  },
+  {
+    "id": "guatemala",
+    "familyId": "guatemala",
+    "name": "guatemala",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "b6",
+      "d4",
+      "Ba6"
+    ],
+    "fen": "rn1qkbnr/p1pppppp/bp6/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 31
+  },
+  {
+    "id": "kevitz-trajkovich",
+    "familyId": "kevitz-trajkovich",
+    "name": "kevitz-trajkovich",
+    "ecoCodes": [
+      "A50"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "Nc6"
+    ],
+    "fen": "r1bqkb1r/pppppppp/2n2n2/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 1 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 27
+  },
+  {
+    "id": "neo-gruenfeld-6-o-o-c6",
+    "familyId": "neo-gruenfeld-6-o-o-c6",
+    "name": "neo-gruenfeld, 6.o-o c6",
+    "ecoCodes": [
+      "D78"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "c6"
+    ],
+    "fen": "rnbq1rk1/pp2ppbp/2p2np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 7",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 26
+  },
+  {
+    "id": "latvian-gambit-3-bc4",
+    "familyId": "latvian-gambit-3-bc4",
+    "name": "latvian gambit, 3.bc4",
+    "ecoCodes": [
+      "C40"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "f5",
+      "Bc4"
+    ],
+    "fen": "rnbqkbnr/pppp2pp/8/4pp2/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 1 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 23
+  },
+  {
+    "id": "queen-s-indian",
+    "familyId": "queen-s-indian",
+    "name": "queen's indian",
+    "ecoCodes": [
+      "A47",
+      "A50",
+      "E12",
+      "E13",
+      "E14",
+      "E15",
+      "E16",
+      "E17",
+      "E18",
+      "E19"
+    ],
+    "type": "neutral",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "Nf3",
+      "b6"
+    ],
+    "fen": "rnbqkb1r/p1pppppp/1p3n2/8/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 3",
+    "perspective": "black",
+    "lineCount": 15,
+    "popularity": 23
+  },
+  {
+    "id": "lemming",
+    "familyId": "lemming",
+    "name": "lemming",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "Na6"
+    ],
+    "fen": "r1bqkbnr/pppppppp/n7/8/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 1 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 22
+  },
+  {
+    "id": "neo-indian-seirawan",
+    "familyId": "neo-indian-seirawan",
+    "name": "neo-indian (seirawan)",
+    "ecoCodes": [
+      "E00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Bg5"
+    ],
+    "fen": "rnbqkb1r/pppp1ppp/4pn2/6B1/2PP4/8/PP2PPPP/RN1QKBNR b KQkq - 1 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 22
+  },
+  {
+    "id": "dresden",
+    "familyId": "dresden",
+    "name": "dresden",
+    "ecoCodes": [
+      "C44"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "c4"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2P1P3/5N2/PP1P1PPP/RNBQKB1R b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 19
+  },
+  {
+    "id": "fried-fox",
+    "familyId": "fried-fox",
+    "name": "fried fox",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "f6",
+      "d4",
+      "Kf7"
+    ],
+    "fen": "rnbq1bnr/pppppkpp/5p2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQ - 1 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 14
+  },
+  {
+    "id": "boden-kieseritsky-gambit",
+    "familyId": "boden-kieseritsky",
+    "name": "boden-kieseritsky gambit",
+    "ecoCodes": [
+      "C27"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nc3",
+      "Nf6",
+      "Bc4",
+      "Nxe4",
+      "Nf3"
+    ],
+    "fen": "rnbqkb1r/pppp1ppp/8/4p3/2B1n3/2N2N2/PPPP1PPP/R1BQK2R b KQkq - 1 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 13
+  },
+  {
+    "id": "mujannah",
+    "familyId": "mujannah",
+    "name": "mujannah",
+    "ecoCodes": [
+      "A03"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "f4",
+      "d5",
+      "c4"
+    ],
+    "fen": "rnbqkbnr/ppp1pppp/8/3p4/2P2P2/8/PP1PP1PP/RNBQKBNR b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 13
+  },
+  {
+    "id": "caro-masi",
+    "familyId": "caro-masi",
+    "name": "caro-masi",
+    "ecoCodes": [
+      "B12"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "c6",
+      "d4",
+      "Nf6"
+    ],
+    "fen": "rnbqkb1r/pp1ppppp/2p2n2/8/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 1 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 12
+  },
+  {
+    "id": "semi-benoni-blockade-variation",
+    "familyId": "semi-benoni-blockade-variation",
+    "name": "semi-benoni (`blockade variation')",
+    "ecoCodes": [
+      "A44"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "c5",
+      "d5",
+      "e5",
+      "e4",
+      "d6"
+    ],
+    "fen": "rnbqkbnr/pp3ppp/3p4/2pPp3/4P3/8/PPP2PPP/RNBQKBNR w KQkq - 0 4",
+    "perspective": "black",
+    "lineCount": 1,
+    "popularity": 12
+  },
+  {
+    "id": "qp",
+    "familyId": "qp",
+    "name": "qp",
+    "ecoCodes": [
+      "C40"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "d5",
+      "exd5",
+      "Bd6"
+    ],
+    "fen": "rnbqk1nr/ppp2ppp/3b4/3Pp3/8/5N2/PPPP1PPP/RNBQKB1R w KQkq - 1 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 11
+  },
+  {
+    "id": "czech-benoni",
+    "familyId": "czech-benoni",
+    "name": "czech benoni",
+    "ecoCodes": [
+      "A56"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5",
+      "d5",
+      "e5"
+    ],
+    "fen": "rnbqkb1r/pp1p1ppp/5n2/2pPp3/2P5/8/PP2PPPP/RNBQKBNR w KQkq e6 0 4",
+    "perspective": "black",
+    "lineCount": 1,
+    "popularity": 10
+  },
+  {
+    "id": "irish-chicago-gambit",
+    "familyId": "irish-chicago",
+    "name": "irish (chicago) gambit",
+    "ecoCodes": [
+      "C44"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Nxe5",
+      "Nxe5",
+      "d4"
+    ],
+    "fen": "r1bqkbnr/pppp1ppp/8/4n3/3PP3/8/PPP2PPP/RNBQKB1R b KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 10
+  },
+  {
+    "id": "neo-gruenfeld-6-o-o-main-line",
+    "familyId": "neo-gruenfeld-6-o-o-main-line",
+    "name": "neo-gruenfeld, 6.o-o, main line",
+    "ecoCodes": [
+      "D79"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "O-O",
+      "c6",
+      "cxd5",
+      "cxd5"
+    ],
+    "fen": "rnbq1rk1/pp2ppbp/5np1/3p4/3P4/5NP1/PP2PPBP/RNBQ1RK1 w - - 0 8",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 10
+  },
+  {
+    "id": "blackmar-diemer-gambit",
+    "familyId": "blackmar-diemer",
+    "name": "blackmar-diemer gambit",
+    "ecoCodes": [
+      "A45",
+      "D00"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "f3",
+      "d5",
+      "e4"
+    ],
+    "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3PP3/5P2/PPP3PP/RNBQKBNR b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 3,
+    "popularity": 8
+  },
+  {
+    "id": "richter-veresov-attack-veresov",
+    "familyId": "richter-veresov-attack-veresov",
+    "name": "richter-veresov attack, veresov",
+    "ecoCodes": [
+      "D01"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "Nc3",
+      "Nf6",
+      "Bg5",
+      "Bf5",
+      "Bxf6"
+    ],
+    "fen": "rn1qkb1r/ppp1pppp/5B2/3p1b2/3P4/2N5/PPP1PPPP/R2QKBNR b KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 8
+  },
+  {
+    "id": "woozle",
+    "familyId": "woozle",
+    "name": "woozle",
+    "ecoCodes": [
+      "A43"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "c5",
+      "d5",
+      "Nf6",
+      "Nc3",
+      "Qa5"
+    ],
+    "fen": "rnb1kb1r/pp1ppppp/5n2/q1pP4/8/2N5/PPP1PPPP/R1BQKBNR w KQkq - 3 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 6
+  },
+  {
+    "id": "beefeater",
+    "familyId": "beefeater",
+    "name": "beefeater",
+    "ecoCodes": [
+      "A40"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "g6",
+      "c4",
+      "Bg7",
+      "Nc3",
+      "c5",
+      "d5",
+      "Bxc3+",
+      "bxc3",
+      "f5"
+    ],
+    "fen": "rnbqk1nr/pp1pp2p/6p1/2pP1p2/2P5/2P5/P3PPPP/R1BQKBNR w KQkq - 0 6",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 3
+  },
+  {
+    "id": "doery",
+    "familyId": "doery",
+    "name": "doery",
+    "ecoCodes": [
+      "A46",
+      "E10"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "Nf3",
+      "Ne4"
+    ],
+    "fen": "rnbqkb1r/pppppppp/8/8/3Pn3/5N2/PPP1PPPP/RNBQKB1R w KQkq - 3 3",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 3
+  },
+  {
+    "id": "gedult",
+    "familyId": "gedult",
+    "name": "gedult",
+    "ecoCodes": [
+      "A45"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "f3",
+      "d5",
+      "g4"
+    ],
+    "fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P2P1/5P2/PPP1P2P/RNBQKBNR b KQkq - 0 3",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 3
+  },
+  {
+    "id": "inverted-hanham",
+    "familyId": "inverted-hanham",
+    "name": "inverted hanham",
+    "ecoCodes": [
+      "C44"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Be2",
+      "Nf6",
+      "d3",
+      "d5",
+      "Nbd2"
+    ],
+    "fen": "r1bqkb1r/ppp2ppp/2n2n2/3pp3/4P3/3P1N2/PPPNBPPP/R1BQK2R b KQkq - 1 5",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 3
+  },
+  {
+    "id": "richter-veresov-attack-richter",
+    "familyId": "richter-veresov-attack-richter",
+    "name": "richter-veresov attack, richter",
+    "ecoCodes": [
+      "D01"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d5",
+      "Nc3",
+      "Nf6",
+      "Bg5",
+      "Bf5",
+      "f3"
+    ],
+    "fen": "rn1qkb1r/ppp1pppp/5n2/3p1bB1/3P4/2N2P2/PPP1P1PP/R2QKBNR b KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 3
+  },
+  {
+    "id": "santasiere-s-folly",
+    "familyId": "santasiere-s-folly",
+    "name": "santasiere's folly",
+    "ecoCodes": [
+      "A06"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "Nf3",
+      "d5",
+      "b4"
+    ],
+    "fen": "rnbqkbnr/ppp1pppp/8/3p4/1P6/5N2/P1PPPPPP/RNBQKB1R b KQkq - 0 2",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 3
+  },
+  {
+    "id": "blumenfeld",
+    "familyId": "blumenfeld",
+    "name": "blumenfeld",
+    "ecoCodes": [
+      "E10"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "c5",
+      "d5",
+      "b5"
+    ],
+    "fen": "rnbqkb1r/p2p1ppp/4pn2/1ppP4/2P5/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 5",
+    "perspective": "white",
+    "lineCount": 2,
+    "popularity": 2
+  },
+  {
+    "id": "neo-gruenfeld",
+    "familyId": "neo-gruenfeld",
+    "name": "neo-gruenfeld",
+    "ecoCodes": [
+      "D70"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "f3",
+      "d5"
+    ],
+    "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/5P2/PP2P1PP/RNBQKBNR w KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 2
+  },
+  {
+    "id": "neo-gruenfeld-6-cd-nxd5-7-o-o",
+    "familyId": "neo-gruenfeld-6-cd-nxd5-7-o-o",
+    "name": "neo-gruenfeld, 6.cd nxd5, 7.o-o",
+    "ecoCodes": [
+      "D74"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "cxd5",
+      "Nxd5",
+      "O-O"
+    ],
+    "fen": "rnbq1rk1/ppp1ppbp/6p1/3n4/3P4/5NP1/PP2PPBP/RNBQ1RK1 b - - 1 7",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 2
+  },
+  {
+    "id": "neo-gruenfeld-kemeri",
+    "familyId": "neo-gruenfeld-kemeri",
+    "name": "neo-gruenfeld (kemeri)",
+    "ecoCodes": [
+      "D70"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5"
+    ],
+    "fen": "rnbqkb1r/ppp1pp1p/5np1/3p4/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 1
+  },
+  {
+    "id": "neo-gruenfeld-5-cd",
+    "familyId": "neo-gruenfeld-5-cd",
+    "name": "neo-gruenfeld, 5.cd",
+    "ecoCodes": [
+      "D71"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "cxd5",
+      "Nxd5"
+    ],
+    "fen": "rnbqk2r/ppp1ppbp/6p1/3n4/3P4/6P1/PP2PPBP/RNBQK1NR w KQkq - 0 6",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 1
+  },
+  {
+    "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-8-dc",
+    "familyId": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-8-dc",
+    "name": "neo-gruenfeld, 6.cd nxd5, 7.o-o c5, 8.dc",
+    "ecoCodes": [
+      "D75"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "cxd5",
+      "Nxd5",
+      "O-O",
+      "c5",
+      "dxc5"
+    ],
+    "fen": "rnbq1rk1/pp2ppbp/6p1/2Pn4/8/5NP1/PP2PPBP/RNBQ1RK1 b - - 0 8",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 1
+  },
+  {
+    "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-8-nc3",
+    "familyId": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-8-nc3",
+    "name": "neo-gruenfeld, 6.cd nxd5, 7.o-o c5, 8.nc3",
+    "ecoCodes": [
+      "D75"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "cxd5",
+      "Nxd5",
+      "O-O",
+      "c5",
+      "Nc3"
+    ],
+    "fen": "rnbq1rk1/pp2ppbp/6p1/2pn4/3P4/2N2NP1/PP2PPBP/R1BQ1RK1 b - - 1 8",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 1
+  },
+  {
+    "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-nb6",
+    "familyId": "neo-gruenfeld-6-cd-nxd5-7-o-o-nb6",
+    "name": "neo-gruenfeld, 6.cd nxd5, 7.o-o nb6",
+    "ecoCodes": [
+      "D76"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "cxd5",
+      "Nxd5",
+      "O-O",
+      "Nb6"
+    ],
+    "fen": "rnbq1rk1/ppp1ppbp/1n4p1/8/3P4/5NP1/PP2PPBP/RNBQ1RK1 w - - 2 8",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 1
+  },
+  {
+    "id": "tayler",
+    "familyId": "tayler",
+    "name": "tayler",
+    "ecoCodes": [
+      "C44"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Be2",
+      "Nf6",
+      "d4"
+    ],
+    "fen": "r1bqkb1r/pppp1ppp/2n2n2/4p3/3PP3/5N2/PPP1BPPP/RNBQK2R b KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 1
+  },
+  {
+    "id": "blackburne-shilling-gambit",
+    "familyId": "blackburne-shilling",
+    "name": "blackburne shilling gambit",
+    "ecoCodes": [
+      "C50"
+    ],
+    "type": "forcing",
+    "canonicalMoves": [
+      "e4",
+      "e5",
+      "Nf3",
+      "Nc6",
+      "Bc4",
+      "Nd4",
+      "Nxe5",
+      "Qg5",
+      "Nxf7",
+      "Qxg2",
+      "Rf1",
+      "Qxe4+",
+      "Be2",
+      "Nf3#"
+    ],
+    "fen": "r1b1kbnr/pppp1Npp/8/8/4q3/5n2/PPPPBP1P/RNBQKR2 w Qkq - 2 8",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "de-bruycker",
+    "familyId": "de-bruycker",
+    "name": "de bruycker",
+    "ecoCodes": [
+      "B12"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "c6",
+      "d4",
+      "Na6",
+      "Nc3",
+      "Nc7"
+    ],
+    "fen": "r1bqkbnr/ppnppppp/2p5/8/3PP3/2N5/PPP2PPP/R1BQKBNR w KQkq - 3 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "dzindzikhashvili",
+    "familyId": "dzindzikhashvili",
+    "name": "dzindzikhashvili",
+    "ecoCodes": [
+      "E10"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "e6",
+      "Nf3",
+      "a6"
+    ],
+    "fen": "rnbqkb1r/1ppp1ppp/p3pn2/8/2PP4/5N2/PP2PPPP/RNBQKB1R w KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "hawk-habichd",
+    "familyId": "hawk-habichd",
+    "name": "hawk (habichd)",
+    "ecoCodes": [
+      "A43"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "c5",
+      "d5",
+      "Nf6",
+      "Nf3",
+      "c4"
+    ],
+    "fen": "rnbqkb1r/pp1ppppp/5n2/3P4/2p5/5N2/PPP1PPPP/RNBQKB1R w KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "hippopotamus",
+    "familyId": "hippopotamus",
+    "name": "hippopotamus",
+    "ecoCodes": [
+      "B00"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "Nh6",
+      "d4",
+      "g6",
+      "c4",
+      "f6"
+    ],
+    "fen": "rnbqkb1r/ppppp2p/5ppn/8/2PPP3/8/PP3PPP/RNBQKBNR w KQkq - 0 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "neo-gruenfeld-5-cd-main-line",
+    "familyId": "neo-gruenfeld-5-cd-main-line",
+    "name": "neo-gruenfeld, 5.cd, main line",
+    "ecoCodes": [
+      "D72"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "cxd5",
+      "Nxd5",
+      "e4",
+      "Nb6",
+      "Ne2"
+    ],
+    "fen": "rnbqk2r/ppp1ppbp/1n4p1/8/3PP3/6P1/PP2NPBP/RNBQK2R b KQkq - 2 7",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "neo-gruenfeld-5-nf3",
+    "familyId": "neo-gruenfeld-5-nf3",
+    "name": "neo-gruenfeld, 5.nf3",
+    "ecoCodes": [
+      "D73"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "Nf3"
+    ],
+    "fen": "rnbqk2r/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQK2R b KQkq - 3 5",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "neo-gruenfeld-6-o-o",
+    "familyId": "neo-gruenfeld-6-o-o",
+    "name": "neo-gruenfeld, 6.o-o",
+    "ecoCodes": [
+      "D77"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "g6",
+      "g3",
+      "d5",
+      "Bg2",
+      "Bg7",
+      "Nf3",
+      "O-O",
+      "O-O"
+    ],
+    "fen": "rnbq1rk1/ppp1ppbp/5np1/3p4/2PP4/5NP1/PP2PPBP/RNBQ1RK1 b - - 5 6",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "norwegian",
+    "familyId": "norwegian",
+    "name": "norwegian",
+    "ecoCodes": [
+      "B06"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "e4",
+      "g6",
+      "d4",
+      "Nf6",
+      "e5",
+      "Nh5",
+      "g4",
+      "Ng7"
+    ],
+    "fen": "rnbqkb1r/ppppppnp/6p1/4P3/3P2P1/8/PPP2P1P/RNBQKBNR w KQkq - 1 5",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "pterodactyl",
+    "familyId": "pterodactyl",
+    "name": "pterodactyl",
+    "ecoCodes": [
+      "A42"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "d6",
+      "c4",
+      "g6",
+      "Nc3",
+      "Bg7",
+      "e4",
+      "c5",
+      "Nf3",
+      "Qa5"
+    ],
+    "fen": "rnb1k1nr/pp2ppbp/3p2p1/q1p5/2PPP3/2N2N2/PP3PPP/R1BQKB1R w KQkq - 2 6",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  },
+  {
+    "id": "vulture",
+    "familyId": "vulture",
+    "name": "vulture",
+    "ecoCodes": [
+      "A56"
+    ],
+    "type": "semi-forcing",
+    "canonicalMoves": [
+      "d4",
+      "Nf6",
+      "c4",
+      "c5",
+      "d5",
+      "Ne4"
+    ],
+    "fen": "rnbqkb1r/pp1ppppp/8/2pP4/2P1n3/8/PP2PPPP/RNBQKBNR w KQkq - 1 4",
+    "perspective": "white",
+    "lineCount": 1,
+    "popularity": 0
+  }
+]

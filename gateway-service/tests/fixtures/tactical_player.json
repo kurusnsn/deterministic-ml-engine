@@ -1,0 +1,83 @@
+{
+    "player_type": "tactical",
+    "description": "Player with high tactical volatility - many sharp positions and blunders",
+    "games": [
+        {
+            "id": "game_tactical_001",
+            "opening_eco": "B20",
+            "opening_name": "Sicilian Defense",
+            "result": "1-0",
+            "white_username": "tactical_player",
+            "black_username": "opponent1",
+            "white_rating": 1500,
+            "black_rating": 1480,
+            "pgn": "1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be3 e5 7. Nf3 Be7 8. Bc4 O-O 9. O-O Nc6 10. Bb3 Be6 11. Ng5 Bxb3 12. axb3 h6 13. Nf3 Rc8 14. Qd3 Qc7 15. Nd5",
+            "moves_analysis": [
+                {
+                    "ply": 12,
+                    "move": "Bxb3",
+                    "fen_before": "r2qk2r/1p2bppp/p1npbn2/4p3/2B1P3/1N2BN2/PPP2PPP/R2QK2R b KQkq - 0 8",
+                    "eval_before": 50,
+                    "eval_after": -150,
+                    "eval_delta": -200,
+                    "mistake_type": "blunder",
+                    "heuristics": {
+                        "fork": false,
+                        "pin": false,
+                        "hanging_piece": true,
+                        "trapped_piece": false
+                    }
+                },
+                {
+                    "ply": 18,
+                    "move": "Rc8",
+                    "fen_before": "r4rk1/1pq1bppp/p1np1n2/4p3/4P3/1P2BN2/1PP2PPP/R2Q1RK1 b - - 0 12",
+                    "eval_before": 100,
+                    "eval_after": -120,
+                    "eval_delta": -220,
+                    "mistake_type": "blunder",
+                    "heuristics": {
+                        "fork": true,
+                        "pin": false,
+                        "hanging_piece": false,
+                        "trapped_piece": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "game_tactical_002",
+            "opening_eco": "C50",
+            "opening_name": "Italian Game",
+            "result": "0-1",
+            "white_username": "opponent2",
+            "black_username": "tactical_player",
+            "white_rating": 1520,
+            "black_rating": 1500,
+            "pgn": "1. e4 e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 Nf6 5. d4 exd4 6. cxd4 Bb4+ 7. Bd2 Bxd2+ 8. Nbxd2 d5 9. exd5 Nxd5 10. Qb3 Nce7",
+            "moves_analysis": [
+                {
+                    "ply": 15,
+                    "move": "Bb4+",
+                    "fen_before": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2BPP3/2P2N2/PP3PPP/RNBQK2R b KQkq - 0 5",
+                    "eval_before": 20,
+                    "eval_after": -180,
+                    "eval_delta": -200,
+                    "mistake_type": "blunder",
+                    "heuristics": {
+                        "fork": false,
+                        "pin": true,
+                        "hanging_piece": false,
+                        "trapped_piece": false
+                    }
+                }
+            ]
+        }
+    ],
+    "expected_puzzle_count": 3,
+    "expected_top_motifs": [
+        "fork",
+        "hanging_piece",
+        "pin"
+    ]
+}

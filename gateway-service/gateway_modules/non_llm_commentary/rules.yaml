@@ -1,0 +1,1318 @@
+# Non-LLM Commentary Rules
+# 
+# YAML-driven rule definitions for deterministic chess commentary.
+# Each rule has:
+#   - id: Unique identifier
+#   - category: One of forced_outcome, tactical_motif, positional_idea, pawn_structure, filler
+#   - priority: Within-category priority (higher = more important)
+#   - min_verbosity: Minimum verbosity level to trigger (0-4)
+#   - conditions: List of fact conditions (all must match)
+#   - confidence: Base confidence (0.0-1.0)
+#   - commentary: Templates and move quality label
+#   - affordances: UI visualization hints
+
+rules:
+  # =============================================================================
+  # FORCED OUTCOMES (Priority Tier: 100)
+  # =============================================================================
+  
+  - id: CHECKMATE
+    category: forced_outcome
+    priority: 100
+    min_verbosity: 0
+    conditions:
+      - fact: is_checkmate
+        equals: true
+    confidence: 1.0
+    commentary:
+      label: brilliant
+      templates:
+        - "Checkmate!"
+        - "Game over. Checkmate."
+        - "Checkmate is always the best move!"
+    affordances:
+      - type: HIGHLIGHT
+        color: red
+        target: king_square
+  
+  - id: FORCED_MATE_IN_N
+    category: forced_outcome
+    priority: 95
+    min_verbosity: 0
+    conditions:
+      - fact: mate_in
+        exists: true
+        max_value: 5
+    confidence: 0.99
+    commentary:
+      label: best
+      templates:
+        - "Forced mate in {mate_in}!"
+        - "This leads to mate in {mate_in} moves."
+        - "Your opponent will be forced into checkmate if you find the right moves."
+        - "Getting closer to the forced checkmate."
+    affordances:
+      - type: SHOW_CHECKMATE
+        line_source: engine_pv
+  
+  - id: ONLY_MOVE
+    category: forced_outcome
+    priority: 88
+    min_verbosity: 1
+    conditions:
+      - fact: only_move
+        equals: true
+    confidence: 0.95
+    commentary:
+      label: best
+      templates:
+        - "This was the only move."
+        - "There was only one option here."
+        - "The only move that works."
+        - "There was just one move that worked, and this was it."
+    affordances:
+      - type: SHOW_FOLLOW_UP
+        line_source: forced_line
+  
+  - id: WINNING_MATERIAL_FORCED
+    category: forced_outcome
+    priority: 90
+    min_verbosity: 1
+    conditions:
+      - fact: tension.has_winning_capture
+        equals: true
+      - fact: engine_cp_delta
+        min_value: 200
+    confidence: 0.92
+    commentary:
+      label: best
+      templates:
+        - "Material is won by force."
+        - "This wins material."
+        - "This move will win material with correct play."
+    affordances:
+      - type: SHOW_TACTIC
+        line_source: engine_pv
+  
+  # =============================================================================
+  # TACTICAL MOTIFS (Priority Tier: 80)
+  # =============================================================================
+  
+  - id: PROMOTION_THREAT
+    category: tactical_motif
+    priority: 79
+    min_verbosity: 1
+    conditions:
+      - fact: promotion_threat
+        equals: true
+    confidence: 0.93
+    commentary:
+      label: excellent
+      templates:
+        - "The pawn threatens to promote."
+        - "Promotion is imminent."
+        - "A dangerous pawn nears the queening square."
+    affordances:
+      - type: PAWN_PATH
+        from: promoting_pawn_square
+        to: promotion_square
+        color: green
+  
+  - id: FORCED_CAPTURE
+    category: tactical_motif
+    priority: 77
+    min_verbosity: 1
+    conditions:
+      - fact: forced_capture
+        equals: true
+    confidence: 0.88
+    commentary:
+      label: good
+      templates:
+        - "A forced recapture follows."
+        - "The capture must be answered."
+        - "This forces a response."
+    affordances:
+      - type: ARROW
+        from: capture_square
+        to: recapture_target
+        color: orange
+
+  - id: FORK_KNIGHT
+    category: tactical_motif
+    priority: 85
+    min_verbosity: 1
+    conditions:
+      - fact: fork
+        equals: true
+    confidence: 0.95
+    commentary:
+      label: excellent
+      templates:
+        - "The knight forks {fork_targets}!"
+        - "A double attack on {fork_targets}."
+        - "Fork! Both {fork_targets} are under attack."
+        - "Their move sets up a fork."
+    affordances:
+      - type: ARROW
+        from: fork_square
+        to: fork_targets
+        color: red
+  
+  - id: SKEWER
+    category: tactical_motif
+    priority: 84
+    min_verbosity: 1
+    conditions:
+      - fact: skewer
+        equals: true
+    confidence: 0.93
+    commentary:
+      label: excellent
+      templates:
+        - "This creates a skewer."
+        - "Skewer! The back piece is exposed."
+        - "A skewer wins material."
+        - "They are threatening to win material through a skewer."
+    affordances:
+      - type: LINE
+        through: skewer_squares
+        color: red
+      - type: SHOW_IDEA
+        idea: Skewer
+  
+  - id: PIN_TO_KING
+    category: tactical_motif
+    priority: 83
+    min_verbosity: 1
+    conditions:
+      - fact: pin
+        equals: true
+      - fact: pin_to_king
+        equals: true
+    confidence: 0.94
+    commentary:
+      label: excellent
+      templates:
+        - "The {pinned_piece} is pinned to the king."
+        - "An absolute pin. The {pinned_piece} cannot move."
+        - "Your piece is pinned to the king, unable to move freely."
+    affordances:
+      - type: LINE
+        through: pin_line
+        color: orange
+      - type: SHOW_IDEA
+        idea: Pin
+  
+  - id: PIN_TO_QUEEN
+    category: tactical_motif
+    priority: 82
+    min_verbosity: 1
+    conditions:
+      - fact: pin
+        equals: true
+      - fact: pin_to_queen
+        equals: true
+    confidence: 0.90
+    commentary:
+      label: good
+      templates:
+        - "The {pinned_piece} is pinned to the queen."
+        - "A relative pin ties down the {pinned_piece}."
+    affordances:
+      - type: LINE
+        through: pin_line
+        color: yellow
+      - type: SHOW_IDEA
+        idea: Pin
+  
+  - id: DISCOVERED_ATTACK
+    category: tactical_motif
+    priority: 81
+    min_verbosity: 1
+    conditions:
+      - fact: discovered_attack
+        equals: true
+    confidence: 0.91
+    commentary:
+      label: excellent
+      templates:
+        - "A discovered attack!"
+        - "Moving the {moved_piece} unveils an attack."
+    affordances:
+      - type: ARROW
+        from: discovered_attacker
+        to: discovered_target
+        color: red
+  
+  - id: DISCOVERED_CHECK
+    category: tactical_motif
+    priority: 86
+    min_verbosity: 1
+    conditions:
+      - fact: discovered_check
+        equals: true
+    confidence: 0.96
+    commentary:
+      label: brilliant
+      templates:
+        - "Discovered check!"
+        - "The king is exposed to a discovered check."
+    affordances:
+      - type: ARROW
+        from: checking_piece
+        to: king_square
+        color: red
+  
+  - id: DOUBLE_CHECK
+    category: tactical_motif
+    priority: 87
+    min_verbosity: 0
+    conditions:
+      - fact: double_check
+        equals: true
+    confidence: 0.98
+    commentary:
+      label: brilliant
+      templates:
+        - "Double check!"
+        - "The king must move - double check!"
+    affordances:
+      - type: ARROW
+        from: checking_pieces
+        to: king_square
+        color: red
+        multiple: true
+  
+  - id: BACK_RANK_THREAT
+    category: tactical_motif
+    priority: 80
+    min_verbosity: 1
+    conditions:
+      - fact: back_rank_mate_threat
+        equals: true
+    confidence: 0.88
+    commentary:
+      label: excellent
+      templates:
+        - "Back rank mate threat!"
+        - "The back rank is dangerously weak."
+    affordances:
+      - type: SHADED_RANK
+        rank: back_rank
+        color: red
+  
+  # =============================================================================
+  # POSITIONAL IDEAS (Priority Tier: 60)
+  # =============================================================================
+  
+  - id: OPEN_FILE_ROOK
+    category: positional_idea
+    priority: 65
+    min_verbosity: 2
+    conditions:
+      - fact: rook_on_open_file
+        equals: true
+    confidence: 0.85
+    commentary:
+      label: good
+      templates:
+        - "The rook controls the open {file}-file."
+        - "Placing the rook on the open file."
+        - "Their rook is now active on an open file."
+    affordances:
+      - type: SHADED_FILE
+        file: open_file
+        color: green
+  
+  - id: SEVENTH_RANK_ROOK
+    category: positional_idea
+    priority: 66
+    min_verbosity: 2
+    conditions:
+      - fact: rook_on_seventh
+        equals: true
+    confidence: 0.87
+    commentary:
+      label: excellent
+      templates:
+        - "The rook dominates the seventh rank."
+        - "A powerful rook on the seventh."
+        - "Placing a rook behind an opposing passed pawn can inhibit the pawn's ability to promote."
+    affordances:
+      - type: SHADED_RANK
+        rank: 7
+        color: green
+      - type: SHOW_IDEA
+        idea: Active Rook
+  
+  - id: FIANCHETTO
+    category: positional_idea
+    priority: 62
+    min_verbosity: 2
+    conditions:
+      - fact: fianchettoed_bishop
+        equals: true
+    confidence: 0.82
+    commentary:
+      label: book
+      templates:
+        - "The bishop fianchetto controls the long diagonal."
+        - "A fianchettoed bishop on the {diagonal}."
+        - "Puts the bishop on the long diagonal in a move called a 'fianchetto'."
+    affordances:
+      - type: LINE
+        through: diagonal_squares
+        color: blue
+  
+  - id: OUTPOST_KNIGHT
+    category: positional_idea
+    priority: 64
+    min_verbosity: 2
+    conditions:
+      - fact: knight_outpost
+        equals: true
+    confidence: 0.84
+    commentary:
+      label: good
+      templates:
+        - "The knight finds a strong outpost on {square}."
+        - "An ideal outpost square for the knight."
+        - "The knight claims an outpost, adding pressure with tempo."
+    affordances:
+      - type: HIGHLIGHT
+        squares: outpost_square
+        color: green
+      - type: SHOW_IDEA
+        idea: Takes Outpost
+  
+  - id: WEAK_SQUARE_CONTROL
+    category: positional_idea
+    priority: 63
+    min_verbosity: 3
+    conditions:
+      - fact: controls_weak_square
+        equals: true
+    confidence: 0.80
+    commentary:
+      label: good
+      templates:
+        - "Control over the weak {square} square."
+        - "Targeting the vulnerable {square}."
+    affordances:
+      - type: HIGHLIGHT
+        squares: weak_squares
+        color: yellow
+  
+  - id: DEVELOPMENT_LEAD
+    category: positional_idea
+    priority: 61
+    min_verbosity: 2
+    conditions:
+      - fact: development_advantage
+        min_value: 2
+      - fact: game_phase
+        equals: opening
+    confidence: 0.78
+    commentary:
+      label: good
+      templates:
+        - "A significant lead in development."
+        - "Piece development is ahead."
+    affordances: []
+  
+  - id: KING_SAFETY_ISSUE
+    category: positional_idea
+    priority: 68
+    min_verbosity: 2
+    conditions:
+      - fact: king_safety_score
+        max_value: 30
+      - fact: game_phase
+        not_equals: endgame
+    confidence: 0.83
+    commentary:
+      label: good
+      templates:
+        - "The king is exposed."
+        - "King safety is a concern."
+    affordances:
+      - type: HIGHLIGHT
+        squares: king_zone
+        color: red
+  
+  # =============================================================================
+  # PAWN STRUCTURE (Priority Tier: 40)
+  # =============================================================================
+  
+  - id: PASSED_PAWN_CREATED
+    category: pawn_structure
+    priority: 48
+    min_verbosity: 2
+    conditions:
+      - fact: passed_pawn_created
+        equals: true
+    confidence: 0.88
+    commentary:
+      label: excellent
+      templates:
+        - "A passed pawn is created on {square}!"
+        - "This creates a dangerous passed pawn."
+    affordances:
+      - type: PAWN_PATH
+        from: passed_pawn_square
+        to: promotion_square
+        color: green
+  
+  - id: PASSED_PAWN_ADVANCE
+    category: pawn_structure
+    priority: 47
+    min_verbosity: 2
+    conditions:
+      - fact: passed_pawn_advanced
+        equals: true
+    confidence: 0.86
+    commentary:
+      label: good
+      templates:
+        - "The passed pawn advances."
+        - "Pushing the passed pawn forward."
+        - "Passed pawns must be pushed!"
+        - "The passed pawn moves towards its goal."
+    affordances:
+      - type: PAWN_PATH
+        from: pawn_square
+        to: promotion_square
+        color: green
+  
+  - id: ISOLATED_PAWN_WEAKNESS
+    category: pawn_structure
+    priority: 42
+    min_verbosity: 3
+    conditions:
+      - fact: isolated_pawn
+        equals: true
+      - fact: isolated_pawn_attacked
+        equals: true
+    confidence: 0.79
+    commentary:
+      label: inaccuracy
+      templates:
+        - "The isolated pawn on {square} is a target."
+        - "Pressure on the isolated pawn."
+    affordances:
+      - type: HIGHLIGHT
+        squares: isolated_pawn_square
+        color: orange
+      - type: SHOW_IDEA
+        idea: Isolated Pawn
+  
+  - id: DOUBLED_PAWNS_CREATED
+    category: pawn_structure
+    priority: 41
+    min_verbosity: 3
+    conditions:
+      - fact: doubled_pawns_created
+        equals: true
+    confidence: 0.77
+    commentary:
+      label: inaccuracy
+      templates:
+        - "Doubled pawns on the {file}-file."
+        - "The pawn structure is weakened."
+        - "This forces the opponent to have isolated doubled pawns which ruins their structure."
+        - "You are forcing your opponent to have isolated doubled pawns."
+    affordances:
+      - type: HIGHLIGHT
+        squares: doubled_pawn_squares
+        color: orange
+  
+  - id: PAWN_CHAIN_STRONG
+    category: pawn_structure
+    priority: 43
+    min_verbosity: 3
+    conditions:
+      - fact: strong_pawn_chain
+        equals: true
+    confidence: 0.75
+    commentary:
+      label: good
+      templates:
+        - "A solid pawn chain."
+        - "The pawn structure is robust."
+        - "Creating the standard pawn chain."
+    affordances:
+      - type: HIGHLIGHT
+        squares: pawn_chain_squares
+        color: green
+  
+  # =============================================================================
+  # FILLER / GENERAL (Priority Tier: 20)
+  # =============================================================================
+  
+  - id: PIECE_DEVELOPMENT
+    category: filler
+    priority: 22
+    min_verbosity: 3
+    conditions:
+      - fact: piece_developed
+        equals: true
+      - fact: game_phase
+        equals: opening
+    confidence: 0.70
+    commentary:
+      label: good
+      templates:
+        - "Developing the {piece} to an active square."
+        - "Good development."
+        - "Developing and defending. A solid approach."
+    affordances: []
+  
+  - id: CASTLE_KINGSIDE
+    category: filler
+    priority: 24
+    min_verbosity: 2
+    conditions:
+      - fact: just_castled
+        equals: true
+      - fact: castle_side
+        equals: kingside
+    confidence: 0.72
+    commentary:
+      label: book
+      templates:
+        - "Castling kingside secures the king."
+        - "King safety achieved with kingside castling."
+        - "Castling kingside is a great way to protect your king and develop."
+        - "Castling kingside tends to be safer than queenside because the king is further from the center."
+    affordances: []
+  
+  - id: CASTLE_QUEENSIDE
+    category: filler
+    priority: 23
+    min_verbosity: 2
+    conditions:
+      - fact: just_castled
+        equals: true
+      - fact: castle_side
+        equals: queenside
+    confidence: 0.72
+    commentary:
+      label: book
+      templates:
+        - "Queenside castling - an aggressive choice."
+        - "Long castle completed."
+    affordances: []
+  
+  - id: TRADE_OFFER
+    category: filler
+    priority: 21
+    min_verbosity: 3
+    conditions:
+      - fact: tension.equal_trade_available
+        equals: true
+    confidence: 0.68
+    commentary:
+      label: good
+      templates:
+        - "An exchange is possible."
+        - "Pieces can be traded."
+    affordances: []
+  
+  - id: CENTRAL_CONTROL
+    category: filler
+    priority: 20
+    min_verbosity: 4
+    conditions:
+      - fact: center_control_advantage
+        min_value: 2
+    confidence: 0.65
+    commentary:
+      label: good
+      templates:
+        - "Good central control."
+        - "The center is well-controlled."
+    affordances:
+      - type: HIGHLIGHT
+        squares: ["d4", "d5", "e4", "e5"]
+        color: blue
+
+  # =============================================================================
+  # CHESS.COM-STYLE PATTERNS (Priority Tier: 50-78)
+  # Extracted from Firouzja vs Magnus and additional game data
+  # =============================================================================
+  
+  # ROOK COORDINATION
+  - id: ROOKS_CONNECTED
+    category: positional_idea
+    priority: 60
+    min_verbosity: 2
+    conditions:
+      - fact: rooks_connected
+        equals: true
+    confidence: 0.82
+    commentary:
+      label: good
+      templates:
+        - "This connects the rooks, which helps them work together."
+        - "The rooks are now linked and ready to coordinate."
+    affordances: []
+  
+  # PIECE ACTIVITY IMPROVED
+  - id: PIECE_ACTIVITY_IMPROVED
+    category: positional_idea
+    priority: 59
+    min_verbosity: 2
+    conditions:
+      - fact: piece_activity_improved
+        equals: true
+    confidence: 0.80
+    commentary:
+      label: good
+      templates:
+        - "{color}'s piece has moved to a square with greater activity and control."
+        - "The piece finds a new, active square."
+        - "This moves the {piece} to a more active square, making it gain scope."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Activate Piece
+  
+  # KICKING PIECE
+  - id: KICKING_PIECE
+    category: tactical_motif
+    priority: 72
+    min_verbosity: 1
+    conditions:
+      - fact: threatens_piece_must_move
+        equals: true
+    confidence: 0.85
+    commentary:
+      label: excellent
+      templates:
+        - "This threatens to kick a {target_piece}."
+        - "This kicks a {target_piece}."
+        - "The {target_piece} is kicked by this move."
+        - "With that move you chased the {target_piece} away."
+        - "Your opponent attacks your {target_piece}, kicking it out of its current position."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Kicking Piece
+  
+  # EQUAL TRADE
+  - id: EQUAL_TRADE
+    category: positional_idea
+    priority: 55
+    min_verbosity: 2
+    conditions:
+      - fact: is_capture
+        equals: true
+      - fact: capture_value_delta
+        min_value: -100
+        max_value: 100
+    confidence: 0.82
+    commentary:
+      label: good
+      templates:
+        - "This is an equal trade."
+        - "After all captures, this is an equal trade."
+        - "This maintains the balance in material with a good trade."
+        - "They exchange pieces of equal value."
+        - "This is a fair trade."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Trade
+  
+  # RECAPTURE
+  - id: RECAPTURE
+    category: positional_idea
+    priority: 54
+    min_verbosity: 2
+    conditions:
+      - fact: is_recapture
+        equals: true
+    confidence: 0.80
+    commentary:
+      label: good
+      templates:
+        - "Recaptures, from a previous move."
+        - "A straightforward recapture."
+        - "A solid recapture, bringing a new piece into play."
+        - "A clear recapture."
+        - "A logical capture."
+        - "You recaptured the piece."
+        - "Good recapture choice, bringing a new piece into the game."
+    affordances: []
+  
+  # ROOK TAKES OPEN FILE
+  - id: ROOK_TAKES_FILE
+    category: positional_idea
+    priority: 67
+    min_verbosity: 1
+    conditions:
+      - fact: rook_takes_open_file
+        equals: true
+    confidence: 0.87
+    commentary:
+      label: excellent
+      templates:
+        - "This takes an open file, a common method for activating a rook."
+        - "Taking an open file with a rook."
+        - "A great way to control the open file with your rook."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Takes File
+  
+  # QUEEN SAFE RETREAT
+  - id: QUEEN_RETREAT
+    category: positional_idea
+    priority: 50
+    min_verbosity: 2
+    conditions:
+      - fact: queen_retreated_to_safety
+        equals: true
+    confidence: 0.78
+    commentary:
+      label: good
+      templates:
+        - "This move puts the queen on a safer square."
+        - "The correct move to safety."
+        - "The clearly correct move for a threatened queen."
+        - "The queen moves to a safer square."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Retreat
+  
+  # BLOCKS CHECK
+  - id: BLOCKS_CHECK
+    category: tactical_motif
+    priority: 76
+    min_verbosity: 1
+    conditions:
+      - fact: blocks_check
+        equals: true
+    confidence: 0.92
+    commentary:
+      label: best
+      templates:
+        - "This blocks the check from an opposing {checking_piece}."
+        - "Blocking the check."
+        - "They blocked the check from your {checking_piece}."
+    affordances: []
+  
+  # EVADES CHECK - KING MOVE
+  - id: EVADES_CHECK
+    category: tactical_motif
+    priority: 75
+    min_verbosity: 1
+    conditions:
+      - fact: king_evades_check
+        equals: true
+    confidence: 0.92
+    commentary:
+      label: best
+      templates:
+        - "This evades the check from the {checking_piece}."
+        - "This steps away from the checking {checking_piece}."
+        - "You dodge the check, moving your king out of harm's way."
+        - "They move their king out of the check."
+        - "Your king steps away from the check."
+    affordances: []
+  
+  # DEFENDS ATTACKED PIECE
+  - id: DEFENDS_PIECE
+    category: positional_idea
+    priority: 58
+    min_verbosity: 2
+    conditions:
+      - fact: defends_attacked_piece
+        equals: true
+    confidence: 0.82
+    commentary:
+      label: good
+      templates:
+        - "This defends a {defended_piece} that was under attack and had no defenders."
+        - "This defends the attacked {defended_piece}."
+        - "This protects the attacked {defended_piece}."
+        - "Defending their hanging {defended_piece}."
+        - "Good job defending that {defended_piece}."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Defensive Move
+  
+  # FREE PIECE CAPTURED
+  - id: FREE_PIECE_CAPTURED
+    category: tactical_motif
+    priority: 78
+    min_verbosity: 1
+    conditions:
+      - fact: captured_hanging_piece
+        equals: true
+    confidence: 0.90
+    commentary:
+      label: best
+      templates:
+        - "That {captured_piece} was free for the taking."
+        - "Right on target."
+        - "You captured a free {captured_piece}."
+        - "That {captured_piece} was yours for the taking!"
+        - "They took your {captured_piece} for free."
+    affordances:
+      - type: SHOW_TACTIC
+        line_source: engine_pv
+      - type: SHOW_IDEA
+        idea: Free Piece
+  
+  # PAWN ATTACKS CHAIN
+  - id: ATTACKS_PAWN_CHAIN
+    category: tactical_motif
+    priority: 69
+    min_verbosity: 2
+    conditions:
+      - fact: attacks_pawn_chain
+        equals: true
+    confidence: 0.83
+    commentary:
+      label: excellent
+      templates:
+        - "This attacks the opponent's pawn chain."
+        - "Attacking the base of the pawn chain."
+        - "This strikes at the center with a pawn, trying to gain space."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Attack Pawn Chain
+  
+  # VERY PRECISE MOVE
+  - id: VERY_PRECISE
+    category: forced_outcome
+    priority: 89
+    min_verbosity: 1
+    conditions:
+      - fact: only_good_move
+        equals: true
+      - fact: engine_cp_delta
+        max_value: 20
+    confidence: 0.88
+    commentary:
+      label: best
+      templates:
+        - "Very precise!"
+        - "Right on target."
+        - "This is the strongest option."
+        - "Nice! Definitely the right move."
+        - "Precise move!"
+    affordances:
+      - type: SHOW_FOLLOW_UP
+        line_source: engine_pv
+  
+  # FORCES DOUBLED PAWNS
+  - id: FORCES_DOUBLED_PAWNS
+    category: tactical_motif
+    priority: 70
+    min_verbosity: 2
+    conditions:
+      - fact: forces_doubled_pawns
+        equals: true
+    confidence: 0.84
+    commentary:
+      label: excellent
+      templates:
+        - "This forces the opponent to double pawns."
+        - "This creates doubled pawns for the opponent."
+        - "You are forcing your opponent to have isolated doubled pawns."
+    affordances: []
+  
+  # OFFERS TRADE
+  - id: OFFERS_TRADE
+    category: positional_idea
+    priority: 53
+    min_verbosity: 2
+    conditions:
+      - fact: offers_equal_exchange
+        equals: true
+    confidence: 0.78
+    commentary:
+      label: good
+      templates:
+        - "This offers to exchange pieces of equal value."
+        - "This offers an equal trade of pieces."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Trade
+  
+  # IMMOBILIZES PINNED PIECE
+  - id: IMMOBILIZES_PIECE
+    category: tactical_motif
+    priority: 71
+    min_verbosity: 2
+    conditions:
+      - fact: creates_pin
+        equals: true
+    confidence: 0.86
+    commentary:
+      label: excellent
+      templates:
+        - "This immobilizes the {pinned_piece} by pinning it to the {pin_target}."
+        - "The {pinned_piece} is now pinned."
+    affordances:
+      - type: LINE
+        through: pin_line
+        color: orange
+      - type: SHOW_IDEA
+        idea: Pin
+  
+  # CONTINUES CHECKMATE THREAT
+  - id: CONTINUES_MATE_THREAT
+    category: forced_outcome
+    priority: 92
+    min_verbosity: 0
+    conditions:
+      - fact: continues_mate_threat
+        equals: true
+    confidence: 0.95
+    commentary:
+      label: best
+      templates:
+        - "This continues the checkmate threat."
+        - "The mating net tightens."
+        - "This threatens to force eventual checkmate."
+    affordances:
+      - type: SHOW_CHECKMATE
+        line_source: engine_pv
+  
+  # PUSHING PASSED PAWN
+  - id: PUSHING_PASSED_PAWN
+    category: pawn_structure
+    priority: 49
+    min_verbosity: 2
+    conditions:
+      - fact: passed_pawn_pushed
+        equals: true
+    confidence: 0.85
+    commentary:
+      label: good
+      templates:
+        - "Pushing a passed pawn."
+        - "The passed pawn moves towards its goal."
+        - "Passed pawns must be pushed!"
+    affordances:
+      - type: PAWN_PATH
+        from: pawn_square
+        to: promotion_square
+        color: green
+  
+  # TAKES OUTPOST
+  - id: TAKES_OUTPOST
+    category: positional_idea
+    priority: 64
+    min_verbosity: 2
+    conditions:
+      - fact: piece_occupies_outpost
+        equals: true
+    confidence: 0.83
+    commentary:
+      label: excellent
+      templates:
+        - "This threatens to take an outpost with a {piece}."
+        - "A strong outpost is occupied."
+        - "A strong move, occupying an outpost square and keeping the initiative."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Takes Outpost
+        
+  # AVOIDS DANGER
+  - id: AVOIDS_DANGER
+    category: positional_idea
+    priority: 51
+    min_verbosity: 2
+    conditions:
+      - fact: piece_escapes_attack
+        equals: true
+    confidence: 0.77
+    commentary:
+      label: good
+      templates:
+        - "This avoids clear danger."
+        - "The piece moves to safety."
+        - "A good choice to move your threatened piece."
+        - "You found a safer square for your piece."
+    affordances: []
+  
+  # GREAT MOVE - ONLY MOVE THAT WORKS
+  - id: GREAT_MOVE_ONLY_WORKS
+    category: forced_outcome
+    priority: 91
+    min_verbosity: 0
+    conditions:
+      - fact: only_move
+        equals: true
+      - fact: is_critical_position
+        equals: true
+    confidence: 0.94
+    commentary:
+      label: brilliant
+      templates:
+        - "This is the only move that works!"
+        - "This is the only good move!"
+        - "A good use of time, thinking and finding the only good move in the position."
+    affordances:
+      - type: SHOW_FOLLOW_UP
+        line_source: engine_pv
+  
+  # FAIR MOVE - NOT BEST BUT OK
+  - id: FAIR_MOVE
+    category: filler
+    priority: 19
+    min_verbosity: 3
+    conditions:
+      - fact: engine_cp_delta
+        min_value: -50
+        max_value: 50
+      - fact: is_not_best_move
+        equals: true
+    confidence: 0.65
+    commentary:
+      label: good
+      templates:
+        - "This is a fair move."
+        - "That's fine."
+        - "A solid choice."
+        - "Decent move, but there was a better one."
+        - "This move is ok - but not what I would have played."
+        - "That's not a mistake, but not the best move either."
+        - "That's playable."
+    affordances: []
+  
+  # STRONG PLAY
+  - id: STRONG_PLAY
+    category: filler
+    priority: 25
+    min_verbosity: 2
+    conditions:
+      - fact: in_top_three_moves
+        equals: true
+    confidence: 0.72
+    commentary:
+      label: excellent
+      templates:
+        - "A very strong play."
+        - "One of the best moves."
+        - "A solid choice."
+        - "Very good choice!"
+    affordances: []
+  
+  # PREVENTS TACTIC
+  - id: PREVENTS_TACTIC
+    category: tactical_motif
+    priority: 73
+    min_verbosity: 2
+    conditions:
+      - fact: prevents_opponent_tactic
+        equals: true
+    confidence: 0.84
+    commentary:
+      label: good
+      templates:
+        - "This prevents the opponent from being able to {prevented_idea}."
+        - "You prevented your opponent from being able to {prevented_idea}."
+        - "This stops the opponent from being able to {prevented_idea}."
+    affordances:
+      - type: SHOW_TACTIC
+        line_source: prevented_line
+
+  # OPENING BOOK MOVE
+  - id: BOOK_MOVE_STANDARD
+    category: filler
+    priority: 26
+    min_verbosity: 2
+    conditions:
+      - fact: is_book_move
+        equals: true
+    confidence: 0.75
+    commentary:
+      label: book
+      templates:
+        - "This is a book move - meaning it follows established opening theory, played by top players for years."
+        - "Textbook play so far."
+        - "Good move. Textbook play so far."
+    affordances: []
+  
+  # GRABBING CENTER
+  - id: GRABBING_CENTER
+    category: positional_idea
+    priority: 57
+    min_verbosity: 2
+    conditions:
+      - fact: pawn_to_center
+        equals: true
+      - fact: game_phase
+        equals: opening
+    confidence: 0.80
+    commentary:
+      label: book
+      templates:
+        - "Grabbing the center. A textbook way of starting the game."
+        - "Grabbing the center is a great way to respond."
+        - "Taking full control of the center."
+        - "This is the most popular starting move in chess."
+    affordances: []
+  
+  # PREPARES DEVELOPMENT
+  - id: PREPARES_DEVELOPMENT
+    category: positional_idea
+    priority: 52
+    min_verbosity: 2
+    conditions:
+      - fact: prepares_piece_development
+        equals: true
+    confidence: 0.76
+    commentary:
+      label: good
+      templates:
+        - "This prepares the {piece} for development."
+        - "This move clears the way to bring the {piece} into the game."
+        - "This move activates your {piece} to strengthen control over the center."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Develops
+  
+  # THREATENS WIN OF MATERIAL
+  - id: THREATENS_MATERIAL
+    category: tactical_motif
+    priority: 74
+    min_verbosity: 1
+    conditions:
+      - fact: threatens_winning_capture
+        equals: true
+    confidence: 0.86
+    commentary:
+      label: excellent
+      templates:
+        - "This threatens to capture a {target_piece} and win material after the follow-up trades."
+        - "This threatens to win material."
+        - "This will win a {target_piece} with correct play."
+    affordances:
+      - type: SHOW_TACTIC
+        line_source: engine_pv
+  
+  # GIVES UP PIECE BUT OK
+  - id: GIVES_UP_PIECE_OK
+    category: positional_idea
+    priority: 45
+    min_verbosity: 2
+    conditions:
+      - fact: sacrifices_piece
+        equals: true
+      - fact: engine_still_winning
+        equals: true  
+    confidence: 0.74
+    commentary:
+      label: good
+      templates:
+        - "You give up a {sacrificed_piece} with this move, but your winning advantage is still secure."
+        - "A sacrifice that maintains the advantage."
+    affordances: []
+  
+  # MISSED OPPORTUNITY
+  - id: MISSED_OPPORTUNITY
+    category: forced_outcome
+    priority: 85
+    min_verbosity: 1
+    conditions:
+      - fact: missed_winning_move
+        equals: true
+    confidence: 0.88
+    commentary:
+      label: mistake
+      templates:
+        - "There was only one good move there and you did not spend enough time trying to find it."
+        - "You had an opportunity but didn't catch it."
+        - "They overlooked the critical move, not spending enough time to spot it."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Missed Opportunity
+  
+  # KING ACTIVATES IN ENDGAME
+  - id: KING_ACTIVATES_ENDGAME
+    category: positional_idea
+    priority: 56
+    min_verbosity: 2
+    conditions:
+      - fact: king_activated
+        equals: true
+      - fact: game_phase
+        equals: endgame
+    confidence: 0.81
+    commentary:
+      label: good
+      templates:
+        - "This activates the king in the endgame by getting it off of the back rank."
+        - "The king becomes an active piece in the endgame."
+    affordances: []
+  
+  # ALL PIECES DEVELOPED
+  - id: ALL_PIECES_DEVELOPED
+    category: positional_idea
+    priority: 55
+    min_verbosity: 2
+    conditions:
+      - fact: all_pieces_developed
+        equals: true
+    confidence: 0.79
+    commentary:
+      label: good
+      templates:
+        - "With the rook now developed as well, all pieces ready for action."
+        - "All pieces are now in the game."
+    affordances: []
+  
+  # REMOVES DANGEROUS PASSER
+  - id: REMOVES_PASSER
+    category: pawn_structure
+    priority: 46
+    min_verbosity: 2
+    conditions:
+      - fact: captures_passed_pawn
+        equals: true
+    confidence: 0.83
+    commentary:
+      label: good
+      templates:
+        - "Successfully removes the opponent's passer."
+        - "The passed pawn is eliminated, removing a future threat."
+    affordances: []
+  
+  # THREATENS EVENTUALLY WIN ROOK
+  - id: THREATENS_WIN_ROOK
+    category: tactical_motif
+    priority: 68
+    min_verbosity: 2
+    conditions:
+      - fact: threatens_win_exchange
+        equals: true
+    confidence: 0.82
+    commentary:
+      label: excellent
+      templates:
+        - "This threatens to eventually win a rook."
+        - "This threatens to tactically win a rook."
+    affordances:
+      - type: SHOW_TACTIC
+        line_source: engine_pv
+  
+  # REMOVE ATTACKER
+  - id: REMOVE_ATTACKER
+    category: tactical_motif
+    priority: 69
+    min_verbosity: 2
+    conditions:
+      - fact: removes_attacking_piece
+        equals: true
+    confidence: 0.82
+    commentary:
+      label: good
+      templates:
+        - "Capturing the piece that was threatening to win material."
+        - "Removing the attacker."
+    affordances:
+      - type: SHOW_IDEA
+        idea: Remove Attacker

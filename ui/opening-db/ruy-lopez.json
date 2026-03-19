@@ -1,0 +1,723 @@
+{
+  "id": "ruy-lopez",
+  "name": "Ruy Lopez",
+  "opening": "Ruy Lopez",
+  "generatedAt": "2025-12-10T18:37:59.950Z",
+  "lines": [
+    {
+      "id": "ruy-lopez-eco-0-qjxwj4",
+      "name": "Ruy Lopez",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-1-sl9d54",
+      "name": "KGA: bishop's gambit, Ruy Lopez defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-2-i8lmjk",
+      "name": "Ruy Lopez: Nuernberg variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "f6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-3-2u9k8i",
+      "name": "Ruy Lopez: Pollock defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Na5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-4-2u9bfo",
+      "name": "Ruy Lopez: Lucena defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Be7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-5-2u9mk3",
+      "name": "Ruy Lopez: Vinogradov variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Qe7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-6-i8lmiq",
+      "name": "Ruy Lopez: Brentano defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "g5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-7-i8lmip",
+      "name": "Ruy Lopez: fianchetto (Smyslov/Barnes) defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-8-h14izf",
+      "name": "Ruy Lopez: Cozio defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Nge7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-9-2u9kb2",
+      "name": "Ruy Lopez: Bird's defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Nd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-10-i8lmla",
+      "name": "Ruy Lopez: old Steinitz defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "d6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-11-i8lmjl",
+      "name": "Ruy Lopez: Schliemann defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "f5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-12-2u9bdw",
+      "name": "Ruy Lopez: classical (Cordel) defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Bc5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-13-2u9kcu",
+      "name": "Ruy Lopez: Berlin defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-14-ptmjow",
+      "name": "Four knights: Spanish variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-15-v3enlr",
+      "name": "Ruy Lopez: Schliemann defence, Berger variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "f5",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-16-ukex3o",
+      "name": "Ruy Lopez: classical defence, 4.c3",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Bc5",
+        "c3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-17-twkv2b",
+      "name": "Ruy Lopez: Berlin defence, 4.O-O",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "Nf6",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-18-wutydu",
+      "name": "Ruy Lopez: exchange variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "a6",
+        "Bxc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "ruy-lopez-eco-19-v0o2og",
+      "name": "Ruy Lopez",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Bb5",
+        "a6",
+        "Ba4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

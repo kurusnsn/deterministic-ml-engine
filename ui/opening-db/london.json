@@ -1,0 +1,246 @@
+{
+  "id": "london",
+  "name": "London System",
+  "opening": "London System",
+  "generatedAt": "2025-12-10T18:37:59.950Z",
+  "lines": [
+    {
+      "id": "london-eco-0-82913g",
+      "name": "London System",
+      "moves": [
+        "d4",
+        "d5",
+        "Nf3",
+        "Nf6",
+        "Bf4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "london-eco-1-p3fjes",
+      "name": "King's Indian: East Indian defence",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "london-eco-2-rgmzq1",
+      "name": "Queen's pawn game, Chigorin variation",
+      "moves": [
+        "d4",
+        "d5",
+        "Nf3",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "london-eco-3-3p30lo",
+      "name": "Queen's pawn game, Krause variation",
+      "moves": [
+        "d4",
+        "d5",
+        "Nf3",
+        "c5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "london-eco-4-rgmzng",
+      "name": "Queen's pawn game",
+      "moves": [
+        "d4",
+        "d5",
+        "Nf3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "london-eco-5-ehksgc",
+      "name": "King's Indian: Torre attack",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6",
+        "Bg5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "london-eco-6-ehksh8",
+      "name": "King's Indian: London system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6",
+        "Bf4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "london-eco-7-2amja2",
+      "name": "Queen's pawn game",
+      "moves": [
+        "d4",
+        "d5",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

@@ -1,0 +1,914 @@
+{
+  "opening": "fred",
+  "openingId": "fred",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "fred-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "f5"
+      ],
+      "eco": "B00"
+    },
+    {
+      "id": "fred-exf5-d5-qh5--g6-fxg6-hxg6-vvk589",
+      "name": "Nf6 Line",
+      "moves": [
+        "exf5",
+        "d5",
+        "Qh5+",
+        "g6",
+        "fxg6",
+        "hxg6",
+        "Qxh8",
+        "Nf6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2905074,
+          200243,
+          57461,
+          22160,
+          22078,
+          2216,
+          1947,
+          1008
+        ],
+        "winrates": [
+          53.35633446858841,
+          56.16326163711091,
+          65.42959572579663,
+          69.38402527075812,
+          69.51490171211161,
+          74.77436823104694,
+          75.96302003081664,
+          70.98214285714286
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-d6-qh5--g6-fxg6-hxg6-bnws9",
+      "name": "Qxh8 Line",
+      "moves": [
+        "exf5",
+        "d6",
+        "Qh5+",
+        "g6",
+        "fxg6",
+        "hxg6",
+        "Qxh8"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2905074,
+          101922,
+          26098,
+          7754,
+          7720,
+          922,
+          808
+        ],
+        "winrates": [
+          53.35633446858841,
+          56.77773199113047,
+          62.477967660357116,
+          70.22826928037142,
+          70.27849740932642,
+          76.19305856832972,
+          78.34158415841584
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-e6-qh5--g6-fxg6-hxg6-yodprs",
+      "name": "After fxg6 hxg6 Qxh8",
+      "moves": [
+        "exf5",
+        "e6",
+        "Qh5+",
+        "g6",
+        "fxg6",
+        "hxg6",
+        "Qxh8"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2905074,
+          38558,
+          9268,
+          4392,
+          4372,
+          797,
+          664
+        ],
+        "winrates": [
+          53.35633446858841,
+          61.48918512370973,
+          71.52028485110056,
+          78.29007285974498,
+          78.46523330283624,
+          86.70012547051444,
+          87.80120481927712
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-e5-qh5--g6-fxg6-hxg6-5oso79",
+      "name": "hxg6 Line",
+      "moves": [
+        "exf5",
+        "e5",
+        "Qh5+",
+        "g6",
+        "fxg6",
+        "hxg6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2905074,
+          29736,
+          7159,
+          2834,
+          2819,
+          569
+        ],
+        "winrates": [
+          53.35633446858841,
+          61.08252623083131,
+          70.72915211621735,
+          78.47565278757939,
+          78.59169918410784,
+          84.79789103690686
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nc6-qh5--g6-fxg6-hxg6-2zd7jq",
+      "name": "Qxg6 Line",
+      "moves": [
+        "exf5",
+        "Nc6",
+        "Qh5+",
+        "g6",
+        "fxg6",
+        "hxg6",
+        "Qxg6#"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2905074,
+          24303,
+          6207,
+          5881,
+          5831,
+          1072,
+          631
+        ],
+        "winrates": [
+          53.35633446858841,
+          61.81335637575608,
+          80.29643950378605,
+          79.20421696990307,
+          79.35174069627851,
+          92.67723880597015,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-g5-qh5--gnbekn",
+      "name": "Qh5 Line",
+      "moves": [
+        "exf5",
+        "g5",
+        "Qh5#"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2905074,
+          11386,
+          4866
+        ],
+        "winrates": [
+          53.35633446858841,
+          96.02582118391007,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-h5-d4-d5-bd3-4i1y3n",
+      "name": "Bd3 Line",
+      "moves": [
+        "exf5",
+        "h5",
+        "d4",
+        "d5",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2905074,
+          6547,
+          1361,
+          1076,
+          659
+        ],
+        "winrates": [
+          53.35633446858841,
+          58.156407514892315,
+          65.356355620867,
+          65.47397769516728,
+          67.83004552352048
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-b6-qh5--g6-fxg6-nf6-aiv2u",
+      "name": "gxh8=Q Line",
+      "moves": [
+        "exf5",
+        "b6",
+        "Qh5+",
+        "g6",
+        "fxg6",
+        "Nf6",
+        "g7+",
+        "Nxh5",
+        "gxh8=Q"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2905074,
+          4264,
+          1189,
+          1075,
+          1064,
+          671,
+          513,
+          501,
+          500
+        ],
+        "winrates": [
+          53.35633446858841,
+          70.03986866791745,
+          87.13204373423045,
+          85.76744186046513,
+          85.90225563909775,
+          82.11624441132638,
+          87.32943469785575,
+          87.12574850299401,
+          87.1
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-nd5-y5gjms",
+      "name": "Nd5 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "Nd5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          1051
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          71.12274024738345
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-g4-nc6-g5-g2x5y8",
+      "name": "g5 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "g4",
+        "Nc6",
+        "g5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2905074,
+          2046127,
+          163678,
+          1158,
+          878
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.2945417221618,
+          72.279792746114,
+          79.78359908883826
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-be2-nc6-bh5--g6-5z5wwe",
+      "name": "fxg6 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "Be2",
+        "Nc6",
+        "Bh5+",
+        "g6",
+        "fxg6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2905074,
+          2046127,
+          88790,
+          762,
+          814,
+          546,
+          547
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          59.09111386417389,
+          76.31233595800525,
+          78.00982800982801,
+          74.45054945054946,
+          74.6800731261426
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-d5-bd3-bxf5-m402u4",
+      "name": "Nf3 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "d5",
+        "Bd3",
+        "Bxf5",
+        "Bxf5",
+        "Qd6",
+        "Nf3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          485867,
+          277654,
+          5683,
+          5941,
+          889,
+          501
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          55.27129852408169,
+          58.66005892225575,
+          71.61710364244237,
+          71.99966335633732,
+          70.3037120359955,
+          71.35728542914171
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-d6-bd3-bxf5-77zlbv",
+      "name": "e6 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "d6",
+        "Bd3",
+        "Bxf5",
+        "Bxf5",
+        "e6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          49251,
+          33723,
+          929,
+          2853,
+          708
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          60.25765974294938,
+          62.17714912670878,
+          74.32723358449947,
+          76.32316859446196,
+          74.85875706214689
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-c5-bd3-cxd4-bfvj7r",
+      "name": "After Bd3 cxd4 Nf3",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "c5",
+        "Bd3",
+        "cxd4",
+        "Nf3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          9897,
+          827,
+          652,
+          527
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          57.51237748812772,
+          59.91535671100363,
+          61.50306748466258,
+          61.66982922201139
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-e5-dxe5-ng8-nnyw6o",
+      "name": "Ng8 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "e5",
+        "dxe5",
+        "Ng8"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          4608,
+          2862,
+          962
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          68.06640625,
+          74.02166317260657,
+          79.20997920997921
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-nc6-be2-b1qwrk",
+      "name": "Be2 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "Nc6",
+        "Be2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          4496,
+          668
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          60.42037366548043,
+          66.69161676646706
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-b6-bg5-bb7-7n6vm7",
+      "name": "Bxf6 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "b6",
+        "Bg5",
+        "Bb7",
+        "Bxf6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          4302,
+          849,
+          590,
+          529
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          66.51557415155742,
+          68.90459363957598,
+          67.79661016949152,
+          69.84877126654064
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-g6-fxg6-hxg6-8j7ryn",
+      "name": "After Bd3 Kf7 Nf3",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "g6",
+        "fxg6",
+        "hxg6",
+        "Bd3",
+        "Kf7",
+        "Nf3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          2240,
+          3021,
+          2511,
+          2048,
+          904,
+          803
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          64.53125,
+          65.9053293611387,
+          67.12465153325368,
+          68.9208984375,
+          67.64380530973452,
+          69.24034869240349
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-c6-bd3-d5-n2ivae",
+      "name": "O-O Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "c6",
+        "Bd3",
+        "d5",
+        "Nf3",
+        "Nbd7",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          1873,
+          1599,
+          1028,
+          4572,
+          1570,
+          905
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          61.58569140416444,
+          66.04127579737336,
+          67.55836575875487,
+          66.91819772528433,
+          69.68152866242038,
+          68.1767955801105
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-h5-bd3-op8k24",
+      "name": "After d4 h5 Bd3",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "h5",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          1259,
+          665
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          66.20333598093725,
+          67.89473684210526
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-d5-bd3-nc6-11s1l3",
+      "name": "b6 Line",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "d5",
+        "Bd3",
+        "Nc6",
+        "Nf3",
+        "b6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          485867,
+          277654,
+          83010,
+          32071,
+          544
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          55.27129852408169,
+          58.66005892225575,
+          59.67413564630767,
+          60.77764958997225,
+          71.96691176470588
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-d5-bd3-e6-8y2blw",
+      "name": "After fxe6 O-O Nf3",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "d5",
+        "Bd3",
+        "e6",
+        "Qe2",
+        "Be7",
+        "fxe6",
+        "O-O",
+        "Nf3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          485867,
+          277654,
+          70211,
+          2572,
+          777,
+          711,
+          982,
+          709
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          55.27129852408169,
+          58.66005892225575,
+          57.986640270043154,
+          61.58631415241057,
+          64.02831402831403,
+          64.9789029535865,
+          64.30753564154786,
+          64.38645980253878
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "fred-exf5-nf6-d4-d5-bd3-c6-nludlu",
+      "name": "After Nf3 Nbd7 O-O",
+      "moves": [
+        "exf5",
+        "Nf6",
+        "d4",
+        "d5",
+        "Bd3",
+        "c6",
+        "Nf3",
+        "Nbd7",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2905074,
+          2046127,
+          537948,
+          485867,
+          277654,
+          7764,
+          4572,
+          1570,
+          905
+        ],
+        "winrates": [
+          53.35633446858841,
+          51.902350147376,
+          55.44876084677329,
+          55.27129852408169,
+          58.66005892225575,
+          64.6187532199897,
+          66.91819772528433,
+          69.68152866242038,
+          68.1767955801105
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:37:58.840Z"
+}

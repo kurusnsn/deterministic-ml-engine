@@ -1,0 +1,6121 @@
+{
+  "components": {
+    "schemas": {
+      "AddOpeningsFromCatalogRequest": {
+        "properties": {
+          "openings": {
+            "items": {
+              "$ref": "#/components/schemas/CatalogOpening"
+            },
+            "title": "Openings",
+            "type": "array"
+          }
+        },
+        "required": [
+          "openings"
+        ],
+        "title": "AddOpeningsFromCatalogRequest",
+        "type": "object"
+      },
+      "AddOpeningsFromRepertoireRequest": {
+        "properties": {
+          "eco_codes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Eco Codes",
+            "type": "array"
+          },
+          "source_repertoire_id": {
+            "title": "Source Repertoire Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_repertoire_id",
+          "eco_codes"
+        ],
+        "title": "AddOpeningsFromRepertoireRequest",
+        "type": "object"
+      },
+      "CatalogOpening": {
+        "properties": {
+          "color": {
+            "title": "Color",
+            "type": "string"
+          },
+          "eco": {
+            "title": "Eco",
+            "type": "string"
+          },
+          "name": {
+            "default": "",
+            "title": "Name",
+            "type": "string"
+          }
+        },
+        "required": [
+          "eco",
+          "color"
+        ],
+        "title": "CatalogOpening",
+        "type": "object"
+      },
+      "CheckoutRequest": {
+        "properties": {
+          "billing_cycle": {
+            "enum": [
+              "monthly",
+              "annual"
+            ],
+            "title": "Billing Cycle",
+            "type": "string"
+          },
+          "cancel_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Cancel Url"
+          },
+          "plan": {
+            "enum": [
+              "basic",
+              "plus"
+            ],
+            "title": "Plan",
+            "type": "string"
+          },
+          "success_url": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Success Url"
+          }
+        },
+        "required": [
+          "plan",
+          "billing_cycle"
+        ],
+        "title": "CheckoutRequest",
+        "type": "object"
+      },
+      "CheckoutResponse": {
+        "properties": {
+          "checkout_url": {
+            "title": "Checkout Url",
+            "type": "string"
+          },
+          "session_id": {
+            "title": "Session Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "checkout_url",
+          "session_id"
+        ],
+        "title": "CheckoutResponse",
+        "type": "object"
+      },
+      "CreateShareClipRequest": {
+        "properties": {
+          "primary_move_index": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Primary Move Index"
+          },
+          "show_move_classification": {
+            "default": true,
+            "title": "Show Move Classification",
+            "type": "boolean"
+          },
+          "show_threat_arrows": {
+            "default": true,
+            "title": "Show Threat Arrows",
+            "type": "boolean"
+          }
+        },
+        "title": "CreateShareClipRequest",
+        "type": "object"
+      },
+      "DateRange": {
+        "description": "Date range for analysis",
+        "properties": {
+          "end_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "End date (ISO format)",
+            "title": "End Date"
+          },
+          "start_date": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Start date (ISO format)",
+            "title": "Start Date"
+          }
+        },
+        "title": "DateRange",
+        "type": "object"
+      },
+      "GameAnalysisRequest": {
+        "properties": {
+          "black_elo": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Black Elo"
+          },
+          "depth": {
+            "default": 12,
+            "title": "Depth",
+            "type": "integer"
+          },
+          "pgn": {
+            "title": "Pgn",
+            "type": "string"
+          },
+          "white_elo": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "White Elo"
+          }
+        },
+        "required": [
+          "pgn"
+        ],
+        "title": "GameAnalysisRequest",
+        "type": "object"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "title": "Detail",
+            "type": "array"
+          }
+        },
+        "title": "HTTPValidationError",
+        "type": "object"
+      },
+      "Highlight": {
+        "description": "A highlight-worthy moment from analyzed games.",
+        "properties": {
+          "cp_change": {
+            "description": "Centipawn change in pawns",
+            "title": "Cp Change",
+            "type": "number"
+          },
+          "description": {
+            "description": "Natural language description",
+            "title": "Description",
+            "type": "string"
+          },
+          "eco": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "ECO code if available",
+            "title": "Eco"
+          },
+          "fen_before": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "FEN before the move",
+            "title": "Fen Before"
+          },
+          "game_id": {
+            "description": "Game identifier",
+            "title": "Game Id",
+            "type": "string"
+          },
+          "motifs": {
+            "description": "Tactical motifs triggered",
+            "items": {
+              "type": "string"
+            },
+            "title": "Motifs",
+            "type": "array"
+          },
+          "move": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Move in SAN notation",
+            "title": "Move"
+          },
+          "ply": {
+            "description": "Move ply where highlight occurred",
+            "title": "Ply",
+            "type": "integer"
+          },
+          "related_puzzles": {
+            "description": "Related puzzle IDs",
+            "items": {
+              "type": "string"
+            },
+            "title": "Related Puzzles",
+            "type": "array"
+          },
+          "type": {
+            "enum": [
+              "brilliant",
+              "comeback",
+              "save",
+              "perfect_opening",
+              "tactical_sequence"
+            ],
+            "title": "Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "type",
+          "game_id",
+          "ply",
+          "cp_change",
+          "description"
+        ],
+        "title": "Highlight",
+        "type": "object"
+      },
+      "ImportRequest": {
+        "description": "Request for importing games before analysis",
+        "example": {
+          "max_games": 100,
+          "platform": "lichess.org",
+          "rated": true,
+          "time_control": "blitz",
+          "username": "player123"
+        },
+        "properties": {
+          "max_games": {
+            "default": 100,
+            "description": "Maximum games to import",
+            "maximum": 1000.0,
+            "minimum": 1.0,
+            "title": "Max Games",
+            "type": "integer"
+          },
+          "platform": {
+            "description": "Platform: lichess.org or chess.com",
+            "title": "Platform",
+            "type": "string"
+          },
+          "rated": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Rated games filter",
+            "title": "Rated"
+          },
+          "time_control": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Time control filter",
+            "title": "Time Control"
+          },
+          "username": {
+            "description": "Username to import games for",
+            "title": "Username",
+            "type": "string"
+          }
+        },
+        "required": [
+          "platform",
+          "username"
+        ],
+        "title": "ImportRequest",
+        "type": "object"
+      },
+      "Opening": {
+        "properties": {
+          "color": {
+            "title": "Color",
+            "type": "string"
+          },
+          "eco": {
+            "title": "Eco",
+            "type": "string"
+          },
+          "frequency": {
+            "default": 0.0,
+            "title": "Frequency",
+            "type": "number"
+          },
+          "games_count": {
+            "default": 0,
+            "title": "Games Count",
+            "type": "integer"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "winrate": {
+            "default": 0.0,
+            "title": "Winrate",
+            "type": "number"
+          }
+        },
+        "required": [
+          "eco",
+          "name",
+          "color"
+        ],
+        "title": "Opening",
+        "type": "object"
+      },
+      "OpeningStats": {
+        "description": "Statistics for a specific opening (ECO code + color combination)",
+        "example": {
+          "avg_time_seconds": 420.5,
+          "color": "black",
+          "draws": 2,
+          "eco_code": "B20",
+          "frequency": 0.12,
+          "games_count": 15,
+          "losses": 5,
+          "median_time_seconds": 415.0,
+          "opening_name": "Sicilian Defense",
+          "winrate": 0.6,
+          "wins": 8
+        },
+        "properties": {
+          "avg_time_seconds": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Average time usage per game in seconds",
+            "title": "Avg Time Seconds"
+          },
+          "color": {
+            "description": "Player color: 'white' or 'black'",
+            "title": "Color",
+            "type": "string"
+          },
+          "draws": {
+            "description": "Number of draws",
+            "minimum": 0.0,
+            "title": "Draws",
+            "type": "integer"
+          },
+          "eco_code": {
+            "description": "ECO code (e.g., 'B20')",
+            "title": "Eco Code",
+            "type": "string"
+          },
+          "frequency": {
+            "description": "Frequency relative to all user games",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Frequency",
+            "type": "number"
+          },
+          "games_count": {
+            "description": "Total number of games",
+            "minimum": 0.0,
+            "title": "Games Count",
+            "type": "integer"
+          },
+          "losses": {
+            "description": "Number of losses",
+            "minimum": 0.0,
+            "title": "Losses",
+            "type": "integer"
+          },
+          "median_time_seconds": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Median time usage per game in seconds",
+            "title": "Median Time Seconds"
+          },
+          "opening_name": {
+            "description": "Opening name (e.g., 'Sicilian Defense')",
+            "title": "Opening Name",
+            "type": "string"
+          },
+          "repertoire_tags": {
+            "items": {
+              "enum": [
+                "core",
+                "secondary",
+                "experimental",
+                "repair"
+              ],
+              "type": "string"
+            },
+            "title": "Repertoire Tags",
+            "type": "array"
+          },
+          "style_alignment_score": {
+            "anyOf": [
+              {
+                "maximum": 1.0,
+                "minimum": -1.0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "How well this opening aligns with user's style (-1 to 1)",
+            "title": "Style Alignment Score"
+          },
+          "style_fit_label": {
+            "anyOf": [
+              {
+                "enum": [
+                  "aligned",
+                  "neutral",
+                  "misaligned"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Style fit category",
+            "title": "Style Fit Label"
+          },
+          "style_tags": {
+            "description": "Style tags for this opening (e.g., 'open', 'tactical')",
+            "items": {
+              "type": "string"
+            },
+            "title": "Style Tags",
+            "type": "array"
+          },
+          "user_is_system_side": {
+            "default": true,
+            "description": "True if this is user's chosen opening, False if opponent's response",
+            "title": "User Is System Side",
+            "type": "boolean"
+          },
+          "winrate": {
+            "description": "Winrate including draws: (wins + 0.5 * draws) / total",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Winrate",
+            "type": "number"
+          },
+          "wins": {
+            "description": "Number of wins",
+            "minimum": 0.0,
+            "title": "Wins",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "eco_code",
+          "opening_name",
+          "color",
+          "games_count",
+          "wins",
+          "losses",
+          "draws",
+          "winrate",
+          "frequency"
+        ],
+        "title": "OpeningStats",
+        "type": "object"
+      },
+      "PlaystyleProfile": {
+        "description": "Complete playstyle profile with per-color scores and radar data.",
+        "properties": {
+          "aligned_openings": {
+            "description": "Openings that match user's style",
+            "items": {
+              "$ref": "#/components/schemas/StyleAlignment"
+            },
+            "title": "Aligned Openings",
+            "type": "array"
+          },
+          "black": {
+            "$ref": "#/components/schemas/StyleScore",
+            "description": "Style scores when playing as black"
+          },
+          "misaligned_openings": {
+            "description": "Openings that conflict with user's style",
+            "items": {
+              "$ref": "#/components/schemas/StyleAlignment"
+            },
+            "title": "Misaligned Openings",
+            "type": "array"
+          },
+          "neutral_openings": {
+            "description": "Openings with neutral alignment",
+            "items": {
+              "$ref": "#/components/schemas/StyleAlignment"
+            },
+            "title": "Neutral Openings",
+            "type": "array"
+          },
+          "overall": {
+            "$ref": "#/components/schemas/StyleScore",
+            "description": "Overall style scores across all games"
+          },
+          "radar_axes": {
+            "description": "Labels for radar chart axes",
+            "items": {
+              "type": "string"
+            },
+            "title": "Radar Axes",
+            "type": "array"
+          },
+          "radar_data_black": {
+            "description": "Radar values for black",
+            "items": {
+              "type": "number"
+            },
+            "title": "Radar Data Black",
+            "type": "array"
+          },
+          "radar_data_overall": {
+            "description": "Radar values for overall",
+            "items": {
+              "type": "number"
+            },
+            "title": "Radar Data Overall",
+            "type": "array"
+          },
+          "radar_data_white": {
+            "description": "Radar values for white",
+            "items": {
+              "type": "number"
+            },
+            "title": "Radar Data White",
+            "type": "array"
+          },
+          "recommendations": {
+            "description": "Style-based recommendations",
+            "items": {
+              "type": "string"
+            },
+            "title": "Recommendations",
+            "type": "array"
+          },
+          "summary": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Natural language summary of playstyle",
+            "title": "Summary"
+          },
+          "white": {
+            "$ref": "#/components/schemas/StyleScore",
+            "description": "Style scores when playing as white"
+          }
+        },
+        "required": [
+          "overall",
+          "white",
+          "black"
+        ],
+        "title": "PlaystyleProfile",
+        "type": "object"
+      },
+      "PortalResponse": {
+        "properties": {
+          "portal_url": {
+            "title": "Portal Url",
+            "type": "string"
+          }
+        },
+        "required": [
+          "portal_url"
+        ],
+        "title": "PortalResponse",
+        "type": "object"
+      },
+      "PositionEvalRequest": {
+        "properties": {
+          "eco_code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eco Code"
+          },
+          "eco_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eco Name"
+          },
+          "fen": {
+            "title": "Fen",
+            "type": "string"
+          },
+          "heuristics": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Heuristics"
+          },
+          "move_san": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Move San"
+          },
+          "ply_count": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ply Count"
+          },
+          "pre_move_fen": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Pre Move Fen"
+          }
+        },
+        "required": [
+          "fen"
+        ],
+        "title": "PositionEvalRequest",
+        "type": "object"
+      },
+      "Repertoire": {
+        "properties": {
+          "avg_winrate": {
+            "title": "Avg Winrate",
+            "type": "number"
+          },
+          "category": {
+            "title": "Category",
+            "type": "string"
+          },
+          "color": {
+            "title": "Color",
+            "type": "string"
+          },
+          "created_at": {
+            "format": "date-time",
+            "title": "Created At",
+            "type": "string"
+          },
+          "eco_codes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Eco Codes",
+            "type": "array"
+          },
+          "favorite": {
+            "title": "Favorite",
+            "type": "boolean"
+          },
+          "id": {
+            "format": "uuid",
+            "title": "Id",
+            "type": "string"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "openings": {
+            "items": {
+              "$ref": "#/components/schemas/Opening"
+            },
+            "title": "Openings",
+            "type": "array"
+          },
+          "source_report_id": {
+            "anyOf": [
+              {
+                "format": "uuid",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Report Id"
+          },
+          "total_games": {
+            "title": "Total Games",
+            "type": "integer"
+          },
+          "updated_at": {
+            "format": "date-time",
+            "title": "Updated At",
+            "type": "string"
+          },
+          "user_id": {
+            "anyOf": [
+              {
+                "format": "uuid",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "User Id"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "eco_codes",
+          "openings",
+          "source_report_id",
+          "favorite",
+          "category",
+          "color",
+          "created_at",
+          "updated_at",
+          "total_games",
+          "avg_winrate"
+        ],
+        "title": "Repertoire",
+        "type": "object"
+      },
+      "RepertoireAnalysisRequest": {
+        "description": "Request model for repertoire analysis with smart import",
+        "properties": {
+          "date_range": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/DateRange"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Date range for analysis"
+          },
+          "force_import": {
+            "default": false,
+            "description": "Force import even if games exist",
+            "title": "Force Import",
+            "type": "boolean"
+          },
+          "import_request": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ImportRequest"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Import request for missing games"
+          },
+          "max_moves_per_game": {
+            "anyOf": [
+              {
+                "maximum": 100.0,
+                "minimum": 1.0,
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": 40,
+            "description": "Maximum moves to analyze per game (default 40, for performance)",
+            "title": "Max Moves Per Game"
+          },
+          "min_games": {
+            "default": 1,
+            "description": "Minimum games required per opening for analysis",
+            "minimum": 1.0,
+            "title": "Min Games",
+            "type": "integer"
+          },
+          "min_games_threshold": {
+            "default": 1,
+            "description": "Minimum games threshold for analysis",
+            "minimum": 1.0,
+            "title": "Min Games Threshold",
+            "type": "integer"
+          },
+          "session_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Session ID (if anonymous)",
+            "title": "Session Id"
+          },
+          "user_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "User ID (if authenticated)",
+            "title": "User Id"
+          },
+          "usernames": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Optional list of usernames to filter by (multi-account support)",
+            "title": "Usernames"
+          }
+        },
+        "title": "RepertoireAnalysisRequest",
+        "type": "object"
+      },
+      "RepertoireBucket": {
+        "properties": {
+          "color": {
+            "enum": [
+              "white",
+              "black",
+              "both"
+            ],
+            "title": "Color",
+            "type": "string"
+          },
+          "created_at": {
+            "format": "date-time",
+            "title": "Created At",
+            "type": "string"
+          },
+          "id": {
+            "title": "Id",
+            "type": "string"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "openings": {
+            "items": {
+              "$ref": "#/components/schemas/RepertoireBucketOpening"
+            },
+            "title": "Openings",
+            "type": "array"
+          },
+          "puzzles": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/RepertoirePuzzle"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Puzzles"
+          },
+          "time_control": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Time Control"
+          },
+          "type": {
+            "enum": [
+              "core",
+              "secondary",
+              "experimental",
+              "repair"
+            ],
+            "title": "Type",
+            "type": "string"
+          },
+          "updated_at": {
+            "format": "date-time",
+            "title": "Updated At",
+            "type": "string"
+          },
+          "user_id": {
+            "title": "User Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "user_id",
+          "name",
+          "type",
+          "color",
+          "created_at",
+          "updated_at"
+        ],
+        "title": "RepertoireBucket",
+        "type": "object"
+      },
+      "RepertoireBucketOpening": {
+        "properties": {
+          "color": {
+            "enum": [
+              "white",
+              "black"
+            ],
+            "title": "Color",
+            "type": "string"
+          },
+          "eco_code": {
+            "title": "Eco Code",
+            "type": "string"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "required": [
+          "eco_code",
+          "color"
+        ],
+        "title": "RepertoireBucketOpening",
+        "type": "object"
+      },
+      "RepertoireCreate": {
+        "properties": {
+          "category": {
+            "pattern": "^(core|repair|expansion|experimental|developing)$",
+            "title": "Category",
+            "type": "string"
+          },
+          "color": {
+            "pattern": "^(white|black|both)$",
+            "title": "Color",
+            "type": "string"
+          },
+          "eco_codes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Eco Codes",
+            "type": "array"
+          },
+          "name": {
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Name",
+            "type": "string"
+          },
+          "openings": {
+            "items": {
+              "$ref": "#/components/schemas/Opening"
+            },
+            "title": "Openings",
+            "type": "array"
+          },
+          "source_report_id": {
+            "anyOf": [
+              {
+                "format": "uuid",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Report Id"
+          }
+        },
+        "required": [
+          "name",
+          "eco_codes",
+          "openings",
+          "category",
+          "color"
+        ],
+        "title": "RepertoireCreate",
+        "type": "object"
+      },
+      "RepertoireFitItem": {
+        "description": "An opening from user's repertoire with style alignment data.",
+        "properties": {
+          "bucket_type": {
+            "description": "Which bucket this belongs to",
+            "enum": [
+              "core",
+              "secondary",
+              "experimental",
+              "repair"
+            ],
+            "title": "Bucket Type",
+            "type": "string"
+          },
+          "color": {
+            "description": "Color this opening is for",
+            "enum": [
+              "white",
+              "black"
+            ],
+            "title": "Color",
+            "type": "string"
+          },
+          "eco": {
+            "description": "ECO code",
+            "title": "Eco",
+            "type": "string"
+          },
+          "games_count": {
+            "default": 0,
+            "description": "Number of games with this opening",
+            "title": "Games Count",
+            "type": "integer"
+          },
+          "opening_name": {
+            "description": "Opening name",
+            "title": "Opening Name",
+            "type": "string"
+          },
+          "style_alignment_score": {
+            "default": 0.5,
+            "description": "How well this aligns with user's style (0-1)",
+            "title": "Style Alignment Score",
+            "type": "number"
+          },
+          "style_fit_label": {
+            "default": "neutral",
+            "description": "Style fit category",
+            "enum": [
+              "aligned",
+              "neutral",
+              "misaligned"
+            ],
+            "title": "Style Fit Label",
+            "type": "string"
+          },
+          "style_tags": {
+            "description": "Style tags for this opening",
+            "items": {
+              "type": "string"
+            },
+            "title": "Style Tags",
+            "type": "array"
+          },
+          "winrate": {
+            "default": 0.0,
+            "description": "Winrate with this opening",
+            "title": "Winrate",
+            "type": "number"
+          }
+        },
+        "required": [
+          "eco",
+          "opening_name",
+          "color",
+          "bucket_type"
+        ],
+        "title": "RepertoireFitItem",
+        "type": "object"
+      },
+      "RepertoireGroup": {
+        "description": "A group of openings in the same repertoire category",
+        "example": {
+          "avg_winrate": 0.58,
+          "category": "core",
+          "description": "Your main openings - played frequently with solid results",
+          "openings": [],
+          "total_games": 45
+        },
+        "properties": {
+          "avg_winrate": {
+            "description": "Average winrate across this group",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Avg Winrate",
+            "type": "number"
+          },
+          "category": {
+            "description": "Category name: core, repair, expansion, experimental",
+            "title": "Category",
+            "type": "string"
+          },
+          "description": {
+            "description": "Human-readable description of this category",
+            "title": "Description",
+            "type": "string"
+          },
+          "openings": {
+            "description": "List of openings in this category",
+            "items": {
+              "$ref": "#/components/schemas/OpeningStats"
+            },
+            "title": "Openings",
+            "type": "array"
+          },
+          "total_games": {
+            "description": "Total games across all openings in this group",
+            "minimum": 0.0,
+            "title": "Total Games",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "category",
+          "description",
+          "total_games",
+          "avg_winrate"
+        ],
+        "title": "RepertoireGroup",
+        "type": "object"
+      },
+      "RepertoireInsight": {
+        "description": "An actionable insight or recommendation",
+        "example": {
+          "message": "Your Sicilian Defense (B20) needs work - 15 games with only 33% winrate",
+          "opening_eco": "B20",
+          "priority": "high",
+          "type": "warning"
+        },
+        "properties": {
+          "message": {
+            "description": "Human-readable insight message",
+            "title": "Message",
+            "type": "string"
+          },
+          "opening_eco": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Related ECO code if applicable",
+            "title": "Opening Eco"
+          },
+          "priority": {
+            "description": "Priority level: high, medium, low",
+            "title": "Priority",
+            "type": "string"
+          },
+          "type": {
+            "description": "Type: suggestion, warning, strength",
+            "title": "Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "type",
+          "message",
+          "priority"
+        ],
+        "title": "RepertoireInsight",
+        "type": "object"
+      },
+      "RepertoirePuzzle": {
+        "properties": {
+          "eco_code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eco Code"
+          },
+          "mistake_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Mistake Type"
+          },
+          "move_number": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Move Number"
+          },
+          "puzzle_id": {
+            "title": "Puzzle Id",
+            "type": "string"
+          },
+          "source_report_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Report Id"
+          }
+        },
+        "required": [
+          "puzzle_id"
+        ],
+        "title": "RepertoirePuzzle",
+        "type": "object"
+      },
+      "RepertoireReport": {
+        "description": "Complete repertoire analysis report for a user",
+        "example": {
+          "analysis_date": "2024-01-15T10:30:00Z",
+          "black_games": 62,
+          "black_repertoire": {},
+          "game_length_histogram": [
+            {
+              "bucket": "0-20",
+              "draws": 1,
+              "losses": 8,
+              "wins": 5
+            },
+            {
+              "bucket": "21-40",
+              "draws": 5,
+              "losses": 20,
+              "wins": 25
+            }
+          ],
+          "insights": [],
+          "overall_winrate": 0.54,
+          "result_breakdown": {
+            "draw": 10,
+            "loss": 45,
+            "win": 70
+          },
+          "time_usage": [
+            {
+              "avg_move_time": 12.5,
+              "game_id": "abc123",
+              "lost_on_time": false,
+              "moves": 42,
+              "opening": "Sicilian Defense",
+              "result": "win"
+            }
+          ],
+          "total_games": 125,
+          "user_id": "user123",
+          "white_games": 63,
+          "white_repertoire": {
+            "core": {
+              "avg_winrate": 0.62,
+              "category": "core",
+              "description": "Your main white openings",
+              "openings": [],
+              "total_games": 35
+            }
+          }
+        },
+        "properties": {
+          "analysis_date": {
+            "description": "When analysis was performed",
+            "format": "date-time",
+            "title": "Analysis Date",
+            "type": "string"
+          },
+          "black_games": {
+            "description": "Games played as black",
+            "minimum": 0.0,
+            "title": "Black Games",
+            "type": "integer"
+          },
+          "black_repertoire": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/RepertoireGroup"
+            },
+            "description": "Black repertoire grouped by category",
+            "title": "Black Repertoire",
+            "type": "object"
+          },
+          "charts_additional": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Additional chart data: eval_swing_chart, tactical_pattern_chart",
+            "title": "Charts Additional"
+          },
+          "engine_analysis": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Move-level engine analysis with evaluations and heuristics",
+            "title": "Engine Analysis"
+          },
+          "game_length_histogram": {
+            "description": "Histogram of game lengths by result",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Game Length Histogram",
+            "type": "array"
+          },
+          "generated_puzzles": {
+            "anyOf": [
+              {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Puzzles generated from blunders in games",
+            "title": "Generated Puzzles"
+          },
+          "highlights": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/Highlight"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Highlight-worthy moments: brilliant moves, comebacks, saves, perfect openings, tactical sequences",
+            "title": "Highlights"
+          },
+          "insights": {
+            "description": "Generated recommendations and insights",
+            "items": {
+              "$ref": "#/components/schemas/RepertoireInsight"
+            },
+            "title": "Insights",
+            "type": "array"
+          },
+          "overall_winrate": {
+            "description": "Overall winrate across all games",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Overall Winrate",
+            "type": "number"
+          },
+          "playstyle_profile": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/PlaystyleProfile"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Computed playstyle profile with style scores and radar chart data"
+          },
+          "repertoire_fit": {
+            "description": "User's chosen openings with style alignment data (excludes opponent responses)",
+            "items": {
+              "$ref": "#/components/schemas/RepertoireFitItem"
+            },
+            "title": "Repertoire Fit",
+            "type": "array"
+          },
+          "result_breakdown": {
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "description": "Overall win/loss/draw counts",
+            "title": "Result Breakdown",
+            "type": "object"
+          },
+          "suggested_repertoires": {
+            "description": "Suggested repertoires that can be saved by the user.",
+            "items": {
+              "$ref": "#/components/schemas/SuggestedRepertoire"
+            },
+            "title": "Suggested Repertoires",
+            "type": "array"
+          },
+          "time_control_breakdown": {
+            "anyOf": [
+              {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Time control breakdown statistics",
+            "title": "Time Control Breakdown"
+          },
+          "time_usage": {
+            "description": "Per-game time usage analytics",
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Time Usage",
+            "type": "array"
+          },
+          "total_games": {
+            "description": "Total number of games analyzed",
+            "minimum": 0.0,
+            "title": "Total Games",
+            "type": "integer"
+          },
+          "user_id": {
+            "description": "User identifier",
+            "title": "User Id",
+            "type": "string"
+          },
+          "user_repertoires": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/RepertoireBucket"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "User-managed repertoire buckets (core/secondary/experimental)",
+            "title": "User Repertoires"
+          },
+          "weak_lines": {
+            "anyOf": [
+              {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Line-level weakness analysis",
+            "title": "Weak Lines"
+          },
+          "white_games": {
+            "description": "Games played as white",
+            "minimum": 0.0,
+            "title": "White Games",
+            "type": "integer"
+          },
+          "white_repertoire": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/RepertoireGroup"
+            },
+            "description": "White repertoire grouped by category",
+            "title": "White Repertoire",
+            "type": "object"
+          }
+        },
+        "required": [
+          "user_id",
+          "total_games",
+          "white_games",
+          "black_games",
+          "overall_winrate"
+        ],
+        "title": "RepertoireReport",
+        "type": "object"
+      },
+      "RepertoireUpdate": {
+        "properties": {
+          "category": {
+            "anyOf": [
+              {
+                "pattern": "^(core|repair|expansion|experimental|developing)$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Category"
+          },
+          "color": {
+            "anyOf": [
+              {
+                "pattern": "^(white|black|both)$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Color"
+          },
+          "eco_codes": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Eco Codes"
+          },
+          "favorite": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Favorite"
+          },
+          "name": {
+            "anyOf": [
+              {
+                "maxLength": 100,
+                "minLength": 1,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Name"
+          },
+          "openings": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/Opening"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Openings"
+          }
+        },
+        "title": "RepertoireUpdate",
+        "type": "object"
+      },
+      "SavePuzzlesRequest": {
+        "properties": {
+          "puzzles": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "title": "Puzzles",
+            "type": "array"
+          },
+          "repertoire_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Repertoire Type"
+          },
+          "source_report_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Report Id"
+          },
+          "source_report_name": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Source Report Name"
+          },
+          "time_control": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Time Control"
+          }
+        },
+        "required": [
+          "puzzles"
+        ],
+        "title": "SavePuzzlesRequest",
+        "type": "object"
+      },
+      "StyleAlignment": {
+        "description": "Opening alignment with player style (for repertoire fit).",
+        "properties": {
+          "alignment_score": {
+            "description": "How well this opening aligns with user's style",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Alignment Score",
+            "type": "number"
+          },
+          "bucket": {
+            "anyOf": [
+              {
+                "enum": [
+                  "core",
+                  "secondary",
+                  "experimental",
+                  "problem"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "User's repertoire bucket for this opening",
+            "title": "Bucket"
+          },
+          "color": {
+            "description": "Color the opening is played as",
+            "enum": [
+              "white",
+              "black"
+            ],
+            "title": "Color",
+            "type": "string"
+          },
+          "eco": {
+            "description": "ECO code of the opening",
+            "title": "Eco",
+            "type": "string"
+          },
+          "opening_name": {
+            "description": "Name of the opening",
+            "title": "Opening Name",
+            "type": "string"
+          },
+          "tags": {
+            "description": "Style tags for this opening",
+            "items": {
+              "type": "string"
+            },
+            "title": "Tags",
+            "type": "array"
+          }
+        },
+        "required": [
+          "eco",
+          "opening_name",
+          "color",
+          "alignment_score"
+        ],
+        "title": "StyleAlignment",
+        "type": "object"
+      },
+      "StyleScore": {
+        "description": "Style scores on different axes, all normalized to [0, 1].",
+        "properties": {
+          "aggressive": {
+            "description": "Aggressive tendency (0=pure defensive, 1=pure aggressive)",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Aggressive",
+            "type": "number"
+          },
+          "closed_positions": {
+            "description": "Closed position preference (0=prefers open, 1=prefers closed)",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Closed Positions",
+            "type": "number"
+          },
+          "defensive": {
+            "description": "Defensive tendency (0=pure aggressive, 1=pure defensive)",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Defensive",
+            "type": "number"
+          },
+          "open_positions": {
+            "description": "Open position preference (0=prefers closed, 1=prefers open)",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Open Positions",
+            "type": "number"
+          },
+          "positional": {
+            "description": "Positional tendency (0=pure tactical, 1=pure positional)",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Positional",
+            "type": "number"
+          },
+          "risk": {
+            "anyOf": [
+              {
+                "maximum": 1.0,
+                "minimum": 0.0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "description": "Risk tolerance (optional)",
+            "title": "Risk"
+          },
+          "tactical": {
+            "description": "Tactical tendency (0=pure positional, 1=pure tactical)",
+            "maximum": 1.0,
+            "minimum": 0.0,
+            "title": "Tactical",
+            "type": "number"
+          }
+        },
+        "required": [
+          "tactical",
+          "positional",
+          "aggressive",
+          "defensive",
+          "open_positions",
+          "closed_positions"
+        ],
+        "title": "StyleScore",
+        "type": "object"
+      },
+      "SubscriptionStatus": {
+        "properties": {
+          "billing_cycle": {
+            "anyOf": [
+              {
+                "enum": [
+                  "monthly",
+                  "annual"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Billing Cycle"
+          },
+          "cancel_at_period_end": {
+            "default": false,
+            "title": "Cancel At Period End",
+            "type": "boolean"
+          },
+          "current_period_end": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Current Period End"
+          },
+          "is_active": {
+            "title": "Is Active",
+            "type": "boolean"
+          },
+          "plan": {
+            "anyOf": [
+              {
+                "enum": [
+                  "basic",
+                  "plus"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Plan"
+          },
+          "trial_ends_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Trial Ends At"
+          }
+        },
+        "required": [
+          "is_active"
+        ],
+        "title": "SubscriptionStatus",
+        "type": "object"
+      },
+      "SuggestedRepertoire": {
+        "description": "A suggested repertoire that can be saved by the user.",
+        "properties": {
+          "description": {
+            "title": "Description",
+            "type": "string"
+          },
+          "eco_codes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Eco Codes",
+            "type": "array"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "openings": {
+            "items": {
+              "$ref": "#/components/schemas/OpeningStats"
+            },
+            "title": "Openings",
+            "type": "array"
+          },
+          "puzzles": {
+            "anyOf": [
+              {
+                "items": {
+                  "$ref": "#/components/schemas/RepertoirePuzzle"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Puzzles"
+          },
+          "target_bucket_type": {
+            "anyOf": [
+              {
+                "enum": [
+                  "core",
+                  "secondary",
+                  "experimental",
+                  "repair"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Target Bucket Type"
+          }
+        },
+        "required": [
+          "name",
+          "description",
+          "eco_codes",
+          "openings"
+        ],
+        "title": "SuggestedRepertoire",
+        "type": "object"
+      },
+      "TrainerRefreshRequest": {
+        "properties": {
+          "side": {
+            "default": "both",
+            "title": "Side",
+            "type": "string"
+          },
+          "time_control": {
+            "default": "all",
+            "title": "Time Control",
+            "type": "string"
+          }
+        },
+        "title": "TrainerRefreshRequest",
+        "type": "object"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "title": "Location",
+            "type": "array"
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        },
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError",
+        "type": "object"
+      }
+    },
+    "securitySchemes": {
+      "OAuth2PasswordBearer": {
+        "flows": {
+          "password": {
+            "scopes": {},
+            "tokenUrl": "token"
+          }
+        },
+        "type": "oauth2"
+      }
+    }
+  },
+  "info": {
+    "title": "FastAPI",
+    "version": "0.1.0"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/analysis/activities/heatmap": {
+      "get": {
+        "description": "Get activity heatmap data for GitHub-style visualization.",
+        "operationId": "get_activity_heatmap_analysis_activities_heatmap_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "weeks",
+            "required": false,
+            "schema": {
+              "default": 52,
+              "maximum": 104,
+              "minimum": 1,
+              "title": "Weeks",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Activity Heatmap",
+        "tags": [
+          "reports"
+        ]
+      }
+    },
+    "/analysis/game": {
+      "post": {
+        "description": "Analyze a game for accuracy metrics and Elo estimation.\n\nThis endpoint analyzes ALL moves (both players) using Stockfish evaluation\nand returns:\n- Move-by-move analysis with evaluations\n- Lichess-style accuracy for both players\n- CPL-based Elo estimation for both players\n\nArgs:\n    pgn: PGN string of the game\n    white_elo: Known white player rating (optional, for adjusted estimate)\n    black_elo: Known black player rating (optional, for adjusted estimate)\n    depth: Stockfish analysis depth (default 12, range 8-18)\n\nReturns:\n    {\n        \"move_analyses\": [...],\n        \"accuracy_metrics\": {\"white\": float, \"black\": float},\n        \"elo_estimates\": {\n            \"white\": {\"estimated\": int, \"adjusted\": int, \"known_rating\": int},\n            \"black\": {\"estimated\": int, \"adjusted\": int, \"known_rating\": int}\n        }\n    }",
+        "operationId": "analyze_game_accuracy_elo_analysis_game_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GameAnalysisRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Analyze Game Accuracy Elo"
+      }
+    },
+    "/analysis/openings": {
+      "get": {
+        "description": "Get basic opening statistics without full repertoire classification.\nReturns raw opening stats that can be used for other analysis.",
+        "operationId": "get_opening_statistics_analysis_openings_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "x_session_id",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "X Session Id"
+            }
+          },
+          {
+            "in": "query",
+            "name": "color",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Color"
+            }
+          },
+          {
+            "in": "query",
+            "name": "min_games",
+            "required": false,
+            "schema": {
+              "default": 3,
+              "title": "Min Games",
+              "type": "integer"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "anyOf": [
+                  {
+                    "additionalProperties": true,
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "title": "Current User"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Opening Statistics"
+      }
+    },
+    "/analysis/repertoire": {
+      "post": {
+        "description": "Generate a comprehensive repertoire analysis report for a user based on their imported games.\n\nThe analysis aggregates games by ECO code and color, computes statistics,\nand classifies openings into repertoire categories with actionable insights.",
+        "operationId": "analyze_user_repertoire_analysis_repertoire_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RepertoireAnalysisRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RepertoireReport"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Analyze User Repertoire"
+      }
+    },
+    "/analysis/repertoire/stream": {
+      "post": {
+        "description": "Generate a repertoire analysis with streaming progress updates (for smart import).\n\nReturns a stream of progress updates followed by the final report.",
+        "operationId": "analyze_user_repertoire_with_progress_analysis_repertoire_stream_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RepertoireAnalysisRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Analyze User Repertoire With Progress"
+      }
+    },
+    "/analysis/repertoire/{user_id}": {
+      "get": {
+        "description": "Get repertoire analysis for a specific user (requires authentication).\nOnly the user themselves can access their repertoire data.",
+        "operationId": "get_user_repertoire_by_id_analysis_repertoire__user_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "user_id",
+            "required": true,
+            "schema": {
+              "title": "User Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "min_games",
+            "required": false,
+            "schema": {
+              "default": 3,
+              "title": "Min Games",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RepertoireReport"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "summary": "Get User Repertoire By Id"
+      }
+    },
+    "/analysis/reports": {
+      "get": {
+        "description": "Get saved repertoire reports with optional player filtering",
+        "operationId": "get_saved_reports_analysis_reports_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "players",
+            "required": false,
+            "schema": {
+              "default": "",
+              "title": "Players",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 50,
+              "title": "Limit",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "offset",
+            "required": false,
+            "schema": {
+              "default": 0,
+              "title": "Offset",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Saved Reports",
+        "tags": [
+          "reports"
+        ]
+      },
+      "post": {
+        "description": "Save a repertoire report",
+        "operationId": "save_repertoire_report_analysis_reports_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Save Repertoire Report",
+        "tags": [
+          "reports"
+        ]
+      }
+    },
+    "/analysis/reports/usernames": {
+      "get": {
+        "description": "Get unique source_usernames from all saved reports for the current user/session",
+        "operationId": "get_reports_source_usernames_analysis_reports_usernames_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Reports Source Usernames",
+        "tags": [
+          "reports"
+        ]
+      }
+    },
+    "/analysis/reports/{report_id}": {
+      "delete": {
+        "description": "Delete a saved report",
+        "operationId": "delete_saved_report_analysis_reports__report_id__delete",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "report_id",
+            "required": true,
+            "schema": {
+              "title": "Report Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Delete Saved Report",
+        "tags": [
+          "reports"
+        ]
+      },
+      "get": {
+        "description": "Get a specific saved report",
+        "operationId": "get_saved_report_analysis_reports__report_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "report_id",
+            "required": true,
+            "schema": {
+              "title": "Report Id",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "lite",
+            "required": false,
+            "schema": {
+              "default": false,
+              "title": "Lite",
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Saved Report",
+        "tags": [
+          "reports"
+        ]
+      },
+      "put": {
+        "description": "Update a saved report (currently only name updates supported)",
+        "operationId": "update_saved_report_analysis_reports__report_id__put",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "report_id",
+            "required": true,
+            "schema": {
+              "title": "Report Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Update Saved Report",
+        "tags": [
+          "reports"
+        ]
+      }
+    },
+    "/analysis/reports/{report_id}/heavy": {
+      "get": {
+        "description": "Get only the heavy/large fields of a saved report for lazy loading.\n\nAvailable fields:\n- engine_analysis: Full move-by-move analysis data\n- generated_puzzles: Puzzles generated from blunders/mistakes\n- weak_lines: Identified weak lines in the player's repertoire\n- charts_additional: Additional chart data (eval swings, tactical patterns)",
+        "operationId": "get_saved_report_heavy_fields_analysis_reports__report_id__heavy_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "report_id",
+            "required": true,
+            "schema": {
+              "title": "Report Id",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Comma-separated list of fields to fetch",
+            "in": "query",
+            "name": "fields",
+            "required": false,
+            "schema": {
+              "default": "engine_analysis,generated_puzzles,weak_lines,charts_additional",
+              "description": "Comma-separated list of fields to fetch",
+              "title": "Fields",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Saved Report Heavy Fields",
+        "tags": [
+          "reports"
+        ]
+      }
+    },
+    "/analyze": {
+      "post": {
+        "operationId": "analyze_analyze_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Analyze"
+      }
+    },
+    "/api/analysis/position-eval": {
+      "post": {
+        "description": "Evaluate a position using heuristic scoring (no engine, no LLM).\n\nThis endpoint provides fast positional evaluation based on tactical\nand positional heuristics, returning a tier-based assessment with\nhuman-readable commentary.\n\nArgs:\n    fen: FEN string of the position\n    heuristics: Optional heuristics dictionary. If not provided, auto-calculated.\n    ply_count: Optional number of plies played. If 0, returns disabled commentary.\n    eco_code: Optional ECO code for opening identification.\n    eco_name: Optional opening name for ECO-aware commentary.\n\nReturns:\n    {\n        \"advantage\": tier_string (e.g., \"white_slightly_better\"),\n        \"commentary\": human_readable_text,\n        \"white_score\": number,\n        \"black_score\": number,\n        \"eval\": number,\n        \"verdict\": verdict_string,\n        \"summary\": one_line_summary,\n        \"meta\": {...},\n        \"disabled\": boolean (optional, true if commentary should be hidden)\n    }",
+        "operationId": "evaluate_position_heuristics_api_analysis_position_eval_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PositionEvalRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Evaluate Position Heuristics"
+      }
+    },
+    "/api/me/gamereview/{analysis_id}/share": {
+      "post": {
+        "description": "Create a shareable clip for a game review move.\n\nUses existing analysis data - NO new LLM or engine computations.\n\nArgs:\n    analysis_id: ID of the saved report or game analysis\n    primary_move_index: Move to feature (optional, auto-picks if omitted)\n    show_threat_arrows: Whether to show threat arrows in rendered clip\n    show_move_classification: Whether to show classification badge\n\nReturns:\n    Share clip metadata with preview data and share URL",
+        "operationId": "create_share_clip_api_me_gamereview__analysis_id__share_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "analysis_id",
+            "required": true,
+            "schema": {
+              "title": "Analysis Id",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateShareClipRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Share Clip"
+      }
+    },
+    "/api/me/home": {
+      "get": {
+        "description": "Aggregated home dashboard data for logged-in users.\n\nReturns linked accounts, latest report, recent games, and trainer summary\nin a single request for the home dashboard.\n\nWhen include_profile=True, also includes:\n- User info (avatar, created_at, puzzle_elo)\n- Activity heatmap data (52 weeks)\n- Rating graphs (game + puzzle series)\n- Full trainer summary with puzzles/PV lines preview",
+        "operationId": "get_home_dashboard_api_me_home_get",
+        "parameters": [
+          {
+            "description": "Include full profile data for /profile page",
+            "in": "query",
+            "name": "include_profile",
+            "required": false,
+            "schema": {
+              "default": false,
+              "description": "Include full profile data for /profile page",
+              "title": "Include Profile",
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Home Dashboard",
+        "tags": [
+          "home"
+        ]
+      }
+    },
+    "/api/me/ratings/game": {
+      "get": {
+        "description": "Get game rating progress over time.",
+        "operationId": "get_game_ratings_api_me_ratings_game_get",
+        "parameters": [
+          {
+            "description": "Provider filter: lichess, chesscom, all",
+            "in": "query",
+            "name": "provider",
+            "required": false,
+            "schema": {
+              "default": "all",
+              "description": "Provider filter: lichess, chesscom, all",
+              "title": "Provider",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Time control: bullet, blitz, rapid, classical, all",
+            "in": "query",
+            "name": "time_control",
+            "required": false,
+            "schema": {
+              "default": "all",
+              "description": "Time control: bullet, blitz, rapid, classical, all",
+              "title": "Time Control",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Start date ISO format",
+            "in": "query",
+            "name": "from_date",
+            "required": false,
+            "schema": {
+              "description": "Start date ISO format",
+              "title": "From Date",
+              "type": "string"
+            }
+          },
+          {
+            "description": "End date ISO format",
+            "in": "query",
+            "name": "to_date",
+            "required": false,
+            "schema": {
+              "description": "End date ISO format",
+              "title": "To Date",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Game Ratings",
+        "tags": [
+          "home"
+        ]
+      }
+    },
+    "/api/me/ratings/puzzle": {
+      "get": {
+        "description": "Get puzzle rating progress over time.",
+        "operationId": "get_puzzle_ratings_api_me_ratings_puzzle_get",
+        "parameters": [
+          {
+            "description": "Provider filter: internal, lichess, chesscom, all",
+            "in": "query",
+            "name": "provider",
+            "required": false,
+            "schema": {
+              "default": "all",
+              "description": "Provider filter: internal, lichess, chesscom, all",
+              "title": "Provider",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Start date ISO format",
+            "in": "query",
+            "name": "from_date",
+            "required": false,
+            "schema": {
+              "description": "Start date ISO format",
+              "title": "From Date",
+              "type": "string"
+            }
+          },
+          {
+            "description": "End date ISO format",
+            "in": "query",
+            "name": "to_date",
+            "required": false,
+            "schema": {
+              "description": "End date ISO format",
+              "title": "To Date",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Puzzle Ratings",
+        "tags": [
+          "home"
+        ]
+      }
+    },
+    "/api/me/share_clips/{clip_id}": {
+      "get": {
+        "description": "Get a share clip by ID for the owner.\n\nReturns full clip data including render status.",
+        "operationId": "get_share_clip_by_id_api_me_share_clips__clip_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "clip_id",
+            "required": true,
+            "schema": {
+              "title": "Clip Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Share Clip By Id"
+      }
+    },
+    "/api/me/trainer/daily": {
+      "get": {
+        "description": "Get the latest daily coaching commentary.",
+        "operationId": "get_latest_daily_commentary_api_me_trainer_daily_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Latest Daily Commentary"
+      }
+    },
+    "/api/me/trainer/puzzles": {
+      "get": {
+        "description": "Get personalized puzzles from the user's own games.\n\nThese are positions where the user made mistakes, selected \nbased on the trainer's analysis of their weaknesses.",
+        "operationId": "get_trainer_puzzles_api_me_trainer_puzzles_get",
+        "parameters": [
+          {
+            "description": "Time control filter",
+            "in": "query",
+            "name": "time_control",
+            "required": false,
+            "schema": {
+              "default": "all",
+              "description": "Time control filter",
+              "title": "Time Control",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Side filter",
+            "in": "query",
+            "name": "side",
+            "required": false,
+            "schema": {
+              "default": "both",
+              "description": "Side filter",
+              "title": "Side",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Number of puzzles",
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 10,
+              "description": "Number of puzzles",
+              "maximum": 50,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Trainer Puzzles"
+      }
+    },
+    "/api/me/trainer/pv-lines": {
+      "get": {
+        "description": "Get PV lines from the user's own games for study.\n\nThese are critical positions with engine analysis lines\nthat the user should study to improve.",
+        "operationId": "get_trainer_pv_lines_api_me_trainer_pv_lines_get",
+        "parameters": [
+          {
+            "description": "Time control filter",
+            "in": "query",
+            "name": "time_control",
+            "required": false,
+            "schema": {
+              "default": "all",
+              "description": "Time control filter",
+              "title": "Time Control",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Side filter",
+            "in": "query",
+            "name": "side",
+            "required": false,
+            "schema": {
+              "default": "both",
+              "description": "Side filter",
+              "title": "Side",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Number of PV lines",
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 10,
+              "description": "Number of PV lines",
+              "maximum": 50,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Trainer Pv Lines"
+      }
+    },
+    "/api/me/trainer/refresh": {
+      "post": {
+        "description": "Manually trigger a trainer refresh from recent games.\n\nOnly rebuilds if there are new games since the last rebuild.",
+        "operationId": "refresh_trainer_api_me_trainer_refresh_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TrainerRefreshRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Refresh Trainer"
+      }
+    },
+    "/api/me/trainer/reports": {
+      "get": {
+        "description": "Get all active trainer reports for the user.",
+        "operationId": "get_trainer_reports_api_me_trainer_reports_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Trainer Reports"
+      }
+    },
+    "/api/me/trainer/snapshot": {
+      "get": {
+        "description": "Get the latest deep trainer snapshot/pattern analysis.",
+        "operationId": "get_latest_trainer_snapshot_api_me_trainer_snapshot_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Latest Trainer Snapshot"
+      }
+    },
+    "/api/me/trainer/status": {
+      "get": {
+        "description": "Get current trainer state and linked account info.",
+        "operationId": "get_trainer_status_api_me_trainer_status_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Trainer Status"
+      }
+    },
+    "/api/me/trainer/summary": {
+      "get": {
+        "description": "Get the trainer summary for the current user.\n\nThis is the main endpoint for the Personal Trainer dashboard.\nReturns coaching summary, statistics, and recommendations.\n\nNo text input from user - this is a read-only endpoint.",
+        "operationId": "get_trainer_summary_api_me_trainer_summary_get",
+        "parameters": [
+          {
+            "description": "Time control: bullet, blitz, rapid, classical, all, or auto",
+            "in": "query",
+            "name": "time_control",
+            "required": false,
+            "schema": {
+              "default": "all",
+              "description": "Time control: bullet, blitz, rapid, classical, all, or auto",
+              "title": "Time Control",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Side: white, black, or both",
+            "in": "query",
+            "name": "side",
+            "required": false,
+            "schema": {
+              "default": "both",
+              "description": "Side: white, black, or both",
+              "title": "Side",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Trainer Summary"
+      }
+    },
+    "/api/opening-catalog/search": {
+      "get": {
+        "description": "Search the ECO opening catalog.\nProxies to the eco-service /search endpoint.",
+        "operationId": "search_opening_catalog_api_opening_catalog_search_get",
+        "parameters": [
+          {
+            "description": "Search query (opening name, ECO code, or moves)",
+            "in": "query",
+            "name": "q",
+            "required": false,
+            "schema": {
+              "default": "",
+              "description": "Search query (opening name, ECO code, or moves)",
+              "title": "Q",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Filter by side: white or black",
+            "in": "query",
+            "name": "side",
+            "required": false,
+            "schema": {
+              "default": "",
+              "description": "Filter by side: white or black",
+              "title": "Side",
+              "type": "string"
+            }
+          },
+          {
+            "description": "Maximum results to return",
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 20,
+              "description": "Maximum results to return",
+              "maximum": 100,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Search Opening Catalog"
+      }
+    },
+    "/api/openings/master/line": {
+      "post": {
+        "description": "Mark an opening line as mastered for the current user/session.",
+        "operationId": "master_opening_line_api_openings_master_line_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Body",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Master Opening Line",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/api/openings/mastered/stats": {
+      "get": {
+        "description": "Get statistics about mastered opening lines.\nReturns mapping of opening_id -> count of mastered lines.",
+        "operationId": "get_mastered_openings_stats_api_openings_mastered_stats_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Mastered Openings Stats",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/api/profile/game-history": {
+      "get": {
+        "description": "Get all games for the current user, sorted by played_at descending.\nIncludes games from Lichess, Chess.com, and manually imported games.",
+        "operationId": "get_game_history_api_profile_game_history_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 100,
+              "maximum": 500,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "offset",
+            "required": false,
+            "schema": {
+              "default": 0,
+              "minimum": 0,
+              "title": "Offset",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Game History",
+        "tags": [
+          "game-sync"
+        ]
+      }
+    },
+    "/api/profile/sync-status": {
+      "get": {
+        "description": "Get sync status for all linked providers.",
+        "operationId": "get_sync_status_api_profile_sync_status_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Sync Status",
+        "tags": [
+          "game-sync"
+        ]
+      }
+    },
+    "/api/profile/sync/trigger": {
+      "post": {
+        "description": "Manually trigger sync for all linked accounts.",
+        "operationId": "trigger_sync_api_profile_sync_trigger_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Trigger Sync",
+        "tags": [
+          "game-sync"
+        ]
+      }
+    },
+    "/api/repertoires": {
+      "get": {
+        "operationId": "list_user_repertoires_api_repertoires_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "List User Repertoires"
+      },
+      "post": {
+        "operationId": "create_user_repertoire_api_repertoires_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Create User Repertoire"
+      }
+    },
+    "/api/repertoires/{repertoire_id}": {
+      "delete": {
+        "operationId": "delete_user_repertoire_api_repertoires__repertoire_id__delete",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Delete User Repertoire"
+      },
+      "patch": {
+        "operationId": "update_user_repertoire_api_repertoires__repertoire_id__patch",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Update User Repertoire"
+      }
+    },
+    "/api/repertoires/{repertoire_id}/add-openings-from-catalog": {
+      "post": {
+        "description": "Add openings from the ECO catalog to a repertoire bucket.\nOpenings are copied with provenance metadata.",
+        "operationId": "add_openings_from_catalog_endpoint_api_repertoires__repertoire_id__add_openings_from_catalog_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddOpeningsFromCatalogRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Add Openings From Catalog Endpoint"
+      }
+    },
+    "/api/repertoires/{repertoire_id}/add-openings-from-repertoire": {
+      "post": {
+        "description": "Copy selected openings from a source repertoire to the target repertoire.\nBoth repertoires must be owned by the same user.",
+        "operationId": "add_openings_from_repertoire_endpoint_api_repertoires__repertoire_id__add_openings_from_repertoire_post",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddOpeningsFromRepertoireRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Add Openings From Repertoire Endpoint"
+      }
+    },
+    "/api/repertoires/{repertoire_id}/openings": {
+      "put": {
+        "operationId": "set_repertoire_openings_api_repertoires__repertoire_id__openings_put",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Set Repertoire Openings"
+      }
+    },
+    "/api/repertoires/{repertoire_id}/openings-for-import": {
+      "get": {
+        "description": "Get openings from a repertoire bucket for the import selection UI.\nUsed to populate the source bucket dropdown in Add Opening modal.",
+        "operationId": "get_repertoire_openings_for_import_api_repertoires__repertoire_id__openings_for_import_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Repertoire Openings For Import"
+      }
+    },
+    "/api/share/{slug}": {
+      "get": {
+        "description": "Get a public share clip by slug (no auth required).\n\nReturns 404 if clip not found or not public.",
+        "operationId": "get_public_share_clip_api_share__slug__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "slug",
+            "required": true,
+            "schema": {
+              "title": "Slug",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Public Share Clip"
+      }
+    },
+    "/auth/verify-captcha": {
+      "post": {
+        "description": "Verify CAPTCHA token before signup/login.\n\nSECURITY: Fail closed behavior:\n- Missing token: 400 Bad Request\n- Invalid token: 403 Forbidden\n- Verification failure: 403 Forbidden",
+        "operationId": "verify_captcha_auth_verify_captcha_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Verify Captcha",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/chess/analyze": {
+      "post": {
+        "description": "Analyze a chess position with Stockfish and ECO lookup.\nReturns evaluation, best moves, and opening information.",
+        "operationId": "analyze_position_chess_analyze_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Analyze Position",
+        "tags": [
+          "analysis"
+        ]
+      }
+    },
+    "/chess/analyze_with_llm": {
+      "post": {
+        "description": "Analyze a position with Stockfish + LLM commentary.\n\nThis is a complex endpoint that:\n1. Gets Stockfish evaluation\n2. Gets ECO classification\n3. Computes position heuristics\n4. Routes to GPU or API fallback for LLM commentary",
+        "operationId": "analyze_with_llm_chess_analyze_with_llm_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Analyze With Llm",
+        "tags": [
+          "analysis"
+        ]
+      }
+    },
+    "/chess/analyze_with_llm/stream": {
+      "post": {
+        "description": "Streaming version of analyze_with_llm.\nReturns SSE with status updates and text chunks.",
+        "operationId": "analyze_with_llm_stream_chess_analyze_with_llm_stream_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Analyze With Llm Stream",
+        "tags": [
+          "analysis"
+        ]
+      }
+    },
+    "/diagnose/import": {
+      "get": {
+        "description": "Test a minimal import to verify the full flow works.\nUses a known public account (DrNykterstein by default) with just 2 games.\n\nThis helps diagnose issues with:\n- Authentication\n- Import service connectivity\n- Database writes\n- Report generation",
+        "operationId": "test_import_flow_diagnose_import_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "test_username",
+            "required": false,
+            "schema": {
+              "default": "DrNykterstein",
+              "title": "Test Username",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Test Import Flow",
+        "tags": [
+          "health"
+        ]
+      }
+    },
+    "/diagnose/reports": {
+      "get": {
+        "description": "Diagnostic endpoint to test the reports flow in production.\nReturns auth status, database connectivity, and user data counts.\n\nUse this to debug issues with importing games or generating reports.",
+        "operationId": "diagnose_reports_flow_diagnose_reports_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Diagnose Reports Flow",
+        "tags": [
+          "health"
+        ]
+      }
+    },
+    "/eco": {
+      "post": {
+        "description": "Forward FEN to eco-service for lookup",
+        "operationId": "get_opening_eco_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Opening",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/eco/mainline": {
+      "post": {
+        "description": "Forward to eco-service to fetch representative mainline for an opening.\nAccepts { eco?: str, name?: str, query?: str, max_moves?: int }",
+        "operationId": "eco_mainline_eco_mainline_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Eco Mainline",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/eco/openings": {
+      "get": {
+        "operationId": "eco_openings_eco_openings_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "max_moves",
+            "required": false,
+            "schema": {
+              "default": 16,
+              "title": "Max Moves",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "integer"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Limit"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Eco Openings",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/eco/search": {
+      "post": {
+        "description": "Proxy opening name search to eco-service /search\nExpected payload: {\"query\": \"sicilian\"}",
+        "operationId": "eco_search_eco_search_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Eco Search",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/evaluate/heuristics": {
+      "post": {
+        "description": "Evaluate a position using fast local heuristics.\nReturns piece activity, pawn structure, and tactical patterns.",
+        "operationId": "evaluate_position_heuristics_evaluate_heuristics_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Evaluate Position Heuristics",
+        "tags": [
+          "analysis"
+        ]
+      }
+    },
+    "/games": {
+      "get": {
+        "operationId": "list_games_games_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 50,
+              "title": "Limit",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "offset",
+            "required": false,
+            "schema": {
+              "default": 0,
+              "title": "Offset",
+              "type": "integer"
+            }
+          },
+          {
+            "description": "Include PGN data in results",
+            "in": "query",
+            "name": "include_pgn",
+            "required": false,
+            "schema": {
+              "default": false,
+              "description": "Include PGN data in results",
+              "title": "Include Pgn",
+              "type": "boolean"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "List Games",
+        "tags": [
+          "games"
+        ]
+      },
+      "post": {
+        "description": "Upsert a game by (provider, source_id) when provided; otherwise dedupe by digest.\nAccepts a normalized payload with fields like pgn, provider, source_id, perf, etc.",
+        "operationId": "create_or_update_game_games_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Create Or Update Game",
+        "tags": [
+          "games"
+        ]
+      }
+    },
+    "/games/usernames": {
+      "get": {
+        "description": "Get all unique usernames from imported games.",
+        "operationId": "get_available_usernames_games_usernames_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Available Usernames",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/games/{game_id}/pgn": {
+      "get": {
+        "description": "Fetch PGN for a single game (used for lazy loading on profile/games pages).",
+        "operationId": "get_game_pgn_games__game_id__pgn_get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "game_id",
+            "required": true,
+            "schema": {
+              "title": "Game Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Game Pgn",
+        "tags": [
+          "games"
+        ]
+      }
+    },
+    "/gpu-status": {
+      "get": {
+        "description": "Get GPU warm-up status for frontend polling.\n\nReturns:\n    status: 'cold' | 'lc0_warming' | 'llama_warming' | 'ready'\n    lc0_ready: bool\n    llama_ready: bool",
+        "operationId": "gpu_status_gpu_status_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Gpu Status",
+        "tags": [
+          "health"
+        ]
+      }
+    },
+    "/healthz": {
+      "get": {
+        "operationId": "healthz_healthz_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Healthz",
+        "tags": [
+          "health"
+        ]
+      }
+    },
+    "/import/games/fetch": {
+      "post": {
+        "description": "Forward import requests to import-service. Expects payload like:\n{\"source\": \"lichess.org\"|\"chess.com\", \"username\": \"...\", \"filters\": {...}}",
+        "operationId": "import_fetch_games_import_games_fetch_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Import Fetch Games",
+        "tags": [
+          "imports"
+        ]
+      }
+    },
+    "/import/games/fetch-by-url": {
+      "post": {
+        "description": "Fetch a single game by URL from Lichess or Chess.com via import-service.\nExpected payload: {\"url\": \"...\", \"source\": \"lichess.org\"|\"chess.com\"}",
+        "operationId": "import_fetch_game_by_url_import_games_fetch_by_url_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Import Fetch Game By Url",
+        "tags": [
+          "imports"
+        ]
+      }
+    },
+    "/import/games/fetch/stream": {
+      "post": {
+        "description": "Stream NDJSON from import-service for incremental UI updates.",
+        "operationId": "import_fetch_games_stream_import_games_fetch_stream_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Import Fetch Games Stream",
+        "tags": [
+          "imports"
+        ]
+      }
+    },
+    "/imports": {
+      "get": {
+        "operationId": "list_imports_imports_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 50,
+              "title": "Limit",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "offset",
+            "required": false,
+            "schema": {
+              "default": 0,
+              "title": "Offset",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "List Imports",
+        "tags": [
+          "imports"
+        ]
+      },
+      "post": {
+        "description": "Create an import batch. Body: { source, username, filters }",
+        "operationId": "create_import_imports_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Create Import",
+        "tags": [
+          "imports"
+        ]
+      }
+    },
+    "/link-session": {
+      "post": {
+        "description": "Link anonymous session-owned rows to the authenticated user.",
+        "operationId": "link_session_link_session_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Link Session",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/llm/chat": {
+      "post": {
+        "description": "Send chess-related queries to LLM service\nExpected payload: {\n    \"messages\": [...],\n    \"fen\": \"optional_fen_string\", \n    \"pv\": [\"optional\", \"pv\", \"moves\"],\n    \"context\": \"optional_chess_context\"\n}",
+        "operationId": "chat_with_llm_llm_chat_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Chat With Llm"
+      }
+    },
+    "/opening-book": {
+      "post": {
+        "description": "Forward SAN moves to opening-book-service for WikiBook lookup\nExpected payload: { \"moves\": [\"e4\",\"e5\",\"Nf3\"] }",
+        "operationId": "opening_book_opening_book_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Opening Book",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/opening/book": {
+      "get": {
+        "description": "Proxy GET /opening/book to opening-book-service, preserving query params.\nUseful for Lichess Explorer-like aggregate lookups per FEN.",
+        "operationId": "opening_book_proxy_opening_book_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Opening Book Proxy",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/opening/book/internal": {
+      "get": {
+        "description": "Query internal games database for opening statistics.\nReturns moves played from this position with win/loss/draw counts.\n\nSchema:\n- moves: game_id, ply, san, uci, fen_before, fen_after\n- games: id, result, user_id\n\nResponse format matches Lichess API for frontend compatibility:\n{\n    \"moves\": [\n        {\"san\": \"e4\", \"uci\": \"e2e4\", \"white\": 100, \"black\": 80, \"draws\": 50}\n    ]\n}",
+        "operationId": "opening_book_internal_opening_book_internal_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "fen",
+            "required": true,
+            "schema": {
+              "title": "Fen",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Opening Book Internal",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/opening/popularity/by-fens": {
+      "post": {
+        "description": "Proxy POST /opening/popularity/by-fens to opening-book-service.\nReturns game counts for a list of FEN positions.",
+        "operationId": "opening_popularity_proxy_opening_popularity_by_fens_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Opening Popularity Proxy",
+        "tags": [
+          "openings"
+        ]
+      }
+    },
+    "/payments/create-checkout-session": {
+      "post": {
+        "operationId": "payments_create_checkout_session_payments_create_checkout_session_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Payments Create Checkout Session"
+      }
+    },
+    "/profile/info": {
+      "get": {
+        "description": "Get basic profile info for display.",
+        "operationId": "get_profile_info_profile_info_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Profile Info",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/profile/linked-accounts": {
+      "delete": {
+        "description": "Remove a linked account",
+        "operationId": "remove_linked_account_profile_linked_accounts_delete",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Remove Linked Account",
+        "tags": [
+          "game-sync"
+        ]
+      },
+      "get": {
+        "description": "Get user's linked accounts and settings",
+        "operationId": "get_linked_accounts_profile_linked_accounts_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Linked Accounts",
+        "tags": [
+          "game-sync"
+        ]
+      },
+      "post": {
+        "description": "Add a new linked account and trigger initial game sync",
+        "operationId": "add_linked_account_profile_linked_accounts_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Add Linked Account",
+        "tags": [
+          "game-sync"
+        ]
+      }
+    },
+    "/profile/picture": {
+      "delete": {
+        "description": "Remove profile picture",
+        "operationId": "delete_profile_picture_profile_picture_delete",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Delete Profile Picture"
+      },
+      "get": {
+        "description": "Get current user's profile picture",
+        "operationId": "get_profile_picture_profile_picture_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Profile Picture"
+      },
+      "post": {
+        "description": "Upload or update profile picture.\n\nSECURITY INPUT-5: Validated for size (max 2MB) and type (png/jpeg/webp only).",
+        "operationId": "update_profile_picture_profile_picture_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Update Profile Picture"
+      }
+    },
+    "/profile/puzzles": {
+      "get": {
+        "description": "Get all saved puzzles for user's profile.",
+        "operationId": "get_saved_puzzles_profile_puzzles_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "limit",
+            "required": false,
+            "schema": {
+              "default": 50,
+              "maximum": 200,
+              "minimum": 1,
+              "title": "Limit",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "offset",
+            "required": false,
+            "schema": {
+              "default": 0,
+              "minimum": 0,
+              "title": "Offset",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Saved Puzzles",
+        "tags": [
+          "puzzles"
+        ]
+      },
+      "post": {
+        "description": "Save puzzles from a report to user's profile.",
+        "operationId": "save_puzzles_to_profile_profile_puzzles_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SavePuzzlesRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Save Puzzles To Profile",
+        "tags": [
+          "puzzles"
+        ]
+      }
+    },
+    "/profile/puzzles/{puzzle_db_id}": {
+      "delete": {
+        "description": "Delete a saved puzzle from user's profile.",
+        "operationId": "delete_saved_puzzle_profile_puzzles__puzzle_db_id__delete",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "puzzle_db_id",
+            "required": true,
+            "schema": {
+              "title": "Puzzle Db Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Delete Saved Puzzle",
+        "tags": [
+          "puzzles"
+        ]
+      }
+    },
+    "/profile/settings": {
+      "post": {
+        "description": "Update user settings",
+        "operationId": "update_user_settings_profile_settings_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Update User Settings",
+        "tags": [
+          "game-sync"
+        ]
+      }
+    },
+    "/puzzles/next": {
+      "get": {
+        "operationId": "get_next_puzzle_puzzles_next_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "mode",
+            "required": false,
+            "schema": {
+              "default": "random",
+              "title": "Mode",
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "rating",
+            "required": false,
+            "schema": {
+              "default": 1500,
+              "title": "Rating",
+              "type": "integer"
+            }
+          },
+          {
+            "in": "query",
+            "name": "themes",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Themes"
+            }
+          },
+          {
+            "in": "query",
+            "name": "ecos",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                {
+                  "type": "null"
+                }
+              ],
+              "title": "Ecos"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Next Puzzle",
+        "tags": [
+          "puzzles"
+        ]
+      }
+    },
+    "/puzzles/submit": {
+      "post": {
+        "operationId": "submit_puzzle_puzzles_submit_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Submit Puzzle",
+        "tags": [
+          "puzzles"
+        ]
+      }
+    },
+    "/puzzles/user/{user_id}": {
+      "get": {
+        "operationId": "get_puzzle_user_puzzles_user__user_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "user_id",
+            "required": true,
+            "schema": {
+              "title": "User Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Puzzle User",
+        "tags": [
+          "puzzles"
+        ]
+      }
+    },
+    "/puzzles/{puzzle_id}": {
+      "get": {
+        "description": "Fetch a specific puzzle by its ID.",
+        "operationId": "get_puzzle_by_id_puzzles__puzzle_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "puzzle_id",
+            "required": true,
+            "schema": {
+              "title": "Puzzle Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Puzzle By Id",
+        "tags": [
+          "puzzles"
+        ]
+      }
+    },
+    "/repertoires": {
+      "get": {
+        "operationId": "list_repertoires_repertoires_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "favorite",
+            "required": false,
+            "schema": {
+              "title": "Favorite",
+              "type": "boolean"
+            }
+          },
+          {
+            "in": "query",
+            "name": "report_id",
+            "required": false,
+            "schema": {
+              "format": "uuid",
+              "title": "Report Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Repertoire"
+                  },
+                  "title": "Response List Repertoires Repertoires Get",
+                  "type": "array"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "List Repertoires",
+        "tags": [
+          "repertoires"
+        ]
+      },
+      "post": {
+        "operationId": "create_repertoire_repertoires_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RepertoireCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Repertoire"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Repertoire",
+        "tags": [
+          "repertoires"
+        ]
+      }
+    },
+    "/repertoires/stats": {
+      "get": {
+        "operationId": "get_repertoire_stats_repertoires_stats_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Repertoire Stats",
+        "tags": [
+          "repertoires"
+        ]
+      }
+    },
+    "/repertoires/{repertoire_id}": {
+      "delete": {
+        "operationId": "delete_repertoire_repertoires__repertoire_id__delete",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "format": "uuid",
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Delete Repertoire",
+        "tags": [
+          "repertoires"
+        ]
+      },
+      "get": {
+        "operationId": "get_repertoire_repertoires__repertoire_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "format": "uuid",
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Repertoire"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Repertoire",
+        "tags": [
+          "repertoires"
+        ]
+      },
+      "patch": {
+        "operationId": "update_repertoire_repertoires__repertoire_id__patch",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "repertoire_id",
+            "required": true,
+            "schema": {
+              "format": "uuid",
+              "title": "Repertoire Id",
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RepertoireUpdate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Repertoire"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Update Repertoire",
+        "tags": [
+          "repertoires"
+        ]
+      }
+    },
+    "/stockfish": {
+      "post": {
+        "description": "Forward analysis request to Stockfish service.",
+        "operationId": "analyze_stockfish_stockfish_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Analyze Stockfish",
+        "tags": [
+          "analysis"
+        ]
+      }
+    },
+    "/studies": {
+      "get": {
+        "description": "Get all studies for the current user",
+        "operationId": "get_user_studies_studies_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get User Studies",
+        "tags": [
+          "studies"
+        ]
+      },
+      "post": {
+        "description": "Create a new study for the current user\nExpected payload: {\n    \"name\": \"Study Name\",\n    \"pgn\": \"1.e4 e5 2.Nf3...\",\n    \"current_fen\": \"rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1\",\n    \"current_path\": \"sy3a\",\n    \"move_tree\": {...},\n    \"messages\": {...}\n}",
+        "operationId": "create_study_studies_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "additionalProperties": true,
+                "title": "Payload",
+                "type": "object"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Study",
+        "tags": [
+          "studies"
+        ]
+      }
+    },
+    "/studies/{study_id}": {
+      "delete": {
+        "description": "Delete a study",
+        "operationId": "delete_study_studies__study_id__delete",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "study_id",
+            "required": true,
+            "schema": {
+              "title": "Study Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Delete Study",
+        "tags": [
+          "studies"
+        ]
+      },
+      "get": {
+        "description": "Get a specific study with complete data",
+        "operationId": "get_study_studies__study_id__get",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "study_id",
+            "required": true,
+            "schema": {
+              "title": "Study Id",
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Get Study",
+        "tags": [
+          "studies"
+        ]
+      }
+    },
+    "/subscriptions/create-checkout": {
+      "post": {
+        "description": "Create a Stripe Checkout session for subscription (no Stripe trials).",
+        "operationId": "create_checkout_session_subscriptions_create_checkout_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CheckoutRequest"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CheckoutResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "summary": "Create Checkout Session",
+        "tags": [
+          "subscriptions",
+          "subscriptions"
+        ]
+      }
+    },
+    "/subscriptions/create-portal": {
+      "post": {
+        "description": "Create a Stripe Customer Portal session for managing subscription.",
+        "operationId": "create_customer_portal_subscriptions_create_portal_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PortalResponse"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Create Customer Portal",
+        "tags": [
+          "subscriptions",
+          "subscriptions"
+        ]
+      }
+    },
+    "/subscriptions/status": {
+      "get": {
+        "description": "Get current subscription status for the user.",
+        "operationId": "get_subscription_status_subscriptions_status_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SubscriptionStatus"
+                }
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Get Subscription Status",
+        "tags": [
+          "subscriptions",
+          "subscriptions"
+        ]
+      }
+    },
+    "/subscriptions/webhook": {
+      "post": {
+        "description": "Handle Stripe webhook events.\n\nSECURITY INFRA-5: Idempotency check prevents duplicate processing.",
+        "operationId": "stripe_webhook_subscriptions_webhook_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "summary": "Stripe Webhook",
+        "tags": [
+          "subscriptions",
+          "subscriptions"
+        ]
+      }
+    },
+    "/users/me": {
+      "get": {
+        "description": "Get the current user's profile including username.",
+        "operationId": "get_current_user_profile_users_me_get",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "summary": "Get Current User Profile",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/users/sync": {
+      "post": {
+        "description": "Sync user from Supabase JWT to database.",
+        "operationId": "sync_user_users_sync_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "summary": "Sync User",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/users/username": {
+      "post": {
+        "description": "Set or update the user's username.",
+        "operationId": "set_username_users_username_post",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "summary": "Set Username",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/users/username/check": {
+      "get": {
+        "description": "Check if a username is available and valid.",
+        "operationId": "check_username_availability_users_username_check_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "username",
+            "required": true,
+            "schema": {
+              "title": "Username",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "summary": "Check Username Availability",
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/users/username/suggestions": {
+      "get": {
+        "description": "Get username suggestions based on a base string or user's email.",
+        "operationId": "get_username_suggestions_users_username_suggestions_get",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "base",
+            "required": false,
+            "schema": {
+              "title": "Base",
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            },
+            "description": "Successful Response"
+          },
+          "422": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            },
+            "description": "Validation Error"
+          }
+        },
+        "security": [
+          {
+            "OAuth2PasswordBearer": []
+          }
+        ],
+        "summary": "Get Username Suggestions",
+        "tags": [
+          "users"
+        ]
+      }
+    }
+  }
+}

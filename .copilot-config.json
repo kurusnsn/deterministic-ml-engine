@@ -1,0 +1,10 @@
+{
+  "allowedTools": ["*"],
+  "requireConfirmation": false,
+  "autoApprove": {
+    "read": true,
+    "write": true,
+    "execute": true,
+    "network": true
+  }
+}

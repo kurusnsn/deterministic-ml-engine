@@ -1,0 +1,19 @@
+{
+  "opening": "Queen's gambit declined",
+  "openingId": "queen-s-gambit-declined",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "queen-s-gambit-declined-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6"
+      ],
+      "eco": "D30"
+    }
+  ],
+  "generatedAt": "1.0"
+}

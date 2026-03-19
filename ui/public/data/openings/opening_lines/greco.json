@@ -1,0 +1,1009 @@
+{
+  "opening": "greco",
+  "openingId": "greco",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "greco-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Qf6"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "greco-nc3-nh6-nd5-qd6-x7um6j",
+      "name": "Qd6 Line",
+      "moves": [
+        "Nc3",
+        "Nh6",
+        "Nd5",
+        "Qd6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1638146,
+          3753,
+          1688,
+          759
+        ],
+        "winrates": [
+          55.577769014483444,
+          73.23474553690382,
+          79.08767772511848,
+          77.07509881422925
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-d4-c5-dxe5-qtty9q",
+      "name": "dxe5 Line",
+      "moves": [
+        "d4",
+        "c5",
+        "dxe5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          854563,
+          919,
+          740
+        ],
+        "winrates": [
+          55.811917904238776,
+          80.19586507072906,
+          83.1081081081081
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-nc6-nc3-nh6-nd5-5kaz9j",
+      "name": "Nd5 Line",
+      "moves": [
+        "Bc4",
+        "Nc6",
+        "Nc3",
+        "Nh6",
+        "Nd5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2105276,
+          64135,
+          173072,
+          1160,
+          725
+        ],
+        "winrates": [
+          50.898718267818566,
+          55.245965541436036,
+          55.605470555606914,
+          74.05172413793103,
+          78.6896551724138
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bd6-nc3-h6-nd5-alvjya",
+      "name": "After Nc3 h6 Nd5",
+      "moves": [
+        "Bc4",
+        "Bd6",
+        "Nc3",
+        "h6",
+        "Nd5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2105276,
+          9681,
+          6806,
+          1235,
+          761
+        ],
+        "winrates": [
+          50.898718267818566,
+          55.24739179836794,
+          57.66235674404937,
+          57.36842105263158,
+          58.93561103810775
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-a5-o-o-c6-d4-exd4-tbb3c1",
+      "name": "exd4 Line",
+      "moves": [
+        "Bc4",
+        "a5",
+        "O-O",
+        "c6",
+        "d4",
+        "exd4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2105276,
+          9627,
+          1941,
+          567,
+          746,
+          534
+        ],
+        "winrates": [
+          50.898718267818566,
+          55.230082060870465,
+          60.046367851622875,
+          64.02116402116403,
+          63.53887399463807,
+          62.453183520599254
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-g5-d4-exd4-bxg5-mk0l1y",
+      "name": "Bxg5 Line",
+      "moves": [
+        "Bc4",
+        "g5",
+        "d4",
+        "exd4",
+        "Bxg5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2105276,
+          8823,
+          1859,
+          985,
+          566
+        ],
+        "winrates": [
+          50.898718267818566,
+          58.36450187011221,
+          67.77837547068316,
+          67.00507614213198,
+          72.43816254416961
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-a6-nc3-b5-tkxum8",
+      "name": "b5 Line",
+      "moves": [
+        "Bc4",
+        "a6",
+        "Nc3",
+        "b5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2105276,
+          7612,
+          2100,
+          510
+        ],
+        "winrates": [
+          50.898718267818566,
+          62.27666841828692,
+          65.07142857142857,
+          71.66666666666667
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-d4-d6-mx9ksc",
+      "name": "d6 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "d4",
+        "d6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2105276,
+          1328608,
+          38586,
+          652
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          56.657855180635465,
+          69.55521472392638
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-b4-bxb4-c3-bc5-upsdug",
+      "name": "O-O Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "b4",
+        "Bxb4",
+        "c3",
+        "Bc5",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2105276,
+          1328608,
+          10773,
+          6357,
+          6082,
+          5115,
+          720
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          56.87830687830689,
+          58.44738084001888,
+          58.71423873725748,
+          58.98338220918866,
+          60.06944444444444
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-a4-d6-mvm709",
+      "name": "After Bc5 a4 d6",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "a4",
+        "d6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2105276,
+          1328608,
+          847,
+          543
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          56.31641086186541,
+          56.813996316758754
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-c6-d4-exd4-gkrbz9",
+      "name": "Qg6 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "c6",
+        "d4",
+        "exd4",
+        "e5",
+        "Qg6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          36433,
+          2717,
+          2158,
+          1533,
+          914
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          57.500068619109044,
+          65.16378358483622,
+          64.87488415199259,
+          70.51532941943901,
+          67.39606126914661
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-nh6-nc3-o-o-9pzusi",
+      "name": "After Nh6 Nc3 O-O",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "Nh6",
+        "Nc3",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          22955,
+          3733,
+          802
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          61.79917229361794,
+          65.72461826948835,
+          69.57605985037407
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-g5-d4-g4-12qu62",
+      "name": "g4 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "g5",
+        "d4",
+        "g4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          15276,
+          3761,
+          651
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          58.76865671641791,
+          69.02419569263493,
+          71.58218125960062
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-h5-c3-h4-scb6y8",
+      "name": "Bb6 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "h5",
+        "c3",
+        "h4",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          8513,
+          3143,
+          1641,
+          1076,
+          874,
+          777,
+          588
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          57.42981322682955,
+          63.64937957365574,
+          64.92992078001218,
+          67.0539033457249,
+          68.19221967963387,
+          68.14671814671814,
+          66.75170068027211
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-qb6-nxe5-uwj901",
+      "name": "Nxe5 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "Qb6",
+        "Nxe5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          7939,
+          638
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          60.30356468069026,
+          65.28213166144201
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-a6-c3-b5-f4y1q1",
+      "name": "After a6 c3 b5",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "a6",
+        "c3",
+        "b5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          4155,
+          1631,
+          516
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          60.86642599277978,
+          67.22869405272839,
+          72.57751937984496
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-qg6-nxe5-x9em52",
+      "name": "After O-O Qg6 Nxe5",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "Qg6",
+        "Nxe5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          3476,
+          949
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          69.24626006904488,
+          84.19388830347735
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-d6-d4-bb6-9stoed",
+      "name": "After d6 d4 Bb6",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "d4",
+        "Bb6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          232862,
+          12742,
+          718
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          50.548608188540854,
+          55.92528645424581,
+          64.34540389972145
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-d6-b4-bxb4-y9ow3i",
+      "name": "e5 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "b4",
+        "Bxb4",
+        "c3",
+        "Bc5",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb6",
+        "e5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          232862,
+          2245,
+          1075,
+          1038,
+          885,
+          1121,
+          950,
+          884,
+          808,
+          588
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          50.548608188540854,
+          56.30289532293986,
+          57.81395348837209,
+          58.04431599229287,
+          57.96610169491525,
+          58.60838537020518,
+          58.15789473684211,
+          59.16289592760181,
+          59.28217821782178,
+          61.564625850340136
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-d6-c3-qg6-aevze2",
+      "name": "Kh1 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "c3",
+        "Qg6",
+        "Kh1"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          232862,
+          85598,
+          7568,
+          918
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          50.548608188540854,
+          52.40659828500666,
+          58.119714587737846,
+          63.50762527233116
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-d6-c3-c6-e3c55m",
+      "name": "exd6 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "c3",
+        "c6",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb6",
+        "e5",
+        "Qg6",
+        "exd6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          232862,
+          85598,
+          7438,
+          12931,
+          10364,
+          9999,
+          8372,
+          5263,
+          690,
+          559
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          50.548608188540854,
+          52.40659828500666,
+          58.38935197633772,
+          60.420694455185206,
+          61.486877653415675,
+          61.536153615361535,
+          61.41304347826087,
+          63.718411552346566,
+          66.66666666666666,
+          69.05187835420394
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-d6-c3-h5-nhljqe",
+      "name": "After Bb6 e5 Qg6",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "c3",
+        "h5",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb6",
+        "e5",
+        "Qg6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          232862,
+          85598,
+          4878,
+          4361,
+          3969,
+          3760,
+          3613,
+          2352,
+          634
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          50.548608188540854,
+          52.40659828500666,
+          58.25133251332514,
+          60.59390048154093,
+          60.56941295036533,
+          60.890957446808514,
+          60.572931082203155,
+          62.308673469387756,
+          66.08832807570978
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-d6-c3-a6-gc4czm",
+      "name": "After exd4 cxd4 Bb6",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "c3",
+        "a6",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          232862,
+          85598,
+          2906,
+          2720,
+          2170,
+          2045,
+          629
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          50.548608188540854,
+          52.40659828500666,
+          62.044046799724704,
+          66.36029411764706,
+          66.68202764976958,
+          66.82151589242054,
+          69.47535771065183
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-d6-c3-ne7-hboc86",
+      "name": "Kxe7 Line",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "c3",
+        "Ne7",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb6",
+        "Bg5",
+        "Qg6",
+        "Bxe7",
+        "Kxe7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          232862,
+          85598,
+          2754,
+          4868,
+          3968,
+          3780,
+          3401,
+          995,
+          984,
+          652,
+          643
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          50.548608188540854,
+          52.40659828500666,
+          56.51779230210603,
+          56.511914543960565,
+          56.5398185483871,
+          56.26984126984127,
+          56.13054983828286,
+          61.85929648241206,
+          61.636178861788615,
+          61.73312883435583,
+          61.81959564541213
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "greco-bc4-bc5-o-o-d6-c3-be6-yx6sk5",
+      "name": "Variation 1",
+      "moves": [
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "c3",
+        "Be6",
+        "Bxe6",
+        "Qxe6",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2105276,
+          1328608,
+          556584,
+          232862,
+          85598,
+          2152,
+          1018,
+          500,
+          698,
+          602,
+          643,
+          608
+        ],
+        "winrates": [
+          50.898718267818566,
+          51.33587182976469,
+          52.686027625659385,
+          50.548608188540854,
+          52.40659828500666,
+          58.45724907063197,
+          58.59528487229863,
+          61.3,
+          61.74785100286533,
+          62.87375415282392,
+          62.44167962674961,
+          62.17105263157895
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:10:08.978Z"
+}

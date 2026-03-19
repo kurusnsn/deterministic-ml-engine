@@ -1,0 +1,101 @@
+{
+  "opening": "Latvian counter-gambit",
+  "openingId": "latvian-counter-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "latvian-counter-gambit-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "f5"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "latvian-counter-gambit-line-1",
+      "name": "Fraser defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "f5",
+        "Nxe5",
+        "Nc6"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "latvian-counter-gambit-line-2",
+      "name": "Polerio variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "f5",
+        "Bc4",
+        "fxe4",
+        "Nxe5",
+        "d5"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "latvian-counter-gambit-line-3",
+      "name": "corkscrew counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "f5",
+        "Bc4",
+        "fxe4",
+        "Nxe5",
+        "Nf6"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "latvian-counter-gambit-line-4",
+      "name": "Nimzovich variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "f5",
+        "Nxe5",
+        "Qf6",
+        "d4",
+        "d6",
+        "Nc4",
+        "fxe4",
+        "Ne3"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "latvian-counter-gambit-line-5",
+      "name": "Behting variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "f5",
+        "Bc4",
+        "fxe4",
+        "Nxe5",
+        "Qg5",
+        "Nf7",
+        "Qxg2",
+        "Rf1",
+        "d5",
+        "Nxh8",
+        "Nf6"
+      ],
+      "eco": "C40"
+    }
+  ],
+  "generatedAt": "1.0"
+}

@@ -1,0 +1,1336 @@
+{
+  "opening": "bishop's opening",
+  "openingId": "bishop-s-opening",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "bishop-s-opening-line-0",
+      "name": "Calabrese counter-gambit, Jaenisch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "f5",
+        "d3"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "bishop-s-opening-line-1",
+      "name": "Lewis gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Bc5",
+        "d4"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "bishop-s-opening-line-2",
+      "name": "Greco gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Nf6",
+        "f4"
+      ],
+      "eco": "C24"
+    },
+    {
+      "id": "bishop-s-opening-line-3",
+      "name": "Lewis counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Bc5",
+        "c3",
+        "d5"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "bishop-s-opening-line-4",
+      "name": "del Rio variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Bc5",
+        "c3",
+        "Qg5"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "bishop-s-opening-line-5",
+      "name": "Lopez gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Bc5",
+        "Qe2",
+        "Nc6",
+        "c3",
+        "Nf6",
+        "f4"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "bishop-s-opening-line-6",
+      "name": "Urusov gambit, Panov variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Nf6",
+        "d4",
+        "exd4",
+        "Nf3",
+        "d5",
+        "exd5",
+        "Bb4+",
+        "c3",
+        "Qe7+"
+      ],
+      "eco": "C24"
+    },
+    {
+      "id": "bishop-s-opening-line-7",
+      "name": "Pratt variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "d5",
+        "exf6",
+        "dxc4",
+        "Qh5",
+        "O-O"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "bishop-s-opening-line-8",
+      "name": "Lisitsyn variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "Bb5+",
+        "Bd7",
+        "Bxd7+",
+        "Nxd7",
+        "dxe5",
+        "Nxe5",
+        "Ne2"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "bishop-s-opening-line-9",
+      "name": "Four pawns' gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Bc4",
+        "Bc5",
+        "b4",
+        "Bxb4",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Be7",
+        "d4",
+        "Bh4+",
+        "g3",
+        "fxg3",
+        "O-O",
+        "gxh2+",
+        "Kh1"
+      ],
+      "eco": "C23"
+    },
+    {
+      "id": "bishop-s-opening-h6-qh5-nf6-fl2eb4",
+      "name": "Nf6 Line",
+      "moves": [
+        "h6",
+        "Qh5",
+        "Nf6"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          484699,
+          55850,
+          1195
+        ],
+        "winrates": [
+          55.95668652091298,
+          60.17457475380483,
+          85.10460251046025
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-c5-qh5-nc6-qxf7--jsj32j",
+      "name": "Qxf7 Line",
+      "moves": [
+        "c5",
+        "Qh5",
+        "Nc6",
+        "Qxf7#"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          178979,
+          43811,
+          1075,
+          3364
+        ],
+        "winrates": [
+          56.96310740366188,
+          65.47442423135742,
+          98.46511627906976,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-qh5-bc5-qxf7--z0b01j",
+      "name": "After Qh5 Bc5 Qxf7#",
+      "moves": [
+        "Nc6",
+        "Qh5",
+        "Bc5",
+        "Qxf7#"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          22385337,
+          1775972,
+          31213,
+          37470
+        ],
+        "winrates": [
+          51.71385402864384,
+          56.447624174255,
+          98.82580975875437,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-h6-d4-f6-nh4-m481c7",
+      "name": "Nh4 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "h6",
+        "d4",
+        "f6",
+        "Nh4"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          22385337,
+          7367533,
+          11445905,
+          2921222,
+          27673,
+          1291
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          55.87699705702607,
+          58.48709889217595,
+          76.64329852202508,
+          86.98683191324554
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-a6-d4-f6-dxe5-k8rb9l",
+      "name": "Qh5 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "a6",
+        "d4",
+        "f6",
+        "dxe5",
+        "Nxe5",
+        "Nxe5",
+        "fxe5",
+        "Qh5+"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          22385337,
+          7367533,
+          410650,
+          85371,
+          1349,
+          3175,
+          1452,
+          1384,
+          1362,
+          1013
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          57.21843418969925,
+          60.18378606318306,
+          72.49814677538917,
+          75.37007874015748,
+          81.68044077134986,
+          82.91184971098265,
+          82.8928046989721,
+          89.19052319842054
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-f6-nh4-bc5-qh5--965mwq",
+      "name": "Qxh8 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "f6",
+        "Nh4",
+        "Bc5",
+        "Qh5+",
+        "g6",
+        "Nxg6",
+        "hxg6",
+        "Qxh8"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          22385337,
+          7367533,
+          383183,
+          20347,
+          3231,
+          3397,
+          2320,
+          2311,
+          1396,
+          1141
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          64.01771477335895,
+          72.00324372143314,
+          90.80779944289694,
+          91.52193111569031,
+          89.33189655172413,
+          89.46343574210299,
+          86.17478510028653,
+          88.29973707274321
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bb4-c3-nf6-cxb4-piisxf",
+      "name": "Nxb4 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bb4",
+        "c3",
+        "Nf6",
+        "cxb4",
+        "Nxb4"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          22385337,
+          7367533,
+          237473,
+          149199,
+          1673,
+          1938,
+          1083
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          56.041950032214196,
+          57.29093358534575,
+          71.84698147041243,
+          71.49122807017544,
+          69.25207756232687
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-h6-d4-46cq3d",
+      "name": "Qxd8 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "h6",
+        "d4",
+        "d6",
+        "dxc5",
+        "dxc5",
+        "Qxd8+"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          624866,
+          607461,
+          1634,
+          2545,
+          1483,
+          1125
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          56.51219621486847,
+          58.13410243620578,
+          76.22399020807833,
+          78.99803536345776,
+          78.28725556304788,
+          79.82222222222222
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-a6-d4-gn51a5",
+      "name": "dxc5 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "a6",
+        "d4",
+        "b5",
+        "Bxf7+",
+        "Kxf7",
+        "dxc5"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          356136,
+          232283,
+          3818,
+          1798,
+          1752,
+          1546
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          56.746018375002805,
+          58.16051971086993,
+          67.05081194342588,
+          71.55172413793103,
+          71.31849315068493,
+          71.79818887451488
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-a5-o-o-ylp25z",
+      "name": "Bb4 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "a5",
+        "O-O",
+        "Nf6",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb4"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          43305,
+          5934,
+          3357,
+          14709,
+          13109,
+          11444,
+          1310
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          58.16880267867452,
+          60.77687900235929,
+          64.77509681263032,
+          68.34591066693861,
+          69.2501334960714,
+          69.7046487242223,
+          69.7328244274809
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-na5-bxf7--958nmz",
+      "name": "Nc4 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Na5",
+        "Bxf7+",
+        "Kxf7",
+        "b4",
+        "Bxf2+",
+        "Kxf2",
+        "Nc4"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          36927,
+          12583,
+          12029,
+          5527,
+          3958,
+          3952,
+          1110
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          63.27754759390148,
+          69.10911547325756,
+          68.50943553080057,
+          69.48615885652252,
+          68.10257705912078,
+          68.0668016194332,
+          73.6036036036036
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-d5-exd5-2cqd4y",
+      "name": "e4 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "d5",
+        "exd5",
+        "e4"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          24485,
+          16350,
+          1483
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          61.247702675107206,
+          64.24464831804282,
+          67.59946055293324
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-drrdgj",
+      "name": "Nxe4 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "Bb6",
+        "Nxe5",
+        "Nxe5",
+        "dxe5",
+        "Nxe4"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          78910,
+          2812,
+          2106,
+          2144,
+          1849
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          55.70586744392346,
+          61.46870554765292,
+          59.85280151946819,
+          59.81809701492538,
+          59.058950784207674
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-d2r32b",
+      "name": "Re8 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "Bd6",
+        "O-O",
+        "O-O",
+        "Re1",
+        "Re8"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          38037,
+          11535,
+          8214,
+          5172,
+          1393
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          55.516996608565336,
+          63.381014304291284,
+          61.77867056245434,
+          63.457076566125295,
+          61.84493898061737
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-qx1sft",
+      "name": "O-O Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "O-O",
+        "dxc5",
+        "d6",
+        "cxd6",
+        "cxd6",
+        "O-O"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          14125,
+          11914,
+          3373,
+          3455,
+          3082,
+          1612
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          67.85840707964603,
+          69.35118348161826,
+          66.54313667358434,
+          67.46743849493487,
+          67.87800129785853,
+          66.43920595533498
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-asutkf",
+      "name": "Kxd8 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "d6",
+        "dxc5",
+        "dxc5",
+        "Qxd8+",
+        "Kxd8"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          13968,
+          14791,
+          8782,
+          6358,
+          2531
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          74.03708476517755,
+          76.56007031302819,
+          75.34160783420634,
+          78.26360490720351,
+          79.6128012643224
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-eev9ml",
+      "name": "After exd5 Nxd5 dxc5",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "d5",
+        "exd5",
+        "Nxd5",
+        "dxc5"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          7399,
+          4964,
+          1348,
+          1168
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          70.6244087038789,
+          77.11522965350524,
+          83.49406528189911,
+          87.2431506849315
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-axllj",
+      "name": "Qxe4 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "Be7",
+        "dxe5",
+        "Nxe4",
+        "Qd5",
+        "O-O",
+        "Qxe4"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          5921,
+          6255,
+          4463,
+          3903,
+          2671,
+          2661
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          65.34369194392839,
+          71.07913669064749,
+          73.32511763387856,
+          82.60312580066615,
+          77.18083114938226,
+          77.28297632468997
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-pfclih",
+      "name": "Nxc5 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "Nxe4",
+        "dxc5",
+        "Nxc5"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          4643,
+          4214,
+          2255
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          73.62696532414387,
+          74.46606549596582,
+          69.04656319290466
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-ux0jvh",
+      "name": "After d4 h6 dxc5",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "h6",
+        "dxc5"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          1230,
+          3408
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          73.98373983739837,
+          72.03638497652582
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-oxz6j9",
+      "name": "After cxb4 Qe7 O-O",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Bb4",
+        "cxb4",
+        "Qe7",
+        "O-O"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          4872955,
+          1441449,
+          32842,
+          20299,
+          2212,
+          1942
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          54.75290660389845,
+          56.21308835761793,
+          76.72492540040193,
+          76.9964037637322,
+          76.94394213381554,
+          78.14109165808445
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-86i6dn",
+      "name": "After Bb4 cxb4 Nxb4",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "O-O",
+        "Bb4",
+        "cxb4",
+        "Nxb4"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          4872955,
+          226224,
+          4245,
+          3904,
+          1413
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          54.75290660389845,
+          57.155076384468494,
+          77.62073027090695,
+          77.72797131147541,
+          73.8145789101203
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-su0dzc",
+      "name": "Nxe5 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Bb6",
+        "d5",
+        "Ne5",
+        "Nxe5"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          4872955,
+          3555813,
+          350254,
+          55067,
+          1159,
+          1062
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          54.75290660389845,
+          53.48347902434689,
+          58.70182781638468,
+          60.39370221729893,
+          67.12683347713546,
+          68.69114877589453
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-d0qmh",
+      "name": "Bd3 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Be7",
+        "d5",
+        "Na5",
+        "Bd3"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          4872955,
+          3555813,
+          29700,
+          3865,
+          2476,
+          1950
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          54.75290660389845,
+          53.48347902434689,
+          61.62962962962963,
+          63.20827943078914,
+          59.18820678513732,
+          62.23076923076923
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "bishop-s-opening-nc6-nf3-bc5-c3-nf6-d4-dgrhc1",
+      "name": "Bg5 Line",
+      "moves": [
+        "Nc6",
+        "Nf3",
+        "Bc5",
+        "c3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Nxd4",
+        "Nxd4",
+        "Bxd4",
+        "Qxd4",
+        "O-O",
+        "Bg5"
+      ],
+      "eco": "C23",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          22385337,
+          7367533,
+          46377431,
+          14881608,
+          8682504,
+          5039103,
+          4872955,
+          3555813,
+          20300,
+          18815,
+          4137,
+          4076,
+          4715,
+          1117
+        ],
+        "winrates": [
+          51.71385402864384,
+          50.44073097466955,
+          51.66132423333237,
+          53.27068822132662,
+          53.45895607995112,
+          54.94570164570957,
+          54.75290660389845,
+          53.48347902434689,
+          69.48275862068965,
+          70.05846399149614,
+          82.45105148658448,
+          82.8631010794897,
+          82.30116648992578,
+          85.0940017905103
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T00:02:42.943Z"
+}

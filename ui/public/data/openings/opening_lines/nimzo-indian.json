@@ -1,0 +1,639 @@
+{
+  "opening": "nimzo-indian",
+  "openingId": "nimzo-indian",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "nimzo-indian-line-0",
+      "name": "Kmoch variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "f3"
+      ],
+      "eco": "E20"
+    },
+    {
+      "id": "nimzo-indian-line-1",
+      "name": "Mikenas attack",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qd3"
+      ],
+      "eco": "E20"
+    },
+    {
+      "id": "nimzo-indian-line-2",
+      "name": "Romanishin-Kasparov (Steiner) system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "g3"
+      ],
+      "eco": "E20"
+    },
+    {
+      "id": "nimzo-indian-line-3",
+      "name": "4.e3, Taimanov variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "Nc6"
+      ],
+      "eco": "E40"
+    },
+    {
+      "id": "nimzo-indian-line-4",
+      "name": "4.e3 c5, 5.Ne2 (Rubinstein)",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "c5",
+        "Ne2"
+      ],
+      "eco": "E42"
+    },
+    {
+      "id": "nimzo-indian-line-5",
+      "name": "three knights, Euwe variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Nf3",
+        "c5",
+        "d5",
+        "Ne4"
+      ],
+      "eco": "E21"
+    },
+    {
+      "id": "nimzo-indian-line-6",
+      "name": "classical, Milner-Barry (Zurich) variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qc2",
+        "Nc6",
+        "Nf3",
+        "d6"
+      ],
+      "eco": "E33"
+    },
+    {
+      "id": "nimzo-indian-line-7",
+      "name": "classical, Noa variation, 5.cd ed",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qc2",
+        "d5",
+        "cxd5",
+        "exd5"
+      ],
+      "eco": "E35"
+    },
+    {
+      "id": "nimzo-indian-line-8",
+      "name": "classical, Pirc variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qc2",
+        "c5",
+        "dxc5",
+        "O-O"
+      ],
+      "eco": "E39"
+    },
+    {
+      "id": "nimzo-indian-line-9",
+      "name": "4.e3, Bronstein (Byrne) variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "b6",
+        "Ne2",
+        "Ba6"
+      ],
+      "eco": "E45"
+    },
+    {
+      "id": "nimzo-indian-line-10",
+      "name": "Saemisch, O'Kelly variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "a3",
+        "Bxc3+",
+        "bxc3",
+        "c5",
+        "e3",
+        "b6"
+      ],
+      "eco": "E26"
+    },
+    {
+      "id": "nimzo-indian-line-11",
+      "name": "Leningrad, ...b5 gambit",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Bg5",
+        "h6",
+        "Bh4",
+        "c5",
+        "d5",
+        "b5"
+      ],
+      "eco": "E30"
+    },
+    {
+      "id": "nimzo-indian-line-12",
+      "name": "Leningrad, main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Bg5",
+        "h6",
+        "Bh4",
+        "c5",
+        "d5",
+        "d6"
+      ],
+      "eco": "E31"
+    },
+    {
+      "id": "nimzo-indian-line-13",
+      "name": "classical, Adorjan gambit",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qc2",
+        "O-O",
+        "a3",
+        "Bxc3+",
+        "Qxc3",
+        "b5"
+      ],
+      "eco": "E32"
+    },
+    {
+      "id": "nimzo-indian-line-14",
+      "name": "classical, Botvinnik variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qc2",
+        "d5",
+        "a3",
+        "Bxc3+",
+        "Qxc3",
+        "Nc6"
+      ],
+      "eco": "E36"
+    },
+    {
+      "id": "nimzo-indian-line-15",
+      "name": "Simagin variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Ne2",
+        "d5",
+        "a3",
+        "Bd6"
+      ],
+      "eco": "E46"
+    },
+    {
+      "id": "nimzo-indian-line-16",
+      "name": "4.e3, main line with ...b6",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Nf3",
+        "d5",
+        "Bd3",
+        "b6"
+      ],
+      "eco": "E52"
+    },
+    {
+      "id": "nimzo-indian-line-17",
+      "name": "4.e3, Botvinnik system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Bd3",
+        "d5",
+        "a3",
+        "Bxc3+",
+        "bxc3"
+      ],
+      "eco": "E49"
+    },
+    {
+      "id": "nimzo-indian-line-18",
+      "name": "Spielmann, Karlsbad variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qb3",
+        "c5",
+        "dxc5",
+        "Nc6",
+        "Nf3",
+        "Ne4",
+        "Bd2",
+        "Nxd2"
+      ],
+      "eco": "E23"
+    },
+    {
+      "id": "nimzo-indian-line-19",
+      "name": "e3, Huebner variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "c5",
+        "Bd3",
+        "Nc6",
+        "Nf3",
+        "Bxc3+",
+        "bxc3",
+        "d6"
+      ],
+      "eco": "E41"
+    },
+    {
+      "id": "nimzo-indian-line-20",
+      "name": "4.e3, Ragozin variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Nf3",
+        "d5",
+        "Bd3",
+        "Nc6",
+        "O-O",
+        "dxc4"
+      ],
+      "eco": "E51"
+    },
+    {
+      "id": "nimzo-indian-line-21",
+      "name": "4.e3, Keres variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Nf3",
+        "d5",
+        "Bd3",
+        "c5",
+        "O-O",
+        "b6"
+      ],
+      "eco": "E53"
+    },
+    {
+      "id": "nimzo-indian-line-22",
+      "name": "4.e3, Gligoric system with 7...Nbd7",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Nf3",
+        "d5",
+        "Bd3",
+        "c5",
+        "O-O",
+        "Nbd7"
+      ],
+      "eco": "E53"
+    },
+    {
+      "id": "nimzo-indian-line-23",
+      "name": "Saemisch, Botvinnik variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "a3",
+        "Bxc3+",
+        "bxc3",
+        "c5",
+        "f3",
+        "d5",
+        "e3",
+        "O-O",
+        "cxd5",
+        "Nxd5"
+      ],
+      "eco": "E24"
+    },
+    {
+      "id": "nimzo-indian-line-24",
+      "name": "Saemisch, Romanovsky variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "a3",
+        "Bxc3+",
+        "bxc3",
+        "c5",
+        "f3",
+        "d5",
+        "cxd5",
+        "Nxd5",
+        "dxc5",
+        "f5"
+      ],
+      "eco": "E25"
+    },
+    {
+      "id": "nimzo-indian-line-25",
+      "name": "classical, San Remo variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qc2",
+        "d5",
+        "a3",
+        "Bxc3+",
+        "Qxc3",
+        "Ne4",
+        "Qc2",
+        "Nc6",
+        "e3",
+        "e5"
+      ],
+      "eco": "E37"
+    },
+    {
+      "id": "nimzo-indian-line-26",
+      "name": "4.e3, Gligoric system, Smyslov variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Nf3",
+        "d5",
+        "Bd3",
+        "c5",
+        "O-O",
+        "dxc4",
+        "Bxc4",
+        "Qe7"
+      ],
+      "eco": "E54"
+    },
+    {
+      "id": "nimzo-indian-line-27",
+      "name": "4.e3, Gligoric system, Bronstein variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Nf3",
+        "d5",
+        "Bd3",
+        "c5",
+        "O-O",
+        "dxc4",
+        "Bxc4",
+        "Nbd7"
+      ],
+      "eco": "E55"
+    },
+    {
+      "id": "nimzo-indian-line-28",
+      "name": "Spielmann, Staahlberg variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Qb3",
+        "c5",
+        "dxc5",
+        "Nc6",
+        "Nf3",
+        "Ne4",
+        "Bd2",
+        "Nxc5",
+        "Qc2",
+        "f5",
+        "g3"
+      ],
+      "eco": "E23"
+    },
+    {
+      "id": "nimzo-indian-line-29",
+      "name": "Saemisch, Capablanca variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "a3",
+        "Bxc3+",
+        "bxc3",
+        "O-O",
+        "e3",
+        "c5",
+        "Bd3",
+        "Nc6",
+        "Ne2",
+        "b6",
+        "e4",
+        "Ne8"
+      ],
+      "eco": "E29"
+    },
+    {
+      "id": "nimzo-indian-line-30",
+      "name": "4.e3, main line with 8...dc and 9...cd",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Nf3",
+        "d5",
+        "Bd3",
+        "c5",
+        "O-O",
+        "Nc6",
+        "a3",
+        "dxc4",
+        "Bxc4",
+        "cxd4"
+      ],
+      "eco": "E57"
+    },
+    {
+      "id": "nimzo-indian-line-31",
+      "name": "4.e3, main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "e3",
+        "O-O",
+        "Nf3",
+        "d5",
+        "Bd3",
+        "c5",
+        "O-O",
+        "Nc6",
+        "a3",
+        "Bxc3",
+        "bxc3",
+        "dxc4",
+        "Bxc4"
+      ],
+      "eco": "E59"
+    }
+  ],
+  "generatedAt": "1.0"
+}

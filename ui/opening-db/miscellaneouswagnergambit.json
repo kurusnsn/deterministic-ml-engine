@@ -1,0 +1,99 @@
+{
+  "id": "miscellaneous-wagner-gambit",
+  "name": "Wagner gambit",
+  "opening": "Wagner gambit",
+  "generatedAt": "2026-01-03T19:39:17.582Z",
+  "lines": [
+    {
+      "id": "miscellaneous-wagner-gambit-be7-e5-nd5-bxe7-qxe7-c4-snotae",
+      "name": "Wagner gambit: Be7 Forcing Line",
+      "moves": [
+        "Be7",
+        "e5",
+        "Nd5",
+        "Bxe7",
+        "Qxe7",
+        "c4",
+        "Nb6",
+        "Nc3",
+        "cxd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          19212,
+          7059,
+          6023,
+          9699,
+          7523,
+          4697,
+          2883,
+          1525,
+          2112
+        ],
+        "winrates": [
+          49.82302727462003,
+          51.40954809463096,
+          51.02938734849742,
+          51.63934426229508,
+          51.010235278479335,
+          51.692569725356606,
+          49.94797086368366,
+          59.57377049180328,
+          58.214962121212125
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-wagner-gambit-cxd4-e5-h6-bh4-g5-exf6-jtpwn",
+      "name": "Wagner gambit: cxd4 Forcing Line",
+      "moves": [
+        "cxd4",
+        "e5",
+        "h6",
+        "Bh4",
+        "g5",
+        "exf6",
+        "gxh4",
+        "Qxd4",
+        "Nc6",
+        "Qxh4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          11997,
+          15296,
+          10674,
+          5634,
+          5277,
+          2141,
+          2099,
+          1972,
+          1740,
+          1653
+        ],
+        "winrates": [
+          43.8276235725598,
+          46.678870292887034,
+          43.2218474798576,
+          47.949946751863685,
+          47.69755542922115,
+          53.549743110695935,
+          53.26345878989996,
+          53.9553752535497,
+          55.172413793103445,
+          56.62431941923774
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

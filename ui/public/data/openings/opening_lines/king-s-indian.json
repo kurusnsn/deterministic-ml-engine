@@ -1,0 +1,874 @@
+{
+  "opening": "king's indian",
+  "openingId": "king-s-indian",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "king-s-indian-line-0",
+      "name": "Torre attack",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6",
+        "Bg5"
+      ],
+      "eco": "A48"
+    },
+    {
+      "id": "king-s-indian-line-1",
+      "name": "London system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6",
+        "Bf4"
+      ],
+      "eco": "A48"
+    },
+    {
+      "id": "king-s-indian-line-2",
+      "name": "fianchetto without c4",
+      "moves": [
+        "d4",
+        "Nf6",
+        "Nf3",
+        "g6",
+        "g3"
+      ],
+      "eco": "A49"
+    },
+    {
+      "id": "king-s-indian-line-3",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nf3"
+      ],
+      "eco": "E60"
+    },
+    {
+      "id": "king-s-indian-line-4",
+      "name": "Danube gambit",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "d5",
+        "b5"
+      ],
+      "eco": "E60"
+    },
+    {
+      "id": "king-s-indian-line-5",
+      "name": "3.g3, counterthrust variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "g3",
+        "Bg7",
+        "Bg2",
+        "d5"
+      ],
+      "eco": "E60"
+    },
+    {
+      "id": "king-s-indian-line-6",
+      "name": "Smyslov system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "Bg5"
+      ],
+      "eco": "E61"
+    },
+    {
+      "id": "king-s-indian-line-7",
+      "name": "Kramer system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nge2"
+      ],
+      "eco": "E70"
+    },
+    {
+      "id": "king-s-indian-line-8",
+      "name": "accelerated Averbakh system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Bg5"
+      ],
+      "eco": "E70"
+    },
+    {
+      "id": "king-s-indian-line-9",
+      "name": "Makagonov system (5.h3)",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "h3"
+      ],
+      "eco": "E71"
+    },
+    {
+      "id": "king-s-indian-line-10",
+      "name": "Semi-Averbakh system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Be2",
+        "O-O",
+        "Be3"
+      ],
+      "eco": "E73"
+    },
+    {
+      "id": "king-s-indian-line-11",
+      "name": "Larsen variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be3"
+      ],
+      "eco": "E90"
+    },
+    {
+      "id": "king-s-indian-line-12",
+      "name": "Zinnowitz variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Bg5"
+      ],
+      "eco": "E90"
+    },
+    {
+      "id": "king-s-indian-line-13",
+      "name": "Saemisch, double fianchetto variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f3",
+        "O-O",
+        "Be3",
+        "b6"
+      ],
+      "eco": "E82"
+    },
+    {
+      "id": "king-s-indian-line-14",
+      "name": "Kazakh variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "Na6"
+      ],
+      "eco": "E91"
+    },
+    {
+      "id": "king-s-indian-line-15",
+      "name": "Pomar system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "e5",
+        "Nge2"
+      ],
+      "eco": "E72"
+    },
+    {
+      "id": "king-s-indian-line-16",
+      "name": "Four pawns attack, dynamic line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f4",
+        "O-O",
+        "Nf3",
+        "c5",
+        "d5"
+      ],
+      "eco": "E76"
+    },
+    {
+      "id": "king-s-indian-line-17",
+      "name": "Andersson variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5",
+        "dxe5"
+      ],
+      "eco": "E92"
+    },
+    {
+      "id": "king-s-indian-line-18",
+      "name": "Gligoric-Taimanov system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5",
+        "Be3"
+      ],
+      "eco": "E92"
+    },
+    {
+      "id": "king-s-indian-line-19",
+      "name": "fianchetto, Larsen system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "c6",
+        "O-O",
+        "Bf5"
+      ],
+      "eco": "E62"
+    },
+    {
+      "id": "king-s-indian-line-20",
+      "name": "fianchetto, Kavalek (Bronstein) variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "c6",
+        "O-O",
+        "Qa5"
+      ],
+      "eco": "E62"
+    },
+    {
+      "id": "king-s-indian-line-21",
+      "name": "fianchetto, Uhlmann (Szabo) variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "Nc6",
+        "O-O",
+        "e5"
+      ],
+      "eco": "E62"
+    },
+    {
+      "id": "king-s-indian-line-22",
+      "name": "fianchetto, lesser Simagin (Spassky) variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "Nc6",
+        "O-O",
+        "Bf5"
+      ],
+      "eco": "E62"
+    },
+    {
+      "id": "king-s-indian-line-23",
+      "name": "fianchetto, Simagin variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "Nc6",
+        "O-O",
+        "Bg4"
+      ],
+      "eco": "E62"
+    },
+    {
+      "id": "king-s-indian-line-24",
+      "name": "fianchetto, Panno variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "Nc6",
+        "O-O",
+        "a6"
+      ],
+      "eco": "E63"
+    },
+    {
+      "id": "king-s-indian-line-25",
+      "name": "Averbakh, main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Be2",
+        "O-O",
+        "Bg5",
+        "c5",
+        "d5",
+        "e6"
+      ],
+      "eco": "E75"
+    },
+    {
+      "id": "king-s-indian-line-26",
+      "name": "Saemisch, Byrne variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f3",
+        "O-O",
+        "Be3",
+        "c6",
+        "Bd3",
+        "a6"
+      ],
+      "eco": "E81"
+    },
+    {
+      "id": "king-s-indian-line-27",
+      "name": "Saemisch, Ruban variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f3",
+        "O-O",
+        "Be3",
+        "Nc6",
+        "Nge2",
+        "Rb8"
+      ],
+      "eco": "E83"
+    },
+    {
+      "id": "king-s-indian-line-28",
+      "name": "Saemisch, orthodox, 7.Nge2 c6",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f3",
+        "O-O",
+        "Be3",
+        "e5",
+        "Nge2",
+        "c6"
+      ],
+      "eco": "E86"
+    },
+    {
+      "id": "king-s-indian-line-29",
+      "name": "Petrosian system, Stein variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5",
+        "d5",
+        "a5"
+      ],
+      "eco": "E92"
+    },
+    {
+      "id": "king-s-indian-line-30",
+      "name": "orthodox, Donner variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5",
+        "O-O",
+        "c6"
+      ],
+      "eco": "E94"
+    },
+    {
+      "id": "king-s-indian-line-31",
+      "name": "fianchetto, Yugoslav Panno",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "c5",
+        "O-O",
+        "Nc6",
+        "d5"
+      ],
+      "eco": "E66"
+    },
+    {
+      "id": "king-s-indian-line-32",
+      "name": "Saemisch, Panno main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f3",
+        "O-O",
+        "Be3",
+        "Nc6",
+        "Nge2",
+        "a6",
+        "Qd2",
+        "Rb8"
+      ],
+      "eco": "E84"
+    },
+    {
+      "id": "king-s-indian-line-33",
+      "name": "Saemisch, orthodox main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f3",
+        "O-O",
+        "Be3",
+        "e5",
+        "d5",
+        "c6",
+        "Nge2",
+        "cxd5"
+      ],
+      "eco": "E89"
+    },
+    {
+      "id": "king-s-indian-line-34",
+      "name": "fianchetto, classical main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "Nf3",
+        "d6",
+        "g3",
+        "O-O",
+        "Bg2",
+        "Nbd7",
+        "O-O",
+        "e5",
+        "e4",
+        "c6",
+        "h3"
+      ],
+      "eco": "E69"
+    },
+    {
+      "id": "king-s-indian-line-35",
+      "name": "Four pawns attack, Florentine gambit",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f4",
+        "O-O",
+        "Be2",
+        "c5",
+        "d5",
+        "e6",
+        "Nf3",
+        "exd5",
+        "e5"
+      ],
+      "eco": "E77"
+    },
+    {
+      "id": "king-s-indian-line-36",
+      "name": "Four pawns attack, main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f4",
+        "O-O",
+        "Be2",
+        "c5",
+        "Nf3",
+        "cxd4",
+        "Nxd4",
+        "Nc6",
+        "Be3"
+      ],
+      "eco": "E79"
+    },
+    {
+      "id": "king-s-indian-line-37",
+      "name": "orthodox, Aronin-Taimanov, bayonet attack",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5",
+        "O-O",
+        "Nc6",
+        "d5",
+        "Ne7",
+        "b4"
+      ],
+      "eco": "E97"
+    },
+    {
+      "id": "king-s-indian-line-38",
+      "name": "orthodox, 7...Nbd7, main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5",
+        "O-O",
+        "Nbd7",
+        "Re1",
+        "c6",
+        "Bf1",
+        "a5"
+      ],
+      "eco": "E96"
+    },
+    {
+      "id": "king-s-indian-line-39",
+      "name": "Six pawns attack",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f4",
+        "O-O",
+        "Be2",
+        "c5",
+        "d5",
+        "e6",
+        "dxe6",
+        "fxe6",
+        "g4",
+        "Nc6",
+        "h4"
+      ],
+      "eco": "E77"
+    },
+    {
+      "id": "king-s-indian-line-40",
+      "name": "Petrosian system, Keres variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5",
+        "d5",
+        "Nbd7",
+        "Bg5",
+        "h6",
+        "Bh4",
+        "g5",
+        "Bg3",
+        "Nh5",
+        "h4"
+      ],
+      "eco": "E93"
+    },
+    {
+      "id": "king-s-indian-line-41",
+      "name": "orthodox, Aronin-Taimanov, Benko attack",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "e5",
+        "O-O",
+        "Nc6",
+        "d5",
+        "Ne7",
+        "Ne1",
+        "Nd7",
+        "f3",
+        "f5",
+        "g4"
+      ],
+      "eco": "E99"
+    },
+    {
+      "id": "king-s-indian-line-42",
+      "name": "Saemisch, orthodox, Bronstein variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "d6",
+        "f3",
+        "O-O",
+        "Be3",
+        "e5",
+        "d5",
+        "Nh5",
+        "Qd2",
+        "Qh4+",
+        "g3",
+        "Nxg3",
+        "Qf2",
+        "Nxf1",
+        "Qxh4",
+        "Nxe3",
+        "Ke2",
+        "Nxc4"
+      ],
+      "eco": "E87"
+    }
+  ],
+  "generatedAt": "1.0"
+}

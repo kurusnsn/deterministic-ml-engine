@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: gateway-config
+data:
+  STOCKFISH_URL: "http://stockfish-service:5000"
+  ECO_URL: "http://eco-service:8000"
+  OPENINGBOOK_URL: "http://opening-book-service:8001"
+  IMPORT_URL: "http://import-service:8000"
+  PAYMENT_URL: "http://payment-service:8000"
+  PUZZLE_URL: "http://puzzle-service:8081"
+  ALLOW_ANON_STUDIES: "false"
+  MOCK_AUTH_ENABLED: "false"
+  REPORT_STORAGE_BACKEND: "db"
+  S3_FORCE_PATH_STYLE: "true"

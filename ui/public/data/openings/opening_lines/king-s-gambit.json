@@ -1,0 +1,1559 @@
+{
+  "opening": "king's gambit",
+  "openingId": "king-s-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "king-s-gambit-line-0",
+      "name": "Mafia defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "c5"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-1",
+      "name": "2...Nf6",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Nf6"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-2",
+      "name": "Falkbeer, Tartakower variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "Nf3"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-line-3",
+      "name": "Falkbeer, Milner-Barry variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "Nc3"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-line-4",
+      "name": "Tumbleweed gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Kf2"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-5",
+      "name": "Orsini gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "b3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-6",
+      "name": "Pawn's gambit (Stamma gambit)",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "h4"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-7",
+      "name": "Schurig gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bd3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-8",
+      "name": "Carrera (Basman) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Qe2"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-9",
+      "name": "Villemson (Steinitz) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "d4"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-10",
+      "name": "Keres (Mason-Steinitz) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nc3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-11",
+      "name": "Breyer gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Qf3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-12",
+      "name": "Lesser bishop's (Petroff-Jaenisch-Tartakower) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Be2"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-13",
+      "name": "Keene's defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Qh4+",
+        "g3",
+        "Qe7"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-14",
+      "name": "Nimzovich counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "c6"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-line-15",
+      "name": "bishop's gambit, Bryan counter-gambit (C33)",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "b5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-16",
+      "name": "bishop's gambit, Steinitz defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Ne7"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-17",
+      "name": "bishop's gambit, Maurian defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Nc6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-18",
+      "name": "bishop's gambit, Ruy Lopez defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "c6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-19",
+      "name": "Bonsch-Osmolovsky variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Ne7"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-line-20",
+      "name": "Gianutio counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "f5"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-line-21",
+      "name": "Fischer defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "d6"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-line-22",
+      "name": "Becker defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "h6"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-line-23",
+      "name": "Schallop defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Nf6"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-line-24",
+      "name": "classical, Soldatenkov variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "fxe5"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-25",
+      "name": "classical, Heath variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "b4"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-26",
+      "name": "Falkbeer, Nimzovich variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "Bb5+"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-line-27",
+      "name": "Quaade gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Nc3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-28",
+      "name": "classical, Hanham variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "Nc3",
+        "Nd7"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-29",
+      "name": "bishop's gambit, Greco variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "Bc5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-30",
+      "name": "bishop's gambit, Boden defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "Nc6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-31",
+      "name": "bishop's gambit, Bryan counter-gambit (C33)",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "b5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-32",
+      "name": "bishop's gambit, Anderssen variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "c6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-33",
+      "name": "bishop's gambit, Morphy variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "Nf6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-34",
+      "name": "bishop's gambit, Jaenisch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Nf6",
+        "Nc3",
+        "c6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-35",
+      "name": "Cunningham, Euwe defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Be7",
+        "Bc4",
+        "Nf6"
+      ],
+      "eco": "C35"
+    },
+    {
+      "id": "king-s-gambit-line-36",
+      "name": "Blachly gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Nc6"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-37",
+      "name": "Norwalde variation, Buecker gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Qf6",
+        "Nf3",
+        "Qxf4",
+        "Nc3",
+        "Bb4",
+        "Bc4"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-38",
+      "name": "Falkbeer, Rubinstein variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "Nc3",
+        "Nf6",
+        "Qe2"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-line-39",
+      "name": "Falkbeer, Keres variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "Nd2"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-line-40",
+      "name": "Falkbeer, Reti variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "Qe2"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-line-41",
+      "name": "bishop's gambit, classical defence, Cozio attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Qf3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-42",
+      "name": "bishop's gambit, Paulsen attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Nf6",
+        "Nc3",
+        "Bb4",
+        "e5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-43",
+      "name": "Soerensen gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "d4",
+        "g4",
+        "Ne5"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-44",
+      "name": "Ghulam Kassim gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "d4"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-45",
+      "name": "MacDonnell gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Nc3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-46",
+      "name": "Hanstein gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Bg7",
+        "O-O"
+      ],
+      "eco": "C38"
+    },
+    {
+      "id": "king-s-gambit-line-47",
+      "name": "bishop's gambit, Boren-Svenonius variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "Qh4+",
+        "Kf1",
+        "Bd6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-48",
+      "name": "Muzio gambit, Kling and Horwitz counter-attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "Qe7"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-49",
+      "name": "Muzio gambit, Brentano defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "d5"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-50",
+      "name": "Allgaier, Schlechter defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "Nf6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-51",
+      "name": "Kieseritsky, Paulsen defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Bg7"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-52",
+      "name": "Kieseritsky, Polerio defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Be7"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-53",
+      "name": "Kieseritsky, Neumann defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Nc6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-54",
+      "name": "Kieseritsky, Kolisch defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "d6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-55",
+      "name": "classical, Marshall attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "c3",
+        "Bg4",
+        "fxe5",
+        "dxe5",
+        "Qa4+"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-56",
+      "name": "bishop's gambit, Chigorin's attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "d5",
+        "Bxd5",
+        "g5",
+        "g3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-57",
+      "name": "bishop's gambit, Gifford variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "g3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-58",
+      "name": "Falkbeer, Morphy gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "Nc3",
+        "Bb4",
+        "Bd2",
+        "e3"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-line-59",
+      "name": "Lopez-Gianutio counter-gambit, Hein variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "f5",
+        "Qe2",
+        "Qh4+",
+        "Kd1",
+        "fxe4",
+        "Nc3",
+        "Kd8"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-60",
+      "name": "Cochrane gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5",
+        "Qh4+",
+        "Kf1",
+        "f3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-61",
+      "name": "Herzfeld gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5",
+        "Qh4+",
+        "Kf1",
+        "Nc6"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-62",
+      "name": "Muzio gambit, From defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Qe7"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-63",
+      "name": "Muzio gambit, Holloway defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Nc6"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-64",
+      "name": "Kieseritsky, Berlin defence, Riviere variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Nf6",
+        "Nxg4",
+        "d5"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-65",
+      "name": "classical, Reti variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "c3",
+        "f5",
+        "fxe5",
+        "dxe5",
+        "d4",
+        "exd4",
+        "Bc4"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-66",
+      "name": "bishop's gambit, Grimm attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Nc3",
+        "Bg7",
+        "d4",
+        "d6",
+        "e5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-67",
+      "name": "bishop's gambit, McDonnell attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Nc3",
+        "Bg7",
+        "d4",
+        "Ne7",
+        "g3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-68",
+      "name": "bishop's gambit, Fraser variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Nc3",
+        "Bg7",
+        "g3",
+        "fxg3",
+        "Qf3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-line-69",
+      "name": "Cunningham, three pawns gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Be7",
+        "Bc4",
+        "Bh4+",
+        "g3",
+        "fxg3",
+        "O-O",
+        "gxh2+",
+        "Kh1"
+      ],
+      "eco": "C35"
+    },
+    {
+      "id": "king-s-gambit-line-70",
+      "name": "Philidor gambit, Schultz variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Bg7",
+        "h4",
+        "h6",
+        "d4",
+        "d6",
+        "Qd3"
+      ],
+      "eco": "C38"
+    },
+    {
+      "id": "king-s-gambit-line-71",
+      "name": "Allgaier, Blackburne gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "Nc3"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-72",
+      "name": "Kieseritsky, Salvio defence, Cozio variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Qe7",
+        "d4",
+        "f5",
+        "Bc4"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-73",
+      "name": "Abbazia defence, Botvinnik variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "d5",
+        "exd5",
+        "Nf6",
+        "Bb5+",
+        "c6",
+        "dxc6",
+        "bxc6",
+        "Bc4",
+        "Nd5"
+      ],
+      "eco": "C36"
+    },
+    {
+      "id": "king-s-gambit-line-74",
+      "name": "Silberschmidt gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5",
+        "Qh4+",
+        "Kf1",
+        "Nh6",
+        "d4",
+        "f3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-75",
+      "name": "Salvio gambit, Anderssen counter-attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5",
+        "Qh4+",
+        "Kf1",
+        "Nh6",
+        "d4",
+        "d6"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-76",
+      "name": "Falkbeer, Charousek variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "Nxe4",
+        "Qe2",
+        "Qxd5",
+        "Nd2",
+        "f5",
+        "g4"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-line-77",
+      "name": "double Muzio gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Qf6",
+        "e5",
+        "Qxe5",
+        "Bxf7+"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-78",
+      "name": "Kieseritsky, long whip defence, Jaenisch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "h5",
+        "Bc4",
+        "Rh7",
+        "d4",
+        "Bh6",
+        "Nc3"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-79",
+      "name": "Kieseritsky, Brentano defence, Caro variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "d5",
+        "d4",
+        "Nf6",
+        "Bxf4",
+        "Nxe4",
+        "Nd2"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-80",
+      "name": "Kieseritsky, Rice gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Nf6",
+        "Bc4",
+        "d5",
+        "exd5",
+        "Bd6",
+        "O-O"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-81",
+      "name": "classical, Svenonius variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "Nc3",
+        "Nf6",
+        "Bc4",
+        "Nc6",
+        "d3",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Qxf3",
+        "exf4"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-line-82",
+      "name": "Falkbeer, Tarrasch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "Nxe4",
+        "Nf3",
+        "Bc5",
+        "Qe2",
+        "Bf5",
+        "g4",
+        "O-O"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-line-83",
+      "name": "Allgaier, Horny defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "Qxg4",
+        "Nf6",
+        "Qxf4",
+        "Bd6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-84",
+      "name": "Falkbeer, Alapin variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "Nxe4",
+        "Nf3",
+        "Bc5",
+        "Qe2",
+        "Bf2+",
+        "Kd1",
+        "Qxd5+",
+        "Nfd2"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-line-85",
+      "name": "Allgaier, Urusov attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "Bc4+",
+        "d5",
+        "Bxd5+",
+        "Kg7",
+        "d4"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-86",
+      "name": "Kieseritsky, Brentano defence, Kaplanek variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "d5",
+        "d4",
+        "Nf6",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Bb4",
+        "Kf2"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-87",
+      "name": "Lolli gambit, Young variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Bxf7+",
+        "Kxf7",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Qf6",
+        "d4",
+        "Qxd4+",
+        "Be3",
+        "Qf6",
+        "Nc3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-line-88",
+      "name": "Greco gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Bg7",
+        "h4",
+        "h6",
+        "d4",
+        "d6",
+        "Nc3",
+        "c6",
+        "hxg5",
+        "hxg5",
+        "Rxh8",
+        "Bxh8",
+        "Ne5"
+      ],
+      "eco": "C38"
+    },
+    {
+      "id": "king-s-gambit-line-89",
+      "name": "Allgaier, Cook variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "d4",
+        "d5",
+        "Bxf4",
+        "dxe4",
+        "Bc4+",
+        "Kg7",
+        "Be5+"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-line-90",
+      "name": "Muzio gambit, Paulsen variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Qf6",
+        "e5",
+        "Qxe5",
+        "d3",
+        "Bh6",
+        "Nc3",
+        "Ne7",
+        "Bd2",
+        "Nbc6",
+        "Rae1"
+      ],
+      "eco": "C37"
+    }
+  ],
+  "generatedAt": "1.0"
+}

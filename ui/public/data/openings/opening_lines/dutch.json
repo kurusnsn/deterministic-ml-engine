@@ -1,0 +1,463 @@
+{
+  "opening": "dutch",
+  "openingId": "dutch",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "dutch-line-0",
+      "name": "Main Line (A80)",
+      "moves": [
+        "d4",
+        "f5",
+        "h3"
+      ],
+      "eco": "A80"
+    },
+    {
+      "id": "dutch-line-1",
+      "name": "Main Line (A80)",
+      "moves": [
+        "d4",
+        "f5",
+        "g4"
+      ],
+      "eco": "A80"
+    },
+    {
+      "id": "dutch-line-2",
+      "name": "Main Line (A80)",
+      "moves": [
+        "d4",
+        "f5",
+        "Bg5"
+      ],
+      "eco": "A80"
+    },
+    {
+      "id": "dutch-line-3",
+      "name": "Balogh defence",
+      "moves": [
+        "d4",
+        "f5",
+        "e4",
+        "d6"
+      ],
+      "eco": "A82"
+    },
+    {
+      "id": "dutch-line-4",
+      "name": "Main Line (A80)",
+      "moves": [
+        "d4",
+        "f5",
+        "Nc3",
+        "Nf6",
+        "g4"
+      ],
+      "eco": "A80"
+    },
+    {
+      "id": "dutch-line-5",
+      "name": "Main Line (A80)",
+      "moves": [
+        "d4",
+        "f5",
+        "Qd3",
+        "e6",
+        "g4"
+      ],
+      "eco": "A80"
+    },
+    {
+      "id": "dutch-line-6",
+      "name": "Main Line (A84)",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "e6",
+        "Nc3"
+      ],
+      "eco": "A84"
+    },
+    {
+      "id": "dutch-line-7",
+      "name": "Staunton gambit deferred",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "e6",
+        "e4"
+      ],
+      "eco": "A84"
+    },
+    {
+      "id": "dutch-line-8",
+      "name": "Main Line (A85)",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "Nc3"
+      ],
+      "eco": "A85"
+    },
+    {
+      "id": "dutch-line-9",
+      "name": "Main Line (A81)",
+      "moves": [
+        "d4",
+        "f5",
+        "g3",
+        "Nf6",
+        "Bg2",
+        "g6"
+      ],
+      "eco": "A81"
+    },
+    {
+      "id": "dutch-line-10",
+      "name": "Bladel variation",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "g6",
+        "Nc3",
+        "Nh6"
+      ],
+      "eco": "A84"
+    },
+    {
+      "id": "dutch-line-11",
+      "name": "Main Line (A81)",
+      "moves": [
+        "d4",
+        "f5",
+        "g3",
+        "Nf6",
+        "Bg2",
+        "e6",
+        "Nh3"
+      ],
+      "eco": "A81"
+    },
+    {
+      "id": "dutch-line-12",
+      "name": "Leningrad, Karlsbad variation",
+      "moves": [
+        "d4",
+        "f5",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Nh3"
+      ],
+      "eco": "A81"
+    },
+    {
+      "id": "dutch-line-13",
+      "name": "Staunton gambit, Tartakower variation",
+      "moves": [
+        "d4",
+        "f5",
+        "e4",
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "g4"
+      ],
+      "eco": "A82"
+    },
+    {
+      "id": "dutch-line-14",
+      "name": "Staunton gambit, Chigorin variation",
+      "moves": [
+        "d4",
+        "f5",
+        "e4",
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "c6"
+      ],
+      "eco": "A83"
+    },
+    {
+      "id": "dutch-line-15",
+      "name": "Staunton gambit, Nimzovich variation",
+      "moves": [
+        "d4",
+        "f5",
+        "e4",
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "b6"
+      ],
+      "eco": "A83"
+    },
+    {
+      "id": "dutch-line-16",
+      "name": "Staunton gambit, Alekhine variation",
+      "moves": [
+        "d4",
+        "f5",
+        "e4",
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "g6",
+        "h4"
+      ],
+      "eco": "A83"
+    },
+    {
+      "id": "dutch-line-17",
+      "name": "Staunton gambit, Lasker variation",
+      "moves": [
+        "d4",
+        "f5",
+        "e4",
+        "fxe4",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "g6",
+        "f3"
+      ],
+      "eco": "A83"
+    },
+    {
+      "id": "dutch-line-18",
+      "name": "Leningrad, Basman system",
+      "moves": [
+        "d4",
+        "f5",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Nf3",
+        "c6",
+        "O-O",
+        "Nh6"
+      ],
+      "eco": "A81"
+    },
+    {
+      "id": "dutch-line-19",
+      "name": "Hort-Antoshin system",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "d6",
+        "Bg2",
+        "c6",
+        "Nc3",
+        "Qc7"
+      ],
+      "eco": "A86"
+    },
+    {
+      "id": "dutch-line-20",
+      "name": "Main Line (A90)",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "e6",
+        "Bg2",
+        "Bb4+",
+        "Bd2",
+        "Be7"
+      ],
+      "eco": "A90"
+    },
+    {
+      "id": "dutch-line-21",
+      "name": "Main Line (A92)",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "e6",
+        "Bg2",
+        "Be7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "Ne4"
+      ],
+      "eco": "A92"
+    },
+    {
+      "id": "dutch-line-22",
+      "name": "Leningrad, main variation with c6",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "d6",
+        "Nc3",
+        "c6"
+      ],
+      "eco": "A88"
+    },
+    {
+      "id": "dutch-line-23",
+      "name": "Leningrad, main variation with Nc6",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "g6",
+        "Bg2",
+        "Bg7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "d6",
+        "Nc3",
+        "Nc6"
+      ],
+      "eco": "A89"
+    },
+    {
+      "id": "dutch-line-24",
+      "name": "stonewall with Ba3",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "e6",
+        "Bg2",
+        "Be7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "d5",
+        "b3",
+        "c6",
+        "Ba3"
+      ],
+      "eco": "A94"
+    },
+    {
+      "id": "dutch-line-25",
+      "name": "Ilyin-Genevsky, Winter variation",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "e6",
+        "Bg2",
+        "Be7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "d6",
+        "Nc3",
+        "Qe8",
+        "Re1"
+      ],
+      "eco": "A97"
+    },
+    {
+      "id": "dutch-line-26",
+      "name": "Ilyin-Genevsky variation with Qc2",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "e6",
+        "Bg2",
+        "Be7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "d6",
+        "Nc3",
+        "Qe8",
+        "Qc2"
+      ],
+      "eco": "A98"
+    },
+    {
+      "id": "dutch-line-27",
+      "name": "Ilyin-Genevsky variation with b3",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "e6",
+        "Bg2",
+        "Be7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "d6",
+        "Nc3",
+        "Qe8",
+        "b3"
+      ],
+      "eco": "A99"
+    },
+    {
+      "id": "dutch-line-28",
+      "name": "stonewall: Chekhover variation",
+      "moves": [
+        "d4",
+        "f5",
+        "c4",
+        "Nf6",
+        "g3",
+        "e6",
+        "Bg2",
+        "Be7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "d5",
+        "Nc3",
+        "c6",
+        "Qc2",
+        "Qe8",
+        "Bg5"
+      ],
+      "eco": "A95"
+    }
+  ],
+  "generatedAt": "1.0"
+}

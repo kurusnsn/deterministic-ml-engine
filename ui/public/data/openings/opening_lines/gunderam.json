@@ -1,0 +1,874 @@
+{
+  "opening": "gunderam",
+  "openingId": "gunderam",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "gunderam-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Qe7"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "gunderam-bc4-nc6-nc3-nd4-nd5-7hl211",
+      "name": "Nd5 Line",
+      "moves": [
+        "Bc4",
+        "Nc6",
+        "Nc3",
+        "Nd4",
+        "Nd5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          423481,
+          26271,
+          23581,
+          1177,
+          541
+        ],
+        "winrates": [
+          50.68184877243607,
+          56.95443645083933,
+          62.63305203341674,
+          70.13593882752761,
+          75.87800369685766
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-nf6-o-o-nxe4-re1-f5-ac1ixd",
+      "name": "d3 Line",
+      "moves": [
+        "Bc4",
+        "Nf6",
+        "O-O",
+        "Nxe4",
+        "Re1",
+        "f5",
+        "d3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          423481,
+          24696,
+          11167,
+          1783,
+          1593,
+          696,
+          668
+        ],
+        "winrates": [
+          50.68184877243607,
+          55.28425655976677,
+          61.75785797438882,
+          77.14526079641054,
+          81.0420590081607,
+          82.6867816091954,
+          83.00898203592814
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-b6-nc3-bb7-o-o-vu2bo3",
+      "name": "O-O Line",
+      "moves": [
+        "Bc4",
+        "b6",
+        "Nc3",
+        "Bb7",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          423481,
+          2322,
+          992,
+          986,
+          544
+        ],
+        "winrates": [
+          50.68184877243607,
+          59.17312661498708,
+          64.86895161290323,
+          61.96754563894523,
+          61.30514705882353
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-c5-nc3-rmcbnh",
+      "name": "Nc3 Line",
+      "moves": [
+        "Bc4",
+        "c5",
+        "Nc3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          423481,
+          1796,
+          777
+        ],
+        "winrates": [
+          50.68184877243607,
+          58.01781737193764,
+          60.939510939510946
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-a6-o-o-qosuxf",
+      "name": "After Bc4 a6 O-O",
+      "moves": [
+        "Bc4",
+        "a6",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          423481,
+          1723,
+          677
+        ],
+        "winrates": [
+          50.68184877243607,
+          66.59895531050493,
+          69.71935007385525
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-qc5-d3-jsy3ar",
+      "name": "After Bc4 Qc5 d3",
+      "moves": [
+        "Bc4",
+        "Qc5",
+        "d3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          423481,
+          1158,
+          722
+        ],
+        "winrates": [
+          50.68184877243607,
+          76.20898100172711,
+          77.70083102493075
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-na3-s1druf",
+      "name": "Na3 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Na3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          1050
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          61.285714285714285
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-nf6-nc3-nc6-g8b6x4",
+      "name": "After Nc3 Nc6 Nd5",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Nf6",
+        "Nc3",
+        "Nc6",
+        "Nd5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          4018,
+          1206,
+          708,
+          598
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          58.424589347934294,
+          61.48424543946932,
+          62.5,
+          70.06688963210702
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-nc6-nc3-nf6-a9tauw",
+      "name": "After Nc3 Nf6 Nd5",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Nd5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          2968,
+          2756,
+          869,
+          598
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          58.406334231805936,
+          64.6044992743106,
+          63.751438434982745,
+          70.06688963210702
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bxe6-qxe6-b8p85z",
+      "name": "Nc6 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bxe6",
+        "Qxe6",
+        "d4",
+        "exd4",
+        "Nxd4",
+        "Qd7",
+        "Nc3",
+        "Nc6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          17015,
+          15859,
+          9991,
+          3205,
+          3296,
+          2092,
+          994,
+          723
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          58.945048486629446,
+          58.9349895958131,
+          60.70963867480733,
+          64.69578783151326,
+          66.06492718446601,
+          61.52007648183556,
+          66.44869215291752,
+          65.56016597510373
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bb3-nc6-7w95qf",
+      "name": "Bxb3 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bb3",
+        "Nc6",
+        "c3",
+        "Bxb3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          8574,
+          851,
+          533,
+          515
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          59.43550268252857,
+          63.278495887191546,
+          60.69418386491557,
+          66.31067961165049
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bb5--bd7-asht91",
+      "name": "Bd7 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bb5+",
+        "Bd7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          4890,
+          550
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          57.70961145194274,
+          64.45454545454545
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-qe2-bxc4-53awiw",
+      "name": "Qxc4 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Qe2",
+        "Bxc4",
+        "Qxc4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          3669,
+          1152,
+          1150
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          60.53420550558736,
+          65.66840277777779,
+          65.78260869565217
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-be2-nf6-fgzx3d",
+      "name": "Nf6 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Be2",
+        "Nf6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          2616,
+          591
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          58.428899082568805,
+          58.46023688663282
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-d3-bxc4-f8er4h",
+      "name": "O-O-O Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "d3",
+        "Bxc4",
+        "dxc4",
+        "Nc6",
+        "Nc3",
+        "O-O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          1683,
+          1952,
+          1927,
+          565,
+          501,
+          566
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          55.70409982174688,
+          57.8125,
+          57.913855734302025,
+          56.725663716814154,
+          59.68063872255489,
+          62.014134275618375
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bxe6-fxe6-g7o97v",
+      "name": "Nf5 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bxe6",
+        "fxe6",
+        "d4",
+        "exd4",
+        "Nxd4",
+        "e5",
+        "Nf5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          17015,
+          1129,
+          1564,
+          883,
+          873,
+          1493,
+          1185
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          58.945048486629446,
+          58.37023914968999,
+          58.727621483375955,
+          56.908267270668176,
+          58.476517754868276,
+          61.386470194239784,
+          62.36286919831223
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bxe6-qxe6-mokfdk",
+      "name": "Nxd4 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bxe6",
+        "Qxe6",
+        "Nc3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Nxd4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          17015,
+          15859,
+          2515,
+          769,
+          756,
+          501,
+          501
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          58.945048486629446,
+          58.9349895958131,
+          59.34393638170974,
+          63.5890767230169,
+          66.07142857142857,
+          63.37325349301397,
+          63.772455089820355
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bxe6-qxe6-bpp4l0",
+      "name": "Qd7 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bxe6",
+        "Qxe6",
+        "c3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "cxd4",
+        "Qd7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          17015,
+          15859,
+          2377,
+          956,
+          2387,
+          1744,
+          2013,
+          692
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          58.945048486629446,
+          58.9349895958131,
+          59.10811947833403,
+          65.69037656903765,
+          67.00879765395894,
+          66.82912844036697,
+          69.44858420268257,
+          61.849710982658955
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bxe6-qxe6-watrkj",
+      "name": "After c6 d5 Qd7",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bxe6",
+        "Qxe6",
+        "d4",
+        "f6",
+        "Nc3",
+        "c6",
+        "d5",
+        "Qd7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          17015,
+          15859,
+          9991,
+          2631,
+          1531,
+          987,
+          1709,
+          572
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          58.945048486629446,
+          58.9349895958131,
+          60.70963867480733,
+          56.53743823641201,
+          64.20640104506859,
+          60.13171225937184,
+          59.6255119953189,
+          56.993006993006986
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bxe6-qxe6-ql31sc",
+      "name": "d5 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bxe6",
+        "Qxe6",
+        "d4",
+        "Nd7",
+        "d5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          17015,
+          15859,
+          9991,
+          1211,
+          562
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          58.945048486629446,
+          58.9349895958131,
+          60.70963867480733,
+          60.77621800165153,
+          59.16370106761566
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "gunderam-bc4-d6-o-o-be6-bxe6-qxe6-liguft",
+      "name": "dxe5 Line",
+      "moves": [
+        "Bc4",
+        "d6",
+        "O-O",
+        "Be6",
+        "Bxe6",
+        "Qxe6",
+        "d4",
+        "Nf6",
+        "dxe5",
+        "dxe5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          423481,
+          173751,
+          134113,
+          43728,
+          17015,
+          15859,
+          9991,
+          1134,
+          612,
+          582
+        ],
+        "winrates": [
+          50.68184877243607,
+          49.25554385298502,
+          52.8893544995638,
+          57.69301134284669,
+          58.945048486629446,
+          58.9349895958131,
+          60.70963867480733,
+          57.098765432098766,
+          57.92483660130719,
+          57.13058419243986
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:12:47.767Z"
+}

@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+stripe
+asyncpg
+python-dotenv
+PyJWT
+httpx
+requests
+redis
+opentelemetry-sdk
+opentelemetry-exporter-otlp-proto-grpc
+opentelemetry-instrumentation-fastapi
+opentelemetry-instrumentation-httpx
+opentelemetry-instrumentation-requests
+opentelemetry-instrumentation-asyncpg
+opentelemetry-instrumentation-redis
+opentelemetry-instrumentation-system-metrics

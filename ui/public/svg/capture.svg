@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 18 19">
+  <g id="capture">
+    <g>
+      <path class="icon-shadow" opacity="0.3" d="M9,.5a9,9,0,1,0,9,9A9,9,0,0,0,9,.5Z"></path>
+      <path class="icon-background" fill="#96bc4b" d="M9,0a9,9,0,1,0,9,9A9,9,0,0,0,9,0Z"></path>
+    </g>
+    <g transform="translate(4, 4) scale(0.55)">
+       <path fill="#fff" d="M17.94,11H13.88A6,6,0,0,0,11,8.12V4.06a1,1,0,0,0-2,0V8.12A6,6,0,0,0,6.12,11H2.06a1,1,0,0,0,0,2H6.12A6,6,0,0,0,9,15.88v4.06a1,1,0,0,0,2,0V15.88A6,6,0,0,0,13.88,13h4.06a1,1,0,0,0,0-2ZM10,14a4,4,0,1,1,4-4A4,4,0,0,1,10,14Z"/>
+    </g>
+  </g>
+</svg>

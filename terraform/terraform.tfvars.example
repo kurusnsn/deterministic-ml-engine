@@ -1,0 +1,26 @@
+# ChessVector Terraform Variables
+# Copy this to terraform.tfvars and fill in values
+
+# Required: Your Hetzner Cloud API Token
+# Get it from: https://console.hetzner.cloud/ → Security → API Tokens
+hcloud_token = ""
+
+# SSH key paths (adjust if needed)
+ssh_public_key_path  = "~/.ssh/id_ed25519.pub"
+ssh_private_key_path = "~/.ssh/id_ed25519"
+
+# Hetzner location (fsn1 = Falkenstein, nbg1 = Nuremberg, hel1 = Helsinki)
+location = "nbg1"
+
+# Server type (cpx21 = 3 vCPU, 4GB RAM - ~€7/month)
+# Options: cpx11 (2/2), cpx21 (3/4), cpx31 (4/8), cpx41 (8/16), cpx51 (16/32)
+server_type = "cpx21"
+
+# K3s version
+k3s_version = "v1.28.5+k3s1"
+
+# Domain
+domain = "chessvector.com"
+
+# Environment
+environment = "prod"

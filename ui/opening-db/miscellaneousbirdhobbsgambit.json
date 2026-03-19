@@ -1,0 +1,121 @@
+{
+  "id": "miscellaneous-bird-hobbs-gambit",
+  "name": "Bird Hobbs gambit",
+  "opening": "Bird Hobbs gambit",
+  "generatedAt": "2026-01-03T19:15:47.699Z",
+  "lines": [
+    {
+      "id": "miscellaneous-bird-hobbs-gambit-f5-d5-1l1umn",
+      "name": "Bird Hobbs gambit: f5 Forcing Line",
+      "moves": [
+        "f5",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          5012,
+          1690
+        ],
+        "winrates": [
+          56.88347964884277,
+          64.79289940828401
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-hobbs-gambit-g3-gxf4-pzo6kg",
+      "name": "Bird Hobbs gambit: g3 Forcing Line",
+      "moves": [
+        "g3",
+        "gxf4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1314,
+          1109
+        ],
+        "winrates": [
+          55.63165905631659,
+          56.49233543733092
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-hobbs-gambit-fxg5-h6-nf3-hxg5-nxg5-e5-rho8qi",
+      "name": "Bird Hobbs gambit: fxg5 Forcing Line",
+      "moves": [
+        "fxg5",
+        "h6",
+        "Nf3",
+        "hxg5",
+        "Nxg5",
+        "e5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          85324,
+          35611,
+          4364,
+          7982,
+          6144,
+          2523
+        ],
+        "winrates": [
+          49.22823590080165,
+          50.89298250540564,
+          55.45371219065078,
+          57.36031069907291,
+          56.50227864583333,
+          61.117717003567186
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-bird-hobbs-gambit-fxg5-h6-gxh6-nxh6-nf3-mlabeq",
+      "name": "Bird Hobbs gambit: fxg5 Forcing Line",
+      "moves": [
+        "fxg5",
+        "h6",
+        "gxh6",
+        "Nxh6",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          85324,
+          35611,
+          15448,
+          5009,
+          2741
+        ],
+        "winrates": [
+          49.22823590080165,
+          50.89298250540564,
+          52.63464526152253,
+          56.24875224595728,
+          56.129149945275444
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

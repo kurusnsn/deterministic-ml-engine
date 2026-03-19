@@ -1,0 +1,21 @@
+{
+  "opening": "QP counter-gambit",
+  "openingId": "qp-counter-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "qp-counter-gambit-line-0",
+      "name": "Maroczy gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "d5",
+        "exd5",
+        "Bd6"
+      ],
+      "eco": "C40"
+    }
+  ],
+  "generatedAt": "1.0"
+}

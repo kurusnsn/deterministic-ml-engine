@@ -1,0 +1,941 @@
+{
+  "opening": "carr's",
+  "openingId": "carr-s",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "carr-s-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "h6"
+      ],
+      "eco": "B00"
+    },
+    {
+      "id": "carr-s-d4-h5-f4-p5m9f3",
+      "name": "f4 Line",
+      "moves": [
+        "d4",
+        "h5",
+        "f4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          570805,
+          6062,
+          610
+        ],
+        "winrates": [
+          55.27413039479332,
+          62.07522269877928,
+          64.01639344262296
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-qf3-h5-bc4-h4-qxf7--cwgjpn",
+      "name": "Qxf7 Line",
+      "moves": [
+        "Qf3",
+        "h5",
+        "Bc4",
+        "h4",
+        "Qxf7#"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          11359,
+          665,
+          611,
+          973,
+          731
+        ],
+        "winrates": [
+          55.96003169293071,
+          89.32330827067669,
+          91.73486088379705,
+          99.64028776978418,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-g3-a6-bg2-e6-ne2-v31dbq",
+      "name": "Ne2 Line",
+      "moves": [
+        "g3",
+        "a6",
+        "Bg2",
+        "e6",
+        "Ne2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4339,
+          883,
+          2622,
+          1014,
+          814
+        ],
+        "winrates": [
+          55.28923715141738,
+          58.040770101925254,
+          56.102212051868804,
+          58.38264299802761,
+          59.029484029484024
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-b3-g5-bb2-vzlqb3",
+      "name": "Bb2 Line",
+      "moves": [
+        "b3",
+        "g5",
+        "Bb2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3982,
+          671,
+          984
+        ],
+        "winrates": [
+          56.2405826217981,
+          61.77347242921013,
+          61.83943089430895
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-e6-bd3-nc6-9j47eu",
+      "name": "Nc6 Line",
+      "moves": [
+        "d4",
+        "e6",
+        "Bd3",
+        "Nc6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          570805,
+          120717,
+          32611,
+          647
+        ],
+        "winrates": [
+          55.27413039479332,
+          55.546443334410235,
+          56.52540553800864,
+          59.8145285935085
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-g6-h4-d6-h5-g5-8szyut",
+      "name": "f6 Line",
+      "moves": [
+        "d4",
+        "g6",
+        "h4",
+        "d6",
+        "h5",
+        "g5",
+        "f4",
+        "f6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          570805,
+          119460,
+          1483,
+          1283,
+          3172,
+          3089,
+          2779,
+          575
+        ],
+        "winrates": [
+          55.27413039479332,
+          55.11719403984598,
+          57.48482805124747,
+          55.06625097427903,
+          57.4873896595208,
+          57.23535124635804,
+          58.20439006836992,
+          63.65217391304348
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-d5-exd5-qxd5-c4-qd8-gnbw8b",
+      "name": "Bd3 Line",
+      "moves": [
+        "d4",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "c4",
+        "Qd8",
+        "Nc3",
+        "a6",
+        "Nf3",
+        "e6",
+        "Be3",
+        "Nf6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          570805,
+          22977,
+          7451,
+          6445,
+          3395,
+          2285,
+          5991,
+          589,
+          901,
+          632,
+          852,
+          786,
+          1047
+        ],
+        "winrates": [
+          55.27413039479332,
+          56.730643687165426,
+          61.04549724869145,
+          61.481768813033355,
+          60.02945508100147,
+          57.636761487964996,
+          56.25104323151394,
+          59.59252971137521,
+          63.20754716981132,
+          59.01898734177215,
+          61.9131455399061,
+          60.17811704834606,
+          56.01719197707736
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-nf6-e5-nh7-f4-5z169",
+      "name": "After e5 Nh7 f4",
+      "moves": [
+        "d4",
+        "Nf6",
+        "e5",
+        "Nh7",
+        "f4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          570805,
+          17989,
+          8000,
+          2934,
+          567
+        ],
+        "winrates": [
+          55.27413039479332,
+          59.68647506809717,
+          60.150000000000006,
+          61.077027948193596,
+          63.844797178130506
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-b6-f4-bb7-nc3-nf6-nr7oqy",
+      "name": "Nf6 Line",
+      "moves": [
+        "d4",
+        "b6",
+        "f4",
+        "Bb7",
+        "Nc3",
+        "Nf6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          570805,
+          13031,
+          1681,
+          1502,
+          523,
+          825
+        ],
+        "winrates": [
+          55.27413039479332,
+          57.33635177653288,
+          59.63712076145151,
+          58.788282290279625,
+          61.5678776290631,
+          57.757575757575765
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-c5-d5-e6-d6-6zyrqo",
+      "name": "d6 Line",
+      "moves": [
+        "d4",
+        "c5",
+        "d5",
+        "e6",
+        "d6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          570805,
+          6279,
+          2745,
+          692,
+          784
+        ],
+        "winrates": [
+          55.27413039479332,
+          55.852842809364546,
+          56.9216757741348,
+          58.95953757225434,
+          62.755102040816325
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-e5-c3-exd4-bc4-dxc3-z8m3t1",
+      "name": "After Qe7 O-O Nf6",
+      "moves": [
+        "d4",
+        "e5",
+        "c3",
+        "exd4",
+        "Bc4",
+        "dxc3",
+        "Nf3",
+        "cxb2",
+        "Bxb2",
+        "d6",
+        "Qb3",
+        "Qe7",
+        "O-O",
+        "Nf6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          570805,
+          5466,
+          730,
+          3916,
+          4168,
+          2277,
+          17263,
+          1731,
+          1728,
+          1809,
+          4744,
+          3499,
+          3881,
+          974
+        ],
+        "winrates": [
+          55.27413039479332,
+          58.05890962312476,
+          62.328767123287676,
+          58.13329928498467,
+          58.601247600767756,
+          63.570487483530954,
+          62.76429357585588,
+          69.49740034662045,
+          69.61805555555556,
+          68.32504145936981,
+          71.42706576728499,
+          73.17805087167763,
+          73.95001288327751,
+          80.74948665297741
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-c4-nc6-nc3-8wug5r",
+      "name": "Nc3 Line",
+      "moves": [
+        "d4",
+        "a6",
+        "c4",
+        "Nc6",
+        "Nc3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          570805,
+          152146,
+          73152,
+          1180,
+          595
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          56.35389326334208,
+          62.881355932203384,
+          61.09243697478992
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nc3-nc6-nf3-nf6-ohwlx5",
+      "name": "e5 Line",
+      "moves": [
+        "d4",
+        "a6",
+        "Nc3",
+        "Nc6",
+        "Nf3",
+        "Nf6",
+        "e5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          570805,
+          152146,
+          57179,
+          1418,
+          683,
+          1100,
+          647
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          55.83168645831511,
+          61.14245416078985,
+          59.150805270863835,
+          59.59090909090909,
+          64.60587326120556
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-f4-nc6-nf3-e6-z19p3",
+      "name": "After Nf3 e6 Bd3",
+      "moves": [
+        "d4",
+        "a6",
+        "f4",
+        "Nc6",
+        "Nf3",
+        "e6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          570805,
+          152146,
+          40892,
+          682,
+          597,
+          651,
+          1195
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          56.67245426978382,
+          61.36363636363637,
+          61.13902847571189,
+          57.52688172043011,
+          62.42677824267783
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-bd3-nf6-mj42nb",
+      "name": "After a6 Bd3 Nf6",
+      "moves": [
+        "d4",
+        "a6",
+        "Bd3",
+        "Nf6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          570805,
+          152146,
+          27591,
+          558
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          56.498495886339754,
+          61.29032258064516
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-bc4-nc6-m2m8rw",
+      "name": "After a6 Bc4 Nc6",
+      "moves": [
+        "d4",
+        "a6",
+        "Bc4",
+        "Nc6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          570805,
+          152146,
+          19765,
+          505
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          55.82089552238806,
+          62.97029702970297
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nf3-d5-exd5-qxd5-v7nv",
+      "name": "h3 Line",
+      "moves": [
+        "d4",
+        "a6",
+        "Nf3",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Qd8",
+        "Bc4",
+        "Bg4",
+        "h3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          570805,
+          152146,
+          95243,
+          14587,
+          4513,
+          4098,
+          3398,
+          2350,
+          12658,
+          1966,
+          615
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          54.39349873481516,
+          56.34811818742717,
+          63.01794814978949,
+          63.457784285017084,
+          63.522660388463805,
+          62.51063829787235,
+          60.81134460420288,
+          69.35401831129197,
+          60.56910569105691
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nf3-nf6-bd3-n2brij",
+      "name": "After Nf3 Nf6 Bd3",
+      "moves": [
+        "d4",
+        "a6",
+        "Nf3",
+        "Nf6",
+        "Bd3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          570805,
+          152146,
+          95243,
+          6418,
+          1471
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          54.39349873481516,
+          55.546899345590525,
+          56.83208701563562
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nf3-g5-bc4-uyn1gh",
+      "name": "Bc4 Line",
+      "moves": [
+        "d4",
+        "a6",
+        "Nf3",
+        "g5",
+        "Bc4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          570805,
+          152146,
+          95243,
+          6330,
+          1185
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          54.39349873481516,
+          55.308056872037916,
+          57.13080168776371
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nf3-nc6-d5-na7-wqawrn",
+      "name": "c4 Line",
+      "moves": [
+        "d4",
+        "a6",
+        "Nf3",
+        "Nc6",
+        "d5",
+        "Na7",
+        "c4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          570805,
+          152146,
+          95243,
+          4605,
+          3555,
+          1913,
+          672
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          54.39349873481516,
+          60.304017372421285,
+          62.79887482419127,
+          63.09461578672243,
+          64.43452380952381
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nf3-e6-bd3-nc6-c8ioxo",
+      "name": "O-O Line",
+      "moves": [
+        "d4",
+        "a6",
+        "Nf3",
+        "e6",
+        "Bd3",
+        "Nc6",
+        "c3",
+        "Nf6",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          570805,
+          152146,
+          95243,
+          90007,
+          54096,
+          2811,
+          915,
+          760,
+          657
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          54.39349873481516,
+          53.43862144055463,
+          55.89415113871635,
+          59.035930273923874,
+          62.568306010928964,
+          60.26315789473684,
+          63.31811263318112
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nf3-e6-nc3-nf6-pwhvwv",
+      "name": "After Bd3 Bb4 O-O",
+      "moves": [
+        "d4",
+        "a6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Nf6",
+        "Bd3",
+        "Bb4",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          570805,
+          152146,
+          95243,
+          90007,
+          83058,
+          7567,
+          3336,
+          1232,
+          746
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          54.39349873481516,
+          53.43862144055463,
+          52.99068121072021,
+          56.91158979780626,
+          57.98860911270983,
+          58.96915584415584,
+          61.93029490616622
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nf3-e6-nc3-nc6-yunaih",
+      "name": "Nce7 Line",
+      "moves": [
+        "d4",
+        "a6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Nc6",
+        "d5",
+        "exd5",
+        "exd5",
+        "Nce7"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          570805,
+          152146,
+          95243,
+          90007,
+          83058,
+          5280,
+          3535,
+          1972,
+          1679,
+          673
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          54.39349873481516,
+          53.43862144055463,
+          52.99068121072021,
+          57.395833333333336,
+          61.074964639321074,
+          59.7870182555781,
+          60.512209648600354,
+          57.28083209509658
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "carr-s-d4-a6-nf3-e6-nc3-d6-kqhch0",
+      "name": "d5 Line",
+      "moves": [
+        "d4",
+        "a6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "d6",
+        "Bd3",
+        "Be7",
+        "e5",
+        "d5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          570805,
+          152146,
+          95243,
+          90007,
+          83058,
+          32497,
+          98581,
+          10988,
+          950,
+          605
+        ],
+        "winrates": [
+          55.27413039479332,
+          54.69056038279021,
+          54.39349873481516,
+          53.43862144055463,
+          52.99068121072021,
+          52.89719050989322,
+          52.39954960895101,
+          55.51965780851839,
+          58.8421052631579,
+          55.53719008264463
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:59:41.753Z"
+}

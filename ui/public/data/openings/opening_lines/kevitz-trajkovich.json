@@ -1,0 +1,1024 @@
+{
+  "opening": "kevitz-trajkovich",
+  "openingId": "kevitz-trajkovich",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "kevitz-trajkovich-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "Nc6"
+      ],
+      "eco": "A50"
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e6-a3-b6-e4-bb7-2y4fk7",
+      "name": "Be7 Line",
+      "moves": [
+        "Nc3",
+        "e6",
+        "a3",
+        "b6",
+        "e4",
+        "Bb7",
+        "Nf3",
+        "Be7"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          97170,
+          10292,
+          2111,
+          1216,
+          786,
+          558,
+          794
+        ],
+        "winrates": [
+          48.08718843877484,
+          55.75949367088607,
+          57.923630003886515,
+          59.734722880151594,
+          61.22532894736842,
+          60.75063613231551,
+          60.30465949820788,
+          60.51637279596977
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-d6-f4-erali2",
+      "name": "f4 Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "f4"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          34192,
+          508
+        ],
+        "winrates": [
+          48.08718843877484,
+          56.002866167524566,
+          56.79133858267716
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-g6-nf3-e6-e4-bg7-ml248s",
+      "name": "exf6 Line",
+      "moves": [
+        "Nc3",
+        "g6",
+        "Nf3",
+        "e6",
+        "e4",
+        "Bg7",
+        "Bg5",
+        "O-O",
+        "e5",
+        "h6",
+        "exf6"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          11263,
+          3378,
+          1224,
+          2479,
+          1933,
+          2569,
+          1098,
+          1533,
+          918,
+          626
+        ],
+        "winrates": [
+          48.08718843877484,
+          56.10849684808665,
+          58.140911782119595,
+          58.12908496732027,
+          61.73860427591771,
+          62.82979824107605,
+          64.4024912417283,
+          75.86520947176685,
+          78.76712328767124,
+          75,
+          75.5591054313099
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-ng4-d5-nxf2-kxf2-ne5-poy2ey",
+      "name": "Ne5 Line",
+      "moves": [
+        "Nc3",
+        "Ng4",
+        "d5",
+        "Nxf2",
+        "Kxf2",
+        "Ne5"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          3554,
+          806,
+          835,
+          805,
+          768
+        ],
+        "winrates": [
+          48.08718843877484,
+          60.115362971299945,
+          61.66253101736972,
+          61.91616766467066,
+          62.98136645962733,
+          62.434895833333336
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-b6-nf3-e6-d5-8h5vzl",
+      "name": "d5 Line",
+      "moves": [
+        "Nc3",
+        "b6",
+        "Nf3",
+        "e6",
+        "d5"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          3091,
+          1229,
+          785,
+          643
+        ],
+        "winrates": [
+          48.08718843877484,
+          59.349725008087994,
+          62.40846216436127,
+          63.566878980891715,
+          65.94090202177294
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-nb8-e4-g6-638xhx",
+      "name": "g6 Line",
+      "moves": [
+        "Nc3",
+        "Nb8",
+        "e4",
+        "g6"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          2179,
+          12987,
+          539
+        ],
+        "winrates": [
+          48.08718843877484,
+          57.04451583295089,
+          57.92715792715792,
+          62.430426716141
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-a6-d5-epn7oa",
+      "name": "After Nc3 a6 d5",
+      "moves": [
+        "Nc3",
+        "a6",
+        "d5"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          2114,
+          680
+        ],
+        "winrates": [
+          48.08718843877484,
+          60.76158940397352,
+          61.911764705882355
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-nxd4-qxd4-e5-75f3pa",
+      "name": "e5 Line",
+      "moves": [
+        "Nc3",
+        "Nxd4",
+        "Qxd4",
+        "e5"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          1927,
+          1519,
+          519
+        ],
+        "winrates": [
+          48.08718843877484,
+          71.95121951219512,
+          74.88479262672811,
+          72.35067437379577
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-nb4-a3-lkqrvy",
+      "name": "a3 Line",
+      "moves": [
+        "Nc3",
+        "Nb4",
+        "a3"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          513302,
+          1131,
+          554
+        ],
+        "winrates": [
+          48.08718843877484,
+          68.92130857648098,
+          71.11913357400722
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-nd4-e3-nf5-4g82y8",
+      "name": "Bb4 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Nd4",
+        "e3",
+        "Nf5",
+        "Nf3",
+        "Bb4"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          21635,
+          14710,
+          13935,
+          3785,
+          710
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          57.50866651259533,
+          58.57239972807614,
+          57.68209544312881,
+          59.89431968295905,
+          64.29577464788733
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-nb4-a3-na6-gc3f4w",
+      "name": "Bc5 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Nb4",
+        "a3",
+        "Na6",
+        "e4",
+        "Bc5"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          2140,
+          1450,
+          1382,
+          815,
+          588
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          66.19158878504673,
+          68.34482758620689,
+          67.04052098408104,
+          66.25766871165644,
+          60.45918367346938
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-na5-e4-x2std4",
+      "name": "e4 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Na5",
+        "e4"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          1328,
+          997
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          55.798192771084345,
+          56.92076228686058
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-c6-r864mq",
+      "name": "cxd5 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "c6",
+        "f4",
+        "cxd5"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          7230,
+          1190,
+          633
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          56.09958506224066,
+          58.991596638655466,
+          58.451816745655606
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-g6-x6amyf",
+      "name": "After e4 g6 f4",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "g6",
+        "f4"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          4184,
+          705
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          57.98279158699808,
+          63.12056737588653
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-uruarc",
+      "name": "Bxe2 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "Bd3",
+        "Bg4",
+        "Nge2",
+        "Bxe2"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          33927,
+          4998,
+          1754,
+          525
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          53.6401685972824,
+          59.50380152060825,
+          64.02508551881414,
+          62.857142857142854
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-7ub2b2",
+      "name": "Bg4 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "Bd3",
+        "c6",
+        "Nge2",
+        "cxd5",
+        "cxd5",
+        "Bg4"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          33927,
+          3652,
+          3079,
+          1653,
+          1122,
+          751
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          53.6401685972824,
+          57.009857612267254,
+          59.191295875284176,
+          57.89473684210527,
+          59.001782531194294,
+          61.31824234354194
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-cpfro6",
+      "name": "After Bd7 Nge2 g6",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "Bd3",
+        "Bd7",
+        "Nge2",
+        "g6"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          33927,
+          2274,
+          2296,
+          605
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          53.6401685972824,
+          56.61829375549692,
+          56.72909407665505,
+          60
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-puzn0v",
+      "name": "Nge2 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "Bd3",
+        "h6",
+        "Nge2"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          33927,
+          1292,
+          1553
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          53.6401685972824,
+          56.19195046439629,
+          57.01867353509337
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-dgghd6",
+      "name": "After Bd3 a6 Nge2",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "Bd3",
+        "a6",
+        "Nge2"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          33927,
+          671,
+          554
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          53.6401685972824,
+          56.03576751117735,
+          57.12996389891697
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-ojajme",
+      "name": "Bd7 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "Bd3",
+        "Ng6",
+        "Nge2",
+        "Bg4",
+        "f3",
+        "Bd7"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          33927,
+          16776,
+          29312,
+          3258,
+          1336,
+          1129
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          53.6401685972824,
+          49.15355269432523,
+          51.412390829694324,
+          55.00306936771025,
+          57.59730538922155,
+          56.997342781222315
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-6upz1t",
+      "name": "h6 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "Bd3",
+        "g6",
+        "Nge2",
+        "Bg7",
+        "f3",
+        "O-O",
+        "Bg5",
+        "h6"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          33927,
+          6479,
+          3810,
+          4743,
+          2229,
+          2209,
+          3431,
+          1989
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          53.6401685972824,
+          54.80784071615991,
+          56.01049868766405,
+          55.039004849251526,
+          56.14625392552715,
+          55.27387958352195,
+          57.067910230253574,
+          56.73705379587732
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-gyomq2",
+      "name": "Nf3 Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "f4",
+        "Bg4",
+        "Nf3"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          30313,
+          4584,
+          1516
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          52.7001616468182,
+          55.202879581151834,
+          58.47625329815303
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-vnxwb1",
+      "name": "O-O Line",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "f4",
+        "g6",
+        "fxe5",
+        "dxe5",
+        "Nf3",
+        "Bg7",
+        "Bd3",
+        "O-O"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          30313,
+          3116,
+          1848,
+          1780,
+          1797,
+          1091,
+          947,
+          627
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          52.7001616468182,
+          57.028241335044925,
+          58.333333333333336,
+          57.921348314606746,
+          57.73511407902059,
+          55.27039413382218,
+          60.61246040126716,
+          55.02392344497608
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "kevitz-trajkovich-nc3-e5-d5-ne7-e4-d6-omjp7c",
+      "name": "After f4 c6 Nf3",
+      "moves": [
+        "Nc3",
+        "e5",
+        "d5",
+        "Ne7",
+        "e4",
+        "d6",
+        "f4",
+        "c6",
+        "Nf3"
+      ],
+      "eco": "A50",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          513302,
+          342120,
+          275167,
+          245105,
+          216920,
+          25211,
+          30313,
+          2432,
+          918
+        ],
+        "winrates": [
+          48.08718843877484,
+          43.80948205308079,
+          42.71642311759768,
+          40.973052365312824,
+          39.52770606675272,
+          53.153385426996145,
+          52.7001616468182,
+          55.96217105263158,
+          60.29411764705882
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:38:03.027Z"
+}

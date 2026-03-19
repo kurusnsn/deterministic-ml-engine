@@ -1,0 +1,426 @@
+{
+  "opening": "four knights",
+  "openingId": "four-knights",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "four-knights-line-0",
+      "name": "Schultze-Mueller gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Nxe5"
+      ],
+      "eco": "C46"
+    },
+    {
+      "id": "four-knights-line-1",
+      "name": "Italian variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bc4"
+      ],
+      "eco": "C46"
+    },
+    {
+      "id": "four-knights-line-2",
+      "name": "Gunsberg variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "a3"
+      ],
+      "eco": "C46"
+    },
+    {
+      "id": "four-knights-line-3",
+      "name": "Scotch, Krause variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "d4",
+        "Bb4",
+        "Nxe5"
+      ],
+      "eco": "C47"
+    },
+    {
+      "id": "four-knights-line-4",
+      "name": "Belgrade gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "Nd5"
+      ],
+      "eco": "C47"
+    },
+    {
+      "id": "four-knights-line-5",
+      "name": "Rubinstein counter-gambit, exchange variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Nd4",
+        "Nxd4"
+      ],
+      "eco": "C48"
+    },
+    {
+      "id": "four-knights-line-6",
+      "name": "Rubinstein counter-gambit, Henneberger variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Nd4",
+        "O-O"
+      ],
+      "eco": "C48"
+    },
+    {
+      "id": "four-knights-line-7",
+      "name": "Rubinstein counter-gambit, Bogolyubov variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Nd4",
+        "Nxe5",
+        "Qe7",
+        "f4"
+      ],
+      "eco": "C48"
+    },
+    {
+      "id": "four-knights-line-8",
+      "name": "Nimzovich (Paulsen) variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "Bxc6"
+      ],
+      "eco": "C49"
+    },
+    {
+      "id": "four-knights-line-9",
+      "name": "Marshall variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "Nxe5",
+        "Nd4"
+      ],
+      "eco": "C48"
+    },
+    {
+      "id": "four-knights-line-10",
+      "name": "symmetrical, Maroczy system",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "d3",
+        "d6",
+        "Ne2"
+      ],
+      "eco": "C49"
+    },
+    {
+      "id": "four-knights-line-11",
+      "name": "Gunsberg counter-attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "Nd5",
+        "Nxd5",
+        "exd5",
+        "e4"
+      ],
+      "eco": "C49"
+    },
+    {
+      "id": "four-knights-line-12",
+      "name": "Alatortsev variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "d3",
+        "Qe7",
+        "Ne2",
+        "d5"
+      ],
+      "eco": "C49"
+    },
+    {
+      "id": "four-knights-line-13",
+      "name": "Svenonius variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "d3",
+        "Bxc3",
+        "bxc3",
+        "d5"
+      ],
+      "eco": "C49"
+    },
+    {
+      "id": "four-knights-line-14",
+      "name": "symmetrical, Tarrasch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "d3",
+        "d6",
+        "Bg5",
+        "Be6"
+      ],
+      "eco": "C49"
+    },
+    {
+      "id": "four-knights-line-15",
+      "name": "Janowski variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "d3",
+        "Bxc3",
+        "bxc3",
+        "d6",
+        "Re1"
+      ],
+      "eco": "C49"
+    },
+    {
+      "id": "four-knights-line-16",
+      "name": "Bardeleben variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "Nxe5",
+        "Nxe5",
+        "d4",
+        "Bd6",
+        "f4",
+        "Nc6",
+        "e5",
+        "Bb4"
+      ],
+      "eco": "C48"
+    },
+    {
+      "id": "four-knights-line-17",
+      "name": "Rubinstein counter-gambit Maroczy variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Nd4",
+        "Be2",
+        "Nxf3+",
+        "Bxf3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "d3",
+        "d6",
+        "Na4",
+        "Bb6"
+      ],
+      "eco": "C48"
+    },
+    {
+      "id": "four-knights-line-18",
+      "name": "Spielmann variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "a6",
+        "Bxc6",
+        "dxc6",
+        "Nxe5",
+        "Nxe4",
+        "Nxe4",
+        "Qd4",
+        "O-O",
+        "Qxe5",
+        "Re1",
+        "Be6",
+        "d4",
+        "Qd5"
+      ],
+      "eco": "C48"
+    },
+    {
+      "id": "four-knights-line-19",
+      "name": "symmetrical, Capablanca variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "d3",
+        "d6",
+        "Bg5",
+        "Bxc3",
+        "bxc3",
+        "Qe7",
+        "Re1",
+        "Nd8",
+        "d4",
+        "Bg4"
+      ],
+      "eco": "C49"
+    },
+    {
+      "id": "four-knights-line-20",
+      "name": "symmetrical, Blake variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Bb5",
+        "Bb4",
+        "O-O",
+        "O-O",
+        "d3",
+        "d6",
+        "Bg5",
+        "Ne7",
+        "Nh4",
+        "c6",
+        "Bc4",
+        "d5",
+        "Bb3",
+        "Qd6"
+      ],
+      "eco": "C49"
+    }
+  ],
+  "generatedAt": "1.0"
+}

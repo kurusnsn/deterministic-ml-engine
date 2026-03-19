@@ -1,0 +1,1036 @@
+{
+  "id": "miscellaneous-reti-lisitsin-gambit",
+  "name": "Reti Lisitsin gambit",
+  "opening": "Reti Lisitsin gambit",
+  "generatedAt": "2026-01-03T19:22:40.783Z",
+  "lines": [
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-e6-e5-nd5-c4-4wkfql",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "e6",
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          43161,
+          39253,
+          3190,
+          3758,
+          3182,
+          1650,
+          1011
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          67.22570532915361,
+          68.26769558275679,
+          68.65179132620993,
+          68.03030303030303,
+          69.8318496538081
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-e6-e5-nd5-c4-nb6-oaq8d1",
+      "name": "Reti Lisitsin gambit: e6 Forcing Line",
+      "moves": [
+        "e6",
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          8586,
+          4071,
+          2879,
+          1896,
+          1270
+        ],
+        "winrates": [
+          57.52969951083159,
+          59.371161876688774,
+          58.96144494616187,
+          60.60126582278481,
+          60.275590551181104
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-g6-exf5-gxf5-59y58t",
+      "name": "Reti Lisitsin gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "exf5",
+        "gxf5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2774,
+          1634,
+          1490
+        ],
+        "winrates": [
+          58.86806056236482,
+          55.905752753977964,
+          55.100671140939596
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-e6-e5-nd5-c4-4wkfql",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "e6",
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          43161,
+          39253,
+          3190,
+          3758,
+          3182,
+          1650,
+          1011
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          67.22570532915361,
+          68.26769558275679,
+          68.65179132620993,
+          68.03030303030303,
+          69.8318496538081
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-ng5-h6-nxe4-nxe4-dxe4-6ilx6t",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "Ng5",
+        "h6",
+        "Nxe4",
+        "Nxe4",
+        "dxe4"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          43161,
+          4016,
+          8577,
+          8211,
+          2382,
+          1420
+        ],
+        "winrates": [
+          64.36250318574639,
+          58.95169322709163,
+          62.539349422875134,
+          63.08001461454147,
+          79.65994962216625,
+          66.09154929577464
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-qcwb9d",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "h6",
+        "Bg6#"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          3265,
+          2263
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          89.5405819295559,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-d6-e5-dxe5-qxd8--9du4ca",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "d6",
+        "e5",
+        "dxe5",
+        "Qxd8+",
+        "Kxd8",
+        "Nxe5",
+        "Be6"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          43161,
+          39253,
+          8492,
+          5731,
+          3232,
+          3133,
+          3130,
+          3135,
+          1266
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          63.06523787093735,
+          65.39870877682777,
+          66.64603960396039,
+          67.26779444621769,
+          67.23642172523961,
+          67.43221690590111,
+          68.91785150078988
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-e5-bc4-nxe4-2bwmj2",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "e5",
+        "Bc4",
+        "Nxe4"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          43161,
+          39253,
+          4695,
+          9947,
+          1435
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          58.07241746538872,
+          58.535236754800444,
+          64.11149825783971
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-e6-e5-nd5-c4-4wkfql",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "e6",
+        "e5",
+        "Nd5",
+        "c4",
+        "Nb6"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          43161,
+          39253,
+          3190,
+          3758,
+          3182,
+          1650,
+          1011
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          67.22570532915361,
+          68.26769558275679,
+          68.65179132620993,
+          68.03030303030303,
+          69.8318496538081
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nc6-e5-13a116",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nc6",
+        "e5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          43161,
+          39253,
+          1153,
+          1511
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          58.93321769297485,
+          59.29847782925215
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-qcwb9d",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "h6",
+        "Bg6#"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          3265,
+          2263
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          89.5405819295559,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-qcwb9d",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "h6",
+        "Bg6#"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          3265,
+          2263
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          89.5405819295559,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-d5-bxe4-2f1ii",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "d5",
+        "Bxe4",
+        "dxe4",
+        "Qxd8+",
+        "Kxd8",
+        "Ng5",
+        "Ke8"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          2121,
+          1731,
+          1727,
+          1717,
+          1716,
+          1662,
+          1584
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          56.74210278170674,
+          58.05892547660312,
+          57.961783439490446,
+          58.241118229470004,
+          58.21678321678322,
+          58.5439229843562,
+          57.67045454545454
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-qcwb9d",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "h6",
+        "Bg6#"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          3265,
+          2263
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          89.5405819295559,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-5zngw",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "e5",
+        "Bxh7"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          14648,
+          2065
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          60.574822501365375,
+          81.71912832929782
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-3ec8u5",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "g6",
+        "h4",
+        "Bg7",
+        "h5"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          13332,
+          3443,
+          1662,
+          1608
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          63.49384938493849,
+          72.52396166134186,
+          75.48134777376654,
+          76.89676616915423
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-eiemr5",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "d5",
+        "Bxh7"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          8769,
+          1135
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          58.18793477021325,
+          73.34801762114537
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-n19v3",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "e6",
+        "Bxh7"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          8422,
+          1426
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          67.68582284492994,
+          77.52454417952315
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-qcwb9d",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "h6",
+        "Bg6#"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          3265,
+          2263
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          89.5405819295559,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-e15cim",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "d6",
+        "Nxh7"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          2882,
+          1432
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          62.439278278972935,
+          65.46787709497207
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-3bkuaq",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "e5",
+        "Nxh7",
+        "Nxh7"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          14648,
+          5569,
+          1054
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          60.574822501365375,
+          69.9946130364518,
+          77.46679316888046
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-i68wzu",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "e5",
+        "Nxh7",
+        "e4",
+        "Nxf6+",
+        "Qxf6",
+        "Bxe4"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          14648,
+          5569,
+          2055,
+          1757,
+          1615,
+          1565
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          60.574822501365375,
+          69.9946130364518,
+          67.2992700729927,
+          66.96072851451338,
+          66.62538699690403,
+          67.31629392971246
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-i68wzu",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "e5",
+        "Nxh7",
+        "e4",
+        "Nxf6+",
+        "Qxf6",
+        "Bxe4"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          14648,
+          5569,
+          2055,
+          1757,
+          1615,
+          1565
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          60.574822501365375,
+          69.9946130364518,
+          67.2992700729927,
+          66.96072851451338,
+          66.62538699690403,
+          67.31629392971246
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-2wka9b",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "g6",
+        "Nxh7",
+        "Rxh7",
+        "Bxg6+",
+        "Rf7",
+        "Bg5"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          13332,
+          7120,
+          4568,
+          4562,
+          4556,
+          1873
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          63.49384938493849,
+          65.2247191011236,
+          58.384413309982484,
+          58.37352038579571,
+          58.31870061457419,
+          58.24879871863321
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-reti-lisitsin-gambit-fxe4-dxe4-nxe4-bd3-nf6-ng5-3ec8u5",
+      "name": "Reti Lisitsin gambit: fxe4 Forcing Line",
+      "moves": [
+        "fxe4",
+        "dxe4",
+        "Nxe4",
+        "Bd3",
+        "Nf6",
+        "Ng5",
+        "g6",
+        "h4",
+        "Bg7",
+        "h5"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          43161,
+          39253,
+          22918,
+          21209,
+          18254,
+          15405,
+          13332,
+          3443,
+          1662,
+          1608
+        ],
+        "winrates": [
+          64.36250318574639,
+          64.8778437316893,
+          65.27402042063008,
+          66.71460229148003,
+          67.83992549578176,
+          70.89905874716001,
+          63.49384938493849,
+          72.52396166134186,
+          75.48134777376654,
+          76.89676616915423
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

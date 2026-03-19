@@ -1,0 +1,961 @@
+{
+  "opening": "qp counter-gambit (elephant gambit)",
+  "openingId": "qp-counter-gambit-elephant-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "qp-counter-gambit-elephant-gambit-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "d5"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-bc4-dxc4-d4-cxd3-qxd3-qxd3-jtnsj6",
+      "name": "Nc6 Line",
+      "moves": [
+        "Bc4",
+        "dxc4",
+        "d4",
+        "cxd3",
+        "Qxd3",
+        "Qxd3",
+        "cxd3",
+        "Nc6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          375829,
+          357381,
+          13131,
+          4219,
+          2908,
+          1845,
+          1817,
+          1687
+        ],
+        "winrates": [
+          66.30608601252166,
+          67.58935142047282,
+          65.00647323128474,
+          68.04930078217588,
+          66.42022008253095,
+          70.37940379403794,
+          69.92294991744635,
+          72.28808535862477
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-bd3-f5-wsw1jf",
+      "name": "f5 Line",
+      "moves": [
+        "Bd3",
+        "f5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          39875,
+          1320
+        ],
+        "winrates": [
+          56.663322884012544,
+          59.88636363636364
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-nd4-qxd5-bb5--en9unb",
+      "name": "Bb5 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Nd4",
+        "Qxd5",
+        "Bb5+"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1197235,
+          853385,
+          1072
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          56.13246355143309,
+          57.39267739648576,
+          80.22388059701493
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-nc3-exf3-qe2--tz710q",
+      "name": "Qe2 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Nc3",
+        "exf3",
+        "Qe2+"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          73251,
+          59760,
+          1653
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          61.666052340582375,
+          64.04116465863454,
+          80.00604960677555
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-bb5--c6-dxc6-bxc6-gb2z55",
+      "name": "Ng1 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Bb5+",
+        "c6",
+        "dxc6",
+        "bxc6",
+        "Bxc6+",
+        "Nxc6",
+        "Ng1"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          68121,
+          49345,
+          48767,
+          45320,
+          4373,
+          4361,
+          1278
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          61.20873152185082,
+          65.54868781031513,
+          65.42333955338651,
+          66.86893203883496,
+          78.24148182026069,
+          78.3191928456776,
+          80.28169014084507
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-ng5-qxg5-bc4-uxenxd",
+      "name": "Bc4 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Ng5",
+        "Qxg5",
+        "Bc4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          55485,
+          38818,
+          1213
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          65.14913940704695,
+          69.85290329228708,
+          74.11376751854905
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-d4-exf3-qxf3-nf6-novl84",
+      "name": "c4 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "d4",
+        "exf3",
+        "Qxf3",
+        "Nf6",
+        "c4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          10681,
+          8715,
+          7886,
+          6777,
+          1079
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          59.45136223200075,
+          61.97360872059667,
+          60.39183362921634,
+          61.13324479858344,
+          63.809082483781275
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-d3-exf3-qxf3-nf6-uulqsr",
+      "name": "After Qxf3 Nf6 c4",
+      "moves": [
+        "exd5",
+        "e4",
+        "d3",
+        "exf3",
+        "Qxf3",
+        "Nf6",
+        "c4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          9018,
+          7188,
+          6470,
+          5455,
+          1474
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          64.17720115324906,
+          68.2943795214246,
+          66.49149922720248,
+          67.50687442713108,
+          69.53867028493895
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-bc4-exf3-qxf3-nf6-oqr2b2",
+      "name": "Be7 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Bc4",
+        "exf3",
+        "Qxf3",
+        "Nf6",
+        "O-O",
+        "Be7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          5620,
+          4759,
+          4399,
+          3087,
+          1669,
+          1339
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          60.22241992882562,
+          61.567556209287666,
+          61.184360081836786,
+          61.61321671525752,
+          59.676452965847815,
+          60.19417475728155
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-c4-exf3-qxf3-nf6-xdgi26",
+      "name": "d4 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "c4",
+        "exf3",
+        "Qxf3",
+        "Nf6",
+        "d4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          4616,
+          3851,
+          3607,
+          2921,
+          1163
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          63.47487001733102,
+          65.16489223578292,
+          64.29165511505406,
+          64.85792536802465,
+          64.402407566638
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-be2-exf3-bxf3-nf6-lyuafi",
+      "name": "O-O Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Be2",
+        "exf3",
+        "Bxf3",
+        "Nf6",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          5803774,
+          4212085,
+          2635,
+          2049,
+          1958,
+          1473,
+          1005
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          56.64136622390892,
+          57.56466569058076,
+          56.307456588355464,
+          57.63747454175152,
+          57.56218905472637
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-ng5-be7-yxa60v",
+      "name": "Re8 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "Ng5",
+        "Be7",
+        "Nxe4",
+        "O-O",
+        "Nxf6+",
+        "Bxf6",
+        "c4",
+        "Re8"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          79990,
+          24210,
+          20725,
+          17371,
+          10920,
+          10918,
+          1067,
+          1047
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          56.14389298662332,
+          60.75795125980999,
+          61.20868516284681,
+          62.851879569397276,
+          66.68956043956045,
+          66.70177688221285,
+          86.83223992502343,
+          87.39255014326648
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-c4-bb4-6tv5ys",
+      "name": "a3 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "c4",
+        "Bb4",
+        "a3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          62369,
+          4753,
+          1919
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          62.02440314900031,
+          65.48495686934568,
+          67.95205836373111
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-nd4-bd6-wcp6k2",
+      "name": "Bd6 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "Nd4",
+        "Bd6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          17922,
+          1992
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          60.054681397165496,
+          63.00200803212852
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-d4-bb4--5felz4",
+      "name": "After Bb4+ c3 O-O",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "d4",
+        "Bb4+",
+        "c3",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          8504,
+          1725,
+          1514,
+          1155
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          57.81984948259642,
+          60.86956521739131,
+          59.5442536327609,
+          62.72727272727272
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-ng1-bc5-hq6wbj",
+      "name": "After Bc5 Nc3 O-O",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "Ng1",
+        "Bc5",
+        "Nc3",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          3684,
+          2843,
+          1237,
+          3802
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          61.319218241042336,
+          66.61976785086176,
+          65.0767987065481,
+          67.89847448711205
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-ne5-qxd5-nntt0a",
+      "name": "Qxd5 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "Ne5",
+        "Qxd5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          3367,
+          2153
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          58.776358776358784,
+          60.078959591268
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-qb5--c6-ia5imp",
+      "name": "Qe5 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "Qb5+",
+        "c6",
+        "dxc6",
+        "bxc6",
+        "Qe5+"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          3040,
+          1984,
+          1924,
+          1210,
+          1044
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          59.950657894736835,
+          60.40826612903225,
+          60.26507276507276,
+          62.066115702479344,
+          60.77586206896552
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-h3-be7-lrmghn",
+      "name": "After Nf6 h3 Be7",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "h3",
+        "Be7"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          2333,
+          1406
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          60.09429918559795,
+          62.73115220483641
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-d3-bb4--ptwyhb",
+      "name": "After Bb4+ Nbd2 O-O",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "d3",
+        "Bb4+",
+        "Nbd2",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          542501,
+          149303,
+          2101,
+          1884
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          50.87336244541485,
+          56.9181463198998,
+          58.9719181342218,
+          60.53609341825903
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-d3-qxd5-4fgrya",
+      "name": "After Bb4 Bg5 O-O",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "d3",
+        "Qxd5",
+        "Nc3",
+        "Bb4",
+        "Bg5",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          542501,
+          214756,
+          88285,
+          82874,
+          2779,
+          1086
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          50.87336244541485,
+          51.33430497867347,
+          57.396499971682616,
+          58.58773559861958,
+          64.57358762144656,
+          66.85082872928176
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-d3-qxd5-83nco8",
+      "name": "After Bxc3 Bxc3 O-O",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "d3",
+        "Qxd5",
+        "dxe4",
+        "Nxe4",
+        "Nc3",
+        "Bb4",
+        "Bd2",
+        "Bxc3",
+        "Bxc3",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          542501,
+          214756,
+          102083,
+          14918,
+          9812,
+          9070,
+          9719,
+          9576,
+          9134,
+          8999
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          50.87336244541485,
+          51.33430497867347,
+          48.789710333748026,
+          47.72087411181124,
+          52.598858540562574,
+          55.42447629547959,
+          56.199197448297156,
+          56.79302422723475,
+          56.45938252682286,
+          56.56184020446716
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "qp-counter-gambit-elephant-gambit-exd5-e4-qe2-nf6-d3-qxd5-apqvs4",
+      "name": "Be6 Line",
+      "moves": [
+        "exd5",
+        "e4",
+        "Qe2",
+        "Nf6",
+        "d3",
+        "Qxd5",
+        "Nc3",
+        "Bb4",
+        "Bd2",
+        "Bxc3",
+        "Bxc3",
+        "Be6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          5803774,
+          4212085,
+          1696710,
+          1128245,
+          542501,
+          214756,
+          88285,
+          82874,
+          61189,
+          59850,
+          58778,
+          2000
+        ],
+        "winrates": [
+          51.8070138499535,
+          53.884584475384514,
+          51.637109464787734,
+          53.016277492920416,
+          50.87336244541485,
+          51.33430497867347,
+          57.396499971682616,
+          58.58773559861958,
+          60.999526058605305,
+          61.665831244778616,
+          61.63700704345163,
+          65.025
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-01-11T12:33:26.950Z"
+}

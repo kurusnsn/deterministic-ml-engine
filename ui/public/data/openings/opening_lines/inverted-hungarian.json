@@ -1,0 +1,1097 @@
+{
+  "opening": "inverted hungarian",
+  "openingId": "inverted-hungarian",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "inverted-hungarian-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Be2"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "inverted-hungarian-nf6-h3-nxe4-5b7i24",
+      "name": "Nxe4 Line",
+      "moves": [
+        "Nf6",
+        "h3",
+        "Nxe4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          504561,
+          1439,
+          892
+        ],
+        "winrates": [
+          50.8273528869651,
+          59.83321751216122,
+          64.63004484304933
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-bc4-nxe4-d3-nf6-ta7j0r",
+      "name": "Nf6 Line",
+      "moves": [
+        "Nf6",
+        "Bc4",
+        "Nxe4",
+        "d3",
+        "Nf6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          504561,
+          829,
+          2245,
+          802,
+          525
+        ],
+        "winrates": [
+          50.8273528869651,
+          59.52955367913149,
+          61.180400890868604,
+          61.15960099750624,
+          62.28571428571428
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-bb5-nxe4-bxc6-dxc6-o8cpc2",
+      "name": "dxc6 Line",
+      "moves": [
+        "Nf6",
+        "Bb5",
+        "Nxe4",
+        "Bxc6",
+        "dxc6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          504561,
+          710,
+          2067,
+          1231,
+          1104
+        ],
+        "winrates": [
+          50.8273528869651,
+          57.3943661971831,
+          57.377842283502666,
+          59.78878960194963,
+          61.54891304347826
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-nxe5-nxe5-dcz7em",
+      "name": "Nxe5 Line",
+      "moves": [
+        "Nf6",
+        "Nxe5",
+        "Nxe5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          504561,
+          631,
+          606
+        ],
+        "winrates": [
+          50.8273528869651,
+          58.08240887480189,
+          61.633663366336634
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-bd3-d5-exd5-nxd5-ngmcqb",
+      "name": "Nxd5 Line",
+      "moves": [
+        "Nf6",
+        "Bd3",
+        "d5",
+        "exd5",
+        "Nxd5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          504561,
+          567,
+          1076,
+          785,
+          503
+        ],
+        "winrates": [
+          50.8273528869651,
+          62.34567901234568,
+          61.942379182156124,
+          60.38216560509554,
+          61.23260437375746
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-ca6ul9",
+      "name": "gxf6 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "Be6",
+        "Bg5",
+        "Qd7",
+        "Bxf6",
+        "gxf6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          35893,
+          3701,
+          1881,
+          589,
+          588
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          50.3357200568356,
+          58.14644690624156,
+          61.82881446039341,
+          62.13921901528013,
+          62.244897959183675
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-drnxy3",
+      "name": "Qd7 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "Be6",
+        "Nc3",
+        "h5",
+        "Bg5",
+        "Qd7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          35893,
+          5239,
+          756,
+          621,
+          773
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          50.3357200568356,
+          50.553540752051916,
+          55.29100529100529,
+          56.36070853462159,
+          59.70245795601552
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-awucxb",
+      "name": "Qxh3 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "Be6",
+        "Nc3",
+        "Qd7",
+        "Bg5",
+        "Bxh3",
+        "gxh3",
+        "Qxh3"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          35893,
+          5239,
+          17287,
+          2552,
+          585,
+          628,
+          629
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          50.3357200568356,
+          50.553540752051916,
+          53.55758662578817,
+          59.14968652037618,
+          65.2991452991453,
+          74.44267515923566,
+          74.32432432432432
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-f2j96o",
+      "name": "Nh2 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "Be6",
+        "Nc3",
+        "Qd7",
+        "a3",
+        "Bxh3",
+        "gxh3",
+        "Qxh3",
+        "Nh2"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          35893,
+          5239,
+          17287,
+          2468,
+          974,
+          841,
+          840,
+          697
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          50.3357200568356,
+          50.553540752051916,
+          53.55758662578817,
+          57.57698541329012,
+          64.42505133470226,
+          66.64684898929845,
+          66.72619047619048,
+          68.14921090387375
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-fc14r3",
+      "name": "Bb6 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "h6",
+        "c3",
+        "g5",
+        "b4",
+        "Bb6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          28590,
+          19699,
+          4931,
+          583,
+          564
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          51.880027981811814,
+          50.39088278592823,
+          55.29304400730075,
+          58.747855917667245,
+          58.77659574468085
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-52kypi",
+      "name": "O-O Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "h6",
+        "c3",
+        "Bb6",
+        "b4",
+        "O-O"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          28590,
+          19699,
+          3543,
+          779,
+          517
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          51.880027981811814,
+          50.39088278592823,
+          55.12277730736663,
+          57.06033376123235,
+          56.57640232108317
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-ng1b31",
+      "name": "Nd5 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "h6",
+        "Nc3",
+        "g5",
+        "Nd5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          28590,
+          9142,
+          8360,
+          622
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          51.880027981811814,
+          52.80573178735506,
+          55.51435406698564,
+          59.163987138263664
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-p779gh",
+      "name": "Nh7 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "h6",
+        "Nc3",
+        "O-O",
+        "Bd2",
+        "Nh7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          28590,
+          9142,
+          34301,
+          2900,
+          1113
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          51.880027981811814,
+          52.80573178735506,
+          51.0043438966794,
+          55.74137931034483,
+          58.265947888589395
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-d6-h3-hld9km",
+      "name": "After Be6 Bd2 Qd7",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "d6",
+        "h3",
+        "h6",
+        "Nc3",
+        "Be6",
+        "Bd2",
+        "Qd7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          273797,
+          65582,
+          28590,
+          9142,
+          23943,
+          1033,
+          1392
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          49.226434182989586,
+          50.18755146229148,
+          51.880027981811814,
+          52.80573178735506,
+          50.51789667126091,
+          56.631171345595355,
+          56.50143678160919
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-bd2-7crvto",
+      "name": "Nc3 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "Bd2",
+        "h6",
+        "Nc3"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          1585,
+          610,
+          569
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          55.488958990536275,
+          58.27868852459017,
+          57.46924428822495
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-c3-63tmpp",
+      "name": "After Qxd1 Rxd1 Nxe4",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "c3",
+        "d5",
+        "h3",
+        "dxe4",
+        "dxe4",
+        "Qxd1",
+        "Rxd1",
+        "Nxe4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          55559,
+          41070,
+          731,
+          2434,
+          2130,
+          1081,
+          705,
+          662
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          48.783275436922914,
+          50.04382761139519,
+          59.23392612859097,
+          60.94905505341002,
+          59.57746478873239,
+          61.887141535615164,
+          65.1063829787234,
+          66.1631419939577
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-c3-gcgnte",
+      "name": "dxe4 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "c3",
+        "d5",
+        "a4",
+        "dxe4",
+        "dxe4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          55559,
+          41070,
+          730,
+          733,
+          618
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          48.783275436922914,
+          50.04382761139519,
+          56.301369863013704,
+          60.16371077762619,
+          58.41423948220065
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-c3-bxid3l",
+      "name": "Bf5 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "c3",
+        "d5",
+        "exd5",
+        "Qxd5",
+        "Nbd2",
+        "Bf5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          55559,
+          41070,
+          21059,
+          3824,
+          2531,
+          1051
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          48.783275436922914,
+          50.04382761139519,
+          50.36089083052377,
+          50.6276150627615,
+          55.21532990912683,
+          58.84871550903901
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-h3-sz9jnq",
+      "name": "After d5 Bg5 dxe4",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "h3",
+        "d5",
+        "Bg5",
+        "dxe4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          37235,
+          19373,
+          1248,
+          824
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          48.806230696924935,
+          51.25174211531514,
+          57.25160256410257,
+          61.893203883495154
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-h3-u55chp",
+      "name": "Variation 1",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "h3",
+        "d5",
+        "c3",
+        "dxe4",
+        "dxe4",
+        "Qxd1",
+        "Rxd1",
+        "Nxe4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          37235,
+          19373,
+          1050,
+          2434,
+          2130,
+          1081,
+          705,
+          662
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          48.806230696924935,
+          51.25174211531514,
+          58.04761904761905,
+          60.94905505341002,
+          59.57746478873239,
+          61.887141535615164,
+          65.1063829787234,
+          66.1631419939577
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-h3-jpbswy",
+      "name": "After Nh2 dxe4 dxe4",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "h3",
+        "d5",
+        "Nh2",
+        "dxe4",
+        "dxe4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          37235,
+          19373,
+          737,
+          684,
+          559
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          48.806230696924935,
+          51.25174211531514,
+          58.00542740841248,
+          59.42982456140351,
+          60.37567084078712
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-h3-89atu9",
+      "name": "Bh4 Line",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "h3",
+        "d5",
+        "exd5",
+        "Nxd5",
+        "Bg5",
+        "f6",
+        "Bh4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          37235,
+          19373,
+          12531,
+          10984,
+          1096,
+          784,
+          560
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          48.806230696924935,
+          51.25174211531514,
+          49.77256404117788,
+          50.163874726875456,
+          56.25,
+          57.525510204081634,
+          57.767857142857146
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "inverted-hungarian-nf6-d3-bc5-o-o-o-o-h3-gc8b9z",
+      "name": "After h6 Bd2 Nh7",
+      "moves": [
+        "Nf6",
+        "d3",
+        "Bc5",
+        "O-O",
+        "O-O",
+        "h3",
+        "d6",
+        "Nc3",
+        "h6",
+        "Bd2",
+        "Nh7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          504561,
+          330267,
+          675061,
+          618433,
+          217135,
+          37235,
+          19066,
+          6222,
+          19320,
+          2900,
+          1113
+        ],
+        "winrates": [
+          50.8273528869651,
+          50.181973978629415,
+          49.58322284949064,
+          49.1575481903456,
+          48.536394409008224,
+          48.806230696924935,
+          47.338193643134375,
+          49.28479588556735,
+          50.5667701863354,
+          55.74137931034483,
+          58.265947888589395
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:09:41.189Z"
+}

@@ -1,0 +1,122 @@
+prometheus:
+  prometheusSpec:
+    storageSpec:
+      volumeClaimTemplate:
+        spec:
+          storageClassName: local-path
+          accessModes: ["ReadWriteOnce"]
+          resources:
+            requests:
+              storage: 10Gi
+
+alertmanager:
+  enabled: true
+  alertmanagerSpec:
+    # Mount the alertmanager-slack secret (created by ExternalSecret)
+    # so AlertManager can read the webhook URL from a file rather than
+    # embedding it in the config directly.
+    secrets:
+      - alertmanager-slack
+  config:
+    global:
+      resolve_timeout: 5m
+      slack_api_url_file: /etc/alertmanager/secrets/alertmanager-slack/webhook-url
+    route:
+      group_by: ['alertname', 'namespace', 'service_name']
+      group_wait: 30s
+      group_interval: 5m
+      repeat_interval: 4h
+      receiver: slack-chess
+      routes:
+        - matchers:
+            - severity = critical
+          receiver: slack-chess
+          repeat_interval: 1h
+        - matchers:
+            - severity = warning
+          receiver: slack-chess
+          repeat_interval: 4h
+    receivers:
+      - name: slack-chess
+        slack_configs:
+          - channel: '#chess-alerts'
+            send_resolved: true
+            title: >-
+              {{ if eq .Status "firing" -}}
+                {{ if eq (index .Alerts 0).Labels.severity "critical" }}🔴{{ else }}🟡{{ end }}
+              {{- else }}✅{{ end }}
+              [{{ .Status | toUpper }}] {{ .GroupLabels.alertname }}
+            text: >-
+              {{ range .Alerts }}
+              *Alert:* {{ .Annotations.summary }}
+              *Severity:* {{ .Labels.severity }}
+              *Description:* {{ .Annotations.description }}
+              {{ if .Annotations.dashboard }}*Dashboard:* <{{ .Annotations.dashboard }}|Open in Grafana>{{ end }}
+              *Started:* {{ .StartsAt | since }}
+              {{ end }}
+            color: >-
+              {{ if eq .Status "firing" -}}
+                {{ if eq (index .Alerts 0).Labels.severity "critical" }}danger{{ else }}warning{{ end }}
+              {{- else }}good{{ end }}
+    inhibit_rules:
+      - source_matchers:
+          - severity = critical
+        target_matchers:
+          - severity = warning
+        equal: ['alertname', 'namespace']
+
+grafana:
+  initChownData:
+    enabled: false
+  resources:
+    requests:
+      cpu: 10m
+      memory: 256Mi
+    limits:
+      cpu: 500m
+      memory: 512Mi
+  persistence:
+    enabled: true
+    storageClassName: local-path
+    size: 5Gi
+  # Admin credentials pulled from ExternalSecret (grafana-admin-secret)
+  # rather than hardcoded here. Add GRAFANA_ADMIN_PASSWORD to chess-secrets.
+  admin:
+    existingSecret: grafana-admin-secret
+    userKey: admin-user
+    passwordKey: admin-password
+  sidecar:
+    dashboards:
+      enabled: true
+      label: grafana_dashboard
+      searchNamespace: monitoring
+  ingress:
+    enabled: true
+    ingressClassName: nginx
+    annotations:
+      cert-manager.io/cluster-issuer: letsencrypt-prod
+      # nginx.ingress.kubernetes.io/whitelist-source-range: "85.230.96.242/32"
+      nginx.ingress.kubernetes.io/auth-type: basic
+      nginx.ingress.kubernetes.io/auth-secret: basic-auth-secret
+      nginx.ingress.kubernetes.io/auth-realm: "Grafana - Private Access"
+    hosts:
+      - grafana.chessvector.com
+    tls:
+      - secretName: grafana-tls
+        hosts:
+          - grafana.chessvector.com
+  additionalDataSources:
+    - name: Loki
+      type: loki
+      url: http://loki.monitoring.svc.cluster.local:3100
+      access: proxy
+      isDefault: false
+    - name: Tempo
+      type: tempo
+      url: http://tempo.monitoring.svc.cluster.local:3200
+      access: proxy
+      jsonData:
+        tracesToLogsV2:
+          datasourceUid: Loki
+          spanStartTimeShift: "-10m"
+          spanEndTimeShift: "10m"

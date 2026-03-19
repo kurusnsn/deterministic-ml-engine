@@ -1,0 +1,415 @@
+{
+  "opening": "caro-kann",
+  "openingId": "caro-kann",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "caro-kann-line-0",
+      "name": "Hillbilly attack",
+      "moves": [
+        "e4",
+        "c6",
+        "Bc4"
+      ],
+      "eco": "B10"
+    },
+    {
+      "id": "caro-kann-line-1",
+      "name": "closed (Breyer) variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d3"
+      ],
+      "eco": "B10"
+    },
+    {
+      "id": "caro-kann-line-2",
+      "name": "anti-anti-Caro-Kann defence",
+      "moves": [
+        "e4",
+        "c6",
+        "c4",
+        "d5"
+      ],
+      "eco": "B10"
+    },
+    {
+      "id": "caro-kann-line-3",
+      "name": "Goldman (Spielmann) variation",
+      "moves": [
+        "e4",
+        "c6",
+        "Nc3",
+        "d5",
+        "Qf3"
+      ],
+      "eco": "B10"
+    },
+    {
+      "id": "caro-kann-line-4",
+      "name": "Tartakower (fantasy) variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "f3"
+      ],
+      "eco": "B12"
+    },
+    {
+      "id": "caro-kann-line-5",
+      "name": "two knights, 3...Bg4",
+      "moves": [
+        "e4",
+        "c6",
+        "Nc3",
+        "d5",
+        "Nf3",
+        "Bg4"
+      ],
+      "eco": "B11"
+    },
+    {
+      "id": "caro-kann-line-6",
+      "name": "Edinburgh variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nd2",
+        "Qb6"
+      ],
+      "eco": "B12"
+    },
+    {
+      "id": "caro-kann-line-7",
+      "name": "Gurgenidze counter-attack",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "b5"
+      ],
+      "eco": "B15"
+    },
+    {
+      "id": "caro-kann-line-8",
+      "name": "Gurgenidze system",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "g6"
+      ],
+      "eco": "B15"
+    },
+    {
+      "id": "caro-kann-line-9",
+      "name": "Rasa-Studier gambit",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "f3"
+      ],
+      "eco": "B15"
+    },
+    {
+      "id": "caro-kann-line-10",
+      "name": "Steinitz variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Nd7"
+      ],
+      "eco": "B17"
+    },
+    {
+      "id": "caro-kann-line-11",
+      "name": "advance, Short variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "e5",
+        "Bf5",
+        "c3",
+        "e6",
+        "Be2"
+      ],
+      "eco": "B12"
+    },
+    {
+      "id": "caro-kann-line-12",
+      "name": "Panov-Botvinnik, Gunderam attack",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "c4",
+        "Nf6",
+        "c5"
+      ],
+      "eco": "B13"
+    },
+    {
+      "id": "caro-kann-line-13",
+      "name": "Alekhine gambit",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Nf6",
+        "Bd3"
+      ],
+      "eco": "B15"
+    },
+    {
+      "id": "caro-kann-line-14",
+      "name": "Panov-Botvinnik attack, 5...e6",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "c4",
+        "Nf6",
+        "Nc3",
+        "e6"
+      ],
+      "eco": "B14"
+    },
+    {
+      "id": "caro-kann-line-15",
+      "name": "Panov-Botvinnik attack, 5...g6",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "c4",
+        "Nf6",
+        "Nc3",
+        "g6"
+      ],
+      "eco": "B14"
+    },
+    {
+      "id": "caro-kann-line-16",
+      "name": "Bronstein-Larsen variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Nf6",
+        "Nxf6+",
+        "gxf6"
+      ],
+      "eco": "B16"
+    },
+    {
+      "id": "caro-kann-line-17",
+      "name": "exchange, Rubinstein variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "Bd3",
+        "Nc6",
+        "c3",
+        "Nf6",
+        "Bf4"
+      ],
+      "eco": "B13"
+    },
+    {
+      "id": "caro-kann-line-18",
+      "name": "Forgacs variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Nf6",
+        "Nxf6+",
+        "exf6",
+        "Bc4"
+      ],
+      "eco": "B15"
+    },
+    {
+      "id": "caro-kann-line-19",
+      "name": "classical, Flohr variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Bf5",
+        "Ng3",
+        "Bg6",
+        "Nh3"
+      ],
+      "eco": "B18"
+    },
+    {
+      "id": "caro-kann-line-20",
+      "name": "classical, Maroczy attack",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Bf5",
+        "Ng3",
+        "Bg6",
+        "f4"
+      ],
+      "eco": "B18"
+    },
+    {
+      "id": "caro-kann-line-21",
+      "name": "Panov-Botvinnik, normal variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "c4",
+        "Nf6",
+        "Nc3",
+        "Nc6",
+        "Bg5",
+        "e6"
+      ],
+      "eco": "B13"
+    },
+    {
+      "id": "caro-kann-line-22",
+      "name": "Panov-Botvinnik, Czerniak variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "c4",
+        "Nf6",
+        "Nc3",
+        "Nc6",
+        "Bg5",
+        "Qa5"
+      ],
+      "eco": "B13"
+    },
+    {
+      "id": "caro-kann-line-23",
+      "name": "Panov-Botvinnik, Reifir (Spielmann) variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "c4",
+        "Nf6",
+        "Nc3",
+        "Nc6",
+        "Bg5",
+        "Qb6"
+      ],
+      "eco": "B13"
+    },
+    {
+      "id": "caro-kann-line-24",
+      "name": "Panov-Botvinnik, Herzog defence",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "exd5",
+        "cxd5",
+        "c4",
+        "Nf6",
+        "Nc3",
+        "Nc6",
+        "Bg5",
+        "dxc4",
+        "d5",
+        "Na5"
+      ],
+      "eco": "B13"
+    },
+    {
+      "id": "caro-kann-line-25",
+      "name": "classical, Spassky variation",
+      "moves": [
+        "e4",
+        "c6",
+        "d4",
+        "d5",
+        "Nc3",
+        "dxe4",
+        "Nxe4",
+        "Bf5",
+        "Ng3",
+        "Bg6",
+        "h4",
+        "h6",
+        "Nf3",
+        "Nd7",
+        "h5"
+      ],
+      "eco": "B19"
+    }
+  ],
+  "generatedAt": "1.0"
+}

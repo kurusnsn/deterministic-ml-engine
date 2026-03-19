@@ -1,0 +1,23 @@
+{
+  "opening": "Benko Gambit Half Accepted",
+  "openingId": "benko-gambit-half-accepted",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "benko-gambit-half-accepted-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "b5",
+        "cxb5",
+        "a6"
+      ],
+      "eco": "A57"
+    }
+  ],
+  "generatedAt": "1.0"
+}

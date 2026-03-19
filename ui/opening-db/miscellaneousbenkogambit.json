@@ -1,0 +1,1114 @@
+{
+  "id": "miscellaneous-benko-gambit",
+  "name": "Benko gambit",
+  "opening": "Benko gambit",
+  "generatedAt": "2026-01-03T19:42:13.332Z",
+  "lines": [
+    {
+      "id": "miscellaneous-benko-gambit-b3-bxc4-bxc4-g6-bg5-bg7-3gwpl9",
+      "name": "Benko gambit: b3 Forcing Line",
+      "moves": [
+        "b3",
+        "bxc4",
+        "bxc4",
+        "g6",
+        "Bg5",
+        "Bg7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          721384,
+          260978,
+          260216,
+          134225,
+          1866,
+          1875
+        ],
+        "winrates": [
+          57.778520177880296,
+          59.83071370000537,
+          59.81261721031758,
+          61.6647420376234,
+          69.2658092175777,
+          68.48
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-nc3-b4-nb5-a6-d6-axb5-w9o1c5",
+      "name": "Benko gambit: Nc3 Forcing Line",
+      "moves": [
+        "Nc3",
+        "b4",
+        "Nb5",
+        "a6",
+        "d6",
+        "axb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          421591,
+          246270,
+          14201,
+          9943,
+          1142,
+          1100
+        ],
+        "winrates": [
+          56.08468871489192,
+          58.693304097129165,
+          68.44236321385819,
+          71.64839585638137,
+          73.20490367775831,
+          74.54545454545455
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-e3-bb7-nc3-b4-nce2-e6-wy4fej",
+      "name": "Benko gambit: e3 Forcing Line",
+      "moves": [
+        "e3",
+        "Bb7",
+        "Nc3",
+        "b4",
+        "Nce2",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          356257,
+          10897,
+          5329,
+          3874,
+          1992,
+          1056
+        ],
+        "winrates": [
+          57.322663133636674,
+          58.74552629163989,
+          58.782135485081625,
+          60.531750129065564,
+          57.781124497991975,
+          58.38068181818181
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-a3-g6-nc3-94u9d1",
+      "name": "Benko gambit: a3 Forcing Line",
+      "moves": [
+        "a3",
+        "g6",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10797,
+          2505,
+          1747
+        ],
+        "winrates": [
+          56.06649995369084,
+          59.02195608782434,
+          57.81339439038351
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-nf3-axb5-e3-o8qqhg",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "Nf3",
+        "axb5",
+        "e3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3001785,
+          2853562,
+          6637,
+          5303,
+          1460
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          57.69172819044749,
+          58.70262115783519,
+          59.14383561643836
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bg5-axb5-z7kh2",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "Bg5",
+        "axb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3001785,
+          2853562,
+          3102,
+          1330
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          56.334622823984525,
+          55.63909774436091
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-g3-axb5-bg2-d6-q5zi9z",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "g3",
+        "axb5",
+        "Bg2",
+        "d6"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3001785,
+          2853562,
+          2680,
+          1828,
+          1705,
+          1436
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          60.373134328358205,
+          60.749452954048145,
+          61.14369501466276,
+          62.082172701949865
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-qa4-nxd5-cc66vd",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "Qa4",
+        "Nxd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3001785,
+          2853562,
+          2114,
+          1021
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          59.55534531693472,
+          61.4103819784525
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-a4-axb5-dpod81",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "a4",
+        "axb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1539,
+          1313
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          57.50487329434698,
+          58.26351865955826
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nf3-d6-9kkmwa",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nf3",
+        "d6",
+        "e3",
+        "Bxf1",
+        "Kxf1",
+        "g6",
+        "g3",
+        "Bg7",
+        "Kg2",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          33306,
+          19172,
+          1217,
+          1173,
+          1034,
+          1996,
+          1275,
+          1393,
+          1346,
+          1345
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          57.016753738065205,
+          57.52138535364073,
+          63.06491372226788,
+          63.68286445012787,
+          62.47582205029014,
+          64.05310621242485,
+          64.70588235294117,
+          64.78822684852837,
+          65.34175334323923,
+          64.27509293680298
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-e3-bxf1-1duyjo",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "e3",
+        "Bxf1",
+        "Kxf1",
+        "d6",
+        "Nf3",
+        "g6",
+        "g3",
+        "Bg7",
+        "Kg2",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          11691,
+          10216,
+          10212,
+          5717,
+          1474,
+          1996,
+          1275,
+          1393,
+          1346,
+          1345
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          61.60721922846635,
+          62.07909162098668,
+          62.083822953388164,
+          62.7689347559909,
+          64.21302578018995,
+          64.05310621242485,
+          64.70588235294117,
+          64.78822684852837,
+          65.34175334323923,
+          64.27509293680298
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-e4-bxf1-mwz3gz",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "e4",
+        "Bxf1",
+        "Kxf1",
+        "Nxe4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          2876,
+          2215,
+          2179,
+          1015
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          59.63143254520167,
+          60.90293453724605,
+          60.48646167966958,
+          63.49753694581282
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-f3-d6-yhrc8t",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "f3",
+        "d6",
+        "e4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          2437,
+          1456,
+          1023
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          55.1702913418137,
+          55.425824175824175,
+          58.455522971651995
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-wb0d3j",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "Bg5",
+        "Nbd7",
+        "Nf3",
+        "g6",
+        "g3",
+        "Bg7",
+        "Bg2",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          9945,
+          5792,
+          2959,
+          3501,
+          1279,
+          1292,
+          1688,
+          1753
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          59.62292609351433,
+          61.5935773480663,
+          60.425819533626225,
+          61.28249071693801,
+          59.538702111024236,
+          59.171826625387006,
+          59.62677725118483,
+          59.58357102110667
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-vzsw9g",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "e3",
+        "Bxf1",
+        "Kxf1",
+        "g6",
+        "Nf3",
+        "Bg7",
+        "g3",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          4747,
+          4432,
+          4418,
+          5188,
+          2231,
+          5991,
+          4829,
+          4488
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          61.12281440910048,
+          62.06001805054151,
+          62.03033046627433,
+          61.41094834232845,
+          63.110712684894665,
+          62.068102153229844,
+          60.788983226340854,
+          61.319073083778974
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-ohva8c",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "Qa4+",
+        "Nbd7"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          3298,
+          2707
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          66.29775621588841,
+          67.23309937199853
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-1esmiz",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "f3",
+        "g6",
+        "e4",
+        "Bxf1",
+        "Kxf1",
+        "Bg7",
+        "Nge2",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          2436,
+          2160,
+          1884,
+          1711,
+          1710,
+          6513,
+          5429,
+          9140
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          57.614942528735625,
+          57.89351851851852,
+          58.35987261146497,
+          58.91291642314436,
+          58.91812865497076,
+          60.28711807154921,
+          60.259716338183836,
+          61.01750547045952
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-i5zcj4",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "a4",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          1190,
+          1157
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          61.89075630252101,
+          62.273120138288675
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-60ac4y",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "Nf3",
+        "g6",
+        "Bg5",
+        "Bg7",
+        "Qa4+"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          134751,
+          132548,
+          8996,
+          9490,
+          1128
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          52.67567587624582,
+          53.227887255937475,
+          62.02200978212539,
+          61.59641728134879,
+          70.83333333333333
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-vc4mv4",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "Nf3",
+        "g6",
+        "e3",
+        "Bxf1",
+        "Kxf1",
+        "Bg7",
+        "g3",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          134751,
+          132548,
+          4324,
+          3890,
+          3186,
+          5991,
+          4829,
+          4488
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          52.67567587624582,
+          53.227887255937475,
+          62.638760407030524,
+          63.65038560411311,
+          61.44067796610169,
+          62.068102153229844,
+          60.788983226340854,
+          61.319073083778974
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-xw6x5m",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "Nf3",
+        "g6",
+        "Qa4+",
+        "Nbd7"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          134751,
+          132548,
+          2088,
+          1730
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          52.67567587624582,
+          53.227887255937475,
+          70.42624521072797,
+          71.32947976878611
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-d6-wbs81n",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "Nf3",
+        "Nbd7",
+        "Bg5",
+        "g6",
+        "g3",
+        "Bg7",
+        "Bg2",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          481168,
+          134751,
+          25853,
+          1107,
+          3501,
+          1279,
+          1292,
+          1688,
+          1753
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.17876084860173,
+          52.67567587624582,
+          53.2239972150234,
+          60.794941282746166,
+          61.28249071693801,
+          59.538702111024236,
+          59.171826625387006,
+          59.62677725118483,
+          59.58357102110667
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-g6-ogpzuv",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "g6",
+        "Bg5",
+        "Bg7",
+        "Bxf6",
+        "Bxf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          307518,
+          7306,
+          7009,
+          1013,
+          1006
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.35774816433509,
+          61.18258965234054,
+          61.2997574547011,
+          65.4985192497532,
+          65.30815109343936
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-g6-5m1kmk",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "g6",
+        "e3",
+        "Bxf1",
+        "Kxf1",
+        "d6",
+        "Nf3",
+        "Bg7",
+        "g3",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          307518,
+          3552,
+          3464,
+          3455,
+          1473,
+          2231,
+          5991,
+          4829,
+          4488
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.35774816433509,
+          61.28941441441442,
+          62.1824480369515,
+          62.14182344428365,
+          62.93279022403259,
+          63.110712684894665,
+          62.068102153229844,
+          60.788983226340854,
+          61.319073083778974
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-benko-gambit-cxb5-a6-bxa6-bxa6-nc3-g6-2re9si",
+      "name": "Benko gambit: cxb5 Forcing Line",
+      "moves": [
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "g6",
+        "f3",
+        "Bg7",
+        "e4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          3001785,
+          2853562,
+          1425256,
+          864603,
+          756597,
+          307518,
+          1830,
+          1458,
+          1103
+        ],
+        "winrates": [
+          51.45281890608422,
+          51.61452598541752,
+          52.214689852209005,
+          51.88982689164854,
+          51.43894305687176,
+          52.35774816433509,
+          58.46994535519126,
+          58.0246913580247,
+          58.11423390752493
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

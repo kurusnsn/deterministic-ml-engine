@@ -1,0 +1,720 @@
+{
+  "id": "scotch",
+  "name": "Scotch Game",
+  "opening": "Scotch Game",
+  "generatedAt": "2025-12-10T18:37:59.951Z",
+  "lines": [
+    {
+      "id": "scotch-eco-0-v7zlit",
+      "name": "Scotch Game",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-1-1w0hgb",
+      "name": "King's pawn game",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-2-v7zlld",
+      "name": "Konstantinopolsky opening",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-3-v7zlhy",
+      "name": "Dresden opening",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-4-qjxwgm",
+      "name": "Inverted Hungarian",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Be2"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-5-v7zlhx",
+      "name": "Ponziani opening",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-6-hr9wt3",
+      "name": "Ponziani: Jaenisch counter-attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-7-hrd8o0",
+      "name": "Ponziani: Reti variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "Nge7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-8-hra5q9",
+      "name": "Ponziani: Romanishin variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "Be7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-9-t7ps6c",
+      "name": "Ponziani counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "f5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-10-i8z08f",
+      "name": "Scotch: Lolli variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "Nxd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-11-t493s9",
+      "name": "Irish (Chicago) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nxe5",
+        "Nxe5",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-12-2c0bgk",
+      "name": "Tayler opening",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Be2",
+        "Nf6",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-13-p7nter",
+      "name": "Scotch: Relfsson gambit ('MacLopez')",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bb5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-14-3rp294",
+      "name": "Scotch: Goering gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "c3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-15-p7ntdx",
+      "name": "Scotch gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bc4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-16-91kni",
+      "name": "Scotch game",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Nxd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-17-z7au8l",
+      "name": "Four knights: Scotch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-18-6rtw3b",
+      "name": "Ponziani: Caro variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "d5",
+        "Qa4",
+        "Bd7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-eco-19-6ru51c",
+      "name": "Ponziani: Leonhardt variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "d5",
+        "Qa4",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

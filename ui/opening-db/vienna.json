@@ -1,0 +1,702 @@
+{
+  "id": "vienna",
+  "name": "Vienna Game",
+  "opening": "Vienna Game",
+  "generatedAt": "2025-12-10T18:37:59.951Z",
+  "lines": [
+    {
+      "id": "vienna-eco-0-gzkm0v",
+      "name": "Vienna Game",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-1-1xnv8e",
+      "name": "Vienna game, Max Lange defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-2-1xnv5t",
+      "name": "Vienna: Falkbeer variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-3-ct792q",
+      "name": "Vienna: Paulsen variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-4-ct795a",
+      "name": "Vienna: Fyfe gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-5-ct793k",
+      "name": "Vienna gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "f4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-6-ct5c9b",
+      "name": "Vienna: Mengarini variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "a3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-7-ct5c45",
+      "name": "Vienna: Paulsen-Mieses variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "g3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-8-t3261g",
+      "name": "Vienna game",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "Bc4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-9-qhi60b",
+      "name": "Vienna: Zhuravlev countergambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Bb4",
+        "Qg4",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-10-7k5dlf",
+      "name": "Vienna game",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "Bc4",
+        "Nxe4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-11-ym3b83",
+      "name": "Vienna game",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "Bc4",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-12-lqzgki",
+      "name": "Vienna gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "f4",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-13-4xx60x",
+      "name": "Vienna: Steinitz gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "f4",
+        "exf4",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-14-b5bnre",
+      "name": "Vienna gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "f4",
+        "exf4",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-15-ru2i4u",
+      "name": "Boden-Kieseritsky gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "Bc4",
+        "Nxe4",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-16-i9h42b",
+      "name": "Vienna gambit, Steinitz variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "f4",
+        "d5",
+        "d3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-17-symj8h",
+      "name": "Boden-Kieseritsky gambit: Lichtenhein defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nf6",
+        "Bc4",
+        "Nxe4",
+        "Nf3",
+        "d5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-18-j1d89t",
+      "name": "QGD: Vienna variation",
+      "moves": [
+        "d4",
+        "d5",
+        "c4",
+        "e6",
+        "Nf3",
+        "Nf6",
+        "Bg5",
+        "Bb4+"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "vienna-eco-19-g35i88",
+      "name": "Vienna: Pierce gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nc3",
+        "Nc6",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "winrates": [
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "forcingSide": "white",
+        "source": "eco-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

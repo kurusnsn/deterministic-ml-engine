@@ -1,0 +1,23 @@
+{
+  "opening": "norwegian",
+  "openingId": "norwegian",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "norwegian-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "g6",
+        "d4",
+        "Nf6",
+        "e5",
+        "Nh5",
+        "g4",
+        "Ng7"
+      ],
+      "eco": "B06"
+    }
+  ],
+  "generatedAt": "1.0"
+}

@@ -1,0 +1,28 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ostadchess-ui-gateway-proxy
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+    nginx.ingress.kubernetes.io/whitelist-source-range: "85.230.96.242/32,80.217.166.202/32"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+        - ui.staging.chessvector.com
+      secretName: chessvector-staging-tls
+  rules:
+    - host: ui.staging.chessvector.com
+      http:
+        paths:
+          - path: /api/gateway(/|$)(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: staging-gateway-service
+                port:
+                  number: 8000

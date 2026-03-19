@@ -1,0 +1,1 @@
+{"type":"complete","full_response":{"stockfish":{"best_move":"e2e4","evaluation":{"mate":null,"value":34},"top_moves":[{"move":"e2e4","score":34}]},"eco":{"eco":"C20","found":true,"name":"King's Pawn Game"}}}

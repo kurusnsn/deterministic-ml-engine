@@ -1,0 +1,298 @@
+{
+  "opening": "Durkin's (1.Na3)",
+  "openingId": "durkin-s-1-na3",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "durkin-s-1-na3-line-0",
+      "name": "Main Line",
+      "moves": [
+        "Na3"
+      ],
+      "eco": "A00"
+    },
+    {
+      "id": "durkin-s-1-na3-e5-e3-bxa3-bxa3-d5-bb2-paok8k",
+      "name": "Bb5 Line",
+      "moves": [
+        "e5",
+        "e3",
+        "Bxa3",
+        "bxa3",
+        "d5",
+        "Bb2",
+        "Nc6",
+        "Bb5"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          83865,
+          11458,
+          5385,
+          5186,
+          1703,
+          1402,
+          797,
+          723
+        ],
+        "winrates": [
+          51.289572527275986,
+          64.95025309827194,
+          67.26090993500465,
+          68.6945622830698,
+          70.22900763358778,
+          76.56918687589157,
+          79.86198243412798,
+          83.54080221300138
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "durkin-s-1-na3-e5-nc4-d6-e4-fdpe1r",
+      "name": "e4 Line",
+      "moves": [
+        "e5",
+        "Nc4",
+        "d6",
+        "e4"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          83865,
+          17651,
+          2209,
+          1228
+        ],
+        "winrates": [
+          51.289572527275986,
+          52.419126395105096,
+          58.01267541874151,
+          61.23778501628665
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "durkin-s-1-na3-e5-e3-d5-ne2-nf6-d4-ek91fk",
+      "name": "Nf4 Line",
+      "moves": [
+        "e5",
+        "e3",
+        "d5",
+        "Ne2",
+        "Nf6",
+        "d4",
+        "e4",
+        "Nf4"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          83865,
+          11458,
+          3804,
+          2485,
+          944,
+          1334,
+          587,
+          521
+        ],
+        "winrates": [
+          51.289572527275986,
+          64.95025309827194,
+          57.96529968454258,
+          65.37223340040241,
+          62.34110169491526,
+          63.08095952023988,
+          67.29131175468484,
+          67.75431861804223
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "durkin-s-1-na3-e5-e3-nf6-ne2-aibv6e",
+      "name": "Ne2 Line",
+      "moves": [
+        "e5",
+        "e3",
+        "Nf6",
+        "Ne2"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          83865,
+          11458,
+          1306,
+          859
+        ],
+        "winrates": [
+          51.289572527275986,
+          64.95025309827194,
+          59.30321592649312,
+          67.81140861466822
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "durkin-s-1-na3-e5-e3-bxa3-bxa3-nf6-bb2-www3vm",
+      "name": "d6 Line",
+      "moves": [
+        "e5",
+        "e3",
+        "Bxa3",
+        "bxa3",
+        "Nf6",
+        "Bb2",
+        "d6"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          83865,
+          11458,
+          5385,
+          5186,
+          1891,
+          1594,
+          847
+        ],
+        "winrates": [
+          51.289572527275986,
+          64.95025309827194,
+          67.26090993500465,
+          68.6945622830698,
+          66.92226335272343,
+          69.91844416562107,
+          70.4250295159386
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "durkin-s-1-na3-d5-nf3-e6-c3-bxa3-qa4--yto5j1",
+      "name": "Qa4 Line",
+      "moves": [
+        "d5",
+        "Nf3",
+        "e6",
+        "c3",
+        "Bxa3",
+        "Qa4+"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          61072,
+          9394,
+          1743,
+          2188,
+          777,
+          641
+        ],
+        "winrates": [
+          51.205134922714166,
+          61.007025761124126,
+          60.24096385542169,
+          68.73857404021938,
+          65.18661518661519,
+          70.28081123244931
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "durkin-s-1-na3-d5-c4-e6-e3-bxa3-xmmg9h",
+      "name": "Bxa3 Line",
+      "moves": [
+        "d5",
+        "c4",
+        "e6",
+        "e3",
+        "Bxa3"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          61072,
+          12501,
+          2555,
+          1244,
+          509
+        ],
+        "winrates": [
+          51.205134922714166,
+          50.831933445324374,
+          50.136986301369866,
+          55.70739549839229,
+          55.89390962671905
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "durkin-s-1-na3-d5-rb1-e6-b4-xxh8qu",
+      "name": "b4 Line",
+      "moves": [
+        "d5",
+        "Rb1",
+        "e6",
+        "b4"
+      ],
+      "eco": "A00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          61072,
+          9847,
+          1667,
+          3573
+        ],
+        "winrates": [
+          51.205134922714166,
+          53.77780034528282,
+          56.08878224355129,
+          55.93338930870417
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:34:10.950Z"
+}

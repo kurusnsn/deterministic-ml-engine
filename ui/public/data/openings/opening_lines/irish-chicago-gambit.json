@@ -1,0 +1,121 @@
+{
+  "opening": "irish (chicago) gambit",
+  "openingId": "irish-chicago-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "irish-chicago-gambit-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nxe5",
+        "Nxe5",
+        "d4"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "irish-chicago-gambit-ng6-bd3-d6-o-o-be7-ujcmvd",
+      "name": "Be7 Line",
+      "moves": [
+        "Ng6",
+        "Bd3",
+        "d6",
+        "O-O",
+        "Be7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          62792,
+          13169,
+          4955,
+          3905,
+          1406
+        ],
+        "winrates": [
+          47.08641228181934,
+          52.03508239046245,
+          53.79414732593341,
+          56.08194622279129,
+          55.298719772403985
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "irish-chicago-gambit-nc6-nc3-bb4-d5-5btlgl",
+      "name": "d5 Line",
+      "moves": [
+        "Nc6",
+        "Nc3",
+        "Bb4",
+        "d5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          60166,
+          6096,
+          2010,
+          1777
+        ],
+        "winrates": [
+          47.975600837682414,
+          56.38943569553806,
+          55.72139303482587,
+          57.878446820483965
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "irish-chicago-gambit-nc6-c4-d6-be3-nf6-f3-5wh658",
+      "name": "f3 Line",
+      "moves": [
+        "Nc6",
+        "c4",
+        "d6",
+        "Be3",
+        "Nf6",
+        "f3"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          60166,
+          10265,
+          4364,
+          2314,
+          1257,
+          1099
+        ],
+        "winrates": [
+          47.975600837682414,
+          50.37506088650755,
+          52.01649862511457,
+          53.80293863439931,
+          57.23945902943516,
+          58.917197452229296
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T01:32:00.140Z"
+}

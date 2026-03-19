@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - ostadchess/ui=registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/ui:latest

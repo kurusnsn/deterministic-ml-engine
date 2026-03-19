@@ -1,0 +1,820 @@
+{
+  "opening": "guatemala",
+  "openingId": "guatemala",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "guatemala-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "b6",
+        "d4",
+        "Ba6"
+      ],
+      "eco": "B00"
+    },
+    {
+      "id": "guatemala-bd3-bb7-nf3-68457b",
+      "name": "Nf3 Line",
+      "moves": [
+        "Bd3",
+        "Bb7",
+        "Nf3"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          88134,
+          1368,
+          511
+        ],
+        "winrates": [
+          56.44756847527629,
+          60.81871345029239,
+          59.1976516634051
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-nd2-bxf1-nxf1-e6-vc0jqq",
+      "name": "e6 Line",
+      "moves": [
+        "Nd2",
+        "Bxf1",
+        "Nxf1",
+        "e6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2970,
+          2922,
+          2107,
+          972
+        ],
+        "winrates": [
+          55.28619528619528,
+          55.304585900068446,
+          56.71570953962981,
+          55.81275720164609
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-be2-bxe2-nxe2-mmx6al",
+      "name": "Nxe2 Line",
+      "moves": [
+        "Be2",
+        "Bxe2",
+        "Nxe2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2333,
+          1874,
+          917
+        ],
+        "winrates": [
+          55.57222460351478,
+          55.92315901814301,
+          57.033805888767716
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-nc5-dxc5-6bxu5t",
+      "name": "dxc5 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "Nc5",
+        "dxc5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          814,
+          599
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          64.4963144963145,
+          68.11352253756262
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-qe2-nb8-f4-rjamwe",
+      "name": "f4 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Qe2",
+        "Nb8",
+        "f4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          295238,
+          295366,
+          33844,
+          10207,
+          640
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.33347122089587,
+          57.41158028803762,
+          61.5625
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-c4-c5-d5-e6-e7huua",
+      "name": "After c5 d5 e6",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "c4",
+        "c5",
+        "d5",
+        "e6"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          295238,
+          295366,
+          22093,
+          3609,
+          2792,
+          716
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          55.71447969945231,
+          58.5619285120532,
+          59.56303724928367,
+          61.80167597765364
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-c3-nb4-cxb4-4526h1",
+      "name": "cxb4 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "c3",
+        "Nb4",
+        "cxb4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          295238,
+          295366,
+          21051,
+          601,
+          536
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          55.82157617215334,
+          71.21464226289518,
+          72.38805970149254
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-f4-nb4-xyaict",
+      "name": "Nb4 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "f4",
+        "Nb4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          295238,
+          295366,
+          8211,
+          665
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.661795152843744,
+          59.77443609022557
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-a3-e6-nf3-c5-wpvkf",
+      "name": "c5 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "a3",
+        "e6",
+        "Nf3",
+        "c5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          295238,
+          295366,
+          6853,
+          2141,
+          760,
+          688
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.17977528089888,
+          56.51564689397478,
+          60.26315789473684,
+          55.014534883720934
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-ne2-e6-o-o-7kmqjx",
+      "name": "O-O Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Ne2",
+        "e6",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          295238,
+          295366,
+          4774,
+          1247,
+          864
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.451612903225815,
+          59.34242181234964,
+          60.706018518518526
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-e6-qe2-nb8-3jiw82",
+      "name": "Be7 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "e6",
+        "Qe2",
+        "Nb8",
+        "O-O",
+        "Be7"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          36951,
+          4021,
+          979,
+          1621,
+          754
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          55.77656896971666,
+          58.070131808007964,
+          59.244126659857,
+          58.72917951881554,
+          59.08488063660477
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-c5-c3-e6-xegzw3",
+      "name": "d5 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "c5",
+        "c3",
+        "e6",
+        "d5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          21616,
+          2915,
+          551,
+          519
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          56.0950222057735,
+          58.627787307032584,
+          58.166969147005446,
+          61.946050096339114
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-nb8-qe2-e6-b9y772",
+      "name": "After e6 O-O Be7",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "Nb8",
+        "Qe2",
+        "e6",
+        "O-O",
+        "Be7"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          20568,
+          539,
+          4128,
+          1621,
+          754
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          55.22170361726955,
+          59.554730983302406,
+          56.92829457364341,
+          58.72917951881554,
+          59.08488063660477
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-c6-o-o-e6-oyub63",
+      "name": "c4 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "c6",
+        "O-O",
+        "e6",
+        "c4"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          8150,
+          5741,
+          1894,
+          1185
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          55.68711656441718,
+          56.29681240202056,
+          56.86378035902852,
+          59.07172995780591
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-g6-qe2-7p0yoy",
+      "name": "Qe2 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "g6",
+        "Qe2"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          7874,
+          605
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          56.09601219202438,
+          60.49586776859505
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-d5-exd5-12r2f6",
+      "name": "exd5 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "d5",
+        "exd5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          2967,
+          506
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          61.50994270306707,
+          68.57707509881423
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-d6-o-o-945woc",
+      "name": "After Nf3 d6 O-O",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "d6",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          2203,
+          1427
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          60.82614616432138,
+          59.810791871058164
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-nf6-e5-ismdvn",
+      "name": "e5 Line",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "Nf6",
+        "e5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          2119,
+          504
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          59.67437470504955,
+          63.19444444444444
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-h6-o-o-77zf3k",
+      "name": "After Nf3 h6 O-O",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "h6",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          1768,
+          920
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          61.48190045248869,
+          62.77173913043478
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-e6-o-o-d5-hieil6",
+      "name": "After O-O d5 exd5",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "e6",
+        "O-O",
+        "d5",
+        "exd5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          36951,
+          25081,
+          1599,
+          657
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          55.77656896971666,
+          57.89442207248515,
+          62.601626016260155,
+          66.9710806697108
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-e6-c4-c5-hg5q77",
+      "name": "After c5 d5 exd5",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "e6",
+        "c4",
+        "c5",
+        "d5",
+        "exd5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          36951,
+          4311,
+          884,
+          635,
+          770
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          55.77656896971666,
+          56.17026212015773,
+          58.0316742081448,
+          60.629921259842526,
+          65.84415584415585
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-e6-c3-c6-3lspp2",
+      "name": "After c3 c6 O-O",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "e6",
+        "c3",
+        "c6",
+        "O-O"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          36951,
+          3342,
+          617,
+          903
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          55.77656896971666,
+          56.104129263913826,
+          58.91410048622367,
+          55.26024363233666
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "guatemala-bxa6-nxa6-nf3-e6-a3-c5-5qrg9b",
+      "name": "After e6 a3 c5",
+      "moves": [
+        "Bxa6",
+        "Nxa6",
+        "Nf3",
+        "e6",
+        "a3",
+        "c5"
+      ],
+      "eco": "B00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          295238,
+          295366,
+          88354,
+          36951,
+          1853,
+          688
+        ],
+        "winrates": [
+          55.046775821540585,
+          54.983816688447554,
+          56.65334902777464,
+          55.77656896971666,
+          56.88073394495413,
+          55.014534883720934
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T02:35:40.622Z"
+}

@@ -1,0 +1,1138 @@
+{
+  "id": "miscellaneous-marshall-gambit",
+  "name": "Marshall gambit",
+  "opening": "Marshall gambit",
+  "generatedAt": "2026-01-03T19:49:32.458Z",
+  "lines": [
+    {
+      "id": "miscellaneous-marshall-gambit-qd8-d5-nf6-dxc6-bxc6-qxd8--lu7hxb",
+      "name": "Marshall gambit: Qd8 Forcing Line",
+      "moves": [
+        "Qd8",
+        "d5",
+        "Nf6",
+        "dxc6",
+        "bxc6",
+        "Qxd8+",
+        "Kxd8"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          26836,
+          77536,
+          2905,
+          5018,
+          1563,
+          1441,
+          1418
+        ],
+        "winrates": [
+          55.90810851095544,
+          60.2545914156005,
+          66.16179001721171,
+          66.70984455958549,
+          68.55406269993603,
+          69.3615544760583,
+          68.86459802538786
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qe6--be3-qg6-nf3-8g3w6r",
+      "name": "Marshall gambit: Qe6+ Forcing Line",
+      "moves": [
+        "Qe6+",
+        "Be3",
+        "Qg6",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          9862,
+          2858,
+          1232,
+          4331
+        ],
+        "winrates": [
+          58.67471101196512,
+          61.371588523442966,
+          55.519480519480524,
+          56.56892172708381
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qd7-d5-ne5-z3y7cl",
+      "name": "Marshall gambit: Qd7 Forcing Line",
+      "moves": [
+        "Qd7",
+        "d5",
+        "Ne5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1806,
+          3051,
+          1268
+        ],
+        "winrates": [
+          60.68660022148394,
+          64.92953130121272,
+          65.33911671924291
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qf5-bd3-uhsrxg",
+      "name": "Marshall gambit: Qf5 Forcing Line",
+      "moves": [
+        "Qf5",
+        "Bd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1313,
+          2531
+        ],
+        "winrates": [
+          60.12947448591013,
+          57.84274990122481
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-nf6-nxd5-nxd5-c4-vd0rk0",
+      "name": "Marshall gambit: Nf6 Forcing Line",
+      "moves": [
+        "Nf6",
+        "Nxd5",
+        "Nxd5",
+        "c4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1287,
+          3274,
+          2222,
+          1530
+        ],
+        "winrates": [
+          76.88422688422688,
+          88.74465485644471,
+          83.7083708370837,
+          85.26143790849673
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-qe2-nf6-w2u3rt",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Qe2",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          267856,
+          3561,
+          1031
+        ],
+        "winrates": [
+          42.74964906516934,
+          55.490030890199385,
+          56.9835111542192
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-hcan9g",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "e6",
+        "Qe2",
+        "Be7",
+        "O-O-O",
+        "O-O",
+        "Bxf6",
+        "Bxf6",
+        "Bxh7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          6485,
+          5469,
+          6546,
+          7500,
+          2655,
+          1200,
+          1077,
+          1084
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          62.36700077101003,
+          66.1181203144999,
+          67.56798044607393,
+          67.30000000000001,
+          83.6346516007533,
+          88.83333333333333,
+          89.4614670380687,
+          89.85239852398524
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-qe2-ubc6fs",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Qe2",
+        "e6",
+        "Bg5",
+        "Be7",
+        "O-O-O",
+        "O-O",
+        "Bxf6",
+        "Bxf6",
+        "Bxh7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          4402,
+          1575,
+          2083,
+          6546,
+          7500,
+          2655,
+          1200,
+          1077,
+          1084
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          60.23398455247615,
+          63.8095238095238,
+          63.874219875180025,
+          67.56798044607393,
+          67.30000000000001,
+          83.6346516007533,
+          88.83333333333333,
+          89.4614670380687,
+          89.85239852398524
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-h3-tukvlw",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "h3",
+        "e6",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          2700,
+          1288,
+          1035
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.75925925925926,
+          58.50155279503105,
+          57.68115942028985
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-o-o-j848er",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "O-O",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Qxf3",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          36559,
+          19095,
+          7600,
+          1679,
+          1666,
+          1387
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          51.777947974506965,
+          50.23042681330191,
+          50.09210526315789,
+          58.96366885050626,
+          59.093637454981994,
+          59.4448449891853
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-o-o-j848er",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "O-O",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Qxf3",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          36559,
+          19095,
+          7600,
+          1679,
+          1666,
+          1387
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          51.777947974506965,
+          50.23042681330191,
+          50.09210526315789,
+          58.96366885050626,
+          59.093637454981994,
+          59.4448449891853
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-o-o-vrih3y",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "O-O",
+        "e6",
+        "Bg5",
+        "Be7",
+        "Qe2",
+        "O-O",
+        "Rad1"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          36559,
+          7698,
+          3483,
+          3456,
+          1172,
+          1015,
+          1126
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          51.777947974506965,
+          54.657053780202645,
+          50.588573069193224,
+          51.012731481481474,
+          56.74061433447098,
+          60.04926108374384,
+          60.56838365896981
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-vnlcd5",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "Qe2",
+        "Bxf3",
+        "Qxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          8748,
+          1663,
+          1299
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          60.539551897576594,
+          65.81479254359591,
+          67.32101616628175
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-hcan9g",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "e6",
+        "Qe2",
+        "Be7",
+        "O-O-O",
+        "O-O",
+        "Bxf6",
+        "Bxf6",
+        "Bxh7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          6485,
+          5469,
+          6546,
+          7500,
+          2655,
+          1200,
+          1077,
+          1084
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          62.36700077101003,
+          66.1181203144999,
+          67.56798044607393,
+          67.30000000000001,
+          83.6346516007533,
+          88.83333333333333,
+          89.4614670380687,
+          89.85239852398524
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-1p6pne",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "e5",
+        "Qe2",
+        "Be7",
+        "O-O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          2866,
+          3364,
+          1391,
+          1347
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          58.28681088625262,
+          61.548751486325806,
+          64.70165348670022,
+          64.69933184855235
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-biti55",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "h6",
+        "Bh4"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          2658,
+          1561
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          56.96012039127163,
+          60.76233183856502
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-vnlcd5",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "Qe2",
+        "Bxf3",
+        "Qxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          8748,
+          1663,
+          1299
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          60.539551897576594,
+          65.81479254359591,
+          67.32101616628175
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-vuutjm",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Qxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          3868,
+          1202,
+          1134
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          57.96277145811789,
+          63.519134775374376,
+          64.85890652557319
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-8199vn",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "Qe2",
+        "e6",
+        "O-O-O",
+        "Be7"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          8748,
+          4910,
+          4672,
+          1288
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          60.539551897576594,
+          60.08146639511202,
+          60.80907534246576,
+          63.93633540372671
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-8t2vs7",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "Qe2",
+        "Nd4",
+        "Qe3",
+        "Nxf3+",
+        "gxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          8748,
+          3676,
+          3026,
+          1395,
+          1395
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          60.539551897576594,
+          59.28998911860718,
+          64.4580304031725,
+          70.21505376344086,
+          70.21505376344086
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-vnlcd5",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "Qe2",
+        "Bxf3",
+        "Qxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          8748,
+          1663,
+          1299
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          60.539551897576594,
+          65.81479254359591,
+          67.32101616628175
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-8199vn",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "Qe2",
+        "e6",
+        "O-O-O",
+        "Be7"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          8748,
+          4910,
+          4672,
+          1288
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          60.539551897576594,
+          60.08146639511202,
+          60.80907534246576,
+          63.93633540372671
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-8t2vs7",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "Qe2",
+        "Nd4",
+        "Qe3",
+        "Nxf3+",
+        "gxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          8748,
+          3676,
+          3026,
+          1395,
+          1395
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          60.539551897576594,
+          59.28998911860718,
+          64.4580304031725,
+          70.21505376344086,
+          70.21505376344086
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-vuutjm",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Qxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          14126,
+          3868,
+          1202,
+          1134
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          57.23134645334843,
+          57.96277145811789,
+          63.519134775374376,
+          64.85890652557319
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-marshall-gambit-qxd4-bd3-nf6-nf3-qd8-bg5-hcan9g",
+      "name": "Marshall gambit: Qxd4 Forcing Line",
+      "moves": [
+        "Qxd4",
+        "Bd3",
+        "Nf6",
+        "Nf3",
+        "Qd8",
+        "Bg5",
+        "e6",
+        "Qe2",
+        "Be7",
+        "O-O-O",
+        "O-O",
+        "Bxf6",
+        "Bxf6",
+        "Bxh7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          267856,
+          29326,
+          12880,
+          7737,
+          3009,
+          19469,
+          6485,
+          5469,
+          6546,
+          7500,
+          2655,
+          1200,
+          1077,
+          1084
+        ],
+        "winrates": [
+          42.74964906516934,
+          53.091113687512795,
+          52.1583850931677,
+          53.44448752746543,
+          51.844466600199404,
+          59.032307771328774,
+          62.36700077101003,
+          66.1181203144999,
+          67.56798044607393,
+          67.30000000000001,
+          83.6346516007533,
+          88.83333333333333,
+          89.4614670380687,
+          89.85239852398524
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

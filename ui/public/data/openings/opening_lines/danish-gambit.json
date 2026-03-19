@@ -1,0 +1,949 @@
+{
+  "opening": "danish gambit",
+  "openingId": "danish-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "danish-gambit-line-0",
+      "name": "Soerensen defence",
+      "moves": [
+        "e4",
+        "e5",
+        "d4",
+        "exd4",
+        "c3",
+        "d5"
+      ],
+      "eco": "C21"
+    },
+    {
+      "id": "danish-gambit-line-1",
+      "name": "Collijn defence",
+      "moves": [
+        "e4",
+        "e5",
+        "d4",
+        "exd4",
+        "c3",
+        "dxc3",
+        "Bc4",
+        "cxb2",
+        "Bxb2",
+        "Qe7"
+      ],
+      "eco": "C21"
+    },
+    {
+      "id": "danish-gambit-line-2",
+      "name": "Schlechter defence",
+      "moves": [
+        "e4",
+        "e5",
+        "d4",
+        "exd4",
+        "c3",
+        "dxc3",
+        "Bc4",
+        "cxb2",
+        "Bxb2",
+        "d5"
+      ],
+      "eco": "C21"
+    },
+    {
+      "id": "danish-gambit-dxc3-qb3-d6-bc4-nc6-bxf7--kk74ew",
+      "name": "Kd7 Line",
+      "moves": [
+        "dxc3",
+        "Qb3",
+        "d6",
+        "Bc4",
+        "Nc6",
+        "Bxf7+",
+        "Kd7"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          8635238,
+          45691,
+          5503,
+          5749,
+          2012,
+          6877,
+          1677
+        ],
+        "winrates": [
+          57.82244797421912,
+          59.75465627804163,
+          63.383608940577865,
+          64.0198295355714,
+          80.4920477137177,
+          83.75745237749018,
+          87.17948717948718
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-nc6-qb3-dxc3-nf3-d6-bc4-581v5u",
+      "name": "Ke7 Line",
+      "moves": [
+        "Nc6",
+        "Qb3",
+        "dxc3",
+        "Nf3",
+        "d6",
+        "Bc4",
+        "Ne5",
+        "Nxe5",
+        "dxe5",
+        "Bxf7+",
+        "Ke7"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1433648,
+          11599,
+          6551,
+          1615,
+          1053,
+          1204,
+          1991,
+          1995,
+          1827,
+          1787,
+          1611
+        ],
+        "winrates": [
+          55.06351628851712,
+          57.90154323648591,
+          61.2043962753778,
+          62.44582043343653,
+          63.43779677113011,
+          66.1544850498339,
+          81.64239075841286,
+          82.55639097744361,
+          82.62178434592228,
+          83.15612758813654,
+          81.78150217256362
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-d6-qb3-dxc3-bc4-nc6-bxf7--ow0o7g",
+      "name": "After Nc6 Bxf7+ Kd7",
+      "moves": [
+        "d6",
+        "Qb3",
+        "dxc3",
+        "Bc4",
+        "Nc6",
+        "Bxf7+",
+        "Kd7"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          448491,
+          4405,
+          1335,
+          5749,
+          2012,
+          6877,
+          1677
+        ],
+        "winrates": [
+          55.57034589322862,
+          59.5800227014756,
+          62.434456928838955,
+          64.0198295355714,
+          80.4920477137177,
+          83.75745237749018,
+          87.17948717948718
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-c5-nf3-qa5-bc4-21e1r6",
+      "name": "Bc4 Line",
+      "moves": [
+        "c5",
+        "Nf3",
+        "Qa5",
+        "Bc4"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          183866,
+          34261,
+          4325,
+          1855
+        ],
+        "winrates": [
+          55.29271317154885,
+          58.40022182656664,
+          66.69364161849711,
+          72.42587601078168
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-bc5-cxd4-be7-nc3-yhkdli",
+      "name": "Nc3 Line",
+      "moves": [
+        "Bc5",
+        "cxd4",
+        "Be7",
+        "Nc3"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          62186,
+          232993,
+          3484,
+          1233
+        ],
+        "winrates": [
+          57.21786254140804,
+          56.962870129145514,
+          62.0264064293915,
+          64.67964314679642
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-be7-bc4-dxc3-qd5-nh6-bxh6-rpg64i",
+      "name": "Bxb2 Line",
+      "moves": [
+        "Be7",
+        "Bc4",
+        "dxc3",
+        "Qd5",
+        "Nh6",
+        "Bxh6",
+        "O-O",
+        "Bc1",
+        "cxb2",
+        "Bxb2"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          38685,
+          16860,
+          3850,
+          11623,
+          6081,
+          6056,
+          4564,
+          3730,
+          1028,
+          1028
+        ],
+        "winrates": [
+          56.76360346387489,
+          57.64531435349941,
+          65.92207792207793,
+          75.13980899939774,
+          71.13139286301595,
+          71.14431968295905,
+          66.53155127081507,
+          69.07506702412869,
+          69.01750972762646,
+          69.01750972762646
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-g6-qxd4-okxd57",
+      "name": "Qxd4 Line",
+      "moves": [
+        "g6",
+        "Qxd4"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          33011,
+          2056
+        ],
+        "winrates": [
+          57.10823664838993,
+          58.09824902723736
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-qf6-nf3-bc5-e5-qb6-cxd4-z4whia",
+      "name": "After cxd4 Bb4+ Nc3",
+      "moves": [
+        "Qf6",
+        "Nf3",
+        "Bc5",
+        "e5",
+        "Qb6",
+        "cxd4",
+        "Bb4+",
+        "Nc3"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          18452,
+          12402,
+          1168,
+          4975,
+          1874,
+          1891,
+          1598,
+          1262
+        ],
+        "winrates": [
+          59.46238890093215,
+          59.72020641831962,
+          64.1695205479452,
+          66.49246231155779,
+          67.68943436499467,
+          67.74193548387096,
+          67.64705882352942,
+          68.10618066561014
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-qe7-nxc3-a6-nf3-w90uc7",
+      "name": "Nf3 Line",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "Qe7",
+        "Nxc3",
+        "a6",
+        "Nf3"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          8635238,
+          6644683,
+          155570,
+          130838,
+          1634,
+          1242
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          62.760172269717806,
+          63.98599795166542,
+          72.03182374541004,
+          74.6779388083736
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-nxc3-qe7-bc4-a6-nf3-2ckk3z",
+      "name": "After Bc4 a6 Nf3",
+      "moves": [
+        "dxc3",
+        "Nxc3",
+        "Qe7",
+        "Bc4",
+        "a6",
+        "Nf3"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          8635238,
+          1531773,
+          8945,
+          4133,
+          1634,
+          1242
+        ],
+        "winrates": [
+          57.82244797421912,
+          56.71290719969604,
+          63.1358300726663,
+          64.6261795306073,
+          72.03182374541004,
+          74.6779388083736
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-nf3-qe7-nxc3-nf6-njyjow",
+      "name": "Nf6 Line",
+      "moves": [
+        "dxc3",
+        "Nf3",
+        "Qe7",
+        "Nxc3",
+        "Nf6"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          8635238,
+          359405,
+          2686,
+          1968,
+          1265
+        ],
+        "winrates": [
+          57.82244797421912,
+          57.56653357632754,
+          61.4668652271035,
+          65.2439024390244,
+          65.01976284584981
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-qc2-cxb2-bxb2-xzd4i0",
+      "name": "After Qc2 cxb2 Bxb2",
+      "moves": [
+        "dxc3",
+        "Qc2",
+        "cxb2",
+        "Bxb2"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          8635238,
+          2001,
+          1136,
+          1122
+        ],
+        "winrates": [
+          57.82244797421912,
+          59.09545227386307,
+          61.487676056338024,
+          62.121212121212125
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-cxb2-bxf7--kxf7-bxb2-qqbyv9",
+      "name": "e5 Line",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "cxb2",
+        "Bxf7+",
+        "Kxf7",
+        "Bxb2",
+        "Nf6",
+        "e5"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          2910896,
+          22308,
+          21937,
+          17527,
+          5727,
+          1489
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          58.336282024503795,
+          59.837278106508876,
+          59.61845284223002,
+          62.12415130940834,
+          65.08643268727083,
+          66.72263263935527
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-d6-qb3-nc6-bxf7--i1qrvq",
+      "name": "Variation 2",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "d6",
+        "Qb3",
+        "Nc6",
+        "Bxf7+",
+        "Kd7"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          881033,
+          199401,
+          2012,
+          6877,
+          1677
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          58.01252620503432,
+          64.01622860467099,
+          80.4920477137177,
+          83.75745237749018,
+          87.17948717948718
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-nc6-qb3-d6-bxf7--bmtotw",
+      "name": "After d6 Bxf7+ Kd7",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "Nc6",
+        "Qb3",
+        "d6",
+        "Bxf7+",
+        "Kd7"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          877422,
+          181448,
+          4106,
+          6877,
+          1677
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          55.70079163731933,
+          59.857645165557074,
+          81.68533852898197,
+          83.75745237749018,
+          87.17948717948718
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-nf6-bxf7--kxf7-nf3-7qo0nt",
+      "name": "After Bxf7+ Kxf7 Nf3",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "Nf6",
+        "Bxf7+",
+        "Kxf7",
+        "Nf3"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          470795,
+          5367,
+          5345,
+          2840
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          58.31147314648626,
+          63.20104341345258,
+          63.21796071094481,
+          64.26056338028168
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-bb4-bxc3-bxc3--nxc3-js51qr",
+      "name": "Nxc3 Line",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "Bb4",
+        "bxc3",
+        "Bxc3+",
+        "Nxc3"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          288745,
+          122557,
+          2248,
+          2223
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          55.704514363885096,
+          59.07700090570101,
+          79.58185053380782,
+          80.02699055330635
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-bc5-bxf7--kxf7-qh5--e09bbj",
+      "name": "Qd5 Line",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "Bc5",
+        "Bxf7+",
+        "Kxf7",
+        "Qh5+",
+        "g6",
+        "Qd5+"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          254445,
+          89692,
+          67781,
+          11019,
+          7765,
+          1997
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          59.404193440625676,
+          65.4478660304152,
+          66.09816910343606,
+          69.24857065069425,
+          70.74694140373471,
+          71.03154732098147
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-c2-qxc2-qe7-nf3-n8jukr",
+      "name": "After Qxc2 Qe7 Nf3",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "c2",
+        "Qxc2",
+        "Qe7",
+        "Nf3"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          196274,
+          191572,
+          5631,
+          2448
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          57.418201086236586,
+          57.6759651723634,
+          63.70094121825608,
+          65.72712418300654
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-qf6-nxc3-c6-nf3-xlujlq",
+      "name": "O-O Line",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "Qf6",
+        "Nxc3",
+        "c6",
+        "Nf3",
+        "h6",
+        "e5",
+        "Qg6",
+        "O-O"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          176244,
+          151290,
+          20966,
+          20148,
+          10191,
+          3225,
+          1834,
+          1464
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          59.94246612650643,
+          61.20761451516954,
+          68.45845654869788,
+          69.50565812983919,
+          72.67687174958296,
+          73.44186046511628,
+          71.48309705561614,
+          72.98497267759562
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-c6-nf3-h6-o-o-z2hsnr",
+      "name": "After Nxc3 Nf6 e5",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "c6",
+        "Nf3",
+        "h6",
+        "O-O",
+        "d6",
+        "Nxc3",
+        "Nf6",
+        "e5"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          138738,
+          60466,
+          4161,
+          3142,
+          1127,
+          2371,
+          2624,
+          1522
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          60.468292753247134,
+          61.154202361657795,
+          66.29416005767844,
+          66.12030553787397,
+          65.66104702750665,
+          65.09911429776466,
+          68.52134146341463,
+          73.8173455978975
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-d5-bxd5-c6-bxf7--zun8s",
+      "name": "Qxd8 Line",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "c6",
+        "Bxf7+",
+        "Kxf7",
+        "Qxd8"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          83470,
+          58230,
+          10434,
+          9456,
+          2707,
+          2657
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          58.82592548220917,
+          62.56998110939378,
+          70.18880582710369,
+          72.77918781725889,
+          93.71998522349465,
+          94.48626270229582
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "danish-gambit-dxc3-bc4-be7-qd5-nh6-bxh6-lrj458",
+      "name": "After Bc1 cxb2 Bxb2",
+      "moves": [
+        "dxc3",
+        "Bc4",
+        "Be7",
+        "Qd5",
+        "Nh6",
+        "Bxh6",
+        "O-O",
+        "Bc1",
+        "cxb2",
+        "Bxb2"
+      ],
+      "eco": "C21",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8635238,
+          6644683,
+          66227,
+          11623,
+          6081,
+          6056,
+          4564,
+          3730,
+          1028,
+          1028
+        ],
+        "winrates": [
+          57.82244797421912,
+          58.1581167980474,
+          61.38281969589442,
+          75.13980899939774,
+          71.13139286301595,
+          71.14431968295905,
+          66.53155127081507,
+          69.07506702412869,
+          69.01750972762646,
+          69.01750972762646
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-01-11T12:29:13.279Z"
+}

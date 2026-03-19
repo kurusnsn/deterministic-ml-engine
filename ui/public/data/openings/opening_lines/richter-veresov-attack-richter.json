@@ -1,0 +1,847 @@
+{
+  "opening": "richter-veresov attack, richter",
+  "openingId": "richter-veresov-attack-richter",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "richter-veresov-attack-richter-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "Nc3",
+        "Nf6",
+        "Bg5",
+        "Bf5",
+        "f3"
+      ],
+      "eco": "D01"
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-nxe4-llk9p",
+      "name": "Nxe4 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Nxe4"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          505
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          90.99009900990099
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-bg6-e5-h6-bh4-6iznkr",
+      "name": "exf6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Bg6",
+        "e5",
+        "h6",
+        "Bh4",
+        "Bb4",
+        "exf6"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          100099,
+          76959,
+          5999,
+          5938,
+          4507,
+          4211,
+          536,
+          508
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          71.91198533088848,
+          72.35601212529471,
+          72.8866208120701,
+          74.6497269057231,
+          76.58582089552239,
+          76.5748031496063
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-h6-bxf6-qxf6-exf5-fx8tzi",
+      "name": "exf5 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "h6",
+        "Bxf6",
+        "Qxf6",
+        "exf5"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          100099,
+          76959,
+          949,
+          779,
+          604,
+          602
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          73.07692307692307,
+          75.86649550706034,
+          70.44701986754967,
+          70.51495016611295
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-tj7y43",
+      "name": "Nc6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "h6",
+        "Bh4",
+        "Bb4",
+        "exf6",
+        "gxf6",
+        "Nf3",
+        "Nc6"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          24886,
+          23211,
+          2424,
+          2336,
+          1719,
+          1019,
+          519
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          75.71727075464116,
+          77.81870664771013,
+          77.88778877887789,
+          78.125,
+          76.90517742873763,
+          77.82139352306181,
+          76.30057803468208
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg4-bxf6-92wf7v",
+      "name": "After Kxd8 Rxd1 Nc6",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg4",
+        "Bxf6",
+        "Bxd1",
+        "Bxd8",
+        "Kxd8",
+        "Rxd1",
+        "Nc6"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34829,
+          24058,
+          16233,
+          16185,
+          4144,
+          3620,
+          710
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          73.84507163570588,
+          82.9308338182725,
+          85.9175753095546,
+          86.07352486870559,
+          90.08204633204633,
+          90.23480662983425,
+          90.21126760563381
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-h6-bxf6-b2mzww",
+      "name": "Bd3 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "h6",
+        "Bxf6",
+        "Qxf6",
+        "exf5",
+        "Qxf5",
+        "Nf3",
+        "Bb4",
+        "Bd3"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          3630,
+          3173,
+          2906,
+          2888,
+          2028,
+          1598,
+          935,
+          826
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          79.87603305785123,
+          81.68925307280176,
+          80.47143840330351,
+          80.54016620498615,
+          81.01577909270216,
+          81.1639549436796,
+          81.28342245989305,
+          82.32445520581115
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bxe4-nxe4-fhsitf",
+      "name": "After fxe4 Bxe4 Nxe4",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bxe4",
+        "Nxe4"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          663,
+          573
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          78.43137254901961,
+          79.14485165794066
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-nf3-mlv49i",
+      "name": "O-O Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "Nf3",
+        "Be7",
+        "Bd3",
+        "O-O"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          1453,
+          3264,
+          1297,
+          580
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          55.78114246386786,
+          56.08149509803921,
+          58.75096376252892,
+          56.55172413793104
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-h62mkh",
+      "name": "After Nf3 O-O Bd3",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "Be7",
+        "exf6",
+        "Bxf6",
+        "Bxf6",
+        "Qxf6",
+        "Nf3",
+        "O-O",
+        "Bd3"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          3937,
+          3896,
+          2501,
+          2409,
+          2358,
+          2189,
+          974,
+          838
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          71.59004318008635,
+          71.81724845995893,
+          74.5501799280288,
+          74.69904524699045,
+          74.55470737913485,
+          75.0799451804477,
+          75.61601642710473,
+          76.43198090692124
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-f41l9d",
+      "name": "Bxf6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "Bh5",
+        "Bxf6"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          892,
+          552
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          75.28026905829597,
+          85.05434782608695
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-c5r3kl",
+      "name": "gxf6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "Bb4",
+        "exf6",
+        "gxf6"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          773,
+          733,
+          582
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          70.5045278137128,
+          70.73669849931787,
+          68.21305841924399
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-f634tn",
+      "name": "Nf3 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "h6",
+        "Bh4",
+        "Be7",
+        "exf6",
+        "Bxf6",
+        "Bxf6",
+        "Qxf6",
+        "Nf3"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          24886,
+          23211,
+          8008,
+          7987,
+          6447,
+          6215,
+          6152,
+          5821
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          75.71727075464116,
+          77.81870664771013,
+          74.8126873126873,
+          74.86540628521348,
+          75.06592213432604,
+          75.73612228479485,
+          75.58517555266579,
+          76.07799347191204
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-fyd00y",
+      "name": "Rxd1 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "h6",
+        "Bh4",
+        "Bh5",
+        "Bxf6",
+        "Bxd1",
+        "Bxd8",
+        "Kxd8",
+        "Rxd1"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          24886,
+          23211,
+          6122,
+          4578,
+          3263,
+          3254,
+          746,
+          650
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          75.71727075464116,
+          77.81870664771013,
+          75.9719046063378,
+          83.10397553516819,
+          85.30493410971499,
+          85.4179471419791,
+          87.8686327077748,
+          87.76923076923076
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-wy28w2",
+      "name": "g5 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "h6",
+        "Bh4",
+        "Bxc2",
+        "Qxc2",
+        "g5"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          24886,
+          23211,
+          2016,
+          1939,
+          987
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          75.71727075464116,
+          77.81870664771013,
+          74.9751984126984,
+          75.01289324394017,
+          75.83586626139818
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-xsxk5w",
+      "name": "After exf6 gxf6 Nf3",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "h6",
+        "Bh4",
+        "Nc6",
+        "exf6",
+        "gxf6",
+        "Nf3"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          24886,
+          23211,
+          1505,
+          1181,
+          734,
+          555
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          75.71727075464116,
+          77.81870664771013,
+          75.81395348837209,
+          74.25910245554614,
+          77.58855585831063,
+          77.56756756756756
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-x7io2r",
+      "name": "After Bh4 c5 exf6",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "h6",
+        "Bh4",
+        "c5",
+        "exf6"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          24886,
+          23211,
+          914,
+          851
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          75.71727075464116,
+          77.81870664771013,
+          77.35229759299781,
+          76.85076380728555
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "richter-veresov-attack-richter-e6-e4-dxe4-fxe4-bg6-e5-y6c4m9",
+      "name": "Nxf6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "dxe4",
+        "fxe4",
+        "Bg6",
+        "e5",
+        "h6",
+        "Bh4",
+        "Nbd7",
+        "exf6",
+        "Nxf6"
+      ],
+      "eco": "D01",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          100099,
+          76959,
+          69376,
+          75420,
+          34853,
+          32705,
+          24886,
+          23211,
+          799,
+          731,
+          588
+        ],
+        "winrates": [
+          69.25194057882696,
+          74.9334060993516,
+          75.17297047970479,
+          74.82431715725272,
+          74.6105069864861,
+          75.89818070631402,
+          75.71727075464116,
+          77.81870664771013,
+          77.84730913642053,
+          77.70177838577291,
+          77.97619047619048
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:16:01.091Z"
+}

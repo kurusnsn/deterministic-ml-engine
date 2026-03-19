@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ostadchess-dev
+  labels:
+    app.kubernetes.io/name: ostadchess
+    app.kubernetes.io/environment: dev

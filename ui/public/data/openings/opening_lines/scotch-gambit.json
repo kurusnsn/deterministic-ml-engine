@@ -1,0 +1,1105 @@
+{
+  "opening": "scotch gambit",
+  "openingId": "scotch-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "scotch-gambit-line-0",
+      "name": "Benima defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bc4",
+        "Be7"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "scotch-gambit-line-1",
+      "name": "Dubois-Reti defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bc4",
+        "Nf6"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "scotch-gambit-line-2",
+      "name": "Vitzhum attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bc4",
+        "Bc5",
+        "Ng5",
+        "Nh6",
+        "Qh5"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "scotch-gambit-line-3",
+      "name": "Anderssen (Paulsen, Suhle) counter-attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bc4",
+        "Bc5",
+        "O-O",
+        "d6",
+        "c3",
+        "Bg4"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "scotch-gambit-line-4",
+      "name": "Cochrane variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bc4",
+        "Bb4+",
+        "c3",
+        "dxc3",
+        "bxc3",
+        "Ba5",
+        "e5"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "scotch-gambit-line-5",
+      "name": "Cochrane-Shumov defence",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bc4",
+        "Bc5",
+        "Ng5",
+        "Nh6",
+        "Nxf7",
+        "Nxf7",
+        "Bxf7+",
+        "Kxf7",
+        "Qh5+",
+        "g6",
+        "Qxc5",
+        "d5"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "scotch-gambit-line-6",
+      "name": "Hanneken variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "d4",
+        "exd4",
+        "Bc4",
+        "Bb4+",
+        "c3",
+        "dxc3",
+        "O-O",
+        "cxb2",
+        "Bxb2",
+        "Nf6",
+        "Ng5",
+        "O-O",
+        "e5",
+        "Nxe5"
+      ],
+      "eco": "C44"
+    },
+    {
+      "id": "scotch-gambit-bc5-c3-dxc3-bxf7--ke7-bxg8-nitrc5",
+      "name": "Bxg8 Line",
+      "moves": [
+        "Bc5",
+        "c3",
+        "dxc3",
+        "Bxf7+",
+        "Ke7",
+        "Bxg8"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3178499,
+          2623833,
+          1244480,
+          1048448,
+          4990,
+          1504
+        ],
+        "winrates": [
+          56.45164588694224,
+          57.46375626802468,
+          64.25294098740036,
+          66.61250724880968,
+          72.7755511022044,
+          83.94281914893617
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-h6-c3-be7-qb3-k2jt8r",
+      "name": "Qb3 Line",
+      "moves": [
+        "h6",
+        "c3",
+        "Be7",
+        "Qb3"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1517842,
+          513820,
+          4996,
+          1951
+        ],
+        "winrates": [
+          60.09153126610016,
+          60.81584990852827,
+          65.09207365892713,
+          73.70579190158892
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-be7-c3-dxc3-qd5-d6-qxf7--h9fcv0",
+      "name": "Be6 Line",
+      "moves": [
+        "Be7",
+        "c3",
+        "dxc3",
+        "Qd5",
+        "d6",
+        "Qxf7+",
+        "Kd7",
+        "Be6#"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1070571,
+          691602,
+          215642,
+          180030,
+          26750,
+          26298,
+          21900,
+          21596
+        ],
+        "winrates": [
+          56.95231796863543,
+          59.88270710611017,
+          70.90269984511366,
+          76.76553907682053,
+          99.62616822429906,
+          99.78325347935204,
+          99.75114155251141,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-bb4--c3-bc5-o-o-dxc3-bxf7--rqt5q6",
+      "name": "Qd5 Line",
+      "moves": [
+        "Bb4+",
+        "c3",
+        "Bc5",
+        "O-O",
+        "dxc3",
+        "Bxf7+",
+        "Kxf7",
+        "Qd5+"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          962814,
+          881440,
+          4297,
+          2348,
+          1831,
+          1490,
+          1301,
+          1505
+        ],
+        "winrates": [
+          55.892726944144975,
+          56.488870484661454,
+          68.43146381196183,
+          67.97274275979557,
+          69.71600218459858,
+          74.63087248322148,
+          74.71176018447349,
+          74.38538205980066
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-qf6-o-o-nh6-e5-pmnu3b",
+      "name": "e5 Line",
+      "moves": [
+        "Qf6",
+        "O-O",
+        "Nh6",
+        "e5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          274847,
+          176811,
+          1410,
+          1094
+        ],
+        "winrates": [
+          56.22055179790938,
+          59.298346822313086,
+          64.53900709219859,
+          69.51553930530164
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-d5-exd5-ne5-iazvw1",
+      "name": "Ne5 Line",
+      "moves": [
+        "d5",
+        "exd5",
+        "Ne5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          171793,
+          100763,
+          1012
+        ],
+        "winrates": [
+          57.249422269824734,
+          60.55893532348183,
+          76.92687747035573
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-qe7-o-o-nf6-e5-d6-exf6-wukm0f",
+      "name": "Bg5 Line",
+      "moves": [
+        "Qe7",
+        "O-O",
+        "Nf6",
+        "e5",
+        "d6",
+        "exf6",
+        "Qxf6",
+        "Bg5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          109769,
+          102307,
+          16285,
+          12611,
+          4294,
+          3730,
+          3036,
+          1203
+        ],
+        "winrates": [
+          60.491577767857954,
+          61.5940258242349,
+          67.25207245931838,
+          68.44025057489493,
+          76.75826734979042,
+          79.58445040214477,
+          77.19038208168642,
+          77.3067331670823
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nge7-c3-d6-cxd4-bg4-vxhpnr",
+      "name": "Bg4 Line",
+      "moves": [
+        "Nge7",
+        "c3",
+        "d6",
+        "cxd4",
+        "Bg4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          86631,
+          22147,
+          1750,
+          3097,
+          1157
+        ],
+        "winrates": [
+          56.067112234650416,
+          57.48408362306407,
+          61.857142857142854,
+          61.65644171779141,
+          65.94641313742437
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-f6-nh4-lvzaxv",
+      "name": "Nh4 Line",
+      "moves": [
+        "f6",
+        "Nh4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          78594,
+          3424
+        ],
+        "winrates": [
+          68.55612387714075,
+          70.53154205607477
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-ng5-be7-nxf7-185p9w",
+      "name": "Nxf7 Line",
+      "moves": [
+        "Nf6",
+        "Ng5",
+        "Be7",
+        "Nxf7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          3872479,
+          468879,
+          2206,
+          1841
+        ],
+        "winrates": [
+          52.600750062169475,
+          56.03162009814899,
+          85.26745240253854,
+          90.16838674633351
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-ng4-bxf7--ke7-bg5--1hkh0g",
+      "name": "Bxd8 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Ng4",
+        "Bxf7+",
+        "Ke7",
+        "Bg5+",
+        "Kxf7",
+        "Bxd8"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          483401,
+          104584,
+          5407,
+          3972,
+          1392,
+          1346
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          58.04083979966943,
+          66.20419949514266,
+          78.194932494914,
+          78.26032225579054,
+          94.97126436781609,
+          95.72808320950966
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-qe7-o-o-d6-exf6-ioyjq5",
+      "name": "After exf6 Qxf6 Bg5",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Qe7",
+        "O-O",
+        "d6",
+        "exf6",
+        "Qxf6",
+        "Bg5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          199458,
+          192697,
+          4294,
+          3730,
+          3036,
+          1203
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          66.6423507705883,
+          68.12664442103406,
+          76.75826734979042,
+          79.58445040214477,
+          77.19038208168642,
+          77.3067331670823
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-ng8-c3-dxc3-qb3-lqrdv8",
+      "name": "O-O Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Ng8",
+        "c3",
+        "dxc3",
+        "Qb3",
+        "Qe7",
+        "O-O"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          132329,
+          16277,
+          8256,
+          2273,
+          1679,
+          1287
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          61.687536367689624,
+          64.02899797259937,
+          67.29045542635659,
+          72.23933128024636,
+          70.39904705181655,
+          72.57187257187258
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-bb4--c3-dxc3-bxc3-s7gedf",
+      "name": "Ng4 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Bb4+",
+        "c3",
+        "dxc3",
+        "bxc3",
+        "Bxc3+",
+        "Nxc3",
+        "Ng4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          29273,
+          24976,
+          24259,
+          18894,
+          2101,
+          2098,
+          1064
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          69.21907559867455,
+          71.92905188981422,
+          71.69091883424709,
+          74.65332909918493,
+          85.67348881485007,
+          85.65300285986655,
+          82.84774436090225
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-nxe5-nxe5-qe7-qe2-arjuz2",
+      "name": "Kxe2 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Nxe5",
+        "Nxe5",
+        "Qe7",
+        "Qe2",
+        "d6",
+        "Nxf7",
+        "Qxe2+",
+        "Kxe2"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          23669,
+          22956,
+          17404,
+          5646,
+          2960,
+          1515,
+          1505,
+          1494
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          69.1326207275339,
+          69.76825230876459,
+          68.93530222937255,
+          74.29153382925965,
+          73.66554054054055,
+          78.28382838283828,
+          77.37541528239203,
+          77.40963855421687
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-nh5-bxf7--kxf7-ng5--2nufij",
+      "name": "Ng5 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Nh5",
+        "Bxf7+",
+        "Kxf7",
+        "Ng5+"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          8964,
+          1638,
+          1610,
+          1658
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          71.4747880410531,
+          80.86080586080587,
+          80.65217391304348,
+          80.82026537997588
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-d6-exf6-qxf6-o-o-dskzq9",
+      "name": "Be7 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "d6",
+        "exf6",
+        "Qxf6",
+        "O-O",
+        "Be7"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          5896,
+          5564,
+          3786,
+          3082,
+          1238
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          71.9640434192673,
+          73.058950395399,
+          67.69677760169044,
+          67.73199221284881,
+          73.1421647819063
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-na5-exf6-nxc4-wa0bpo",
+      "name": "Nxc4 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Na5",
+        "exf6",
+        "Nxc4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          5284,
+          1470,
+          1405
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          67.31642694928085,
+          73.43537414965986,
+          73.27402135231317
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-bc5-exf6-qxf6-o-o-gyemx4",
+      "name": "Qd8 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Bc5",
+        "exf6",
+        "Qxf6",
+        "O-O",
+        "O-O",
+        "c3",
+        "dxc3",
+        "Nxc3",
+        "d6",
+        "Nd5",
+        "Qd8"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          4023,
+          3829,
+          3011,
+          3624,
+          2254,
+          1087,
+          1091,
+          4413,
+          6598,
+          2178,
+          1292
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          66.79095202585135,
+          67.58944894228259,
+          66.25705745599468,
+          66.61147902869757,
+          66.25998225377107,
+          67.57129714811407,
+          69.98166819431714,
+          71.66326761840018,
+          69.43770839648379,
+          74.74747474747475,
+          74.61300309597523
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-nd5-bxd5-6p2b5v",
+      "name": "Bxd5 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "Nd5",
+        "Bxd5"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          3872479,
+          3042970,
+          2266,
+          2016
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          78.88349514563106,
+          80.72916666666666
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-d5-bb5-ng4-qxd4-qx2coh",
+      "name": "Qxd4 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "d5",
+        "Bb5",
+        "Ng4",
+        "Qxd4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3872479,
+          3042970,
+          1829131,
+          1336097,
+          21679,
+          1369
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          46.670003405988965,
+          49.78953623876111,
+          57.71714562479819,
+          63.73265157048941
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-d5-bb5-bb4--c3-yvj3tw",
+      "name": "After bxc3 Qe7 O-O",
+      "moves": [
+        "Nf6",
+        "e5",
+        "d5",
+        "Bb5",
+        "Bb4+",
+        "c3",
+        "dxc3",
+        "bxc3",
+        "Qe7",
+        "O-O"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3872479,
+          3042970,
+          1829131,
+          1336097,
+          12896,
+          9960,
+          9852,
+          8322,
+          3176,
+          1402
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          46.670003405988965,
+          49.78953623876111,
+          66.38104838709677,
+          70.2008032128514,
+          70.11266747868453,
+          73.68421052631578,
+          73.42569269521411,
+          80.4564907275321
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-d5-bb5-qe7-o-o-dz8rqp",
+      "name": "After Qe7 O-O Ng4",
+      "moves": [
+        "Nf6",
+        "e5",
+        "d5",
+        "Bb5",
+        "Qe7",
+        "O-O",
+        "Ng4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3872479,
+          3042970,
+          1829131,
+          1336097,
+          12011,
+          10460,
+          1133
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          46.670003405988965,
+          49.78953623876111,
+          61.23137124302722,
+          62.30879541108987,
+          69.77052074139452
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-d5-bb5-a6-bxc6--36pz6e",
+      "name": "After exf6 Qxf6 Qxd4",
+      "moves": [
+        "Nf6",
+        "e5",
+        "d5",
+        "Bb5",
+        "a6",
+        "Bxc6+",
+        "bxc6",
+        "exf6",
+        "Qxf6",
+        "Qxd4"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3872479,
+          3042970,
+          1829131,
+          1336097,
+          4571,
+          4220,
+          4042,
+          3723,
+          3331,
+          1075
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          46.670003405988965,
+          49.78953623876111,
+          74.08663312185517,
+          75.74644549763033,
+          74.7897080653142,
+          76.18855761482676,
+          75.21765235664965,
+          77.86046511627906
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scotch-gambit-nf6-e5-d5-bb5-bd7-exf6-aq29tp",
+      "name": "Qxf6 Line",
+      "moves": [
+        "Nf6",
+        "e5",
+        "d5",
+        "Bb5",
+        "Bd7",
+        "exf6",
+        "Qxf6"
+      ],
+      "eco": "C44",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          3872479,
+          3042970,
+          1829131,
+          1336097,
+          3251,
+          2160,
+          1629
+        ],
+        "winrates": [
+          52.600750062169475,
+          51.69704269184382,
+          46.670003405988965,
+          49.78953623876111,
+          74.5309135650569,
+          79.21296296296296,
+          75.38367096378146
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-01-11T12:31:25.060Z"
+}

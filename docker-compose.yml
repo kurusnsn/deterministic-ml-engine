@@ -1,0 +1,146 @@
+services:
+  eco:
+    build: ./eco-service
+    container_name: eco
+    ports:
+      - "5002:8000"
+    networks:
+      - chess-net
+
+  stockfish:
+    build: ./stockfish-service
+    container_name: stockfish
+    ports:
+      - "5003:5000"
+    networks:
+      - chess-net
+
+  openingbook:
+    build: ./opening-book-service
+    container_name: openingbook
+    ports:
+      - "5004:8001"
+    environment:
+      - REDIS_URL=redis://redis:6379
+      - DATABASE_URL=postgresql://your_db_user:your_db_password@postgres:5432/ostadchess
+    depends_on:
+      - redis
+      - postgres
+    networks:
+      - chess-net
+  import:
+    build: ./import-service
+    container_name: import
+    ports:
+      - "5005:8000"
+    environment:
+      - DATABASE_URL=postgresql://your_db_user:your_db_password@postgres:5432/ostadchess
+    networks:
+      - chess-net
+  redis:
+    image: redis:7
+    container_name: redis
+    networks:
+      - chess-net
+    volumes:
+      - redis-data:/data
+
+  gateway:
+    build: ./gateway-service
+    ports:
+      - "8010:8000"
+    env_file:
+      - ./.env
+    environment:
+      - DATABASE_URL=postgresql://your_db_user:your_db_password@postgres:5432/ostadchess
+      - ALLOW_ANON_STUDIES=false
+      - AUTH_SECRET=${AUTH_SECRET}
+      - MOCK_AUTH_ENABLED=true
+      - MOCK_USER_ID=00000000-0000-0000-0000-000000000001
+      - MOCK_SESSION_ID=00000000-0000-0000-0000-000000000001
+      - MOCK_USER_EMAIL=mock@example.com
+      - MOCK_SUBSCRIPTION_PLAN=plus
+      - MOCK_SUBSCRIPTION_BILLING_CYCLE=monthly
+      - LC0_PREMIUM_ALL=true
+      - STOCKFISH_URL=http://stockfish:5000
+      - ECO_URL=http://eco:8000
+      - OPENINGBOOK_URL=http://openingbook:8001
+      - IMPORT_URL=http://import:8000
+      - PAYMENT_URL=http://payment:8000
+      - NEXT_PUBLIC_PUZZLE_API_URL=http://localhost:8081
+      - FRONTEND_URL=http://localhost:3000
+      - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY}
+      - STRIPE_PRICE_BASIC_MONTHLY=${STRIPE_PRICE_BASIC_MONTHLY}
+      - STRIPE_PRICE_BASIC_ANNUAL=${STRIPE_PRICE_BASIC_ANNUAL}
+      - STRIPE_PRICE_PLUS_MONTHLY=${STRIPE_PRICE_PLUS_MONTHLY}
+      - STRIPE_PRICE_PLUS_ANNUAL=${STRIPE_PRICE_PLUS_ANNUAL}
+      - CORS_ALLOW_ORIGINS=http://localhost:3000,http://localhost:3001,http://localhost:3002,http://localhost:3003,http://localhost:3004,http://localhost:3005,http://localhost:3006,http://localhost:3007,http://localhost:3008,http://localhost:3009,http://localhost:3010,http://localhost:3011,http://localhost:3012,http://localhost:3013,http://localhost:3014,http://localhost:3015,http://localhost:3016,http://localhost:3017,http://localhost:3018,http://localhost:3019,http://localhost:3020,http://127.0.0.1:3000,http://127.0.0.1:3001,http://127.0.0.1:3002,http://127.0.0.1:3003,http://127.0.0.1:3004,http://127.0.0.1:3005,http://127.0.0.1:3006,http://127.0.0.1:3007,http://127.0.0.1:3008,http://127.0.0.1:3009,http://127.0.0.1:3010,http://127.0.0.1:3011,http://127.0.0.1:3012,http://127.0.0.1:3013,http://127.0.0.1:3014,http://127.0.0.1:3015,http://127.0.0.1:3016,http://127.0.0.1:3017,http://127.0.0.1:3018,http://127.0.0.1:3019,http://127.0.0.1:3020
+    volumes:
+      - ./gateway-service:/app
+    command: uvicorn app:app --host 0.0.0.0 --port 8000 --reload
+    depends_on:
+      - eco
+      - stockfish
+      - import
+      - payment
+    networks:
+      - chess-net
+
+  postgres:
+    image: pgvector/pgvector:pg15
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: your_db_user # Choose a username
+      POSTGRES_PASSWORD: your_db_password # Choose a strong password
+      POSTGRES_DB: ostadchess # Choose a database name
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432" # Expose DB port to your local machine for management
+    networks:
+      - chess-net
+
+  payment:
+    build: ./payment-service
+    container_name: payment
+    ports:
+      - "5006:8000"
+    env_file:
+      - ./.env
+    environment:
+      - DATABASE_URL=postgresql://your_db_user:your_db_password@postgres:5432/ostadchess
+      - STRIPE_SECRET_KEY=${STRIPE_SECRET_KEY}
+      - STRIPE_WEBHOOK_SECRET=${STRIPE_WEBHOOK_SECRET}
+      - SUCCESS_URL=http://localhost:3009/pricing?status=success
+      - CANCEL_URL=http://localhost:3009/pricing?status=cancelled
+    depends_on:
+      - postgres
+    networks:
+      - chess-net
+
+  puzzle:
+    build: ./puzzle-service
+    container_name: puzzle
+    ports:
+      - "8081:8081"
+    environment:
+      - DATABASE_URL=postgresql://your_db_user:your_db_password@postgres:5432/ostadchess
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - postgres
+      - redis
+      - gateway
+    networks:
+      - chess-net
+    volumes:
+      - ./puzzle-service:/app
+    command: uvicorn app:app --host 0.0.0.0 --port 8081 --reload
+
+networks:
+  chess-net:
+    driver: bridge
+
+volumes:
+  redis-data:
+  postgres-data:

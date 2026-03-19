@@ -1,0 +1,677 @@
+{
+  "opening": "latvian gambit, 3.bc4",
+  "openingId": "latvian-gambit-3-bc4",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "latvian-gambit-3-bc4-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "f5",
+        "Bc4"
+      ],
+      "eco": "C40"
+    },
+    {
+      "id": "latvian-gambit-3-bc4-fxe4-ng5-d5-jbghqm",
+      "name": "d5 Line",
+      "moves": [
+        "fxe4",
+        "Ng5",
+        "d5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          166620,
+          4787,
+          2250
+        ],
+        "winrates": [
+          55.17704957388069,
+          61.949028619176936,
+          65.02222222222223
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-nxe5-fxe4-nf7-qe7-nxh8-b2ktbn",
+      "name": "Kg1 Line",
+      "moves": [
+        "Nf6",
+        "Nxe5",
+        "fxe4",
+        "Nf7",
+        "Qe7",
+        "Nxh8",
+        "d5",
+        "Bb3",
+        "Bg4",
+        "f3",
+        "exf3+",
+        "Kf2",
+        "Ne4+",
+        "Kg1"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          181102,
+          83013,
+          24394,
+          28683,
+          26855,
+          27359,
+          26655,
+          18023,
+          12910,
+          9871,
+          9810,
+          9037,
+          7114,
+          4156
+        ],
+        "winrates": [
+          47.16899868582346,
+          42.94929709804488,
+          55.901041239649096,
+          60.79733640135272,
+          63.64177992924967,
+          63.31371760663767,
+          64.15119114612644,
+          73.65588414803307,
+          88.66382649109218,
+          93.50623037179618,
+          93.84301732925586,
+          93.86411419718932,
+          96.73882485240371,
+          97.95476419634264
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-nxe5-qe7-d4-d6-nf7-11xq0",
+      "name": "dxc4 Line",
+      "moves": [
+        "Nf6",
+        "Nxe5",
+        "Qe7",
+        "d4",
+        "d6",
+        "Nf7",
+        "Qxe4+",
+        "Qe2",
+        "Qxe2+",
+        "Kxe2",
+        "d5",
+        "Nxh8",
+        "dxc4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          181102,
+          83013,
+          34779,
+          19647,
+          12147,
+          8425,
+          5344,
+          2815,
+          1973,
+          1968,
+          1544,
+          1226,
+          1223
+        ],
+        "winrates": [
+          47.16899868582346,
+          42.94929709804488,
+          49.095718680813135,
+          45.37333944113605,
+          47.29974479295299,
+          45.59643916913947,
+          48.84917664670658,
+          56.696269982238015,
+          58.540293968575774,
+          58.4349593495935,
+          55.47279792746114,
+          55.791190864600324,
+          55.84627964022894
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-nxe5-qe7-d4-nc6-bf7--ttk3io",
+      "name": "bxc6 Line",
+      "moves": [
+        "Nf6",
+        "Nxe5",
+        "Qe7",
+        "d4",
+        "Nc6",
+        "Bf7+",
+        "Kd8",
+        "Nxc6+",
+        "bxc6"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          181102,
+          83013,
+          34779,
+          19647,
+          6774,
+          1659,
+          1649,
+          1465,
+          1229
+        ],
+        "winrates": [
+          47.16899868582346,
+          42.94929709804488,
+          49.095718680813135,
+          45.37333944113605,
+          52.00029524653085,
+          57.655213984327915,
+          57.70163735597331,
+          61.092150170648466,
+          63.95443449959317
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-nxe5-qe7-nf7-qxe4--qe2-s7e9c7",
+      "name": "Re1 Line",
+      "moves": [
+        "Nf6",
+        "Nxe5",
+        "Qe7",
+        "Nf7",
+        "Qxe4+",
+        "Qe2",
+        "Qxe2+",
+        "Kxe2",
+        "d5",
+        "Nxh8",
+        "dxc4",
+        "Re1"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          181102,
+          83013,
+          34779,
+          8021,
+          4878,
+          4464,
+          3103,
+          3034,
+          2559,
+          2066,
+          2053,
+          1480
+        ],
+        "winrates": [
+          47.16899868582346,
+          42.94929709804488,
+          49.095718680813135,
+          54.80613389851639,
+          59.87084870848709,
+          59.12858422939068,
+          61.97228488559459,
+          61.61832564271589,
+          61.4693239546698,
+          61.49564375605034,
+          61.56843643448612,
+          60.304054054054056
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-e4-ne5-d5-bb5--hpj441",
+      "name": "O-O Line",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "e4",
+        "Ne5",
+        "d5",
+        "Bb5+",
+        "c6",
+        "Ba4",
+        "Bxf5",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          181102,
+          42968,
+          21164,
+          6394,
+          30299,
+          4903,
+          4842,
+          2922,
+          2434,
+          1026
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          55.10773010773011,
+          58.992805755395686,
+          59.42440344565827,
+          67.97878849683867,
+          68.16398182569185,
+          68.06981519507187,
+          67.74856203779787,
+          66.5692007797271
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-nc6-ng5-d5-bb5-ib9951",
+      "name": "d3 Line",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "Nc6",
+        "Ng5",
+        "d5",
+        "Bb5",
+        "Bxf5",
+        "Bxc6+",
+        "bxc6",
+        "d3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          181102,
+          42968,
+          7549,
+          34137,
+          33399,
+          18974,
+          14749,
+          5998,
+          5995,
+          1241
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          56.20612001589615,
+          62.55675659841228,
+          63.049791909937426,
+          64.60156002951408,
+          65.58410739711167,
+          67.6975658552851,
+          67.73144286905755,
+          68.57373086220791
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-d5-bb5--c6-ba4-gb6tlp",
+      "name": "After Ba4 Bd6 O-O",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "d5",
+        "Bb5+",
+        "c6",
+        "Ba4",
+        "Bd6",
+        "O-O"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          181102,
+          42968,
+          109355,
+          13357,
+          13301,
+          9651,
+          2568,
+          1258
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          54.78487494856202,
+          60.82578423298646,
+          61.23223817758063,
+          61.48585638793907,
+          63.51246105919003,
+          62.758346581876
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-d5-be2-e4-o092fh",
+      "name": "e4 Line",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "d5",
+        "Be2",
+        "e4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          181102,
+          42968,
+          109355,
+          2773,
+          1534
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          54.78487494856202,
+          57.086188243779304,
+          55.34550195567145
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-d5-nxe5-dxc4-pqkmg",
+      "name": "After d5 Nxe5 dxc4",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "d5",
+        "Nxe5",
+        "dxc4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          181102,
+          42968,
+          109355,
+          2160,
+          2009
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          54.78487494856202,
+          63.7962962962963,
+          64.21105027376804
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-d5-bb3-bd6-d3-jbycsj",
+      "name": "After O-O c6 Re1",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "d5",
+        "Bb3",
+        "Bd6",
+        "d3",
+        "Bxf5",
+        "O-O",
+        "c6",
+        "Re1"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          181102,
+          42968,
+          109355,
+          87557,
+          19530,
+          4124,
+          2816,
+          5195,
+          2161,
+          1080
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          54.78487494856202,
+          53.11168724373836,
+          56.31848438300051,
+          57.49272550921436,
+          58.66477272727273,
+          55.85178055822906,
+          57.820453493752886,
+          59.675925925925924
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-d5-bb3-nc6-d4-cmbtl7",
+      "name": "Bg5 Line",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "d5",
+        "Bb3",
+        "Nc6",
+        "d4",
+        "e4",
+        "Ne5",
+        "Bxf5",
+        "Nxc6",
+        "bxc6",
+        "O-O",
+        "Bd6",
+        "Bg5"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          181102,
+          42968,
+          109355,
+          87557,
+          8533,
+          2360,
+          3420,
+          2839,
+          4798,
+          1823,
+          1822,
+          5644,
+          5071,
+          1968
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          54.78487494856202,
+          53.11168724373836,
+          55.11543419664831,
+          57.47881355932203,
+          60.877192982456144,
+          60.67277210285311,
+          59.30596081700708,
+          64.81075150850246,
+          64.90120746432491,
+          67.08008504606661,
+          68.15223821731414,
+          66.71747967479675
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-d5-bb3-e4-ne5-7jac35",
+      "name": "Ng4 Line",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "d5",
+        "Bb3",
+        "e4",
+        "Ne5",
+        "Bd6",
+        "Ng4"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          181102,
+          42968,
+          109355,
+          87557,
+          39007,
+          4180,
+          4518,
+          1416
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          54.78487494856202,
+          53.11168724373836,
+          53.04817084113108,
+          56.507177033492816,
+          60.40283311199646,
+          64.40677966101696
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "latvian-gambit-3-bc4-nf6-exf5-d5-bb3-e4-nd4-6pkbu8",
+      "name": "Nc3 Line",
+      "moves": [
+        "Nf6",
+        "exf5",
+        "d5",
+        "Bb3",
+        "e4",
+        "Nd4",
+        "Bc5",
+        "c3",
+        "Bxd4",
+        "cxd4",
+        "Bxf5",
+        "O-O",
+        "O-O",
+        "Nc3"
+      ],
+      "eco": "C40",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          181102,
+          42968,
+          109355,
+          87557,
+          39007,
+          25011,
+          15613,
+          5968,
+          4697,
+          4686,
+          4546,
+          3364,
+          2112,
+          1441
+        ],
+        "winrates": [
+          47.16899868582346,
+          54.27178365295104,
+          54.78487494856202,
+          53.11168724373836,
+          53.04817084113108,
+          52.704809883651194,
+          56.22878370588612,
+          58.788538873994646,
+          60.17670853736428,
+          60.14724711907811,
+          60.65772107347118,
+          60.09215219976218,
+          60.91382575757576,
+          60.68702290076335
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T01:28:54.063Z"
+}

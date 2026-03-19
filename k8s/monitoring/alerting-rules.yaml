@@ -1,0 +1,152 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: chess-alerts
+  namespace: monitoring
+  labels:
+    release: monitoring
+spec:
+  groups:
+    - name: chess.latency
+      rules:
+        - alert: HighP95Latency
+          expr: |
+            histogram_quantile(0.95,
+              sum(rate(http_request_duration_ms_bucket[5m])) by (le, service_name)
+            ) > 2000
+          for: 5m
+          labels:
+            severity: warning
+          annotations:
+            summary: "High p95 latency on {{ $labels.service_name }}"
+            description: "p95 request latency is {{ $value | humanizeDuration }}ms (threshold 2000ms) on service {{ $labels.service_name }}."
+            dashboard: "https://grafana.chessvector.com/d/perf-overview"
+
+        - alert: HighP99Latency
+          expr: |
+            histogram_quantile(0.99,
+              sum(rate(http_request_duration_ms_bucket[5m])) by (le, service_name)
+            ) > 5000
+          for: 5m
+          labels:
+            severity: critical
+          annotations:
+            summary: "Critical p99 latency on {{ $labels.service_name }}"
+            description: "p99 request latency is {{ $value | humanizeDuration }}ms (threshold 5000ms) on service {{ $labels.service_name }}."
+            dashboard: "https://grafana.chessvector.com/d/perf-overview"
+
+    - name: chess.errors
+      rules:
+        - alert: HighErrorRate
+          expr: |
+            (
+              sum(rate(http_requests_total{http_status_code=~"5.."}[5m])) by (service_name)
+              /
+              sum(rate(http_requests_total[5m])) by (service_name)
+            ) > 0.01
+          for: 5m
+          labels:
+            severity: critical
+          annotations:
+            summary: "High 5xx error rate on {{ $labels.service_name }}"
+            description: "Error rate is {{ $value | humanizePercentage }} (threshold 1%) on service {{ $labels.service_name }}."
+            dashboard: "https://grafana.chessvector.com/d/perf-overview"
+
+        - alert: ExternalAPIErrors
+          expr: |
+            (
+              sum(rate(external_api_duration_ms_count{status=~"5.."}[5m])) by (service_name)
+              /
+              sum(rate(external_api_duration_ms_count[5m])) by (service_name)
+            ) > 0.05
+          for: 5m
+          labels:
+            severity: warning
+          annotations:
+            summary: "External API errors elevated on {{ $labels.service_name }}"
+            description: "External API error rate is {{ $value | humanizePercentage }} (threshold 5%) on {{ $labels.service_name }}."
+
+    - name: chess.pods
+      rules:
+        - alert: PodCrashLooping
+          expr: |
+            increase(kube_pod_container_status_restarts_total{namespace=~"chess-.*"}[10m]) > 3
+          for: 0m
+          labels:
+            severity: critical
+          annotations:
+            summary: "Pod {{ $labels.pod }} is crash-looping"
+            description: "Pod {{ $labels.pod }} in namespace {{ $labels.namespace }} has restarted {{ $value }} times in the last 10 minutes."
+
+        - alert: PodNotReady
+          expr: |
+            kube_pod_status_ready{namespace=~"chess-.*", condition="true"} == 0
+          for: 5m
+          labels:
+            severity: warning
+          annotations:
+            summary: "Pod {{ $labels.pod }} not ready"
+            description: "Pod {{ $labels.pod }} in namespace {{ $labels.namespace }} has been unready for 5 minutes."
+
+        - alert: DeploymentReplicasMismatch
+          expr: |
+            kube_deployment_spec_replicas{namespace=~"chess-.*"}
+            != kube_deployment_status_replicas_available{namespace=~"chess-.*"}
+          for: 10m
+          labels:
+            severity: warning
+          annotations:
+            summary: "Deployment {{ $labels.deployment }} has replica mismatch"
+            description: "Deployment {{ $labels.deployment }} in {{ $labels.namespace }} has {{ $value }} available replicas, expected {{ $labels.spec_replicas }}."
+
+    - name: chess.otel
+      rules:
+        - alert: OtelCollectorDroppingSpans
+          expr: |
+            rate(otelcol_processor_dropped_spans_total[5m]) > 0
+          for: 5m
+          labels:
+            severity: warning
+          annotations:
+            summary: "OTEL Collector is dropping spans"
+            description: "The OTEL collector is dropping {{ $value | humanize }} spans/sec. Check memory limits or Tempo connectivity."
+
+        - alert: OtelCollectorDown
+          expr: |
+            up{job="otel-collector"} == 0
+          for: 2m
+          labels:
+            severity: critical
+          annotations:
+            summary: "OTEL Collector is down"
+            description: "The OTEL Collector has been unreachable for 2 minutes. All traces, metrics, and logs will be lost."
+
+    - name: chess.resources
+      rules:
+        - alert: HighDBPoolUsage
+          expr: db_pool_in_use > 8
+          for: 5m
+          labels:
+            severity: warning
+          annotations:
+            summary: "DB connection pool near exhaustion on {{ $labels.service_name }}"
+            description: "DB pool has {{ $value }} connections in use. Consider increasing pool size or investigating slow queries."
+
+        - alert: HighRedisConnections
+          expr: redis_connections_in_use > 20
+          for: 5m
+          labels:
+            severity: warning
+          annotations:
+            summary: "Redis connection pool near exhaustion on {{ $labels.service_name }}"
+            description: "Redis pool has {{ $value }} connections in use."
+
+        - alert: HighGPUQueueWait
+          expr: |
+            histogram_quantile(0.95, sum(rate(gpu_queue_wait_ms_bucket[5m])) by (le)) > 10000
+          for: 5m
+          labels:
+            severity: warning
+          annotations:
+            summary: "GPU analysis queue wait is high"
+            description: "p95 GPU queue wait is {{ $value | humanizeDuration }}ms. Stockfish/analysis workers may be overloaded."

@@ -1,0 +1,483 @@
+{
+  "id": "dutch-krejcik-gambit",
+  "name": "Krejcik gambit",
+  "opening": "Krejcik gambit",
+  "generatedAt": "2026-01-03T19:44:19.143Z",
+  "lines": [
+    {
+      "id": "dutch-krejcik-gambit-fxg4-h3-gxh3-nxh3-nf6-qd3-tp39xy",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "h3",
+        "gxh3",
+        "Nxh3",
+        "Nf6",
+        "Qd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          83941,
+          44748,
+          12818,
+          6966,
+          4201,
+          1053
+        ],
+        "winrates": [
+          55.160767682062406,
+          56.86287655314204,
+          63.937431736620375,
+          69.01378122308356,
+          69.69769102594621,
+          76.87559354226022
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-d6-nc3-fxg4-f1b91l",
+      "name": "Krejcik gambit: d6 Forcing Line",
+      "moves": [
+        "d6",
+        "Nc3",
+        "fxg4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          13140,
+          1909,
+          1352
+        ],
+        "winrates": [
+          55.95509893455098,
+          59.926663174436875,
+          60.61390532544378
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-e6-gxf5-exf5-e4-7ntn9z",
+      "name": "Krejcik gambit: e6 Forcing Line",
+      "moves": [
+        "e6",
+        "gxf5",
+        "exf5",
+        "e4"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10284,
+          6232,
+          6036,
+          1493
+        ],
+        "winrates": [
+          55.52314274601322,
+          56.0012836970475,
+          55.989065606361834,
+          64.6014735432016
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-g6-gxf5-okjbdu",
+      "name": "Krejcik gambit: g6 Forcing Line",
+      "moves": [
+        "g6",
+        "gxf5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1494,
+          1223
+        ],
+        "winrates": [
+          69.61178045515395,
+          71.30008176614882
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-h3-gxh3-nxh3-nf6-qd3-tp39xy",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "h3",
+        "gxh3",
+        "Nxh3",
+        "Nf6",
+        "Qd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          83941,
+          44748,
+          12818,
+          6966,
+          4201,
+          1053
+        ],
+        "winrates": [
+          55.160767682062406,
+          56.86287655314204,
+          63.937431736620375,
+          69.01378122308356,
+          69.69769102594621,
+          76.87559354226022
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-h3-gxh3-nxh3-nf6-qd3-tp39xy",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "h3",
+        "gxh3",
+        "Nxh3",
+        "Nf6",
+        "Qd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          83941,
+          44748,
+          12818,
+          6966,
+          4201,
+          1053
+        ],
+        "winrates": [
+          55.160767682062406,
+          56.86287655314204,
+          63.937431736620375,
+          69.01378122308356,
+          69.69769102594621,
+          76.87559354226022
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-h3-d6-hxg4-bxg4-qd3-ncwlo3",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "h3",
+        "d6",
+        "hxg4",
+        "Bxg4",
+        "Qd3",
+        "Nf6",
+        "Bg5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          83941,
+          44748,
+          4806,
+          5228,
+          4999,
+          2241,
+          1775,
+          1037
+        ],
+        "winrates": [
+          55.160767682062406,
+          56.86287655314204,
+          57.00166458593425,
+          57.134659525631214,
+          56.99139827965594,
+          58.366800535475235,
+          58.281690140845065,
+          62.39151398264223
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-h3-nf6-hxg4-nxg4-qd3-ezzg2w",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "h3",
+        "Nf6",
+        "hxg4",
+        "Nxg4",
+        "Qd3",
+        "Nf6",
+        "Rxh7",
+        "Rxh7",
+        "Qg6#"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          83941,
+          44748,
+          4555,
+          57240,
+          37530,
+          31626,
+          18398,
+          17894,
+          9087,
+          9081
+        ],
+        "winrates": [
+          55.160767682062406,
+          56.86287655314204,
+          62.65642151481888,
+          72.562893081761,
+          80.69544364508393,
+          83.75071143995447,
+          96.96706163713446,
+          97.88476584329942,
+          99.90645977770441,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-h3-gxh3-nxh3-nf6-qd3-tp39xy",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "h3",
+        "gxh3",
+        "Nxh3",
+        "Nf6",
+        "Qd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          83941,
+          44748,
+          12818,
+          6966,
+          4201,
+          1053
+        ],
+        "winrates": [
+          55.160767682062406,
+          56.86287655314204,
+          63.937431736620375,
+          69.01378122308356,
+          69.69769102594621,
+          76.87559354226022
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-h3-gxh3-bxh3-nf6-gqc25t",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "h3",
+        "gxh3",
+        "Bxh3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          83941,
+          44748,
+          12818,
+          4295,
+          2331
+        ],
+        "winrates": [
+          55.160767682062406,
+          56.86287655314204,
+          63.937431736620375,
+          56.740395809080326,
+          56.649506649506655
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-h3-gxh3-nxh3-nf6-qd3-tp39xy",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "h3",
+        "gxh3",
+        "Nxh3",
+        "Nf6",
+        "Qd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          83941,
+          44748,
+          12818,
+          6966,
+          4201,
+          1053
+        ],
+        "winrates": [
+          55.160767682062406,
+          56.86287655314204,
+          63.937431736620375,
+          69.01378122308356,
+          69.69769102594621,
+          76.87559354226022
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-e4-nf6-e5-nd5-5t4ew1",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "e4",
+        "Nf6",
+        "e5",
+        "Nd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          83941,
+          29483,
+          2473,
+          1915,
+          1528
+        ],
+        "winrates": [
+          55.160767682062406,
+          53.31886171692162,
+          60.51354630004043,
+          62.01044386422977,
+          62.33638743455497
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-e4-d6-nc3-nf6-h3-nd3tpo",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "e4",
+        "d6",
+        "Nc3",
+        "Nf6",
+        "h3"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          83941,
+          29483,
+          10773,
+          2282,
+          1450,
+          1043
+        ],
+        "winrates": [
+          55.160767682062406,
+          53.31886171692162,
+          53.44843590457625,
+          56.35407537248028,
+          58.27586206896552,
+          59.012464046021094
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "dutch-krejcik-gambit-fxg4-e4-d6-nc3-nf6-h3-nd3tpo",
+      "name": "Krejcik gambit: fxg4 Forcing Line",
+      "moves": [
+        "fxg4",
+        "e4",
+        "d6",
+        "Nc3",
+        "Nf6",
+        "h3"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          83941,
+          29483,
+          10773,
+          2282,
+          1450,
+          1043
+        ],
+        "winrates": [
+          55.160767682062406,
+          53.31886171692162,
+          53.44843590457625,
+          56.35407537248028,
+          58.27586206896552,
+          59.012464046021094
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

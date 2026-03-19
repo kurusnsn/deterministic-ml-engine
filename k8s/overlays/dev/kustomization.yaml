@@ -1,0 +1,110 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: ostadchess-dev
+
+resources:
+  - ../../base
+  - namespace.yaml
+  - ingress.yaml
+
+namePrefix: dev-
+
+# Image overrides for dev environment.
+# Gateway uses GitLab registry image so dev works on remote clusters
+# where the local k3d registry hostname is not resolvable.
+images:
+  - name: ostadchess/gateway
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/gateway
+    newTag: latest
+  - name: ostadchess/puzzle
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/puzzle
+    newTag: latest
+  - name: ostadchess/stockfish
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/stockfish
+    newTag: latest
+  - name: ostadchess/eco
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/eco
+    newTag: latest
+  - name: ostadchess/opening-book
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/opening-book
+    newTag: latest
+  - name: ostadchess/import
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/import
+    newTag: latest
+  - name: ostadchess/payment
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/payment
+    newTag: latest
+  - name: ostadchess/ui
+    newName: registry.gitlab.com/kurusnsn-group/deterministic-ml-engine/ui
+    newTag: latest
+
+# Patches for dev environment
+patches:
+  - path: patches/resource-limits.yaml
+  - path: patches/redis-url.yaml
+
+# Generate secrets for dev environment (local testing only)
+secretGenerator:
+  - name: postgres-secret
+    literals:
+      - POSTGRES_USER=ostadchess
+      - POSTGRES_PASSWORD=devpassword123
+      - POSTGRES_DB=ostadchess
+  - name: database-url-secret
+    literals:
+      - DATABASE_URL=postgresql://ostadchess:devpassword123@dev-postgres:5432/ostadchess
+  - name: gateway-secret
+    literals:
+      - SUPABASE_JWT_SECRET=dev-jwt-secret-for-local-testing-only
+      - OPENAI_API_KEY=dev-placeholder-not-a-real-key
+  - name: stripe-secret
+    literals:
+      - STRIPE_SECRET_KEY=dev_placeholder_not_real
+      - STRIPE_WEBHOOK_SECRET=dev_placeholder_webhook
+      - STRIPE_PRICE_BASIC_MONTHLY=price_1SyjnB8JOjcWKZccJPX6IypE
+      - STRIPE_PRICE_BASIC_ANNUAL=price_1SyjnD8JOjcWKZccHr8bnP5V
+      - STRIPE_PRICE_PLUS_MONTHLY=price_1SyjnF8JOjcWKZccqocSL2t9
+      - STRIPE_PRICE_PLUS_ANNUAL=price_1SyjnH8JOjcWKZcc1tXZ9y7R
+      - FRONTEND_URL=https://chessvector.com
+      - SUCCESS_URL=http://localhost:3100/pricing?status=success
+      - CANCEL_URL=http://localhost:3100/pricing?status=cancelled
+  - name: jwt-secret
+    literals:
+      - SUPABASE_JWT_SECRET=dev-jwt-secret-for-local-testing-only
+
+# ConfigMap overrides for dev
+configMapGenerator:
+  - name: env-config
+    literals:
+      - DEPLOYMENT_ENV=development
+  - name: gateway-config
+    behavior: merge
+    literals:
+      - CORS_ALLOW_ORIGINS=http://localhost:3000,http://localhost:3100,http://localhost:8080
+      - STOCKFISH_URL=http://dev-stockfish-service:5000
+      - PUZZLE_URL=http://dev-puzzle-service:8081
+      - ECO_URL=http://dev-eco-service:8000
+      - PAYMENT_URL=http://dev-payment-service:8000
+      - IMPORT_URL=http://dev-import-service:8000
+      - OPENINGBOOK_URL=http://dev-opening-book-service:8001
+      - MOCK_AUTH_ENABLED=true
+      - MOCK_USER_ID=00000000-0000-0000-0000-000000000001
+      - MOCK_SESSION_ID=00000000-0000-0000-0000-000000000001
+      - MOCK_USER_EMAIL=mock@example.com
+      - MOCK_SUBSCRIPTION_PLAN=plus
+      - MOCK_SUBSCRIPTION_BILLING_CYCLE=monthly
+      - LC0_PREMIUM_ALL=true
+  - name: ui-config
+    behavior: merge
+    literals:
+      - NODE_ENV=development
+      - GATEWAY_INTERNAL_URL=http://dev-gateway-service:8000
+      - NEXT_PUBLIC_GATEWAY_URL=/api/gateway
+      - NEXT_PUBLIC_PUZZLE_API_URL=http://dev-puzzle-service:8081
+      - NEXT_PUBLIC_MOCK_AUTH_ENABLED=true
+      - NEXT_PUBLIC_MOCK_USER_ID=00000000-0000-0000-0000-000000000001
+      - NEXT_PUBLIC_MOCK_USER_EMAIL=mock@example.com
+      - NEXT_PUBLIC_MOCK_USER_NAME=Mock User
+      - NEXT_PUBLIC_MOCK_SESSION_ID=00000000-0000-0000-0000-000000000001
+      - NEXT_PUBLIC_MOCK_SUBSCRIPTION_PLAN=plus

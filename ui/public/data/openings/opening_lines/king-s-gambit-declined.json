@@ -1,0 +1,2143 @@
+{
+  "opening": "King's Gambit Declined",
+  "openingId": "king-s-gambit-declined",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "king-s-gambit-declined-line-0",
+      "name": "Mafia defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "c5"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-1",
+      "name": "Norwalde variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Qf6"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-2",
+      "name": "classical variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-3",
+      "name": "2...Nf6",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Nf6"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-4",
+      "name": "Falkbeer counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-5",
+      "name": "Falkbeer, Tartakower variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "Nf3"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-6",
+      "name": "Falkbeer, Milner-Barry variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "Nc3"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-7",
+      "name": "Falkbeer counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-8",
+      "name": "Tumbleweed gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Kf2"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-9",
+      "name": "Orsini gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "b3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-10",
+      "name": "Pawn's gambit (Stamma gambit)",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "h4"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-11",
+      "name": "Schurig gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bd3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-12",
+      "name": "Carrera (Basman) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Qe2"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-13",
+      "name": "Villemson (Steinitz) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "d4"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-14",
+      "name": "Keres (Mason-Steinitz) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nc3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-15",
+      "name": "Breyer gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Qf3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-16",
+      "name": "Lesser bishop's (Petroff-Jaenisch-Tartakower) gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Be2"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-17",
+      "name": "bishop's gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-18",
+      "name": "Keene's defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Qh4+",
+        "g3",
+        "Qe7"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-19",
+      "name": "Nimzovich counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "c6"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-20",
+      "name": "Falkbeer, 3...e4",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-21",
+      "name": "bishop's gambit, Bryan counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "b5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-22",
+      "name": "bishop's gambit, Steinitz defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Ne7"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-23",
+      "name": "bishop's gambit, Maurian defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Nc6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-24",
+      "name": "bishop's gambit, Ruy Lopez defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "c6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-25",
+      "name": "bishop's gambit, Lopez-Gianutio counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "f5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-26",
+      "name": "bishop's gambit, Bledow variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-27",
+      "name": "bishop's gambit, Cozio (Morphy) defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Nf6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-28",
+      "name": "Bonsch-Osmolovsky variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Ne7"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-declined-line-29",
+      "name": "Gianutio counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "f5"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-declined-line-30",
+      "name": "Fischer defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "d6"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-declined-line-31",
+      "name": "Becker defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "h6"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-declined-line-32",
+      "name": "Schallop defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Nf6"
+      ],
+      "eco": "C34"
+    },
+    {
+      "id": "king-s-gambit-declined-line-33",
+      "name": "Cunningham defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Be7"
+      ],
+      "eco": "C35"
+    },
+    {
+      "id": "king-s-gambit-declined-line-34",
+      "name": "Abbazia defence (classical defence, modern defence[!])",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "d5"
+      ],
+      "eco": "C36"
+    },
+    {
+      "id": "king-s-gambit-declined-line-35",
+      "name": "classical, 4.c3",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "c3"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-36",
+      "name": "classical, Soldatenkov variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "fxe5"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-37",
+      "name": "classical, Heath variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "b4"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-38",
+      "name": "Falkbeer, Nimzovich variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "Bb5+"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-39",
+      "name": "Falkbeer, 4.d3",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-40",
+      "name": "bishop's gambit, Bogolyubov variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Nf6",
+        "Nc3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-41",
+      "name": "Quaade gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Nc3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-42",
+      "name": "Rosentreter gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "d4"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-43",
+      "name": "King's knight's gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-44",
+      "name": "classical, Hanham variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "Nc3",
+        "Nd7"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-45",
+      "name": "classical counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "c3",
+        "f5"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-46",
+      "name": "bishop's gambit, Greco variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "Bc5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-47",
+      "name": "bishop's gambit, classical defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-48",
+      "name": "bishop's gambit, Boden defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "Nc6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-49",
+      "name": "bishop's gambit, Bryan counter-gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "b5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-50",
+      "name": "bishop's gambit, Anderssen variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "c6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-51",
+      "name": "bishop's gambit, Morphy variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "Nf6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-52",
+      "name": "bishop's gambit, Jaenisch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Nf6",
+        "Nc3",
+        "c6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-53",
+      "name": "Cunningham, Euwe defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Be7",
+        "Bc4",
+        "Nf6"
+      ],
+      "eco": "C35"
+    },
+    {
+      "id": "king-s-gambit-declined-line-54",
+      "name": "Abbazia defence, modern variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "d5",
+        "exd5",
+        "Nf6"
+      ],
+      "eco": "C36"
+    },
+    {
+      "id": "king-s-gambit-declined-line-55",
+      "name": "Blachly gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Nc6"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-56",
+      "name": "Norwalde variation, Buecker gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Qf6",
+        "Nf3",
+        "Qxf4",
+        "Nc3",
+        "Bb4",
+        "Bc4"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-57",
+      "name": "Falkbeer, Rubinstein variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "Nc3",
+        "Nf6",
+        "Qe2"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-58",
+      "name": "Falkbeer, 5.de",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-declined-line-59",
+      "name": "Falkbeer, Keres variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "Nd2"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-declined-line-60",
+      "name": "Falkbeer, Reti variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "Qe2"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-declined-line-61",
+      "name": "bishop's gambit, classical defence, Cozio attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Qf3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-62",
+      "name": "bishop's gambit, Paulsen attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Nf6",
+        "Nc3",
+        "Bb4",
+        "e5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-63",
+      "name": "Cunningham, Bertin gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Be7",
+        "Bc4",
+        "Bh4+",
+        "g3"
+      ],
+      "eco": "C35"
+    },
+    {
+      "id": "king-s-gambit-declined-line-64",
+      "name": "Soerensen gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "d4",
+        "g4",
+        "Ne5"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-65",
+      "name": "Lolli gambit (wild Muzio gambit)",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Bxf7+"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-66",
+      "name": "Ghulam Kassim gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "d4"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-67",
+      "name": "MacDonnell gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Nc3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-68",
+      "name": "Salvio gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-69",
+      "name": "Muzio gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-70",
+      "name": "Hanstein gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Bg7",
+        "O-O"
+      ],
+      "eco": "C38"
+    },
+    {
+      "id": "king-s-gambit-declined-line-71",
+      "name": "Philidor gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Bg7",
+        "h4"
+      ],
+      "eco": "C38"
+    },
+    {
+      "id": "king-s-gambit-declined-line-72",
+      "name": "Allgaier gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-73",
+      "name": "bishop's gambit, Boren-Svenonius variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "Qh4+",
+        "Kf1",
+        "Bd6"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-74",
+      "name": "Muzio gambit, Kling and Horwitz counter-attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "Qe7"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-75",
+      "name": "Muzio gambit, Brentano defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "d5"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-76",
+      "name": "Allgaier, Schlechter defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "Nf6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-77",
+      "name": "Kieseritsky, Paulsen defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Bg7"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-78",
+      "name": "Kieseritsky, long whip (Stockwhip, classical) defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "h5"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-79",
+      "name": "Kieseritsky, Brentano (Campbell) defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "d5"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-80",
+      "name": "Kieseritsky, Salvio (Rosenthal) defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Qe7"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-81",
+      "name": "Kieseritsky, Polerio defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Be7"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-82",
+      "name": "Kieseritsky, Neumann defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Nc6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-83",
+      "name": "Kieseritsky, Kolisch defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "d6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-84",
+      "name": "Kieseritsky, Berlin defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Nf6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-85",
+      "name": "classical, Marshall attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "c3",
+        "Bg4",
+        "fxe5",
+        "dxe5",
+        "Qa4+"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-86",
+      "name": "Falkbeer, Charousek gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "Nxe4",
+        "Qe2"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-declined-line-87",
+      "name": "bishop's gambit, Chigorin's attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "d5",
+        "Bxd5",
+        "g5",
+        "g3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-88",
+      "name": "bishop's gambit, McDonnell attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Nc3",
+        "Bg7",
+        "g3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-89",
+      "name": "bishop's gambit, Gifford variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "g3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-90",
+      "name": "Kieseritsky, Berlin defence, 6.Bc4",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Nf6",
+        "Bc4"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-91",
+      "name": "Falkbeer, Morphy gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "Nc3",
+        "Bb4",
+        "Bd2",
+        "e3"
+      ],
+      "eco": "C31"
+    },
+    {
+      "id": "king-s-gambit-declined-line-92",
+      "name": "bishop's gambit, classical defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Nc3",
+        "Bg7",
+        "d4",
+        "Ne7"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-93",
+      "name": "Lopez-Gianutio counter-gambit, Hein variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "f5",
+        "Qe2",
+        "Qh4+",
+        "Kd1",
+        "fxe4",
+        "Nc3",
+        "Kd8"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-94",
+      "name": "Cochrane gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5",
+        "Qh4+",
+        "Kf1",
+        "f3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-95",
+      "name": "Herzfeld gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5",
+        "Qh4+",
+        "Kf1",
+        "Nc6"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-96",
+      "name": "Muzio gambit, From defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Qe7"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-97",
+      "name": "Muzio gambit, Holloway defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Nc6"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-98",
+      "name": "Kieseritsky, Berlin defence, Riviere variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Nf6",
+        "Nxg4",
+        "d5"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-99",
+      "name": "classical, Reti variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "c3",
+        "f5",
+        "fxe5",
+        "dxe5",
+        "d4",
+        "exd4",
+        "Bc4"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-100",
+      "name": "bishop's gambit, Grimm attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Nc3",
+        "Bg7",
+        "d4",
+        "d6",
+        "e5"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-101",
+      "name": "bishop's gambit, McDonnell attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Nc3",
+        "Bg7",
+        "d4",
+        "Ne7",
+        "g3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-102",
+      "name": "bishop's gambit, Fraser variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Bc4",
+        "Qh4+",
+        "Kf1",
+        "g5",
+        "Nc3",
+        "Bg7",
+        "g3",
+        "fxg3",
+        "Qf3"
+      ],
+      "eco": "C33"
+    },
+    {
+      "id": "king-s-gambit-declined-line-103",
+      "name": "Cunningham, three pawns gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "Be7",
+        "Bc4",
+        "Bh4+",
+        "g3",
+        "fxg3",
+        "O-O",
+        "gxh2+",
+        "Kh1"
+      ],
+      "eco": "C35"
+    },
+    {
+      "id": "king-s-gambit-declined-line-104",
+      "name": "Philidor gambit, Schultz variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Bg7",
+        "h4",
+        "h6",
+        "d4",
+        "d6",
+        "Qd3"
+      ],
+      "eco": "C38"
+    },
+    {
+      "id": "king-s-gambit-declined-line-105",
+      "name": "Allgaier, Thorold variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "d4"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-106",
+      "name": "Allgaier, Blackburne gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "Nc3"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-107",
+      "name": "Allgaier, Walker attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "Bc4+"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-108",
+      "name": "Kieseritsky, Brentano defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "d5",
+        "d4",
+        "Nf6",
+        "Bxf4"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-109",
+      "name": "Kieseritsky, Salvio defence, Cozio variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Qe7",
+        "d4",
+        "f5",
+        "Bc4"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-110",
+      "name": "Falkbeer, main line, 7...Bf5",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "Nxe4",
+        "Nf3",
+        "Bc5",
+        "Qe2",
+        "Bf5"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-declined-line-111",
+      "name": "Abbazia defence, Botvinnik variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "d5",
+        "exd5",
+        "Nf6",
+        "Bb5+",
+        "c6",
+        "dxc6",
+        "bxc6",
+        "Bc4",
+        "Nd5"
+      ],
+      "eco": "C36"
+    },
+    {
+      "id": "king-s-gambit-declined-line-112",
+      "name": "Silberschmidt gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5",
+        "Qh4+",
+        "Kf1",
+        "Nh6",
+        "d4",
+        "f3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-113",
+      "name": "Salvio gambit, Anderssen counter-attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Ne5",
+        "Qh4+",
+        "Kf1",
+        "Nh6",
+        "d4",
+        "d6"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-114",
+      "name": "Falkbeer, Charousek variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "Nxe4",
+        "Qe2",
+        "Qxd5",
+        "Nd2",
+        "f5",
+        "g4"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-declined-line-115",
+      "name": "double Muzio gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Qf6",
+        "e5",
+        "Qxe5",
+        "Bxf7+"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-116",
+      "name": "Kieseritsky, long whip defence, Jaenisch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "h5",
+        "Bc4",
+        "Rh7",
+        "d4",
+        "Bh6",
+        "Nc3"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-117",
+      "name": "Kieseritsky, Brentano defence, Caro variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "d5",
+        "d4",
+        "Nf6",
+        "Bxf4",
+        "Nxe4",
+        "Nd2"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-118",
+      "name": "Kieseritsky, Rice gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "Nf6",
+        "Bc4",
+        "d5",
+        "exd5",
+        "Bd6",
+        "O-O"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-119",
+      "name": "classical, Svenonius variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "Bc5",
+        "Nf3",
+        "d6",
+        "Nc3",
+        "Nf6",
+        "Bc4",
+        "Nc6",
+        "d3",
+        "Bg4",
+        "h3",
+        "Bxf3",
+        "Qxf3",
+        "exf4"
+      ],
+      "eco": "C30"
+    },
+    {
+      "id": "king-s-gambit-declined-line-120",
+      "name": "Falkbeer, Tarrasch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "Nxe4",
+        "Nf3",
+        "Bc5",
+        "Qe2",
+        "Bf5",
+        "g4",
+        "O-O"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-declined-line-121",
+      "name": "Allgaier, Horny defence",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "Qxg4",
+        "Nf6",
+        "Qxf4",
+        "Bd6"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-122",
+      "name": "Falkbeer, Alapin variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "d5",
+        "exd5",
+        "e4",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "Nxe4",
+        "Nf3",
+        "Bc5",
+        "Qe2",
+        "Bf2+",
+        "Kd1",
+        "Qxd5+",
+        "Nfd2"
+      ],
+      "eco": "C32"
+    },
+    {
+      "id": "king-s-gambit-declined-line-123",
+      "name": "Allgaier, Urusov attack",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "Bc4+",
+        "d5",
+        "Bxd5+",
+        "Kg7",
+        "d4"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-124",
+      "name": "Kieseritsky, Brentano defence, Kaplanek variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ne5",
+        "d5",
+        "d4",
+        "Nf6",
+        "exd5",
+        "Qxd5",
+        "Nc3",
+        "Bb4",
+        "Kf2"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-125",
+      "name": "Lolli gambit, Young variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "Bxf7+",
+        "Kxf7",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Qf6",
+        "d4",
+        "Qxd4+",
+        "Be3",
+        "Qf6",
+        "Nc3"
+      ],
+      "eco": "C37"
+    },
+    {
+      "id": "king-s-gambit-declined-line-126",
+      "name": "Greco gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "Bg7",
+        "h4",
+        "h6",
+        "d4",
+        "d6",
+        "Nc3",
+        "c6",
+        "hxg5",
+        "hxg5",
+        "Rxh8",
+        "Bxh8",
+        "Ne5"
+      ],
+      "eco": "C38"
+    },
+    {
+      "id": "king-s-gambit-declined-line-127",
+      "name": "Allgaier, Cook variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "h4",
+        "g4",
+        "Ng5",
+        "h6",
+        "Nxf7",
+        "Kxf7",
+        "d4",
+        "d5",
+        "Bxf4",
+        "dxe4",
+        "Bc4+",
+        "Kg7",
+        "Be5+"
+      ],
+      "eco": "C39"
+    },
+    {
+      "id": "king-s-gambit-declined-line-128",
+      "name": "Muzio gambit, Paulsen variation",
+      "moves": [
+        "e4",
+        "e5",
+        "f4",
+        "exf4",
+        "Nf3",
+        "g5",
+        "Bc4",
+        "g4",
+        "O-O",
+        "gxf3",
+        "Qxf3",
+        "Qf6",
+        "e5",
+        "Qxe5",
+        "d3",
+        "Bh6",
+        "Nc3",
+        "Ne7",
+        "Bd2",
+        "Nbc6",
+        "Rae1"
+      ],
+      "eco": "C37"
+    }
+  ],
+  "generatedAt": "1.0"
+}

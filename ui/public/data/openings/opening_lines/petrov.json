@@ -1,0 +1,1310 @@
+{
+  "opening": "petrov",
+  "openingId": "petrov",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "petrov-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nc3"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-1",
+      "name": "Italian variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Bc4"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-2",
+      "name": "Damiano variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "Nxe4"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-3",
+      "name": "Cochrane gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nxf7"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-4",
+      "name": "Paulsen attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nc4"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-5",
+      "name": "Urusov gambit",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "Bc4"
+      ],
+      "eco": "C43"
+    },
+    {
+      "id": "petrov-line-6",
+      "name": "French attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d3"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-7",
+      "name": "Kaufmann attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "c4"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-8",
+      "name": "Nimzovich attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "Nc3"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-9",
+      "name": "Cozio (Lasker) attack",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "Qe2"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-10",
+      "name": "modern attack, main line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Ne4",
+        "Qxd4"
+      ],
+      "eco": "C43"
+    },
+    {
+      "id": "petrov-line-11",
+      "name": "classical attack, close variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "Nf6"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-12",
+      "name": "modern attack, Bardeleben variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "d4",
+        "exd4",
+        "e5",
+        "Ne4",
+        "Qe2",
+        "Nc5",
+        "Nxd4",
+        "Nc6"
+      ],
+      "eco": "C43"
+    },
+    {
+      "id": "petrov-line-13",
+      "name": "classical attack, Mason variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bd3",
+        "Be7",
+        "O-O",
+        "O-O"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-14",
+      "name": "modern attack, Trifunovic variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "d4",
+        "Nxe4",
+        "Bd3",
+        "d5",
+        "Nxe5",
+        "Bd6",
+        "O-O",
+        "O-O",
+        "c4",
+        "Bxe5"
+      ],
+      "eco": "C43"
+    },
+    {
+      "id": "petrov-line-15",
+      "name": "classical attack, Jaenisch variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bd3",
+        "Be7",
+        "O-O",
+        "Nc6",
+        "c4"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-16",
+      "name": "classical attack, Berger variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bd3",
+        "Be7",
+        "O-O",
+        "Nc6",
+        "Re1",
+        "Bg4",
+        "c3",
+        "f5",
+        "Nbd2"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-17",
+      "name": "classical attack, Maroczy variation",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bd3",
+        "Be7",
+        "O-O",
+        "Nc6",
+        "Re1",
+        "Bg4",
+        "c3",
+        "f5",
+        "c4",
+        "Bh4"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-line-18",
+      "name": "classical attack, Marshall trap",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nf6",
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bd3",
+        "Bd6",
+        "O-O",
+        "O-O",
+        "c4",
+        "Bg4",
+        "cxd5",
+        "f5",
+        "Re1",
+        "Bxh2+"
+      ],
+      "eco": "C42"
+    },
+    {
+      "id": "petrov-nxe5-d6-d4-dxe5-dxe5-qxd1--iwcznl",
+      "name": "Nxe4 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "d4",
+        "dxe5",
+        "dxe5",
+        "Qxd1+",
+        "Kxd1",
+        "Nxe4"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15520205,
+          6130301,
+          7274,
+          7248,
+          3512,
+          2971,
+          2882,
+          2752
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          77.02777014022546,
+          78.62168874172185,
+          79.22835990888383,
+          82.88455065634467,
+          82.3560027758501,
+          82.77616279069767
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-ng4-bxg4-f3-ywp4ar",
+      "name": "f3 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Ng4",
+        "Bxg4",
+        "f3"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15520205,
+          6130301,
+          6186,
+          3335,
+          2451
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          74.7009376010346,
+          81.76911544227886,
+          78.62097103223175
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-bb5--c6-nxc6-bxc6-er51ci",
+      "name": "bxc6 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Bb5+",
+        "c6",
+        "Nxc6",
+        "bxc6"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5375,
+          4832,
+          1558,
+          1157
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          66.95813953488371,
+          69.62955298013244,
+          73.65211810012838,
+          74.67588591184096
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-f3-dxe5-z2eu04",
+      "name": "dxe5 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "f3",
+        "dxe5"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15520205,
+          6130301,
+          2988,
+          2730
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          82.46318607764391,
+          83.35164835164835
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nc6-nxc6-5fl8j3",
+      "name": "Nxc6 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nc6",
+        "Nxc6"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15520205,
+          6130301,
+          2093,
+          1010
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          80.48256091734352,
+          82.27722772277228
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-qe2-dxe5-xjxso5",
+      "name": "After d6 Qe2 dxe5",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Qe2",
+        "dxe5"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15520205,
+          6130301,
+          1706,
+          1528
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          74.73622508792496,
+          75.88350785340315
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-d3-dxe5-6lwniy",
+      "name": "After d6 d3 dxe5",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "d3",
+        "dxe5"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15520205,
+          6130301,
+          1639,
+          1627
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          73.03233679072605,
+          73.66318377381684
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-bc4-dxe5-o-o-9ur6pi",
+      "name": "O-O Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Bc4",
+        "dxe5",
+        "O-O"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15520205,
+          6130301,
+          1627,
+          2607,
+          1115
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          71.17393976644131,
+          73.45607978519371,
+          67.35426008968611
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-hhhqup",
+      "name": "Qxd6 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bf4",
+        "Bd6",
+        "Bxd6",
+        "Qxd6"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          5557,
+          2825,
+          1907,
+          1849
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          55.39859636494511,
+          57.06194690265487,
+          55.87309910854745,
+          55.38128718226068
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-hxhn6w",
+      "name": "After Bd6 Bd3 O-O",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "c3",
+        "Bd6",
+        "Bd3",
+        "O-O"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          4557,
+          5045,
+          3765,
+          5501
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          55.431204739960506,
+          56.451932606541135,
+          55.32536520584329,
+          55.389929103799304
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-j9gezw",
+      "name": "Be7 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Qe2",
+        "Be7"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          4001,
+          1206
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          57.08572856785803,
+          60.94527363184079
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-tj3tz",
+      "name": "Ba4 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bb5+",
+        "c6",
+        "Ba4"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          3151,
+          2666,
+          1032
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          56.886702634084415,
+          57.14553638409603,
+          59.73837209302326
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-oq2t0n",
+      "name": "Nd7 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Ne5",
+        "Nd7"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          2168,
+          1229
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          56.457564575645755,
+          58.82831570382425
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-p6bypc",
+      "name": "Re8 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bd3",
+        "Bd6",
+        "Qe2",
+        "O-O",
+        "O-O",
+        "Re8"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          1129157,
+          454340,
+          6686,
+          4290,
+          3123,
+          2022
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          47.24940818681548,
+          48.53534797728574,
+          58.68232126832187,
+          61.3053613053613,
+          60.310598783221266,
+          61.99307616221563
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-bshloj",
+      "name": "dxe4 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bd3",
+        "Bd6",
+        "Bxe4",
+        "dxe4"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          1129157,
+          454340,
+          2397,
+          2347
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          47.24940818681548,
+          48.53534797728574,
+          60.51314142678348,
+          61.09927567106945
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-fz3x2t",
+      "name": "Nbxd2 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "Bd3",
+        "Nc6",
+        "c4",
+        "Bb4+",
+        "Bd2",
+        "Nxd2",
+        "Nbxd2"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          1129157,
+          177079,
+          14918,
+          6948,
+          2696,
+          2261,
+          2239
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          47.24940818681548,
+          49.98898796582316,
+          54.688966349376585,
+          61.3629821531376,
+          61.275964391691396,
+          61.21185316231757,
+          60.98704778919159
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-qu4qmt",
+      "name": "Nc3 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "c4",
+        "Bb4+",
+        "Nc3"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          65148,
+          17970,
+          1050
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          50.072910910542156,
+          55.95993322203673,
+          70.52380952380952
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-dvzfi9",
+      "name": "dxc4 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "c4",
+        "Bb4+",
+        "Bd2",
+        "Nxd2",
+        "Nbxd2",
+        "O-O",
+        "Be2",
+        "dxc4"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          65148,
+          17970,
+          9576,
+          6709,
+          6527,
+          4803,
+          2824,
+          1950
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          50.072910910542156,
+          55.95993322203673,
+          56.41708437761069,
+          58.279922492174684,
+          58.23502374751034,
+          61.315844264001676,
+          59.96813031161473,
+          63.82051282051282
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-d5-de3kd6",
+      "name": "a3 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "d5",
+        "c4",
+        "Bb4+",
+        "Nbd2",
+        "O-O",
+        "a3"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          1304676,
+          65148,
+          17970,
+          7261,
+          4090,
+          1047
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          47.84046000692892,
+          50.072910910542156,
+          55.95993322203673,
+          53.160721663682686,
+          55.13447432762837,
+          56.97230181470869
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-d4-be7-5srvfr",
+      "name": "After d5 Bxe4 dxe4",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "d4",
+        "Be7",
+        "Bd3",
+        "d5",
+        "Bxe4",
+        "dxe4"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1589452,
+          188808,
+          156313,
+          59897,
+          1262,
+          1246
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          46.713552847144804,
+          45.64028007287827,
+          44.93420252954009,
+          46.08745012271065,
+          59.94453248811411,
+          60.23274478330658
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-nc3-nxc3-eefomf",
+      "name": "Be6 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "Nc3",
+        "Nxc3",
+        "dxc3",
+        "Be7",
+        "Be3",
+        "c5",
+        "Qd2",
+        "Nc6",
+        "O-O-O",
+        "Be6"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1209908,
+          943818,
+          899726,
+          632803,
+          283910,
+          4534,
+          3543,
+          1713,
+          1501,
+          1048
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          45.247407240881124,
+          45.31313240476448,
+          45.128405759086654,
+          46.55477297041891,
+          45.87915184389419,
+          55.127922364358184,
+          55.673158340389506,
+          57.00525394045535,
+          57.69487008660893,
+          60.114503816793885
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "petrov-nxe5-d6-nf3-nxe4-nc3-nf6-m48cys",
+      "name": "Bb3 Line",
+      "moves": [
+        "Nxe5",
+        "d6",
+        "Nf3",
+        "Nxe4",
+        "Nc3",
+        "Nf6",
+        "Bc4",
+        "d5",
+        "Qe2+",
+        "Be7",
+        "Bb3"
+      ],
+      "eco": "C42",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          15520205,
+          6130301,
+          5270210,
+          5094676,
+          1209908,
+          166234,
+          27668,
+          11650,
+          1556,
+          1317,
+          1101
+        ],
+        "winrates": [
+          48.17211821622202,
+          47.738104540054394,
+          47.47282366357318,
+          47.75423402783612,
+          45.247407240881124,
+          46.89564108425473,
+          50.94874945785746,
+          51.95278969957082,
+          54.85218508997429,
+          56.643887623386476,
+          55.903723887375115
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T00:23:52.516Z"
+}

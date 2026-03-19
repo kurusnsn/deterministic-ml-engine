@@ -1,0 +1,1334 @@
+{
+  "opening": "benoni",
+  "openingId": "benoni",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "benoni-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "d6"
+      ],
+      "eco": "A56"
+    },
+    {
+      "id": "benoni-line-1",
+      "name": "Uhlmann variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "Nf3",
+        "g6",
+        "Bg5"
+      ],
+      "eco": "A61"
+    },
+    {
+      "id": "benoni-line-2",
+      "name": "Nimzovich (knight's tour) variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "Nf3",
+        "g6",
+        "Nd2"
+      ],
+      "eco": "A61"
+    },
+    {
+      "id": "benoni-line-3",
+      "name": "Mikenas variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "e4",
+        "g6",
+        "f4",
+        "Bg7",
+        "e5"
+      ],
+      "eco": "A66"
+    },
+    {
+      "id": "benoni-line-4",
+      "name": "Taimanov variation",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "e4",
+        "g6",
+        "f4",
+        "Bg7",
+        "Bb5+"
+      ],
+      "eco": "A67"
+    },
+    {
+      "id": "benoni-line-5",
+      "name": "classical, 8.Bg5",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "e4",
+        "g6",
+        "Nf3",
+        "Bg7",
+        "Bg5"
+      ],
+      "eco": "A71"
+    },
+    {
+      "id": "benoni-line-6",
+      "name": "four pawns attack, main line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "e4",
+        "g6",
+        "f4",
+        "Bg7",
+        "Nf3",
+        "O-O",
+        "Be2",
+        "Re8"
+      ],
+      "eco": "A69"
+    },
+    {
+      "id": "benoni-line-7",
+      "name": "classical with ...a6 and 10...Bg4",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "e4",
+        "g6",
+        "Nf3",
+        "Bg7",
+        "Be2",
+        "O-O",
+        "O-O",
+        "a6",
+        "a4",
+        "Bg4"
+      ],
+      "eco": "A75"
+    },
+    {
+      "id": "benoni-line-8",
+      "name": "classical, 11.f3",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "e4",
+        "g6",
+        "Nf3",
+        "Bg7",
+        "Be2",
+        "O-O",
+        "O-O",
+        "Re8",
+        "Nd2",
+        "Na6",
+        "f3"
+      ],
+      "eco": "A79"
+    },
+    {
+      "id": "benoni-line-9",
+      "name": "fianchetto, 11...Re8",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "cxd5",
+        "d6",
+        "Nf3",
+        "g6",
+        "g3",
+        "Bg7",
+        "Bg2",
+        "O-O",
+        "O-O",
+        "Nbd7",
+        "Nd2",
+        "a6",
+        "a4",
+        "Re8"
+      ],
+      "eco": "A64"
+    },
+    {
+      "id": "benoni-bg5-ne4-nf3-upsqy6",
+      "name": "Nf3 Line",
+      "moves": [
+        "Bg5",
+        "Ne4",
+        "Nf3"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          41222,
+          7165,
+          1217
+        ],
+        "winrates": [
+          57.34316627043812,
+          59.37194696441033,
+          60.558751027115854
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-bf4-cxd4-qxd4-d6-7no7hf",
+      "name": "d6 Line",
+      "moves": [
+        "Bf4",
+        "cxd4",
+        "Qxd4",
+        "d6"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          18939,
+          16668,
+          12265,
+          1730
+        ],
+        "winrates": [
+          57.410634141190144,
+          59.66522678185745,
+          60.32205462698737,
+          61.878612716763
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-e4-nxe4-d5-lmsp7d",
+      "name": "d5 Line",
+      "moves": [
+        "e4",
+        "Nxe4",
+        "d5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          5035,
+          1480,
+          1199
+        ],
+        "winrates": [
+          57.36842105263158,
+          60.37162162162162,
+          55.17097581317765
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-f3-cxd4-qxd4-nc6-qd1-e6-hsp3oi",
+      "name": "e4 Line",
+      "moves": [
+        "f3",
+        "cxd4",
+        "Qxd4",
+        "Nc6",
+        "Qd1",
+        "e6",
+        "e4"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4099,
+          3662,
+          3194,
+          2849,
+          1957,
+          1378,
+          1444
+        ],
+        "winrates": [
+          58.90461088070261,
+          60.77280174767886,
+          59.84658735128365,
+          60.459810459810456,
+          58.788962698007154,
+          60.08708272859216,
+          57.65235457063712
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-nd2-cxd4-ngf3-nc6-nb3-e5-gxenj7",
+      "name": "Bg5 Line",
+      "moves": [
+        "Nd2",
+        "cxd4",
+        "Ngf3",
+        "Nc6",
+        "Nb3",
+        "e5",
+        "Bg5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2217,
+          1966,
+          1455,
+          1693,
+          2138,
+          1533,
+          1009
+        ],
+        "winrates": [
+          57.91610284167794,
+          59.23194303153612,
+          59.27835051546392,
+          57.50147666863556,
+          58.91019644527595,
+          59.4259621656882,
+          59.26660059464817
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-ne4-f3-qa5--bd2-nxd2-soo18r",
+      "name": "Qc2 Line",
+      "moves": [
+        "d5",
+        "Ne4",
+        "f3",
+        "Qa5+",
+        "Bd2",
+        "Nxd2",
+        "Nxd2",
+        "g6",
+        "e4",
+        "Bg7",
+        "Qc2"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          8332306,
+          93637,
+          28492,
+          26074,
+          10615,
+          10590,
+          3864,
+          3187,
+          2408,
+          2314,
+          1768
+        ],
+        "winrates": [
+          51.89829802218018,
+          55.281032070655826,
+          57.71795591745052,
+          57.82388586331211,
+          62.58596325953839,
+          62.71954674220963,
+          67.45600414078675,
+          68.15186695952306,
+          67.87790697674419,
+          67.63180639585133,
+          69.62669683257919
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-b3-bxc4-bxc4-g6-rxtwad",
+      "name": "Bg7 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "b3",
+        "bxc4",
+        "bxc4",
+        "g6",
+        "Bg5",
+        "Bg7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8332306,
+          5331709,
+          736965,
+          266694,
+          265916,
+          137297,
+          1906,
+          1915
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          57.77614947792635,
+          59.84030386885344,
+          59.82058243956738,
+          61.64118662461671,
+          69.20251836306402,
+          68.43342036553524
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-nc3-b4-nb5-a6-47mtmh",
+      "name": "axb5 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "Nc3",
+        "b4",
+        "Nb5",
+        "a6",
+        "d6",
+        "axb5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8332306,
+          5331709,
+          431629,
+          252560,
+          14527,
+          10178,
+          1166,
+          1120
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          56.048944811400524,
+          58.63240418118467,
+          68.44496454877125,
+          71.64472391432501,
+          73.11320754716981,
+          74.46428571428572
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-e3-bb7-nc3-b4-1lorlz",
+      "name": "e6 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "e3",
+        "Bb7",
+        "Nc3",
+        "b4",
+        "Nce2",
+        "e6"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8332306,
+          5331709,
+          364082,
+          11140,
+          5448,
+          3960,
+          2031,
+          1078
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          57.29602122598756,
+          58.770197486535004,
+          58.95741556534509,
+          60.69444444444445,
+          57.754800590841946,
+          58.16326530612245
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-a3-g6-nc3-qcx3h9",
+      "name": "Nc3 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "a3",
+        "g6",
+        "Nc3"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          8332306,
+          5331709,
+          11077,
+          2573,
+          1789
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          56.039541392073666,
+          58.8806840264283,
+          57.7417551704863
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-nf3-axb5-njhgbw",
+      "name": "g3 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "Nf3",
+        "axb5",
+        "g3"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          6787,
+          5453,
+          1062
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          57.580668925887736,
+          58.66495507060334,
+          59.18079096045198
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bg5-axb5-x1ssk8",
+      "name": "After a6 Bg5 axb5",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "Bg5",
+        "axb5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          3161,
+          1354
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          56.34292945270485,
+          55.797636632200884
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-g3-axb5-vrfq2t",
+      "name": "After axb5 Bg2 d6",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "g3",
+        "axb5",
+        "Bg2",
+        "d6"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          2731,
+          1876,
+          1750,
+          1472
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          60.435737824972534,
+          60.76759061833689,
+          61.199999999999996,
+          62.058423913043484
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-qa4-nxd5-lou65x",
+      "name": "Nxd5 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "Qa4",
+        "Nxd5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          2162,
+          1039
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          59.57446808510638,
+          61.02021174205967
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-a4-axb5-conn4d",
+      "name": "After a6 a4 axb5",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "a4",
+        "axb5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1581,
+          1348
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          57.273877292852625,
+          58.04896142433235
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-ncu18f",
+      "name": "After g6 g3 Bg7",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nf3",
+        "d6",
+        "e3",
+        "Bxf1",
+        "Kxf1",
+        "g6",
+        "g3",
+        "Bg7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          33828,
+          19486,
+          1235,
+          1192,
+          1049,
+          2026,
+          1297,
+          1419
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          57.00159631074849,
+          57.53104793184851,
+          63.1174089068826,
+          63.75838926174497,
+          62.535748331744514,
+          64.0177690029615,
+          64.53353893600618,
+          64.58773784355179
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-nide0p",
+      "name": "Variation 1",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "e3",
+        "Bxf1",
+        "Kxf1",
+        "d6",
+        "Nf3",
+        "g6",
+        "g3",
+        "Bg7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          11900,
+          10396,
+          10392,
+          5826,
+          1495,
+          2026,
+          1297,
+          1419
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          61.51260504201681,
+          61.95652173913043,
+          61.961123941493454,
+          62.61585993820804,
+          64.04682274247492,
+          64.0177690029615,
+          64.53353893600618,
+          64.58773784355179
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-imz6z5",
+      "name": "Nxe4 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "e4",
+        "Bxf1",
+        "Kxf1",
+        "Nxe4"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          2940,
+          2267,
+          2229,
+          1033
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          59.79591836734694,
+          61.071901191001324,
+          60.63257065948856,
+          63.310745401742494
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-8ngsed",
+      "name": "After f3 d6 e4",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "f3",
+        "d6",
+        "e4"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          2507,
+          1500,
+          1045
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          55.065815715995214,
+          55.333333333333336,
+          58.46889952153109
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-whatyp",
+      "name": "Variation 2",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "Bg5",
+        "Nbd7",
+        "Nf3",
+        "g6",
+        "g3",
+        "Bg7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          772834,
+          491876,
+          10150,
+          5912,
+          3017,
+          3576,
+          1304,
+          1318
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          51.45348160148233,
+          52.185713472501206,
+          59.63054187192118,
+          61.611975642760484,
+          60.39111700364601,
+          61.227628635346754,
+          59.164110429447845,
+          58.83915022761761
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-d9bhw4",
+      "name": "Nbd7 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "e3",
+        "Bxf1",
+        "Kxf1",
+        "Nbd7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          772834,
+          491876,
+          4853,
+          4537,
+          4522,
+          1011
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          51.45348160148233,
+          52.185713472501206,
+          61.10653204203585,
+          62.11152744104034,
+          62.07430340557276,
+          62.21562809099901
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-5ffpbm",
+      "name": "After d6 Qa4+ Nbd7",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "Qa4+",
+        "Nbd7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          772834,
+          491876,
+          3368,
+          2769
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          51.45348160148233,
+          52.185713472501206,
+          66.22624703087887,
+          67.26254965691585
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-fjof5w",
+      "name": "After Bxf1 Kxf1 Bg7",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "f3",
+        "g6",
+        "e4",
+        "Bxf1",
+        "Kxf1",
+        "Bg7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          772834,
+          491876,
+          2497,
+          2211,
+          1931,
+          1754,
+          1753,
+          6673
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          51.45348160148233,
+          52.185713472501206,
+          57.8494193031638,
+          58.05065581184985,
+          58.62247540134645,
+          59.03648802736602,
+          59.04164289788933,
+          60.46755582196912
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-i02v6a",
+      "name": "g6 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "d6",
+        "a4",
+        "g6"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          772834,
+          491876,
+          1224,
+          1191
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          51.45348160148233,
+          52.185713472501206,
+          61.51960784313726,
+          62.09068010075567
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "benoni-d5-b5-cxb5-a6-bxa6-bxa6-2q3sn",
+      "name": "Bxf6 Line",
+      "moves": [
+        "d5",
+        "b5",
+        "cxb5",
+        "a6",
+        "bxa6",
+        "Bxa6",
+        "Nc3",
+        "g6",
+        "Bg5",
+        "Bg7",
+        "Bxf6",
+        "Bxf6"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          8332306,
+          5331709,
+          3071919,
+          2919812,
+          1456182,
+          882717,
+          772834,
+          313946,
+          7451,
+          7145,
+          1035,
+          1028
+        ],
+        "winrates": [
+          51.89829802218018,
+          52.85590417631569,
+          51.447726974571914,
+          51.608425473968865,
+          52.21943410919789,
+          51.90134550484471,
+          51.45348160148233,
+          52.38958292190377,
+          61.260233525701246,
+          61.38558432470259,
+          65.41062801932367,
+          65.22373540856032
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:20:38.950Z"
+}

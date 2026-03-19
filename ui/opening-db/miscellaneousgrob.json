@@ -1,0 +1,46 @@
+{
+  "id": "miscellaneous-grob",
+  "name": "Grob",
+  "opening": "Grob",
+  "generatedAt": "2026-01-03T19:12:59.208Z",
+  "lines": [
+    {
+      "id": "miscellaneous-grob-bxb7-nd7-bxa8-qxa8-f3-e5-d670dz",
+      "name": "Grob: Bxb7 Forcing Line",
+      "moves": [
+        "Bxb7",
+        "Nd7",
+        "Bxa8",
+        "Qxa8",
+        "f3",
+        "e5",
+        "d3"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          15700,
+          11381,
+          10926,
+          10843,
+          9550,
+          2129,
+          1246
+        ],
+        "winrates": [
+          44.94904458598727,
+          51.634302785344,
+          51.69320885960096,
+          51.821451627778295,
+          50.204188481675395,
+          57.67966181305777,
+          57.58426966292135
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

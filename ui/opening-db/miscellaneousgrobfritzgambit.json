@@ -1,0 +1,1036 @@
+{
+  "id": "miscellaneous-grob-fritz-gambit",
+  "name": "Grob Fritz gambit",
+  "opening": "Grob Fritz gambit",
+  "generatedAt": "2026-01-03T19:12:45.151Z",
+  "lines": [
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-c5-k7ftxb",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "c5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          515991,
+          471190,
+          1171
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          59.47907771135781
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-e6-qb3-dxc4-qxb7-nd7-qxa8-wl84rb",
+      "name": "Grob Fritz gambit: e6 Forcing Line",
+      "moves": [
+        "e6",
+        "Qb3",
+        "dxc4",
+        "Qxb7",
+        "Nd7",
+        "Qxa8",
+        "Qxa8",
+        "Bxa8"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          320003,
+          151152,
+          5954,
+          5691,
+          3335,
+          3302,
+          2773,
+          2760
+        ],
+        "winrates": [
+          61.14739549316725,
+          64.3398697999365,
+          79.30802821632516,
+          80.18801616587594,
+          78.96551724137932,
+          79.7244094488189,
+          78.61521817526145,
+          78.58695652173913
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-be6-qb3-dxc4-qxb7-nd7-qxa8-cknp22",
+      "name": "Grob Fritz gambit: Be6 Forcing Line",
+      "moves": [
+        "Be6",
+        "Qb3",
+        "dxc4",
+        "Qxb7",
+        "Nd7",
+        "Qxa8",
+        "Qxa8",
+        "Bxa8",
+        "Nb6",
+        "Bc6+",
+        "Bd7",
+        "Bxd7+",
+        "Nxd7"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          233501,
+          192907,
+          25172,
+          25030,
+          16325,
+          16070,
+          14138,
+          14108,
+          5184,
+          3822,
+          1941,
+          1829,
+          1115
+        ],
+        "winrates": [
+          61.72093481398366,
+          63.64699051874737,
+          81.36421420626093,
+          81.63004394726329,
+          82.52373660030628,
+          83.23273179838208,
+          82.47984156174849,
+          82.48511482846612,
+          84.40393518518519,
+          85.38723181580325,
+          86.57908294693458,
+          86.87807545106617,
+          87.30941704035874
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-nf6-cxd5-nxd5-qb3-be6-qxb7-gly6dl",
+      "name": "Grob Fritz gambit: Nf6 Forcing Line",
+      "moves": [
+        "Nf6",
+        "cxd5",
+        "Nxd5",
+        "Qb3",
+        "Be6",
+        "Qxb7",
+        "Nd7",
+        "Bxd5",
+        "Rb8",
+        "Qc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          172369,
+          43703,
+          31971,
+          22923,
+          4522,
+          4276,
+          2738,
+          2326,
+          1096,
+          1030
+        ],
+        "winrates": [
+          57.33542574360819,
+          59.82998878795506,
+          62.83506928153639,
+          65.56733411857087,
+          69.16187527642637,
+          70.25257249766138,
+          70.74506939371804,
+          72.87188306104902,
+          66.46897810218978,
+          68.10679611650485
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-dxc4-bxb7-nc6-bxc6--bd7-bxa8-ym00g3",
+      "name": "Grob Fritz gambit: dxc4 Forcing Line",
+      "moves": [
+        "dxc4",
+        "Bxb7",
+        "Nc6",
+        "Bxc6+",
+        "Bd7",
+        "Bxa8",
+        "Qxa8",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          92037,
+          78161,
+          5172,
+          4199,
+          3457,
+          3306,
+          3200,
+          1786
+        ],
+        "winrates": [
+          55.805817225680975,
+          57.0808971226059,
+          73.31786542923435,
+          75.8633007859014,
+          71.24674573329477,
+          70.88626739261949,
+          70.46875,
+          71.83650615901456
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-d4-qb3-mv62u3",
+      "name": "Grob Fritz gambit: d4 Forcing Line",
+      "moves": [
+        "d4",
+        "Qb3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          19110,
+          3195
+        ],
+        "winrates": [
+          55.57823129251701,
+          61.00156494522692
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-bd7-qb3-mi7bze",
+      "name": "Grob Fritz gambit: Bd7 Forcing Line",
+      "moves": [
+        "Bd7",
+        "Qb3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          6123,
+          1855
+        ],
+        "winrates": [
+          56.88388045075943,
+          62.722371967654986
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-nc6-cxd5-nd4-qa4--fkvm27",
+      "name": "Grob Fritz gambit: Nc6 Forcing Line",
+      "moves": [
+        "Nc6",
+        "cxd5",
+        "Nd4",
+        "Qa4+"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4723,
+          15373,
+          2731,
+          1952
+        ],
+        "winrates": [
+          60.27948337920813,
+          61.89097768815456,
+          68.07030391797876,
+          73.61680327868852
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-c5-k7ftxb",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "c5"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          515991,
+          471190,
+          1171
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          59.47907771135781
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-b6-bxd5-s5v0se",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "b6",
+        "Bxd5",
+        "Nd7",
+        "Bxf7#"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          4881,
+          7348,
+          1986,
+          1622
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          80.07580413849621,
+          78.92623843222646,
+          93.17724068479355,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-bc8-qb3-cxd5-bxd5-x6ksjd",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "Bc8",
+        "Qb3",
+        "cxd5",
+        "Bxd5",
+        "Nc6",
+        "Bxf7+",
+        "Kd7",
+        "Bxg8",
+        "Rxg8",
+        "Qxg8"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          515991,
+          471190,
+          1217,
+          1734,
+          37151,
+          92351,
+          15590,
+          15295,
+          14509,
+          11415,
+          1223,
+          1186
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          55.54642563681183,
+          57.208765859284895,
+          59.617506931172784,
+          61.712379941744,
+          79.5734445157152,
+          80.21902582543315,
+          79.1577641463919,
+          82.09811651335961,
+          84.62796402289452,
+          84.31703204047217
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-b6-bxd5-s5v0se",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "b6",
+        "Bxd5",
+        "Nd7",
+        "Bxf7#"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          4881,
+          7348,
+          1986,
+          1622
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          80.07580413849621,
+          78.92623843222646,
+          93.17724068479355,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-nc3-e6-qa4--cot6oh",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Nc3",
+        "e6",
+        "Qa4+",
+        "Qd7",
+        "Qxg4",
+        "Nf6",
+        "Qa4",
+        "Qxa4",
+        "Nxa4",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          83773,
+          42685,
+          41449,
+          8451,
+          9730,
+          6743,
+          5278,
+          1508,
+          2028,
+          1065
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          59.09004094397956,
+          65.50778962164695,
+          66.71451663490072,
+          70.0212992545261,
+          70.47276464542651,
+          64.73379801275397,
+          66.1045850701023,
+          68.07029177718833,
+          69.10749506903353,
+          67.98122065727699
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-e6-qa4--jjlx1p",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "e6",
+        "Qa4+",
+        "Qd7",
+        "Qxg4",
+        "Nf6",
+        "Qg3"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          71451,
+          60653,
+          6698,
+          6691,
+          4391,
+          1686
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          65.04597556367301,
+          69.54973373122516,
+          69.90892803822037,
+          69.93722911373487,
+          63.812343429742654,
+          67.43772241992883
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-bc8-bxd5-95hs0n",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Bc8",
+        "Bxd5",
+        "Nc6",
+        "Bxf7+",
+        "Kd7",
+        "Bxg8",
+        "Rxg8",
+        "Qxg8"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          57951,
+          92351,
+          15590,
+          15295,
+          14509,
+          11415,
+          1223,
+          1186
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          62.36303083639626,
+          61.712379941744,
+          79.5734445157152,
+          80.21902582543315,
+          79.1577641463919,
+          82.09811651335961,
+          84.62796402289452,
+          84.31703204047217
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-qc7-nc3-azjnw4",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Qc7",
+        "Nc3",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          23863,
+          31768,
+          3084
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          65.04002011482211,
+          66.60003777386049,
+          70.86575875486382
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-qb6-bxd5-opss5q",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Qb6",
+        "Bxd5",
+        "e6",
+        "Bxb7"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          22530,
+          10079,
+          1526,
+          1052
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          56.62671992898358,
+          59.66365710884016,
+          79.84927916120577,
+          89.35361216730038
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-nc6-bxd5-dvuwum",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Nc6",
+        "Bxd5",
+        "e6",
+        "Qxb7",
+        "exd5",
+        "Qxc6+"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          20117,
+          13606,
+          8709,
+          4090,
+          2696,
+          2683
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          59.48948650395188,
+          65.04483316184036,
+          60.72453783442416,
+          64.49877750611248,
+          56.32418397626113,
+          56.448005963473726
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-qd7-bxd5-3l6c89",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Qd7",
+        "Bxd5",
+        "e6",
+        "Bxb7",
+        "Nc6",
+        "Bxa8"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          18250,
+          24815,
+          3619,
+          3373,
+          1400,
+          1365
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          61.24657534246576,
+          62.25266975619584,
+          80.85106382978722,
+          82.3302697895049,
+          73.75,
+          73.66300366300366
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-be6-nc3-k6pdb2",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Be6",
+        "Nc3",
+        "d4"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          15583,
+          4372,
+          1015
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          57.899634216774686,
+          62.60292772186642,
+          73.20197044334975
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-nd7-bxd5-umwh6g",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Nd7",
+        "Bxd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          7317,
+          7449
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          56.874402077354105,
+          58.531346489461676
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-bd7-bxd5-2vuisn",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Bd7",
+        "Bxd5",
+        "Nc6",
+        "Bxf7#"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          5115,
+          5629,
+          1148,
+          1780
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          67.91788856304986,
+          70.6342156688577,
+          99.0418118466899,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-b6-bxd5-s5v0se",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "b6",
+        "Bxd5",
+        "Nd7",
+        "Bxf7#"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          4881,
+          7348,
+          1986,
+          1622
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          80.07580413849621,
+          78.92623843222646,
+          93.17724068479355,
+          100
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-qc8-nc3-5gh03a",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "Qc8",
+        "Nc3",
+        "e6",
+        "Qa4+",
+        "Nc6",
+        "Qxg4",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          3199,
+          4291,
+          2430,
+          1998,
+          1243,
+          1243,
+          1011
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          60.61269146608315,
+          63.12048473549289,
+          65.55555555555556,
+          71.3963963963964,
+          69.38857602574416,
+          69.38857602574416,
+          66.32047477744807
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-grob-fritz-gambit-c6-cxd5-cxd5-qb3-e6-qa4--jjlx1p",
+      "name": "Grob Fritz gambit: c6 Forcing Line",
+      "moves": [
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Qb3",
+        "e6",
+        "Qa4+",
+        "Qd7",
+        "Qxg4",
+        "Nf6",
+        "Qg3"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          515991,
+          471190,
+          419096,
+          306534,
+          71451,
+          60653,
+          6698,
+          6691,
+          4391,
+          1686
+        ],
+        "winrates": [
+          56.45069390745188,
+          58.18714319064496,
+          58.975151277988815,
+          60.092518285084196,
+          65.04597556367301,
+          69.54973373122516,
+          69.90892803822037,
+          69.93722911373487,
+          63.812343429742654,
+          67.43772241992883
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

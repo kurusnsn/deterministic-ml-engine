@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: opening-book-service
+  labels:
+    app: opening-book-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: opening-book-service
+  template:
+    metadata:
+      labels:
+        app: opening-book-service
+    spec:
+      imagePullSecrets:
+        - name: ghcr-pull-secret
+        - name: gitlab-registry-creds
+      containers:
+        - name: opening-book
+          image: ostadchess/opening-book:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8001
+          envFrom:
+            - configMapRef:
+                name: env-config
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: database-url-secret
+                  key: DATABASE_URL
+            - name: REDIS_URL
+              value: "redis://redis:6379"
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "512Mi"
+              cpu: "500m"
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8001
+            initialDelaySeconds: 5
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8001
+            initialDelaySeconds: 15
+            periodSeconds: 20

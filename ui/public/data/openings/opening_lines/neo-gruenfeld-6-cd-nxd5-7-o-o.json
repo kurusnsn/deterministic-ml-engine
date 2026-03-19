@@ -1,0 +1,718 @@
+{
+  "opening": "neo-gruenfeld, 6.cd nxd5, 7.o-o",
+  "openingId": "neo-gruenfeld-6-cd-nxd5-7-o-o",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "g6",
+        "g3",
+        "d5",
+        "Bg2",
+        "Bg7",
+        "Nf3",
+        "O-O",
+        "cxd5",
+        "Nxd5",
+        "O-O"
+      ],
+      "eco": "D74"
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-nc6-e3-bg4-h3-3qy9wk",
+      "name": "h3 Line",
+      "moves": [
+        "Nc6",
+        "e3",
+        "Bg4",
+        "h3"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          35635,
+          5733,
+          2023,
+          1005
+        ],
+        "winrates": [
+          55.10453206117582,
+          55.63404849119134,
+          57.785467128027676,
+          62.7363184079602
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c6-h3-nd7-e4-n5b6-nc3-2rymvc",
+      "name": "Qe2 Line",
+      "moves": [
+        "c6",
+        "h3",
+        "Nd7",
+        "e4",
+        "N5b6",
+        "Nc3",
+        "Nf6",
+        "Qe2"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          28177,
+          2408,
+          1103,
+          966,
+          596,
+          2467,
+          919,
+          658
+        ],
+        "winrates": [
+          58.432409411931715,
+          60.36129568106312,
+          58.74886672710788,
+          61.387163561076605,
+          61.325503355704704,
+          60.31617349006891,
+          61.7519042437432,
+          65.19756838905775
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-bg4-ne5-nvor8g",
+      "name": "Ne5 Line",
+      "moves": [
+        "Bg4",
+        "Ne5"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          6868,
+          960
+        ],
+        "winrates": [
+          58.94729178800233,
+          65.52083333333333
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-bf5-nbd2-fru7mm",
+      "name": "Nbd2 Line",
+      "moves": [
+        "Bf5",
+        "Nbd2"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4858,
+          732
+        ],
+        "winrates": [
+          60.85837793330589,
+          64.89071038251366
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-nf6-nc3-bf5-1nau1f",
+      "name": "Bf5 Line",
+      "moves": [
+        "Nf6",
+        "Nc3",
+        "Bf5"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4467,
+          6765,
+          900
+        ],
+        "winrates": [
+          60.55518244907097,
+          60.76866223207686,
+          62.05555555555555
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-b6-e4-nf6-nc3-bb7-re1-xmz4em",
+      "name": "Bf4 Line",
+      "moves": [
+        "b6",
+        "e4",
+        "Nf6",
+        "Nc3",
+        "Bb7",
+        "Re1",
+        "Nbd7",
+        "Bf4"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4354,
+          4805,
+          4277,
+          3182,
+          4477,
+          2431,
+          1724,
+          519
+        ],
+        "winrates": [
+          59.23288929719798,
+          61.87304890738814,
+          61.14098667290156,
+          61.72218730358266,
+          60.2859057404512,
+          62.95763060468943,
+          62.732018561484914,
+          66.57032755298651
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-nd7-e4-n5f6-nc3-e6-bg5-c63m8p",
+      "name": "Bg5 Line",
+      "moves": [
+        "Nd7",
+        "e4",
+        "N5f6",
+        "Nc3",
+        "e6",
+        "Bg5"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3006,
+          5150,
+          1802,
+          1386,
+          668,
+          547
+        ],
+        "winrates": [
+          59.88023952095808,
+          60.74757281553398,
+          63.42952275249723,
+          64.93506493506493,
+          66.46706586826348,
+          65.9963436928702
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-e6-e4-nf6-nc3-b6-i0qlyk",
+      "name": "b6 Line",
+      "moves": [
+        "e6",
+        "e4",
+        "Nf6",
+        "Nc3",
+        "b6"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2362,
+          4744,
+          1797,
+          1319,
+          1140
+        ],
+        "winrates": [
+          61.30397967823878,
+          61.89924114671164,
+          63.52253756260434,
+          64.0636846095527,
+          65.83333333333333
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-na6-e4-nb6-z2uxwy",
+      "name": "Nb6 Line",
+      "moves": [
+        "Na6",
+        "e4",
+        "Nb6"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1272,
+          854,
+          643
+        ],
+        "winrates": [
+          56.72169811320755,
+          57.14285714285714,
+          55.676516329704505
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-re8-e4-nf6-nc3-9ah39j",
+      "name": "Nc3 Line",
+      "moves": [
+        "Re8",
+        "e4",
+        "Nf6",
+        "Nc3"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1138,
+          1926,
+          731,
+          548
+        ],
+        "winrates": [
+          59.97363796133568,
+          60.61786085150571,
+          63.064295485636116,
+          64.41605839416059
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-e4-nb4-d5-e6-a3-rg8twu",
+      "name": "Nxd5 Line",
+      "moves": [
+        "c5",
+        "e4",
+        "Nb4",
+        "d5",
+        "e6",
+        "a3",
+        "N4a6",
+        "Nc3",
+        "exd5",
+        "Nxd5"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          36593,
+          25598,
+          7295,
+          3611,
+          1965,
+          1454,
+          1418,
+          2003,
+          1879,
+          515
+        ],
+        "winrates": [
+          54.59377476566556,
+          55.840300023439326,
+          57.34064427690198,
+          60.08031016338964,
+          60.63613231552163,
+          62.17331499312242,
+          62.02397743300423,
+          63.654518222666,
+          63.012240553485896,
+          63.883495145631066
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-dxc5-e6-e4-nf6-ac8y28",
+      "name": "Nf6 Line",
+      "moves": [
+        "c5",
+        "dxc5",
+        "e6",
+        "e4",
+        "Nf6"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          36593,
+          30932,
+          1910,
+          1165,
+          547
+        ],
+        "winrates": [
+          54.59377476566556,
+          53.37029613345403,
+          60.73298429319372,
+          65.9656652360515,
+          66.17915904936015
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-dxc5-nc6-a3-a5-qc2-49uzna",
+      "name": "Qc2 Line",
+      "moves": [
+        "c5",
+        "dxc5",
+        "Nc6",
+        "a3",
+        "a5",
+        "Qc2"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          36593,
+          30932,
+          14541,
+          3863,
+          1382,
+          796
+        ],
+        "winrates": [
+          54.59377476566556,
+          53.37029613345403,
+          54.74520321848566,
+          62.632668910173436,
+          64.29088277858177,
+          69.84924623115577
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-dxc5-nc6-nbd2-e5-81vsil",
+      "name": "e5 Line",
+      "moves": [
+        "c5",
+        "dxc5",
+        "Nc6",
+        "Nbd2",
+        "e5"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          36593,
+          30932,
+          14541,
+          2010,
+          501
+        ],
+        "winrates": [
+          54.59377476566556,
+          53.37029613345403,
+          54.74520321848566,
+          58.95522388059702,
+          60.079840319361274
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-dxc5-nc6-e4-nf6-qxd8-k22flj",
+      "name": "Rxd8 Line",
+      "moves": [
+        "c5",
+        "dxc5",
+        "Nc6",
+        "e4",
+        "Nf6",
+        "Qxd8",
+        "Rxd8"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          36593,
+          30932,
+          14541,
+          7965,
+          2787,
+          687,
+          681
+        ],
+        "winrates": [
+          54.59377476566556,
+          53.37029613345403,
+          54.74520321848566,
+          50.06905210295041,
+          57.55292429135272,
+          59.31586608442504,
+          59.25110132158591
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-dxc5-na6-ng5-e6-km9yfc",
+      "name": "e6 Line",
+      "moves": [
+        "c5",
+        "dxc5",
+        "Na6",
+        "Ng5",
+        "e6"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          36593,
+          30932,
+          9373,
+          1087,
+          513
+        ],
+        "winrates": [
+          54.59377476566556,
+          53.37029613345403,
+          47.546143177211135,
+          59.935602575896965,
+          62.670565302144254
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-e4-nb6-d5-bg4-nc3-fd2lzi",
+      "name": "After d5 Bg4 Nc3",
+      "moves": [
+        "c5",
+        "e4",
+        "Nb6",
+        "d5",
+        "Bg4",
+        "Nc3"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          36593,
+          25598,
+          5226,
+          4063,
+          736,
+          520
+        ],
+        "winrates": [
+          54.59377476566556,
+          55.840300023439326,
+          56.525066972828164,
+          56.928378045778985,
+          58.42391304347826,
+          56.92307692307692
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-e4-nc7-d5-cpn9dr",
+      "name": "d5 Line",
+      "moves": [
+        "c5",
+        "e4",
+        "Nc7",
+        "d5"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          36593,
+          25598,
+          1830,
+          1296
+        ],
+        "winrates": [
+          54.59377476566556,
+          55.840300023439326,
+          56.69398907103825,
+          59.22067901234568
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-e4-nf6-e5-nfd7-e6-5kvcm0",
+      "name": "fxe6 Line",
+      "moves": [
+        "c5",
+        "e4",
+        "Nf6",
+        "e5",
+        "Nfd7",
+        "e6",
+        "fxe6"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          36593,
+          25598,
+          10898,
+          7691,
+          971,
+          536,
+          521
+        ],
+        "winrates": [
+          54.59377476566556,
+          55.840300023439326,
+          54.00991007524316,
+          54.67429463008712,
+          51.956745623069,
+          56.343283582089555,
+          56.62188099808061
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "neo-gruenfeld-6-cd-nxd5-7-o-o-c5-e4-nb4-a3-n4a6-d5-uofe4y",
+      "name": "Variation 1",
+      "moves": [
+        "c5",
+        "e4",
+        "Nb4",
+        "a3",
+        "N4a6",
+        "d5",
+        "e6",
+        "Nc3",
+        "exd5",
+        "Nxd5"
+      ],
+      "eco": "D74",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          36593,
+          25598,
+          7295,
+          4196,
+          2202,
+          1774,
+          839,
+          2004,
+          1880,
+          515
+        ],
+        "winrates": [
+          54.59377476566556,
+          55.840300023439326,
+          57.34064427690198,
+          56.49428026692088,
+          57.85649409627611,
+          61.21758737316798,
+          64.30274135876043,
+          63.622754491017965,
+          62.97872340425532,
+          63.883495145631066
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:25:53.825Z"
+}

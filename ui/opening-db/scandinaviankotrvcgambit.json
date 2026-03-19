@@ -1,0 +1,1036 @@
+{
+  "id": "scandinavian-kotrvc-gambit",
+  "name": "Kotrvc gambit",
+  "opening": "Kotrvc gambit",
+  "generatedAt": "2026-01-03T19:53:39.595Z",
+  "lines": [
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nd5-qd6-bc4-c6-oimcd5",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nd5",
+        "Qd6",
+        "Bc4",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          861553,
+          12765,
+          6380,
+          2822,
+          1313
+        ],
+        "winrates": [
+          45.17586265731766,
+          56.118292205248736,
+          58.173981191222566,
+          56.555634301913535,
+          56.32140137090632
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-bb5--c6-a3-e9iujb",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Bb5+",
+        "c6",
+        "a3"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          861553,
+          5957,
+          5094,
+          1226
+        ],
+        "winrates": [
+          45.17586265731766,
+          58.34312573443008,
+          59.491558696505685,
+          61.50081566068515
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-a3-qa5-uyu53y",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "a3",
+        "Qa5"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          861553,
+          3356,
+          1436
+        ],
+        "winrates": [
+          45.17586265731766,
+          58.64123957091776,
+          61.42061281337048
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-rb1-qd6-nb5-qd8-qf3-5ib8g",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Rb1",
+        "Qd6",
+        "Nb5",
+        "Qd8",
+        "Qf3",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          861553,
+          464448,
+          313060,
+          59158,
+          37941,
+          1960,
+          1241
+        ],
+        "winrates": [
+          45.17586265731766,
+          44.17868092875844,
+          45.12393790327732,
+          46.52033537306873,
+          52.95458738567776,
+          56.326530612244895,
+          57.3327961321515
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-rb1-qa5-bb5--c6-bc4-iyybzc",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Rb1",
+        "Qa5",
+        "Bb5+",
+        "c6",
+        "Bc4"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          861553,
+          464448,
+          114889,
+          1795,
+          1586,
+          1143
+        ],
+        "winrates": [
+          45.17586265731766,
+          44.17868092875844,
+          43.78965784365779,
+          55.125348189415035,
+          56.11601513240858,
+          56.8241469816273
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-nf3-c6-trrdn1",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Nf3",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          2125,
+          1327
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          59.24705882352941,
+          59.30670685757347
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-qf3-yw8xlf",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Qf3",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          1376,
+          1008
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          63.08139534883721,
+          64.73214285714286
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nc6-bxf7--544uif",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nc6",
+        "Bxf7+",
+        "Kxf7",
+        "Qh5+",
+        "g6"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          7815,
+          1574,
+          1558,
+          1440,
+          1382
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          66.34037108125399,
+          81.73443456162643,
+          82.09242618741976,
+          81.94444444444444,
+          82.95947901591896
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-nf3-aax8pj",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Nf3",
+        "a6",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          19316,
+          3384,
+          2575
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          60.53530751708428,
+          62.2192671394799,
+          63.20388349514563
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-bb2-rqcs9t",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Bb2",
+        "a6"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          12940,
+          1896
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          57.001545595054104,
+          61.366033755274266
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-qf3-yw8xlf",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Qf3",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          1376,
+          1008
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          63.08139534883721,
+          64.73214285714286
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-nf3-3innxj",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Nf3",
+        "c6",
+        "Nc3",
+        "Bg4",
+        "O-O",
+        "e6",
+        "h3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          19316,
+          12466,
+          9419,
+          6285,
+          3578,
+          2447,
+          1091
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          60.53530751708428,
+          61.27065618482273,
+          61.87493364476059,
+          63.7708830548926,
+          64.07210732252655,
+          64.54842664487127,
+          64.7571035747021
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-nf3-aax8pj",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Nf3",
+        "a6",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          19316,
+          3384,
+          2575
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          60.53530751708428,
+          62.2192671394799,
+          63.20388349514563
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-nf3-3innxj",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Nf3",
+        "c6",
+        "Nc3",
+        "Bg4",
+        "O-O",
+        "e6",
+        "h3"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          19316,
+          12466,
+          9419,
+          6285,
+          3578,
+          2447,
+          1091
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          60.53530751708428,
+          61.27065618482273,
+          61.87493364476059,
+          63.7708830548926,
+          64.07210732252655,
+          64.54842664487127,
+          64.7571035747021
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-nf3-3innxj",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Nf3",
+        "c6",
+        "Nc3",
+        "Bg4",
+        "O-O",
+        "e6",
+        "h3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          19316,
+          12466,
+          9419,
+          6285,
+          3578,
+          2447,
+          1091
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          60.53530751708428,
+          61.27065618482273,
+          61.87493364476059,
+          63.7708830548926,
+          64.07210732252655,
+          64.54842664487127,
+          64.7571035747021
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-nf3-yj2fvz",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Nf3",
+        "c6",
+        "Nc3",
+        "Bf5",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          19316,
+          12466,
+          9419,
+          1296,
+          1030
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          60.53530751708428,
+          61.27065618482273,
+          61.87493364476059,
+          63.73456790123457,
+          62.96116504854369
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-nf3-3innxj",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Nf3",
+        "c6",
+        "Nc3",
+        "Bg4",
+        "O-O",
+        "e6",
+        "h3"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          19316,
+          12466,
+          9419,
+          6285,
+          3578,
+          2447,
+          1091
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          60.53530751708428,
+          61.27065618482273,
+          61.87493364476059,
+          63.7708830548926,
+          64.07210732252655,
+          64.54842664487127,
+          64.7571035747021
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-nf3-rsbtxt",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Nf3",
+        "c6",
+        "Nc3",
+        "Bg4",
+        "h3",
+        "Bh5"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          19316,
+          12466,
+          9419,
+          6285,
+          1640,
+          1090
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          60.53530751708428,
+          61.27065618482273,
+          61.87493364476059,
+          63.7708830548926,
+          62.34756097560976,
+          64.81651376146789
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-bc4-nf6-bb2-wlui18",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Bc4",
+        "Nf6",
+        "Bb2",
+        "c6",
+        "Bxf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          121771,
+          38652,
+          12940,
+          6649,
+          3210
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.03792364356045,
+          59.65279933767981,
+          57.001545595054104,
+          56.88825387276282,
+          56.931464174454824
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-qh5-nc6-bc4-jn3r2r",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Qh5",
+        "Nc6",
+        "Bc4",
+        "e6",
+        "Nf3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          17870,
+          6880,
+          5123,
+          3328,
+          2028,
+          1089
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.823167319529944,
+          60.38517441860465,
+          58.432559047433145,
+          63.26622596153846,
+          65.03944773175543,
+          56.38200183654729
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-qh5-nc6-bc4-jn3r2r",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Qh5",
+        "Nc6",
+        "Bc4",
+        "e6",
+        "Nf3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          17870,
+          6880,
+          5123,
+          3328,
+          2028,
+          1089
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.823167319529944,
+          60.38517441860465,
+          58.432559047433145,
+          63.26622596153846,
+          65.03944773175543,
+          56.38200183654729
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-qh5-nc6-bc4-jn3r2r",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Qh5",
+        "Nc6",
+        "Bc4",
+        "e6",
+        "Nf3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          17870,
+          6880,
+          5123,
+          3328,
+          2028,
+          1089
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.823167319529944,
+          60.38517441860465,
+          58.432559047433145,
+          63.26622596153846,
+          65.03944773175543,
+          56.38200183654729
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-qa5-qh5-nc6-bc4-jn3r2r",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Qa5",
+        "Qh5",
+        "Nc6",
+        "Bc4",
+        "e6",
+        "Nf3",
+        "Nf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          861553,
+          333131,
+          146331,
+          17870,
+          6880,
+          5123,
+          3328,
+          2028,
+          1089
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          42.86788172020967,
+          42.823167319529944,
+          60.38517441860465,
+          58.432559047433145,
+          63.26622596153846,
+          65.03944773175543,
+          56.38200183654729
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-na6-ba3-qa4-mbsz0h",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Na6",
+        "Ba3",
+        "Qa4"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          861553,
+          333131,
+          79673,
+          30343,
+          1109
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          54.25489187052075,
+          55.10826220215536,
+          57.30387736699729
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-kotrvc-gambit-qxb4-nb5-na6-c3-qe4--ne2-ljsggc",
+      "name": "Kotrvc gambit: Qxb4 Forcing Line",
+      "moves": [
+        "Qxb4",
+        "Nb5",
+        "Na6",
+        "c3",
+        "Qe4+",
+        "Ne2",
+        "c6"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          861553,
+          333131,
+          79673,
+          12748,
+          9428,
+          3320,
+          1680
+        ],
+        "winrates": [
+          45.17586265731766,
+          45.49426501886645,
+          54.25489187052075,
+          55.02431754000627,
+          58.07700466694952,
+          59.30722891566265,
+          60.5952380952381
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

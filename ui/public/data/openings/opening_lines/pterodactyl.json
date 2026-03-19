@@ -1,0 +1,25 @@
+{
+  "opening": "pterodactyl",
+  "openingId": "pterodactyl",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "pterodactyl-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d6",
+        "c4",
+        "g6",
+        "Nc3",
+        "Bg7",
+        "e4",
+        "c5",
+        "Nf3",
+        "Qa5"
+      ],
+      "eco": "A42"
+    }
+  ],
+  "generatedAt": "1.0"
+}

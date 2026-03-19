@@ -1,0 +1,1204 @@
+{
+  "id": "miscellaneous-birds-opening-williams-gambit",
+  "name": "Birds opening Williams gambit",
+  "opening": "Birds opening Williams gambit",
+  "generatedAt": "2026-01-03T19:19:42.608Z",
+  "lines": [
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-qd6-e5-qd8-d4-f6-nf3-z0i3jl",
+      "name": "Birds opening Williams gambit: Qd6 Forcing Line",
+      "moves": [
+        "Qd6",
+        "e5",
+        "Qd8",
+        "d4",
+        "f6",
+        "Nf3",
+        "fxe5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3638,
+          1987,
+          2056,
+          2278,
+          1952,
+          1475,
+          1005
+        ],
+        "winrates": [
+          56.40461792193513,
+          57.523905385002514,
+          55.690661478599225,
+          55.86040386303775,
+          65.08709016393442,
+          65.38983050847457,
+          67.06467661691542
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-qd7-e5-v4h4lj",
+      "name": "Birds opening Williams gambit: Qd7 Forcing Line",
+      "moves": [
+        "Qd7",
+        "e5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2710,
+          1015
+        ],
+        "winrates": [
+          55.68265682656827,
+          56.30541871921182
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-nc3-qd4-nge2-33b7u3",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Qd4",
+        "Nge2"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          1503192,
+          617403,
+          3555,
+          1738
+        ],
+        "winrates": [
+          47.566811159186585,
+          48.51490841476313,
+          56.27285513361463,
+          59.69505178365938
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-nc3-nf6-d3-exd3-bxd3-gvsw10",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nc6",
+        "Nf3",
+        "Bg4",
+        "h3",
+        "Bh5"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          617403,
+          350395,
+          90392,
+          134962,
+          138956,
+          59987,
+          65706,
+          45255,
+          5731,
+          1058
+        ],
+        "winrates": [
+          47.566811159186585,
+          48.51490841476313,
+          48.025656758800785,
+          48.88706965218161,
+          51.81458484610483,
+          51.95169694003857,
+          52.02127127544301,
+          53.065930052050035,
+          52.49917136228041,
+          56.85744198220206,
+          59.45179584120983
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-nc3-nf6-d3-exd3-bxd3-iia1gs",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nc6",
+        "Nf3",
+        "e6",
+        "Be3",
+        "Be7"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          617403,
+          350395,
+          90392,
+          134962,
+          138956,
+          59987,
+          65706,
+          14601,
+          4287,
+          1222
+        ],
+        "winrates": [
+          47.566811159186585,
+          48.51490841476313,
+          48.025656758800785,
+          48.88706965218161,
+          51.81458484610483,
+          51.95169694003857,
+          52.02127127544301,
+          53.065930052050035,
+          54.85583179234299,
+          55.505015162118035,
+          59.45171849427169
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-nc3-nf6-d3-exd3-bxd3-4v7gxa",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "Nf6",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Bg4",
+        "Nf3",
+        "Bxf3",
+        "Qxf3",
+        "Nc6",
+        "Be3",
+        "e6",
+        "O-O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1503192,
+          617403,
+          350395,
+          90392,
+          134962,
+          138956,
+          46059,
+          42056,
+          10634,
+          10143,
+          4978,
+          1460,
+          2954,
+          2361
+        ],
+        "winrates": [
+          47.566811159186585,
+          48.51490841476313,
+          48.025656758800785,
+          48.88706965218161,
+          51.81458484610483,
+          51.95169694003857,
+          51.93121865433466,
+          53.513172912307404,
+          57.30675192777882,
+          58.18791284629794,
+          59.17034953796706,
+          62.12328767123287,
+          60.64658090724442,
+          62.1135112240576
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-nc3-f5-d3-exd3-bxd3-kg880o",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "f5",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "g6",
+        "Nf3",
+        "Bg7"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          1503192,
+          617403,
+          96283,
+          25982,
+          20557,
+          20674,
+          3974,
+          3195,
+          1831
+        ],
+        "winrates": [
+          47.566811159186585,
+          48.51490841476313,
+          47.52500441407102,
+          52.04372257716881,
+          53.874592596195946,
+          53.93973106317114,
+          58.31655762455964,
+          57.82472613458529,
+          55.543418896777716
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-nc3-f5-d3-nf6-dxe4-kp39f9",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "f5",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "fxe4",
+        "Qxd8+",
+        "Kxd8",
+        "Be3"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          1503192,
+          617403,
+          96283,
+          25982,
+          12003,
+          5272,
+          1951,
+          2645,
+          2642,
+          1630
+        ],
+        "winrates": [
+          47.566811159186585,
+          48.51490841476313,
+          47.52500441407102,
+          52.04372257716881,
+          47.29234358077147,
+          46.31069802731411,
+          51.61455663762173,
+          56.10586011342155,
+          56.0560181680545,
+          57.39263803680982
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-nc3-f5-d3-nf6-dxe4-kp39f9",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "Nc3",
+        "f5",
+        "d3",
+        "Nf6",
+        "dxe4",
+        "fxe4",
+        "Qxd8+",
+        "Kxd8",
+        "Be3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1503192,
+          617403,
+          96283,
+          25982,
+          12003,
+          5272,
+          1951,
+          2645,
+          2642,
+          1630
+        ],
+        "winrates": [
+          47.566811159186585,
+          48.51490841476313,
+          47.52500441407102,
+          52.04372257716881,
+          47.29234358077147,
+          46.31069802731411,
+          51.61455663762173,
+          56.10586011342155,
+          56.0560181680545,
+          57.39263803680982
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-bd7-nf3-y863bm",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Bd7",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          3075,
+          2295
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          55.51219512195122,
+          56.1437908496732
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-x47mlu",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "Bg4",
+        "Nc3",
+        "Bxf3",
+        "Qxf3",
+        "Nc6",
+        "Be3",
+        "e6",
+        "O-O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          40565,
+          3281,
+          10634,
+          10143,
+          4978,
+          1460,
+          2954,
+          2361
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          50.910883766794036,
+          54.480341359341665,
+          57.30675192777882,
+          58.18791284629794,
+          59.17034953796706,
+          62.12328767123287,
+          60.64658090724442,
+          62.1135112240576
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-wfpdk8",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "Bg4",
+        "Nc3",
+        "Nc6",
+        "h3",
+        "Bh5"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          40565,
+          3281,
+          14926,
+          5731,
+          1058
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          50.910883766794036,
+          54.480341359341665,
+          53.04167224976551,
+          56.85744198220206,
+          59.45179584120983
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-77jw4m",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Nd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          22670,
+          3425,
+          1040
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          52.55183061314512,
+          55.284671532846716,
+          61.15384615384616
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-gvm3ue",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "O-O",
+        "Bxc3",
+        "bxc3",
+        "O-O",
+        "Ba3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          22670,
+          3425,
+          16078,
+          10408,
+          5240,
+          5186,
+          4274,
+          1167
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          52.55183061314512,
+          55.284671532846716,
+          57.09043413359871,
+          57.63355111452728,
+          59.541984732824424,
+          59.631700732742,
+          59.34721572297613,
+          60.02570694087404
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-iyfcd0",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Be7",
+        "Be3",
+        "O-O",
+        "Qe2",
+        "b6",
+        "O-O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          22670,
+          3425,
+          22430,
+          3761,
+          4587,
+          2570,
+          1075,
+          1013
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          52.55183061314512,
+          55.284671532846716,
+          53.595630851538125,
+          57.591066205796324,
+          58.066274253324615,
+          63.28793774319066,
+          66,
+          67.42349457058243
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-u7o1bg",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Be7",
+        "Qe2",
+        "O-O",
+        "Be3",
+        "b6",
+        "O-O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          22670,
+          3425,
+          22430,
+          1906,
+          1620,
+          1416,
+          1075,
+          1013
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          52.55183061314512,
+          55.284671532846716,
+          53.595630851538125,
+          61.69989506820567,
+          63.580246913580254,
+          64.58333333333334,
+          66,
+          67.42349457058243
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-gvm3ue",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "O-O",
+        "Bxc3",
+        "bxc3",
+        "O-O",
+        "Ba3"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          22670,
+          3425,
+          16078,
+          10408,
+          5240,
+          5186,
+          4274,
+          1167
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          52.55183061314512,
+          55.284671532846716,
+          57.09043413359871,
+          57.63355111452728,
+          59.541984732824424,
+          59.631700732742,
+          59.34721572297613,
+          60.02570694087404
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-h4715q",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Bd2",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          22670,
+          3425,
+          16078,
+          3609,
+          2152
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          52.55183061314512,
+          55.284671532846716,
+          57.09043413359871,
+          55.48628428927681,
+          56.923791821561345
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nf6-nf3-i4k8qp",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nf6",
+        "Nf3",
+        "e6",
+        "Nc3",
+        "Bb4",
+        "Be3",
+        "Bxc3+",
+        "bxc3",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          128109,
+          95321,
+          22670,
+          3425,
+          16078,
+          1351,
+          1643,
+          1639,
+          1121
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          51.44876628496047,
+          51.10363928200502,
+          52.55183061314512,
+          55.284671532846716,
+          57.09043413359871,
+          56.513693560325684,
+          55.11259890444309,
+          55.0640634533252,
+          55.173951828724356
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nc6-nf3-z8wbfw",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nc6",
+        "Nf3",
+        "Bd7",
+        "O-O",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          65294,
+          47754,
+          1321,
+          1624,
+          1011
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          52.55766226605814,
+          52.435398081836084,
+          57.04012112036337,
+          57.11206896551724,
+          57.66567754698318
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nc6-nf3-g4g6zm",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nc6",
+        "Nf3",
+        "Bg4",
+        "Nc3",
+        "Bxf3",
+        "Qxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          65294,
+          47754,
+          20213,
+          1692,
+          1342,
+          1265
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          52.55766226605814,
+          52.435398081836084,
+          52.86449314797408,
+          57.77186761229315,
+          58.830104321907605,
+          59.723320158102766
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nc6-nf3-160955",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nc6",
+        "Nf3",
+        "Bg4",
+        "O-O",
+        "Bxf3",
+        "Qxf3",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          65294,
+          47754,
+          20213,
+          16537,
+          3782,
+          3548,
+          1193
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          52.55766226605814,
+          52.435398081836084,
+          52.86449314797408,
+          52.77559412227127,
+          58.15705975674247,
+          59.188275084554675,
+          59.01089689857501
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nc6-nf3-160955",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nc6",
+        "Nf3",
+        "Bg4",
+        "O-O",
+        "Bxf3",
+        "Qxf3",
+        "e6"
+      ],
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          65294,
+          47754,
+          20213,
+          16537,
+          3782,
+          3548,
+          1193
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          52.55766226605814,
+          52.435398081836084,
+          52.86449314797408,
+          52.77559412227127,
+          58.15705975674247,
+          59.188275084554675,
+          59.01089689857501
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nc6-nf3-g4g6zm",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nc6",
+        "Nf3",
+        "Bg4",
+        "Nc3",
+        "Bxf3",
+        "Qxf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          65294,
+          47754,
+          20213,
+          1692,
+          1342,
+          1265
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          52.55766226605814,
+          52.435398081836084,
+          52.86449314797408,
+          57.77186761229315,
+          58.830104321907605,
+          59.723320158102766
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "miscellaneous-birds-opening-williams-gambit-dxe4-d3-exd3-bxd3-nc6-nc3-l87pl5",
+      "name": "Birds opening Williams gambit: dxe4 Forcing Line",
+      "moves": [
+        "dxe4",
+        "d3",
+        "exd3",
+        "Bxd3",
+        "Nc6",
+        "Nc3",
+        "Bd7",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          1503192,
+          439070,
+          229166,
+          252576,
+          65294,
+          12865,
+          1352,
+          1315
+        ],
+        "winrates": [
+          47.566811159186585,
+          50.052041815655826,
+          52.42226159203373,
+          52.3430571392373,
+          52.55766226605814,
+          54.516129032258064,
+          55.8801775147929,
+          56.083650190114064
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

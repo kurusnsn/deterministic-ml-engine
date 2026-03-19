@@ -1,0 +1,766 @@
+{
+  "opening": "czech benoni",
+  "openingId": "czech-benoni",
+  "perspective": "black",
+  "lines": [
+    {
+      "id": "czech-benoni-line-0",
+      "name": "King's Indian system",
+      "moves": [
+        "d4",
+        "Nf6",
+        "c4",
+        "c5",
+        "d5",
+        "e5",
+        "Nc3",
+        "d6",
+        "e4",
+        "g6"
+      ],
+      "eco": "A56"
+    },
+    {
+      "id": "czech-benoni-dxe6-fxe6-f3-d5-c0b0en",
+      "name": "d5 Line",
+      "moves": [
+        "dxe6",
+        "fxe6",
+        "f3",
+        "d5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          79094,
+          273749,
+          1131,
+          703
+        ],
+        "winrates": [
+          56.633878676005764,
+          56.2142692758695,
+          62.06896551724138,
+          66.35846372688479
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-e4-d6-bg5-nbd7-6n78rl",
+      "name": "Nbd7 Line",
+      "moves": [
+        "e4",
+        "d6",
+        "Bg5",
+        "Nbd7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          13687,
+          13613,
+          5592,
+          555
+        ],
+        "winrates": [
+          55.99473953386425,
+          55.02093587012414,
+          56.294706723891274,
+          60.9009009009009
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-bg5-d6-e4-nbd7-ah9z2f",
+      "name": "After d6 e4 Nbd7",
+      "moves": [
+        "Bg5",
+        "d6",
+        "e4",
+        "Nbd7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          8542,
+          9376,
+          2616,
+          555
+        ],
+        "winrates": [
+          57.35776164832591,
+          58.34044368600683,
+          59.30810397553516,
+          60.9009009009009
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-d6-qb6-nc3-qxd6-aukex7",
+      "name": "Qxd6 Line",
+      "moves": [
+        "d6",
+        "Qb6",
+        "Nc3",
+        "Qxd6"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1586,
+          1428,
+          946,
+          549
+        ],
+        "winrates": [
+          55.42244640605296,
+          58.43837535014005,
+          58.66807610993657,
+          58.46994535519126
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-bg5-be7-h3-jusekt",
+      "name": "h3 Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "Bg5",
+        "Be7",
+        "h3"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          407046,
+          420538,
+          40072,
+          47402,
+          735
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          55.69225394290278,
+          56.08413147124593,
+          58.29931972789115
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bg5-nxd5-cr9kwn",
+      "name": "Nd5 Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bg5",
+        "Nxd5",
+        "Bxe7",
+        "Nxe7",
+        "Nd5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          24653,
+          8157,
+          4002,
+          3940,
+          716
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          56.52658905609864,
+          67.14478362142945,
+          68.82808595702149,
+          68.76903553299492,
+          71.0195530726257
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-o-o-mag9zr",
+      "name": "Bxf4 Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "O-O",
+        "Nge2",
+        "Ne8",
+        "O-O",
+        "Bg5",
+        "f4",
+        "exf4",
+        "Bxf4",
+        "Bxf4"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          92994,
+          60229,
+          14983,
+          8971,
+          2566,
+          1837,
+          1720,
+          880,
+          797
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          49.730090113340644,
+          49.78498729847748,
+          51.248081158646464,
+          50.9865120945268,
+          57.15120810600156,
+          58.68263473053892,
+          59.53488372093023,
+          63.18181818181819,
+          63.29987452948558
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-o-o-hv4i98",
+      "name": "Bg5 Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "O-O",
+        "Nge2",
+        "Ne8",
+        "O-O",
+        "Nd7",
+        "f4",
+        "exf4",
+        "Bxf4",
+        "Bg5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          92994,
+          60229,
+          14983,
+          8971,
+          637,
+          3021,
+          2289,
+          1747,
+          565
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          49.730090113340644,
+          49.78498729847748,
+          51.248081158646464,
+          50.9865120945268,
+          58.241758241758234,
+          57.613373055279716,
+          60.768894713848844,
+          61.36233543216944,
+          63.008849557522126
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-o-o-zb3wrz",
+      "name": "O-O Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "O-O",
+        "Nge2",
+        "Ne8",
+        "Ng3",
+        "Bg5",
+        "O-O"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          92994,
+          60229,
+          14983,
+          2136,
+          1274,
+          826
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          49.730090113340644,
+          49.78498729847748,
+          51.248081158646464,
+          52.29400749063671,
+          55.29827315541601,
+          57.80871670702179
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-nbd7-q6rm1",
+      "name": "Nxd5 Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "Nbd7",
+        "Bg5",
+        "Nxd5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          36376,
+          635,
+          551
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          52.551132614910934,
+          58.031496062992126,
+          65.78947368421053
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-nbd7-s7epkw",
+      "name": "After exf4 Bxf4 Bg5",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "Nbd7",
+        "Nge2",
+        "O-O",
+        "O-O",
+        "Ne8",
+        "f4",
+        "exf4",
+        "Bxf4",
+        "Bg5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          36376,
+          35912,
+          7763,
+          13434,
+          4328,
+          3021,
+          2289,
+          1747,
+          565
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          52.551132614910934,
+          52.46714190242816,
+          51.867834600025766,
+          52.9961292243561,
+          56.34242144177449,
+          57.613373055279716,
+          60.768894713848844,
+          61.36233543216944,
+          63.008849557522126
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-nbd7-nvhgba",
+      "name": "After Ng6 Bg5 O-O",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "Nbd7",
+        "Nf3",
+        "Nf8",
+        "O-O",
+        "Ng6",
+        "Bg5",
+        "O-O"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          36376,
+          6314,
+          10705,
+          5976,
+          5927,
+          1018,
+          1026
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          52.551132614910934,
+          54.212860310421284,
+          56.0999532928538,
+          56.651606425702816,
+          56.9090602328328,
+          61.738703339882115,
+          61.35477582846004
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-nbd7-c9pgke",
+      "name": "Ng6 Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "Nbd7",
+        "Nf3",
+        "Nf8",
+        "Be3",
+        "Ng6"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          36376,
+          6314,
+          10705,
+          556,
+          805
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          52.551132614910934,
+          54.212860310421284,
+          56.0999532928538,
+          55.93525179856116,
+          56.89440993788819
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-nbd7-kswjyo",
+      "name": "Ng7 Line",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "Nbd7",
+        "Nf3",
+        "O-O",
+        "O-O",
+        "Ne8",
+        "h3",
+        "g6",
+        "Bh6",
+        "Ng7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          36376,
+          6314,
+          6225,
+          7363,
+          2531,
+          608,
+          1272,
+          748,
+          798
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          52.551132614910934,
+          54.212860310421284,
+          54.19277108433735,
+          55.11340486214857,
+          57.3686290003951,
+          56.825657894736835,
+          58.922955974842765,
+          59.491978609625676,
+          58.7092731829574
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-nbd7-7a92jf",
+      "name": "After O-O Bg5 Nxd5",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "Nbd7",
+        "Nf3",
+        "O-O",
+        "Bg5",
+        "Nxd5"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          36376,
+          6314,
+          6225,
+          596,
+          638
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          52.551132614910934,
+          54.212860310421284,
+          54.19277108433735,
+          58.13758389261745,
+          66.53605015673982
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "czech-benoni-nc3-d6-e4-be7-bd3-nbd7-tr5iw0",
+      "name": "Variation 3",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4",
+        "Be7",
+        "Bd3",
+        "Nbd7",
+        "Nf3",
+        "O-O",
+        "h3",
+        "Ne8",
+        "O-O",
+        "g6",
+        "Bh6",
+        "Ng7"
+      ],
+      "eco": "A56",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          407046,
+          420538,
+          498423,
+          498093,
+          146289,
+          36376,
+          6314,
+          6225,
+          1830,
+          2195,
+          1396,
+          1272,
+          748,
+          798
+        ],
+        "winrates": [
+          51.512236946192814,
+          51.49094731035008,
+          50.3225172193097,
+          50.23258708715039,
+          50.05195195811032,
+          52.551132614910934,
+          54.212860310421284,
+          54.19277108433735,
+          49.42622950819672,
+          55.763097949886095,
+          56.16045845272206,
+          58.922955974842765,
+          59.491978609625676,
+          58.7092731829574
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:04:17.449Z"
+}

@@ -1,0 +1,1091 @@
+{
+  "opening": "Halloween Gambit",
+  "openingId": "halloween-gambit",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "halloween-gambit-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Nxe5"
+      ],
+      "eco": "C47"
+    },
+    {
+      "id": "halloween-gambit-line-1",
+      "name": "Accepted",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Nxe5",
+        "Nxe5",
+        "d4"
+      ],
+      "eco": "C47"
+    },
+    {
+      "id": "halloween-gambit-line-2",
+      "name": "Declined",
+      "moves": [
+        "e4",
+        "e5",
+        "Nf3",
+        "Nc6",
+        "Nc3",
+        "Nf6",
+        "Nxe5",
+        "Nxe4"
+      ],
+      "eco": "C47"
+    },
+    {
+      "id": "halloween-gambit-bb4-d4-nxe5-dxe5-bxc3--bxc3-6xbrie",
+      "name": "Bg5 Line",
+      "moves": [
+        "Bb4",
+        "d4",
+        "Nxe5",
+        "dxe5",
+        "Bxc3+",
+        "bxc3",
+        "Nxe4",
+        "Qg4",
+        "Nxc3",
+        "Qxg7",
+        "Rf8",
+        "Bg5"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10804,
+          2392,
+          17813,
+          37627,
+          6437,
+          6413,
+          9636,
+          3495,
+          3256,
+          3138,
+          2996,
+          1027
+        ],
+        "winrates": [
+          57.27508330248057,
+          57.169732441471574,
+          65.72727783079773,
+          62.06713264411194,
+          66.57604474133913,
+          66.7238421955403,
+          67.30489829804898,
+          80.78683834048641,
+          83.36916461916462,
+          83.77947737412364,
+          83.26101468624833,
+          95.76436222005842
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-d6-nxc6-bxc6-d4-d5-e5-i28sny",
+      "name": "e5 Line",
+      "moves": [
+        "d6",
+        "Nxc6",
+        "bxc6",
+        "d4",
+        "d5",
+        "e5"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          10539,
+          7795,
+          7881,
+          4949,
+          1397,
+          1128
+        ],
+        "winrates": [
+          57.23028750355821,
+          60.025657472738935,
+          59.68785687095546,
+          61.42655081834714,
+          63.958482462419475,
+          65.0709219858156
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-d5-nxc6-bxc6-e5-8labk",
+      "name": "After Nxc6 bxc6 e5",
+      "moves": [
+        "d5",
+        "Nxc6",
+        "bxc6",
+        "e5"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3942,
+          3682,
+          3621,
+          2544
+        ],
+        "winrates": [
+          57.36935565702689,
+          58.432916892992935,
+          57.870753935376975,
+          62.264150943396224
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-be7-d4-o-o-g9mjg3",
+      "name": "O-O Line",
+      "moves": [
+        "Be7",
+        "d4",
+        "O-O"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3367,
+          1012,
+          1039
+        ],
+        "winrates": [
+          58.41995841995842,
+          64.08102766798419,
+          56.448508180943215
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe4-nxc6-nxc3-nxd8-nxd1-skxi5r",
+      "name": "Nxd1 Line",
+      "moves": [
+        "Nxe4",
+        "Nxc6",
+        "Nxc3",
+        "Nxd8",
+        "Nxd1"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          2932,
+          2011,
+          1630,
+          1070,
+          1057
+        ],
+        "winrates": [
+          60.129604365620736,
+          64.0228741919443,
+          59.78527607361963,
+          59.48598130841122,
+          59.03500473036897
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-qe7-nxc6-dxc6-d3-6tpe6p",
+      "name": "d3 Line",
+      "moves": [
+        "Qe7",
+        "Nxc6",
+        "dxc6",
+        "d3"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1939,
+          1560,
+          1095,
+          2066
+        ],
+        "winrates": [
+          61.83599793708097,
+          61.15384615384616,
+          60.59360730593607,
+          59.462729912875126
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-nc4-bxc4-bb4-p1xtga",
+      "name": "Bb4 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Nc4",
+        "Bxc4",
+        "Bb4"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          910182,
+          901475,
+          5365,
+          4524,
+          1573
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          72.41379310344827,
+          73.1211317418214,
+          70.78830260648442
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-nc6-d5-ne7-e5-b27s4j",
+      "name": "Qxd6 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Nc6",
+        "d5",
+        "Ne7",
+        "e5",
+        "Nfg8",
+        "d6",
+        "cxd6",
+        "exd6",
+        "Nc6",
+        "Nb5",
+        "Bxd6",
+        "Qxd6"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          910182,
+          901475,
+          343721,
+          270584,
+          33854,
+          29105,
+          23664,
+          21184,
+          13962,
+          13906,
+          7880,
+          7297,
+          4016,
+          1035
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          59.53549535815385,
+          61.7549448600065,
+          66.45300407632776,
+          69.33688369695929,
+          71.30028735632183,
+          73.43277945619336,
+          74.20140381034236,
+          74.22695239464979,
+          75.44416243654823,
+          79.61491023708373,
+          81.21264940239044,
+          85.3623188405797
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-neg4-e5-nxf2-kxf2-qqiefs",
+      "name": "g3 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Neg4",
+        "e5",
+        "Nxf2",
+        "Kxf2",
+        "Ng8",
+        "Bc4",
+        "Qh4+",
+        "g3"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          910182,
+          901475,
+          19459,
+          16312,
+          7115,
+          6937,
+          5708,
+          3936,
+          1108,
+          1031
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          64.31471298627885,
+          66.18133889161354,
+          67.8004216444132,
+          68.73288164912786,
+          67.89593552908198,
+          70.71900406504065,
+          77.34657039711192,
+          78.80698351115421
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-bb4-dxe5-bxc3--bxc3-5lzlp6",
+      "name": "After Qxg7 Rf8 Bg5",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Bb4",
+        "dxe5",
+        "Bxc3+",
+        "bxc3",
+        "Nxe4",
+        "Qg4",
+        "Nxc3",
+        "Qxg7",
+        "Rf8",
+        "Bg5"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          910182,
+          901475,
+          19383,
+          37627,
+          6437,
+          6413,
+          9636,
+          3495,
+          3256,
+          3138,
+          2996,
+          1027
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          58.3114069029562,
+          62.06713264411194,
+          66.57604474133913,
+          66.7238421955403,
+          67.30489829804898,
+          80.78683834048641,
+          83.36916461916462,
+          83.77947737412364,
+          83.26101468624833,
+          95.76436222005842
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-qe7-dxe5-qxe5-f4-m3w36o",
+      "name": "Qh5 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Qe7",
+        "dxe5",
+        "Qxe5",
+        "f4",
+        "Qh5"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          910182,
+          901475,
+          2704,
+          5926,
+          5921,
+          20159,
+          1327
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          58.21005917159763,
+          57.42490718866014,
+          57.27073129538929,
+          60.86115382707475,
+          64.24265259984928
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-d5-dxe5-nxe4-nxe4-rimkk7",
+      "name": "Bc4 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "d5",
+        "dxe5",
+        "Nxe4",
+        "Nxe4",
+        "dxe4",
+        "Qxd8+",
+        "Kxd8",
+        "Bc4"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          910182,
+          901475,
+          2108,
+          3614,
+          3075,
+          2410,
+          3497,
+          3345,
+          4344,
+          1937
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          60.60246679316889,
+          62.67293857221915,
+          61.36585365853659,
+          60.35269709543568,
+          60.0943665999428,
+          60.747384155455904,
+          59.898710865561696,
+          63.216313887454824
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-nd5-nxd5-npilv8",
+      "name": "c6 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Nd5",
+        "Nxd5",
+        "c6"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          2026,
+          1652,
+          1012
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          59.60019743336624,
+          61.470944309927354,
+          60.573122529644266
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-qf3-7cmt86",
+      "name": "Qxc4 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Qf3",
+        "d6",
+        "Bc4",
+        "Be6",
+        "Qxb7",
+        "Bxc4",
+        "Qc6+",
+        "Ke7",
+        "Qxc4"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          16300,
+          5417,
+          5249,
+          40723,
+          22054,
+          14669,
+          14613,
+          11782,
+          10213
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          55.46625766871166,
+          58.69484954772014,
+          59.592303295865875,
+          56.52211281094222,
+          63.890904144372904,
+          68.64816960938033,
+          68.84965441729966,
+          69.58920387031064,
+          70.63056888279644
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-mgknp4",
+      "name": "d6 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "Bb4",
+        "Qf3",
+        "f6",
+        "O-O",
+        "Bxc3",
+        "bxc3",
+        "d6"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          83793,
+          65635,
+          3374,
+          3011,
+          2113,
+          2089,
+          1092
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          57.028033367942434,
+          58.72095680658186,
+          64.78956727919383,
+          69.37894387246762,
+          69.82962612399433,
+          70.27285782671134,
+          71.65750915750915
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-7hj8h1",
+      "name": "f6 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "N8e7",
+        "Qf3",
+        "f6"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          11817,
+          9828,
+          1138
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          55.88135736650588,
+          56.456043956043956,
+          59.40246045694201
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-ghnxqf",
+      "name": "After Qf3 f6 O-O",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "Be7",
+        "Qf3",
+        "f6",
+        "O-O"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          5614,
+          4806,
+          3344,
+          1457
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          59.57427858924118,
+          60.892634207240945,
+          61.97667464114832,
+          59.84900480439259
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-dwvp8s",
+      "name": "Qf3 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "f6",
+        "Qf3"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          4733,
+          2840
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          61.43038242129727,
+          63.274647887323944
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-3epea2",
+      "name": "Nd5 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "Qe7",
+        "Nd5"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          4567,
+          1168
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          61.769213925990805,
+          64.76883561643835
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-jx2vho",
+      "name": "gxh6 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "Nh6",
+        "Bxh6",
+        "gxh6"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          3003,
+          1026,
+          1021
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          64.41891441891443,
+          67.8849902534113,
+          67.92360430950049
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-vq5yme",
+      "name": "Qe7 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "d5",
+        "Bxd5",
+        "Bb4",
+        "Qf3",
+        "Qe7"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 9,
+        "punishment_move_index": 10,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          89216,
+          70205,
+          11950,
+          10201,
+          2020
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          46.77692342180775,
+          49.284951214300975,
+          54.66108786610878,
+          55.79845113224194,
+          60.024752475247524
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-yrk7cw",
+      "name": "After Qc6+ Ke7 Qxc4",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "d6",
+        "Qf3",
+        "Be6",
+        "Qxb7",
+        "Bxc4",
+        "Qc6+",
+        "Ke7",
+        "Qxc4"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          88214,
+          71945,
+          40723,
+          22054,
+          14669,
+          14613,
+          11782,
+          10213
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          54.33661323599429,
+          56.304121203697264,
+          56.52211281094222,
+          63.890904144372904,
+          68.64816960938033,
+          68.84965441729966,
+          69.58920387031064,
+          70.63056888279644
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "halloween-gambit-nxe5-d4-ng6-e5-ng8-bc4-z656gk",
+      "name": "Rd8 Line",
+      "moves": [
+        "Nxe5",
+        "d4",
+        "Ng6",
+        "e5",
+        "Ng8",
+        "Bc4",
+        "d6",
+        "Qf3",
+        "Qe7",
+        "O-O",
+        "Be6",
+        "Qxb7",
+        "Rd8"
+      ],
+      "eco": "C47",
+      "metadata": {
+        "mistake_move_index": 8,
+        "punishment_move_index": 9,
+        "gameCounts": [
+          910182,
+          901475,
+          486107,
+          469098,
+          402196,
+          329268,
+          88214,
+          71945,
+          19927,
+          11486,
+          3332,
+          1806,
+          1141
+        ],
+        "winrates": [
+          54.93670496669897,
+          55.154663190881614,
+          51.463258089268415,
+          51.918469061901774,
+          52.01245164049369,
+          53.018058238273994,
+          54.33661323599429,
+          56.304121203697264,
+          55.698298790585646,
+          58.94131986766499,
+          62.650060024009605,
+          67.88482834994463,
+          64.63628396143733
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-07T01:24:22.504Z"
+}

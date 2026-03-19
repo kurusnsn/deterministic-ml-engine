@@ -1,0 +1,1012 @@
+{
+  "id": "scandinavian-scandinavian-icelandic-gambit",
+  "name": "Scandinavian Icelandic gambit",
+  "opening": "Scandinavian Icelandic gambit",
+  "generatedAt": "2026-01-03T19:55:33.086Z",
+  "lines": [
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-qe2-bc5-nc3-o-o-5s3k9m",
+      "name": "Scandinavian Icelandic gambit: Qe2 Forcing Line",
+      "moves": [
+        "Qe2",
+        "Bc5",
+        "Nc3",
+        "O-O"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          30032,
+          9944,
+          2966,
+          2842
+        ],
+        "winrates": [
+          63.11933937133725,
+          66.14541432019307,
+          68.77950101146325,
+          69.96833216045039
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-d3-exd5-bg5-oszkmd",
+      "name": "Scandinavian Icelandic gambit: d3 Forcing Line",
+      "moves": [
+        "d3",
+        "exd5",
+        "Bg5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          7722,
+          9870,
+          1015
+        ],
+        "winrates": [
+          60.93628593628594,
+          59.50354609929078,
+          66.45320197044336
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-qf3-exd5-nc3-3rw5oc",
+      "name": "Scandinavian Icelandic gambit: Qf3 Forcing Line",
+      "moves": [
+        "Qf3",
+        "exd5",
+        "Nc3"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3840,
+          3647,
+          1292
+        ],
+        "winrates": [
+          61.65364583333333,
+          60.817109953386336,
+          60.06191950464397
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-b3-exd5-cxd5-nxd5-pbd5lh",
+      "name": "Scandinavian Icelandic gambit: b3 Forcing Line",
+      "moves": [
+        "b3",
+        "exd5",
+        "cxd5",
+        "Nxd5"
+      ],
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          3563,
+          3163,
+          2162,
+          1476
+        ],
+        "winrates": [
+          60.11787819253438,
+          60.13278533038255,
+          58.92691951896391,
+          58.16395663956639
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bc5-d4-bxd4-b7r3zy",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bc5",
+        "d4",
+        "Bxd4"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2247431,
+          58556,
+          1999,
+          1605
+        ],
+        "winrates": [
+          54.577537641867536,
+          56.234203155953274,
+          61.35567783891946,
+          65.54517133956385
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-nc6-exf7--kxf7-qb3-xcyfu5",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Nc6",
+        "exf7+",
+        "Kxf7",
+        "Qb3"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2247431,
+          49052,
+          38218,
+          38194,
+          1386
+        ],
+        "winrates": [
+          54.577537641867536,
+          61.537755850933706,
+          64.29169501282118,
+          64.31245745405037,
+          77.81385281385282
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-qe7-qe2-bxe6-b3-nc6-vrz6t2",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Qe7",
+        "Qe2",
+        "Bxe6",
+        "b3",
+        "Nc6",
+        "Bb2",
+        "O-O-O",
+        "Nf3",
+        "Nb4"
+      ],
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2247431,
+          11953,
+          2772,
+          3982,
+          1664,
+          4924,
+          2786,
+          2403,
+          1175,
+          1027
+        ],
+        "winrates": [
+          54.577537641867536,
+          55.5174433196687,
+          62.98701298701299,
+          63.4856855851331,
+          70.37259615384616,
+          71.69983753046304,
+          71.60804020100502,
+          72.05576362879734,
+          69.70212765957446,
+          80.47711781888998
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-5ka25z",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Qa4+",
+        "Nc6",
+        "d5",
+        "Qf6",
+        "dxc6",
+        "Qxf2+",
+        "Kd1"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          32574,
+          32358,
+          20354,
+          4442,
+          1164,
+          1021,
+          1016
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          73.54024682261925,
+          73.87972062550219,
+          76.93573744718482,
+          84.92796037820801,
+          84.96563573883161,
+          84.32908912830558,
+          84.25196850393701
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-b3-qd4-nc3-ne4-wntqk4",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "b3",
+        "Qd4",
+        "Nc3",
+        "Ne4",
+        "Bb2",
+        "Qxf2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2247431,
+          2167627,
+          249710,
+          25645,
+          25127,
+          7803,
+          1427,
+          1299
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          59.51263465620119,
+          65.90368492883603,
+          65.69825287539301,
+          73.43970267845701,
+          95.72529782761036,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-h3-qe7-mg7oin",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "h3",
+        "Qe7"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2247431,
+          2167627,
+          11135,
+          2153
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          57.46295464750786,
+          61.472364143056204
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-qe2-bc5-nf3-oxnok5",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "Qe2",
+        "Bc5",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2247431,
+          2167627,
+          10294,
+          3029,
+          1205
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          66.89333592383913,
+          69.84153185869924,
+          66.88796680497926
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-a3-nc6-j4w9hg",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "a3",
+        "Nc6"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2247431,
+          2167627,
+          6743,
+          1804
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          57.00726679519501,
+          59.672949002217294
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-qb3-qe7-pjoxx6",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "Qb3",
+        "Qe7"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2247431,
+          2167627,
+          6395,
+          1688
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          58.13135261923378,
+          58.70853080568721
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-qa4--nc6-nf3-hi2v21",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "Qa4+",
+        "Nc6",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2247431,
+          2167627,
+          5383,
+          3784,
+          1387
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          62.864573657811626,
+          64.69344608879493,
+          61.211247296323
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-f4-bc5-nf3-4gazhd",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "f4",
+        "Bc5",
+        "Nf3"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2247431,
+          2167627,
+          3649,
+          1312,
+          1232
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          62.291038640723485,
+          59.87042682926828,
+          59.09090909090908
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-5ka25z",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Qa4+",
+        "Nc6",
+        "d5",
+        "Qf6",
+        "dxc6",
+        "Qxf2+",
+        "Kd1"
+      ],
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          32574,
+          32358,
+          20354,
+          4442,
+          1164,
+          1021,
+          1016
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          73.54024682261925,
+          73.87972062550219,
+          76.93573744718482,
+          84.92796037820801,
+          84.96563573883161,
+          84.32908912830558,
+          84.25196850393701
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-5ka25z",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Qa4+",
+        "Nc6",
+        "d5",
+        "Qf6",
+        "dxc6",
+        "Qxf2+",
+        "Kd1"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          32574,
+          32358,
+          20354,
+          4442,
+          1164,
+          1021,
+          1016
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          73.54024682261925,
+          73.87972062550219,
+          76.93573744718482,
+          84.92796037820801,
+          84.96563573883161,
+          84.32908912830558,
+          84.25196850393701
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--bd2-qe7-ja4ov2",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Bd2",
+        "Qe7",
+        "Qa4+",
+        "Bd7+"
+      ],
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          100577,
+          50069,
+          4276,
+          1150
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          55.28749117591497,
+          59.4879066887695,
+          75.02338634237606,
+          99.21739130434783
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-5ka25z",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Qa4+",
+        "Nc6",
+        "d5",
+        "Qf6",
+        "dxc6",
+        "Qxf2+",
+        "Kd1"
+      ],
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          32574,
+          32358,
+          20354,
+          4442,
+          1164,
+          1021,
+          1016
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          73.54024682261925,
+          73.87972062550219,
+          76.93573744718482,
+          84.92796037820801,
+          84.96563573883161,
+          84.32908912830558,
+          84.25196850393701
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-his857",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Bd2",
+        "Qxd4",
+        "Nf3",
+        "Qxf2#"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          53318,
+          46590,
+          15813,
+          14645
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          73.3185790914888,
+          77.05838162695858,
+          96.35426547777145,
+          100
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-vh4q7s",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Qd3",
+        "Bf5",
+        "Qe3",
+        "O-O",
+        "Bd3"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          35928,
+          32749,
+          19111,
+          17480,
+          1417
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          66.22828991315966,
+          68.72423585452991,
+          76.2597456961959,
+          78.4324942791762,
+          92.80169371912491
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-xnmmqp",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Ne2",
+        "Bxc4",
+        "Qa4+",
+        "Nc6",
+        "Bd2",
+        "Nxd2",
+        "Kxd2"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          34271,
+          25886,
+          7135,
+          6957,
+          1540,
+          1151,
+          1147
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          56.571153453357056,
+          58.19941281001313,
+          68.28311142256483,
+          69.57021704757797,
+          76.81818181818181,
+          78.84448305821026,
+          78.72711421098518
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-5ka25z",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Qa4+",
+        "Nc6",
+        "d5",
+        "Qf6",
+        "dxc6",
+        "Qxf2+",
+        "Kd1"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          32574,
+          32358,
+          20354,
+          4442,
+          1164,
+          1021,
+          1016
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          73.54024682261925,
+          73.87972062550219,
+          76.93573744718482,
+          84.92796037820801,
+          84.96563573883161,
+          84.32908912830558,
+          84.25196850393701
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-gulbln",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "d5",
+        "Qf6"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          15032,
+          2842
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          58.195848855774344,
+          74.70091484869809
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "scandinavian-scandinavian-icelandic-gambit-dxe6-bxe6-d4-bb4--nc3-ne4-bkz8y5",
+      "name": "Scandinavian Icelandic gambit: dxe6 Forcing Line",
+      "moves": [
+        "dxe6",
+        "Bxe6",
+        "d4",
+        "Bb4+",
+        "Nc3",
+        "Ne4",
+        "Qc2",
+        "Qxd4",
+        "Ne2",
+        "Qxf2+"
+      ],
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2247431,
+          2167627,
+          676199,
+          518273,
+          416214,
+          198970,
+          13137,
+          7970,
+          1249,
+          1027
+        ],
+        "winrates": [
+          54.577537641867536,
+          54.311442882008755,
+          55.267384305507704,
+          58.01237957601495,
+          58.64519213673736,
+          66.46881439412977,
+          57.55119129177133,
+          66.29234629861982,
+          72.53803042433947,
+          78.33495618305744
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

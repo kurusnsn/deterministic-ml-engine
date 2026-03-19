@@ -1,0 +1,999 @@
+{
+  "opening": "levitsky attack (queen's bishop attack)",
+  "openingId": "levitsky-attack-queen-s-bishop-attack",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "d5",
+        "Bg5"
+      ],
+      "eco": "D00"
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nc6-c4-e6-bxd8-4bz7ze",
+      "name": "Bxd8 Line",
+      "moves": [
+        "Nc6",
+        "c4",
+        "e6",
+        "Bxd8"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1019681,
+          38649,
+          953,
+          813
+        ],
+        "winrates": [
+          55.27414946439132,
+          56.08165799891329,
+          83.00104931794333,
+          92.18942189421894
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-e6-bxd8-kd7-szhhe1",
+      "name": "Kd7 Line",
+      "moves": [
+        "e6",
+        "Bxd8",
+        "Kd7"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          509525,
+          872322,
+          1511
+        ],
+        "winrates": [
+          88.32913007212599,
+          88.64180887332888,
+          91.89278623428193
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-nd2-qd6-23sywz",
+      "name": "Qd6 Line",
+      "moves": [
+        "Nf6",
+        "Nd2",
+        "Qd6"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2278203,
+          217636,
+          516
+        ],
+        "winrates": [
+          53.22102551879705,
+          55.17423588009337,
+          59.68992248062015
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-e6-bxd8-kxd8-c4-jywkxq",
+      "name": "c4 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "e6",
+        "Bxd8",
+        "Kxd8",
+        "c4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2278203,
+          1753185,
+          8547,
+          7402,
+          3650,
+          577
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          71.98432198432198,
+          94.29883815185084,
+          88.97260273972603,
+          91.07452339688041
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-nc6-bh4-wzm83a",
+      "name": "Bh4 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "Nc6",
+        "Bh4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2278203,
+          1753185,
+          3571,
+          1163
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          61.6353962475497,
+          68.87360275150472
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-h6-bh4-5hfvll",
+      "name": "After Bxf6 h6 Bh4",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "h6",
+        "Bh4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1823,
+          666
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          60.44980800877674,
+          69.5945945945946
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-g6-bxh8-sea19o",
+      "name": "Bxh8 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "g6",
+        "Bxh8"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1241,
+          894
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          71.19258662369057,
+          87.91946308724832
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-c6-bh4-7unzkk",
+      "name": "After Bxf6 c6 Bh4",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "c6",
+        "Bh4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1128,
+          520
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          64.53900709219859,
+          72.40384615384615
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-g3-bg4-bg2-qzc728",
+      "name": "Bg2 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "g3",
+        "Bg4",
+        "Bg2"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          54060,
+          521,
+          515
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          55.96744358120607,
+          60.84452975047985,
+          61.359223300970875
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-qd3-be7-5u0yt1",
+      "name": "Be7 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "Qd3",
+        "Be7"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          6724,
+          652
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          55.948839976204646,
+          58.20552147239264
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bd6-c4-723y3u",
+      "name": "b6 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bd6",
+        "c4",
+        "b6"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          307169,
+          124605,
+          500
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.02068893670911,
+          57.15781870711448,
+          64.60000000000001
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-nc6-g3-7q3km0",
+      "name": "O-O Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Nc6",
+        "g3",
+        "Be6",
+        "Bg2",
+        "Bd6",
+        "Ne2",
+        "O-O",
+        "O-O"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          61726,
+          5817,
+          785,
+          990,
+          1104,
+          2135,
+          1070,
+          996
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.88325827042089,
+          60.64981949458483,
+          62.35668789808917,
+          62.57575757575757,
+          62.68115942028986,
+          61.92037470725995,
+          65.04672897196262,
+          64.70883534136547
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bf5-g3-gx66qj",
+      "name": "After Ne2 Re8 O-O",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bf5",
+        "g3",
+        "Bd6",
+        "Nd2",
+        "O-O",
+        "Bg2",
+        "c6",
+        "Ne2",
+        "Re8",
+        "O-O"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          59741,
+          3827,
+          1103,
+          523,
+          789,
+          938,
+          1060,
+          3990,
+          1534,
+          1912
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          56.34321487755478,
+          58.831983276718056,
+          60.1541251133273,
+          59.56022944550669,
+          61.4702154626109,
+          61.78038379530917,
+          60.66037735849057,
+          60.78947368421053,
+          61.11473272490222,
+          61.92468619246861
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-be7-g3-ald4fd",
+      "name": "c5 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Be7",
+        "g3",
+        "O-O",
+        "Bg2",
+        "c5"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          59734,
+          4164,
+          3398,
+          3291,
+          653
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          57.36096695349382,
+          60.77089337175793,
+          60.594467333725724,
+          60.34639927073838,
+          60.872894333843796
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-g6-c4-1dhv9o",
+      "name": "g3 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "g6",
+        "c4",
+        "c6",
+        "cxd5",
+        "cxd5",
+        "Nc3",
+        "f5",
+        "g3"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          38591,
+          31711,
+          8936,
+          4580,
+          3015,
+          3124,
+          536,
+          516
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.743567152963124,
+          57.9388855602157,
+          61.537600716204125,
+          62.8711790393013,
+          65.17412935323384,
+          65.17285531370038,
+          60.3544776119403,
+          67.05426356589147
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bb4--c3-s9dzbi",
+      "name": "Bb5 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bb4+",
+        "c3",
+        "Ba5",
+        "Qa4+",
+        "Nc6",
+        "Bb5"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          33833,
+          30651,
+          9949,
+          677,
+          600,
+          504
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          57.3848018207076,
+          57.61312844605396,
+          59.402955070861395,
+          62.77695716395865,
+          61.583333333333336,
+          64.18650793650794
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-a6-c4-f38rau",
+      "name": "dxc4 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "a6",
+        "c4",
+        "dxc4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          4610,
+          1630,
+          532
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          56.62689804772234,
+          58.55828220858895,
+          55.169172932330824
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bd6-g3-nga3c2",
+      "name": "After Ne2 O-O O-O",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bd6",
+        "g3",
+        "Nc6",
+        "Bg2",
+        "Be6",
+        "Ne2",
+        "O-O",
+        "O-O"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          307169,
+          36536,
+          582,
+          2354,
+          1395,
+          2135,
+          1070,
+          996
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.02068893670911,
+          56.2677906722137,
+          60.2233676975945,
+          60.938827527612574,
+          62.40143369175627,
+          61.92037470725995,
+          65.04672897196262,
+          64.70883534136547
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bd6-c4-rteoii",
+      "name": "Nc3 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bd6",
+        "c4",
+        "c6",
+        "cxd5",
+        "Qa5+",
+        "Nc3"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          307169,
+          124605,
+          44115,
+          35032,
+          568,
+          559
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.02068893670911,
+          57.15781870711448,
+          59.99659979598776,
+          61.316796072162596,
+          65.66901408450704,
+          65.65295169946333
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bd6-c4-6spukt",
+      "name": "After cxd5 Bf5 Nc3",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bd6",
+        "c4",
+        "O-O",
+        "cxd5",
+        "Bf5",
+        "Nc3"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          307169,
+          124605,
+          19813,
+          11823,
+          666,
+          822
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.02068893670911,
+          57.15781870711448,
+          57.724726189875334,
+          59.0459274295864,
+          60.36036036036037,
+          60.58394160583942
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bd6-c4-nvfd56",
+      "name": "Bb4 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bd6",
+        "c4",
+        "Be6",
+        "cxd5",
+        "Bxd5",
+        "Nc3",
+        "Bb4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          307169,
+          124605,
+          5274,
+          3265,
+          3224,
+          3089,
+          662
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.02068893670911,
+          57.15781870711448,
+          59.03488813045127,
+          59.87748851454824,
+          59.87903225806451,
+          59.9384914211719,
+          61.17824773413897
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bd6-c4-ezmutf",
+      "name": "Qxd4 Line",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bd6",
+        "c4",
+        "c5",
+        "cxd5",
+        "cxd4",
+        "Qxd4"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          307169,
+          124605,
+          1647,
+          977,
+          775,
+          683
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.02068893670911,
+          57.15781870711448,
+          55.73770491803278,
+          56.192425793244624,
+          56.12903225806451,
+          56.51537335285505
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bd6-c4-vmumzi",
+      "name": "After c4 Bb4+ Nc3",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bd6",
+        "c4",
+        "Bb4+",
+        "Nc3"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          307169,
+          124605,
+          999,
+          1154
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.02068893670911,
+          57.15781870711448,
+          62.41241241241241,
+          63.69150779896013
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "levitsky-attack-queen-s-bishop-attack-nf6-bxf6-exf6-e3-bd6-c4-njwqng",
+      "name": "After c4 Bf5 Nc3",
+      "moves": [
+        "Nf6",
+        "Bxf6",
+        "exf6",
+        "e3",
+        "Bd6",
+        "c4",
+        "Bf5",
+        "Nc3"
+      ],
+      "eco": "D00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2278203,
+          1753185,
+          1268573,
+          808313,
+          307169,
+          124605,
+          877,
+          533
+        ],
+        "winrates": [
+          53.22102551879705,
+          53.55022430604871,
+          53.69844699516702,
+          54.98130056055018,
+          55.02068893670911,
+          57.15781870711448,
+          59.92018244013683,
+          60.88180112570356
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:12:08.717Z"
+}

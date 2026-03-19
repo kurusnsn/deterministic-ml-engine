@@ -1,0 +1,40 @@
+{
+  "id": "miscellaneous-balogh-gambit",
+  "name": "Balogh gambit",
+  "opening": "Balogh gambit",
+  "generatedAt": "2026-01-03T19:39:44.123Z",
+  "lines": [
+    {
+      "id": "miscellaneous-balogh-gambit-exd6-bxd6-h3-nxf2-kxf2-ra809h",
+      "name": "Balogh gambit: exd6 Forcing Line",
+      "moves": [
+        "exd6",
+        "Bxd6",
+        "h3",
+        "Nxf2",
+        "Kxf2"
+      ],
+      "metadata": {
+        "mistake_move_index": 2,
+        "punishment_move_index": 3,
+        "gameCounts": [
+          15919,
+          15499,
+          3027,
+          1379,
+          1276
+        ],
+        "winrates": [
+          51.97876751052202,
+          52.261436221691724,
+          59.89428477039973,
+          59.64467005076142,
+          57.17084639498433
+        ],
+        "forcingSide": "black",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ]
+}

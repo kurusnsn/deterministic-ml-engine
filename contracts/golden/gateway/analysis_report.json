@@ -1,0 +1,13 @@
+{
+  "analysis_date": "2024-01-01T00:00:00Z",
+  "openings": [
+    {
+      "count": 4,
+      "eco": "C20",
+      "name": "King's Pawn Game"
+    }
+  ],
+  "overall_winrate": 0.55,
+  "report_id": "report_123",
+  "total_games": 20
+}

@@ -1,0 +1,985 @@
+{
+  "opening": "lengfellner",
+  "openingId": "lengfellner",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "lengfellner-line-0",
+      "name": "Main Line",
+      "moves": [
+        "e4",
+        "e6",
+        "d4",
+        "d6"
+      ],
+      "eco": "C00"
+    },
+    {
+      "id": "lengfellner-nc3-bd7-bg5-3hrr4n",
+      "name": "Bg5 Line",
+      "moves": [
+        "Nc3",
+        "Bd7",
+        "Bg5"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          1828013,
+          96514,
+          592
+        ],
+        "winrates": [
+          56.91307993980349,
+          61.00772944857741,
+          64.1891891891892
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-f4-f6-nf3-h6-5lnxsu",
+      "name": "h6 Line",
+      "moves": [
+        "f4",
+        "f6",
+        "Nf3",
+        "h6"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          838228,
+          26853,
+          32325,
+          556
+        ],
+        "winrates": [
+          56.22819805589887,
+          58.77183182512196,
+          57.948955916473324,
+          63.48920863309353
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-bd3-bd7-f4-be7-nf3-nc6-w9w1qz",
+      "name": "a6 Line",
+      "moves": [
+        "Bd3",
+        "Bd7",
+        "f4",
+        "Be7",
+        "Nf3",
+        "Nc6",
+        "c3",
+        "Nf6",
+        "O-O",
+        "a6"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          575249,
+          21177,
+          3363,
+          2515,
+          6358,
+          6453,
+          2379,
+          3100,
+          3889,
+          503
+        ],
+        "winrates": [
+          55.83590758089105,
+          59.79836615195732,
+          63.26196848052334,
+          63.47912524850895,
+          59.334696445423084,
+          61.940182860684956,
+          64.56494325346785,
+          61.967741935483865,
+          62.625353561326826,
+          64.3141153081511
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nd2-bd7-f4-s8qdjr",
+      "name": "f4 Line",
+      "moves": [
+        "Nd2",
+        "Bd7",
+        "f4"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          141382,
+          4504,
+          702
+        ],
+        "winrates": [
+          57.11512073672744,
+          63.998667850799286,
+          68.37606837606837
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-bd7-bd3-g6-x9k3hn",
+      "name": "g6 Line",
+      "moves": [
+        "Nf3",
+        "Bd7",
+        "Bd3",
+        "g6"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2171177,
+          204836,
+          52142,
+          826
+        ],
+        "winrates": [
+          52.700931338163585,
+          56.26525610732488,
+          57.25998235587434,
+          62.71186440677966
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-nc6-bd3-b6-o-o-c73x3m",
+      "name": "O-O Line",
+      "moves": [
+        "Nf3",
+        "Nc6",
+        "Bd3",
+        "b6",
+        "O-O"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          2171177,
+          178540,
+          41856,
+          987,
+          523
+        ],
+        "winrates": [
+          52.700931338163585,
+          55.503528621037304,
+          56.83653478593273,
+          60.43566362715299,
+          62.619502868068835
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-nc6-bf4-4223u",
+      "name": "Bf4 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Nc6",
+        "Bf4"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 3,
+        "punishment_move_index": 4,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          8393,
+          1288
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          55.647563445728586,
+          57.453416149068325
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-nc6-hlp8tg",
+      "name": "Qe2 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "Nc6",
+        "Qe2"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          14934,
+          602
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          60.03415026114906,
+          68.6046511627907
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-be3-d5-ey7xtg",
+      "name": "dxe4 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Be3",
+        "d5",
+        "Bd3",
+        "dxe4"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          77085,
+          1155,
+          520,
+          958
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          55.496529804760975,
+          59.26406926406926,
+          60.86538461538461,
+          58.298538622129435
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bc4-f6-zg1s74",
+      "name": "After Bc4 f6 O-O",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bc4",
+        "f6",
+        "O-O"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          37894,
+          1610,
+          873
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          55.12482187153639,
+          57.48447204968944,
+          60.710194730813285
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-e5-nf6-nbjldr",
+      "name": "exd6 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "e5",
+        "Nf6",
+        "exd6"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          26522,
+          2098,
+          589
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          55.22962069225549,
+          60.91515729265967,
+          68.16638370118847
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-be2-nc6-ln4nl6",
+      "name": "After Nf6 h3 O-O",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Be2",
+        "Nc6",
+        "O-O",
+        "Nf6",
+        "h3",
+        "O-O"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          12918,
+          2076,
+          1989,
+          1611,
+          808,
+          616
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          55.74005263972751,
+          59.320809248554916,
+          58.54700854700855,
+          58.504034761018,
+          61.633663366336634,
+          60.71428571428571
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bg5-nf6-fpw7e6",
+      "name": "e5 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bg5",
+        "Nf6",
+        "Bxf6",
+        "Bxf6",
+        "e5"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          3994,
+          647,
+          815,
+          740,
+          549
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          55.40811216825238,
+          58.655332302936635,
+          58.95705521472393,
+          57.770270270270274,
+          59.19854280510018
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-h3-nc6-335x75",
+      "name": "Nc6 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "h3",
+        "Nc6"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 4,
+        "punishment_move_index": 5,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          2745,
+          585
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          56.666666666666664,
+          58.71794871794872
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-nf6-j0u401",
+      "name": "After Bd3 Nf6 Qe2",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "Nf6",
+        "Qe2"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          22174,
+          1071
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          59.03986651032741,
+          67.92717086834735
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-c6-sicck",
+      "name": "After Bd3 c6 e5",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "c6",
+        "e5"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          16188,
+          961
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          56.62218927600692,
+          62.48699271592092
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-f6-q38tap",
+      "name": "Re1 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "f6",
+        "O-O",
+        "c6",
+        "Re1"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          4084,
+          1793,
+          709,
+          653
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          59.74534769833496,
+          63.55270496374791,
+          58.0394922425952,
+          62.63399693721286
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-b6-p0upne",
+      "name": "After Bd3 b6 O-O",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "b6",
+        "O-O"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 5,
+        "punishment_move_index": 6,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          1607,
+          628
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          56.09831985065339,
+          59.31528662420382
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-nf6-yh7974",
+      "name": "h3 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "Nf6",
+        "Be3",
+        "h6",
+        "h3"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          22174,
+          12682,
+          904,
+          615
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          59.03986651032741,
+          56.51711086579404,
+          59.34734513274337,
+          57.886178861788615
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-nf6-tnnwqf",
+      "name": "After O-O O-O Re1",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "Nf6",
+        "O-O",
+        "O-O",
+        "Re1"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          22174,
+          9963,
+          4479,
+          1290
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          59.03986651032741,
+          60.31817725584663,
+          60.01339584728734,
+          61.9767441860465
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-nf6-grhigo",
+      "name": "exd5 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "Nf6",
+        "e5",
+        "dxe5",
+        "dxe5",
+        "Nd5",
+        "Nxd5",
+        "exd5"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          22174,
+          2424,
+          1292,
+          1074,
+          980,
+          678,
+          678
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          59.03986651032741,
+          63.26320132013201,
+          61.68730650154799,
+          63.45437616387337,
+          62.60204081632653,
+          60.766961651917406,
+          60.766961651917406
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-nf6-8asz49",
+      "name": "After Nf6 Bg5 O-O",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "Nf6",
+        "Bg5",
+        "O-O"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          22174,
+          2355,
+          1426
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          59.03986651032741,
+          57.60084925690021,
+          58.345021037868165
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-nf6-fq7mj6",
+      "name": "Nb4 Line",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "Nf6",
+        "h3",
+        "Nc6",
+        "Be3",
+        "Nb4"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 6,
+        "punishment_move_index": 7,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          22174,
+          1078,
+          598,
+          522,
+          534
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          59.03986651032741,
+          62.01298701298701,
+          60.70234113712375,
+          61.7816091954023,
+          62.453183520599254
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "lengfellner-nf3-be7-nc3-bd7-bd3-nf6-nh0q9m",
+      "name": "After O-O h3 a6",
+      "moves": [
+        "Nf3",
+        "Be7",
+        "Nc3",
+        "Bd7",
+        "Bd3",
+        "Nf6",
+        "Be3",
+        "Nc6",
+        "a3",
+        "O-O",
+        "h3",
+        "a6"
+      ],
+      "eco": "C00",
+      "metadata": {
+        "mistake_move_index": 7,
+        "punishment_move_index": 8,
+        "gameCounts": [
+          2171177,
+          836764,
+          376024,
+          210674,
+          99247,
+          22174,
+          12682,
+          10469,
+          1527,
+          898,
+          542,
+          749
+        ],
+        "winrates": [
+          52.700931338163585,
+          51.57804351047607,
+          51.21428419462587,
+          54.961219704377385,
+          57.130694126774614,
+          59.03986651032741,
+          56.51711086579404,
+          55.70732639220556,
+          58.84086444007859,
+          59.187082405345215,
+          57.7490774907749,
+          56.2082777036048
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T01:14:01.531Z"
+}

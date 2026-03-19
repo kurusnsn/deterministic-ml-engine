@@ -1,0 +1,150 @@
+{
+  "opening": "hawk (habichd)",
+  "openingId": "hawk-habichd",
+  "perspective": "white",
+  "lines": [
+    {
+      "id": "hawk-habichd-line-0",
+      "name": "Main Line",
+      "moves": [
+        "d4",
+        "c5",
+        "d5",
+        "Nf6",
+        "Nf3",
+        "c4"
+      ],
+      "eco": "A43"
+    },
+    {
+      "id": "hawk-habichd-nc3-a6-wk8cf0",
+      "name": "a6 Line",
+      "moves": [
+        "Nc3",
+        "a6"
+      ],
+      "eco": "A43",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          4231,
+          722
+        ],
+        "winrates": [
+          56.003308910423065,
+          59.48753462603879
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "hawk-habichd-bg5-qa5--ugacxv",
+      "name": "Qa5 Line",
+      "moves": [
+        "Bg5",
+        "Qa5+"
+      ],
+      "eco": "A43",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          857,
+          581
+        ],
+        "winrates": [
+          55.71761960326721,
+          56.11015490533563
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "hawk-habichd-e4-nxe4-bxc4-mhazst",
+      "name": "Bxc4 Line",
+      "moves": [
+        "e4",
+        "Nxe4",
+        "Bxc4"
+      ],
+      "eco": "A43",
+      "metadata": {
+        "mistake_move_index": 0,
+        "punishment_move_index": 1,
+        "gameCounts": [
+          716,
+          527,
+          509
+        ],
+        "winrates": [
+          55.72625698324022,
+          56.54648956356736,
+          56.97445972495089
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "hawk-habichd-nc3-e6-e4-erue2k",
+      "name": "e4 Line",
+      "moves": [
+        "Nc3",
+        "e6",
+        "e4"
+      ],
+      "eco": "A43",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          4231,
+          806,
+          564
+        ],
+        "winrates": [
+          56.003308910423065,
+          59.42928039702233,
+          61.52482269503546
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    },
+    {
+      "id": "hawk-habichd-nc3-d6-e4-eralh7",
+      "name": "After Nc3 d6 e4",
+      "moves": [
+        "Nc3",
+        "d6",
+        "e4"
+      ],
+      "eco": "A43",
+      "metadata": {
+        "mistake_move_index": 1,
+        "punishment_move_index": 2,
+        "gameCounts": [
+          4231,
+          683,
+          645
+        ],
+        "winrates": [
+          56.003308910423065,
+          57.027818448023424,
+          58.29457364341085
+        ],
+        "forcingSide": "white",
+        "source": "lichess-db",
+        "type": "forcing"
+      }
+    }
+  ],
+  "generatedAt": "2026-02-08T03:41:29.401Z"
+}
